@@ -31,11 +31,12 @@ import signal
 import subprocess
 import sys
 import tempfile
+import threading
 import time
-from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urlparse, parse_qs, unquote
+from dataclasses import dataclass, field
 import base64
 
 # Project root
@@ -581,13 +582,15 @@ async def run_speed_tests(nodes: list[NodeResult], concurrency: int,
 
     # Use ThreadPoolExecutor for the blocking subprocess operations
     loop = asyncio.get_event_loop()
-    semaphore = asyncio.Semaphore(concurrency)
+    semaphore = threading.Semaphore(concurrency)
     port_counter = [10800]  # Starting port for local SOCKS5 proxies
+    port_lock = threading.Lock()
 
     def _test_wrapper(node: NodeResult) -> Optional[NodeResult]:
         with semaphore:
-            port = port_counter[0]
-            port_counter[0] += 1
+            with port_lock:
+                port = port_counter[0]
+                port_counter[0] += 1
             return test_node_speed(node, port, test_url, speed_timeout, min_speed_mbps, stats)
 
     # Run in thread pool to avoid blocking the event loop
