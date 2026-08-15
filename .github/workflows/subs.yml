@@ -36,9 +36,7 @@ jobs:
 
       - name: Install sing-box
         run: |
-          mkdir -p bin
-          curl -sL "https://github.com/SagerNet/sing-box/releases/latest/download/sing-box-linux-amd64.tar.gz" \
-            | tar -xz -C bin --strip-components=1 --wildcards "*/sing-box"
+          python3 lib/binpkg.py install sing-box
           bin/sing-box version
 
       - name: Fetch subscriptions
