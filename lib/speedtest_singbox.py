@@ -576,12 +576,14 @@ async def run_speed_tests(nodes: list[NodeResult], concurrency: int,
                           test_url: str, speed_timeout: float,
                           min_speed_mbps: float) -> list[NodeResult]:
     """Run speed tests on all nodes using a thread pool for sing-box processes."""
+    from concurrent.futures import ThreadPoolExecutor
     stats = TestStats()
     stats.total = len(nodes)
     print(f"Running speed tests on {stats.total} nodes (concurrency={concurrency})")
 
-    # Use ThreadPoolExecutor for the blocking subprocess operations
-    loop = asyncio.get_event_loop()
+    # Use a dedicated thread pool with concurrency workers; the default
+    # pool has only 8 threads, which serializes all 50 permits of the semaphore.
+    executor = ThreadPoolExecutor(max_workers=concurrency)
     semaphore = threading.Semaphore(concurrency)
     port_counter = [10800]  # Starting port for local SOCKS5 proxies
     port_lock = threading.Lock()
@@ -593,9 +595,12 @@ async def run_speed_tests(nodes: list[NodeResult], concurrency: int,
                 port_counter[0] += 1
             return test_node_speed(node, port, test_url, speed_timeout, min_speed_mbps, stats)
 
-    # Run in thread pool to avoid blocking the event loop
-    tasks = [loop.run_in_executor(None, _test_wrapper, node) for node in nodes]
-    results = await asyncio.gather(*tasks, return_exceptions=True)
+    try:
+        loop = asyncio.get_event_loop()
+        tasks = [loop.run_in_executor(executor, _test_wrapper, node) for node in nodes]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+    finally:
+        executor.shutdown(wait=True)
 
     passed_nodes = []
     for r in results:
