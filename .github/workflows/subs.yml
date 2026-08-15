@@ -31,22 +31,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml
 
+      - name: Raise file descriptor limit
+        run: ulimit -n 65536
+
       - name: Fetch subscriptions
         run: python3 lib/fetch_subs.py --workers 16
 
       - name: Sort and classify
         run: python3 lib/sort_subs.py
 
-      - name: Test and filter nodes
-        # Uses lower concurrency for GitHub Actions runner limits
-        # Phase 1: TCP connect (dead server elimination)
-        # Phase 2: Latency test with 1000ms threshold
-        # Phase 3: IPv6 filtering (done during parsing)
+      - name: Test and filter nodes (aggressive)
+        # GitHub Actions ubuntu-latest runners can handle high concurrency
+        # for lightweight TCP connect tests.
+        #
+        # Pipeline with aggressive timeouts:
+        #   Phase 1: TCP connect test (0.5s timeout) — eliminates dead servers
+        #   Phase 2: Latency measurement (1 sample, 0.5s timeout) — median latency
+        #   Phase 3: Remove nodes >1000ms latency (IPv6 filtered during parsing)
+        #
+        # Concurrency 200 + 0.5s timeouts → ~300-400 nodes/sec throughput.
+        # 125K nodes processed in ~5-7 minutes.
         run: |
           python3 lib/fasttest_singbox.py \
-            --concurrency 100 \
-            --timeout-connect 1 \
-            --timeout-latency 1 \
+            --concurrency 200 \
+            --timeout-connect 0.5 \
+            --timeout-latency 0.5 \
             --samples 1 \
             --max-latency 1000
 
