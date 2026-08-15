@@ -37,10 +37,10 @@ jobs:
       - name: Install sing-box
         run: |
           mkdir -p bin
-          gh release download --latest --repo SagerNet/sing-box \
-            --pattern "sing-box-*-linux-amd64.tar.gz" -d /tmp/singbox
-          tar -xzf /tmp/singbox/*.tar.gz -C bin --strip-components=1 --wildcards "*/sing-box"
-          rm -rf /tmp/singbox
+          TAG=$(gh api repos/SagerNet/sing-box/releases/latest --jq '.tag_name')
+          ASSET_TAG=${TAG#v}
+          curl -sL "https://github.com/SagerNet/sing-box/releases/download/${TAG}/sing-box-${ASSET_TAG}-linux-amd64.tar.gz" \
+            | tar -xz -C bin --strip-components=1 --wildcards "*/sing-box"
           bin/sing-box version
 
       - name: Fetch subscriptions
