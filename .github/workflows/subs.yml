@@ -36,7 +36,11 @@ jobs:
 
       - name: Install sing-box
         run: |
-          python3 lib/binpkg.py install sing-box
+          mkdir -p bin
+          gh release download --latest --repo SagerNet/sing-box \
+            --pattern "sing-box-*-linux-amd64.tar.gz" -d /tmp/singbox
+          tar -xzf /tmp/singbox/*.tar.gz -C bin --strip-components=1 --wildcards "*/sing-box"
+          rm -rf /tmp/singbox
           bin/sing-box version
 
       - name: Fetch subscriptions
