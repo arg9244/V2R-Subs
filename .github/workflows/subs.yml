@@ -34,23 +34,24 @@ jobs:
       - name: Raise file descriptor limit
         run: ulimit -n 65536
 
+      - name: Install sing-box
+        run: |
+          mkdir -p bin
+          curl -sL "https://github.com/SagerNet/sing-box/releases/latest/download/sing-box-linux-amd64.tar.gz" \
+            | tar -xz -C bin --strip-components=1 --wildcards "*/sing-box"
+          bin/sing-box version
+
       - name: Fetch subscriptions
+        # Some subscription URLs return 404/500 — that's expected and OK.
+        continue-on-error: true
         run: python3 lib/fetch_subs.py --workers 16
 
       - name: Sort and classify
         run: python3 lib/sort_subs.py
 
-      - name: Test and filter nodes (aggressive)
-        # GitHub Actions ubuntu-latest runners can handle high concurrency
-        # for lightweight TCP connect tests.
-        #
-        # Pipeline with aggressive timeouts:
-        #   Phase 1: TCP connect test (0.5s timeout) — eliminates dead servers
-        #   Phase 2: Latency measurement (1 sample, 0.5s timeout) — median latency
-        #   Phase 3: Remove nodes >1000ms latency (IPv6 filtered during parsing)
-        #
-        # Concurrency 200 + 0.5s timeouts → ~300-400 nodes/sec throughput.
-        # 125K nodes processed in ~5-7 minutes.
+      - name: Fast filter — TCP connect (dead server elimination)
+        # Phase 1: 0.5s TCP connect timeout, concurrency 200
+        # Eliminates ~70% dead servers, ~300-400 nodes/sec throughput
         run: |
           python3 lib/fasttest_singbox.py \
             --concurrency 200 \
@@ -58,6 +59,18 @@ jobs:
             --timeout-latency 0.5 \
             --samples 1 \
             --max-latency 1000
+
+      - name: Speed test — bandwidth filter (min 50mbps)
+        # Phase 2: For surviving nodes, start sing-box proxy per node,
+        # download 2.5MB test file, measure throughput, filter <50mbps.
+        # Concurrency 50 (limited by sing-box process overhead + memory).
+        # 125K nodes → TCP filter → ~42K survivors → ~10-15 min speed test.
+        run: |
+          python3 lib/speedtest_singbox.py \
+            --concurrency 50 \
+            --min-speed-mbps 50 \
+            --test-url "https://speed.cloudflare.com/__down?bytes=2621440" \
+            --speed-timeout 5
 
       - name: Check for changes
         id: changes
