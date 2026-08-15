@@ -35,6 +35,8 @@ jobs:
         run: ulimit -n 65536
 
       - name: Install sing-box
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p bin
           TAG=$(gh api repos/SagerNet/sing-box/releases/latest --jq '.tag_name')
