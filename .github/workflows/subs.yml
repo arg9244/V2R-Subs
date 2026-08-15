@@ -1,0 +1,74 @@
+name: Update V2Ray Subscriptions
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed to push back to subs/
+
+env:
+  PYTHONUNBUFFERED: 1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can diff and commit
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Fetch subscriptions
+        run: python3 lib/fetch_subs.py --workers 16
+
+      - name: Sort and classify
+        run: python3 lib/sort_subs.py
+
+      - name: Test and filter nodes
+        # Uses lower concurrency for GitHub Actions runner limits
+        # Phase 1: TCP connect (dead server elimination)
+        # Phase 2: Latency test with 1000ms threshold
+        # Phase 3: IPv6 filtering (done during parsing)
+        run: |
+          python3 lib/fasttest_singbox.py \
+            --concurrency 100 \
+            --timeout-connect 1 \
+            --timeout-latency 1 \
+            --samples 1 \
+            --max-latency 1000
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet --exit-code subs/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+        run: |
+          git config --local user.name "$GIT_AUTHOR_NAME"
+          git config --local user.email "$GIT_AUTHOR_EMAIL"
+          git add subs/
+          git commit -m "chore: update filtered subscriptions ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push
