@@ -381,7 +381,7 @@ def main() -> int:
     LATENCY_SAMPLES = args.samples
     LATENCY_THRESHOLD_MS = args.max_latency
 
-    subs_dir = Path(args.subs_dir) if args.subs_dir else None
+    subs_dir = Path(args.subs_dir) if args.subs_dir else SUBS_DIR
     nodes = load_nodes(subs_dir)
     if not nodes:
         print("No nodes found to test", file=sys.stderr)
