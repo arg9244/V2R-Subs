@@ -306,45 +306,43 @@ def node_to_singbox_outbound(url: str) -> Optional[dict]:
             # Encryption (for VLESS this is typically "none" — skip, sing-box expects it empty)
             return outbound
 
-        # SS: ss://base64@host:port or ss://cipher:pass@host:port
+        # SS: ss://base64(cipher:password)@host:port or ss://cipher:password@host:port
         elif lower.startswith("ss://"):
-            # Try base64 format first
-            payload = url[len("ss://"):]
-            i = payload.find("#")
-            payload = payload[:i] if i != -1 else payload
+            parsed = urlparse(url)
+            host = parsed.hostname
+            port = parsed.port
+            if not host or not port:
+                return None
+            # urlparse splits ss://info@host:port — the "username" holds the
+            # info part (base64-encoded or plain "cipher:password").
+            info = parsed.username
+            if info is None:
+                return None
             try:
-                decoded = base64.b64decode(payload + "=" * (-len(payload) % 4)).decode('utf-8', errors='ignore')
-                match = re.match(r'([^:@]+):([^@]+)@([^:]+):(\d+)', decoded)
-                if match:
-                    method = match.group(1)
-                    password = match.group(2)
-                    host = match.group(3)
-                    port = int(match.group(4))
-                    return {
-                        "type": "shadowsocks",
-                        "server": host,
-                        "server_port": port,
-                        "method": method,
-                        "password": password,
-                    }
+                info += "=" * (-len(info) % 4)
+                decoded = base64.b64decode(info).decode('utf-8', 'replace')
             except Exception:
+                decoded = info  # fall back: treat as plain "cipher:password"
+            # decoded should be "cipher:password"
+            # Use rsplit on ":" to handle passwords that contain ":"
+            # (more robust than splitting on first ":")
+            idx = decoded.find(":")
+            if idx == -1:
+                # Maybe the info was stored in password field
                 pass
-
-            # Try standard format: ss://cipher:pass@host:port
-            match = re.match(r'ss://([^:]+):([^@]+)@([^:]+):(\d+)', url, re.IGNORECASE)
-            if match:
-                method = match.group(1)
-                password = unquote(match.group(2))
-                host = match.group(3)
-                port = int(match.group(4))
-                return {
-                    "type": "shadowsocks",
-                    "server": host,
-                    "server_port": port,
-                    "method": method,
-                    "password": password,
-                }
-            return None
+            if idx >= 0:
+                method = decoded[:idx]
+                password = unquote(decoded[idx + 1:])
+            else:
+                # urlparse username was actually the password (some SS URLs omit cipher)
+                return None
+            return {
+                "type": "shadowsocks",
+                "server": host,
+                "server_port": port,
+                "method": method,
+                "password": password,
+            }
 
         # Trojan: trojan://password@host:port?...
         elif lower.startswith("trojan://"):
