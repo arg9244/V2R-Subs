@@ -58,10 +58,18 @@ jobs:
         # Move protocol files to subs/protocols/, create mix.txt, country/, 1000/
         run: python3 lib/organize_subs.py
 
+      - name: Generate core configs
+        # Convert subs/*.txt into sing-box, Xray, and mihomo configs
+        # mirroring the subs/ structure: mix, country/, protocol/, 1000/
+        run: |
+          python3 lib/generate_singbox_config.py
+          python3 lib/generate_xray_config.py
+          python3 lib/generate_mihomo_config.py
+
       - name: Check for changes
         id: changes
         run: |
-          git add -f subs/
+          git add -f subs/ xray/ sing-box/ mihomo/
           if git diff --quiet --cached --exit-code; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
