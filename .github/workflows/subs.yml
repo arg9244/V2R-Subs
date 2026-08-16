@@ -2,8 +2,8 @@ name: Update V2Ray Subscriptions
 
 on:
   schedule:
-    # Run daily at 00:00 UTC
-    - cron: "0 0 * * *"
+    # Run every 72 hours at 00:00 UTC
+    - cron: "0 0 */3 *"
   workflow_dispatch:
 
 permissions:
