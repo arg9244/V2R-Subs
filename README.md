@@ -16,17 +16,13 @@ config/links.yaml ──→ fetch_subs.py ──→ raw/              # Download
                                           │
                                           ▼
                               fasttest_singbox.py ──→ subs/  # Filter dead servers, <1000ms latency
-```
 
 ### Scripts
 
 | Script | Purpose |
-|--------|---------|
-| `lib/fetch_subs.py` | Downloads subscription URLs from `config/links.yaml` into `raw/`. Auto-detects and decodes base64-encoded subscriptions. |
-| `lib/sort_subs.py` | Classifies raw node URIs by protocol (ss, vless, vmess, trojan, hys, tuic, wireguard, snell, socks5), strips remarks, dedupes, writes to `subs/`. |
-| `lib/fasttest_singbox.py` | Filters dead servers via TCP connect test, measures latency (median of 3 samples), removes nodes >1000ms, filters IPv6, overwrites `subs/` in-place. |
+| `lib/fasttest_singbox.py` | Filters dead servers via TCP connect test, measures latency (median of 1 sample), removes nodes >1000ms, filters IPv6, overwrites `subs/` in-place. |
 | `lib/fasttest_v2ray.py` | Same as above using v2ray-core approach (alternative engine for A/B comparison). |
-
+| `lib/speedtest_singbox.py` | Offline speed testing through sing-box SOCKS5 proxies (curl bandwidth measurement). Not used in the workflow — available for manual use. |
 ### Filtering Rules
 
 1. **IPv6 removal**: Nodes with IPv6 addresses are filtered out during parsing
@@ -36,10 +32,9 @@ config/links.yaml ──→ fetch_subs.py ──→ raw/              # Download
 
 ### Performance
 
-- **Phase 1 (dead filter)**: TCP connect test eliminates 60-70% of nodes
-- **Phase 2 (latency)**: Multi-sample median measurement on survivors
-- **Throughput**: ~50-100 nodes/sec per concurrent connection
-- **Full pipeline**: ~140K nodes processed in ~25-40 minutes on a standard runner
+- **Phase 1 (dead filter)**: TCP connect test (0.5s timeout) eliminates 60-70% of nodes
+- **Throughput**: ~620-650 nodes/sec at concurrency 200
+- **Full pipeline**: ~140K nodes processed in ~4 minutes on GitHub Actions (fetch + sort + fasttest + commit)
 
 ## Subs Structure
 
@@ -48,18 +43,13 @@ After processing, `subs/` contains one file per protocol:
 ```
 subs/
 ├── hys.txt       # Hysteria2 nodes
-├── socks.txt     # SOCKS5 nodes
+├── socks5.txt    # SOCKS5 nodes
 ├── ss.txt        # Shadowsocks nodes
 ├── trojan.txt    # Trojan nodes
 ├── tuic.txt      # TUIC nodes
 ├── vless.txt     # VLESS nodes
 └── vmess.txt     # VMess nodes
 ```
-
-## Configuration
-
-- `config/links.yaml` — Subscription URLs to fetch
-- `.github/workflows/subs.yml` — GitHub Actions workflow (daily cron)
 - `.gitignore` — Excludes `bin/`, `raw/`, `subs/`, `.cache/`
 
 ## Local Usage
@@ -71,7 +61,7 @@ pip install pyyaml
 # Full pipeline
 python3 lib/fetch_subs.py --workers 16
 python3 lib/sort_subs.py
-python3 lib/fasttest_singbox.py --concurrency 100 --timeout-connect 1 --timeout-latency 1 --samples 1
+python3 lib/fasttest_singbox.py --concurrency 200 --timeout-connect 0.5 --timeout-latency 0.5 --samples 1 --max-latency 1000
 
 # Or run individual scripts
 python3 lib/fetch_subs.py --limit 10          # test with 10 URLs only
