@@ -54,6 +54,10 @@ jobs:
             --samples 1 \
             --max-latency 1000
 
+      - name: Organize subs
+        # Move protocol files to subs/protocols/, create mix.txt, country/, 1000/
+        run: python3 lib/organize_subs.py
+
       - name: Check for changes
         id: changes
         run: |
