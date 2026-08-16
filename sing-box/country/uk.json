@@ -24,6 +24,27 @@
       }
     },
     {
+      "tag": "trojan_104.21.47.176_0",
+      "server": "104.21.47.176",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfyc1.achaemenidempireofpersia.uk",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_172.67.149.124_0",
       "server": "172.67.149.124",
       "server_port": 0,
@@ -1812,6 +1833,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_104.21.47.176_0",
         "trojan_104.21.47.176_0",
         "trojan_172.67.149.124_0",
         "trojan_172.67.149.124_0",

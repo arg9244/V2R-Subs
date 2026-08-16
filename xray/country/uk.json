@@ -74,6 +74,32 @@
       }
     },
     {
+      "tag": "trojan_104.21.47.176_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.47.176",
+        "port": 0,
+        "password": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hdfyc1.achaemenidempireofpersia.uk",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_172.67.149.124_0",
       "protocol": "trojan",
       "settings": {
@@ -2231,6 +2257,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_104.21.47.176_0",
           "trojan_104.21.47.176_0",
           "trojan_172.67.149.124_0",
           "trojan_172.67.149.124_0",

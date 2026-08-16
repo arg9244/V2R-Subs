@@ -120,6 +120,20 @@ proxies:
       reality-opts:
         public-key: "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8"
         short-id: 905ae32a
+-     name: vless_138.2.94.44_0
+      server: 138.2.94.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8"
+        short-id: 905ae32a
 -     name: vless_152.67.211.233_0
       server: 152.67.211.233
       port: 0
@@ -162,7 +176,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_3.168.86.96_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_112.120.48.17_0, vless_112.120.48.17_0, vless_138.2.94.44_0, vless_152.67.211.233_0, vless_152.67.211.233_0, vless_168.138.166.89_0]
+      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_3.168.86.96_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_112.120.48.17_0, vless_112.120.48.17_0, vless_138.2.94.44_0, vless_138.2.94.44_0, vless_152.67.211.233_0, vless_152.67.211.233_0, vless_168.138.166.89_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

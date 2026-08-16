@@ -53,32 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_167.234.220.143_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "167.234.220.143",
-        "port": 0,
-        "password": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "us01.ssr.ee",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_46.22.216.31_0",
       "protocol": "vless",
       "settings": {
@@ -227,7 +201,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_167.234.220.143_0",
           "vless_46.22.216.31_0",
           "vless_46.22.216.31_0",
           "vless_46.22.216.31_0",

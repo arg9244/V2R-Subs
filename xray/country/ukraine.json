@@ -221,104 +221,6 @@
       }
     },
     {
-      "tag": "trojan_104.18.38.47_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.18.38.47",
-        "port": 0,
-        "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "mfa.gov.ua",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_mfa.gov.ua_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "mfa.gov.ua",
-        "port": 0,
-        "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_123.140.124.25_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "123.140.124.25",
-        "port": 0,
-        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "official.seoulcityhall.com.ua",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_123.140.124.25_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "123.140.124.25",
-        "port": 0,
-        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "official.seoulcityhall.com.ua",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_60.250.152.209_0",
       "protocol": "trojan",
       "settings": {
@@ -680,6 +582,48 @@
       }
     },
     {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "0787cfdb-9930-4abb-8419-c1b96c3ef628",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "0787cfdb-9930-4abb-8419-c1b96c3ef628",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.21.26.17_0",
       "protocol": "vless",
       "settings": {
@@ -780,27 +724,6 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "0b17eb47-587b-4e46-86a7-e1681cbbe76c",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_172.65.90.52_0",
       "protocol": "vless",
       "settings": {
@@ -823,19 +746,29 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
+      "tag": "vless_104.21.22.133_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.zsu.gov.ua",
+        "address": "104.21.22.133",
         "port": 0,
-        "id": "121c3728-2b6b-4b69-bac6-170b13658d74",
-        "tls": "none"
+        "id": "15b24b56-d667-4fa8-b548-f3dc942fb461",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "300-ac1b-3e970b59d0.20220420.pp.ua",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
         "network": "ws",
         "wsSettings": {
-          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+          "path": "/ok1UBnf7txQ8YJFJxz"
         }
       },
       "mux": {
@@ -844,19 +777,29 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
+      "tag": "vless_104.21.22.133_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.zsu.gov.ua",
+        "address": "104.21.22.133",
         "port": 0,
-        "id": "121c3728-2b6b-4b69-bac6-170b13658d74",
-        "tls": "none"
+        "id": "15b24b56-d667-4fa8-b548-f3dc942fb461",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "300-ac1b-3e970b59d0.20220420.pp.ua",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
         "network": "ws",
         "wsSettings": {
-          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+          "path": "/ok1UBnf7txQ8YJFJxz"
         }
       },
       "mux": {
@@ -870,7 +813,7 @@
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
-        "id": "12cebf33-2f96-48a3-af37-c2231e5cef75",
+        "id": "1742863c-ce4b-4bb7-b807-80da29cbec86",
         "tls": "none"
       },
       "streamSettings": {
@@ -891,7 +834,7 @@
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
-        "id": "12cebf33-2f96-48a3-af37-c2231e5cef75",
+        "id": "1742863c-ce4b-4bb7-b807-80da29cbec86",
         "tls": "none",
         "encryption": "none"
       },
@@ -908,60 +851,20 @@
       }
     },
     {
-      "tag": "vless_104.21.22.133_0",
+      "tag": "vless_www.gov.ua_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.21.22.133",
+        "address": "www.gov.ua",
         "port": 0,
-        "id": "15b24b56-d667-4fa8-b548-f3dc942fb461",
-        "tls": "tls",
+        "id": "1742863c-ce4b-4bb7-b807-80da29cbec86",
+        "tls": "none",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "300-ac1b-3e970b59d0.20220420.pp.ua",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
+        "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/ok1UBnf7txQ8YJFJxz"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.22.133_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.22.133",
-        "port": 0,
-        "id": "15b24b56-d667-4fa8-b548-f3dc942fb461",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "300-ac1b-3e970b59d0.20220420.pp.ua",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ok1UBnf7txQ8YJFJxz"
+          "path": "/pyip=proxyip.…"
         }
       },
       "mux": {
@@ -1040,50 +943,7 @@
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
-        "id": "25844c02-a1fe-43ec-a6b9-44e3bf375b83",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "25844c02-a1fe-43ec-a6b9-44e3bf375b83",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "2a8cafda-479d-4e30-82d1-0bd4c6da6db9",
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
         "tls": "none"
       },
       "streamSettings": {
@@ -1091,6 +951,92 @@
         "network": "ws",
         "wsSettings": {
           "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "30a88c40-581e-4952-aa4c-8af95686ede0",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "30a88c40-581e-4952-aa4c-8af95686ede0",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=proxyip.kr.cmliussss.net"
         }
       },
       "mux": {
@@ -1630,7 +1576,72 @@
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
+        "id": "7121d0be-40f5-4eda-b3d1-1556e71ea4fa",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
         "id": "725c66a2-2bce-4a24-ba52-b4e2e7047076",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "73ae7d45-1046-4cc5-9741-199375b620f1",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=proxyip.sg.cmliussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "73ae7d45-1046-4cc5-9741-199375b620f1",
         "tls": "none",
         "encryption": "none"
       },
@@ -1668,6 +1679,84 @@
       }
     },
     {
+      "tag": "vless_mfa.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "id": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "id": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "id": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.80.243_0",
       "protocol": "vless",
       "settings": {
@@ -1972,6 +2061,49 @@
         "network": "ws",
         "wsSettings": {
           "path": "/?ed=2560security=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=proxyip.us.cmliussss.net"
         }
       },
       "mux": {
@@ -2054,27 +2186,6 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.zsu.gov.ua",
-        "port": 0,
-        "id": "a5c7e18f-1701-46ed-8f42-00eb078d9445",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_www.gov.ua_0",
       "protocol": "vless",
       "settings": {
@@ -2096,6 +2207,27 @@
       }
     },
     {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.zsu.gov.ua",
+        "port": 0,
+        "id": "b0b406f8-1f30-484c-9fcf-2fdffc715473",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_172.67.172.91_0",
       "protocol": "vless",
       "settings": {
@@ -2140,6 +2272,71 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
         }
       },
       "mux": {
@@ -2669,27 +2866,6 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.zsu.gov.ua",
-        "port": 0,
-        "id": "f22856f8-66f0-4655-ba86-5385971e1302",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_www.gov.ua_0",
       "protocol": "vless",
       "settings": {
@@ -2761,10 +2937,6 @@
           "trojan_60.250.152.230_0",
           "trojan_61.222.160.199_0",
           "trojan_60.250.152.209_0",
-          "trojan_104.18.38.47_0",
-          "trojan_mfa.gov.ua_0",
-          "trojan_123.140.124.25_0",
-          "trojan_123.140.124.25_0",
           "trojan_60.250.152.209_0",
           "trojan_60.250.152.230_0",
           "trojan_104.21.73.150_0",
@@ -2781,18 +2953,20 @@
           "trojan_172.67.208.155_0",
           "trojan_172.67.212.82_0",
           "vless_www.zsu.gov.ua_0",
-          "vless_104.21.26.17_0",
-          "vless_104.21.26.17_0",
-          "vless_104.21.26.17_0",
           "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_104.21.26.17_0",
+          "vless_104.21.26.17_0",
+          "vless_104.21.26.17_0",
           "vless_www.gov.ua_0",
           "vless_172.65.90.52_0",
-          "vless_www.zsu.gov.ua_0",
-          "vless_www.zsu.gov.ua_0",
-          "vless_www.gov.ua_0",
-          "vless_www.gov.ua_0",
           "vless_104.21.22.133_0",
           "vless_104.21.22.133_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
@@ -2822,6 +2996,12 @@
           "vless_172.67.212.59_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_mfa.gov.ua_0",
+          "vless_mfa.gov.ua_0",
+          "vless_mfa.gov.ua_0",
           "vless_104.18.80.243_0",
           "vless_104.18.80.243_0",
           "vless_104.18.83.92_0",
@@ -2835,12 +3015,17 @@
           "vless_212.183.88.46_0",
           "vless_212.183.88.46_0",
           "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_66.179.48.46_0",
           "vless_66.179.48.46_0",
+          "vless_www.gov.ua_0",
           "vless_www.zsu.gov.ua_0",
+          "vless_172.67.172.91_0",
+          "vless_172.67.172.91_0",
           "vless_www.gov.ua_0",
-          "vless_172.67.172.91_0",
-          "vless_172.67.172.91_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_www.zsu.gov.ua_0",
           "vless_104.21.26.17_0",
           "vless_141.101.120.100_0",
@@ -2861,7 +3046,6 @@
           "vless_www.gov.ua_0",
           "vless_104.21.63.226_0",
           "vless_104.21.63.226_0",
-          "vless_www.zsu.gov.ua_0",
           "vless_www.gov.ua_0"
         ],
         "strategy": {

@@ -28,31 +28,6 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 54502a61-2af6-40e7-8331-2c9fc40e5903
-      tls: true
-      servername: old-cloud-a96a.rohamsahh90.workers.dev
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
-      tls: true
-      servername: pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv
-      alpn: [h3, h2, http/1.1]
-      client-fingerprint: ios
-      network: ws
-      ws-opts:
-        path: "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
       uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
       tls: true
       servername: pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv
@@ -61,18 +36,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
-      tls: true
-      servername: time.is
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_time.is_0
       server: time.is
       port: 0
@@ -104,18 +67,6 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
-      tls: true
-      servername: time.is
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
       uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
       tls: true
       servername: crimson-king-301d.nexoxnet.workers.dev
@@ -124,23 +75,10 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
-      tls: true
-      servername: crimson-king-301d.nexoxnet.workers.dev
-      alpn: [h3, h2, http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0]
+      proxies: [vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

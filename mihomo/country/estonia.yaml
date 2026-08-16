@@ -10,16 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_167.234.220.143_0
-      server: 167.234.220.143
-      port: 0
-      udp: true
-      type: trojan
-      password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a
-      tls: true
-      servername: us01.ssr.ee
-      alpn: [http/1.1]
-      client-fingerprint: chrome
 -     name: vless_46.22.216.31_0
       server: 46.22.216.31
       port: 0
@@ -75,7 +65,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_167.234.220.143_0, vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0]
+      proxies: [vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

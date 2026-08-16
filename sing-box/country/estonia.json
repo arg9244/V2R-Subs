@@ -13,27 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_167.234.220.143_0",
-      "server": "167.234.220.143",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "9d0a75d2-f747-4afa-b43f-d208af9e8f9a",
-      "tls": {
-        "enabled": true,
-        "server_name": "us01.ssr.ee",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "vless_46.22.216.31_0",
       "server": "46.22.216.31",
       "server_port": 0,
@@ -117,7 +96,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_167.234.220.143_0",
         "vless_46.22.216.31_0",
         "vless_46.22.216.31_0",
         "vless_46.22.216.31_0",

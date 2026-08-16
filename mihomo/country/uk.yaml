@@ -18,6 +18,16 @@ proxies:
       password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
       tls: true
       servername: hdfyc1.achaemenidempireofpersia.uk
+-     name: trojan_104.21.47.176_0
+      server: 104.21.47.176
+      port: 0
+      udp: true
+      type: trojan
+      password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+      tls: true
+      servername: hdfyc1.achaemenidempireofpersia.uk
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: trojan_172.67.149.124_0
       server: 172.67.149.124
       port: 0
@@ -951,7 +961,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.47.176_0, trojan_172.67.149.124_0, trojan_172.67.149.124_0, trojan_104.17.228.60_0, vless_104.17.121.71_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.17.148.22_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_dk2.darknet-bot.co.uk_0, vless_104.17.192.0_0, vless_8.6.112.0_0, vless_8.6.112.0_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_104.17.121.141_0, vless_104.17.121.37_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_ovhwuxian.pai50288.uk_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_185.146.173.94_0, vless_185.146.173.94_0, vless_172.67.180.227_0, vless_172.67.180.227_0, vless_45.130.125.69_0, vless_45.130.125.69_0, vless_104.18.32.47_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_104.26.11.194_0, vless_84.32.189.155_0, vless_84.32.189.156_0, vless_84.32.189.156_0, vless_84.32.189.229_0, vless_84.32.189.229_0, vless_api.ferrin.uk_0, vless_api.ferrin.uk_0, vless_152.236.7.12_0]
+      proxies: [trojan_104.21.47.176_0, trojan_104.21.47.176_0, trojan_172.67.149.124_0, trojan_172.67.149.124_0, trojan_104.17.228.60_0, vless_104.17.121.71_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.17.148.22_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_dk2.darknet-bot.co.uk_0, vless_104.17.192.0_0, vless_8.6.112.0_0, vless_8.6.112.0_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_104.17.121.141_0, vless_104.17.121.37_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_ovhwuxian.pai50288.uk_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_185.146.173.94_0, vless_185.146.173.94_0, vless_172.67.180.227_0, vless_172.67.180.227_0, vless_45.130.125.69_0, vless_45.130.125.69_0, vless_104.18.32.47_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_104.26.11.194_0, vless_84.32.189.155_0, vless_84.32.189.156_0, vless_84.32.189.156_0, vless_84.32.189.229_0, vless_84.32.189.229_0, vless_api.ferrin.uk_0, vless_api.ferrin.uk_0, vless_152.236.7.12_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

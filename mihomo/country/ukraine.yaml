@@ -78,43 +78,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: a12.taipeicitygovernment.org.ua
--     name: trojan_104.18.38.47_0
-      server: 104.18.38.47
-      port: 0
-      udp: true
-      type: trojan
-      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-      tls: true
-      servername: mfa.gov.ua
-      alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: trojan_mfa.gov.ua_0
-      server: mfa.gov.ua
-      port: 0
-      udp: true
-      type: trojan
-      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-      tls: true
--     name: trojan_123.140.124.25_0
-      server: 123.140.124.25
-      port: 0
-      udp: true
-      type: trojan
-      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-      tls: true
-      servername: official.seoulcityhall.com.ua
-      alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: trojan_123.140.124.25_0
-      server: 123.140.124.25
-      port: 0
-      udp: true
-      type: trojan
-      password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-      tls: true
-      servername: official.seoulcityhall.com.ua
-      alpn: [http/1.1]
-      client-fingerprint: chrome
 -     name: trojan_60.250.152.209_0
       server: 60.250.152.209
       port: 0
@@ -257,6 +220,24 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0787cfdb-9930-4abb-8419-c1b96c3ef628
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.KR.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0787cfdb-9930-4abb-8419-c1b96c3ef628
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.KR.CMLiussss.net"
 -     name: vless_104.21.26.17_0
       server: 104.21.26.17
       port: 0
@@ -299,15 +280,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.JP.CMLiussss.net"
--     name: vless_www.gov.ua_0
-      server: www.gov.ua
-      port: 0
-      udp: true
-      type: vless
-      uuid: 0b17eb47-587b-4e46-86a7-e1681cbbe76c
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_172.65.90.52_0
       server: 172.65.90.52
       port: 0
@@ -317,30 +289,38 @@ proxies:
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.SG.CMLiussss.net"
--     name: vless_www.zsu.gov.ua_0
-      server: www.zsu.gov.ua
+-     name: vless_104.21.22.133_0
+      server: 104.21.22.133
       port: 0
       udp: true
       type: vless
-      uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+      tls: true
+      servername: 300-ac1b-3e970b59d0.20220420.pp.ua
+      alpn: [http/1.1]
+      client-fingerprint: chrome
       network: ws
       ws-opts:
-        path: "/pyip=ProxyIP.SG.CMLiussss.net"
--     name: vless_www.zsu.gov.ua_0
-      server: www.zsu.gov.ua
+        path: /ok1UBnf7txQ8YJFJxz
+-     name: vless_104.21.22.133_0
+      server: 104.21.22.133
       port: 0
       udp: true
       type: vless
-      uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+      tls: true
+      servername: 300-ac1b-3e970b59d0.20220420.pp.ua
+      alpn: [http/1.1]
+      client-fingerprint: chrome
       network: ws
       ws-opts:
-        path: "/pyip=ProxyIP.SG.CMLiussss.net"
+        path: /ok1UBnf7txQ8YJFJxz
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
       udp: true
       type: vless
-      uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
+      uuid: 1742863c-ce4b-4bb7-b807-80da29cbec86
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.US.CMLiussss.net"
@@ -349,36 +329,19 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 12cebf33-2f96-48a3-af37-c2231e5cef75
+      uuid: 1742863c-ce4b-4bb7-b807-80da29cbec86
       network: ws
       ws-opts:
         path: "/pyip=proxyip.us.cmliussss.net"
--     name: vless_104.21.22.133_0
-      server: 104.21.22.133
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
       port: 0
       udp: true
       type: vless
-      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-      tls: true
-      servername: 300-ac1b-3e970b59d0.20220420.pp.ua
-      alpn: [http/1.1]
-      client-fingerprint: chrome
+      uuid: 1742863c-ce4b-4bb7-b807-80da29cbec86
       network: ws
       ws-opts:
-        path: /ok1UBnf7txQ8YJFJxz
--     name: vless_104.21.22.133_0
-      server: 104.21.22.133
-      port: 0
-      udp: true
-      type: vless
-      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-      tls: true
-      servername: 300-ac1b-3e970b59d0.20220420.pp.ua
-      alpn: [http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /ok1UBnf7txQ8YJFJxz
+        path: "/pyip=proxyip.…"
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
@@ -411,28 +374,46 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 25844c02-a1fe-43ec-a6b9-44e3bf375b83
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.KR.CMLiussss.net"
--     name: vless_www.gov.ua_0
-      server: www.gov.ua
-      port: 0
-      udp: true
-      type: vless
-      uuid: 25844c02-a1fe-43ec-a6b9-44e3bf375b83
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.KR.CMLiussss.net"
--     name: vless_www.gov.ua_0
-      server: www.gov.ua
-      port: 0
-      udp: true
-      type: vless
-      uuid: 2a8cafda-479d-4e30-82d1-0bd4c6da6db9
+      uuid: 2ced390a-4252-4541-8985-730f7a06bb45
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 2ced390a-4252-4541-8985-730f7a06bb45
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 2ced390a-4252-4541-8985-730f7a06bb45
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.KR.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
+      network: ws
+      ws-opts:
+        path: "/pyip=proxyip.kr.cmliussss.net"
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
@@ -659,6 +640,15 @@ proxies:
       port: 0
       udp: true
       type: vless
+      uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.JP.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
       uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
       network: ws
       ws-opts:
@@ -671,7 +661,61 @@ proxies:
       uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
       network: ws
       ws-opts:
+        path: "/pyip=proxyip.sg.cmliussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.SG.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
+      network: ws
+      ws-opts:
         path: /
+-     name: vless_mfa.gov.ua_0
+      server: mfa.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+      tls: true
+      servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_mfa.gov.ua_0
+      server: mfa.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+      tls: true
+      servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_mfa.gov.ua_0
+      server: mfa.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+      tls: true
+      servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=2560"
 -     name: vless_104.18.80.243_0
       server: 104.18.80.243
       port: 0
@@ -806,6 +850,24 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2560security=tls"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
+      network: ws
+      ws-opts:
+        path: "/pyip=proxyip.us.cmliussss.net"
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
@@ -839,15 +901,6 @@ proxies:
       network: ws
       ws-opts:
         path: /lzjjj
--     name: vless_www.zsu.gov.ua_0
-      server: www.zsu.gov.ua
-      port: 0
-      udp: true
-      type: vless
-      uuid: a5c7e18f-1701-46ed-8f42-00eb078d9445
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.KR.CMLiussss.net"
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
@@ -857,6 +910,15 @@ proxies:
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.zsu.gov.ua_0
+      server: www.zsu.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: b0b406f8-1f30-484c-9fcf-2fdffc715473
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.SG.CMLiussss.net"
 -     name: vless_172.67.172.91_0
       server: 172.67.172.91
       port: 0
@@ -879,6 +941,33 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+      network: ws
+      ws-opts:
+        path: /pyip
+-     name: vless_www.gov.ua_0
+      server: www.gov.ua
+      port: 0
+      udp: true
+      type: vless
+      uuid: bf667068-11cb-4c37-a867-4a2b03b45555
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
 -     name: vless_www.zsu.gov.ua_0
       server: www.zsu.gov.ua
       port: 0
@@ -1111,15 +1200,6 @@ proxies:
       network: ws
       ws-opts:
         path: /AMpQdWyvpaPkb7QHHkQBzYO
--     name: vless_www.zsu.gov.ua_0
-      server: www.zsu.gov.ua
-      port: 0
-      udp: true
-      type: vless
-      uuid: f22856f8-66f0-4655-ba86-5385971e1302
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.US.CMLiussss.net"
 -     name: vless_www.gov.ua_0
       server: www.gov.ua
       port: 0
@@ -1132,7 +1212,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.30.167_0, trojan_104.21.30.167_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_61.222.160.199_0, trojan_60.250.152.209_0, trojan_104.18.38.47_0, trojan_mfa.gov.ua_0, trojan_123.140.124.25_0, trojan_123.140.124.25_0, trojan_60.250.152.209_0, trojan_60.250.152.230_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.173.64_0, trojan_104.21.23.162_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.208.155_0, trojan_172.67.212.82_0, vless_www.zsu.gov.ua_0, vless_104.21.26.17_0, vless_104.21.26.17_0, vless_104.21.26.17_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_172.65.90.52_0, vless_www.zsu.gov.ua_0, vless_www.zsu.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.22.133_0, vless_104.21.22.133_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.79.79_0, vless_104.21.79.79_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.23.72_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.23.162_0, vless_104.21.23.162_0, vless_104.21.71.205_0, vless_104.21.71.205_0, vless_172.67.205.22_0, vless_172.67.205.22_0, vless_172.67.212.59_0, vless_172.67.212.59_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.18.80.243_0, vless_104.18.80.243_0, vless_104.18.83.92_0, vless_104.18.83.92_0, vless_160.79.104.113_0, vless_160.79.104.113_0, vless_162.159.153.42_0, vless_162.159.153.42_0, vless_198.46.215.183_0, vless_198.46.215.183_0, vless_212.183.88.46_0, vless_212.183.88.46_0, vless_www.gov.ua_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_www.zsu.gov.ua_0, vless_www.gov.ua_0, vless_172.67.172.91_0, vless_172.67.172.91_0, vless_www.zsu.gov.ua_0, vless_104.21.26.17_0, vless_141.101.120.100_0, vless_141.101.120.100_0, vless_141.101.120.102_0, vless_141.101.120.102_0, vless_141.101.120.132_0, vless_141.101.120.132_0, vless_141.101.120.15_0, vless_141.101.120.15_0, vless_141.101.120.198_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_141.101.121.225_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.63.226_0, vless_104.21.63.226_0, vless_www.zsu.gov.ua_0, vless_www.gov.ua_0]
+      proxies: [trojan_104.21.30.167_0, trojan_104.21.30.167_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_61.222.160.199_0, trojan_60.250.152.209_0, trojan_60.250.152.209_0, trojan_60.250.152.230_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.173.64_0, trojan_104.21.23.162_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.208.155_0, trojan_172.67.212.82_0, vless_www.zsu.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.26.17_0, vless_104.21.26.17_0, vless_104.21.26.17_0, vless_www.gov.ua_0, vless_172.65.90.52_0, vless_104.21.22.133_0, vless_104.21.22.133_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.79.79_0, vless_104.21.79.79_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.23.72_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.23.162_0, vless_104.21.23.162_0, vless_104.21.71.205_0, vless_104.21.71.205_0, vless_172.67.205.22_0, vless_172.67.205.22_0, vless_172.67.212.59_0, vless_172.67.212.59_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_mfa.gov.ua_0, vless_mfa.gov.ua_0, vless_mfa.gov.ua_0, vless_104.18.80.243_0, vless_104.18.80.243_0, vless_104.18.83.92_0, vless_104.18.83.92_0, vless_160.79.104.113_0, vless_160.79.104.113_0, vless_162.159.153.42_0, vless_162.159.153.42_0, vless_198.46.215.183_0, vless_198.46.215.183_0, vless_212.183.88.46_0, vless_212.183.88.46_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_www.gov.ua_0, vless_www.zsu.gov.ua_0, vless_172.67.172.91_0, vless_172.67.172.91_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_www.zsu.gov.ua_0, vless_104.21.26.17_0, vless_141.101.120.100_0, vless_141.101.120.100_0, vless_141.101.120.102_0, vless_141.101.120.102_0, vless_141.101.120.132_0, vless_141.101.120.132_0, vless_141.101.120.15_0, vless_141.101.120.15_0, vless_141.101.120.198_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_141.101.121.225_0, vless_www.gov.ua_0, vless_www.gov.ua_0, vless_104.21.63.226_0, vless_104.21.63.226_0, vless_www.gov.ua_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
