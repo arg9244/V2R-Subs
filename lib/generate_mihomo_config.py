@@ -32,11 +32,27 @@ from parse_nodes import NodeConfig, load_all_nodes, load_nodes_from_file
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def _sanitize_str(val: str) -> str:
+    """Sanitize a string for safe YAML output — strip non-UTF-8 and control chars."""
+    if not val:
+        return ""
+    # Ensure valid UTF-8 (replaces invalid bytes with ?)
+    try:
+        val = val.encode("utf-8", errors="replace").decode("utf-8", errors="replace")
+    except Exception:
+        val = str(val)
+    # Remove ALL control characters (C0 + C1 ranges) except tab/newline
+    import unicodedata
+    return "".join(
+        c for c in val
+        if not unicodedata.category(c).startswith("C") or c in "\t\n"
+    )
+
+
 def _node_to_mihomo_proxy(nc: NodeConfig) -> dict:
-    """Convert a NodeConfig to a mihomo proxies entry (YAML node)."""
     proxy: dict = {
-        "name": nc.tag,
-        "server": nc.server,
+        "name": _sanitize_str(nc.tag),
+        "server": _sanitize_str(nc.server),
         "port": nc.port,
         "udp": True,
     }
@@ -302,6 +318,7 @@ def _yaml_scalar(val) -> str:
     if isinstance(val, (int, float)):
         return str(val)
     if isinstance(val, str):
+        val = _sanitize_str(val)
         # Quote if contains special chars or starts with reserved chars (@, `, -, :, etc.)
         needs_quote = (
             any(c in val for c in [":", "#", "{", "}", "[", "]", ",", "&", "*", "?", "|", "<", ">", "=", "!", "%", "@", "`"])
@@ -310,7 +327,7 @@ def _yaml_scalar(val) -> str:
             or val.lower() in ("yes", "no", "true", "false", "null", "none", "~")
         )
         if needs_quote:
-            escaped = val.replace('"', '\\"')
+            escaped = val.replace('\\', '\\\\').replace('"', '\\"')
             return f'"{escaped}"'
         if not val:
             return '""'
