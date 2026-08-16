@@ -1,0 +1,272 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "ss_15.235.75.71_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "15.235.75.71",
+        "port": 8388,
+        "method": "chacha20-ietf-poly1305",
+        "password": "FD3rCuOsxOay",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_146.70.222.126_1080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "146.70.222.126",
+        "port": 1080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "XF0klw7870vXn3uQIxe19Q",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_146.70.53.62_1080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "146.70.53.62",
+        "port": 1080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "XF0klw7870vXn3uQIxe19Q",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_62.133.63.222_48981",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "62.133.63.222",
+        "port": 48981,
+        "method": "chacha20-ietf-poly1305",
+        "password": "abC43WeNxuDAXdmQZdkwVx",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.185_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.185",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1dBOmOB4oqi7Ump37a1bQ",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.204_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.204",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1dBOmOB4oqi7Ump37a1bQ",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.35_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.35",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "ss_15.235.75.71_8388",
+          "ss_146.70.222.126_1080",
+          "ss_146.70.53.62_1080",
+          "ss_62.133.63.222_48981",
+          "ss_82.38.31.185_8080",
+          "ss_82.38.31.204_8080",
+          "ss_82.38.31.35_8080"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

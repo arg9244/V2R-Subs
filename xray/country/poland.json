@@ -1,0 +1,255 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_45.140.204.182_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.140.204.182",
+        "port": 0,
+        "id": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "wp.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w",
+            "shortId": "e852dc"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.140.204.182_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.140.204.182",
+        "port": 0,
+        "id": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "wp.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w",
+            "shortId": "e852dc"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_149.50.105.117_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "149.50.105.117",
+        "port": 0,
+        "id": "596b215c-3743-4893-b24a-4e396c4ab80f",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "code.diagu.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "XtWTCj41yTTGvlJus3UDor9Xm1jx6DcJ-hr1RdsbmU4",
+            "shortId": "98673629c44f40c0"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.140.204.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.140.204.181",
+        "port": 0,
+        "id": "c04bf2df-2b7f-44da-a893-3792d3910fd8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "wp.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w",
+            "shortId": "e852dc"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_45.140.204.182_0",
+          "vless_45.140.204.182_0",
+          "vless_149.50.105.117_0",
+          "vless_45.140.204.181_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

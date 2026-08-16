@@ -1,0 +1,455 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "31aa0950-eb19-45ff-94a2-af416deb3b90",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "54502a61-2af6-40e7-8331-2c9fc40e5903",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "old-cloud-a96a.rohamsahh90.workers.dev",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "c49a0981-6d37-4ec0-9a01-1b63ccc07e4f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "c49a0981-6d37-4ec0-9a01-1b63ccc07e4f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "c49a0981-6d37-4ec0-9a01-1b63ccc07e4f",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "time.is",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "d195909a-eff4-489d-a261-955b904894cb",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "ed0e05af-49ab-4ea8-a39c-634855811b03",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "wild-grass-1917.tmpduardoolfsonerluke15.workers.dev",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws?ed=443"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "ed0e05af-49ab-4ea8-a39c-634855811b03",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "time.is",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "fc8a0708-951a-4027-860f-2a154ebc4dd7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "crimson-king-301d.nexoxnet.workers.dev",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "id": "fc8a0708-951a-4027-860f-2a154ebc4dd7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "crimson-king-301d.nexoxnet.workers.dev",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0",
+          "vless_time.is_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

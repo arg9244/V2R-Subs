@@ -1,0 +1,156 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+      tls: true
+      servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443"
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: 54502a61-2af6-40e7-8331-2c9fc40e5903
+      tls: true
+      servername: old-cloud-a96a.rohamsahh90.workers.dev
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
+      tls: true
+      servername: pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: ios
+      network: ws
+      ws-opts:
+        path: "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
+      tls: true
+      servername: pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
+      tls: true
+      servername: time.is
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: d195909a-eff4-489d-a261-955b904894cb
+      tls: true
+      servername: fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: ios
+      network: ws
+      ws-opts:
+        path: "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560"
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
+      tls: true
+      servername: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: ios
+      network: ws
+      ws-opts:
+        path: "/ws?ed=443"
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
+      tls: true
+      servername: time.is
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+      tls: true
+      servername: crimson-king-301d.nexoxnet.workers.dev
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: ios
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: vless
+      uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+      tls: true
+      servername: crimson-king-301d.nexoxnet.workers.dev
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

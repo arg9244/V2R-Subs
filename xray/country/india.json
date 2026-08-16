@@ -1,0 +1,3149 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_xn--b6gac.eu.org_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "xn--b6gac.eu.org",
+        "port": 0,
+        "id": "092b1abd-0c6f-450c-a164-c1996e2dc65c",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vps.azheng.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/092b1abd-vl"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_2.26.8.55_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2.26.8.55",
+        "port": 0,
+        "id": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lk-tra.riseads.in",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_2.26.8.55_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2.26.8.55",
+        "port": 0,
+        "id": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "lk-tra.riseads.in",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_103.100.158.202_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.100.158.202",
+        "port": 0,
+        "id": "26524cce-d514-4014-a426-365fb266a14d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "i8dxb.media-cdn-us.chinav.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/danfeng-lo9ew8-vfksib-hwrl-84fg5mvl"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_20.229.252.162_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "20.229.252.162",
+        "port": 0,
+        "id": "26524cce-d514-4014-a426-365fb266a14d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "i8dxb.media-cdn-us.chinav.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_103.90.75.41_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.90.75.41",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.129.164.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.129.164.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.129.166.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.129.166.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.129.167.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.129.167.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.7.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.7.70",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.7.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.7.70",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.80.73_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.80.73",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.13.149_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.13.149",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.13.149_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.13.149",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.16.56_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.16.56",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.185.26_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.185.26",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.33.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.33.45",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.42.98_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.42.98",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.20.6.134_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.20.6.134",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.26.7.205_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.26.7.205",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_109.120.179.99_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "109.120.179.99",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_130.250.137.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "130.250.137.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_135.84.67.74_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "135.84.67.74",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_135.84.73.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "135.84.73.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_14.102.229.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "14.102.229.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.121.169_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.121.169",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_146.0.79.109_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "146.0.79.109",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_154.197.75.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "154.197.75.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_154.198.173.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "154.198.173.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_156.243.83.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "156.243.83.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_158.220.88.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "158.220.88.180",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_159.223.24.65_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "159.223.24.65",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_160.153.1.121_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "160.153.1.121",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_160.153.1.222_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "160.153.1.222",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.12.151_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.12.151",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.12.151_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.12.151",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.153.231_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.231",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.153.231_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.231",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.153.231_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.231",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_164.38.155.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "164.38.155.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_167.99.80.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "167.99.80.91",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_167.99.80.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "167.99.80.91",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_167.99.80.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "167.99.80.91",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_167.99.80.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "167.99.80.91",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.146.163_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.146.163",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.146.163_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.146.163",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.146.198_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.146.198",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.147.24_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.147.24",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.149.54_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.149.54",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.149.54_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.149.54",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.64.155.209_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.64.155.209",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.66.47.69_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.66.47.69",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.66.47.69_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.66.47.69",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_176.124.223.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "176.124.223.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_176.96.138.17_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "176.96.138.17",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&telegram🇨🇳@wangcai2"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_176.96.138.17_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "176.96.138.17",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.62.25.163_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.62.25.163",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.148.106.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.148.106.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.156.19.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.156.19.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.158.133.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.158.133.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.162.230.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.162.230.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.162.231.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.162.231.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.162.231.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.162.231.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.193.29.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.193.29.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.193.31.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.193.31.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.207.199.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.207.199.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.238.228.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.238.228.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.96.3_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.96.3",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.98.0_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.98.0_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&Telegram🇨🇳+@WangCai2"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.99.243_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.99.243",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.99.243_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.99.243",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&Telegram🇨🇳+@WangCai2"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.241.241.123_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.241.241.123",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.241.241.123_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.241.241.123",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?telegram🇨🇳@wangcai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.244.122.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.244.122.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_190.93.244.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "190.93.244.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_190.93.244.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "190.93.244.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_192.0.63.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "192.0.63.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_192.65.217.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "192.65.217.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_192.65.217.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "192.65.217.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.146.12.230_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.146.12.230",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_195.133.65.202_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "195.133.65.202",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_195.85.23.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "195.85.23.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_195.93.253.207_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "195.93.253.207",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_198.12.145.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "198.12.145.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_198.202.211.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "198.202.211.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_199.119.137.95_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "199.119.137.95",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_199.181.197.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "199.181.197.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_209.94.90.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "209.94.90.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_212.118.52.236_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "212.118.52.236",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_212.118.52.236_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "212.118.52.236",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳+@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_24.199.112.232_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "24.199.112.232",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_27.50.48.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "27.50.48.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.185.108.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.185.108.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_72.18.132.149_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "72.18.132.149",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_77.74.228.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "77.74.228.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_77.75.199.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "77.75.199.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_8.6.112.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "8.6.112.6",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_8.6.112.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "8.6.112.6",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_82.117.245.166_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "82.117.245.166",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_88.218.78.167_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "88.218.78.167",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_89.116.180.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "89.116.180.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_89.116.250.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "89.116.250.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_89.116.250.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "89.116.250.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳+@WangCai2="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_92.53.191.138_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "92.53.191.138",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_94.130.132.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "94.130.132.180",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_94.130.132.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "94.130.132.180",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560&Telegram🇨🇳 @app_bedal"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_94.130.132.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "94.130.132.180",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_94.130.132.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "94.130.132.180",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram🇨🇳+@app_bedal="
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_132.243.168.76_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "132.243.168.76",
+        "port": 0,
+        "id": "67baa13e-d41b-4acf-ad0f-4ad35a136f85",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "login-user1.riseads.in",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "2EI18PAo3tu5KTu2Z8uj1LhxlPy8McubZZHnLWU92k4",
+            "shortId": "d3d4634931a14486"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_103.231.75.115_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.231.75.115",
+        "port": 0,
+        "id": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "snippet.fgfw.indevs.in",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/danfeng"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_xn--b6gac.eu.org_0",
+          "vless_2.26.8.55_0",
+          "vless_2.26.8.55_0",
+          "vless_103.100.158.202_0",
+          "vless_20.229.252.162_0",
+          "vless_103.90.75.41_0",
+          "vless_104.129.164.138_0",
+          "vless_104.129.166.138_0",
+          "vless_104.129.167.138_0",
+          "vless_104.16.7.70_0",
+          "vless_104.16.7.70_0",
+          "vless_104.16.80.73_0",
+          "vless_104.18.13.149_0",
+          "vless_104.18.13.149_0",
+          "vless_104.18.16.56_0",
+          "vless_104.18.185.26_0",
+          "vless_104.18.33.45_0",
+          "vless_104.18.42.98_0",
+          "vless_104.20.6.134_0",
+          "vless_104.26.7.205_0",
+          "vless_109.120.179.99_0",
+          "vless_130.250.137.138_0",
+          "vless_135.84.67.74_0",
+          "vless_135.84.73.138_0",
+          "vless_14.102.229.138_0",
+          "vless_141.101.121.169_0",
+          "vless_146.0.79.109_0",
+          "vless_154.197.75.138_0",
+          "vless_154.198.173.138_0",
+          "vless_156.243.83.138_0",
+          "vless_158.220.88.180_0",
+          "vless_159.223.24.65_0",
+          "vless_160.153.1.121_0",
+          "vless_160.153.1.222_0",
+          "vless_162.159.12.151_0",
+          "vless_162.159.12.151_0",
+          "vless_162.159.153.231_0",
+          "vless_162.159.153.231_0",
+          "vless_162.159.153.231_0",
+          "vless_164.38.155.138_0",
+          "vless_167.99.80.91_0",
+          "vless_167.99.80.91_0",
+          "vless_167.99.80.91_0",
+          "vless_167.99.80.91_0",
+          "vless_172.64.146.163_0",
+          "vless_172.64.146.163_0",
+          "vless_172.64.146.198_0",
+          "vless_172.64.147.24_0",
+          "vless_172.64.149.54_0",
+          "vless_172.64.149.54_0",
+          "vless_172.64.155.209_0",
+          "vless_172.66.47.69_0",
+          "vless_172.66.47.69_0",
+          "vless_176.124.223.138_0",
+          "vless_176.96.138.17_0",
+          "vless_176.96.138.17_0",
+          "vless_178.62.25.163_0",
+          "vless_185.148.106.138_0",
+          "vless_185.156.19.138_0",
+          "vless_185.158.133.138_0",
+          "vless_185.162.230.138_0",
+          "vless_185.162.231.138_0",
+          "vless_185.162.231.138_0",
+          "vless_185.193.29.138_0",
+          "vless_185.193.31.138_0",
+          "vless_185.207.199.138_0",
+          "vless_185.238.228.138_0",
+          "vless_188.114.96.3_0",
+          "vless_188.114.98.0_0",
+          "vless_188.114.98.0_0",
+          "vless_188.114.99.243_0",
+          "vless_188.114.99.243_0",
+          "vless_188.241.241.123_0",
+          "vless_188.241.241.123_0",
+          "vless_188.244.122.138_0",
+          "vless_190.93.244.138_0",
+          "vless_190.93.244.138_0",
+          "vless_192.0.63.138_0",
+          "vless_192.65.217.138_0",
+          "vless_192.65.217.138_0",
+          "vless_194.146.12.230_0",
+          "vless_195.133.65.202_0",
+          "vless_195.85.23.138_0",
+          "vless_195.93.253.207_0",
+          "vless_198.12.145.138_0",
+          "vless_198.202.211.138_0",
+          "vless_199.119.137.95_0",
+          "vless_199.181.197.138_0",
+          "vless_209.94.90.138_0",
+          "vless_212.118.52.236_0",
+          "vless_212.118.52.236_0",
+          "vless_24.199.112.232_0",
+          "vless_27.50.48.138_0",
+          "vless_31.185.108.138_0",
+          "vless_72.18.132.149_0",
+          "vless_77.74.228.138_0",
+          "vless_77.75.199.138_0",
+          "vless_8.6.112.6_0",
+          "vless_8.6.112.6_0",
+          "vless_82.117.245.166_0",
+          "vless_88.218.78.167_0",
+          "vless_89.116.180.138_0",
+          "vless_89.116.250.138_0",
+          "vless_89.116.250.138_0",
+          "vless_92.53.191.138_0",
+          "vless_94.130.132.180_0",
+          "vless_94.130.132.180_0",
+          "vless_94.130.132.180_0",
+          "vless_94.130.132.180_0",
+          "vless_132.243.168.76_0",
+          "vless_103.231.75.115_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

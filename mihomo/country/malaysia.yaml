@@ -1,0 +1,185 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_104.21.79.221_0
+      server: 104.21.79.221
+      port: 0
+      udp: true
+      type: vless
+      uuid: 2b619c86-0173-4779-b1db-91bd18e3a618
+      tls: true
+      servername: phantom.persia.my
+      alpn: [h2, http/1.1]
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.21.79.221_0
+      server: 104.21.79.221
+      port: 0
+      udp: true
+      type: vless
+      uuid: 2b619c86-0173-4779-b1db-91bd18e3a618
+      tls: true
+      servername: phantom.persia.my
+      alpn: [h2, http/1.1]
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.17.13.0_0
+      server: 104.17.13.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.17.13.0_0
+      server: 104.17.13.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.17.45.0_0
+      server: 104.17.45.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.17.45.0_0
+      server: 104.17.45.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.17.82.0_0
+      server: 104.17.82.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_172.67.196.0_0
+      server: 172.67.196.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_172.67.196.0_0
+      server: 172.67.196.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88372542-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.16.109.0_0
+      server: 104.16.109.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8c3d37bc-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_104.16.109.0_0
+      server: 104.16.109.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8c3d37bc-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_162.159.245.0_0
+      server: 162.159.245.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8c3d37bc-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_162.159.245.0_0
+      server: 162.159.245.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8c3d37bc-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+-     name: vless_172.67.196.0_0
+      server: 172.67.196.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8c3d37bc-431f-11ed-b878-0242ac120002
+      tls: true
+      servername: gheychi.ml
+      network: ws
+      ws-opts:
+        path: /iloveiran
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_104.21.79.221_0, vless_104.21.79.221_0, vless_104.17.13.0_0, vless_104.17.13.0_0, vless_104.17.45.0_0, vless_104.17.45.0_0, vless_104.17.82.0_0, vless_172.67.196.0_0, vless_172.67.196.0_0, vless_104.16.109.0_0, vless_104.16.109.0_0, vless_162.159.245.0_0, vless_162.159.245.0_0, vless_172.67.196.0_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

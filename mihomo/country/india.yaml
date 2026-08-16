@@ -1,0 +1,1280 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_xn--b6gac.eu.org_0
+      server: xn--b6gac.eu.org
+      port: 0
+      udp: true
+      type: vless
+      uuid: 092b1abd-0c6f-450c-a164-c1996e2dc65c
+      tls: true
+      servername: vps.azheng.indevs.in
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /092b1abd-vl
+-     name: vless_2.26.8.55_0
+      server: 2.26.8.55
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10ea33f2-1a66-4dec-99f2-8068a6b56a45
+      flow: xtls-rprx-vision
+      tls: true
+      servername: lk-tra.riseads.in
+      client-fingerprint: firefox
+-     name: vless_2.26.8.55_0
+      server: 2.26.8.55
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10ea33f2-1a66-4dec-99f2-8068a6b56a45
+      flow: xtls-rprx-vision
+      tls: true
+      servername: lk-tra.riseads.in
+      client-fingerprint: firefox
+-     name: vless_103.100.158.202_0
+      server: 103.100.158.202
+      port: 0
+      udp: true
+      type: vless
+      uuid: 26524cce-d514-4014-a426-365fb266a14d
+      tls: true
+      servername: i8dxb.media-cdn-us.chinav.indevs.in
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
+-     name: vless_20.229.252.162_0
+      server: 20.229.252.162
+      port: 0
+      udp: true
+      type: vless
+      uuid: 26524cce-d514-4014-a426-365fb266a14d
+      tls: true
+      servername: i8dxb.media-cdn-us.chinav.indevs.in
+      network: ws
+      ws-opts:
+        path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp
+-     name: vless_103.90.75.41_0
+      server: 103.90.75.41
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.129.164.138_0
+      server: 104.129.164.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.129.166.138_0
+      server: 104.129.166.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.129.167.138_0
+      server: 104.129.167.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.16.7.70_0
+      server: 104.16.7.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.16.7.70_0
+      server: 104.16.7.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.16.80.73_0
+      server: 104.16.80.73
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.13.149_0
+      server: 104.18.13.149
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.13.149_0
+      server: 104.18.13.149
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.16.56_0
+      server: 104.18.16.56
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.185.26_0
+      server: 104.18.185.26
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.33.45_0
+      server: 104.18.33.45
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.42.98_0
+      server: 104.18.42.98
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.20.6.134_0
+      server: 104.20.6.134
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.26.7.205_0
+      server: 104.26.7.205
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_109.120.179.99_0
+      server: 109.120.179.99
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳@WangCai2="
+-     name: vless_130.250.137.138_0
+      server: 130.250.137.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_135.84.67.74_0
+      server: 135.84.67.74
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_135.84.73.138_0
+      server: 135.84.73.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_14.102.229.138_0
+      server: 14.102.229.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_141.101.121.169_0
+      server: 141.101.121.169
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_146.0.79.109_0
+      server: 146.0.79.109
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_154.197.75.138_0
+      server: 154.197.75.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳@WangCai2="
+-     name: vless_154.198.173.138_0
+      server: 154.198.173.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_156.243.83.138_0
+      server: 156.243.83.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_158.220.88.180_0
+      server: 158.220.88.180
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_159.223.24.65_0
+      server: 159.223.24.65
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_160.153.1.121_0
+      server: 160.153.1.121
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_160.153.1.222_0
+      server: 160.153.1.222
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_162.159.12.151_0
+      server: 162.159.12.151
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_162.159.12.151_0
+      server: 162.159.12.151
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_162.159.153.231_0
+      server: 162.159.153.231
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_162.159.153.231_0
+      server: 162.159.153.231
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_162.159.153.231_0
+      server: 162.159.153.231
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+-     name: vless_164.38.155.138_0
+      server: 164.38.155.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_167.99.80.91_0
+      server: 167.99.80.91
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_167.99.80.91_0
+      server: 167.99.80.91
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_167.99.80.91_0
+      server: 167.99.80.91
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_167.99.80.91_0
+      server: 167.99.80.91
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      skip-cert-verify: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.146.163_0
+      server: 172.64.146.163
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.146.163_0
+      server: 172.64.146.163
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳@WangCai2="
+-     name: vless_172.64.146.198_0
+      server: 172.64.146.198
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.147.24_0
+      server: 172.64.147.24
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.149.54_0
+      server: 172.64.149.54
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.149.54_0
+      server: 172.64.149.54
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.64.155.209_0
+      server: 172.64.155.209
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.66.47.69_0
+      server: 172.66.47.69
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_172.66.47.69_0
+      server: 172.66.47.69
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      skip-cert-verify: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_176.124.223.138_0
+      server: 176.124.223.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_176.96.138.17_0
+      server: 176.96.138.17
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&telegram🇨🇳@wangcai2"
+-     name: vless_176.96.138.17_0
+      server: 176.96.138.17
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_178.62.25.163_0
+      server: 178.62.25.163
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_185.148.106.138_0
+      server: 185.148.106.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.156.19.138_0
+      server: 185.156.19.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.158.133.138_0
+      server: 185.158.133.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.162.230.138_0
+      server: 185.162.230.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.162.231.138_0
+      server: 185.162.231.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=2560"
+-     name: vless_185.162.231.138_0
+      server: 185.162.231.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.193.29.138_0
+      server: 185.193.29.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.193.31.138_0
+      server: 185.193.31.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.207.199.138_0
+      server: 185.207.199.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.238.228.138_0
+      server: 185.238.228.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.114.96.3_0
+      server: 188.114.96.3
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&Telegram🇨🇳+@WangCai2"
+-     name: vless_188.114.99.243_0
+      server: 188.114.99.243
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.114.99.243_0
+      server: 188.114.99.243
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&Telegram🇨🇳+@WangCai2"
+-     name: vless_188.241.241.123_0
+      server: 188.241.241.123
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.241.241.123_0
+      server: 188.241.241.123
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?telegram🇨🇳@wangcai2="
+-     name: vless_188.244.122.138_0
+      server: 188.244.122.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_190.93.244.138_0
+      server: 190.93.244.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_190.93.244.138_0
+      server: 190.93.244.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_192.0.63.138_0
+      server: 192.0.63.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_192.65.217.138_0
+      server: 192.65.217.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_192.65.217.138_0
+      server: 192.65.217.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_194.146.12.230_0
+      server: 194.146.12.230
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_195.133.65.202_0
+      server: 195.133.65.202
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳@WangCai2="
+-     name: vless_195.85.23.138_0
+      server: 195.85.23.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_195.93.253.207_0
+      server: 195.93.253.207
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_198.12.145.138_0
+      server: 198.12.145.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_198.202.211.138_0
+      server: 198.202.211.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_199.119.137.95_0
+      server: 199.119.137.95
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed"
+-     name: vless_199.181.197.138_0
+      server: 199.181.197.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_209.94.90.138_0
+      server: 209.94.90.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_212.118.52.236_0
+      server: 212.118.52.236
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_212.118.52.236_0
+      server: 212.118.52.236
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳+@WangCai2="
+-     name: vless_24.199.112.232_0
+      server: 24.199.112.232
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&Telegram🇨🇳 @WangCai2"
+-     name: vless_27.50.48.138_0
+      server: 27.50.48.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_31.185.108.138_0
+      server: 31.185.108.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_72.18.132.149_0
+      server: 72.18.132.149
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_77.74.228.138_0
+      server: 77.74.228.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_77.75.199.138_0
+      server: 77.75.199.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_8.6.112.6_0
+      server: 8.6.112.6
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_8.6.112.6_0
+      server: 8.6.112.6
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_82.117.245.166_0
+      server: 82.117.245.166
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳@WangCai2="
+-     name: vless_88.218.78.167_0
+      server: 88.218.78.167
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_89.116.180.138_0
+      server: 89.116.180.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_89.116.250.138_0
+      server: 89.116.250.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_89.116.250.138_0
+      server: 89.116.250.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳+@WangCai2="
+-     name: vless_92.53.191.138_0
+      server: 92.53.191.138
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_94.130.132.180_0
+      server: 94.130.132.180
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_94.130.132.180_0
+      server: 94.130.132.180
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=2560&Telegram🇨🇳 @app_bedal"
+-     name: vless_94.130.132.180_0
+      server: 94.130.132.180
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_94.130.132.180_0
+      server: 94.130.132.180
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: "/?Telegram🇨🇳+@app_bedal="
+-     name: vless_132.243.168.76_0
+      server: 132.243.168.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: 67baa13e-d41b-4acf-ad0f-4ad35a136f85
+      flow: xtls-rprx-vision
+      tls: true
+      servername: login-user1.riseads.in
+      client-fingerprint: qq
+      reality-opts:
+        public-key: 2EI18PAo3tu5KTu2Z8uj1LhxlPy8McubZZHnLWU92k4
+        short-id: d3d4634931a14486
+-     name: vless_103.231.75.115_0
+      server: 103.231.75.115
+      port: 0
+      udp: true
+      type: vless
+      uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+      tls: true
+      servername: snippet.fgfw.indevs.in
+      alpn: [http/1.1]
+      client-fingerprint: random
+      network: ws
+      ws-opts:
+        path: /danfeng
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_xn--b6gac.eu.org_0, vless_2.26.8.55_0, vless_2.26.8.55_0, vless_103.100.158.202_0, vless_20.229.252.162_0, vless_103.90.75.41_0, vless_104.129.164.138_0, vless_104.129.166.138_0, vless_104.129.167.138_0, vless_104.16.7.70_0, vless_104.16.7.70_0, vless_104.16.80.73_0, vless_104.18.13.149_0, vless_104.18.13.149_0, vless_104.18.16.56_0, vless_104.18.185.26_0, vless_104.18.33.45_0, vless_104.18.42.98_0, vless_104.20.6.134_0, vless_104.26.7.205_0, vless_109.120.179.99_0, vless_130.250.137.138_0, vless_135.84.67.74_0, vless_135.84.73.138_0, vless_14.102.229.138_0, vless_141.101.121.169_0, vless_146.0.79.109_0, vless_154.197.75.138_0, vless_154.198.173.138_0, vless_156.243.83.138_0, vless_158.220.88.180_0, vless_159.223.24.65_0, vless_160.153.1.121_0, vless_160.153.1.222_0, vless_162.159.12.151_0, vless_162.159.12.151_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_164.38.155.138_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_172.64.146.163_0, vless_172.64.146.163_0, vless_172.64.146.198_0, vless_172.64.147.24_0, vless_172.64.149.54_0, vless_172.64.149.54_0, vless_172.64.155.209_0, vless_172.66.47.69_0, vless_172.66.47.69_0, vless_176.124.223.138_0, vless_176.96.138.17_0, vless_176.96.138.17_0, vless_178.62.25.163_0, vless_185.148.106.138_0, vless_185.156.19.138_0, vless_185.158.133.138_0, vless_185.162.230.138_0, vless_185.162.231.138_0, vless_185.162.231.138_0, vless_185.193.29.138_0, vless_185.193.31.138_0, vless_185.207.199.138_0, vless_185.238.228.138_0, vless_188.114.96.3_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_188.114.99.243_0, vless_188.114.99.243_0, vless_188.241.241.123_0, vless_188.241.241.123_0, vless_188.244.122.138_0, vless_190.93.244.138_0, vless_190.93.244.138_0, vless_192.0.63.138_0, vless_192.65.217.138_0, vless_192.65.217.138_0, vless_194.146.12.230_0, vless_195.133.65.202_0, vless_195.85.23.138_0, vless_195.93.253.207_0, vless_198.12.145.138_0, vless_198.202.211.138_0, vless_199.119.137.95_0, vless_199.181.197.138_0, vless_209.94.90.138_0, vless_212.118.52.236_0, vless_212.118.52.236_0, vless_24.199.112.232_0, vless_27.50.48.138_0, vless_31.185.108.138_0, vless_72.18.132.149_0, vless_77.74.228.138_0, vless_77.75.199.138_0, vless_8.6.112.6_0, vless_8.6.112.6_0, vless_82.117.245.166_0, vless_88.218.78.167_0, vless_89.116.180.138_0, vless_89.116.250.138_0, vless_89.116.250.138_0, vless_92.53.191.138_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_132.243.168.76_0, vless_103.231.75.115_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

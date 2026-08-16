@@ -1,0 +1,947 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_104.26.14.21_0",
+      "server": "104.26.14.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "16068e83-af4c-49ba-8048-98fcff3e5e7b",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/131.186.26.129"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.26.14.21_0",
+      "server": "104.26.14.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "16068e83-af4c-49ba-8048-98fcff3e5e7b",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/131.186.26.129"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_172.67.73.14_0",
+      "server": "172.67.73.14",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6fab6cc6-e340-4073-93e1-c6c6802002c7",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_188.114.96.3_0",
+      "server": "188.114.96.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
+      "tls": {
+        "enabled": true,
+        "server_name": "teams.live.com.afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_188.114.96.3_0",
+      "server": "188.114.96.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a44e0875-210f-4941-9062-89b6361a14c6",
+      "tls": {
+        "enabled": true,
+        "server_name": "teams.live.com.afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": ".afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "Pulavpn11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": ".afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.2.90_0",
+      "server": "104.16.2.90",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/43.218.77.16=1443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.17.98.251_0",
+      "server": "104.17.98.251",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "joinProxyVPN11.afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_170.114.45.1_0",
+      "server": "170.114.45.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/138.2.5.136=443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_63.141.128.45_0",
+      "server": "63.141.128.45",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud5.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/188.240.213.98:8443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_alalucarne.com_0",
+      "server": "alalucarne.com",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/213.35.100.31=47112"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.129_0",
+      "server": "104.19.141.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.129_0",
+      "server": "104.19.141.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/213.35.100.31=47112"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bcce095a-9f98-4e23-a68c-8bbecb785dcd",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/213.35.100.31=47112"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/36.95.152.58=12137"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6971cc4-a506-49f6-8ebb-f911317763d8",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/36.95.152.58=12137"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.26.14.21_0",
+      "server": "104.26.14.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d85ea913-7dfa-44b0-bd66-33414e897991",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.26.14.21_0",
+      "server": "104.26.14.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d85ea913-7dfa-44b0-bd66-33414e897991",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.26.15.21_0",
+      "server": "104.26.15.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d9a83363-40a6-4a21-9dbe-cb2b7d287048",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.127.193.124=24467"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.127.193.124=24467"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/139.99.124.165=443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.140.106_0",
+      "server": "104.19.140.106",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.127.193.124=24467"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.129_0",
+      "server": "104.19.141.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.129_0",
+      "server": "104.19.141.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/139.99.124.165=443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.129_0",
+      "server": "104.19.141.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.127.193.124=24467"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.19.141.3_0",
+      "server": "104.19.141.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ecd01b9c-8172-41a4-be72-6167fd7d932d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud1.c01.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/194.127.193.124=24467"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_104.26.14.21_0",
+        "vless_104.26.14.21_0",
+        "vless_172.67.73.14_0",
+        "vless_188.114.96.3_0",
+        "vless_188.114.96.3_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.16.2.90_0",
+        "vless_104.17.98.251_0",
+        "vless_170.114.45.1_0",
+        "vless_63.141.128.45_0",
+        "vless_alalucarne.com_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.141.129_0",
+        "vless_104.19.141.129_0",
+        "vless_104.19.141.3_0",
+        "vless_104.19.141.3_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.141.3_0",
+        "vless_104.19.141.3_0",
+        "vless_104.26.14.21_0",
+        "vless_104.26.14.21_0",
+        "vless_104.26.15.21_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.140.106_0",
+        "vless_104.19.141.129_0",
+        "vless_104.19.141.129_0",
+        "vless_104.19.141.129_0",
+        "vless_104.19.141.3_0",
+        "vless_104.19.141.3_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

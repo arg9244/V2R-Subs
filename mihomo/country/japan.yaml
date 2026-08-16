@@ -1,0 +1,178 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: trojan_18.238.109.28_0
+      server: 18.238.109.28
+      port: 0
+      udp: true
+      type: trojan
+      password: 0000000
+      tls: true
+      servername: www.lovelive-anime.jp
+-     name: trojan_3.168.86.26_0
+      server: 3.168.86.26
+      port: 0
+      udp: true
+      type: trojan
+      password: 0000000
+      tls: true
+      servername: www.lovelive-anime.jp
+-     name: trojan_3.168.86.35_0
+      server: 3.168.86.35
+      port: 0
+      udp: true
+      type: trojan
+      password: 0000000
+      tls: true
+      servername: www.lovelive-anime.jp
+-     name: trojan_3.168.86.96_0
+      server: 3.168.86.96
+      port: 0
+      udp: true
+      type: trojan
+      password: 0000000
+      tls: true
+      servername: www.lovelive-anime.jp
+-     name: vless_168.138.166.89_0
+      server: 168.138.166.89
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0c9839aa-c64f-4791-9137-420432605987
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+        short-id: f0cce996
+-     name: vless_168.138.166.89_0
+      server: 168.138.166.89
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0c9839aa-c64f-4791-9137-420432605987
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+        short-id: f0cce996
+-     name: vless_168.138.166.89_0
+      server: 168.138.166.89
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0c9839aa-c64f-4791-9137-420432605987
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+        short-id: f0cce996
+-     name: vless_112.120.48.17_0
+      server: 112.120.48.17
+      port: 0
+      udp: true
+      type: vless
+      uuid: 7300363f-c18f-4bcf-a5a9-2ad35220505e
+      flow: xtls-rprx-vision
+      tls: true
+      servername: dyn.felissimo.co.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: XDOJMg-h4KXwKN5KelFXi1bFB8XBmM1XtxgdHnw6qik
+        short-id: 56e852ac
+-     name: vless_112.120.48.17_0
+      server: 112.120.48.17
+      port: 0
+      udp: true
+      type: vless
+      uuid: 7300363f-c18f-4bcf-a5a9-2ad35220505e
+      flow: xtls-rprx-vision
+      tls: true
+      servername: dyn.felissimo.co.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: XDOJMg-h4KXwKN5KelFXi1bFB8XBmM1XtxgdHnw6qik
+        short-id: 56e852ac
+-     name: vless_138.2.94.44_0
+      server: 138.2.94.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8"
+        short-id: 905ae32a
+-     name: vless_152.67.211.233_0
+      server: 152.67.211.233
+      port: 0
+      udp: true
+      type: vless
+      uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+        short-id: 11d27eb4
+-     name: vless_152.67.211.233_0
+      server: 152.67.211.233
+      port: 0
+      udp: true
+      type: vless
+      uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+        short-id: 11d27eb4
+-     name: vless_168.138.166.89_0
+      server: 168.138.166.89
+      port: 0
+      udp: true
+      type: vless
+      uuid: ff334415-1a33-4c20-8301-07e1dd66fe8c
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: 4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ
+        short-id: f0cce996
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_3.168.86.96_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_168.138.166.89_0, vless_112.120.48.17_0, vless_112.120.48.17_0, vless_138.2.94.44_0, vless_152.67.211.233_0, vless_152.67.211.233_0, vless_168.138.166.89_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

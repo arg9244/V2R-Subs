@@ -1,0 +1,967 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: trojan_104.21.47.176_0
+      server: 104.21.47.176
+      port: 0
+      udp: true
+      type: trojan
+      password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+      tls: true
+      servername: hdfyc1.achaemenidempireofpersia.uk
+-     name: trojan_172.67.149.124_0
+      server: 172.67.149.124
+      port: 0
+      udp: true
+      type: trojan
+      password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+      tls: true
+      servername: hdfyc1.achaemenidempireofpersia.uk
+-     name: trojan_172.67.149.124_0
+      server: 172.67.149.124
+      port: 0
+      udp: true
+      type: trojan
+      password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
+      tls: true
+      skip-cert-verify: true
+      servername: hdfyc1.achaemenidempireofpersia.uk
+-     name: trojan_104.17.228.60_0
+      server: 104.17.228.60
+      port: 0
+      udp: true
+      type: trojan
+      password: b9e82117-ed3a-4098-8153-100ca12aa523
+      tls: true
+      servername: hdfy5persiaserverc1.afsharidempire.uk
+-     name: vless_104.17.121.71_0
+      server: 104.17.121.71
+      port: 0
+      udp: true
+      type: vless
+      uuid: 02fc59ec-ceb5-4c7b-80cc-8ed7d921c91e
+      tls: true
+      servername: LonG-eNVIRoNMEnTq83zpUAmzB.winDLEr.CO.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: mizanonline.com.tabnak.ir.snn.ir.alalamtv.net.irannewsdaily.com.presstv.ir.rajanews.com
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 02fc59ec-ceb5-4c7b-80cc-8ed7d921c91e
+      tls: true
+      servername: LonG-eNVIRoNMEnTq83zpUAmzB.winDLEr.CO.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: mizanonline.com.tabnak.ir.snn.ir.alalamtv.net.irannewsdaily.com.presstv.ir.rajanews.com
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 042c1f4d-1599-4816-b925-760cdabd5e9a
+      tls: true
+      servername: magICAl-oRder668mk9ktrM.WindLEr.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: snn.ir.kayhan.ir.entekhab.ir.yjc.ir.alalamtv.net.irandaily.ir.presstv.ir
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 042c1f4d-1599-4816-b925-760cdabd5e9a
+      tls: true
+      servername: magICAl-oRder668mk9ktrM.WindLEr.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: snn.ir.kayhan.ir.entekhab.ir.yjc.ir.alalamtv.net.irandaily.ir.presstv.ir
+-     name: vless_104.17.148.22_0
+      server: 104.17.148.22
+      port: 0
+      udp: true
+      type: vless
+      uuid: 08cb0591-5193-4a0c-9105-ceb09fba67fe
+      tls: true
+      servername: CCWtV-16202.phoenixappdatai.uk
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.17.121.253_0
+      server: 104.17.121.253
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.17.121.253_0
+      server: 104.17.121.253
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.17.121.253_0
+      server: 104.17.121.253
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-batTLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-batTLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 10be524f-e1dc-4d1c-a256-17df1399a739
+      tls: true
+      servername: loVELY-batTLeNn9IH0SniS.WInDlER.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 1867f627-be53-4367-be49-bf15534906ff
+      tls: true
+      servername: DiVERsE-assUmPtIONdhxVbDnH80.wINdLER.Co.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: parstoday.com.entekhab.ir.mizanonline.com.hamshahrionline.ir.irannewsdaily.com.financialtribune.com.parstoday.com
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 3217c0c1-240b-4c98-8e06-4c364298fc64
+      tls: true
+      servername: cd.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 3217c0c1-240b-4c98-8e06-4c364298fc64
+      tls: true
+      servername: cd.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_dk2.darknet-bot.co.uk_0
+      server: dk2.darknet-bot.co.uk
+      port: 0
+      udp: true
+      type: vless
+      uuid: 3f373e36-6363-4f3e-8ca3-0504612f490e
+      tls: true
+      alpn: [h2]
+      client-fingerprint: qq
+      network: grpc
+      grpc-opts:
+        grpc-service-name: grpc
+-     name: vless_104.17.192.0_0
+      server: 104.17.192.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+      tls: true
+      servername: asmaos.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_8.6.112.0_0
+      server: 8.6.112.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+      tls: true
+      servername: asmaos.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_8.6.112.0_0
+      server: 8.6.112.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+      tls: true
+      servername: asmaos.uk
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_178.159.10.78_0
+      server: 178.159.10.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.vodafone.co.uk
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc
+        short-id: d27683580fc15f1e
+-     name: vless_104.17.121.141_0
+      server: 104.17.121.141
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0
+      tls: true
+      servername: FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com
+-     name: vless_104.17.121.37_0
+      server: 104.17.121.37
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4e93e8e6-8cc1-4a5b-b577-3d5bcae6ada0
+      tls: true
+      servername: FAiNT-beliEFst4dReAkTi.WINdler.Co.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irdiplomacy.ir.rajanews.com.parstoday.com.donya-e-eqtesad.com.alalamtv.net.yjc.ir.tehrantimes.com
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.21.3.219_0
+      server: 104.21.3.219
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_172.67.153.156_0
+      server: 172.67.153.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_ovhwuxian.pai50288.uk_0
+      server: ovhwuxian.pai50288.uk
+      port: 0
+      udp: true
+      type: vless
+      uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+      tls: true
+      servername: ovhwuxian.pai50288.uk
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /57ba2ab1
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 60631e0f-7db6-4050-94f8-bf4127592e74
+      tls: true
+      servername: iNvigOraTEd-engInelD4f5u35Fw.wiNDLER.co.UK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: parstoday.com.alef.ir.iribnews.ir.hamshahrionline.ir.alalamtv.net.kayhan.ir.irannewsdaily.com
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 60631e0f-7db6-4050-94f8-bf4127592e74
+      tls: true
+      servername: iNvigOraTEd-engInelD4f5u35Fw.wiNDLER.co.UK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: parstoday.com.alef.ir.iribnews.ir.hamshahrionline.ir.alalamtv.net.kayhan.ir.irannewsdaily.com
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 77119a7d-31ee-44f9-b611-510ee7bc391a
+      tls: true
+      servername: simPlE-perSONOehvD9oAnI.WindleR.co.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irandaily.ir.kayhan.ir.kayhan.ir.farsnews.ir.khabaronline.ir.iribnews.ir.irandaily.ir
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: 77119a7d-31ee-44f9-b611-510ee7bc391a
+      tls: true
+      servername: simPlE-perSONOehvD9oAnI.WindleR.co.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irandaily.ir.kayhan.ir.kayhan.ir.farsnews.ir.khabaronline.ir.iribnews.ir.irandaily.ir
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: cdd3.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: cdd4.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: htz1.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: cdd3.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: cdd4.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 965f5b8b-b762-4281-bb45-60fb1e346c94
+      tls: true
+      servername: htz1.solidesign.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /home/novinser/public_html/my/modules/servers/cdnserver/cdnserver.php
+        host: ""
+-     name: vless_185.146.173.94_0
+      server: 185.146.173.94
+      port: 0
+      udp: true
+      type: vless
+      uuid: a218a675-60e4-4c61-b65b-fd565c400dc9
+      tls: true
+      servername: rsfndc1.cpiforpersia.uk
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /2sg8k6ktNBzuCJc1eh1994
+-     name: vless_185.146.173.94_0
+      server: 185.146.173.94
+      port: 0
+      udp: true
+      type: vless
+      uuid: a218a675-60e4-4c61-b65b-fd565c400dc9
+      tls: true
+      servername: rsfndc1.cpiforpersia.uk
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /2sg8k6ktNBzuCJc1eh1994
+-     name: vless_172.67.180.227_0
+      server: 172.67.180.227
+      port: 0
+      udp: true
+      type: vless
+      uuid: a8e84392-4d52-4886-afa6-76fdfaf49c86
+      tls: true
+      servername: dewuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /a8e84392
+-     name: vless_172.67.180.227_0
+      server: 172.67.180.227
+      port: 0
+      udp: true
+      type: vless
+      uuid: a8e84392-4d52-4886-afa6-76fdfaf49c86
+      tls: true
+      servername: dewuxian.pai50288.uk
+      network: ws
+      ws-opts:
+        path: /a8e84392
+-     name: vless_45.130.125.69_0
+      server: 45.130.125.69
+      port: 0
+      udp: true
+      type: vless
+      uuid: ac7f620c-d491-42a6-9462-6aa82bb7b62b
+      tls: true
+      servername: SLIPPErY-PrACtICen769XF4bDZ.winDLER.Co.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irdiplomacy.ir.tehrantimes.com.irna.ir.tasnimnews.com.ifpnews.com.tabnak.ir.donya-e-eqtesad.com
+-     name: vless_45.130.125.69_0
+      server: 45.130.125.69
+      port: 0
+      udp: true
+      type: vless
+      uuid: ac7f620c-d491-42a6-9462-6aa82bb7b62b
+      tls: true
+      servername: SLIPPErY-PrACtICen769XF4bDZ.winDLER.Co.uK
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: irdiplomacy.ir.tehrantimes.com.irna.ir.tasnimnews.com.ifpnews.com.tabnak.ir.donya-e-eqtesad.com
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8085431-275a-420e-9ca6-e0b50dbea306
+      tls: true
+      servername: ExempLaRy-inJURYxCPBPEJxRL.windlER.CO.Uk
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: ilna.news.presstv.ir.tasnimnews.com.farsnews.ir.hamshahrionline.ir.iribnews.ir.sharghdaily.com
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: d84c0e47-7575-44cb-bc05-b55de8b51ca0
+      tls: true
+      servername: hz.badomzamini.uk
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: d84c0e47-7575-44cb-bc05-b55de8b51ca0
+      tls: true
+      servername: hz.badomzamini.uk
+      network: ws
+      ws-opts:
+        path: "/latest?ed=2560"
+-     name: vless_104.26.11.194_0
+      server: 104.26.11.194
+      port: 0
+      udp: true
+      type: vless
+      uuid: e16e9768-240f-4ff2-8c29-36d220ed2aa4
+      tls: true
+      servername: msnghdfy4c2.cpiforpersia.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: BLsNlVjvcrWGqHh74mj
+-     name: vless_84.32.189.155_0
+      server: 84.32.189.155
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_84.32.189.156_0
+      server: 84.32.189.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_84.32.189.156_0
+      server: 84.32.189.156
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_84.32.189.229_0
+      server: 84.32.189.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_84.32.189.229_0
+      server: 84.32.189.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_api.ferrin.uk_0
+      server: api.ferrin.uk
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_api.ferrin.uk_0
+      server: api.ferrin.uk
+      port: 0
+      udp: true
+      type: vless
+      uuid: e7e90e6b-8069-4cb8-bad9-a3b364dd5d71
+      tls: true
+      servername: e7e90e6b.ferrin.uk
+      alpn: [h2]
+      client-fingerprint: chrome
+-     name: vless_152.236.7.12_0
+      server: 152.236.7.12
+      port: 0
+      udp: true
+      type: vless
+      uuid: f50822b7-02ec-4611-83bd-ff29411e0e10
+      tls: true
+      servername: www.bbc.co.uk
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 56QUSkgaBUAruo4LoZnfo6z6Y4CGZRTx1zdNLYKKGRk
+        short-id: 530db35e324c3aa5
+      network: grpc
+      grpc-opts:
+        grpc-service-name: api.v1.telemetry.EventStream
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [trojan_104.21.47.176_0, trojan_172.67.149.124_0, trojan_172.67.149.124_0, trojan_104.17.228.60_0, vless_104.17.121.71_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.17.148.22_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.17.121.253_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_dk2.darknet-bot.co.uk_0, vless_104.17.192.0_0, vless_8.6.112.0_0, vless_8.6.112.0_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_178.159.10.78_0, vless_104.17.121.141_0, vless_104.17.121.37_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_104.21.3.219_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_172.67.153.156_0, vless_ovhwuxian.pai50288.uk_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_104.16.6.70_0, vless_185.146.173.94_0, vless_185.146.173.94_0, vless_172.67.180.227_0, vless_172.67.180.227_0, vless_45.130.125.69_0, vless_45.130.125.69_0, vless_104.18.32.47_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_104.26.11.194_0, vless_84.32.189.155_0, vless_84.32.189.156_0, vless_84.32.189.156_0, vless_84.32.189.229_0, vless_84.32.189.229_0, vless_api.ferrin.uk_0, vless_api.ferrin.uk_0, vless_152.236.7.12_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

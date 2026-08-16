@@ -1,0 +1,131 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_31.76.24.87_0",
+      "server": "31.76.24.87",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1970a147-43a4-4f5f-b4c5-87aff80d7981",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "youtu.be",
+        "reality": {
+          "enabled": true,
+          "public_key": "xpBBGguJEPvj-6Is4iQVwI9p4XDGordKSJJt6Pij4nE",
+          "short_id": "c5e0d0b02037ed"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_31.76.24.87_0",
+      "server": "31.76.24.87",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1970a147-43a4-4f5f-b4c5-87aff80d7981",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "youtu.be",
+        "reality": {
+          "enabled": true,
+          "public_key": "xpBBGguJEPvj-6Is4iQVwI9p4XDGordKSJJt6Pij4nE",
+          "short_id": "c5e0d0b02037ed"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.66.47.97_0",
+      "server": "172.66.47.97",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ad966d2b-5d1a-4f03-9956-5cbd024a238a",
+      "tls": {
+        "enabled": true,
+        "server_name": "3.sleepzzzz.cloudns.be"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_172.66.47.97_0",
+      "server": "172.66.47.97",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ad966d2b-5d1a-4f03-9956-5cbd024a238a",
+      "tls": {
+        "enabled": true,
+        "server_name": "3.sleepzzzz.cloudns.be"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_31.76.24.87_0",
+        "vless_31.76.24.87_0",
+        "vless_172.66.47.97_0",
+        "vless_172.66.47.97_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

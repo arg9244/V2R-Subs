@@ -1,0 +1,2055 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "trojan_147.45.178.55_0",
+      "server": "147.45.178.55",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "3f9100bb94eb4b808f9f2da496472fe2",
+      "tls": {
+        "enabled": true,
+        "server_name": "thelocal.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "tag": "trojan_104.26.8.202_0",
+      "server": "104.26.8.202",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "559c3b5f-3dd1-47e4-94ad-017cb392a7ba",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "de1.trojanvpn.de"
+      }
+    },
+    {
+      "tag": "trojan_104.18.20.69_0",
+      "server": "104.18.20.69",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8b0a592f-1fee-4da0-add6-f8e108611164",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-node-oss-92.paofu.de"
+      }
+    },
+    {
+      "tag": "trojan_69.84.182.108_0",
+      "server": "69.84.182.108",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-node-oss-99.paofu.de"
+      }
+    },
+    {
+      "tag": "trojan_69.84.182.108_0",
+      "server": "69.84.182.108",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-node-oss-99.paofu.de"
+      }
+    },
+    {
+      "tag": "trojan_69.84.182.18_0",
+      "server": "69.84.182.18",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-node-oss-99.paofu.de"
+      }
+    },
+    {
+      "tag": "trojan_195.85.59.246_0",
+      "server": "195.85.59.246",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "de6c7a90-1dc7-43cf-82a1-f4bed3184a3f",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-node-oss-92.paofu.de"
+      }
+    },
+    {
+      "tag": "vless_162.159.152.4_0",
+      "server": "162.159.152.4",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_164.38.155.61_0",
+      "server": "164.38.155.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_166.62.104.61_0",
+      "server": "166.62.104.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_166.62.104.61_0",
+      "server": "166.62.104.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_185.148.106.61_0",
+      "server": "185.148.106.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_185.176.24.61_0",
+      "server": "185.176.24.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_192.169.223.61_0",
+      "server": "192.169.223.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_198.202.211.61_0",
+      "server": "198.202.211.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_77.75.199.61_0",
+      "server": "77.75.199.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_77.75.199.61_0",
+      "server": "77.75.199.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_94.247.142.61_0",
+      "server": "94.247.142.61",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "12345678-1234-1234-1234-123456789123",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_213.202.223.13_0",
+      "server": "213.202.223.13",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "163c901d-495c-42df-b6c7-82260e7f4b0c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "server.dega-it.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U",
+          "short_id": "0c2753c6d7aa5aea"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_213.202.223.13_0",
+      "server": "213.202.223.13",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "163c901d-495c-42df-b6c7-82260e7f4b0c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "server.dega-it.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U",
+          "short_id": "0c2753c6d7aa5aea"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_213.202.223.13_0",
+      "server": "213.202.223.13",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "163c901d-495c-42df-b6c7-82260e7f4b0c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "server.dega-it.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U",
+          "short_id": "0c2753c6d7aa5aea"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_79.137.207.130_0",
+      "server": "79.137.207.130",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lvz.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc",
+          "short_id": "ea7acce8b971"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_79.137.207.130_0",
+      "server": "79.137.207.130",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lvz.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc",
+          "short_id": "ea7acce8b971"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_79.137.207.130_0",
+      "server": "79.137.207.130",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lvz.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc",
+          "short_id": "ea7acce8b971"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_139.28.241.21_0",
+      "server": "139.28.241.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
+          "short_id": "312c0c39"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_139.28.241.21_0",
+      "server": "139.28.241.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
+          "short_id": "312c0c39"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_139.28.241.21_0",
+      "server": "139.28.241.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
+          "short_id": "312c0c39"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_139.28.241.21_0",
+      "server": "139.28.241.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
+          "short_id": "312c0c39"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_193.233.74.57_0",
+      "server": "193.233.74.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
+          "short_id": "89136b6e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_104.16.33.150_0",
+      "server": "104.16.33.150",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.33.150_0",
+      "server": "104.16.33.150",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.18.82.55_0",
+      "server": "104.18.82.55",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.18.82.55_0",
+      "server": "104.18.82.55",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Join---T-T"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.18.82.55_0",
+      "server": "104.18.82.55",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.18.82.55_0",
+      "server": "104.18.82.55",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.18.82.55_0",
+      "server": "104.18.82.55",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.21.90.210_0",
+      "server": "104.21.90.210",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.198_0",
+      "server": "154.218.15.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.198_0",
+      "server": "154.218.15.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.198_0",
+      "server": "154.218.15.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_162.159.152.4_0",
+      "server": "162.159.152.4",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_162.159.152.4_0",
+      "server": "162.159.152.4",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_162.159.152.53_0",
+      "server": "162.159.152.53",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_172.67.161.104_0",
+      "server": "172.67.161.104",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_198.41.208.23_0",
+      "server": "198.41.208.23",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_198.41.208.23_0",
+      "server": "198.41.208.23",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.122.175_0",
+      "server": "104.16.122.175",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "30302ff3-ea0a-460e-b056-ef4117216d55",
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.servervless.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.122.175_0",
+      "server": "104.16.122.175",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "30302ff3-ea0a-460e-b056-ef4117216d55",
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.servervless.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.124.175_0",
+      "server": "104.16.124.175",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "30302ff3-ea0a-460e-b056-ef4117216d55",
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.servervless.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.124.175_0",
+      "server": "104.16.124.175",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "30302ff3-ea0a-460e-b056-ef4117216d55",
+      "tls": {
+        "enabled": true,
+        "server_name": "usa.servervless.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.238.167.226_0",
+      "server": "104.238.167.226",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.zalando.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "Ic2uiGhkBgJUsY0CZUBqa1y22V_BO7F4S93Zgk_ir2c",
+          "short_id": "889dad4baac2436f"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.101.134.133_0",
+      "server": "151.101.134.133",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "tls": {
+        "enabled": true,
+        "server_name": "unternehmen.rossmann.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_151.101.134.133_0",
+      "server": "151.101.134.133",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "tls": {
+        "enabled": true,
+        "server_name": "unternehmen.rossmann.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.8_0",
+      "server": "27.50.48.8",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "602b380a-9fdf-4425-bc07-aae9a95cfc4b",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.8_0",
+      "server": "27.50.48.8",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "602b380a-9fdf-4425-bc07-aae9a95cfc4b",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_162.159.135.234_0",
+      "server": "162.159.135.234",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a65eeff9-e5a5-45fb-a142-2210d98bcffd",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk3.servervless.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_162.159.135.234_0",
+      "server": "162.159.135.234",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a65eeff9-e5a5-45fb-a142-2210d98bcffd",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk3.servervless.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.1_0",
+      "server": "154.218.15.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.102_0",
+      "server": "27.50.48.102",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.49.104_0",
+      "server": "27.50.49.104",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+      "server": "27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c952efd5-e3b3-4096-b1ac-dbdda8f68a15",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.hubp.de",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_138.124.186.100_0",
+      "server": "138.124.186.100",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "e346f220-4ca4-4f69-a66b-52e992b3b625",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.fh-aachen.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs"
+        }
+      }
+    },
+    {
+      "tag": "vless_138.124.53.198_0",
+      "server": "138.124.53.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "e96ffcc1-5acf-4e24-9b67-1b736a2f1c24",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amazon.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "yOIJGvYnT5qM_EFd6rsYWatUJiYMpmY_utAwN6cIT3o",
+          "short_id": "c6fb13b1add66fbe"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_138.124.53.198_0",
+      "server": "138.124.53.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "e96ffcc1-5acf-4e24-9b67-1b736a2f1c24",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amazon.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "yOIJGvYnT5qM_EFd6rsYWatUJiYMpmY_utAwN6cIT3o",
+          "short_id": "c6fb13b1add66fbe"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "trojan_147.45.178.55_0",
+        "trojan_104.26.8.202_0",
+        "trojan_104.18.20.69_0",
+        "trojan_69.84.182.108_0",
+        "trojan_69.84.182.108_0",
+        "trojan_69.84.182.18_0",
+        "trojan_195.85.59.246_0",
+        "vless_162.159.152.4_0",
+        "vless_164.38.155.61_0",
+        "vless_166.62.104.61_0",
+        "vless_166.62.104.61_0",
+        "vless_185.148.106.61_0",
+        "vless_185.176.24.61_0",
+        "vless_192.169.223.61_0",
+        "vless_198.202.211.61_0",
+        "vless_77.75.199.61_0",
+        "vless_77.75.199.61_0",
+        "vless_94.247.142.61_0",
+        "vless_213.202.223.13_0",
+        "vless_213.202.223.13_0",
+        "vless_213.202.223.13_0",
+        "vless_79.137.207.130_0",
+        "vless_79.137.207.130_0",
+        "vless_79.137.207.130_0",
+        "vless_139.28.241.21_0",
+        "vless_139.28.241.21_0",
+        "vless_139.28.241.21_0",
+        "vless_139.28.241.21_0",
+        "vless_193.233.74.57_0",
+        "vless_193.233.74.57_0",
+        "vless_193.233.74.57_0",
+        "vless_193.233.74.57_0",
+        "vless_193.233.74.57_0",
+        "vless_193.233.74.57_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_104.16.33.150_0",
+        "vless_104.16.33.150_0",
+        "vless_104.18.82.55_0",
+        "vless_104.18.82.55_0",
+        "vless_104.18.82.55_0",
+        "vless_104.18.82.55_0",
+        "vless_104.18.82.55_0",
+        "vless_104.21.90.210_0",
+        "vless_154.218.15.198_0",
+        "vless_154.218.15.198_0",
+        "vless_154.218.15.198_0",
+        "vless_162.159.152.4_0",
+        "vless_162.159.152.4_0",
+        "vless_162.159.152.53_0",
+        "vless_172.67.161.104_0",
+        "vless_198.41.208.23_0",
+        "vless_198.41.208.23_0",
+        "vless_104.16.122.175_0",
+        "vless_104.16.122.175_0",
+        "vless_104.16.124.175_0",
+        "vless_104.16.124.175_0",
+        "vless_104.238.167.226_0",
+        "vless_151.101.134.133_0",
+        "vless_151.101.134.133_0",
+        "vless_27.50.48.8_0",
+        "vless_27.50.48.8_0",
+        "vless_162.159.135.234_0",
+        "vless_162.159.135.234_0",
+        "vless_154.218.15.1_0",
+        "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.48.102_0",
+        "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.49.104_0",
+        "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+        "vless_138.124.186.100_0",
+        "vless_138.124.53.198_0",
+        "vless_138.124.53.198_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

@@ -1,0 +1,190 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: ss_172.67.129.226_80
+      server: 172.67.129.226
+      port: 80
+      udp: true
+      type: ss
+      cipher: 2022-blake3-aes-128-gcm
+      password: "YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng=="
+-     name: ss_193.29.139.234_8080
+      server: 193.29.139.234
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 4a2rfixophdjffa8KVA4Aa
+-     name: ss_209.46.102.22_8388
+      server: 209.46.102.22
+      port: 8388
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 1hhrqrokj3ag
+-     name: ss_89.125.33.16_1234
+      server: 89.125.33.16
+      port: 1234
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 36-MSsmwqV497atZ2dngqyJegd2kT6gf
+-     name: ss_157.22.240.141_57925
+      server: 157.22.240.141
+      port: 57925
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 3JB91l5ol2HvkPUduw2hj4
+-     name: ss_212.193.6.27_234
+      server: 212.193.6.27
+      port: 234
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 3jh4AaJTlphrzU7THNjvY05I5dyO8rw6
+-     name: ss_217.28.129.81_42982
+      server: 217.28.129.81
+      port: 42982
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+-     name: ss_142.4.216.225_443
+      server: 142.4.216.225
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: ytw2awn
+-     name: ss_ca225.vpnbook.com_443
+      server: ca225.vpnbook.com
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: ytw2awn
+-     name: ss_91.208.75.251_3478
+      server: 91.208.75.251
+      port: 3478
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: yu2XnSPWhmQjxn83iJA3DA
+-     name: ss_108.181.58.239_8388
+      server: 108.181.58.239
+      port: 8388
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: CJmTCCx7Ltud
+-     name: ss_130.49.189.158_10792
+      server: 130.49.189.158
+      port: 10792
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: ETUOOQTpdrrKln72UYxwio
+-     name: ss_193.29.139.212_8080
+      server: 193.29.139.212
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: QCXDxuDlTTMD7jtgHUjIoj
+-     name: ss_45.77.232.213_15675
+      server: 45.77.232.213
+      port: 15675
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+-     name: ss_31.76.30.79_10808
+      server: 31.76.30.79
+      port: 10808
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: TmXSpcRBbhvHDg66bo2w89bToxQsbMoa
+-     name: ss_194.61.121.93_7538
+      server: 194.61.121.93
+      port: 7538
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: U9YAoqBgg5VyGBc6vQv1sN
+-     name: ss_108.181.121.226_8388
+      server: 108.181.121.226
+      port: 8388
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: WSyL4XTwNsdv
+-     name: ss_130.49.189.158_10792
+      server: 130.49.189.158
+      port: 10792
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: WR5Ho8vVqnDaH49WLh98Nc
+-     name: ss_146.70.128.108_1080
+      server: 146.70.128.108
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: XF0klw7870vXn3uQIxe19Q
+-     name: ss_193.42.38.209_1080
+      server: 193.42.38.209
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: XF0klw7870vXn3uQIxe19Q
+-     name: ss_194.187.251.2_1080
+      server: 194.187.251.2
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: XF0klw7870vXn3uQIxe19Q
+-     name: ss_31.210.78.66_1080
+      server: 31.210.78.66
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: XF0klw7870vXn3uQIxe19Q
+-     name: ss_68.168.114.238_1080
+      server: 68.168.114.238
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: XF0klw7870vXn3uQIxe19Q
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [ss_172.67.129.226_80, ss_193.29.139.234_8080, ss_209.46.102.22_8388, ss_89.125.33.16_1234, ss_157.22.240.141_57925, ss_212.193.6.27_234, ss_217.28.129.81_42982, ss_142.4.216.225_443, ss_ca225.vpnbook.com_443, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_130.49.189.158_10792, ss_193.29.139.212_8080, ss_45.77.232.213_15675, ss_31.76.30.79_10808, ss_194.61.121.93_7538, ss_108.181.121.226_8388, ss_130.49.189.158_10792, ss_146.70.128.108_1080, ss_193.42.38.209_1080, ss_194.187.251.2_1080, ss_31.210.78.66_1080, ss_68.168.114.238_1080]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

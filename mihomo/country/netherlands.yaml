@@ -1,0 +1,42 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_5.180.97.201_0
+      server: 5.180.97.201
+      port: 0
+      udp: true
+      type: vless
+      uuid: 96a59dc3-226d-475c-89c5-3ef74d7f84a7
+      flow: xtls-rprx-vision
+      tls: true
+      servername: ftp.snt.utwente.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s
+        short-id: ""
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_5.180.97.201_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

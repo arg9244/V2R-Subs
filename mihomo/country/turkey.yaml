@@ -1,0 +1,230 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_162.159.136.234_0
+      server: 162.159.136.234
+      port: 0
+      udp: true
+      type: vless
+      uuid: 01970283-51b9-4ad4-96ef-9dfc8ee3dd74
+      tls: true
+      servername: sub1.ailreza.org.tr
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 2053vless
+-     name: vless_162.159.136.234_0
+      server: 162.159.136.234
+      port: 0
+      udp: true
+      type: vless
+      uuid: 01970283-51b9-4ad4-96ef-9dfc8ee3dd74
+      tls: true
+      servername: sub1.ailreza.org.tr
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 2053vless
+-     name: vless_194.76.18.253_0
+      server: 194.76.18.253
+      port: 0
+      udp: true
+      type: vless
+      uuid: 01970283-51b9-4ad4-96ef-9dfc8ee3dd74
+      tls: true
+      servername: qauuf2.telzirrr.com.tr
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 👨‍🚀Free👨‍🚀
+-     name: vless_194.76.18.253_0
+      server: 194.76.18.253
+      port: 0
+      udp: true
+      type: vless
+      uuid: 01970283-51b9-4ad4-96ef-9dfc8ee3dd74
+      tls: true
+      servername: qauuf2.telzirrr.com.tr
+      client-fingerprint: chrome
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 👨‍🚀Free👨‍🚀
+-     name: vless_83.217.9.220_0
+      server: 83.217.9.220
+      port: 0
+      udp: true
+      type: vless
+      uuid: 15c75de9a09149d0bf0393d855a98082
+      tls: true
+      servername: transfermarkt.com.tr
+      client-fingerprint: random
+      reality-opts:
+        public-key: 88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_83.217.9.220_0
+      server: 83.217.9.220
+      port: 0
+      udp: true
+      type: vless
+      uuid: 15c75de9a09149d0bf0393d855a98082
+      tls: true
+      servername: transfermarkt.com.tr
+      client-fingerprint: random
+      reality-opts:
+        public-key: 88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_104.26.1.117_0
+      server: 104.26.1.117
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4841ad88-0bad-45c4-a3d6-d64d60493983
+      tls: true
+      servername: mah.ailreza.org.tr
+      network: grpc
+      grpc-opts:
+        grpc-service-name: "telegramchannel-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy"
+-     name: vless_104.26.1.117_0
+      server: 104.26.1.117
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4841ad88-0bad-45c4-a3d6-d64d60493983
+      tls: true
+      servername: mah.ailreza.org.tr
+      network: grpc
+      grpc-opts:
+        grpc-service-name: "telegramchannel-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy"
+-     name: vless_104.16.72.70_0
+      server: 104.16.72.70
+      port: 0
+      udp: true
+      type: vless
+      uuid: 539dccf8-7ad6-4787-bb6c-c416b896ecaf
+      tls: true
+      servername: ssl.myblog.org.tr
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b
+      tls: true
+      servername: de.mrtech.com.tr
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b
+      tls: true
+      servername: de.mrtech.com.tr
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_45.130.125.76_0
+      server: 45.130.125.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: b37be529-83c9-4851-a3cf-73d7d05bf308
+      tls: true
+      servername: drrfddgbv.turbooserver.net.tr
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: drrfddgbv.turbooserver.net.tr
+-     name: vless_45.130.125.76_0
+      server: 45.130.125.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: b37be529-83c9-4851-a3cf-73d7d05bf308
+      tls: true
+      servername: drrfddgbv.turbooserver.net.tr
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: drrfddgbv.turbooserver.net.tr
+-     name: vless_45.130.125.76_0
+      server: 45.130.125.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: b37be529-83c9-4851-a3cf-73d7d05bf308
+      tls: true
+      servername: drrfddgbv.turbooserver.net.tr
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_185.126.67.62_0
+      server: 185.126.67.62
+      port: 0
+      udp: true
+      type: vless
+      uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yandex.tr
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: bznxDyVAgreLsIqhgTJpay4Lqhmjf03LHe8npFjn6TE
+        short-id: ""
+-     name: vless_185.126.67.62_0
+      server: 185.126.67.62
+      port: 0
+      udp: true
+      type: vless
+      uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yandex.tr
+      reality-opts:
+        public-key: bznxDyVAgreLsIqhgTJpay4Lqhmjf03LHe8npFjn6TE
+        short-id: ""
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_162.159.136.234_0, vless_162.159.136.234_0, vless_194.76.18.253_0, vless_194.76.18.253_0, vless_83.217.9.220_0, vless_83.217.9.220_0, vless_104.26.1.117_0, vless_104.26.1.117_0, vless_104.16.72.70_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_185.126.67.62_0, vless_185.126.67.62_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

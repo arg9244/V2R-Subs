@@ -1,0 +1,586 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_162.159.136.234_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.136.234",
+        "port": 0,
+        "id": "01970283-51b9-4ad4-96ef-9dfc8ee3dd74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sub1.ailreza.org.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "2053vless"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.136.234_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.136.234",
+        "port": 0,
+        "id": "01970283-51b9-4ad4-96ef-9dfc8ee3dd74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sub1.ailreza.org.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "2053vless"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.76.18.253_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.76.18.253",
+        "port": 0,
+        "id": "01970283-51b9-4ad4-96ef-9dfc8ee3dd74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "qauuf2.telzirrr.com.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "👨‍🚀Free👨‍🚀"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.76.18.253_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.76.18.253",
+        "port": 0,
+        "id": "01970283-51b9-4ad4-96ef-9dfc8ee3dd74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "qauuf2.telzirrr.com.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "👨‍🚀Free👨‍🚀"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_83.217.9.220_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "83.217.9.220",
+        "port": 0,
+        "id": "15c75de9a09149d0bf0393d855a98082",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "transfermarkt.com.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU",
+            "shortId": "aabbccdd"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_83.217.9.220_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "83.217.9.220",
+        "port": 0,
+        "id": "15c75de9a09149d0bf0393d855a98082",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "transfermarkt.com.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU",
+            "shortId": "aabbccdd"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.26.1.117_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.26.1.117",
+        "port": 0,
+        "id": "4841ad88-0bad-45c4-a3d6-d64d60493983",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mah.ailreza.org.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "telegramchannel-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.26.1.117_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.26.1.117",
+        "port": 0,
+        "id": "4841ad88-0bad-45c4-a3d6-d64d60493983",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mah.ailreza.org.tr",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "telegramchannel-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy-@free_v2rayyy"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.72.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.72.70",
+        "port": 0,
+        "id": "539dccf8-7ad6-4787-bb6c-c416b896ecaf",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ssl.myblog.org.tr",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.32.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.32.47",
+        "port": 0,
+        "id": "a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de.mrtech.com.tr",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.32.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.32.47",
+        "port": 0,
+        "id": "a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de.mrtech.com.tr",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.130.125.76_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.130.125.76",
+        "port": 0,
+        "id": "b37be529-83c9-4851-a3cf-73d7d05bf308",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "drrfddgbv.turbooserver.net.tr",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.130.125.76_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.130.125.76",
+        "port": 0,
+        "id": "b37be529-83c9-4851-a3cf-73d7d05bf308",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "drrfddgbv.turbooserver.net.tr",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.130.125.76_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.130.125.76",
+        "port": 0,
+        "id": "b37be529-83c9-4851-a3cf-73d7d05bf308",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "drrfddgbv.turbooserver.net.tr",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.126.67.62_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.126.67.62",
+        "port": 0,
+        "id": "c46e2605-be24-4555-b7db-0fc6773ad004",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "yandex.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "bznxDyVAgreLsIqhgTJpay4Lqhmjf03LHe8npFjn6TE"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_185.126.67.62_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "185.126.67.62",
+        "port": 0,
+        "id": "c46e2605-be24-4555-b7db-0fc6773ad004",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "yandex.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "bznxDyVAgreLsIqhgTJpay4Lqhmjf03LHe8npFjn6TE"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_162.159.136.234_0",
+          "vless_162.159.136.234_0",
+          "vless_194.76.18.253_0",
+          "vless_194.76.18.253_0",
+          "vless_83.217.9.220_0",
+          "vless_83.217.9.220_0",
+          "vless_104.26.1.117_0",
+          "vless_104.26.1.117_0",
+          "vless_104.16.72.70_0",
+          "vless_104.18.32.47_0",
+          "vless_104.18.32.47_0",
+          "vless_45.130.125.76_0",
+          "vless_45.130.125.76_0",
+          "vless_45.130.125.76_0",
+          "vless_185.126.67.62_0",
+          "vless_185.126.67.62_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

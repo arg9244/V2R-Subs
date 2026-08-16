@@ -1,0 +1,1545 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "ss_104.156.233.234_27116",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "104.156.233.234",
+        "port": 27116,
+        "method": "chacha20-ietf-poly1305",
+        "password": "bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_198.98.53.130_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "198.98.53.130",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "eDfN7SODQceIOmIAbtJJtK",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_144.31.168.176_45640",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "144.31.168.176",
+        "port": 45640,
+        "method": "chacha20-ietf-poly1305",
+        "password": "eQvKkykBEbCky5p4BVghO0",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_156.146.40.84_1080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "156.146.40.84",
+        "port": 1080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "gelwvU9mUR0orEFS5D6u7A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_194.54.80.37_1080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "194.54.80.37",
+        "port": 1080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "gelwvU9mUR0orEFS5D6u7A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_135.136.33.134_1080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "135.136.33.134",
+        "port": 1080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "gelwvU9mUR0orEFS5D6u7A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.176_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.176",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1dBOmOB4oqi7Ump37a1bQ",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.199_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.199",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1dBOmOB4oqi7Ump37a1bQ",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.201_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.201",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1dBOmOB4oqi7Ump37a1bQ",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_57.129.140.88_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "57.129.140.88",
+        "port": 8388,
+        "method": "chacha20-ietf-poly1305",
+        "password": "k1v5g9FefdoO",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.129_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.129",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.129_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.129",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.151_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.151",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.204_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.204",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.225_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.225",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.225_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.225",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.235_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.235",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.235_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.235",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.230_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.230",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_193.29.139.230_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "193.29.139.230",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.149_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.149",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.149_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.149",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.164_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.164",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.164_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.164",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.16_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.16",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.175_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.175",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.17_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.17",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.17_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.17",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.18_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.18",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.18_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.18",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.11_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.11",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.26_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.26",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.28_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.28",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.35_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.35",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.35_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.35",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.36_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.36",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.48_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.48",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.42_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.42",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.7_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.7",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.7_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.7",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_82.38.31.9_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.9",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_23.150.248.20_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "23.150.248.20",
+        "port": 8388,
+        "method": "chacha20-ietf-poly1305",
+        "password": "qB2Cv9VIlujj",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_140.174.184.5_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "140.174.184.5",
+        "port": 8388,
+        "method": "chacha20-ietf-poly1305",
+        "password": "qItG8SueYQcP",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_107.174.201.177_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "107.174.201.177",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "34829734-b1cc-45e4-a0fa-66c98dd2b1d5",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_107.174.201.177_30001",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "107.174.201.177",
+        "port": 30001,
+        "method": "aes-128-gcm",
+        "password": "34829734-b1cc-45e4-a0fa-66c98dd2b1d5",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_149.22.95.183_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "149.22.95.183",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_158.173.20.208_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "158.173.20.208",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_158.173.24.73_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "158.173.24.73",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.160_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.160",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.243_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.243",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.244_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.244",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_45.140.169.123_20801",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "45.140.169.123",
+        "port": 20801,
+        "method": "aes-256-gcm",
+        "password": "6b39ae3234dfd68b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_212.192.15.41_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "212.192.15.41",
+        "port": 8388,
+        "method": "aes-256-gcm",
+        "password": "IjLjlHbNCgw2D4dV",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_8091",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 8091,
+        "method": "aes-256-gcm",
+        "password": "PCnnH6SQSnfoS27",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_149.104.107.41_8090",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "149.104.107.41",
+        "port": 8090,
+        "method": "aes-256-gcm",
+        "password": "PCnnH6SQSnfoS27",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_7001",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 7001,
+        "method": "aes-256-gcm",
+        "password": "RexnBgU7EV5ADxG",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_7002",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 7002,
+        "method": "aes-256-gcm",
+        "password": "RexnBgU7EV5ADxG",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_213.202.208.199_7001",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "213.202.208.199",
+        "port": 7001,
+        "method": "aes-256-gcm",
+        "password": "RexnBgU7EV5ADxG",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_94.156.250.148_7001",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "94.156.250.148",
+        "port": 7001,
+        "method": "aes-256-gcm",
+        "password": "RexnBgU7EV5ADxG",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_6679",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 6679,
+        "method": "aes-256-gcm",
+        "password": "TEzjfAYq2IjtuoS",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_8888",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 8888,
+        "method": "aes-256-gcm",
+        "password": "Y6R9pAtvxxzmGC",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_92.118.205.211_5600",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "92.118.205.211",
+        "port": 5600,
+        "method": "aes-256-gcm",
+        "password": "Y6R9pAtvxxzmGC",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_8119",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 8119,
+        "method": "aes-256-gcm",
+        "password": "cdBIDV42DCwnfIN",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_46.17.40.234_20230",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "46.17.40.234",
+        "port": 20230,
+        "method": "aes-256-gcm",
+        "password": "bdb313adf74c2ede",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_45.207.207.25_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "45.207.207.25",
+        "port": 443,
+        "method": "aes-256-gcm",
+        "password": "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_194.87.47.204_10901",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "194.87.47.204",
+        "port": 10901,
+        "method": "aes-256-gcm",
+        "password": "d1fa2f4b98a38bc8",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_195.133.23.5_20810",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "195.133.23.5",
+        "port": 20810,
+        "method": "aes-256-gcm",
+        "password": "d99c422199e62b6b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_9101",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 9101,
+        "method": "aes-256-gcm",
+        "password": "e4FCWrgpkji3QY",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_15.204.247.124_2375",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "15.204.247.124",
+        "port": 2375,
+        "method": "aes-256-gcm",
+        "password": "faBAoD54k87UJG7",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_166.88.130.218_30331",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "166.88.130.218",
+        "port": 30331,
+        "method": "aes-256-gcm",
+        "password": "fbcec76953a2d173",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_149.104.109.252_8882",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "149.104.109.252",
+        "port": 8882,
+        "method": "aes-256-gcm",
+        "password": "kDWvXYZoTBcGkC4",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_141.164.45.187_5498",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "141.164.45.187",
+        "port": 5498,
+        "method": "aes-256-gcm",
+        "password": "lGqs95QkFHo2NV",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_192.124.176.58_8388",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "192.124.176.58",
+        "port": 8388,
+        "method": "aes-256-gcm",
+        "password": "pK0nVdoC3L9k6phm",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_51.222.12.127_445",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "51.222.12.127",
+        "port": 445,
+        "method": "aes-256-gcm",
+        "password": "zDNVedRFPQexG9v",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "ss_104.156.233.234_27116",
+          "ss_198.98.53.130_443",
+          "ss_144.31.168.176_45640",
+          "ss_156.146.40.84_1080",
+          "ss_194.54.80.37_1080",
+          "ss_135.136.33.134_1080",
+          "ss_82.38.31.176_8080",
+          "ss_82.38.31.199_8080",
+          "ss_82.38.31.201_8080",
+          "ss_57.129.140.88_8388",
+          "ss_193.29.139.129_443",
+          "ss_193.29.139.129_8080",
+          "ss_193.29.139.151_8080",
+          "ss_193.29.139.204_8080",
+          "ss_193.29.139.225_443",
+          "ss_193.29.139.225_8080",
+          "ss_193.29.139.235_443",
+          "ss_193.29.139.235_8080",
+          "ss_193.29.139.230_443",
+          "ss_193.29.139.230_8080",
+          "ss_82.38.31.149_443",
+          "ss_82.38.31.149_8080",
+          "ss_82.38.31.164_443",
+          "ss_82.38.31.164_8080",
+          "ss_82.38.31.16_8080",
+          "ss_82.38.31.175_8080",
+          "ss_82.38.31.17_443",
+          "ss_82.38.31.17_8080",
+          "ss_82.38.31.18_443",
+          "ss_82.38.31.18_8080",
+          "ss_82.38.31.11_8080",
+          "ss_82.38.31.26_443",
+          "ss_82.38.31.28_8080",
+          "ss_82.38.31.35_443",
+          "ss_82.38.31.35_8080",
+          "ss_82.38.31.36_8080",
+          "ss_82.38.31.48_443",
+          "ss_82.38.31.42_8080",
+          "ss_82.38.31.7_8080",
+          "ss_82.38.31.7_8080",
+          "ss_82.38.31.9_8080",
+          "ss_23.150.248.20_8388",
+          "ss_140.174.184.5_8388",
+          "ss_107.174.201.177_443",
+          "ss_107.174.201.177_30001",
+          "ss_149.22.95.183_443",
+          "ss_158.173.20.208_443",
+          "ss_158.173.24.73_443",
+          "ss_37.19.198.160_443",
+          "ss_37.19.198.243_443",
+          "ss_37.19.198.244_443",
+          "ss_45.140.169.123_20801",
+          "ss_212.192.15.41_8388",
+          "ss_141.164.45.187_8091",
+          "ss_149.104.107.41_8090",
+          "ss_141.164.45.187_7001",
+          "ss_141.164.45.187_7002",
+          "ss_213.202.208.199_7001",
+          "ss_94.156.250.148_7001",
+          "ss_141.164.45.187_6679",
+          "ss_141.164.45.187_8888",
+          "ss_92.118.205.211_5600",
+          "ss_141.164.45.187_8119",
+          "ss_46.17.40.234_20230",
+          "ss_45.207.207.25_443",
+          "ss_194.87.47.204_10901",
+          "ss_195.133.23.5_20810",
+          "ss_141.164.45.187_9101",
+          "ss_15.204.247.124_2375",
+          "ss_166.88.130.218_30331",
+          "ss_149.104.109.252_8882",
+          "ss_141.164.45.187_5498",
+          "ss_192.124.176.58_8388",
+          "ss_51.222.12.127_445"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}
