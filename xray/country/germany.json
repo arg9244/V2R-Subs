@@ -534,7 +534,7 @@
             "shortId": "0c2753c6d7aa5aea"
           }
         },
-        "network": "tcp"
+        "network": "raw"
       },
       "mux": {
         "enabled": true,
@@ -570,6 +570,33 @@
       }
     },
     {
+      "tag": "vless_213.202.223.13_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "213.202.223.13",
+        "port": 0,
+        "id": "163c901d-495c-42df-b6c7-82260e7f4b0c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "server.dega-it.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U",
+            "shortId": "0c2753c6d7aa5aea"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_79.137.207.130_0",
       "protocol": "vless",
       "settings": {
@@ -647,124 +674,6 @@
           }
         },
         "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_139.28.241.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "139.28.241.21",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
-            "shortId": "312c0c39"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_139.28.241.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "139.28.241.21",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
-            "shortId": "312c0c39"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_139.28.241.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "139.28.241.21",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
-            "shortId": "312c0c39"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_139.28.241.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "139.28.241.21",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs",
-            "shortId": "312c0c39"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
       },
       "mux": {
         "enabled": true,
@@ -921,10 +830,10 @@
       }
     },
     {
-      "tag": "vless_193.233.74.57_0",
+      "tag": "vless_217.60.68.57_0",
       "protocol": "vless",
       "settings": {
-        "address": "193.233.74.57",
+        "address": "217.60.68.57",
         "port": 0,
         "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
         "tls": "tls"
@@ -932,17 +841,14 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.telekom.de",
+          "serverName": "kleinanzeigen.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js",
-            "shortId": "89136b6e"
+            "publicKey": "aWwb-BLCzgdpTj00XtIKKqzx67RsT-tYK4X96xVLVgY",
+            "shortId": "12fd25da"
           }
         },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -1010,59 +916,6 @@
         "port": 0,
         "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
         "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
-            "shortId": "8f892fa1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.156.155.27_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.156.155.27",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
-            "shortId": "8f892fa1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.156.155.27_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.156.155.27",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls",
-        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -1106,6 +959,38 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.33.150_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.33.150",
+        "port": 0,
+        "id": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless.hubp.de",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
         }
       },
       "mux": {
@@ -1436,32 +1321,6 @@
       }
     },
     {
-      "tag": "vless_162.159.152.4_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "162.159.152.4",
-        "port": 0,
-        "id": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vless.hubp.de",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_162.159.152.53_0",
       "protocol": "vless",
       "settings": {
@@ -1573,6 +1432,37 @@
         "network": "ws",
         "wsSettings": {
           "path": "/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_chatgpt.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "chatgpt.com",
+        "port": 0,
+        "id": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless.hubp.de",
+          "alpn": {
+            "alpn": [
+              "h3"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
         }
       },
       "mux": {
@@ -2232,6 +2122,62 @@
       }
     },
     {
+      "tag": "vless_213.202.223.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "213.202.223.43",
+        "port": 0,
+        "id": "c9614523-ce59-4414-8e4b-012c1fd50139",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_213.202.223.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "213.202.223.43",
+        "port": 0,
+        "id": "c9614523-ce59-4414-8e4b-012c1fd50139",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_138.124.186.100_0",
       "protocol": "vless",
       "settings": {
@@ -2377,24 +2323,20 @@
           "vless_213.202.223.13_0",
           "vless_213.202.223.13_0",
           "vless_213.202.223.13_0",
+          "vless_213.202.223.13_0",
           "vless_79.137.207.130_0",
           "vless_79.137.207.130_0",
           "vless_79.137.207.130_0",
-          "vless_139.28.241.21_0",
-          "vless_139.28.241.21_0",
-          "vless_139.28.241.21_0",
-          "vless_139.28.241.21_0",
           "vless_193.233.74.57_0",
           "vless_193.233.74.57_0",
           "vless_193.233.74.57_0",
           "vless_193.233.74.57_0",
           "vless_193.233.74.57_0",
-          "vless_193.233.74.57_0",
+          "vless_217.60.68.57_0",
           "vless_94.156.155.27_0",
           "vless_94.156.155.27_0",
           "vless_94.156.155.27_0",
-          "vless_94.156.155.27_0",
-          "vless_94.156.155.27_0",
+          "vless_104.16.33.150_0",
           "vless_104.16.33.150_0",
           "vless_104.16.33.150_0",
           "vless_104.18.82.55_0",
@@ -2407,11 +2349,11 @@
           "vless_154.218.15.198_0",
           "vless_154.218.15.198_0",
           "vless_162.159.152.4_0",
-          "vless_162.159.152.4_0",
           "vless_162.159.152.53_0",
           "vless_172.67.161.104_0",
           "vless_198.41.208.23_0",
           "vless_198.41.208.23_0",
+          "vless_chatgpt.com_0",
           "vless_104.16.122.175_0",
           "vless_104.16.122.175_0",
           "vless_104.16.124.175_0",
@@ -2434,6 +2376,8 @@
           "vless_27.50.49.104_0",
           "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
           "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
+          "vless_213.202.223.43_0",
+          "vless_213.202.223.43_0",
           "vless_138.124.186.100_0",
           "vless_138.124.53.198_0",
           "vless_138.124.53.198_0"

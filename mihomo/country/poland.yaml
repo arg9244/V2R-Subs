@@ -10,32 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_45.140.204.182_0
-      server: 45.140.204.182
-      port: 0
-      udp: true
-      type: vless
-      uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-      flow: xtls-rprx-vision
-      tls: true
-      servername: wp.pl
-      client-fingerprint: qq
-      reality-opts:
-        public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-        short-id: e852dc
--     name: vless_45.140.204.182_0
-      server: 45.140.204.182
-      port: 0
-      udp: true
-      type: vless
-      uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-      flow: xtls-rprx-vision
-      tls: true
-      servername: wp.pl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-        short-id: e852dc
 -     name: vless_149.50.105.117_0
       server: 149.50.105.117
       port: 0
@@ -49,23 +23,10 @@ proxies:
       reality-opts:
         public-key: XtWTCj41yTTGvlJus3UDor9Xm1jx6DcJ-hr1RdsbmU4
         short-id: 98673629c44f40c0
--     name: vless_45.140.204.181_0
-      server: 45.140.204.181
-      port: 0
-      udp: true
-      type: vless
-      uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-      flow: xtls-rprx-vision
-      tls: true
-      servername: wp.pl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-        short-id: e852dc
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_45.140.204.182_0, vless_45.140.204.182_0, vless_149.50.105.117_0, vless_45.140.204.181_0]
+      proxies: [vless_149.50.105.117_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

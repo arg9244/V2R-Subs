@@ -53,31 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_xn--b6gac.eu.org_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "xn--b6gac.eu.org",
-        "port": 0,
-        "id": "092b1abd-0c6f-450c-a164-c1996e2dc65c",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vps.azheng.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/092b1abd-vl"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_2.26.8.55_0",
       "protocol": "vless",
       "settings": {
@@ -1387,32 +1362,6 @@
         "tlsSettings": {
           "serverName": "sni.111000.indevs.in",
           "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.66.47.69_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.66.47.69",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": true
         },
         "network": "ws",
         "wsSettings": {
@@ -2993,7 +2942,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_xn--b6gac.eu.org_0",
           "vless_2.26.8.55_0",
           "vless_2.26.8.55_0",
           "vless_103.100.158.202_0",
@@ -3044,7 +2992,6 @@
           "vless_172.64.149.54_0",
           "vless_172.64.149.54_0",
           "vless_172.64.155.209_0",
-          "vless_172.66.47.69_0",
           "vless_172.66.47.69_0",
           "vless_176.124.223.138_0",
           "vless_176.96.138.17_0",

@@ -13,6 +13,27 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_103.195.236.24_0",
+      "server": "103.195.236.24",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "b9017c27-d527-420c-933b-ba6a19825a13",
+      "tls": {
+        "enabled": true,
+        "server_name": "mzy.hruqoaw.cn",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_42.236.73.72_0",
       "server": "42.236.73.72",
       "server_port": 0,
@@ -132,10 +153,32 @@
       }
     },
     {
+      "tag": "vless_84.32.99.238_0",
+      "server": "84.32.99.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+      "tls": {
+        "enabled": true,
+        "server_name": "recaptcha.net.cn",
+        "reality": {
+          "enabled": true,
+          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/api/v1/data"
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_103.195.236.24_0",
         "trojan_42.236.73.72_0",
+        "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",

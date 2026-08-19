@@ -10,13 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: ss_172.67.129.226_80
-      server: 172.67.129.226
-      port: 80
-      udp: true
-      type: ss
-      cipher: 2022-blake3-aes-128-gcm
-      password: "YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng=="
 -     name: ss_193.29.139.234_8080
       server: 193.29.139.234
       port: 8080
@@ -24,6 +17,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 4a2rfixophdjffa8KVA4Aa
+-     name: ss_3.75.179.86_443
+      server: 3.75.179.86
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: 8af226b7726f4d4cb5c72fe3b57050f0
 -     name: ss_209.46.102.22_8388
       server: 209.46.102.22
       port: 8388
@@ -31,13 +31,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 1hhrqrokj3ag
--     name: ss_89.125.33.16_1234
-      server: 89.125.33.16
-      port: 1234
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: 36-MSsmwqV497atZ2dngqyJegd2kT6gf
 -     name: ss_157.22.240.141_57925
       server: 157.22.240.141
       port: 57925
@@ -45,15 +38,15 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 3JB91l5ol2HvkPUduw2hj4
--     name: ss_212.193.6.27_234
-      server: 212.193.6.27
-      port: 234
+-     name: ss_217.28.129.81_42982
+      server: 217.28.129.81
+      port: 42982
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 3jh4AaJTlphrzU7THNjvY05I5dyO8rw6
--     name: ss_217.28.129.81_42982
-      server: 217.28.129.81
+      password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+-     name: ss_autodiscover.fuzzyaytor.cyou_42982
+      server: autodiscover.fuzzyaytor.cyou
       port: 42982
       udp: true
       type: ss
@@ -94,6 +87,20 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: ETUOOQTpdrrKln72UYxwio
+-     name: ss_193.188.21.165_8390
+      server: 193.188.21.165
+      port: 8390
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: EyGy11BMfeP-6UHjsgajWw
+-     name: ss_178.236.240.22_1080
+      server: 178.236.240.22
+      port: 1080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: PuqKLhgI82VU0lKCGFpNLQ
 -     name: ss_193.29.139.212_8080
       server: 193.29.139.212
       port: 8080
@@ -136,6 +143,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: WR5Ho8vVqnDaH49WLh98Nc
+-     name: ss_108.61.223.231_443
+      server: 108.61.223.231
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: WbEN0g6Rbnsye8EJZz94OF
 -     name: ss_146.70.128.108_1080
       server: 146.70.128.108
       port: 1080
@@ -171,10 +185,31 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: XF0klw7870vXn3uQIxe19Q
+-     name: ss_creativeboxvpnf.zanity.net_5223
+      server: creativeboxvpnf.zanity.net
+      port: 5223
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: YwkJ1ViArbK6AZBCyjEC2p
+-     name: ss_104.156.233.234_27116
+      server: 104.156.233.234
+      port: 27116
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+-     name: ss_198.98.53.130_443
+      server: 198.98.53.130
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: eDfN7SODQceIOmIAbtJJtK
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_172.67.129.226_80, ss_193.29.139.234_8080, ss_209.46.102.22_8388, ss_89.125.33.16_1234, ss_157.22.240.141_57925, ss_212.193.6.27_234, ss_217.28.129.81_42982, ss_142.4.216.225_443, ss_ca225.vpnbook.com_443, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_130.49.189.158_10792, ss_193.29.139.212_8080, ss_45.77.232.213_15675, ss_31.76.30.79_10808, ss_194.61.121.93_7538, ss_108.181.121.226_8388, ss_130.49.189.158_10792, ss_146.70.128.108_1080, ss_193.42.38.209_1080, ss_194.187.251.2_1080, ss_31.210.78.66_1080, ss_68.168.114.238_1080]
+      proxies: [ss_193.29.139.234_8080, ss_3.75.179.86_443, ss_209.46.102.22_8388, ss_157.22.240.141_57925, ss_217.28.129.81_42982, ss_autodiscover.fuzzyaytor.cyou_42982, ss_142.4.216.225_443, ss_ca225.vpnbook.com_443, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_130.49.189.158_10792, ss_193.188.21.165_8390, ss_178.236.240.22_1080, ss_193.29.139.212_8080, ss_45.77.232.213_15675, ss_31.76.30.79_10808, ss_194.61.121.93_7538, ss_108.181.121.226_8388, ss_130.49.189.158_10792, ss_108.61.223.231_443, ss_146.70.128.108_1080, ss_193.42.38.209_1080, ss_194.187.251.2_1080, ss_31.210.78.66_1080, ss_68.168.114.238_1080, ss_creativeboxvpnf.zanity.net_5223, ss_104.156.233.234_27116, ss_198.98.53.130_443]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

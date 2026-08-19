@@ -228,6 +228,19 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: server.dega-it.de
+      client-fingerprint: safari
+      reality-opts:
+        public-key: Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U
+        short-id: 0c2753c6d7aa5aea
+-     name: vless_213.202.223.13_0
+      server: 213.202.223.13
+      port: 0
+      udp: true
+      type: vless
+      uuid: 163c901d-495c-42df-b6c7-82260e7f4b0c
+      flow: xtls-rprx-vision
+      tls: true
+      servername: server.dega-it.de
       client-fingerprint: chrome
       reality-opts:
         public-key: Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U
@@ -241,7 +254,7 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: server.dega-it.de
-      client-fingerprint: firefox
+      client-fingerprint: safari
       reality-opts:
         public-key: Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U
         short-id: 0c2753c6d7aa5aea
@@ -284,64 +297,6 @@ proxies:
       reality-opts:
         public-key: 5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc
         short-id: ea7acce8b971
--     name: vless_139.28.241.21_0
-      server: 139.28.241.21
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      reality-opts:
-        public-key: faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs
-        short-id: 312c0c39
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
--     name: vless_139.28.241.21_0
-      server: 139.28.241.21
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      reality-opts:
-        public-key: faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs
-        short-id: 312c0c39
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
--     name: vless_139.28.241.21_0
-      server: 139.28.241.21
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs
-        short-id: 312c0c39
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
--     name: vless_139.28.241.21_0
-      server: 139.28.241.21
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: faEedJtYwpjrjMXXhIMs3yT6BGIAdC-UCeX6TRC2ABs
-        short-id: 312c0c39
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
 -     name: vless_193.233.74.57_0
       server: 193.233.74.57
       port: 0
@@ -415,21 +370,22 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: grpc
--     name: vless_193.233.74.57_0
-      server: 193.233.74.57
+-     name: vless_217.60.68.57_0
+      server: 217.60.68.57
       port: 0
       udp: true
       type: vless
       uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
       tls: true
-      servername: www.telekom.de
+      servername: kleinanzeigen.de
       client-fingerprint: firefox
       reality-opts:
-        public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
-        short-id: 89136b6e
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
+        public-key: aWwb-BLCzgdpTj00XtIKKqzx67RsT-tYK4X96xVLVgY
+        short-id: 12fd25da
+      network: xhttp
+      xhttp-opts:
+        path: /87270e6c-ba7b-4dae-99d5-2bbd64f996f9
+        host: kleinanzeigen.de
 -     name: vless_94.156.155.27_0
       server: 94.156.155.27
       port: 0
@@ -450,30 +406,6 @@ proxies:
       tls: true
       servername: www.telekom.de
       client-fingerprint: chrome
-      reality-opts:
-        public-key: bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE
-        short-id: 8f892fa1
--     name: vless_94.156.155.27_0
-      server: 94.156.155.27
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE
-        short-id: 8f892fa1
--     name: vless_94.156.155.27_0
-      server: 94.156.155.27
-      port: 0
-      udp: true
-      type: vless
-      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-      tls: true
-      servername: www.telekom.de
-      client-fingerprint: firefox
       reality-opts:
         public-key: bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE
         short-id: 8f892fa1
@@ -502,6 +434,19 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_104.16.33.150_0
+      server: 104.16.33.150
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+      tls: true
+      servername: vless.hubp.de
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
 -     name: vless_104.16.33.150_0
       server: 104.16.33.150
       port: 0
@@ -644,18 +589,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed"
--     name: vless_162.159.152.4_0
-      server: 162.159.152.4
-      port: 0
-      udp: true
-      type: vless
-      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
-      tls: true
-      servername: vless.hubp.de
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: "/?ed"
 -     name: vless_162.159.152.53_0
       server: 162.159.152.53
       port: 0
@@ -708,6 +641,19 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2560"
+-     name: vless_chatgpt.com_0
+      server: chatgpt.com
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29187857-4a1f-4d1e-88eb-0016771e0dbb
+      tls: true
+      servername: vless.hubp.de
+      alpn: [h3]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_104.16.122.175_0
       server: 104.16.122.175
       port: 0
@@ -986,6 +932,32 @@ proxies:
       network: ws
       ws-opts:
         path: "/snippets/ip=tp50000.kr.proxyip.fgfw.eu.org:50000"
+-     name: vless_213.202.223.43_0
+      server: 213.202.223.43
+      port: 0
+      udp: true
+      type: vless
+      uuid: c9614523-ce59-4414-8e4b-012c1fd50139
+      flow: xtls-rprx-vision
+      tls: true
+      servername: frantax.my3cx.de
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
+-     name: vless_213.202.223.43_0
+      server: 213.202.223.43
+      port: 0
+      udp: true
+      type: vless
+      uuid: c9614523-ce59-4414-8e4b-012c1fd50139
+      flow: xtls-rprx-vision
+      tls: true
+      servername: frantax.my3cx.de
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
 -     name: vless_138.124.186.100_0
       server: 138.124.186.100
       port: 0
@@ -1027,7 +999,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_147.45.178.55_0, trojan_104.26.8.202_0, trojan_104.18.20.69_0, trojan_69.84.182.108_0, trojan_69.84.182.108_0, trojan_69.84.182.18_0, trojan_195.85.59.246_0, vless_162.159.152.4_0, vless_164.38.155.61_0, vless_166.62.104.61_0, vless_166.62.104.61_0, vless_185.148.106.61_0, vless_185.176.24.61_0, vless_192.169.223.61_0, vless_198.202.211.61_0, vless_77.75.199.61_0, vless_77.75.199.61_0, vless_94.247.142.61_0, vless_213.202.223.13_0, vless_213.202.223.13_0, vless_213.202.223.13_0, vless_79.137.207.130_0, vless_79.137.207.130_0, vless_79.137.207.130_0, vless_139.28.241.21_0, vless_139.28.241.21_0, vless_139.28.241.21_0, vless_139.28.241.21_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_104.16.33.150_0, vless_104.16.33.150_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.21.90.210_0, vless_154.218.15.198_0, vless_154.218.15.198_0, vless_154.218.15.198_0, vless_162.159.152.4_0, vless_162.159.152.4_0, vless_162.159.152.53_0, vless_172.67.161.104_0, vless_198.41.208.23_0, vless_198.41.208.23_0, vless_104.16.122.175_0, vless_104.16.122.175_0, vless_104.16.124.175_0, vless_104.16.124.175_0, vless_104.238.167.226_0, vless_151.101.134.133_0, vless_151.101.134.133_0, vless_27.50.48.8_0, vless_27.50.48.8_0, vless_162.159.135.234_0, vless_162.159.135.234_0, vless_154.218.15.1_0, "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_27.50.48.102_0, "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_27.50.49.104_0, "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_138.124.186.100_0, vless_138.124.53.198_0, vless_138.124.53.198_0]
+      proxies: [trojan_147.45.178.55_0, trojan_104.26.8.202_0, trojan_104.18.20.69_0, trojan_69.84.182.108_0, trojan_69.84.182.108_0, trojan_69.84.182.18_0, trojan_195.85.59.246_0, vless_162.159.152.4_0, vless_164.38.155.61_0, vless_166.62.104.61_0, vless_166.62.104.61_0, vless_185.148.106.61_0, vless_185.176.24.61_0, vless_192.169.223.61_0, vless_198.202.211.61_0, vless_77.75.199.61_0, vless_77.75.199.61_0, vless_94.247.142.61_0, vless_213.202.223.13_0, vless_213.202.223.13_0, vless_213.202.223.13_0, vless_213.202.223.13_0, vless_79.137.207.130_0, vless_79.137.207.130_0, vless_79.137.207.130_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_193.233.74.57_0, vless_217.60.68.57_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_94.156.155.27_0, vless_104.16.33.150_0, vless_104.16.33.150_0, vless_104.16.33.150_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.18.82.55_0, vless_104.21.90.210_0, vless_154.218.15.198_0, vless_154.218.15.198_0, vless_154.218.15.198_0, vless_162.159.152.4_0, vless_162.159.152.53_0, vless_172.67.161.104_0, vless_198.41.208.23_0, vless_198.41.208.23_0, vless_chatgpt.com_0, vless_104.16.122.175_0, vless_104.16.122.175_0, vless_104.16.124.175_0, vless_104.16.124.175_0, vless_104.238.167.226_0, vless_151.101.134.133_0, vless_151.101.134.133_0, vless_27.50.48.8_0, vless_27.50.48.8_0, vless_162.159.135.234_0, vless_162.159.135.234_0, vless_154.218.15.1_0, "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_154.218.15.1:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_27.50.48.102_0, "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.102:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.48.8:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_27.50.49.104_0, "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0", vless_213.202.223.43_0, vless_213.202.223.43_0, vless_138.124.186.100_0, vless_138.124.53.198_0, vless_138.124.53.198_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

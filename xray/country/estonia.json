@@ -134,32 +134,6 @@
       }
     },
     {
-      "tag": "vless_46.22.216.31_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "46.22.216.31",
-        "port": 0,
-        "id": "4612258c-15e8-4459-a3b6-8b6571699c5f",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "mail.protech-plus.ee",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -201,7 +175,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_46.22.216.31_0",
           "vless_46.22.216.31_0",
           "vless_46.22.216.31_0",
           "vless_46.22.216.31_0"

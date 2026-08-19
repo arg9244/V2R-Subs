@@ -37,27 +37,6 @@
       }
     },
     {
-      "tag": "trojan_51.222.86.136_0",
-      "server": "51.222.86.136",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "e59e9150-6256-11ed-983d-1239d0255272",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca-trojan.bonds.id",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "trojan_104.21.72.109_0",
       "server": "104.21.72.109",
       "server_port": 0,
@@ -501,26 +480,6 @@
       "transport": {
         "type": "ws",
         "path": "/?ed=2560"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_172.67.221.199_0",
-      "server": "172.67.221.199",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "aa81e188-a979-411e-a10b-08287646cc43",
-      "tls": {
-        "enabled": true,
-        "server_name": "vl26.rnd.biz.id"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
       },
       "multiplex": {
         "enabled": true,
@@ -613,60 +572,11 @@
       }
     },
     {
-      "tag": "vless_104.18.32.47_0",
-      "server": "104.18.32.47",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
-      "tls": {
-        "enabled": true,
-        "server_name": "aio.zxcore.biz.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_172.64.155.209_0",
-      "server": "172.64.155.209",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
-      "tls": {
-        "enabled": true,
-        "server_name": "aio.zxcore.biz.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "trojan_104.18.21.18_0",
         "trojan_104.21.21.147_0",
-        "trojan_51.222.86.136_0",
         "trojan_104.21.72.109_0",
         "trojan_104.21.72.109_0",
         "trojan_104.21.72.109_0",
@@ -696,13 +606,10 @@
         "vless_104.18.13.51_0",
         "vless_104.18.13.51_0",
         "vless_104.18.13.51_0",
-        "vless_172.67.221.199_0",
         "vless_172.67.221.199_0",
         "vless_104.20.28.30_0",
         "vless_172.66.158.93_0",
-        "vless_104.18.32.47_0",
-        "vless_104.18.32.47_0",
-        "vless_172.64.155.209_0"
+        "vless_104.18.32.47_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

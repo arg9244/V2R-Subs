@@ -13,6 +13,71 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_138.124.123.127_0",
+      "server": "138.124.123.127",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0dc18864-cb7d-4d5d-b760-ea928246b640",
+      "tls": {
+        "enabled": true,
+        "server_name": "support-shield.nvidia.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "FdedLVqgh4rCCzYydDap0cmzOuhnw2hdwpj0C4G1sjU",
+          "short_id": "b91fc778714c36a6"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_138.124.123.127_0",
+      "server": "138.124.123.127",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0dc18864-cb7d-4d5d-b760-ea928246b640",
+      "tls": {
+        "enabled": true,
+        "server_name": "support-shield.nvidia.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "FdedLVqgh4rCCzYydDap0cmzOuhnw2hdwpj0C4G1sjU",
+          "short_id": "b91fc778714c36a6"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.61.120.198_0",
+      "server": "194.61.120.198",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "18308ac9a11748dd990f15d7e6ae9ce9",
+      "tls": {
+        "enabled": true,
+        "server_name": "dutchnews.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "0TkdMgzG5Cyuv0h8LY4PPX_yt5xfTu1rl11oZqDXBWQ",
+          "short_id": "aabbccdd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
+      }
+    },
+    {
       "tag": "vless_5.180.97.201_0",
       "server": "5.180.97.201",
       "server_port": 0,
@@ -33,10 +98,101 @@
       }
     },
     {
+      "tag": "vless_103.109.234.129_0",
+      "server": "103.109.234.129",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dep.opngtr.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
+          "short_id": "7d6b6b7a606c21cf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_103.109.234.166_0",
+      "server": "103.109.234.166",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dep.opngtr.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
+          "short_id": "7d6b6b7a606c21cf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_103.109.234.166_0",
+      "server": "103.109.234.166",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dep.opngtr.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
+          "short_id": "7d6b6b7a606c21cf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_103.109.234.96_0",
+      "server": "103.109.234.96",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dep.opngtr.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
+          "short_id": "7d6b6b7a606c21cf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_5.180.97.201_0"
+        "vless_138.124.123.127_0",
+        "vless_138.124.123.127_0",
+        "vless_194.61.120.198_0",
+        "vless_5.180.97.201_0",
+        "vless_103.109.234.129_0",
+        "vless_103.109.234.166_0",
+        "vless_103.109.234.166_0",
+        "vless_103.109.234.96_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

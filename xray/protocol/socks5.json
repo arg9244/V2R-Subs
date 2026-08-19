@@ -53,24 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "socks5_173.212.252.150_1080",
-      "protocol": "socks",
-      "settings": {
-        "address": "173.212.252.150",
-        "port": 1080,
-        "user": "",
-        "pass": "",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "socks5_178.252.165.226_1080",
       "protocol": "socks",
       "settings": {
@@ -94,6 +76,60 @@
       "settings": {
         "address": "185.105.184.45",
         "port": 1110,
+        "user": "",
+        "pass": "",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "socks5_46.100.94.217_1080",
+      "protocol": "socks",
+      "settings": {
+        "address": "46.100.94.217",
+        "port": 1080,
+        "user": "",
+        "pass": "",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "socks5_62.60.163.79_8081",
+      "protocol": "socks",
+      "settings": {
+        "address": "62.60.163.79",
+        "port": 8081,
+        "user": "",
+        "pass": "",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "socks5_91.212.174.37_10808",
+      "protocol": "socks",
+      "settings": {
+        "address": "91.212.174.37",
+        "port": 10808,
         "user": "",
         "pass": "",
         "level": 0
@@ -148,9 +184,11 @@
       {
         "tag": "leastPing",
         "selector": [
-          "socks5_173.212.252.150_1080",
           "socks5_178.252.165.226_1080",
-          "socks5_185.105.184.45_1110"
+          "socks5_185.105.184.45_1110",
+          "socks5_46.100.94.217_1080",
+          "socks5_62.60.163.79_8081",
+          "socks5_91.212.174.37_10808"
         ],
         "strategy": {
           "type": "leastPing",

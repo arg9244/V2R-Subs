@@ -13,30 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_xn--b6gac.eu.org_0",
-      "server": "xn--b6gac.eu.org",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "092b1abd-0c6f-450c-a164-c1996e2dc65c",
-      "tls": {
-        "enabled": true,
-        "server_name": "vps.azheng.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/092b1abd-vl"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_2.26.8.55_0",
       "server": "2.26.8.55",
       "server_port": 0,
@@ -1073,27 +1049,6 @@
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
-        "server_name": "sni.111000.indevs.in"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_172.66.47.69_0",
-      "server": "172.66.47.69",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
         "server_name": "sni.111000.indevs.in"
       },
       "transport": {
@@ -2351,7 +2306,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_xn--b6gac.eu.org_0",
         "vless_2.26.8.55_0",
         "vless_2.26.8.55_0",
         "vless_103.100.158.202_0",
@@ -2402,7 +2356,6 @@
         "vless_172.64.149.54_0",
         "vless_172.64.149.54_0",
         "vless_172.64.155.209_0",
-        "vless_172.66.47.69_0",
         "vless_172.66.47.69_0",
         "vless_176.124.223.138_0",
         "vless_176.96.138.17_0",

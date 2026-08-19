@@ -10,6 +10,16 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: trojan_103.195.236.24_0
+      server: 103.195.236.24
+      port: 0
+      udp: true
+      type: trojan
+      password: b9017c27-d527-420c-933b-ba6a19825a13
+      tls: true
+      servername: mzy.hruqoaw.cn
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: trojan_42.236.73.72_0
       server: 42.236.73.72
       port: 0
@@ -95,10 +105,25 @@ proxies:
       xhttp-opts:
         path: /api/v1/data
         host: ""
+-     name: vless_84.32.99.238_0
+      server: 84.32.99.238
+      port: 0
+      udp: true
+      type: vless
+      uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+      tls: true
+      servername: recaptcha.net.cn
+      reality-opts:
+        public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+        short-id: ""
+      network: xhttp
+      xhttp-opts:
+        path: /api/v1/data
+        host: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_42.236.73.72_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0]
+      proxies: [trojan_103.195.236.24_0, trojan_42.236.73.72_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

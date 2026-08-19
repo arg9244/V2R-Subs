@@ -10,6 +10,19 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_46.29.235.9_0
+      server: 46.29.235.9
+      port: 0
+      udp: true
+      type: vless
+      uuid: d67af820-f54c-48ab-862c-19086357f276
+      flow: xtls-rprx-vision
+      tls: true
+      servername: telegraf.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+        short-id: a1b2c3d4
 -     name: vless_62.133.62.179_0
       server: 62.133.62.179
       port: 0
@@ -23,16 +36,23 @@ proxies:
       reality-opts:
         public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
         short-id: e5f67890
--     name: vmess_178.83.45.29_38998
-      server: 178.83.45.29
-      port: 38998
+-     name: vless_62.133.62.179_0
+      server: 62.133.62.179
+      port: 0
       udp: true
-      type: vmess
-      uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f
+      type: vless
+      uuid: d67af820-f54c-48ab-862c-19086357f276
+      flow: xtls-rprx-vision
+      tls: true
+      servername: telegraf.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+        short-id: e5f67890
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_62.133.62.179_0, vmess_178.83.45.29_38998]
+      proxies: [vless_46.29.235.9_0, vless_62.133.62.179_0, vless_62.133.62.179_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

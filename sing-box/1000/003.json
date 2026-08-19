@@ -13,20 +13,20 @@
   ],
   "outbounds": [
     {
-      "tag": "ss_172.67.129.226_80",
-      "server": "172.67.129.226",
-      "server_port": 80,
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "YTE1ZWU4ZTEyZjc3YmEzZA==:ZGYzOWJkMjMtMjk0YS00Ng=="
-    },
-    {
       "tag": "ss_193.29.139.234_8080",
       "server": "193.29.139.234",
       "server_port": 8080,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa"
+    },
+    {
+      "tag": "ss_3.75.179.86_443",
+      "server": "3.75.179.86",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "8af226b7726f4d4cb5c72fe3b57050f0"
     },
     {
       "tag": "ss_209.46.102.22_8388",
@@ -37,14 +37,6 @@
       "password": "1hhrqrokj3ag"
     },
     {
-      "tag": "ss_89.125.33.16_1234",
-      "server": "89.125.33.16",
-      "server_port": 1234,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "36-MSsmwqV497atZ2dngqyJegd2kT6gf"
-    },
-    {
       "tag": "ss_157.22.240.141_57925",
       "server": "157.22.240.141",
       "server_port": 57925,
@@ -53,16 +45,16 @@
       "password": "3JB91l5ol2HvkPUduw2hj4"
     },
     {
-      "tag": "ss_212.193.6.27_234",
-      "server": "212.193.6.27",
-      "server_port": 234,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "3jh4AaJTlphrzU7THNjvY05I5dyO8rw6"
-    },
-    {
       "tag": "ss_217.28.129.81_42982",
       "server": "217.28.129.81",
+      "server_port": 42982,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS"
+    },
+    {
+      "tag": "ss_autodiscover.fuzzyaytor.cyou_42982",
+      "server": "autodiscover.fuzzyaytor.cyou",
       "server_port": 42982,
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
@@ -107,6 +99,22 @@
       "type": "shadowsocks",
       "method": "chacha20-ietf-poly1305",
       "password": "ETUOOQTpdrrKln72UYxwio"
+    },
+    {
+      "tag": "ss_193.188.21.165_8390",
+      "server": "193.188.21.165",
+      "server_port": 8390,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "EyGy11BMfeP-6UHjsgajWw"
+    },
+    {
+      "tag": "ss_178.236.240.22_1080",
+      "server": "178.236.240.22",
+      "server_port": 1080,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "PuqKLhgI82VU0lKCGFpNLQ"
     },
     {
       "tag": "ss_193.29.139.212_8080",
@@ -157,6 +165,14 @@
       "password": "WR5Ho8vVqnDaH49WLh98Nc"
     },
     {
+      "tag": "ss_108.61.223.231_443",
+      "server": "108.61.223.231",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "WbEN0g6Rbnsye8EJZz94OF"
+    },
+    {
       "tag": "ss_146.70.128.108_1080",
       "server": "146.70.128.108",
       "server_port": 1080,
@@ -197,32 +213,61 @@
       "password": "XF0klw7870vXn3uQIxe19Q"
     },
     {
+      "tag": "ss_creativeboxvpnf.zanity.net_5223",
+      "server": "creativeboxvpnf.zanity.net",
+      "server_port": 5223,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "YwkJ1ViArbK6AZBCyjEC2p"
+    },
+    {
+      "tag": "ss_104.156.233.234_27116",
+      "server": "104.156.233.234",
+      "server_port": 27116,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E"
+    },
+    {
+      "tag": "ss_198.98.53.130_443",
+      "server": "198.98.53.130",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "ss_172.67.129.226_80",
         "ss_193.29.139.234_8080",
+        "ss_3.75.179.86_443",
         "ss_209.46.102.22_8388",
-        "ss_89.125.33.16_1234",
         "ss_157.22.240.141_57925",
-        "ss_212.193.6.27_234",
         "ss_217.28.129.81_42982",
+        "ss_autodiscover.fuzzyaytor.cyou_42982",
         "ss_142.4.216.225_443",
         "ss_ca225.vpnbook.com_443",
         "ss_91.208.75.251_3478",
         "ss_108.181.58.239_8388",
         "ss_130.49.189.158_10792",
+        "ss_193.188.21.165_8390",
+        "ss_178.236.240.22_1080",
         "ss_193.29.139.212_8080",
         "ss_45.77.232.213_15675",
         "ss_31.76.30.79_10808",
         "ss_194.61.121.93_7538",
         "ss_108.181.121.226_8388",
         "ss_130.49.189.158_10792",
+        "ss_108.61.223.231_443",
         "ss_146.70.128.108_1080",
         "ss_193.42.38.209_1080",
         "ss_194.187.251.2_1080",
         "ss_31.210.78.66_1080",
-        "ss_68.168.114.238_1080"
+        "ss_68.168.114.238_1080",
+        "ss_creativeboxvpnf.zanity.net_5223",
+        "ss_104.156.233.234_27116",
+        "ss_198.98.53.130_443"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
