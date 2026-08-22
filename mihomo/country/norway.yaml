@@ -36,10 +36,36 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=1024"
+-     name: vless_194.110.207.195_0
+      server: 194.110.207.195
+      port: 0
+      udp: true
+      type: vless
+      uuid: 63a0b5e2-b684-4b05-b964-686aa416a868
+      flow: xtls-rprx-vision
+      tls: true
+      servername: lerring.no
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
+-     name: vless_194.110.207.195_0
+      server: 194.110.207.195
+      port: 0
+      udp: true
+      type: vless
+      uuid: 63a0b5e2-b684-4b05-b964-686aa416a868
+      flow: xtls-rprx-vision
+      tls: true
+      servername: lerring.no
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+        short-id: fd55b698ee8c3629
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0]
+      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0, vless_194.110.207.195_0, vless_194.110.207.195_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

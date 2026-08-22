@@ -1374,6 +1374,32 @@
       }
     },
     {
+      "tag": "vless_172.66.47.69_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.66.47.69",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_176.124.223.138_0",
       "protocol": "vless",
       "settings": {
@@ -2322,58 +2348,6 @@
       }
     },
     {
-      "tag": "vless_212.118.52.236_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "212.118.52.236",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_212.118.52.236_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "212.118.52.236",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?Telegram🇨🇳+@WangCai2="
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_24.199.112.232_0",
       "protocol": "vless",
       "settings": {
@@ -2738,110 +2712,6 @@
       }
     },
     {
-      "tag": "vless_94.130.132.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.130.132.180",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.130.132.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.130.132.180",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560&Telegram🇨🇳 @app_bedal"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.130.132.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.130.132.180",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.130.132.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.130.132.180",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?Telegram🇨🇳+@app_bedal="
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_132.243.168.76_0",
       "protocol": "vless",
       "settings": {
@@ -2993,6 +2863,7 @@
           "vless_172.64.149.54_0",
           "vless_172.64.155.209_0",
           "vless_172.66.47.69_0",
+          "vless_172.66.47.69_0",
           "vless_176.124.223.138_0",
           "vless_176.96.138.17_0",
           "vless_176.96.138.17_0",
@@ -3029,8 +2900,6 @@
           "vless_199.119.137.95_0",
           "vless_199.181.197.138_0",
           "vless_209.94.90.138_0",
-          "vless_212.118.52.236_0",
-          "vless_212.118.52.236_0",
           "vless_24.199.112.232_0",
           "vless_27.50.48.138_0",
           "vless_31.185.108.138_0",
@@ -3045,10 +2914,6 @@
           "vless_89.116.250.138_0",
           "vless_89.116.250.138_0",
           "vless_92.53.191.138_0",
-          "vless_94.130.132.180_0",
-          "vless_94.130.132.180_0",
-          "vless_94.130.132.180_0",
-          "vless_94.130.132.180_0",
           "vless_132.243.168.76_0",
           "vless_103.231.75.115_0"
         ],

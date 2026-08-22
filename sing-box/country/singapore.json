@@ -13,17 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_visa.com.sg_0",
-      "server": "visa.com.sg",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "9c71e3bf-d79c-41ad-ba08-1028aff0eaa5",
-      "tls": {
-        "enabled": true,
-        "server_name": "px8r9i1b4k.bpusfaster2.top"
-      }
-    },
-    {
       "tag": "vless_www.visa.com.sg_0",
       "server": "www.visa.com.sg",
       "server_port": 0,
@@ -44,10 +33,10 @@
       "server": "www.visa.com.sg",
       "server_port": 0,
       "type": "vless",
-      "uuid": "984d10dd-4d51-45ac-a781-f0c1357644c2",
+      "uuid": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
       "transport": {
         "type": "ws",
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net "
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -75,7 +64,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_visa.com.sg_0",
         "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0"

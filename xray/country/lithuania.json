@@ -81,6 +81,34 @@
       }
     },
     {
+      "tag": "vless_144.124.231.199_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "144.124.231.199",
+        "port": 0,
+        "id": "b9fa61b2-2049-4e17-bc96-e99c07871afd",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "fleshas.lt",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "Pc4Cr5EqSfDoW1VZLZqjLMXHBVWQEnVH_mslj-VcR2g",
+            "shortId": "b255b3871736a84b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -122,7 +150,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_195.63.135.48_0"
+          "vless_195.63.135.48_0",
+          "vless_144.124.231.199_0"
         ],
         "strategy": {
           "type": "leastPing",

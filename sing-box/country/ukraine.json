@@ -81,18 +81,6 @@
       }
     },
     {
-      "tag": "trojan_61.222.160.199_0",
-      "server": "61.222.160.199",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "6e1b9a65-884f-3aa9-9469-bf6ec0f08610",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "a03.taipeicitygovernment.cn.ua"
-      }
-    },
-    {
       "tag": "trojan_60.250.152.209_0",
       "server": "60.250.152.209",
       "server_port": 0,
@@ -102,16 +90,6 @@
         "enabled": true,
         "insecure": true,
         "server_name": "a12.taipeicitygovernment.org.ua"
-      }
-    },
-    {
-      "tag": "trojan_mfa.gov.ua_0",
-      "server": "mfa.gov.ua",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
-      "tls": {
-        "enabled": true
       }
     },
     {
@@ -140,6 +118,27 @@
         "enabled": true,
         "insecure": true,
         "server_name": "official.taipeicitygovernment.ivano-frankivsk.ua"
+      }
+    },
+    {
+      "tag": "trojan_60.250.152.209_0",
+      "server": "60.250.152.209",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "96983eb4-cr8f1-316e-ab00-500014ed3d8b",
+      "tls": {
+        "enabled": true,
+        "server_name": "official.taipeicitygovernment.cn.ua",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -326,26 +325,6 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "server": "www.zsu.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.21.26.17_0",
       "server": "104.21.26.17",
       "server_port": 0,
@@ -398,6 +377,22 @@
       "transport": {
         "type": "ws",
         "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0b17eb47-587b-4e46-86a7-e1681cbbe76c",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.JP.CMLiussss.net"
       },
       "multiplex": {
         "enabled": true,
@@ -486,6 +481,70 @@
       "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
+      "uuid": "1742863c-ce4b-4bb7-b807-80da29cbec86",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1742863c-ce4b-4bb7-b807-80da29cbec86",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=proxyip.us.cmliussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1742863c-ce4b-4bb7-b807-80da29cbec86",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=proxyip.…"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "1742863c-ce4b-4bb7-b807-80da29cbec86",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=proxyip.ΓÇª"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
       "uuid": "1b3ad465-d37e-48a2-bb53-d7fddfc97b11",
       "transport": {
         "type": "ws",
@@ -534,10 +593,106 @@
       "server": "www.zsu.gov.ua",
       "server_port": 0,
       "type": "vless",
+      "uuid": "2756d45c-2d91-4783-8114-ad1e128799ba",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2a8cafda-479d-4e30-82d1-0bd4c6da6db9",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2ced390a-4252-4541-8985-730f7a06bb45",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2ced390a-4252-4541-8985-730f7a06bb45",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2ced390a-4252-4541-8985-730f7a06bb45",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "server": "www.zsu.gov.ua",
+      "server_port": 0,
+      "type": "vless",
       "uuid": "30a2a9a6-6a03-4353-a7fb-63831d64f718",
       "transport": {
         "type": "ws",
         "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "server": "www.zsu.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "30a2a9a6-6a03-4353-a7fb-63831d64f718",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -654,88 +809,8 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "48b1d8af-1720-4462-a0ec-de493331ceb3",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "48b1d8af-1720-4462-a0ec-de493331ceb3",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.21.23.72_0",
       "server": "104.21.23.72",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.21.23.72_0",
-      "server": "104.21.23.72",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.JP.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
       "uuid": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
@@ -957,6 +1032,22 @@
       "uuid": "5c7a171d-de8a-446d-accc-4d3cf7d473f4",
       "transport": {
         "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "server": "www.zsu.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "667a035b-6656-4a4f-a74c-8cd6a679f8d4",
+      "transport": {
+        "type": "ws",
         "path": "/pyip=ProxyIP.SG.CMLiussss.net"
       },
       "multiplex": {
@@ -966,6 +1057,46 @@
       }
     },
     {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "725c66a2-2bce-4a24-ba52-b4e2e7047076",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "server": "mfa.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.18.80.243_0",
       "server": "104.18.80.243",
       "server_port": 0,
@@ -1218,18 +1349,10 @@
       "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
-      "uuid": "7b33f59f-aada-4b49-a4ac-1c335977f2af",
-      "tls": {
-        "enabled": true,
-        "server_name": "vless1-698.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
+      "uuid": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560"
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
       },
       "multiplex": {
         "enabled": true,
@@ -1242,10 +1365,58 @@
       "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
-      "uuid": "8bcfe782-60c4-4c09-b46c-330f1aa3741c",
+      "uuid": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
       "transport": {
         "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        "path": "/pyip=proxyip.us.cmliussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net "
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "86dc5fb4-f279-45b7-a2c6-0d1e84b85c18",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=proxyip.us.cmliussss.net "
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "942bdcfc-e522-44f1-b899-3bd8db7c5ae2",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.SG.CMLiussss.net"
       },
       "multiplex": {
         "enabled": true,
@@ -1302,15 +1473,11 @@
       }
     },
     {
-      "tag": "vless_172.67.172.91_0",
-      "server": "172.67.172.91",
+      "tag": "vless_www.zsu.gov.ua_0",
+      "server": "www.zsu.gov.ua",
       "server_port": 0,
       "type": "vless",
-      "uuid": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
-      "tls": {
-        "enabled": true,
-        "server_name": "m8ui9.457.pp.ua"
-      },
+      "uuid": "a5c7e18f-1701-46ed-8f42-00eb078d9445",
       "transport": {
         "type": "ws",
         "path": "/"
@@ -1342,78 +1509,18 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
+      "tag": "vless_172.67.172.91_0",
+      "server": "172.67.172.91",
       "server_port": 0,
       "type": "vless",
-      "uuid": "bf667068-11cb-4c37-a867-4a2b03b45555",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
+      "uuid": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bf667068-11cb-4c37-a867-4a2b03b45555",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip"
+        "server_name": "m8ui9.457.pp.ua"
       },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "server": "www.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bf667068-11cb-4c37-a867-4a2b03b45555",
       "transport": {
         "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "server": "www.zsu.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "server": "www.zsu.gov.ua",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "c04e959d-3b7a-4d4f-881a-935762102704",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -1760,6 +1867,22 @@
       "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
+      "uuid": "da5ff974-c135-4b57-a0ff-53dd2502e71e",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "server": "www.gov.ua",
+      "server_port": 0,
+      "type": "vless",
       "uuid": "e974d4c7-2376-4b65-aa40-0680961ff5e4",
       "transport": {
         "type": "ws",
@@ -1788,74 +1911,74 @@
       }
     },
     {
-      "tag": "vless_104.21.63.226_0",
-      "server": "104.21.63.226",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f0f6e76e-e5fe-4e2c-9faf-34832e021eae",
-      "tls": {
-        "enabled": true,
-        "server_name": "SdERt.457.pp.UA",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/AMpQdWyvpaPkb7QHHkQBzYO"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.21.63.226_0",
-      "server": "104.21.63.226",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f0f6e76e-e5fe-4e2c-9faf-34832e021eae",
-      "tls": {
-        "enabled": true,
-        "server_name": "SdERt.457.pp.UA",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/AMpQdWyvpaPkb7QHHkQBzYO"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_www.gov.ua_0",
       "server": "www.gov.ua",
       "server_port": 0,
       "type": "vless",
-      "uuid": "f4e6476f-40d0-40cb-841f-cc2f6909ff20",
+      "uuid": "e974d4c7-2376-4b65-aa40-0680961ff5e4",
       "transport": {
         "type": "ws",
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        "path": "/pyip"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.21.63.226_0",
+      "server": "104.21.63.226",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f0f6e76e-e5fe-4e2c-9faf-34832e021eae",
+      "tls": {
+        "enabled": true,
+        "server_name": "SdERt.457.pp.UA",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AMpQdWyvpaPkb7QHHkQBzYO"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.21.63.226_0",
+      "server": "104.21.63.226",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f0f6e76e-e5fe-4e2c-9faf-34832e021eae",
+      "tls": {
+        "enabled": true,
+        "server_name": "SdERt.457.pp.UA",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AMpQdWyvpaPkb7QHHkQBzYO"
       },
       "multiplex": {
         "enabled": true,
@@ -1873,11 +1996,10 @@
         "trojan_172.67.135.37_0",
         "trojan_60.250.152.229_0",
         "trojan_60.250.152.230_0",
-        "trojan_61.222.160.199_0",
         "trojan_60.250.152.209_0",
-        "trojan_mfa.gov.ua_0",
         "trojan_60.250.152.209_0",
         "trojan_60.250.152.230_0",
+        "trojan_60.250.152.209_0",
         "trojan_104.21.73.150_0",
         "trojan_172.67.163.102_0",
         "trojan_172.67.173.64_0",
@@ -1891,28 +2013,33 @@
         "trojan_172.67.163.102_0",
         "trojan_172.67.208.155_0",
         "trojan_172.67.212.82_0",
-        "vless_www.zsu.gov.ua_0",
         "vless_104.21.26.17_0",
         "vless_104.21.26.17_0",
         "vless_104.21.26.17_0",
+        "vless_www.gov.ua_0",
         "vless_172.65.90.52_0",
         "vless_104.21.22.133_0",
         "vless_104.21.22.133_0",
         "vless_www.gov.ua_0",
         "vless_www.gov.ua_0",
         "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.zsu.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.zsu.gov.ua_0",
         "vless_www.zsu.gov.ua_0",
         "vless_www.gov.ua_0",
         "vless_www.gov.ua_0",
         "vless_104.21.79.79_0",
         "vless_104.21.79.79_0",
         "vless_www.gov.ua_0",
-        "vless_www.gov.ua_0",
-        "vless_www.gov.ua_0",
         "vless_104.21.23.72_0",
-        "vless_104.21.23.72_0",
-        "vless_www.gov.ua_0",
-        "vless_www.gov.ua_0",
         "vless_104.21.23.162_0",
         "vless_104.21.23.162_0",
         "vless_104.21.71.205_0",
@@ -1922,6 +2049,9 @@
         "vless_172.67.212.59_0",
         "vless_172.67.212.59_0",
         "vless_www.zsu.gov.ua_0",
+        "vless_www.zsu.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_mfa.gov.ua_0",
         "vless_104.18.80.243_0",
         "vless_104.18.80.243_0",
         "vless_104.18.83.92_0",
@@ -1936,15 +2066,14 @@
         "vless_212.183.88.46_0",
         "vless_www.gov.ua_0",
         "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
         "vless_66.179.48.46_0",
         "vless_66.179.48.46_0",
+        "vless_www.zsu.gov.ua_0",
         "vless_172.67.172.91_0",
         "vless_172.67.172.91_0",
-        "vless_www.gov.ua_0",
-        "vless_www.gov.ua_0",
-        "vless_www.gov.ua_0",
-        "vless_www.zsu.gov.ua_0",
-        "vless_www.zsu.gov.ua_0",
         "vless_104.21.26.17_0",
         "vless_141.101.120.100_0",
         "vless_141.101.120.102_0",
@@ -1961,9 +2090,10 @@
         "vless_141.101.121.225_0",
         "vless_www.gov.ua_0",
         "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
+        "vless_www.gov.ua_0",
         "vless_104.21.63.226_0",
-        "vless_104.21.63.226_0",
-        "vless_www.gov.ua_0"
+        "vless_104.21.63.226_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

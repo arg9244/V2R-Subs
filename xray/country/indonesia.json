@@ -53,6 +53,48 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_104.21.83.135_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.83.135",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_172.67.176.157_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "172.67.176.157",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.18.21.18_0",
       "protocol": "trojan",
       "settings": {
@@ -770,6 +812,32 @@
       }
     },
     {
+      "tag": "vless_172.67.221.199_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.221.199",
+        "port": 0,
+        "id": "aa81e188-a979-411e-a10b-08287646cc43",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vl26.rnd.biz.id",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.20.28.30_0",
       "protocol": "vless",
       "settings": {
@@ -848,6 +916,31 @@
       }
     },
     {
+      "tag": "vless_chatgpt.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "chatgpt.com",
+        "port": 0,
+        "id": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "aio.zxcore.biz.id",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -889,6 +982,8 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_104.21.83.135_0",
+          "trojan_172.67.176.157_0",
           "trojan_104.18.21.18_0",
           "trojan_104.21.21.147_0",
           "trojan_104.21.72.109_0",
@@ -921,9 +1016,11 @@
           "vless_104.18.13.51_0",
           "vless_104.18.13.51_0",
           "vless_172.67.221.199_0",
+          "vless_172.67.221.199_0",
           "vless_104.20.28.30_0",
           "vless_172.66.158.93_0",
-          "vless_104.18.32.47_0"
+          "vless_104.18.32.47_0",
+          "vless_chatgpt.com_0"
         ],
         "strategy": {
           "type": "leastPing",

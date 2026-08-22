@@ -10,6 +10,22 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: trojan_104.21.83.135_0
+      server: 104.21.83.135
+      port: 0
+      udp: true
+      type: trojan
+      password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+      tls: true
+      servername: id1.nathaya.web.id
+-     name: trojan_172.67.176.157_0
+      server: 172.67.176.157
+      port: 0
+      udp: true
+      type: trojan
+      password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+      tls: true
+      servername: id1.nathaya.web.id
 -     name: trojan_104.18.21.18_0
       server: 104.18.21.18
       port: 0
@@ -310,6 +326,17 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_172.67.221.199_0
+      server: 172.67.221.199
+      port: 0
+      udp: true
+      type: vless
+      uuid: aa81e188-a979-411e-a10b-08287646cc43
+      tls: true
+      servername: vl26.rnd.biz.id
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
 -     name: vless_104.20.28.30_0
       server: 104.20.28.30
       port: 0
@@ -344,10 +371,22 @@ proxies:
       network: ws
       ws-opts:
         path: /aioproxybot/124.153.168.248-50001
+-     name: vless_chatgpt.com_0
+      server: chatgpt.com
+      port: 0
+      udp: true
+      type: vless
+      uuid: da78f96e-01d3-4289-9d0b-fbbe3f0a5472
+      tls: true
+      servername: aio.zxcore.biz.id
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.18.21.18_0, trojan_104.21.21.147_0, trojan_104.21.72.109_0, trojan_104.21.72.109_0, trojan_104.21.72.109_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, vless_104.21.78.131_0, vless_104.21.78.131_0, vless_104.18.12.51_0, vless_104.18.12.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_172.67.221.199_0, vless_104.20.28.30_0, vless_172.66.158.93_0, vless_104.18.32.47_0]
+      proxies: [trojan_104.21.83.135_0, trojan_172.67.176.157_0, trojan_104.18.21.18_0, trojan_104.21.21.147_0, trojan_104.21.72.109_0, trojan_104.21.72.109_0, trojan_104.21.72.109_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, vless_104.21.78.131_0, vless_104.21.78.131_0, vless_104.18.12.51_0, vless_104.18.12.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_172.67.221.199_0, vless_172.67.221.199_0, vless_104.20.28.30_0, vless_172.66.158.93_0, vless_104.18.32.47_0, vless_chatgpt.com_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

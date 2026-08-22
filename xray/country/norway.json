@@ -117,6 +117,62 @@
       }
     },
     {
+      "tag": "vless_194.110.207.195_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.195",
+        "port": 0,
+        "id": "63a0b5e2-b684-4b05-b964-686aa416a868",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lerring.no",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.195_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.195",
+        "port": 0,
+        "id": "63a0b5e2-b684-4b05-b964-686aa416a868",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lerring.no",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -159,7 +215,9 @@
         "tag": "leastPing",
         "selector": [
           "vless_151.101.129.203_0",
-          "vless_151.101.129.203_0"
+          "vless_151.101.129.203_0",
+          "vless_194.110.207.195_0",
+          "vless_194.110.207.195_0"
         ],
         "strategy": {
           "type": "leastPing",

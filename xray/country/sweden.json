@@ -53,6 +53,93 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_103.110.66.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.110.66.43",
+        "port": 0,
+        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.amazon.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U",
+            "shortId": "7a08844f"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_103.110.66.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.110.66.43",
+        "port": 0,
+        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.amazon.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U",
+            "shortId": "7a08844f"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_103.110.66.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "103.110.66.43",
+        "port": 0,
+        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.amazon.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U",
+            "shortId": "7a08844f"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_143.246.196.157_0",
       "protocol": "vless",
       "settings": {
@@ -121,6 +208,9 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_103.110.66.43_0",
+          "vless_103.110.66.43_0",
+          "vless_103.110.66.43_0",
           "vless_143.246.196.157_0"
         ],
         "strategy": {

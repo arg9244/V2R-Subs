@@ -10,6 +10,51 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_103.110.66.43_0
+      server: 103.110.66.43
+      port: 0
+      udp: true
+      type: vless
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+      tls: true
+      servername: www.amazon.se
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U
+        short-id: 7a08844f
+      network: grpc
+      grpc-opts:
+        grpc-service-name: grpc
+-     name: vless_103.110.66.43_0
+      server: 103.110.66.43
+      port: 0
+      udp: true
+      type: vless
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+      tls: true
+      servername: www.amazon.se
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U
+        short-id: 7a08844f
+      network: grpc
+      grpc-opts:
+        grpc-service-name: grpc
+-     name: vless_103.110.66.43_0
+      server: 103.110.66.43
+      port: 0
+      udp: true
+      type: vless
+      uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+      tls: true
+      servername: www.amazon.se
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: ECYE8G81FW1V__Y9yBYxIU0TWWcConhXoJncZG1D_0U
+        short-id: 7a08844f
+      network: grpc
+      grpc-opts:
+        grpc-service-name: grpc
 -     name: vless_143.246.196.157_0
       server: 143.246.196.157
       port: 0
@@ -27,7 +72,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_143.246.196.157_0]
+      proxies: [vless_103.110.66.43_0, vless_103.110.66.43_0, vless_103.110.66.43_0, vless_143.246.196.157_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

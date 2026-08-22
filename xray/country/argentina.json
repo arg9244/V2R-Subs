@@ -1,0 +1,255 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "api": {
+    "services": [
+      "observer"
+    ],
+    "listen": "127.0.0.1:1082",
+    "protocol": "gRPC"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "1.1.1.1",
+        "tag": "local_dns"
+      },
+      {
+        "address": "8.8.8.8",
+        "tag": "remote_dns"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "server": "local_dns"
+      }
+    ],
+    "final": "remote_dns"
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 1080,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      },
+      "tag": "socks-in"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 1081,
+      "protocol": "http",
+      "tags": [
+        "http-in"
+      ]
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_95.154.237.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "95.154.237.47",
+        "port": 0,
+        "id": "3845c09f-35c8-4852-b876-5ed8cc5ca6cd",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lanacion.com.ar",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "95.154.237.47",
+        "port": 0,
+        "id": "b113f831-8658-467f-a819-927d16a54d6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lanacion.com.ar",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "95.154.237.47",
+        "port": 0,
+        "id": "b113f831-8658-467f-a819-927d16a54d6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lanacion.com.ar",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "95.154.237.47",
+        "port": 0,
+        "id": "bd5cafc2-5a4f-4f6f-bedc-7b438eb484cb",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lanacion.com.ar",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "protocol": "freedom",
+      "name": "direct",
+      "tag": "direct",
+      "settings": {
+        "domainStrategy": "UseIPv4"
+      }
+    },
+    {
+      "protocol": "dns",
+      "name": "dns-out",
+      "tag": "dns-out",
+      "settings": {
+        "address": "1.1.1.1",
+        "port": 53
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "category-dns-dns",
+          "dns.google",
+          "one.one.one.one"
+        ],
+        "outboundTag": "dns-out"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_95.154.237.47_0",
+          "vless_95.154.237.47_0",
+          "vless_95.154.237.47_0",
+          "vless_95.154.237.47_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
+  },
+  "observatory": {
+    "enable": true,
+    "subjects": [
+      "leastPing"
+    ],
+    "probeUrl": "https://connectivitycheck.gstatic.com/generate_204",
+    "probe_intervals": 60,
+    "pingConfig": {
+      "destination": "https://connectivitycheck.gstatic.com/generate_204",
+      "connectivity": "http",
+      "interval": 300,
+      "timeout": 5,
+      "sampling": 10
+    }
+  },
+  "transport": {
+    "tt": {
+      "tcpSetting": {},
+      "tcp": true
+    }
+  },
+  "policy": {
+    "rules": [
+      {
+        "inboundTag": [
+          "socks-in"
+        ],
+        "outboundTag": "leastPing",
+        "type": "logical"
+      }
+    ]
+  },
+  "stats": {},
+  "vpn": true
+}

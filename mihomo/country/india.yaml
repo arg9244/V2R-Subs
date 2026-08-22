@@ -579,6 +579,18 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_172.66.47.69_0
+      server: 172.66.47.69
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+      tls: true
+      skip-cert-verify: true
+      servername: sni.111000.indevs.in
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_176.124.223.138_0
       server: 176.124.223.138
       port: 0
@@ -984,28 +996,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_212.118.52.236_0
-      server: 212.118.52.236
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_212.118.52.236_0
-      server: 212.118.52.236
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      network: ws
-      ws-opts:
-        path: "/?Telegram🇨🇳+@WangCai2="
 -     name: vless_24.199.112.232_0
       server: 24.199.112.232
       port: 0
@@ -1165,52 +1155,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_94.130.132.180_0
-      server: 94.130.132.180
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_94.130.132.180_0
-      server: 94.130.132.180
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: "/?ed=2560&Telegram🇨🇳 @app_bedal"
--     name: vless_94.130.132.180_0
-      server: 94.130.132.180
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_94.130.132.180_0
-      server: 94.130.132.180
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      servername: sni.111000.indevs.in
-      network: ws
-      ws-opts:
-        path: "/?Telegram🇨🇳+@app_bedal="
 -     name: vless_132.243.168.76_0
       server: 132.243.168.76
       port: 0
@@ -1240,7 +1184,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_2.26.8.55_0, vless_2.26.8.55_0, vless_103.100.158.202_0, vless_20.229.252.162_0, vless_103.90.75.41_0, vless_104.129.164.138_0, vless_104.129.166.138_0, vless_104.129.167.138_0, vless_104.16.7.70_0, vless_104.16.7.70_0, vless_104.16.80.73_0, vless_104.18.13.149_0, vless_104.18.13.149_0, vless_104.18.16.56_0, vless_104.18.185.26_0, vless_104.18.33.45_0, vless_104.18.42.98_0, vless_104.20.6.134_0, vless_104.26.7.205_0, vless_109.120.179.99_0, vless_130.250.137.138_0, vless_135.84.67.74_0, vless_135.84.73.138_0, vless_14.102.229.138_0, vless_141.101.121.169_0, vless_146.0.79.109_0, vless_154.197.75.138_0, vless_154.198.173.138_0, vless_156.243.83.138_0, vless_158.220.88.180_0, vless_159.223.24.65_0, vless_160.153.1.121_0, vless_160.153.1.222_0, vless_162.159.12.151_0, vless_162.159.12.151_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_164.38.155.138_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_172.64.146.163_0, vless_172.64.146.163_0, vless_172.64.146.198_0, vless_172.64.147.24_0, vless_172.64.149.54_0, vless_172.64.149.54_0, vless_172.64.155.209_0, vless_172.66.47.69_0, vless_176.124.223.138_0, vless_176.96.138.17_0, vless_176.96.138.17_0, vless_178.62.25.163_0, vless_185.148.106.138_0, vless_185.156.19.138_0, vless_185.158.133.138_0, vless_185.162.230.138_0, vless_185.162.231.138_0, vless_185.162.231.138_0, vless_185.193.29.138_0, vless_185.193.31.138_0, vless_185.207.199.138_0, vless_185.238.228.138_0, vless_188.114.96.3_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_188.114.99.243_0, vless_188.114.99.243_0, vless_188.241.241.123_0, vless_188.241.241.123_0, vless_188.244.122.138_0, vless_190.93.244.138_0, vless_190.93.244.138_0, vless_192.0.63.138_0, vless_192.65.217.138_0, vless_192.65.217.138_0, vless_194.146.12.230_0, vless_195.133.65.202_0, vless_195.85.23.138_0, vless_195.93.253.207_0, vless_198.12.145.138_0, vless_198.202.211.138_0, vless_199.119.137.95_0, vless_199.181.197.138_0, vless_209.94.90.138_0, vless_212.118.52.236_0, vless_212.118.52.236_0, vless_24.199.112.232_0, vless_27.50.48.138_0, vless_31.185.108.138_0, vless_72.18.132.149_0, vless_77.74.228.138_0, vless_77.75.199.138_0, vless_8.6.112.6_0, vless_8.6.112.6_0, vless_82.117.245.166_0, vless_88.218.78.167_0, vless_89.116.180.138_0, vless_89.116.250.138_0, vless_89.116.250.138_0, vless_92.53.191.138_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_94.130.132.180_0, vless_132.243.168.76_0, vless_103.231.75.115_0]
+      proxies: [vless_2.26.8.55_0, vless_2.26.8.55_0, vless_103.100.158.202_0, vless_20.229.252.162_0, vless_103.90.75.41_0, vless_104.129.164.138_0, vless_104.129.166.138_0, vless_104.129.167.138_0, vless_104.16.7.70_0, vless_104.16.7.70_0, vless_104.16.80.73_0, vless_104.18.13.149_0, vless_104.18.13.149_0, vless_104.18.16.56_0, vless_104.18.185.26_0, vless_104.18.33.45_0, vless_104.18.42.98_0, vless_104.20.6.134_0, vless_104.26.7.205_0, vless_109.120.179.99_0, vless_130.250.137.138_0, vless_135.84.67.74_0, vless_135.84.73.138_0, vless_14.102.229.138_0, vless_141.101.121.169_0, vless_146.0.79.109_0, vless_154.197.75.138_0, vless_154.198.173.138_0, vless_156.243.83.138_0, vless_158.220.88.180_0, vless_159.223.24.65_0, vless_160.153.1.121_0, vless_160.153.1.222_0, vless_162.159.12.151_0, vless_162.159.12.151_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_162.159.153.231_0, vless_164.38.155.138_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_172.64.146.163_0, vless_172.64.146.163_0, vless_172.64.146.198_0, vless_172.64.147.24_0, vless_172.64.149.54_0, vless_172.64.149.54_0, vless_172.64.155.209_0, vless_172.66.47.69_0, vless_172.66.47.69_0, vless_176.124.223.138_0, vless_176.96.138.17_0, vless_176.96.138.17_0, vless_178.62.25.163_0, vless_185.148.106.138_0, vless_185.156.19.138_0, vless_185.158.133.138_0, vless_185.162.230.138_0, vless_185.162.231.138_0, vless_185.162.231.138_0, vless_185.193.29.138_0, vless_185.193.31.138_0, vless_185.207.199.138_0, vless_185.238.228.138_0, vless_188.114.96.3_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_188.114.99.243_0, vless_188.114.99.243_0, vless_188.241.241.123_0, vless_188.241.241.123_0, vless_188.244.122.138_0, vless_190.93.244.138_0, vless_190.93.244.138_0, vless_192.0.63.138_0, vless_192.65.217.138_0, vless_192.65.217.138_0, vless_194.146.12.230_0, vless_195.133.65.202_0, vless_195.85.23.138_0, vless_195.93.253.207_0, vless_198.12.145.138_0, vless_198.202.211.138_0, vless_199.119.137.95_0, vless_199.181.197.138_0, vless_209.94.90.138_0, vless_24.199.112.232_0, vless_27.50.48.138_0, vless_31.185.108.138_0, vless_72.18.132.149_0, vless_77.74.228.138_0, vless_77.75.199.138_0, vless_8.6.112.6_0, vless_8.6.112.6_0, vless_82.117.245.166_0, vless_88.218.78.167_0, vless_89.116.180.138_0, vless_89.116.250.138_0, vless_89.116.250.138_0, vless_92.53.191.138_0, vless_132.243.168.76_0, vless_103.231.75.115_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

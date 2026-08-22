@@ -1,0 +1,133 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_95.154.237.47_0",
+      "server": "95.154.237.47",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "3845c09f-35c8-4852-b876-5ed8cc5ca6cd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lanacion.com.ar",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "server": "95.154.237.47",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b113f831-8658-467f-a819-927d16a54d6a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lanacion.com.ar",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "server": "95.154.237.47",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b113f831-8658-467f-a819-927d16a54d6a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lanacion.com.ar",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_95.154.237.47_0",
+      "server": "95.154.237.47",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bd5cafc2-5a4f-4f6f-bedc-7b438eb484cb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lanacion.com.ar",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_95.154.237.47_0",
+        "vless_95.154.237.47_0",
+        "vless_95.154.237.47_0",
+        "vless_95.154.237.47_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

@@ -53,27 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_visa.com.sg_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "visa.com.sg",
-        "port": 0,
-        "password": "9c71e3bf-d79c-41ad-ba08-1028aff0eaa5",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "px8r9i1b4k.bpusfaster2.top",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_www.visa.com.sg_0",
       "protocol": "vless",
       "settings": {
@@ -101,14 +80,14 @@
       "settings": {
         "address": "www.visa.com.sg",
         "port": 0,
-        "id": "984d10dd-4d51-45ac-a781-f0c1357644c2",
+        "id": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
         "tls": "none"
       },
       "streamSettings": {
         "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/pyip=ProxyIP.SG.CMLiussss.net "
+          "path": "/"
         }
       },
       "mux": {
@@ -179,7 +158,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_visa.com.sg_0",
           "vless_www.visa.com.sg_0",
           "vless_www.visa.com.sg_0",
           "vless_www.visa.com.sg_0"

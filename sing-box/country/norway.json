@@ -75,11 +75,55 @@
       }
     },
     {
+      "tag": "vless_194.110.207.195_0",
+      "server": "194.110.207.195",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "63a0b5e2-b684-4b05-b964-686aa416a868",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lerring.no",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.195_0",
+      "server": "194.110.207.195",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "63a0b5e2-b684-4b05-b964-686aa416a868",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lerring.no",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_151.101.129.203_0",
-        "vless_151.101.129.203_0"
+        "vless_151.101.129.203_0",
+        "vless_194.110.207.195_0",
+        "vless_194.110.207.195_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -34,10 +34,32 @@
       }
     },
     {
+      "tag": "vless_144.124.231.199_0",
+      "server": "144.124.231.199",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b9fa61b2-2049-4e17-bc96-e99c07871afd",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fleshas.lt",
+        "reality": {
+          "enabled": true,
+          "public_key": "Pc4Cr5EqSfDoW1VZLZqjLMXHBVWQEnVH_mslj-VcR2g",
+          "short_id": "b255b3871736a84b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_195.63.135.48_0"
+        "vless_195.63.135.48_0",
+        "vless_144.124.231.199_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

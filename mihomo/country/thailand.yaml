@@ -18,17 +18,6 @@ proxies:
       uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
       tls: true
       servername: d1yxsk0zprgivr.cloudfront.net
-      network: ws
-      ws-opts:
-        path: "/fp=chrome"
--     name: vless_www.true.th_0
-      server: www.true.th
-      port: 0
-      udp: true
-      type: vless
-      uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-      tls: true
-      servername: d1yxsk0zprgivr.cloudfront.net
       client-fingerprint: chrome
       network: ws
       ws-opts:
@@ -36,7 +25,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_www.true.th_0, vless_www.true.th_0]
+      proxies: [vless_www.true.th_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
