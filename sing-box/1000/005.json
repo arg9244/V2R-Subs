@@ -13,14 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "ss_15.235.75.71_8388",
-      "server": "15.235.75.71",
-      "server_port": 8388,
-      "type": "shadowsocks",
-      "method": "chacha20-ietf-poly1305",
-      "password": "FD3rCuOsxOay"
-    },
-    {
       "tag": "ss_146.70.222.126_1080",
       "server": "146.70.222.126",
       "server_port": 1080,
@@ -61,15 +53,23 @@
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
+      "tag": "ss_94.245.92.85_443",
+      "server": "94.245.92.85",
+      "server_port": 443,
+      "type": "shadowsocks",
+      "method": "chacha20-ietf-poly1305",
+      "password": "rKE5OchHqTrkamzx"
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "ss_15.235.75.71_8388",
         "ss_146.70.222.126_1080",
         "ss_146.70.53.62_1080",
         "ss_82.38.31.185_8080",
         "ss_82.38.31.204_8080",
-        "ss_82.38.31.35_8080"
+        "ss_82.38.31.35_8080",
+        "ss_94.245.92.85_443"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

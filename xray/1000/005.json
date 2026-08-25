@@ -53,24 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "ss_15.235.75.71_8388",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "15.235.75.71",
-        "port": 8388,
-        "method": "chacha20-ietf-poly1305",
-        "password": "FD3rCuOsxOay",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "ss_146.70.222.126_1080",
       "protocol": "shadowsocks",
       "settings": {
@@ -161,6 +143,24 @@
       }
     },
     {
+      "tag": "ss_94.245.92.85_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "94.245.92.85",
+        "port": 443,
+        "method": "chacha20-ietf-poly1305",
+        "password": "rKE5OchHqTrkamzx",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -202,12 +202,12 @@
       {
         "tag": "leastPing",
         "selector": [
-          "ss_15.235.75.71_8388",
           "ss_146.70.222.126_1080",
           "ss_146.70.53.62_1080",
           "ss_82.38.31.185_8080",
           "ss_82.38.31.204_8080",
-          "ss_82.38.31.35_8080"
+          "ss_82.38.31.35_8080",
+          "ss_94.245.92.85_443"
         ],
         "strategy": {
           "type": "leastPing",

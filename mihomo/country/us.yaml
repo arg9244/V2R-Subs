@@ -43,24 +43,6 @@ proxies:
       uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
       network: ws
       ws-opts:
-        path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
         path: /
 -     name: vless_85.17.145.65_0
       server: 85.17.145.65
@@ -95,6 +77,18 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_185.178.208.140_0
+      server: 185.178.208.140
+      port: 0
+      udp: true
+      type: vless
+      uuid: 1c5803f0-9670-49bd-b9bf-830b4014064c
+      tls: true
+      servername: cdn.sywl2live.us
+      client-fingerprint: qq
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_169.58.143.21_0
       server: 169.58.143.21
       port: 0
@@ -107,24 +101,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: 3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: 3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_84.235.244.108_0
       server: 84.235.244.108
       port: 0
@@ -176,36 +152,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_170.114.45.6_0
-      server: 170.114.45.6
-      port: 0
-      udp: true
-      type: vless
-      uuid: 4093e0fe-939d-41a8-95c1-395728cbbd93
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_170.114.46.6_0
-      server: 170.114.46.6
-      port: 0
-      udp: true
-      type: vless
-      uuid: 4093e0fe-939d-41a8-95c1-395728cbbd93
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_news.zoom.us_0
-      server: news.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: 624dbb1d-d38b-4ed1-a967-f483af364eca
-      tls: true
-      servername: zero.csmaster.ggff.net
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_104.21.12.150_0
       server: 104.21.12.150
       port: 0
@@ -215,6 +161,17 @@ proxies:
       tls: true
       servername: nl57.Vlessx.us
       client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_104.21.12.150_0
+      server: 104.21.12.150
+      port: 0
+      udp: true
+      type: vless
+      uuid: a2dadb95-3f15-4e1c-b517-0b54c336a5fd
+      tls: true
+      servername: nl57.vlessx.us
       network: ws
       ws-opts:
         path: "/?ed=2048"
@@ -253,24 +210,19 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_170.114.46.6_0
-      server: 170.114.46.6
+-     name: vless_104.21.7.50_0
+      server: 104.21.7.50
       port: 0
       udp: true
       type: vless
-      uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
+      uuid: c49955ec-a0dc-496e-ea3b-c24fa5c87c82
+      tls: true
+      servername: reversepeyman1.cpionline.us
+      alpn: [h3, h2]
+      client-fingerprint: chrome
       network: ws
       ws-opts:
-        path: /dula
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-      network: ws
-      ws-opts:
-        path: /dula
+        path: /ws/2053
 -     name: vless_178.128.52.52_0
       server: 178.128.52.52
       port: 0
@@ -341,7 +293,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, trojan_104.21.19.64_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_169.58.143.21_0, vless_support.zoom.us_0, vless_support.zoom.us_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_170.114.45.6_0, vless_170.114.46.6_0, vless_news.zoom.us_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_170.114.46.6_0, vless_support.zoom.us_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0]
+      proxies: [trojan_104.21.19.64_0, trojan_104.21.19.64_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_185.178.208.140_0, vless_169.58.143.21_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.7.50_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0, vless_178.128.52.52_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

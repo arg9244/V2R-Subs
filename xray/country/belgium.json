@@ -53,62 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_31.76.24.87_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "31.76.24.87",
-        "port": 0,
-        "id": "1970a147-43a4-4f5f-b4c5-87aff80d7981",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "youtu.be",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "xpBBGguJEPvj-6Is4iQVwI9p4XDGordKSJJt6Pij4nE",
-            "shortId": "c5e0d0b02037ed"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_31.76.24.87_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "31.76.24.87",
-        "port": 0,
-        "id": "1970a147-43a4-4f5f-b4c5-87aff80d7981",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "youtu.be",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "xpBBGguJEPvj-6Is4iQVwI9p4XDGordKSJJt6Pij4nE",
-            "shortId": "c5e0d0b02037ed"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_172.66.47.97_0",
       "protocol": "vless",
       "settings": {
@@ -202,8 +146,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_31.76.24.87_0",
-          "vless_31.76.24.87_0",
           "vless_172.66.47.97_0",
           "vless_172.66.47.97_0"
         ],
