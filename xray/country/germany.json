@@ -95,6 +95,32 @@
       }
     },
     {
+      "tag": "trojan_168.138.174.229_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "168.138.174.229",
+        "port": 0,
+        "password": "87c29139-765a-441e-a82d-fdbb46697695",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sg-2503-2.upd86.de",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.18.20.69_0",
       "protocol": "trojan",
       "settings": {
@@ -107,27 +133,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "cdn-node-oss-92.paofu.de",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_69.84.182.108_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "69.84.182.108",
-        "port": 0,
-        "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn-node-oss-99.paofu.de",
           "allowInsecure": false
         }
       },
@@ -179,53 +184,6 @@
       }
     },
     {
-      "tag": "trojan_pubg.ac_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "pubg.ac",
-        "port": 0,
-        "password": "a134e3de-b25a-4020-9998-05fa6b715f1a",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn-node-oss-99.paofu.de",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.18.20.69_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.18.20.69",
-        "port": 0,
-        "password": "b53d38db-c8e7-4942-8a71-51b6430ab40e",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn-node-oss-92.paofu.de",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_195.85.59.246_0",
       "protocol": "trojan",
       "settings": {
@@ -240,6 +198,308 @@
           "serverName": "cdn-node-oss-92.paofu.de",
           "allowInsecure": false
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "00e4da0c-7d10-4a37-9699-64d0f998d200",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "00e4da0c-7d10-4a37-9699-64d0f998d200",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "03e5f7fb-d569-403b-8740-9e3b4f7dd94a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.180",
+        "port": 0,
+        "id": "05020afd-d476-406b-8950-ee7dd63a6e64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "0826e9c1-b15c-46c2-801c-14e4fb861042",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "0826e9c1-b15c-46c2-801c-14e4fb861042",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
       },
       "mux": {
         "enabled": true,
@@ -301,25 +561,26 @@
       }
     },
     {
-      "tag": "vless_162.159.152.4_0",
+      "tag": "vless_151.242.168.239_0",
       "protocol": "vless",
       "settings": {
-        "address": "162.159.152.4",
+        "address": "151.242.168.239",
         "port": 0,
-        "id": "12345678-1234-1234-1234-123456789123",
+        "id": "0c662275-978d-4d8c-886a-22294946a10d",
         "tls": "tls",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "vless.hubp.de",
-          "allowInsecure": false
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/snippets"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -633,6 +894,34 @@
             "shortId": "fd55b698ee8c3629"
           }
         },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
         "network": "tcp"
       },
       "mux": {
@@ -662,6 +951,34 @@
           }
         },
         "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -917,12 +1234,12 @@
       }
     },
     {
-      "tag": "vless_213.202.223.13_0",
+      "tag": "vless_151.242.168.237_0",
       "protocol": "vless",
       "settings": {
-        "address": "213.202.223.13",
+        "address": "151.242.168.237",
         "port": 0,
-        "id": "163c901d-495c-42df-b6c7-82260e7f4b0c",
+        "id": "19a368d5-41bf-4821-986c-ed84901f4f30",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -930,14 +1247,69 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "server.dega-it.de",
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "Sk-lWpvoxFjjxCLLg5mWMXQzkGT65BsAxNIqs9POR2U",
-            "shortId": "0c2753c6d7aa5aea"
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
-        "network": "raw"
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "1d55a5e6-dfc8-485b-a18a-8c65a42cff17",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_79.137.207.130_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "79.137.207.130",
+        "port": 0,
+        "id": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "lvz.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc",
+            "shortId": "ea7acce8b971"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -1001,24 +1373,23 @@
       }
     },
     {
-      "tag": "vless_79.137.207.130_0",
+      "tag": "vless_194.110.207.70_0",
       "protocol": "vless",
       "settings": {
-        "address": "79.137.207.130",
+        "address": "194.110.207.70",
         "port": 0,
-        "id": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+        "id": "202e15ee-7e79-40ad-979f-700e100c21c5",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "lvz.de",
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "5NHgGSXmIyLoslNxkfnH9ZUojx_WafjIhllNUEAhIwc",
-            "shortId": "ea7acce8b971"
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
         "network": "tcp"
@@ -1085,75 +1456,23 @@
       }
     },
     {
-      "tag": "vless_94.156.155.27_0",
+      "tag": "vless_151.242.168.238_0",
       "protocol": "vless",
       "settings": {
-        "address": "94.156.155.27",
+        "address": "151.242.168.238",
         "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
-            "shortId": "8f892fa1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.156.155.27_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.156.155.27",
-        "port": 0,
-        "id": "218fd696-e3a2-4c33-b397-a5f13a82969e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.telekom.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
-            "shortId": "8f892fa1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_93.177.64.145_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "93.177.64.145",
-        "port": 0,
-        "id": "2622977a-f23a-49e2-9f29-56c36f32c7b7",
+        "id": "24f2ba87-740c-4de4-b5c9-96f571112a61",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "meet.mein-move.de",
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "voEvvET9lIRmSLJLHbNuKB7dzEP89_PnyOWvDetkjFM",
-            "shortId": "21b9deb2fb4558a0"
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
         "network": "tcp"
@@ -1518,6 +1837,32 @@
       }
     },
     {
+      "tag": "vless_162.159.152.4_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.152.4",
+        "port": 0,
+        "id": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless.hubp.de",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_162.159.152.53_0",
       "protocol": "vless",
       "settings": {
@@ -1630,6 +1975,33 @@
         "wsSettings": {
           "path": "/?ed=2560"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "2bb2af37-e5f9-452a-b838-a1073bc03662",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -1768,6 +2140,172 @@
       }
     },
     {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "381dd087-9ceb-4c55-add3-904fe5d8b81c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "3aca1bad-80ce-4567-8e0a-4a6a12be61f1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.242.169.44_0",
       "protocol": "vless",
       "settings": {
@@ -1813,6 +2351,196 @@
           "reality": {
             "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
             "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "3e8365f2-31b6-42a8-a18f-0c6e9dbb05d1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "3e8365f2-31b6-42a8-a18f-0c6e9dbb05d1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "3e8365f2-31b6-42a8-a18f-0c6e9dbb05d1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "428046af-101b-401f-ac06-f862046ac256",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
         "network": "tcp"
@@ -1851,6 +2579,61 @@
       }
     },
     {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "4623b49f-e151-4258-9cf1-88cd632c0731",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "4623b49f-e151-4258-9cf1-88cd632c0731",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_194.110.207.48_0",
       "protocol": "vless",
       "settings": {
@@ -1872,6 +2655,34 @@
           }
         },
         "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "474f10e3-c205-4204-999a-466ffcca1b10",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -1946,6 +2757,115 @@
         "security": "reality",
         "tlsSettings": {
           "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "4a94fa4a-c8c3-4190-9b95-881cfcbab93b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "4a94fa4a-c8c3-4190-9b95-881cfcbab93b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "4b4ab26b-ced5-4bf5-8d9f-ad04d36a748a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "4b4ab26b-ced5-4bf5-8d9f-ad04d36a748a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
             "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -2112,6 +3032,88 @@
           "reality": {
             "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
             "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "57fd5441-dfbc-463c-8479-7b89ee1ad472",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "57fd5441-dfbc-463c-8479-7b89ee1ad472",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "5a524755-0205-41d6-b808-62e96fa5b9da",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
         "network": "tcp"
@@ -2204,7 +3206,91 @@
             "shortId": "46babe29a750b634"
           }
         },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "6c52b79f-fd02-41bc-bf75-4c80fbc6a939",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "6c52b79f-fd02-41bc-bf75-4c80fbc6a939",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
         "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "6c52b79f-fd02-41bc-bf75-4c80fbc6a939",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -2266,6 +3352,115 @@
       }
     },
     {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "6c52b79f-fd02-41bc-bf75-4c80fbc6a939",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "6c52b79f-fd02-41bc-bf75-4c80fbc6a939",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "80bfad93-68e1-40f2-b29b-7188f5d5dddb",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "8a00b922-5cb0-4c59-bc54-96738f8e47dc",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_194.110.207.48_0",
       "protocol": "vless",
       "settings": {
@@ -2279,6 +3474,197 @@
         "security": "reality",
         "tlsSettings": {
           "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "8e719051-96ac-4083-ac84-1f44d16385ac",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "8e719051-96ac-4083-ac84-1f44d16385ac",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "8e719051-96ac-4083-ac84-1f44d16385ac",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "91b87e08-fcbd-425d-b275-c53a1f5def92",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "91b87e08-fcbd-425d-b275-c53a1f5def92",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.146_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.146",
+        "port": 0,
+        "id": "9c3d8e77-82ca-48d5-9981-dfce97b20ab1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "a02196d0-d1ae-4b48-8f5e-6eb98c89b693",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
             "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -2357,6 +3743,61 @@
       }
     },
     {
+      "tag": "vless_151.242.169.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.45",
+        "port": 0,
+        "id": "abbc3815-8d7f-41b9-95e7-6fa8a5aa9897",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "ae0d03aa-6e1e-433f-864e-06b49ed2737c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.242.169.44_0",
       "protocol": "vless",
       "settings": {
@@ -2374,6 +3815,171 @@
           "reality": {
             "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
             "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "ae0d03aa-6e1e-433f-864e-06b49ed2737c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "ae0d03aa-6e1e-433f-864e-06b49ed2737c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "b1bf6960-1a7e-4ca3-8380-fa3160fc0fec",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
         "network": "tcp"
@@ -2459,6 +4065,33 @@
             "shortId": "46babe29a750b634"
           }
         },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": true,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
         "network": "tcp"
       },
       "mux": {
@@ -2473,6 +4106,137 @@
         "address": "151.242.168.181",
         "port": 0,
         "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.181",
+        "port": 0,
+        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+            "shortId": "46babe29a750b634"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "b88f4768-c394-4b66-995e-ebb786e89e1b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision-udp443"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": true
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "b88f4768-c394-4b66-995e-ebb786e89e1b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.169.44",
+        "port": 0,
+        "id": "bb736369-b88e-4f18-9453-258364819ca7",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -2480,11 +4244,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "kibi-institut.de",
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
-            "shortId": "46babe29a750b634"
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
           }
         },
         "network": "raw"
@@ -2495,80 +4259,26 @@
       }
     },
     {
-      "tag": "vless_151.242.168.181_0",
+      "tag": "vless_151.242.169.44_0",
       "protocol": "vless",
       "settings": {
-        "address": "151.242.168.181",
+        "address": "151.242.169.44",
         "port": 0,
-        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
+        "id": "bb736369-b88e-4f18-9453-258364819ca7",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "kibi-institut.de",
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
-            "shortId": "46babe29a750b634"
+            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+            "shortId": "f6b5862c1f73ab80"
           }
         },
         "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_151.242.168.181_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "151.242.168.181",
-        "port": 0,
-        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "kibi-institut.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
-            "shortId": "46babe29a750b634"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_151.242.168.181_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "151.242.168.181",
-        "port": 0,
-        "id": "b2963d78-6a98-4a9e-a20b-fa74dff5fde1",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "kibi-institut.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
-            "shortId": "46babe29a750b634"
-          }
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -2603,6 +4313,89 @@
       }
     },
     {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "bd5186bb-8223-46b7-bb55-4345988ec205",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "bd5186bb-8223-46b7-bb55-4345988ec205",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "bd5186bb-8223-46b7-bb55-4345988ec205",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.242.168.239_0",
       "protocol": "vless",
       "settings": {
@@ -2612,6 +4405,88 @@
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "c8531d20-2b94-4d6a-9498-7c5c753257a6",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "c8531d20-2b94-4d6a-9498-7c5c753257a6",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "c8531d20-2b94-4d6a-9498-7c5c753257a6",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -2999,15 +4874,14 @@
       }
     },
     {
-      "tag": "vless_213.202.223.43_0",
+      "tag": "vless_151.242.168.238_0",
       "protocol": "vless",
       "settings": {
-        "address": "213.202.223.43",
+        "address": "151.242.168.238",
         "port": 0,
-        "id": "c9614523-ce59-4414-8e4b-012c1fd50139",
+        "id": "cf51b1d9-9be7-4e14-957e-bbb288bc1e9e",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -3027,12 +4901,12 @@
       }
     },
     {
-      "tag": "vless_104.171.139.159_0",
+      "tag": "vless_194.110.207.48_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.171.139.159",
+        "address": "194.110.207.48",
         "port": 0,
-        "id": "cc207d12-6d49-48ca-8a91-18b63e203c5b",
+        "id": "d5383443-1e0d-4742-b973-44448ae8a1c4",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -3040,14 +4914,14 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "frantax.my3cx.de",
+          "serverName": "kibi-institut.de",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-            "shortId": "f6b5862c1f73ab80"
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
           }
         },
-        "network": "raw"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -3200,7 +5074,36 @@
         "port": 0,
         "id": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.48",
+        "port": 0,
+        "id": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -3233,6 +5136,33 @@
         "security": "reality",
         "tlsSettings": {
           "serverName": "kibi-institut.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "dfea6e8d-d1cf-4838-a309-69c9bc5059b4",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
           "allowInsecure": false,
           "reality": {
             "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -3281,6 +5211,34 @@
         "port": 0,
         "id": "e54082f9-295f-4fa1-88c0-1c439166c576",
         "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "e54082f9-295f-4fa1-88c0-1c439166c576",
+        "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
@@ -3301,15 +5259,41 @@
       }
     },
     {
-      "tag": "vless_213.202.223.43_0",
+      "tag": "vless_151.242.168.239_0",
       "protocol": "vless",
       "settings": {
-        "address": "213.202.223.43",
+        "address": "151.242.168.239",
         "port": 0,
-        "id": "e71c7e8b-e0d2-4c92-bfa1-cdfe52915098",
+        "id": "e54082f9-295f-4fa1-88c0-1c439166c576",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.239",
+        "port": 0,
+        "id": "e54082f9-295f-4fa1-88c0-1c439166c576",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -3385,12 +5369,149 @@
       }
     },
     {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "ea79e66b-1dd2-42e6-95f8-aee08db430ed",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "ea79e66b-1dd2-42e6-95f8-aee08db430ed",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "efe3feee-6403-4576-a00f-25c68cafd019",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.242.168.238",
+        "port": 0,
+        "id": "efe3feee-6403-4576-a00f-25c68cafd019",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.110.207.70",
+        "port": 0,
+        "id": "f8815b09-4367-45e3-b7e7-9f3eb585f4cf",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "frantax.my3cx.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+            "shortId": "fd55b698ee8c3629"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.242.168.239_0",
       "protocol": "vless",
       "settings": {
         "address": "151.242.168.239",
         "port": 0,
-        "id": "ed578c1e-3de5-40b9-a2ad-861dd904800d",
+        "id": "fdf2dfcb-a9ef-4bba-ae9b-74525f3e9cc8",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
@@ -3455,16 +5576,25 @@
         "selector": [
           "trojan_147.45.178.55_0",
           "trojan_104.26.8.202_0",
+          "trojan_168.138.174.229_0",
           "trojan_104.18.20.69_0",
-          "trojan_69.84.182.108_0",
           "trojan_69.84.182.108_0",
           "trojan_69.84.182.18_0",
-          "trojan_pubg.ac_0",
-          "trojan_104.18.20.69_0",
           "trojan_195.85.59.246_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.180_0",
+          "vless_151.242.168.180_0",
+          "vless_151.242.168.180_0",
+          "vless_151.242.168.180_0",
+          "vless_151.242.168.180_0",
+          "vless_151.242.168.180_0",
+          "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_151.242.168.239_0",
-          "vless_162.159.152.4_0",
+          "vless_151.242.168.239_0",
           "vless_162.159.152.4_0",
           "vless_164.38.155.61_0",
           "vless_166.62.104.61_0",
@@ -3485,17 +5615,19 @@
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
           "vless_213.202.223.13_0",
           "vless_213.202.223.13_0",
-          "vless_213.202.223.13_0",
+          "vless_151.242.168.237_0",
+          "vless_151.242.168.238_0",
           "vless_79.137.207.130_0",
           "vless_79.137.207.130_0",
           "vless_79.137.207.130_0",
+          "vless_194.110.207.70_0",
           "vless_139.28.241.21_0",
           "vless_94.156.155.27_0",
-          "vless_94.156.155.27_0",
-          "vless_94.156.155.27_0",
-          "vless_93.177.64.145_0",
+          "vless_151.242.168.238_0",
           "vless_104.16.33.150_0",
           "vless_104.16.33.150_0",
           "vless_104.18.82.55_0",
@@ -3508,37 +5640,84 @@
           "vless_154.218.15.198_0",
           "vless_154.218.15.198_0",
           "vless_162.159.152.4_0",
+          "vless_162.159.152.4_0",
           "vless_162.159.152.53_0",
           "vless_172.67.161.104_0",
           "vless_198.41.208.23_0",
           "vless_198.41.208.23_0",
+          "vless_151.242.168.238_0",
           "vless_104.16.122.175_0",
           "vless_104.16.122.175_0",
           "vless_104.16.124.175_0",
           "vless_104.16.124.175_0",
           "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
+          "vless_194.110.207.70_0",
           "vless_151.242.169.44_0",
           "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.168.238_0",
           "vless_104.238.167.226_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
           "vless_151.101.134.133_0",
           "vless_151.101.134.133_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
           "vless_27.50.48.8_0",
           "vless_27.50.48.8_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
+          "vless_151.242.168.181_0",
+          "vless_151.242.168.181_0",
+          "vless_151.242.168.181_0",
+          "vless_151.242.168.181_0",
+          "vless_151.242.168.181_0",
+          "vless_194.110.207.70_0",
           "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.169.45_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_194.110.207.146_0",
+          "vless_151.242.168.238_0",
           "vless_162.159.135.234_0",
           "vless_162.159.135.234_0",
+          "vless_151.242.169.45_0",
           "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.168.239_0",
+          "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
@@ -3546,7 +5725,17 @@
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
           "vless_151.242.168.181_0",
+          "vless_194.110.207.70_0",
+          "vless_194.110.207.70_0",
           "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_151.242.169.44_0",
+          "vless_194.110.207.70_0",
+          "vless_194.110.207.70_0",
+          "vless_194.110.207.70_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
           "vless_151.242.168.239_0",
           "vless_151.242.168.239_0",
           "vless_154.218.15.1_0",
@@ -3560,8 +5749,7 @@
           "vless_27.50.49.104_0",
           "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
           "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
-          "vless_213.202.223.43_0",
-          "vless_104.171.139.159_0",
+          "vless_151.242.168.238_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
@@ -3569,11 +5757,21 @@
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
           "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_194.110.207.48_0",
+          "vless_151.242.168.238_0",
           "vless_138.124.186.100_0",
           "vless_151.242.168.239_0",
-          "vless_213.202.223.43_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
+          "vless_151.242.168.239_0",
           "vless_138.124.53.198_0",
           "vless_138.124.53.198_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_151.242.168.238_0",
+          "vless_194.110.207.70_0",
           "vless_151.242.168.239_0"
         ],
         "strategy": {

@@ -13,15 +13,15 @@
   ],
   "outbounds": [
     {
-      "tag": "socks5_178.252.165.226_1080",
-      "server": "178.252.165.226",
-      "server_port": 1080,
-      "type": "socks"
-    },
-    {
       "tag": "socks5_185.105.184.45_1110",
       "server": "185.105.184.45",
       "server_port": 1110,
+      "type": "socks"
+    },
+    {
+      "tag": "socks5_45.144.54.40_1080",
+      "server": "45.144.54.40",
+      "server_port": 1080,
       "type": "socks"
     },
     {
@@ -31,12 +31,19 @@
       "type": "socks"
     },
     {
+      "tag": "socks5_91.212.174.37_10808",
+      "server": "91.212.174.37",
+      "server_port": 10808,
+      "type": "socks"
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "socks5_178.252.165.226_1080",
         "socks5_185.105.184.45_1110",
-        "socks5_62.60.163.79_8081"
+        "socks5_45.144.54.40_1080",
+        "socks5_62.60.163.79_8081",
+        "socks5_91.212.174.37_10808"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

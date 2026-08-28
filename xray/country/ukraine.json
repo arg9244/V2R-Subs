@@ -74,27 +74,6 @@
       }
     },
     {
-      "tag": "trojan_104.21.30.167_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.30.167",
-        "port": 0,
-        "password": "2fec7227-9abe-46f2-af18-78302b836c45",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "3y.2032.pp.ua",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_104.21.26.17_0",
       "protocol": "trojan",
       "settings": {
@@ -213,6 +192,58 @@
         "tlsSettings": {
           "serverName": "a12.taipeicitygovernment.org.ua",
           "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_123.140.124.25_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "123.140.124.25",
+        "port": 0,
+        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "official.seoulcityhall.com.ua",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_123.140.124.25_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "123.140.124.25",
+        "port": 0,
+        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "official.seoulcityhall.com.ua",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -467,48 +498,6 @@
       }
     },
     {
-      "tag": "trojan_104.21.73.150_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.73.150",
-        "port": 0,
-        "password": "cd0e795a-4f26-4f8c-9981-ed8b7dcb6126",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sDFgHU.931.pP.ua",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.163.102_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.163.102",
-        "port": 0,
-        "password": "cd0e795a-4f26-4f8c-9981-ed8b7dcb6126",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sDFgHU.931.pP.ua",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_172.67.208.155_0",
       "protocol": "trojan",
       "settings": {
@@ -556,32 +545,6 @@
       }
     },
     {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.zsu.gov.ua",
-        "port": 0,
-        "id": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "misaka.cndyw.ggff.net",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.21.26.17_0",
       "protocol": "vless",
       "settings": {
@@ -600,80 +563,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.26.17_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.26.17",
-        "port": 0,
-        "id": "07a3df8f-2a2c-42f8-ad92-65889d90f3bf",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "tTTtTTT67.459.PP.uA",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.26.17_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.26.17",
-        "port": 0,
-        "id": "07a3df8f-2a2c-42f8-ad92-65889d90f3bf",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "tTTtTTT67.459.PP.uA",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/5UW2C42lpZ7Dj4VDwVOkZfoq"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "0b17eb47-587b-4e46-86a7-e1681cbbe76c",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
         }
       },
       "mux": {
@@ -696,6 +585,70 @@
         "network": "ws",
         "wsSettings": {
           "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "12cebf33-2f96-48a3-af37-c2231e5cef75",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "12cebf33-2f96-48a3-af37-c2231e5cef75",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=proxyip.us.cmliussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "12cebf33-2f96-48a3-af37-c2231e5cef75",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net "
         }
       },
       "mux": {
@@ -836,7 +789,133 @@
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
-        "id": "1f06dae9-e4cc-4aae-b026-07f7fc81fb56",
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "2ced390a-4252-4541-8985-730f7a06bb45",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.79.79_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.79.79",
+        "port": 0,
+        "id": "3d9741da-c0e4-47cc-a5e0-f1af3d337dae",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "WwsdE.938.Pp.uA",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/GLDvleH8RDu6ZqfwAwY2SNm"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.79.79_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.79.79",
+        "port": 0,
+        "id": "3d9741da-c0e4-47cc-a5e0-f1af3d337dae",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "WwsdE.938.Pp.uA",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/GLDvleH8RDu6ZqfwAwY2SNm"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "3e553ebf-db9d-4858-b608-03d6ff615a41",
         "tls": "none"
       },
       "streamSettings": {
@@ -844,68 +923,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/pyip=ProxyIP.JP.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.79.79_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.79.79",
-        "port": 0,
-        "id": "3d9741da-c0e4-47cc-a5e0-f1af3d337dae",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "WwsdE.938.Pp.uA",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/GLDvleH8RDu6ZqfwAwY2SNm"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.79.79_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.79.79",
-        "port": 0,
-        "id": "3d9741da-c0e4-47cc-a5e0-f1af3d337dae",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "WwsdE.938.Pp.uA",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/GLDvleH8RDu6ZqfwAwY2SNm"
         }
       },
       "mux": {
@@ -1086,53 +1103,6 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.23.162_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.23.162",
-        "port": 0,
-        "id": "5453ae26-250d-4e79-b4ec-016baf806865",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "D05f4AA7-92B1-a659-E3B9-695dd2870b3c.131.pp.UA",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.21.23.162_0",
       "protocol": "vless",
       "settings": {
@@ -1335,12 +1305,12 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
+      "tag": "vless_www.zsu.gov.ua_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.gov.ua",
+        "address": "www.zsu.gov.ua",
         "port": 0,
-        "id": "631ddfb7-2f6b-4ecb-8c07-47062fff7ccb",
+        "id": "5c7a171d-de8a-446d-accc-4d3cf7d473f4",
         "tls": "none",
         "encryption": "none"
       },
@@ -1348,7 +1318,7 @@
         "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
         }
       },
       "mux": {
@@ -1357,419 +1327,12 @@
       }
     },
     {
-      "tag": "vless_www.gov.ua_0",
+      "tag": "vless_www.zsu.gov.ua_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.gov.ua",
+        "address": "www.zsu.gov.ua",
         "port": 0,
-        "id": "631ddfb7-2f6b-4ecb-8c07-47062fff7ccb",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip "
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.80.243_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.80.243",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.80.243_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.80.243",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.83.92_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.83.92",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.83.92_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.83.92",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_160.79.104.113_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "160.79.104.113",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_160.79.104.113_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "160.79.104.113",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_162.159.153.42_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "162.159.153.42",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_162.159.153.42_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "162.159.153.42",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_198.46.215.183_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "198.46.215.183",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_198.46.215.183_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "198.46.215.183",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_212.183.88.46_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "212.183.88.46",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560security=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_212.183.88.46_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "212.183.88.46",
-        "port": 0,
-        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "0229.patterdeng.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560security=tls"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "8bcfe782-60c4-4c09-b46c-330f1aa3741c",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_66.179.48.46_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "66.179.48.46",
-        "port": 0,
-        "id": "a3c075ab-51cd-4947-e8a4-aad55e19bec2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hy2.xiaozi.cc.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/lzjjj"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_66.179.48.46_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "66.179.48.46",
-        "port": 0,
-        "id": "a3c075ab-51cd-4947-e8a4-aad55e19bec2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hy2.xiaozi.cc.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/lzjjj"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "a51d8a82-faec-44f4-8882-441a2e7f0ce4",
+        "id": "6b6733fb-580b-411b-8bf8-51137c2aa037",
         "tls": "none"
       },
       "streamSettings": {
@@ -1785,552 +1348,843 @@
       }
     },
     {
-      "tag": "vless_172.67.172.91_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.67.172.91",
-        "port": 0,
-        "id": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "m8ui9.457.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.67.172.91_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.67.172.91",
-        "port": 0,
-        "id": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "m8ui9.457.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_www.gov.ua_0",
       "protocol": "vless",
       "settings": {
         "address": "www.gov.ua",
         "port": 0,
-        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
+        "id": "725c66a2-2bce-4a24-ba52-b4e2e7047076",
         "tls": "none",
         "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "bf667068-11cb-4c37-a867-4a2b03b45555",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.zsu.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.zsu.gov.ua",
-        "port": 0,
-        "id": "bfa3aaaf-41d3-4ec4-8453-e9827d7e7b30",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.26.17_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.26.17",
-        "port": 0,
-        "id": "cf8c791e-9d0b-4e90-aaf6-41ac62468416",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "IiIIIiiIIIiiO.459.pp.uA",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/dtBdvnoJO8180gomOew3d"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.100_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.100",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.100_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.100",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/telegram@V2ray_Alpha/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.102_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.102",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.102_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.102",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.132_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.132",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.132_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.132",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.15_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.15",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.15_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.15",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.198_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.198",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.198_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.198",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.2_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.2",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.120.2_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.120.2",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.121.225_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.121.225",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_141.101.121.225_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "141.101.121.225",
-        "port": 0,
-        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "e06b6255-1c90-4db0-bd8c-7704df82b27c",
-        "tls": "none"
       },
       "streamSettings": {
         "security": "none",
         "network": "ws",
         "wsSettings": {
           "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "id": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "id": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.80.243_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.80.243",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.80.243_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.80.243",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.83.92_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.83.92",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.83.92_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.83.92",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_160.79.104.113_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "160.79.104.113",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_160.79.104.113_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "160.79.104.113",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.153.42_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.42",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_162.159.153.42_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.42",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_198.46.215.183_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "198.46.215.183",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_198.46.215.183_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "198.46.215.183",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_212.183.88.46_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "212.183.88.46",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560security=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_212.183.88.46_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "212.183.88.46",
+        "port": 0,
+        "id": "794f9f41-92c9-4a78-8ffc-1f82cb48a4e2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "0229.patterdeng.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560security=tls"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "942bdcfc-e522-44f1-b899-3bd8db7c5ae2",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_66.179.48.46_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "66.179.48.46",
+        "port": 0,
+        "id": "a3c075ab-51cd-4947-e8a4-aad55e19bec2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hy2.xiaozi.cc.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/lzjjj"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_66.179.48.46_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "66.179.48.46",
+        "port": 0,
+        "id": "a3c075ab-51cd-4947-e8a4-aad55e19bec2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hy2.xiaozi.cc.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/lzjjj"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "afb13fa2-bba2-417f-b8c2-62565f92a78d",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.67.172.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.172.91",
+        "port": 0,
+        "id": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m8ui9.457.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.67.172.91_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.172.91",
+        "port": 0,
+        "id": "b30a50bc-0f63-422d-bbd6-8c790c0abb4d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m8ui9.457.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.100_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.100",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.102_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.102",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.102_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.102",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.132_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.132",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.132_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.132",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.15_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.15",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.198_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.198",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.198_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.198",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.2_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.2",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.120.2_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.120.2",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.121.225_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.121.225",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.101.121.225_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.101.121.225",
+        "port": 0,
+        "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
         }
       },
       "mux": {
@@ -2466,6 +2320,49 @@
       }
     },
     {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.zsu.gov.ua",
+        "port": 0,
+        "id": "f22856f8-66f0-4655-ba86-5385971e1302",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.gov.ua_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.gov.ua",
+        "port": 0,
+        "id": "f4e6476f-40d0-40cb-841f-cc2f6909ff20",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -2508,13 +2405,14 @@
         "tag": "leastPing",
         "selector": [
           "trojan_104.21.30.167_0",
-          "trojan_104.21.30.167_0",
           "trojan_104.21.26.17_0",
           "trojan_172.67.135.37_0",
           "trojan_60.250.152.229_0",
           "trojan_60.250.152.230_0",
           "trojan_61.222.160.199_0",
           "trojan_60.250.152.209_0",
+          "trojan_123.140.124.25_0",
+          "trojan_123.140.124.25_0",
           "trojan_60.250.152.209_0",
           "trojan_60.250.152.230_0",
           "trojan_104.21.73.150_0",
@@ -2526,18 +2424,17 @@
           "trojan_141.101.120.197_0",
           "trojan_141.101.121.163_0",
           "trojan_141.101.121.206_0",
-          "trojan_104.21.73.150_0",
-          "trojan_172.67.163.102_0",
           "trojan_172.67.208.155_0",
           "trojan_172.67.212.82_0",
-          "vless_www.zsu.gov.ua_0",
           "vless_104.21.26.17_0",
-          "vless_104.21.26.17_0",
-          "vless_104.21.26.17_0",
-          "vless_www.gov.ua_0",
           "vless_172.65.90.52_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_104.21.22.133_0",
           "vless_104.21.22.133_0",
+          "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
@@ -2548,12 +2445,11 @@
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
+          "vless_www.gov.ua_0",
           "vless_104.21.23.72_0",
           "vless_104.21.23.72_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
-          "vless_www.gov.ua_0",
-          "vless_104.21.23.162_0",
           "vless_104.21.23.162_0",
           "vless_104.21.71.205_0",
           "vless_104.21.71.205_0",
@@ -2561,51 +2457,48 @@
           "vless_172.67.205.22_0",
           "vless_172.67.212.59_0",
           "vless_172.67.212.59_0",
-          "vless_www.gov.ua_0",
-          "vless_www.gov.ua_0",
-          "vless_104.18.80.243_0",
-          "vless_104.18.80.243_0",
-          "vless_104.18.83.92_0",
-          "vless_104.18.83.92_0",
-          "vless_160.79.104.113_0",
-          "vless_160.79.104.113_0",
-          "vless_162.159.153.42_0",
-          "vless_162.159.153.42_0",
-          "vless_198.46.215.183_0",
-          "vless_198.46.215.183_0",
-          "vless_212.183.88.46_0",
-          "vless_212.183.88.46_0",
-          "vless_www.gov.ua_0",
-          "vless_66.179.48.46_0",
-          "vless_66.179.48.46_0",
-          "vless_www.gov.ua_0",
-          "vless_172.67.172.91_0",
-          "vless_172.67.172.91_0",
-          "vless_www.gov.ua_0",
-          "vless_www.gov.ua_0",
-          "vless_www.gov.ua_0",
           "vless_www.zsu.gov.ua_0",
-          "vless_104.21.26.17_0",
-          "vless_141.101.120.100_0",
-          "vless_141.101.120.100_0",
-          "vless_141.101.120.102_0",
-          "vless_141.101.120.102_0",
-          "vless_141.101.120.132_0",
-          "vless_141.101.120.132_0",
-          "vless_141.101.120.15_0",
-          "vless_141.101.120.15_0",
-          "vless_141.101.120.198_0",
-          "vless_141.101.120.198_0",
-          "vless_141.101.120.2_0",
-          "vless_141.101.120.2_0",
-          "vless_141.101.121.225_0",
-          "vless_141.101.121.225_0",
+          "vless_www.zsu.gov.ua_0",
           "vless_www.gov.ua_0",
+          "vless_mfa.gov.ua_0",
+          "vless_mfa.gov.ua_0",
+          "vless_104.18.80.243_0",
+          "vless_104.18.80.243_0",
+          "vless_104.18.83.92_0",
+          "vless_104.18.83.92_0",
+          "vless_160.79.104.113_0",
+          "vless_160.79.104.113_0",
+          "vless_162.159.153.42_0",
+          "vless_162.159.153.42_0",
+          "vless_198.46.215.183_0",
+          "vless_198.46.215.183_0",
+          "vless_212.183.88.46_0",
+          "vless_212.183.88.46_0",
+          "vless_www.gov.ua_0",
+          "vless_66.179.48.46_0",
+          "vless_66.179.48.46_0",
+          "vless_www.gov.ua_0",
+          "vless_172.67.172.91_0",
+          "vless_172.67.172.91_0",
+          "vless_141.101.120.100_0",
+          "vless_141.101.120.102_0",
+          "vless_141.101.120.102_0",
+          "vless_141.101.120.132_0",
+          "vless_141.101.120.132_0",
+          "vless_141.101.120.15_0",
+          "vless_141.101.120.198_0",
+          "vless_141.101.120.198_0",
+          "vless_141.101.120.2_0",
+          "vless_141.101.120.2_0",
+          "vless_141.101.121.225_0",
+          "vless_141.101.121.225_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_www.gov.ua_0",
           "vless_104.21.63.226_0",
-          "vless_104.21.63.226_0"
+          "vless_104.21.63.226_0",
+          "vless_www.zsu.gov.ua_0",
+          "vless_www.gov.ua_0"
         ],
         "strategy": {
           "type": "leastPing",

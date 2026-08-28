@@ -49,8 +49,8 @@ proxies:
       reality-opts:
         public-key: NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg
         short-id: ""
--     name: "vless_165.231.177.109:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"
-      server: "165.231.177.109:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\""
+-     name: vless_165.231.170.125_0
+      server: 165.231.170.125
       port: 0
       udp: true
       type: vless
@@ -65,8 +65,8 @@ proxies:
       xhttp-opts:
         path: /
         host: ""
--     name: "vless_165.231.177.149:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"
-      server: "165.231.177.149:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\""
+-     name: vless_165.231.170.43_0
+      server: 165.231.170.43
       port: 0
       udp: true
       type: vless
@@ -81,8 +81,8 @@ proxies:
       xhttp-opts:
         path: /
         host: ""
--     name: "vless_165.231.177.53:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"
-      server: "165.231.177.53:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\""
+-     name: vless_165.231.177.109_0
+      server: 165.231.177.109
       port: 0
       udp: true
       type: vless
@@ -97,8 +97,8 @@ proxies:
       xhttp-opts:
         path: /
         host: ""
--     name: "vless_165.231.177.59:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"
-      server: "165.231.177.59:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\""
+-     name: vless_165.231.177.117_0
+      server: 165.231.177.117
       port: 0
       udp: true
       type: vless
@@ -113,8 +113,56 @@ proxies:
       xhttp-opts:
         path: /
         host: ""
--     name: "vless_165.231.177.93:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"
-      server: "165.231.177.93:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\""
+-     name: vless_165.231.177.149_0
+      server: 165.231.177.149
+      port: 0
+      udp: true
+      type: vless
+      uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+      tls: true
+      servername: sentry.allepal.ee
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+        short-id: a3f9c2d4e8b1a7c6
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_165.231.177.53_0
+      server: 165.231.177.53
+      port: 0
+      udp: true
+      type: vless
+      uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+      tls: true
+      servername: sentry.allepal.ee
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+        short-id: a3f9c2d4e8b1a7c6
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_165.231.177.77_0
+      server: 165.231.177.77
+      port: 0
+      udp: true
+      type: vless
+      uuid: f230254f-d4cd-4d83-8a2d-e83927ef98ac
+      tls: true
+      servername: sentry.allepal.ee
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+        short-id: a3f9c2d4e8b1a7c6
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_165.231.177.93_0
+      server: 165.231.177.93
       port: 0
       udp: true
       type: vless
@@ -132,7 +180,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0, "vless_165.231.177.109:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0", "vless_165.231.177.149:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0", "vless_165.231.177.53:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0", "vless_165.231.177.59:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0", "vless_165.231.177.93:443?encryption=none&extra={\"scMaxEachPostBytes\":1000000,\"scMaxConcurrentPosts\":100,\"scMinPostsIntervalMs\":30,\"xPaddingBytes\":\"100-1000\",\"noGRPCHeader\"_0"]
+      proxies: [vless_46.22.216.31_0, vless_46.22.216.31_0, vless_46.22.216.31_0, vless_165.231.170.125_0, vless_165.231.170.43_0, vless_165.231.177.109_0, vless_165.231.177.117_0, vless_165.231.177.149_0, vless_165.231.177.53_0, vless_165.231.177.77_0, vless_165.231.177.93_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

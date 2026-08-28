@@ -25,9 +25,37 @@
       }
     },
     {
+      "tag": "trojan_45.95.232.189_0",
+      "server": "45.95.232.189",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr-switzerlandgopota.unlimited-access.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_45.95.232.189_0",
+      "server": "45.95.232.189",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr-switzerlandgopota.unlimited-access.ru"
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_45.95.232.189_0",
+        "trojan_45.95.232.189_0",
         "trojan_45.95.232.189_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

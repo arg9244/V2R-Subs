@@ -86,6 +86,11 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "us02web.zoom.us",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
           "allowInsecure": false
         }
       },
@@ -95,19 +100,20 @@
       }
     },
     {
-      "tag": "vless_69.48.201.136_0",
+      "tag": "vless_85.17.145.65_0",
       "protocol": "vless",
       "settings": {
-        "address": "69.48.201.136",
+        "address": "85.17.145.65",
         "port": 0,
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "tls": "none"
+        "id": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+        "tls": "none",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/usserver"
+          "path": "/"
         }
       },
       "mux": {
@@ -116,13 +122,36 @@
       }
     },
     {
-      "tag": "vless_69.48.201.136_0",
+      "tag": "vless_85.17.145.65_0",
       "protocol": "vless",
       "settings": {
-        "address": "69.48.201.136",
+        "address": "85.17.145.65",
         "port": 0,
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "tls": "none"
+        "id": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_85.17.145.65_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "85.17.145.65",
+        "port": 0,
+        "id": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+        "tls": "none",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "none",
@@ -211,62 +240,12 @@
       }
     },
     {
-      "tag": "vless_185.178.208.140_0",
+      "tag": "vless_support.zoom.us_0",
       "protocol": "vless",
       "settings": {
-        "address": "185.178.208.140",
+        "address": "support.zoom.us",
         "port": 0,
-        "id": "1c5803f0-9670-49bd-b9bf-830b4014064c",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn.sywl2live.us",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_169.58.143.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "169.58.143.21",
-        "port": 0,
-        "id": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "telegram.us",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_84.235.244.108_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "84.235.244.108",
-        "port": 0,
-        "id": "39947382-3212-41c9-bc3a-589574ac8b23",
+        "id": "3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08",
         "tls": "none"
       },
       "streamSettings": {
@@ -282,34 +261,14 @@
       }
     },
     {
-      "tag": "vless_84.235.244.108_0",
+      "tag": "vless_support.zoom.us_0",
       "protocol": "vless",
       "settings": {
-        "address": "84.235.244.108",
+        "address": "support.zoom.us",
         "port": 0,
-        "id": "39947382-3212-41c9-bc3a-589574ac8b23",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_84.235.244.108_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "84.235.244.108",
-        "port": 0,
-        "id": "39947382-3212-41c9-bc3a-589574ac8b23",
-        "tls": "none"
+        "id": "3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08",
+        "tls": "none",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "none",
@@ -368,6 +327,32 @@
         "network": "ws",
         "wsSettings": {
           "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "6680846a-8a57-4dfd-9a0e-63209cfc8535",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/sg-amz"
         }
       },
       "mux": {
@@ -440,32 +425,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "nl57.vlessx.us",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.12.150_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.12.150",
-        "port": 0,
-        "id": "a2dadb95-3f15-4e1c-b517-0b54c336a5fd",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
           "serverName": "nl57.Vlessx.us",
           "allowInsecure": false
         },
@@ -480,24 +439,19 @@
       }
     },
     {
-      "tag": "vless_104.21.12.150_0",
+      "tag": "vless_support.zoom.us_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.21.12.150",
+        "address": "support.zoom.us",
         "port": 0,
-        "id": "a2dadb95-3f15-4e1c-b517-0b54c336a5fd",
-        "tls": "tls",
-        "encryption": "none"
+        "id": "ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3",
+        "tls": "none"
       },
       "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nl57.Vlessx.us",
-          "allowInsecure": false
-        },
+        "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2048"
+          "path": "/"
         }
       },
       "mux": {
@@ -506,172 +460,21 @@
       }
     },
     {
-      "tag": "vless_104.21.7.50_0",
+      "tag": "vless_support.zoom.us_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.21.7.50",
+        "address": "support.zoom.us",
         "port": 0,
-        "id": "c49955ec-a0dc-496e-ea3b-c24fa5c87c82",
-        "tls": "tls"
+        "id": "ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3",
+        "tls": "none",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "reversepeyman1.cpionline.us",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2"
-            ]
-          },
-          "allowInsecure": false
-        },
+        "security": "none",
         "network": "ws",
         "wsSettings": {
-          "path": "/ws/2053"
+          "path": "/"
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_178.128.52.52_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "178.128.52.52",
-        "port": 0,
-        "id": "efd11a89-7506-44ce-95b6-6654859f155b",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoom.us",
-          "alpn": {
-            "alpn": [
-              "h2"
-            ]
-          },
-          "allowInsecure": true,
-          "reality": {
-            "publicKey": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
-            "shortId": "5a42dbd7e26a0415"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_178.128.52.52_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "178.128.52.52",
-        "port": 0,
-        "id": "efd11a89-7506-44ce-95b6-6654859f155b",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoom.us",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
-            "shortId": "5a42dbd7e26a0415"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_178.128.52.52_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "178.128.52.52",
-        "port": 0,
-        "id": "efd11a89-7506-44ce-95b6-6654859f155b",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoom.us",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
-            "shortId": "5a42dbd7e26a0415"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_178.128.52.52_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "178.128.52.52",
-        "port": 0,
-        "id": "efd11a89-7506-44ce-95b6-6654859f155b",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoom.us",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
-            "shortId": "5a42dbd7e26a0415"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_178.128.52.52_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "178.128.52.52",
-        "port": 0,
-        "id": "efd11a89-7506-44ce-95b6-6654859f155b",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoom.us",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
-            "shortId": "5a42dbd7e26a0415"
-          }
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -722,29 +525,22 @@
         "selector": [
           "trojan_104.21.19.64_0",
           "trojan_104.21.19.64_0",
-          "vless_69.48.201.136_0",
-          "vless_69.48.201.136_0",
+          "vless_85.17.145.65_0",
+          "vless_85.17.145.65_0",
+          "vless_85.17.145.65_0",
           "vless_85.17.145.65_0",
           "vless_172.67.132.41_0",
           "vless_172.67.132.41_0",
-          "vless_185.178.208.140_0",
-          "vless_169.58.143.21_0",
-          "vless_84.235.244.108_0",
-          "vless_84.235.244.108_0",
-          "vless_84.235.244.108_0",
+          "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0",
           "vless_104.21.4.8_0",
           "vless_104.21.4.8_0",
+          "vless_support.zoom.us_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.7.50_0",
-          "vless_178.128.52.52_0",
-          "vless_178.128.52.52_0",
-          "vless_178.128.52.52_0",
-          "vless_178.128.52.52_0",
-          "vless_178.128.52.52_0"
+          "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -116,6 +116,32 @@
       }
     },
     {
+      "tag": "trojan_3.168.86.38_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "3.168.86.38",
+        "port": 0,
+        "password": "0000000",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.lovelive-anime.jp",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_3.168.86.96_0",
       "protocol": "trojan",
       "settings": {
@@ -211,6 +237,89 @@
           "reality": {
             "publicKey": "4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ",
             "shortId": "f0cce996"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_138.2.94.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "138.2.94.44",
+        "port": 0,
+        "id": "ca9cec48-bc34-4d6e-92d5-d0cd56150e51",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lovelive-anime.jp",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8",
+            "shortId": "905ae32a"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_138.2.94.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "138.2.94.44",
+        "port": 0,
+        "id": "ca9cec48-bc34-4d6e-92d5-d0cd56150e51",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lovelive-anime.jp",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8",
+            "shortId": "905ae32a"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_138.2.94.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "138.2.94.44",
+        "port": 0,
+        "id": "d95e62f8-b961-4362-bb07-e1e421b02274",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lovelive-anime.jp",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "-kGaCYGM_MImDMVkOsFp4yvv4dLy3FXe9gqAtf4eYF8",
+            "shortId": "905ae32a"
           }
         },
         "network": "tcp"
@@ -403,10 +512,14 @@
           "trojan_18.238.109.28_0",
           "trojan_3.168.86.26_0",
           "trojan_3.168.86.35_0",
+          "trojan_3.168.86.38_0",
           "trojan_3.168.86.96_0",
           "vless_168.138.166.89_0",
           "vless_168.138.166.89_0",
           "vless_168.138.166.89_0",
+          "vless_138.2.94.44_0",
+          "vless_138.2.94.44_0",
+          "vless_138.2.94.44_0",
           "vless_152.67.211.233_0",
           "vless_152.67.211.233_0",
           "vless_5.253.38.67_0",

@@ -80,6 +80,33 @@
       }
     },
     {
+      "tag": "vless_138.124.123.127_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "138.124.123.127",
+        "port": 0,
+        "id": "188c0927-b022-4478-86f7-be53449e2d8b",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "support-shield.nvidia.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "HPGO1-MaeKy358TWkMkFB4Rk-56-CYbO3i_pdncltmw",
+            "shortId": "f9ca6a2e5799b683"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_5.180.97.201_0",
       "protocol": "vless",
       "settings": {
@@ -100,145 +127,6 @@
           }
         },
         "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_103.109.234.166_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.109.234.166",
-        "port": 0,
-        "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dep.opngtr.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
-            "shortId": "7d6b6b7a606c21cf"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_103.109.234.166_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.109.234.166",
-        "port": 0,
-        "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dep.opngtr.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
-            "shortId": "7d6b6b7a606c21cf"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_103.109.234.166_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.109.234.166",
-        "port": 0,
-        "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dep.opngtr.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
-            "shortId": "7d6b6b7a606c21cf"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_103.109.234.166_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.109.234.166",
-        "port": 0,
-        "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dep.opngtr.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
-            "shortId": "7d6b6b7a606c21cf"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_103.109.234.96_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.109.234.96",
-        "port": 0,
-        "id": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dep.opngtr.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "gA6-Fj5hl4x-HOtbCcYqD99qsml4ActHRmw-VTkFU14",
-            "shortId": "7d6b6b7a606c21cf"
-          }
-        },
-        "network": "raw"
       },
       "mux": {
         "enabled": true,
@@ -288,12 +176,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_194.61.120.198_0",
-          "vless_5.180.97.201_0",
-          "vless_103.109.234.166_0",
-          "vless_103.109.234.166_0",
-          "vless_103.109.234.166_0",
-          "vless_103.109.234.166_0",
-          "vless_103.109.234.96_0"
+          "vless_138.124.123.127_0",
+          "vless_5.180.97.201_0"
         ],
         "strategy": {
           "type": "leastPing",

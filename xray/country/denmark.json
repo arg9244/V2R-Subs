@@ -74,6 +74,48 @@
       }
     },
     {
+      "tag": "trojan_45.95.232.189_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "45.95.232.189",
+        "port": 0,
+        "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tr-switzerlandgopota.unlimited-access.ru",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_45.95.232.189_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "45.95.232.189",
+        "port": 0,
+        "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tr-switzerlandgopota.unlimited-access.ru",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -115,6 +157,8 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_45.95.232.189_0",
+          "trojan_45.95.232.189_0",
           "trojan_45.95.232.189_0"
         ],
         "strategy": {

@@ -74,6 +74,59 @@
       }
     },
     {
+      "tag": "vless_96.126.130.176_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "96.126.130.176",
+        "port": 0,
+        "id": "825c049b-403c-49e0-b60f-379bdb8611e9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.japan-travel.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "sPdtqEglJBpjsEgeOHkyafVgHSDcGzIn4ChX3gY4aVg",
+            "shortId": "280e30b0075dfda0"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_84.32.99.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.99.238",
+        "port": 0,
+        "id": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "recaptcha.net.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_84.32.99.238_0",
       "protocol": "vless",
       "settings": {
@@ -220,6 +273,8 @@
         "tag": "leastPing",
         "selector": [
           "trojan_42.236.73.72_0",
+          "vless_96.126.130.176_0",
+          "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",
