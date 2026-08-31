@@ -53,52 +53,23 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_195.63.135.48_0",
+      "tag": "vless_84.252.132.142_0",
       "protocol": "vless",
       "settings": {
-        "address": "195.63.135.48",
+        "address": "84.252.132.142",
         "port": 0,
-        "id": "48aca1e4-fc30-4ac4-9042-9992cc0cd99f",
+        "id": "852c7b52-ca2d-4c63-9413-586c611c2ba6",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "fleshas.lt",
+          "serverName": "yandex.lt",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "Pc4Cr5EqSfDoW1VZLZqjLMXHBVWQEnVH_mslj-VcR2g",
-            "shortId": "b255b3871736a84b"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_144.124.231.199_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "144.124.231.199",
-        "port": 0,
-        "id": "b9fa61b2-2049-4e17-bc96-e99c07871afd",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "fleshas.lt",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "Pc4Cr5EqSfDoW1VZLZqjLMXHBVWQEnVH_mslj-VcR2g",
-            "shortId": "b255b3871736a84b"
+            "publicKey": "IoP794V4wh0SxFDooTa4ZUl9s5W7ViJBo1-rBm7aEFg",
+            "shortId": "8c48e512ffd0"
           }
         },
         "network": "tcp"
@@ -150,8 +121,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_195.63.135.48_0",
-          "vless_144.124.231.199_0"
+          "vless_84.252.132.142_0"
         ],
         "strategy": {
           "type": "leastPing",

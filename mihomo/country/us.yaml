@@ -18,16 +18,24 @@ proxies:
       password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442
       tls: true
       servername: us02web.zoom.us
--     name: trojan_104.21.19.64_0
-      server: 104.21.19.64
+-     name: vless_85.17.145.65_0
+      server: 85.17.145.65
       port: 0
       udp: true
-      type: trojan
-      password: 21c6c7cb-332b-4a0c-9ad7-dff9c3111442
-      tls: true
-      servername: us02web.zoom.us
-      alpn: [http/1.1]
-      client-fingerprint: chrome
+      type: vless
+      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_85.17.145.65_0
+      server: 85.17.145.65
+      port: 0
+      udp: true
+      type: vless
+      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_85.17.145.65_0
       server: 85.17.145.65
       port: 0
@@ -88,21 +96,21 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
       port: 0
       udp: true
       type: vless
-      uuid: 3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
       network: ws
       ws-opts:
         path: /
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
       port: 0
       udp: true
       type: vless
-      uuid: 3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
       network: ws
       ws-opts:
         path: /
@@ -130,18 +138,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-      tls: true
-      servername: support.zoom.us.yxls.eu.cc
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /sg-amz
 -     name: vless_104.21.12.150_0
       server: 104.21.12.150
       port: 0
@@ -177,28 +173,10 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3
-      network: ws
-      ws-opts:
-        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_support.zoom.us_0, vless_support.zoom.us_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_support.zoom.us_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_support.zoom.us_0, vless_support.zoom.us_0]
+      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

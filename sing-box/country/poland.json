@@ -13,19 +13,40 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_149.50.105.117_0",
-      "server": "149.50.105.117",
+      "tag": "vless_151.244.237.100_0",
+      "server": "151.244.237.100",
       "server_port": 0,
       "type": "vless",
-      "uuid": "596b215c-3743-4893-b24a-4e396c4ab80f",
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "code.diagu.pl",
+        "server_name": "atman.pl",
         "reality": {
           "enabled": true,
-          "public_key": "XtWTCj41yTTGvlJus3UDor9Xm1jx6DcJ-hr1RdsbmU4",
-          "short_id": "98673629c44f40c0"
+          "public_key": "AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk",
+          "short_id": "dd1d50efb598160a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.244.237.100_0",
+      "server": "151.244.237.100",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "atman.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk",
+          "short_id": "dd1d50efb598160a"
         },
         "utls": {
           "enabled": true,
@@ -37,7 +58,8 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_149.50.105.117_0"
+        "vless_151.244.237.100_0",
+        "vless_151.244.237.100_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

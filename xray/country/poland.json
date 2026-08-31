@@ -53,12 +53,12 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_149.50.105.117_0",
+      "tag": "vless_151.244.237.100_0",
       "protocol": "vless",
       "settings": {
-        "address": "149.50.105.117",
+        "address": "151.244.237.100",
         "port": 0,
-        "id": "596b215c-3743-4893-b24a-4e396c4ab80f",
+        "id": "60e2a548-96aa-4850-a279-1edab743c39b",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -66,11 +66,38 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "code.diagu.pl",
+          "serverName": "atman.pl",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "XtWTCj41yTTGvlJus3UDor9Xm1jx6DcJ-hr1RdsbmU4",
-            "shortId": "98673629c44f40c0"
+            "publicKey": "AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk",
+            "shortId": "dd1d50efb598160a"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.244.237.100_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.244.237.100",
+        "port": 0,
+        "id": "60e2a548-96aa-4850-a279-1edab743c39b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "atman.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk",
+            "shortId": "dd1d50efb598160a"
           }
         },
         "network": "tcp"
@@ -122,7 +149,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_149.50.105.117_0"
+          "vless_151.244.237.100_0",
+          "vless_151.244.237.100_0"
         ],
         "strategy": {
           "type": "leastPing",

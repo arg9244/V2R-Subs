@@ -13,6 +13,18 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_42.51.25.69_0",
+      "server": "42.51.25.69",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "002023c45d18bca3eba2757bb683309a",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ja262.magiclampcloud.cn"
+      }
+    },
+    {
       "tag": "trojan_42.236.73.72_0",
       "server": "42.236.73.72",
       "server_port": 0,
@@ -21,27 +33,6 @@
       "tls": {
         "enabled": true,
         "server_name": "www.zitian.cn"
-      }
-    },
-    {
-      "tag": "vless_96.126.130.176_0",
-      "server": "96.126.130.176",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "825c049b-403c-49e0-b60f-379bdb8611e9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.japan-travel.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "sPdtqEglJBpjsEgeOHkyafVgHSDcGzIn4ChX3gY4aVg",
-          "short_id": "280e30b0075dfda0"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -133,32 +124,11 @@
       }
     },
     {
-      "tag": "vless_84.32.99.238_0",
-      "server": "84.32.99.238",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
-      "tls": {
-        "enabled": true,
-        "server_name": "recaptcha.net.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/api/v1/data"
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_42.51.25.69_0",
         "trojan_42.236.73.72_0",
-        "vless_96.126.130.176_0",
-        "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",
         "vless_84.32.99.238_0",

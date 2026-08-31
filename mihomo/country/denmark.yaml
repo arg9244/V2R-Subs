@@ -10,36 +10,20 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_45.95.232.189_0
-      server: 45.95.232.189
+-     name: trojan_94.228.170.176_0
+      server: 94.228.170.176
       port: 0
       udp: true
       type: trojan
       password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
       tls: true
-      skip-cert-verify: true
-      servername: tr-switzerlandgopota.unlimited-access.ru
--     name: trojan_45.95.232.189_0
-      server: 45.95.232.189
-      port: 0
-      udp: true
-      type: trojan
-      password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-      tls: true
-      servername: tr-switzerlandgopota.unlimited-access.ru
-      client-fingerprint: chrome
--     name: trojan_45.95.232.189_0
-      server: 45.95.232.189
-      port: 0
-      udp: true
-      type: trojan
-      password: kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi
-      tls: true
-      servername: tr-switzerlandgopota.unlimited-access.ru
+      servername: tr-netherlands.unlimited-access.ru
+      alpn: [http/1.1]
+      client-fingerprint: firefox
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_45.95.232.189_0, trojan_45.95.232.189_0, trojan_45.95.232.189_0]
+      proxies: [trojan_94.228.170.176_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

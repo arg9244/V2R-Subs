@@ -10,6 +10,71 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_144.31.183.177_0
+      server: 144.31.183.177
+      port: 0
+      udp: true
+      type: vless
+      uuid: 06a70256-5acc-4a79-bd73-cc8e3c4c204b
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
+        short-id: e9a7
+-     name: vless_144.31.183.177_0
+      server: 144.31.183.177
+      port: 0
+      udp: true
+      type: vless
+      uuid: 06a70256-5acc-4a79-bd73-cc8e3c4c204b
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yt.be
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
+        short-id: e9a7
+-     name: vless_144.31.183.177_0
+      server: 144.31.183.177
+      port: 0
+      udp: true
+      type: vless
+      uuid: 06a70256-5acc-4a79-bd73-cc8e3c4c204b
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
+        short-id: e9a7
+-     name: vless_144.31.183.177_0
+      server: 144.31.183.177
+      port: 0
+      udp: true
+      type: vless
+      uuid: 06a70256-5acc-4a79-bd73-cc8e3c4c204b
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yt.be
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
+        short-id: e9a7
+-     name: vless_144.31.183.177_0
+      server: 144.31.183.177
+      port: 0
+      udp: true
+      type: vless
+      uuid: 06a70256-5acc-4a79-bd73-cc8e3c4c204b
+      flow: xtls-rprx-vision
+      tls: true
+      servername: yt.be
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
+        short-id: e9a7
 -     name: vless_172.66.47.97_0
       server: 172.66.47.97
       port: 0
@@ -35,7 +100,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_172.66.47.97_0, vless_172.66.47.97_0]
+      proxies: [vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_172.66.47.97_0, vless_172.66.47.97_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

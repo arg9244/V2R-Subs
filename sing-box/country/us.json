@@ -24,24 +24,35 @@
       }
     },
     {
-      "tag": "trojan_104.21.19.64_0",
-      "server": "104.21.19.64",
+      "tag": "vless_85.17.145.65_0",
+      "server": "85.17.145.65",
       "server_port": 0,
-      "type": "trojan",
-      "password": "21c6c7cb-332b-4a0c-9ad7-dff9c3111442",
-      "tls": {
+      "type": "vless",
+      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
         "enabled": true,
-        "server_name": "us02web.zoom.us",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_85.17.145.65_0",
+      "server": "85.17.145.65",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
@@ -157,11 +168,11 @@
       }
     },
     {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
       "server_port": 0,
       "type": "vless",
-      "uuid": "3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08",
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
         "type": "ws",
         "path": "/"
@@ -173,11 +184,11 @@
       }
     },
     {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
       "server_port": 0,
       "type": "vless",
-      "uuid": "3670ab0a-1af7-4f1d-9a19-8bb8ae42ec08",
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
         "type": "ws",
         "path": "/"
@@ -229,30 +240,6 @@
       "transport": {
         "type": "ws",
         "path": "/?ed=2048"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6680846a-8a57-4dfd-9a0e-63209cfc8535",
-      "tls": {
-        "enabled": true,
-        "server_name": "support.zoom.us.yxls.eu.cc",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/sg-amz"
       },
       "multiplex": {
         "enabled": true,
@@ -329,59 +316,25 @@
       }
     },
     {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ce9e52ff-7069-4b43-91a9-c8bd4a5b38d3",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "trojan_104.21.19.64_0",
-        "trojan_104.21.19.64_0",
+        "vless_85.17.145.65_0",
+        "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_172.67.132.41_0",
         "vless_172.67.132.41_0",
-        "vless_support.zoom.us_0",
-        "vless_support.zoom.us_0",
+        "vless_84.235.244.108_0",
+        "vless_84.235.244.108_0",
         "vless_104.21.4.8_0",
         "vless_104.21.4.8_0",
-        "vless_support.zoom.us_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
-        "vless_104.21.12.150_0",
-        "vless_support.zoom.us_0",
-        "vless_support.zoom.us_0"
+        "vless_104.21.12.150_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -17,6 +17,22 @@
       "server": "www.true.th",
       "server_port": 0,
       "type": "vless",
+      "uuid": "63ae5b68-f6f8-432e-b440-d975053cfbc2",
+      "transport": {
+        "type": "ws",
+        "path": "/than"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.true.th_0",
+      "server": "www.true.th",
+      "server_port": 0,
+      "type": "vless",
       "uuid": "7ce54bb3-d612-4aa7-be08-089d3c461d53",
       "tls": {
         "enabled": true,
@@ -40,6 +56,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_www.true.th_0",
         "vless_www.true.th_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

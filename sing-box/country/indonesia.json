@@ -13,6 +13,68 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_104.21.70.21_0",
+      "server": "104.21.70.21",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      }
+    },
+    {
+      "tag": "trojan_104.21.70.21_0",
+      "server": "104.21.70.21",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      }
+    },
+    {
+      "tag": "trojan_104.21.83.135_0",
+      "server": "104.21.83.135",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id1.nathaya.web.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_172.67.176.157_0",
+      "server": "172.67.176.157",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "id1.nathaya.web.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_104.18.21.18_0",
       "server": "104.18.21.18",
       "server_port": 0,
@@ -63,28 +125,18 @@
       }
     },
     {
-      "tag": "vless_www.ums.id_0",
-      "server": "www.ums.id",
+      "tag": "vless_104.21.78.131_0",
+      "server": "104.21.78.131",
       "server_port": 0,
       "type": "vless",
-      "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+      "uuid": "9bc90ddf-b865-47cc-9f97-9d5ea3bca89f",
       "tls": {
         "enabled": true,
-        "server_name": "carlotta.shoorekeeper.cloudns.org",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "vl31.rnd.biz.id"
       },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/?ed=2048"
       },
       "multiplex": {
         "enabled": true,
@@ -253,6 +305,26 @@
       }
     },
     {
+      "tag": "vless_172.67.221.199_0",
+      "server": "172.67.221.199",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "aa81e188-a979-411e-a10b-08287646cc43",
+      "tls": {
+        "enabled": true,
+        "server_name": "vl26.rnd.biz.id"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.20.28.30_0",
       "server": "104.20.28.30",
       "server_port": 0,
@@ -293,6 +365,126 @@
       }
     },
     {
+      "tag": "vless_104.17.3.81_0",
+      "server": "104.17.3.81",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgdo1.cassanova.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.17.3.81_0",
+      "server": "104.17.3.81",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgdo1.cassanova.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.17.3.81_0",
+      "server": "104.17.3.81",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgdo1.cassanova.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.21.70.21_0",
+      "server": "104.21.70.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgdo1.cassanova.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.21.70.21_0",
+      "server": "104.21.70.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
+      "tls": {
+        "enabled": true,
+        "server_name": "sgdo1.cassanova.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.18.32.47_0",
       "server": "104.18.32.47",
       "server_port": 0,
@@ -317,38 +509,18 @@
       }
     },
     {
-      "tag": "vless_172.64.155.209_0",
-      "server": "172.64.155.209",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
-      "tls": {
-        "enabled": true,
-        "server_name": "aio.zxcore.biz.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_104.21.70.21_0",
+        "trojan_104.21.70.21_0",
+        "trojan_104.21.83.135_0",
+        "trojan_172.67.176.157_0",
         "trojan_104.18.21.18_0",
         "trojan_104.21.21.147_0",
         "trojan_104.21.72.109_0",
         "trojan_172.67.181.173_0",
-        "vless_www.ums.id_0",
+        "vless_104.21.78.131_0",
         "vless_104.21.78.131_0",
         "vless_104.18.12.51_0",
         "vless_104.18.12.51_0",
@@ -356,10 +528,15 @@
         "vless_104.18.13.51_0",
         "vless_104.18.13.51_0",
         "vless_172.67.221.199_0",
+        "vless_172.67.221.199_0",
         "vless_104.20.28.30_0",
         "vless_172.66.158.93_0",
-        "vless_104.18.32.47_0",
-        "vless_172.64.155.209_0"
+        "vless_104.17.3.81_0",
+        "vless_104.17.3.81_0",
+        "vless_104.17.3.81_0",
+        "vless_104.21.70.21_0",
+        "vless_104.21.70.21_0",
+        "vless_104.18.32.47_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

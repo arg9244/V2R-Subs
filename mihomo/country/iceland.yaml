@@ -15,14 +15,14 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+      uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
       tls: true
-      servername: support.zoom.us.yxls.eu.cc.
+      servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
       alpn: [h3, h2, http/1.1]
       client-fingerprint: chrome
       network: ws
       ws-opts:
-        path: "/sg-melbi?ed=443"
+        path: "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443"
 -     name: vless_time.is_0
       server: time.is
       port: 0
@@ -31,44 +31,6 @@ proxies:
       uuid: 54502a61-2af6-40e7-8331-2c9fc40e5903
       tls: true
       servername: old-cloud-a96a.rohamsahh90.workers.dev
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: 54502a61-2af6-40e7-8331-2c9fc40e5903
-      tls: true
-      servername: old-cloud-a96a.rohamsahh90.workers.dev
-      alpn: [h3, h2, http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: d195909a-eff4-489d-a261-955b904894cb
-      tls: true
-      servername: fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.
-      alpn: [h3, h2, http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560"
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
-      tls: true
-      servername: crimson-king-301d.nexoxnet.workers.dev
       alpn: [h3, h2, http/1.1]
       client-fingerprint: chrome
       network: ws
@@ -77,7 +39,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0, vless_time.is_0]
+      proxies: [vless_time.is_0, vless_time.is_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
