@@ -199,6 +199,32 @@
       }
     },
     {
+      "tag": "vless_84.32.99.238_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.99.238",
+        "port": 0,
+        "id": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "recaptcha.net.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -242,6 +268,7 @@
         "selector": [
           "trojan_42.51.25.69_0",
           "trojan_42.236.73.72_0",
+          "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",
           "vless_84.32.99.238_0",

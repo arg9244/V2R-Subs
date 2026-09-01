@@ -53,6 +53,24 @@
   ],
   "outbounds": [
     {
+      "tag": "socks5_101.36.104.239_10808",
+      "protocol": "socks",
+      "settings": {
+        "address": "101.36.104.239",
+        "port": 10808,
+        "user": "",
+        "pass": "",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "socks5_178.252.165.226_1080",
       "protocol": "socks",
       "settings": {
@@ -75,6 +93,24 @@
       "protocol": "socks",
       "settings": {
         "address": "45.144.54.40",
+        "port": 1080,
+        "user": "",
+        "pass": "",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "socks5_46.100.94.217_1080",
+      "protocol": "socks",
+      "settings": {
+        "address": "46.100.94.217",
         "port": 1080,
         "user": "",
         "pass": "",
@@ -148,8 +184,10 @@
       {
         "tag": "leastPing",
         "selector": [
+          "socks5_101.36.104.239_10808",
           "socks5_178.252.165.226_1080",
           "socks5_45.144.54.40_1080",
+          "socks5_46.100.94.217_1080",
           "socks5_91.212.174.37_10808"
         ],
         "strategy": {
