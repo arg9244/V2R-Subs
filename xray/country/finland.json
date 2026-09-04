@@ -53,27 +53,26 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_104.238.29.241_0",
+      "tag": "vless_185.42.163.5_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.238.29.241",
+        "address": "185.42.163.5",
         "port": 0,
-        "id": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+        "id": "ce735eb1358947f38d5a554c1dcbab87",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "helsinki.fi",
+          "serverName": "finland.fi",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM",
-            "shortId": "40a5eaec20abf1"
+            "publicKey": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
+            "shortId": "aabbccdd"
           }
         },
-        "network": "tcp"
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -81,27 +80,55 @@
       }
     },
     {
-      "tag": "vless_104.238.29.241_0",
+      "tag": "vless_185.42.163.5_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.238.29.241",
+        "address": "185.42.163.5",
         "port": 0,
-        "id": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
+        "id": "ce735eb1358947f38d5a554c1dcbab87",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "helsinki.fi",
+          "serverName": "finland.fi",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM",
-            "shortId": "40a5eaec20abf1"
+            "publicKey": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
+            "shortId": "aabbccdd"
           }
         },
-        "network": "tcp"
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_2.26.0.5_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2.26.0.5",
+        "port": 0,
+        "id": "cec9a167-6381-4752-9828-a92ab6e6ebdd",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "deliberi.fi",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "_syAndJM1Guu8-CkJ48iBXUTe0GxHg3YEN3vz9iPkjo",
+            "shortId": "f44dbbc3"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "6b1d23e872422afdd141eba7c94c05e4"
+        }
       },
       "mux": {
         "enabled": true,
@@ -150,8 +177,9 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_104.238.29.241_0",
-          "vless_104.238.29.241_0"
+          "vless_185.42.163.5_0",
+          "vless_185.42.163.5_0",
+          "vless_2.26.0.5_0"
         ],
         "strategy": {
           "type": "leastPing",

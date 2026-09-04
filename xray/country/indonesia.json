@@ -95,10 +95,10 @@
       }
     },
     {
-      "tag": "trojan_104.21.70.21_0",
+      "tag": "trojan_104.21.83.135_0",
       "protocol": "trojan",
       "settings": {
-        "address": "104.21.70.21",
+        "address": "104.21.83.135",
         "port": 0,
         "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
         "level": 0
@@ -107,28 +107,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.70.21_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.70.21",
-        "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
+          "allowInsecure": true
         }
       },
       "mux": {
@@ -149,7 +128,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "id1.nathaya.web.id",
-          "allowInsecure": true
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -221,18 +200,18 @@
       }
     },
     {
-      "tag": "trojan_172.67.176.157_0",
+      "tag": "trojan_104.18.153.182_0",
       "protocol": "trojan",
       "settings": {
-        "address": "172.67.176.157",
+        "address": "104.18.153.182",
         "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
         "level": 0
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
+          "serverName": "dimskiee.biz.id",
           "allowInsecure": false
         }
       },
@@ -276,32 +255,6 @@
         "tlsSettings": {
           "serverName": "id5-trojan.bonds.id",
           "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_51.222.86.136_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "51.222.86.136",
-        "port": 0,
-        "password": "e59e9150-6256-11ed-983d-1239d0255272",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ca-trojan.bonds.id",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
         }
       },
       "mux": {
@@ -375,6 +328,32 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.78.131_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.78.131",
+        "port": 0,
+        "id": "9bc90ddf-b865-47cc-9f97-9d5ea3bca89f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vl31.rnd.biz.id",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
         }
       },
       "mux": {
@@ -617,114 +596,14 @@
       }
     },
     {
-      "tag": "vless_104.17.3.81_0",
+      "tag": "vless_188.114.97.6_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.17.3.81",
-        "port": 0,
-        "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sgdo1.cassanova.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vless"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.17.3.81_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.17.3.81",
+        "address": "188.114.97.6",
         "port": 0,
         "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
         "tls": "tls",
         "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sgdo1.cassanova.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vless"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.17.3.81_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.17.3.81",
-        "port": 0,
-        "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sgdo1.cassanova.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vless"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.17.3.81_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.17.3.81",
-        "port": 0,
-        "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sgdo1.cassanova.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.70.21_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.70.21",
-        "port": 0,
-        "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-        "tls": "tls"
       },
       "streamSettings": {
         "security": "tls",
@@ -761,31 +640,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/aioproxybot/124.153.168.248-50001"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.64.155.209_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.64.155.209",
-        "port": 0,
-        "id": "da78f96e-01d3-4289-9d0b-fbbe3f0a5472",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "aio.zxcore.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
         }
       },
       "mux": {
@@ -837,19 +691,18 @@
         "selector": [
           "trojan_104.21.70.21_0",
           "trojan_104.21.70.21_0",
-          "trojan_104.21.70.21_0",
-          "trojan_104.21.70.21_0",
           "trojan_104.21.83.135_0",
           "trojan_104.21.83.135_0",
+          "trojan_104.21.83.135_0",
           "trojan_172.67.176.157_0",
           "trojan_172.67.176.157_0",
-          "trojan_172.67.176.157_0",
+          "trojan_104.18.153.182_0",
           "trojan_104.18.21.18_0",
           "trojan_104.21.21.147_0",
-          "trojan_51.222.86.136_0",
           "trojan_104.21.72.109_0",
           "trojan_172.67.181.173_0",
           "vless_www.ums.id_0",
+          "vless_104.21.78.131_0",
           "vless_104.21.78.131_0",
           "vless_104.18.12.51_0",
           "vless_104.18.12.51_0",
@@ -859,13 +712,8 @@
           "vless_172.67.221.199_0",
           "vless_104.20.28.30_0",
           "vless_172.66.158.93_0",
-          "vless_104.17.3.81_0",
-          "vless_104.17.3.81_0",
-          "vless_104.17.3.81_0",
-          "vless_104.17.3.81_0",
-          "vless_104.21.70.21_0",
-          "vless_104.18.32.47_0",
-          "vless_172.64.155.209_0"
+          "vless_188.114.97.6_0",
+          "vless_104.18.32.47_0"
         ],
         "strategy": {
           "type": "leastPing",

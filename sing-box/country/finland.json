@@ -13,45 +13,86 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_104.238.29.241_0",
-      "server": "104.238.29.241",
+      "tag": "vless_185.42.163.5_0",
+      "server": "185.42.163.5",
       "server_port": 0,
       "type": "vless",
-      "uuid": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
-      "flow": "xtls-rprx-vision",
+      "uuid": "ce735eb1358947f38d5a554c1dcbab87",
       "tls": {
         "enabled": true,
-        "server_name": "helsinki.fi",
+        "server_name": "finland.fi",
         "reality": {
           "enabled": true,
-          "public_key": "uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM",
-          "short_id": "40a5eaec20abf1"
+          "public_key": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
+          "short_id": "aabbccdd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
       }
     },
     {
-      "tag": "vless_104.238.29.241_0",
-      "server": "104.238.29.241",
+      "tag": "vless_185.42.163.5_0",
+      "server": "185.42.163.5",
       "server_port": 0,
       "type": "vless",
-      "uuid": "1f4c983e-382c-d2fa-b2dc-7981f02b34de",
-      "flow": "xtls-rprx-vision",
+      "uuid": "ce735eb1358947f38d5a554c1dcbab87",
       "tls": {
         "enabled": true,
-        "server_name": "helsinki.fi",
+        "server_name": "finland.fi",
         "reality": {
           "enabled": true,
-          "public_key": "uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM",
-          "short_id": "40a5eaec20abf1"
+          "public_key": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
+          "short_id": "aabbccdd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
+      }
+    },
+    {
+      "tag": "vless_2.26.0.5_0",
+      "server": "2.26.0.5",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cec9a167-6381-4752-9828-a92ab6e6ebdd",
+      "tls": {
+        "enabled": true,
+        "server_name": "deliberi.fi",
+        "reality": {
+          "enabled": true,
+          "public_key": "_syAndJM1Guu8-CkJ48iBXUTe0GxHg3YEN3vz9iPkjo",
+          "short_id": "f44dbbc3"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "6b1d23e872422afdd141eba7c94c05e4"
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_104.238.29.241_0",
-        "vless_104.238.29.241_0"
+        "vless_185.42.163.5_0",
+        "vless_185.42.163.5_0",
+        "vless_2.26.0.5_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

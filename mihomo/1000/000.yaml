@@ -10,15 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: hys_178.215.238.30_0
-      server: 178.215.238.30
-      port: 0
-      udp: true
-      type: hysteria2
-      password: 042a1881-44e4-4781-bd40-bf75164faf4f
-      sni: germany1.noesissite.ru
-      tls: true
-      servername: germany1.noesissite.ru
 -     name: hys_84.201.25.156_0
       server: 84.201.25.156
       port: 0
@@ -28,6 +19,55 @@ proxies:
       sni: hls-svod.itunes.apple.com
       tls: true
       servername: hls-svod.itunes.apple.com
+-     name: hys_144.31.218.147_0
+      server: 144.31.218.147
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
+      sni: cz1.hat.onl
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: cz1.hat.onl
+-     name: hys_144.31.218.147_0
+      server: 144.31.218.147
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
+      sni: cz1.hat.onl
+      tls: true
+      servername: cz1.hat.onl
+-     name: hys_193.23.216.87_0
+      server: 193.23.216.87
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
+      sni: de2.hat.onl
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: de2.hat.onl
+-     name: hys_193.23.216.87_0
+      server: 193.23.216.87
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
+      sni: de2.hat.onl
+      tls: true
+      servername: de2.hat.onl
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 0puq3lmwv7qtp76t
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
 -     name: hys_194.135.34.130_0
       server: 194.135.34.130
       port: 0
@@ -39,6 +79,42 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: 194.135.34.130
+-     name: hys_cool-route-ge.whit3.net_0
+      server: cool-route-ge.whit3.net
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
+      sni: cool-route-ge.whit3.net
+      tls: true
+      servername: cool-route-ge.whit3.net
+-     name: hys_idontknow.whit3.net_0
+      server: idontknow.whit3.net
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
+      sni: idontknow.whit3.net
+      tls: true
+      servername: idontknow.whit3.net
+-     name: hys_lastchance.whit3.net_0
+      server: lastchance.whit3.net
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
+      sni: lastchance.whit3.net
+      tls: true
+      servername: lastchance.whit3.net
+-     name: hys_mg-42.whit3.net_0
+      server: mg-42.whit3.net
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 1e1c72f4-325b-4db0-b2d4-dc9c7cddc46a
+      sni: mg-42.whit3.net
+      tls: true
+      servername: mg-42.whit3.net
 -     name: hys_104.253.25.160_0
       server: 104.253.25.160
       port: 0
@@ -47,19 +123,6 @@ proxies:
       password: 1g4quompn4f49wn9
       obfs: salamander
       tls: true
--     name: hys_45.88.14.120_0
-      server: 45.88.14.120
-      port: 0
-      udp: true
-      type: hysteria2
-      password: 252bb78f404ff43efa42808e98cc4ae9
-      sni: cloud.mail.ru
-      alpn: [h3, h2, http/1.1]
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: cloud.mail.ru
-      client-fingerprint: firefox
 -     name: hys_144.31.148.87_0
       server: 144.31.148.87
       port: 0
@@ -82,16 +145,14 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: pixelcast.wwwinternetvideo.click
--     name: hys_89.125.156.80_0
-      server: 89.125.156.80
+-     name: hys_pixelcast.wwwinternetvideo.click_0
+      server: pixelcast.wwwinternetvideo.click
       port: 0
       udp: true
       type: hysteria2
       password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
       sni: pixelcast.wwwinternetvideo.click
-      insecure: true
       tls: true
-      skip-cert-verify: true
       servername: pixelcast.wwwinternetvideo.click
 -     name: hys_95.217.96.131_0
       server: 95.217.96.131
@@ -123,6 +184,84 @@ proxies:
       tls: true
 -     name: hys_95.217.96.131_0
       server: 95.217.96.131
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      tls: true
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 4z2oldt85p494bgb
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
       port: 0
       udp: true
       type: hysteria2
@@ -179,18 +318,8 @@ proxies:
       sni: fiproxy1.lockdwn.com
       tls: true
       servername: fiproxy1.lockdwn.com
--     name: hys_31.76.80.69_0
-      server: 31.76.80.69
-      port: 0
-      udp: true
-      type: hysteria2
-      password: 6aab8efdf13945829ae3699c342be406
-      obfs: salamander
-      sni: fiproxy1.lockdwn.com
-      tls: true
-      servername: fiproxy1.lockdwn.com
--     name: hys_31.76.80.69_0
-      server: 31.76.80.69
+-     name: hys_fiproxy1.lockdwn.com_0
+      server: fiproxy1.lockdwn.com
       port: 0
       udp: true
       type: hysteria2
@@ -217,37 +346,26 @@ proxies:
       sni: swe-one.quiet-rogue.site
       tls: true
       servername: swe-one.quiet-rogue.site
--     name: hys_217.60.33.215_0
-      server: 217.60.33.215
+-     name: hys_45.145.43.56_0
+      server: 45.145.43.56
       port: 0
       udp: true
       type: hysteria2
-      password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-      sni: streambox.wwwinternetvideo.click
+      password: 990c8eb6-4c4e-4277-8602-79af8402cdd0
+      sni: speedtestmark.com
+      tls: true
+      servername: speedtestmark.com
+-     name: hys_78.17.187.184_0
+      server: 78.17.187.184
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs="
+      sni: fin14qr.wwwinternetvideo.click
       insecure: true
       tls: true
       skip-cert-verify: true
-      servername: streambox.wwwinternetvideo.click
--     name: hys_217.60.33.215_0
-      server: 217.60.33.215
-      port: 0
-      udp: true
-      type: hysteria2
-      password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
-      sni: streambox.wwwinternetvideo.click
-      tls: true
-      servername: streambox.wwwinternetvideo.click
--     name: hys_31.76.30.97_0
-      server: 31.76.30.97
-      port: 0
-      udp: true
-      type: hysteria2
-      password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-      sni: fast.wwwinternetvideo.click
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: fast.wwwinternetvideo.click
+      servername: fin14qr.wwwinternetvideo.click
 -     name: hys_31.76.30.97_0
       server: 31.76.30.97
       port: 0
@@ -269,27 +387,15 @@ proxies:
       sni: se.esimpson.org
       tls: true
       servername: se.esimpson.org
--     name: hys_18.171.204.138_0
-      server: 18.171.204.138
+-     name: hys_85.159.228.22_0
+      server: 85.159.228.22
       port: 0
       udp: true
       type: hysteria2
-      password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-      sni: "https://t.me/WangCai2🇨🇳"
+      password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
+      sni: hy2-latvia2.unlimited-access.ru
       tls: true
-      servername: "https://t.me/WangCai2🇨🇳"
--     name: hys_51.15.19.206_0
-      server: 51.15.19.206
-      port: 0
-      udp: true
-      type: hysteria2
-      password: HowdyHysteria2023w0W
-      obfs: salamander
-      sni: sni-here.com
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: sni-here.com
+      servername: hy2-latvia2.unlimited-access.ru
 -     name: hys_5.255.102.165_0
       server: 5.255.102.165
       port: 0
@@ -326,8 +432,8 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: player.wwwinternetvideo.click
--     name: hys_144.31.221.57_0
-      server: 144.31.221.57
+-     name: hys_player.wwwinternetvideo.click_0
+      server: player.wwwinternetvideo.click
       port: 0
       udp: true
       type: hysteria2
@@ -360,19 +466,59 @@ proxies:
       type: hysteria2
       password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
       sni: admin.wwwinternetvideo.click
+      insecure: true
       tls: true
+      skip-cert-verify: true
       servername: admin.wwwinternetvideo.click
--     name: hys_45.192.12.93_0
-      server: 45.192.12.93
+-     name: hys_go1.wwwinternetvideo.click_0
+      server: go1.wwwinternetvideo.click
       port: 0
       udp: true
       type: hysteria2
       password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
       sni: admin.wwwinternetvideo.click
-      insecure: true
       tls: true
-      skip-cert-verify: true
       servername: admin.wwwinternetvideo.click
+-     name: hys_144.31.49.138_0
+      server: 144.31.49.138
+      port: 0
+      udp: true
+      type: hysteria2
+      password: cd74c0a406664a5bc0bac098220a2468
+      obfs: salamander
+      sni: ru1.sferavpn.pro
+      tls: true
+      servername: ru1.sferavpn.pro
+-     name: hys_144.31.49.138_0
+      server: 144.31.49.138
+      port: 0
+      udp: true
+      type: hysteria2
+      password: cd74c0a406664a5bc0bac098220a2468
+      obfs: salamander
+      sni: ru1.sferavpn.pro
+      tls: true
+      servername: ru1.sferavpn.pro
+-     name: hys_144.31.49.138_0
+      server: 144.31.49.138
+      port: 0
+      udp: true
+      type: hysteria2
+      password: cd74c0a406664a5bc0bac098220a2468
+      obfs: salamander
+      sni: ru1.sferavpn.pro
+      tls: true
+      servername: ru1.sferavpn.pro
+-     name: hys_144.31.49.138_0
+      server: 144.31.49.138
+      port: 0
+      udp: true
+      type: hysteria2
+      password: cd74c0a406664a5bc0bac098220a2468
+      obfs: salamander
+      sni: ru1.sferavpn.pro
+      tls: true
+      servername: ru1.sferavpn.pro
 -     name: hys_62.210.124.146_0
       server: 62.210.124.146
       port: 0
@@ -391,9 +537,7 @@ proxies:
       type: hysteria2
       password: dongtaiwang.com
       sni: www.microsoft.com
-      insecure: true
       tls: true
-      skip-cert-verify: true
       servername: www.microsoft.com
 -     name: hys_62.210.124.146_0
       server: 62.210.124.146
@@ -439,8 +583,6 @@ proxies:
       type: hysteria2
       password: "gf1%3Agfhysteria2024"
       sni: css.rbxcdn.com
-      down: 50
-      up: 10
       insecure: true
       tls: true
       skip-cert-verify: true
@@ -464,89 +606,78 @@ proxies:
       udp: true
       type: hysteria2
       password: "gf1%3Agfhysteria2024"
-      sni: google.com
+      sni: css.rbxcdn.com
+      down: 50
+      up: 10
       insecure: true
       tls: true
       skip-cert-verify: true
-      servername: google.com
+      servername: css.rbxcdn.com
+-     name: hys_5.129.235.85_0
+      server: 5.129.235.85
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1%3Agfhysteria2024"
+      tls: true
+-     name: hys_5.129.235.85_0
+      server: 5.129.235.85
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1%3Agfhysteria2024"
+      sni: www.linux.com
+      tls: true
+      servername: www.linux.com
 -     name: hys_185.156.44.99_0
       server: 185.156.44.99
       port: 0
       udp: true
       type: hysteria2
-      password: "gf1%3Agfhysteria2024"
+      password: "gf1:gfhysteria2024"
+      sni: css.rbxcdn.com
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: css.rbxcdn.com
+-     name: hys_185.156.44.99_0
+      server: 185.156.44.99
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
+      sni: css.rbxcdn.com
+      tls: true
+      servername: css.rbxcdn.com
+-     name: hys_185.156.44.99_0
+      server: 185.156.44.99
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
       sni: speedtest.tinkoff.ru
+      tls: true
+      servername: speedtest.tinkoff.ru
+-     name: hys_66.94.121.46_0
+      server: 66.94.121.46
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
       insecure: true
       tls: true
       skip-cert-verify: true
-      servername: speedtest.tinkoff.ru
--     name: hys_5.129.235.85_0
-      server: 5.129.235.85
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1%3Agfhysteria2024"
-      tls: true
--     name: hys_5.129.235.85_0
-      server: 5.129.235.85
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1%3Agfhysteria2024"
-      sni: www.linux.com
-      tls: true
-      servername: www.linux.com
 -     name: hys_185.156.44.99_0
       server: 185.156.44.99
       port: 0
       udp: true
       type: hysteria2
-      password: "gf1:gfhysteria2024"
+      password: gf1
       sni: css.rbxcdn.com
-      down: 50
-      up: 10
+      insecure: true
       tls: true
+      skip-cert-verify: true
       servername: css.rbxcdn.com
--     name: hys_185.156.44.99_0
-      server: 185.156.44.99
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1:gfhysteria2024"
-      sni: google.com
-      tls: true
-      servername: google.com
--     name: hys_185.156.44.99_0
-      server: 185.156.44.99
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1:gfhysteria2024"
-      sni: google.com
-      down: 50
-      up: 10
-      tls: true
-      servername: google.com
--     name: hys_185.156.44.99_0
-      server: 185.156.44.99
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1:gfhysteria2024"
-      sni: vk.com
-      down: 50
-      up: 10
-      tls: true
-      servername: vk.com
--     name: hys_5.129.235.85_0
-      server: 5.129.235.85
-      port: 0
-      udp: true
-      type: hysteria2
-      password: "gf1:gfhysteria2024"
-      sni: www.linux.com
-      tls: true
-      servername: www.linux.com
 -     name: hys_5.129.235.85_0
       server: 5.129.235.85
       port: 0
@@ -556,6 +687,17 @@ proxies:
       sni: www.linux.com
       tls: true
       servername: www.linux.com
+-     name: hys_starlink-ft.251313.xyz_0
+      server: starlink-ft.251313.xyz
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "https%3A%2F%2Fxship.best"
+      sni: xship.top
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: xship.top
 -     name: hys_2.26.92.136_0
       server: 2.26.92.136
       port: 0
@@ -596,6 +738,58 @@ proxies:
       sni: assets.gateway-stream.com
       tls: true
       servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: ik0zt621uw9iqvsi
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: ik0zt621uw9iqvsi
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_assets.gateway-stream.com_0
+      server: assets.gateway-stream.com
+      port: 0
+      udp: true
+      type: hysteria2
+      password: ik0zt621uw9iqvsi
+      obfs: salamander
+      sni: assets.gateway-stream.com
+      tls: true
+      servername: assets.gateway-stream.com
+-     name: hys_64.188.98.171_0
+      server: 64.188.98.171
+      port: 0
+      udp: true
+      type: hysteria2
+      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      sni: germany3.h2corp.local
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: germany3.h2corp.local
+-     name: hys_64.188.98.171_0
+      server: 64.188.98.171
+      port: 0
+      udp: true
+      type: hysteria2
+      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      sni: germany3.h2corp.local
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: germany3.h2corp.local
 -     name: hys_64.188.98.171_0
       server: 64.188.98.171
       port: 0
@@ -643,32 +837,6 @@ proxies:
       sni: germany3.h2corp.local
       tls: true
       servername: germany3.h2corp.local
--     name: hys_93.183.89.56_0
-      server: 93.183.89.56
-      port: 0
-      udp: true
-      type: hysteria2
-      password: netherlands_3_hysteria2_fastlane_ljut26b2y
-      sni: nl7.h.fastlanehosting.ru
-      tls: true
-      servername: nl7.h.fastlanehosting.ru
--     name: hys_130.49.161.70_0
-      server: 130.49.161.70
-      port: 0
-      udp: true
-      type: hysteria2
-      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-      obfs: salamander
-      sni: hy2.aspidnet.xyz
-      tls: true
-      servername: hy2.aspidnet.xyz
--     name: hys_130.49.161.70_0
-      server: 130.49.161.70
-      port: 0
-      udp: true
-      type: hysteria2
-      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-      tls: true
 -     name: hys_130.49.161.70_0
       server: 130.49.161.70
       port: 0
@@ -695,6 +863,34 @@ proxies:
       udp: true
       type: hysteria2
       password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+      tls: true
+-     name: hys_130.49.161.70_0
+      server: 130.49.161.70
+      port: 0
+      udp: true
+      type: hysteria2
+      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+      obfs: salamander
+      sni: hy2.aspidnet.xyz
+      tls: true
+      servername: hy2.aspidnet.xyz
+-     name: hys_130.49.161.70_0
+      server: 130.49.161.70
+      port: 0
+      udp: true
+      type: hysteria2
+      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+      obfs: salamander
+      sni: hy2.aspidnet.xyz
+      tls: true
+      servername: hy2.aspidnet.xyz
+-     name: hys_130.49.161.70_0
+      server: 130.49.161.70
+      port: 0
+      udp: true
+      type: hysteria2
+      password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+      obfs: salamander
       sni: hy2.aspidnet.xyz
       tls: true
       servername: hy2.aspidnet.xyz
@@ -725,9 +921,7 @@ proxies:
       password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
       obfs: salamander
       sni: hy2.aspidnet.xyz
-      insecure: true
       tls: true
-      skip-cert-verify: true
       servername: hy2.aspidnet.xyz
 -     name: hys_217.60.182.79_0
       server: 217.60.182.79
@@ -742,6 +936,15 @@ proxies:
       servername: cabinet.wwwinternetvideo.click
 -     name: hys_217.60.182.79_0
       server: 217.60.182.79
+      port: 0
+      udp: true
+      type: hysteria2
+      password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+      sni: cabinet.wwwinternetvideo.click
+      tls: true
+      servername: cabinet.wwwinternetvideo.click
+-     name: hys_31.76.71.63_0
+      server: 31.76.71.63
       port: 0
       udp: true
       type: hysteria2
@@ -783,28 +986,6 @@ proxies:
       type: hysteria2
       password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
       sni: 159.223.157.129
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: 159.223.157.129
--     name: hys_159.223.157.129_0
-      server: 159.223.157.129
-      port: 0
-      udp: true
-      type: hysteria2
-      password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-      sni: www.microsoft.com
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: www.microsoft.com
--     name: hys_159.223.157.129_0
-      server: 159.223.157.129
-      port: 0
-      udp: true
-      type: hysteria2
-      password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-      sni: 159.223.157.129
       tls: true
       servername: 159.223.157.129
 -     name: hys_159.223.157.129_0
@@ -816,24 +997,37 @@ proxies:
       sni: www.microsoft.com
       tls: true
       servername: www.microsoft.com
--     name: hys_159.223.157.129_0
-      server: 159.223.157.129
+-     name: hys_5.83.129.11_0
+      server: 5.83.129.11
       port: 0
       udp: true
       type: hysteria2
-      password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-      sni: www.microsoft.com
+      password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+      sni: germany1.h2corp.local
+      insecure: true
       tls: true
-      servername: www.microsoft.com
--     name: hys_45.140.205.58_0
-      server: 45.140.205.58
+      skip-cert-verify: true
+      servername: germany1.h2corp.local
+-     name: hys_5.83.129.11_0
+      server: 5.83.129.11
       port: 0
       udp: true
       type: hysteria2
-      password: switzerland_hysteria2_fastlane_8r4fgh8f1
-      sni: ch3.h.fastlanehosting.ru
+      password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+      sni: germany1.h2corp.local
+      insecure: true
       tls: true
-      servername: ch3.h.fastlanehosting.ru
+      skip-cert-verify: true
+      servername: germany1.h2corp.local
+-     name: hys_5.83.129.11_0
+      server: 5.83.129.11
+      port: 0
+      udp: true
+      type: hysteria2
+      password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+      sni: germany1.h2corp.local
+      tls: true
+      servername: germany1.h2corp.local
 -     name: hys_103.195.189.54_0
       server: 103.195.189.54
       port: 0
@@ -841,23 +1035,8 @@ proxies:
       type: hysteria2
       password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
       tls: true
--     name: socks5_101.36.104.239_10808
-      server: 101.36.104.239
-      port: 10808
-      udp: true
-      type: socks5
 -     name: socks5_178.252.165.226_1080
       server: 178.252.165.226
-      port: 1080
-      udp: true
-      type: socks5
--     name: socks5_45.144.54.40_1080
-      server: 45.144.54.40
-      port: 1080
-      udp: true
-      type: socks5
--     name: socks5_46.100.94.217_1080
-      server: 46.100.94.217
       port: 1080
       udp: true
       type: socks5
@@ -866,13 +1045,20 @@ proxies:
       port: 10808
       udp: true
       type: socks5
--     name: ss_91.107.242.197_35381
-      server: 91.107.242.197
-      port: 35381
+-     name: ss_84.32.99.238_20146
+      server: 84.32.99.238
+      port: 20146
       udp: true
       type: ss
       cipher: 2022-blake3-aes-256-gcm
-      password: "17NpNJP3xmJe8AlliFRztb8Y4%2Bopfs2TkyYX7lEk7oM%3D%3ATNTo3rwa1WFSlr50tkUUiucgF8JUWsksw6xrlw%2Bh4xc%3D"
+      password: "MGM1NGM2NmQ2NTg5NDg3Y2EyNTZjNGJiNmU4YjA0Mzc%3D%3AYmQxYjRiZDJhMzEyNDMzZGFlN2JkNWQyOGY1MGFmMmE%3D"
+-     name: ss_209.200.246.182_11994
+      server: 209.200.246.182
+      port: 11994
+      udp: true
+      type: ss
+      cipher: 2022-blake3-aes-256-gcm
+      password: "NTQwZmFlZTcwZWY1NDNiYzg3ZDJlMzlkN2RiNmYyMTc%3D%3AZDA0ZjRiMzIxNDc5NDQ5ZmFlODQxNGJhZGE4NWIzY2Q%3D"
 -     name: ss_146.103.42.161_13528
       server: 146.103.42.161
       port: 13528
@@ -880,13 +1066,6 @@ proxies:
       type: ss
       cipher: 2022-blake3-aes-256-gcm
       password: "YzYyNDkxZmJmM2MwNDYwYjk5MmE2NDU1YzIwODJhNDY%3D%3AZTcwOTk4NjRiMTEwNDkzYzk1NDE0YTQ2MzhkYzgyOTk%3D"
--     name: ss_84.32.131.61_18610
-      server: 84.32.131.61
-      port: 18610
-      udp: true
-      type: ss
-      cipher: 2022-blake3-aes-256-gcm
-      password: "Zjc0N2QyYTkyNzc2NGRiZDhjY2NjYTU5Mzk2N2NkOTk%3D%3AYmNhN2UyNzdlNTg3NGFkMjkxNGY4ZjEzYWM2MzQ2NGQ%3D"
 -     name: ss_84.32.131.61_18610
       server: 84.32.131.61
       port: 18610
@@ -901,24 +1080,45 @@ proxies:
       type: ss
       cipher: 2022-blake3-aes-256-gcm
       password: "aMVCBvxurcuK4oBwbTyDdhdbbn8a4sNHpMrJVfgmVtM=:JrbEhtlNmGP4TJU1WiJ3yxfg3TfoRHvmH8l2+gCoTxs="
--     name: ss_130.61.83.100_59924
-      server: 130.61.83.100
-      port: 59924
+-     name: ss_167.150.100.115_27755
+      server: 167.150.100.115
+      port: 27755
+      udp: true
+      type: ss
+      cipher: 2022-blake3-aes-256-gcm
+      password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+-     name: ss_141.148.243.186_45819
+      server: 141.148.243.186
+      port: 45819
       udp: true
       type: ss
       cipher: 2022-blake3-chacha20-poly1305
-      password: "EItZd%2FXd%2BcmdmMJ9FLqMrlkRD6D%2Fu%2FiVR0p1qJZMblQ%3D"
--     name: ss_79.76.113.182_59924
-      server: 79.76.113.182
-      port: 59924
+      password: "6PwVUNoUTIOiJWtv3L4wVDCeiMwZt2%2B2gsLvwPgoTj8%3D"
+-     name: ss_129.151.64.19_61312
+      server: 129.151.64.19
+      port: 61312
       udp: true
       type: ss
       cipher: 2022-blake3-chacha20-poly1305
-      password: "QQfPCPbWyDitKWvJRdhzMO%2BGtpPhjej8V9dMuLs8iAs%3D"
+      password: "B2fwo8FnMvOLaNLVDYYbMa5oXBejTe5GvPFJhldAyF0%3D"
+-     name: ss_129.151.67.155_61312
+      server: 129.151.67.155
+      port: 61312
+      udp: true
+      type: ss
+      cipher: 2022-blake3-chacha20-poly1305
+      password: "Ji5AB78QQEDiSSKWC%2B5XHs%2BJJE7VRYIITRdQEyaZ%2BAo%3D"
+-     name: ss_134.65.57.186_61312
+      server: 134.65.57.186
+      port: 61312
+      udp: true
+      type: ss
+      cipher: 2022-blake3-chacha20-poly1305
+      password: "iOhmZnQI7flsFeV%2BsBv%2FZTmItodrgFC4%2By%2BV7RQX9to%3D"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [hys_178.215.238.30_0, hys_84.201.25.156_0, hys_194.135.34.130_0, hys_104.253.25.160_0, hys_45.88.14.120_0, hys_144.31.148.87_0, hys_89.125.156.80_0, hys_89.125.156.80_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_107.181.155.125_0, hys_143.246.136.159_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_2.26.85.26_0, hys_87.121.105.108_0, hys_217.60.33.215_0, hys_217.60.33.215_0, hys_31.76.30.97_0, hys_31.76.30.97_0, hys_31.22.91.243_0, hys_18.171.204.138_0, hys_51.15.19.206_0, hys_5.255.102.165_0, hys_5.255.102.165_0, hys_5.255.102.165_0, hys_144.31.221.57_0, hys_144.31.221.57_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_2.59.163.171_0, hys_80.66.78.105_0, hys_103.251.167.168_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_2.26.92.136_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_64.188.98.171_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_93.183.89.56_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_45.140.205.58_0, hys_103.195.189.54_0, socks5_101.36.104.239_10808, socks5_178.252.165.226_1080, socks5_45.144.54.40_1080, socks5_46.100.94.217_1080, socks5_91.212.174.37_10808, ss_91.107.242.197_35381, ss_146.103.42.161_13528, ss_84.32.131.61_18610, ss_84.32.131.61_18610, ss_78.47.35.178_50667, ss_130.61.83.100_59924, ss_79.76.113.182_59924]
+      proxies: [hys_84.201.25.156_0, hys_144.31.218.147_0, hys_144.31.218.147_0, hys_193.23.216.87_0, hys_193.23.216.87_0, hys_assets.gateway-stream.com_0, hys_194.135.34.130_0, hys_cool-route-ge.whit3.net_0, hys_idontknow.whit3.net_0, hys_lastchance.whit3.net_0, hys_mg-42.whit3.net_0, hys_104.253.25.160_0, hys_144.31.148.87_0, hys_89.125.156.80_0, hys_pixelcast.wwwinternetvideo.click_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_107.181.155.125_0, hys_143.246.136.159_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_fiproxy1.lockdwn.com_0, hys_2.26.85.26_0, hys_87.121.105.108_0, hys_45.145.43.56_0, hys_78.17.187.184_0, hys_31.76.30.97_0, hys_31.22.91.243_0, hys_85.159.228.22_0, hys_5.255.102.165_0, hys_5.255.102.165_0, hys_5.255.102.165_0, hys_144.31.221.57_0, hys_player.wwwinternetvideo.click_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_go1.wwwinternetvideo.click_0, hys_144.31.49.138_0, hys_144.31.49.138_0, hys_144.31.49.138_0, hys_144.31.49.138_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_2.59.163.171_0, hys_80.66.78.105_0, hys_103.251.167.168_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_66.94.121.46_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_starlink-ft.251313.xyz_0, hys_2.26.92.136_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_95.217.96.131_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_assets.gateway-stream.com_0, hys_64.188.98.171_0, hys_64.188.98.171_0, hys_64.188.98.171_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_91.196.32.163_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_31.76.71.63_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_159.223.157.129_0, hys_5.83.129.11_0, hys_5.83.129.11_0, hys_5.83.129.11_0, hys_103.195.189.54_0, socks5_178.252.165.226_1080, socks5_91.212.174.37_10808, ss_84.32.99.238_20146, ss_209.200.246.182_11994, ss_146.103.42.161_13528, ss_84.32.131.61_18610, ss_78.47.35.178_50667, ss_167.150.100.115_27755, ss_141.148.243.186_45819, ss_129.151.64.19_61312, ss_129.151.67.155_61312, ss_134.65.57.186_61312]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

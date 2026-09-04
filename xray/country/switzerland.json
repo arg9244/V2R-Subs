@@ -204,6 +204,33 @@
       }
     },
     {
+      "tag": "vless_93.152.220.230_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "93.152.220.230",
+        "port": 0,
+        "id": "6db6b948-655f-4f68-a9e7-865050e05b31",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "alca.foff.ch",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "BS25qHJWxx0kqrcrnA41jOx9HSZTyRVs9tLx-R66oQ4",
+            "shortId": "9a8df4ee3fdf"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.16.117.43_0",
       "protocol": "vless",
       "settings": {
@@ -412,58 +439,6 @@
       }
     },
     {
-      "tag": "vless_104.16.6.70_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.6.70",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.79.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.79.73",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?DailyConfigs-DailyConfigs?ed=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.16.79.73:443?insecure=0&security=tls&sni=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
       "protocol": "vless",
       "settings": {
@@ -507,111 +482,7 @@
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.79.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.79.73",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?TELEGRAM-TOOTFFARANGI?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.79.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.79.73",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
           "path": "/?TELEGRAM-TOOTFFARANGI?ed=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.79.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.79.73",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi/mtmvpn---mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn---@mtmvpn"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.79.73:443?path=/?TELEGRAM-Bisto4_service?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.79.73:443?path=/?TELEGRAM-Bisto4_service?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?TELEGRAM-Bisto4_service?ed=512"
         }
       },
       "mux": {
@@ -1053,7 +924,59 @@
         },
         "network": "ws",
         "wsSettings": {
+          "path": "/?TELEGRAM-ICV2RAY?ed=512"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.37.228_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.37.228",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "josni.hoyes.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
           "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.18.37.228_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.18.37.228",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "josni.hoyes.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?TELEGRAM-TOOTFFARANGI?ed=512"
         }
       },
       "mux": {
@@ -1132,58 +1055,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/sg-melbi"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.37.228:443?path=/?TELEGRAM-ICV2RAY?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.37.228:443?path=/?TELEGRAM-ICV2RAY?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?TELEGRAM-ICV2RAY?ed=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.37.228:443?path=/?TELEGRAM-NexVexo_NexVexo_NexVexo_NexVexo_NexVexo?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.37.228:443?path=/?TELEGRAM-NexVexo_NexVexo_NexVexo_NexVexo_NexVexo?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?TELEGRAM-NexVexo_NexVexo_NexVexo_NexVexo_NexVexo?ed=512"
         }
       },
       "mux": {
@@ -1504,31 +1375,6 @@
       }
     },
     {
-      "tag": "vless_155.254.122.234_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "155.254.122.234",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_159.112.235.52_0",
       "protocol": "vless",
       "settings": {
@@ -1677,58 +1523,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/sg-melbi"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.66.44.97_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.66.44.97",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.66.44.97_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.66.44.97",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "musiclovers85_musiclovers85?ed=512"
         }
       },
       "mux": {
@@ -1936,7 +1730,7 @@
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/sg-melbi#TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512"
+          "path": "/sg-melbi#TELEGRAM-ShadowProxy66?ed=512"
         }
       },
       "mux": {
@@ -1962,7 +1756,7 @@
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/sg-melbi#TELEGRAM-ShadowProxy66?ed=512"
+          "path": "/sg-melbi#TELEGRAM-TOOTFFARANGI?ed=512"
         }
       },
       "mux": {
@@ -2093,32 +1887,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/sg-melbi=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.66.44.97_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.66.44.97",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi"
         }
       },
       "mux": {
@@ -2699,32 +2467,6 @@
       }
     },
     {
-      "tag": "vless_188.114.99.0_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.99.0",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_194.71.227.213_0",
       "protocol": "vless",
       "settings": {
@@ -2853,6 +2595,82 @@
       }
     },
     {
+      "tag": "vless_josni.hoyes.cloudns.ch_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "josni.hoyes.cloudns.ch",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_josni.hoyes.cloudns.ch_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "josni.hoyes.cloudns.ch",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_josni.hoyes.cloudns.ch_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "josni.hoyes.cloudns.ch",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "josni.hoyes.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -2900,6 +2718,7 @@
           "vless_104.17.50.157_0",
           "vless_20.6.12.145_0",
           "vless_43.169.18.179_0",
+          "vless_93.152.220.230_0",
           "vless_104.16.117.43_0",
           "vless_104.16.117.43:443?path=/?TELEGRAM-Cnetvpn?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.117.43:443?path=/?TELEGRAM-TOOTFFARANGI?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
@@ -2908,14 +2727,8 @@
           "vless_104.16.117.43:443?path=musiclovers85?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.117.43_0",
           "vless_104.16.117.43:443?security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-          "vless_104.16.6.70_0",
-          "vless_104.16.79.73_0",
           "vless_104.16.79.73:443?insecure=0&security=tls&sni=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.79.73_0",
-          "vless_104.16.79.73_0",
-          "vless_104.16.79.73_0",
-          "vless_104.16.79.73_0",
-          "vless_104.16.79.73:443?path=/?TELEGRAM-Bisto4_service?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.79.73:443?path=/?TELEGRAM-Cnetvpn?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.79.73:443?path=/?TELEGRAM-Cnetvpn?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs?ed&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
@@ -2936,8 +2749,8 @@
           "vless_104.18.37.228_0",
           "vless_104.18.37.228_0",
           "vless_104.18.37.228_0",
-          "vless_104.18.37.228:443?path=/?TELEGRAM-ICV2RAY?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-          "vless_104.18.37.228:443?path=/?TELEGRAM-NexVexo_NexVexo_NexVexo_NexVexo_NexVexo?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
+          "vless_104.18.37.228_0",
+          "vless_104.18.37.228_0",
           "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.18.37.228:443?path=/sg-melbi&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
@@ -2950,15 +2763,11 @@
           "vless_104.18.37.228_0",
           "vless_108.162.195.7_0",
           "vless_108.162.195.7_0",
-          "vless_155.254.122.234_0",
           "vless_159.112.235.52_0",
           "vless_162.159.44.7_0",
           "vless_162.159.44.7_0",
           "vless_172.64.35.7_0",
           "vless_172.64.35.7_0",
-          "vless_172.66.44.97_0",
-          "vless_172.66.44.97_0",
-          "vless_172.66.44.97_0",
           "vless_172.66.44.97_0",
           "vless_172.66.44.97_0",
           "vless_172.66.44.97_0",
@@ -2996,12 +2805,14 @@
           "vless_172.66.44.97_0",
           "vless_172.66.44.97_0",
           "vless_172.66.44.97:443?security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
-          "vless_188.114.99.0_0",
           "vless_194.71.227.213_0",
           "vless_208.103.161.32_0",
           "vless_208.103.161.32_0",
           "vless_208.103.161.32_0",
-          "vless_91.250.248.151_0"
+          "vless_91.250.248.151_0",
+          "vless_josni.hoyes.cloudns.ch_0",
+          "vless_josni.hoyes.cloudns.ch_0",
+          "vless_josni.hoyes.cloudns.ch_0"
         ],
         "strategy": {
           "type": "leastPing",

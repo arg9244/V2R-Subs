@@ -161,6 +161,24 @@
       }
     },
     {
+      "tag": "ss_82.38.31.11_8080",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "82.38.31.11",
+        "port": 8080,
+        "method": "chacha20-ietf-poly1305",
+        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "ss_82.38.31.35_8080",
       "protocol": "shadowsocks",
       "settings": {
@@ -168,6 +186,24 @@
         "port": 8080,
         "method": "chacha20-ietf-poly1305",
         "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_213.108.198.158_8444",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "213.108.198.158",
+        "port": 8444,
+        "method": "chacha20-ietf-poly1305",
+        "password": "tunnel-astrovpn_official",
         "level": 0
       },
       "streamSettings": {
@@ -226,7 +262,9 @@
           "ss_82.38.31.185_8080",
           "ss_82.38.31.195_8080",
           "ss_82.38.31.204_8080",
-          "ss_82.38.31.35_8080"
+          "ss_82.38.31.11_8080",
+          "ss_82.38.31.35_8080",
+          "ss_213.108.198.158_8444"
         ],
         "strategy": {
           "type": "leastPing",

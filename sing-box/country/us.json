@@ -152,19 +152,24 @@
       }
     },
     {
-      "tag": "vless_84.235.244.108_0",
-      "server": "84.235.244.108",
+      "tag": "vless_152.232.57.98_0",
+      "server": "152.232.57.98",
       "server_port": 0,
       "type": "vless",
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
+      "uuid": "3005a774-84ab-47de-a2dc-48f5e56d502b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "dont.block.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "SqArIWpSt5VG9HVrtcZQn1r0Tc_eRvYzca2OFDBkF24",
+          "short_id": "8d3e824947a4cb"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
       }
     },
     {
@@ -200,8 +205,8 @@
       }
     },
     {
-      "tag": "vless_uae.unixzone.us_0",
-      "server": "uae.unixzone.us",
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
       "server_port": 0,
       "type": "vless",
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -256,22 +261,6 @@
       "transport": {
         "type": "ws",
         "path": "/?ed=2048"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6aa028bc-08a9-41d1-a397-d60ce65df081",
-      "transport": {
-        "type": "ws",
-        "path": "/shalana"
       },
       "multiplex": {
         "enabled": true,
@@ -348,6 +337,22 @@
       }
     },
     {
+      "tag": "vless_support.zoom.us_0",
+      "server": "support.zoom.us",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cac6ec8f-99f0-44c5-814f-2f3f65e4db74",
+      "transport": {
+        "type": "ws",
+        "path": "/dula"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
@@ -359,16 +364,16 @@
         "vless_85.17.145.65_0",
         "vless_172.67.132.41_0",
         "vless_172.67.132.41_0",
+        "vless_152.232.57.98_0",
         "vless_84.235.244.108_0",
         "vless_84.235.244.108_0",
         "vless_84.235.244.108_0",
-        "vless_uae.unixzone.us_0",
         "vless_104.21.4.8_0",
         "vless_104.21.4.8_0",
-        "vless_support.zoom.us_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
-        "vless_104.21.12.150_0"
+        "vless_104.21.12.150_0",
+        "vless_support.zoom.us_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -29,22 +29,6 @@
       }
     },
     {
-      "tag": "vless_2.26.8.55_0",
-      "server": "2.26.8.55",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lk-tra.riseads.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "vless_103.100.158.202_0",
       "server": "103.100.158.202",
       "server_port": 0,
@@ -200,6 +184,27 @@
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "tls": {
         "enabled": true,
+        "server_name": "sni.111000.indevs.in"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.7.70_0",
+      "server": "104.16.7.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
         "server_name": "sni.111000.indevs.in"
       },
       "transport": {
@@ -1062,27 +1067,6 @@
       }
     },
     {
-      "tag": "vless_172.66.47.69_0",
-      "server": "172.66.47.69",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sni.111000.indevs.in"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_176.124.223.138_0",
       "server": "176.124.223.138",
       "server_port": 0,
@@ -1685,6 +1669,26 @@
       }
     },
     {
+      "tag": "vless_195.133.65.202_0",
+      "server": "195.133.65.202",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?Telegram🇨🇳@WangCai2="
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_195.85.23.138_0",
       "server": "195.85.23.138",
       "server_port": 0,
@@ -2185,13 +2189,13 @@
       "type": "urltest",
       "outbounds": [
         "vless_2.26.8.55_0",
-        "vless_2.26.8.55_0",
         "vless_103.100.158.202_0",
         "vless_20.229.252.162_0",
         "vless_103.90.75.41_0",
         "vless_104.129.164.138_0",
         "vless_104.129.166.138_0",
         "vless_104.129.167.138_0",
+        "vless_104.16.7.70_0",
         "vless_104.16.7.70_0",
         "vless_104.16.7.70_0",
         "vless_104.16.80.73_0",
@@ -2235,7 +2239,6 @@
         "vless_172.64.149.54_0",
         "vless_172.64.155.209_0",
         "vless_172.66.47.69_0",
-        "vless_172.66.47.69_0",
         "vless_176.124.223.138_0",
         "vless_176.96.138.17_0",
         "vless_176.96.138.17_0",
@@ -2264,6 +2267,7 @@
         "vless_192.65.217.138_0",
         "vless_192.65.217.138_0",
         "vless_194.146.12.230_0",
+        "vless_195.133.65.202_0",
         "vless_195.85.23.138_0",
         "vless_195.93.253.207_0",
         "vless_198.12.145.138_0",

@@ -10,13 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: ss_130.61.83.100_59924
-      server: 130.61.83.100
-      port: 59924
-      udp: true
-      type: ss
-      cipher: 2022-blake3-chacha20-poly1305
-      password: "EItZd/Xd+cmdmMJ9FLqMrlkRD6D/u/iVR0p1qJZMblQ="
 -     name: ss_209.200.246.182_11994
       server: 209.200.246.182
       port: 11994
@@ -73,20 +66,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 1hhrqrokj3ag
--     name: ss_193.0.179.84_31348
-      server: 193.0.179.84
-      port: 31348
+-     name: ss_85.209.157.209_29367
+      server: 85.209.157.209
+      port: 29367
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 21DuJOEMxyefCUlK3Ees8urFzcpTw3XjLW3L9N
--     name: ss_157.22.240.141_57925
-      server: 157.22.240.141
-      port: 57925
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: 3JB91l5ol2HvkPUduw2hj4
+      password: "3hSrBrmKmrgNGsD97RSGOS5p+XIFqEVk6Zo4AHbsRhg="
 -     name: ss_142.4.216.225_443
       server: 142.4.216.225
       port: 443
@@ -138,20 +124,6 @@ proxies:
       password: QCXDxuDlTTMD7jtgHUjIoj
 -     name: ss_146.70.128.108_1080
       server: 146.70.128.108
-      port: 1080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: XF0klw7870vXn3uQIxe19Q
--     name: ss_193.42.38.209_1080
-      server: 193.42.38.209
-      port: 1080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: XF0klw7870vXn3uQIxe19Q
--     name: ss_194.187.251.2_1080
-      server: 194.187.251.2
       port: 1080
       udp: true
       type: ss
@@ -220,20 +192,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: e936372a-d976-4e25-8b3b-29c1a5841e06
--     name: ss_89.125.33.16_1234
-      server: 89.125.33.16
-      port: 1234
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: eDBb1j-EPxn9bKhW0hohx5-PH-P1uQPs
--     name: ss_198.98.53.130_443
-      server: 198.98.53.130
-      port: 443
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: eDfN7SODQceIOmIAbtJJtK
 -     name: ss_156.146.40.84_1080
       server: 156.146.40.84
       port: 1080
@@ -255,6 +213,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: gelwvU9mUR0orEFS5D6u7A
+-     name: ss_20.107.193.38_443
+      server: 20.107.193.38
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: imq0vLikbOx4THZP
 -     name: ss_57.129.140.88_8388
       server: 57.129.140.88
       port: 8388
@@ -262,24 +227,52 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: k1v5g9FefdoO
--     name: ss_95.40.120.162_8313
-      server: 95.40.120.162
-      port: 8313
+-     name: ss_193.29.139.129_443
+      server: 193.29.139.129
+      port: 443
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: ljqdalu13..
--     name: ss_95.40.120.162_8319
-      server: 95.40.120.162
-      port: 8319
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.129_8080
+      server: 193.29.139.129
+      port: 8080
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: ljqdalu13..
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.159_8080
+      server: 193.29.139.159
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.151_8080
+      server: 193.29.139.151
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.165_8080
+      server: 193.29.139.165
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.167_8080
+      server: 193.29.139.167
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_130.61.83.100_59924, ss_209.200.246.182_11994, ss_193.29.139.234_8080, ss_129.151.99.94_23345, ss_140.245.121.101_43345, ss_140.238.175.124_33345, ss_141.253.107.174_22345, ss_103.160.63.199_31348, ss_209.46.102.22_8388, ss_193.0.179.84_31348, ss_157.22.240.141_57925, ss_142.4.216.225_443, ss_148.253.208.76_3478, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_193.188.21.165_8390, ss_144.31.243.2_16015, ss_193.29.139.212_8080, ss_146.70.128.108_1080, ss_193.42.38.209_1080, ss_194.187.251.2_1080, ss_31.210.78.66_1080, ss_129.151.99.94_23345, ss_140.245.121.101_43345, ss_140.238.64.207_42345, ss_141.253.107.174_22345, ss_31.76.82.131_34260, ss_140.245.121.101_43345, ss_140.238.64.207_42345, ss_141.253.107.174_22345, ss_89.125.33.16_1234, ss_198.98.53.130_443, ss_156.146.40.84_1080, ss_194.54.80.37_1080, ss_135.136.33.134_1080, ss_57.129.140.88_8388, ss_95.40.120.162_8313, ss_95.40.120.162_8319]
+      proxies: [ss_209.200.246.182_11994, ss_193.29.139.234_8080, ss_129.151.99.94_23345, ss_140.245.121.101_43345, ss_140.238.175.124_33345, ss_141.253.107.174_22345, ss_103.160.63.199_31348, ss_209.46.102.22_8388, ss_85.209.157.209_29367, ss_142.4.216.225_443, ss_148.253.208.76_3478, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_193.188.21.165_8390, ss_144.31.243.2_16015, ss_193.29.139.212_8080, ss_146.70.128.108_1080, ss_31.210.78.66_1080, ss_129.151.99.94_23345, ss_140.245.121.101_43345, ss_140.238.64.207_42345, ss_141.253.107.174_22345, ss_31.76.82.131_34260, ss_140.245.121.101_43345, ss_140.238.64.207_42345, ss_141.253.107.174_22345, ss_156.146.40.84_1080, ss_194.54.80.37_1080, ss_135.136.33.134_1080, ss_20.107.193.38_443, ss_57.129.140.88_8388, ss_193.29.139.129_443, ss_193.29.139.129_8080, ss_193.29.139.159_8080, ss_193.29.139.151_8080, ss_193.29.139.165_8080, ss_193.29.139.167_8080]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

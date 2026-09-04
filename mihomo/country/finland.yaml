@@ -10,34 +10,57 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_104.238.29.241_0
-      server: 104.238.29.241
+-     name: vless_185.42.163.5_0
+      server: 185.42.163.5
       port: 0
       udp: true
       type: vless
-      uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-      flow: xtls-rprx-vision
+      uuid: ce735eb1358947f38d5a554c1dcbab87
       tls: true
-      servername: helsinki.fi
+      servername: finland.fi
+      client-fingerprint: random
       reality-opts:
-        public-key: uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM
-        short-id: 40a5eaec20abf1
--     name: vless_104.238.29.241_0
-      server: 104.238.29.241
+        public-key: fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_185.42.163.5_0
+      server: 185.42.163.5
       port: 0
       udp: true
       type: vless
-      uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
-      flow: xtls-rprx-vision
+      uuid: ce735eb1358947f38d5a554c1dcbab87
       tls: true
-      servername: helsinki.fi
+      servername: finland.fi
+      client-fingerprint: random
       reality-opts:
-        public-key: uHgXn92PmJ1ilszzwK2LHKvoC5dwhqYVhfKT_JW7JHM
-        short-id: 40a5eaec20abf1
+        public-key: fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_2.26.0.5_0
+      server: 2.26.0.5
+      port: 0
+      udp: true
+      type: vless
+      uuid: cec9a167-6381-4752-9828-a92ab6e6ebdd
+      tls: true
+      servername: deliberi.fi
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: _syAndJM1Guu8-CkJ48iBXUTe0GxHg3YEN3vz9iPkjo
+        short-id: f44dbbc3
+      network: grpc
+      grpc-opts:
+        grpc-service-name: 6b1d23e872422afdd141eba7c94c05e4
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.238.29.241_0, vless_104.238.29.241_0]
+      proxies: [vless_185.42.163.5_0, vless_185.42.163.5_0, vless_2.26.0.5_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -13,27 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_195.85.59.246_0",
-      "server": "195.85.59.246",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "1688c7ee-35b3-4bfb-ab88-f8ce846daeb6",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-node-oss-99.paofu.de",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "trojan_147.45.178.55_0",
       "server": "147.45.178.55",
       "server_port": 0,
@@ -168,6 +147,27 @@
       }
     },
     {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "00e4da0c-7d10-4a37-9699-64d0f998d200",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "vless_151.242.168.239_0",
       "server": "151.242.168.239",
       "server_port": 0,
@@ -184,7 +184,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -247,7 +247,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -273,19 +273,74 @@
       }
     },
     {
-      "tag": "vless_151.242.168.239_0",
-      "server": "151.242.168.239",
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
       "server_port": 0,
       "type": "vless",
-      "uuid": "03e5f7fb-d569-403b-8740-9e3b4f7dd94a",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "frantax.my3cx.de",
+        "server_name": "kibi-institut.de",
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
         },
         "utls": {
           "enabled": true,
@@ -294,15 +349,95 @@
       }
     },
     {
-      "tag": "vless_151.242.168.239_0",
-      "server": "151.242.168.239",
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
       "server_port": 0,
       "type": "vless",
-      "uuid": "03e5f7fb-d569-403b-8740-9e3b4f7dd94a",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "frantax.my3cx.de",
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.180_0",
+      "server": "151.242.168.180",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05020afd-d476-406b-8950-ee7dd63a6e64",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0826e9c1-b15c-46c2-801c-14e4fb861042",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -331,7 +466,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -416,27 +551,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_151.242.169.43_0",
-      "server": "151.242.169.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "08616758-9904-4b75-9e27-7df93a4baa86",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -525,27 +639,45 @@
       }
     },
     {
-      "tag": "vless_162.159.152.4_0",
-      "server": "162.159.152.4",
+      "tag": "vless_151.242.168.239_0",
+      "server": "151.242.168.239",
       "server_port": 0,
       "type": "vless",
-      "uuid": "12345678-1234-1234-1234-123456789123",
+      "uuid": "0c662275-978d-4d8c-886a-22294946a10d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vless.hubp.de",
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/snippets"
-      },
-      "multiplex": {
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "server": "151.242.168.239",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0c662275-978d-4d8c-886a-22294946a10d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
@@ -833,27 +965,6 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.110.207.48_0",
-      "server": "194.110.207.48",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "chrome"
         }
       }
@@ -917,7 +1028,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1002,6 +1113,90 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "15c79f0f-b964-4b41-9270-de2b99865ab7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "15c79f0f-b964-4b41-9270-de2b99865ab7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "15c79f0f-b964-4b41-9270-de2b99865ab7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "15c79f0f-b964-4b41-9270-de2b99865ab7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1090,15 +1285,15 @@
       }
     },
     {
-      "tag": "vless_194.110.207.70_0",
-      "server": "194.110.207.70",
+      "tag": "vless_151.242.168.207_0",
+      "server": "151.242.168.207",
       "server_port": 0,
       "type": "vless",
-      "uuid": "1c68a2c7-4aad-4d38-850c-c0e14f5cbb67",
+      "uuid": "1cbeb6e4-06c0-421b-9baa-8af782d6e6cc",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "frantax.my3cx.de",
+        "server_name": "kibi-institut.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -1258,6 +1453,48 @@
       }
     },
     {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "202e15ee-7e79-40ad-979f-700e100c21c5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "202e15ee-7e79-40ad-979f-700e100c21c5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "vless_139.28.241.21_0",
       "server": "139.28.241.21",
       "server_port": 0,
@@ -1318,6 +1555,86 @@
       }
     },
     {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_94.156.155.27_0",
+      "server": "94.156.155.27",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "218fd696-e3a2-4c33-b397-a5f13a82969e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.telekom.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "bY0-zlTOPCaEWDMw_BTzuzJW513tl6Hc61n4Z-q1cHE",
+          "short_id": "8f892fa1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "vless_151.242.168.238_0",
       "server": "151.242.168.238",
       "server_port": 0,
@@ -1339,19 +1656,40 @@
       }
     },
     {
-      "tag": "vless_93.177.64.145_0",
-      "server": "93.177.64.145",
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
       "server_port": 0,
       "type": "vless",
-      "uuid": "2622977a-f23a-49e2-9f29-56c36f32c7b7",
+      "uuid": "258ab003-733b-4d79-b0b0-c41044ba2e86",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "meet.mein-move.de",
+        "server_name": "kibi-institut.de",
         "reality": {
           "enabled": true,
-          "public_key": "voEvvET9lIRmSLJLHbNuKB7dzEP89_PnyOWvDetkjFM",
-          "short_id": "21b9deb2fb4558a0"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "258ab003-733b-4d79-b0b0-c41044ba2e86",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         },
         "utls": {
           "enabled": true,
@@ -1383,37 +1721,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.16.33.150_0",
-      "server": "104.16.33.150",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-      "tls": {
-        "enabled": true,
-        "server_name": "vless.hubp.de",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
       },
       "multiplex": {
         "enabled": true,
@@ -1732,30 +2039,6 @@
       }
     },
     {
-      "tag": "vless_162.159.152.4_0",
-      "server": "162.159.152.4",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-      "tls": {
-        "enabled": true,
-        "server_name": "vless.hubp.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_162.159.152.53_0",
       "server": "162.159.152.53",
       "server_port": 0,
@@ -1868,6 +2151,48 @@
         "enabled": true,
         "max_connections": 8,
         "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2bb2af37-e5f9-452a-b838-a1073bc03662",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "2bb2af37-e5f9-452a-b838-a1073bc03662",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
@@ -2156,32 +2481,74 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_151.242.169.44_0",
-      "server": "151.242.169.44",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "chrome"
         }
       }
     },
     {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "3aca1bad-80ce-4567-8e0a-4a6a12be61f1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "3d83043a-650c-44c4-bbf6-5d760e4ec58f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "3d83043a-650c-44c4-bbf6-5d760e4ec58f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "vless_151.242.169.44_0",
       "server": "151.242.169.44",
       "server_port": 0,
@@ -2219,27 +2586,6 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_151.242.169.44_0",
-      "server": "151.242.169.44",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -2262,27 +2608,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_151.242.169.44_0",
-      "server": "151.242.169.44",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3e5cc22b-a471-412d-bf84-6da9c929a0d9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -2366,24 +2691,45 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "vless_151.242.169.45_0",
-      "server": "151.242.169.45",
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
       "server_port": 0,
       "type": "vless",
-      "uuid": "3e8365f2-31b6-42a8-a18f-0c6e9dbb05d1",
+      "uuid": "428046af-101b-401f-ac06-f862046ac256",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "428046af-101b-401f-ac06-f862046ac256",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         },
         "utls": {
           "enabled": true,
@@ -2489,6 +2835,23 @@
           "enabled": true,
           "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
           "short_id": "f576da5e05a1d4d2"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
         },
         "utls": {
           "enabled": true,
@@ -2514,6 +2877,128 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
         }
       }
     },
@@ -2954,24 +3439,148 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.101.134.133_0",
+      "server": "151.101.134.133",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "tls": {
+        "enabled": true,
+        "server_name": "unternehmen.rossmann.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_151.101.134.133_0",
+      "server": "151.101.134.133",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "tls": {
+        "enabled": true,
+        "server_name": "unternehmen.rossmann.de"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.deutsche-bank.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.deutsche-bank.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.deutsche-bank.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.deutsche-bank.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "vless_194.110.207.89_0",
-      "server": "194.110.207.89",
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
       "server_port": 0,
       "type": "vless",
-      "uuid": "4c6e1341-f9b2-4d34-bb0c-6baba0688e87",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "frantax.my3cx.de",
+        "server_name": "www.deutsche-bank.de",
         "reality": {
           "enabled": true,
-          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
-          "short_id": "f6b5862c1f73ab80"
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
         },
         "utls": {
           "enabled": true,
@@ -2980,43 +3589,129 @@
       }
     },
     {
-      "tag": "vless_151.101.134.133_0",
-      "server": "151.101.134.133",
+      "tag": "vless_150.241.64.1_0",
+      "server": "150.241.64.1",
       "server_port": 0,
       "type": "vless",
-      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "uuid": "52b140a1-1e12-4410-9532-ebaee7cec3a1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "unternehmen.rossmann.de"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "www.deutsche-bank.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "ikKnBJfcuPy1U0O3Cb71zv_G1liM5QcAYhR10A0Ech0",
+          "short_id": "0f00666a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
-      "tag": "vless_151.101.134.133_0",
-      "server": "151.101.134.133",
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
       "server_port": 0,
       "type": "vless",
-      "uuid": "5150600b-d270-4be8-8d78-c5784d3c093b",
+      "uuid": "56b04d24-c894-4c47-9821-1826235b1f8e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "unternehmen.rossmann.de"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "56b04d24-c894-4c47-9821-1826235b1f8e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "56b04d24-c894-4c47-9821-1826235b1f8e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "server": "151.242.168.181",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "57d437b6-d25d-4956-a297-07f066174d62",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.181_0",
+      "server": "151.242.168.181",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "57d437b6-d25d-4956-a297-07f066174d62",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
@@ -3062,19 +3757,82 @@
       }
     },
     {
-      "tag": "vless_151.242.168.188_0",
-      "server": "151.242.168.188",
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
       "server_port": 0,
       "type": "vless",
-      "uuid": "59947190-eff3-48b2-9f50-c536e2131b35",
+      "uuid": "5899ca33-5cb2-4fa2-9557-b496bde9c974",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "kibi-institut.de",
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5899ca33-5cb2-4fa2-9557-b496bde9c974",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5899ca33-5cb2-4fa2-9557-b496bde9c974",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.182_0",
+      "server": "151.242.168.182",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5899ca33-5cb2-4fa2-9557-b496bde9c974",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "urD2miGxEfHylELSqqggBKCYIMSNXNTbdPijru7-eAQ",
+          "short_id": "46babe29a750b634"
         },
         "utls": {
           "enabled": true,
@@ -3099,7 +3857,112 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.188_0",
+      "server": "151.242.168.188",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "59947190-eff3-48b2-9f50-c536e2131b35",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.188_0",
+      "server": "151.242.168.188",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "59947190-eff3-48b2-9f50-c536e2131b35",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.188_0",
+      "server": "151.242.168.188",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "59947190-eff3-48b2-9f50-c536e2131b35",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5a524755-0205-41d6-b808-62e96fa5b9da",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "5a524755-0205-41d6-b808-62e96fa5b9da",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -3264,391 +4127,260 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "conrad.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "conrad.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_185.194.177.120_0",
+      "server": "185.194.177.120",
       "server_port": 0,
       "type": "vless",
       "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "conrad.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI",
+          "short_id": "e3e76808b9fcd591"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_176.124.199.193_0",
+      "server": "176.124.199.193",
       "server_port": 0,
       "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "uuid": "6352ec2e-fef2-431a-9c45-fa5acfe17a42",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "www.arbeitsagentur.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
+          "short_id": "a4eed13ebbf2f9d2"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
       }
     },
     {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
+      "tag": "vless_176.124.199.193_0",
+      "server": "176.124.199.193",
       "server_port": 0,
       "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "uuid": "6352ec2e-fef2-431a-9c45-fa5acfe17a42",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finanzfluss.de",
+        "server_name": "www.arbeitsagentur.de",
         "reality": {
           "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
+          "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
+          "short_id": "a4eed13ebbf2f9d2"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "remnagrpc"
-      }
-    },
-    {
-      "tag": "vless_81.18.48.97_0",
-      "server": "81.18.48.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "tls": {
-        "enabled": true,
-        "server_name": "finanzfluss.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0",
-          "short_id": "8b71da690c3d5d03"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc"
       }
     },
     {
@@ -3682,6 +4414,190 @@
       "tls": {
         "enabled": true,
         "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.187_0",
+      "server": "151.242.168.187",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "65ca8fd3-5b79-4f9a-b881-ffeb23b899a2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.187_0",
+      "server": "151.242.168.187",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "65ca8fd3-5b79-4f9a-b881-ffeb23b899a2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.59_0",
+      "server": "194.110.207.59",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "676e31b1-da5a-49ae-86d5-803031549189",
+      "flow": "xtls-rprx-vision-udp443",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.59_0",
+      "server": "194.110.207.59",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "676e31b1-da5a-49ae-86d5-803031549189",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "7eaa5a61-43f6-4392-8482-4d7411cc3a0d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "7eaa5a61-43f6-4392-8482-4d7411cc3a0d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "80bfad93-68e1-40f2-b29b-7188f5d5dddb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "80bfad93-68e1-40f2-b29b-7188f5d5dddb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "80bfad93-68e1-40f2-b29b-7188f5d5dddb",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -3773,6 +4689,48 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "server": "151.242.169.45",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "8e719051-96ac-4083-ac84-1f44d16385ac",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "server": "151.242.169.45",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "8e719051-96ac-4083-ac84-1f44d16385ac",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "edge"
         }
       }
@@ -3794,6 +4752,48 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "server": "151.242.169.45",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "8e719051-96ac-4083-ac84-1f44d16385ac",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.45_0",
+      "server": "151.242.169.45",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "8e719051-96ac-4083-ac84-1f44d16385ac",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "chrome"
         }
       }
@@ -3820,62 +4820,44 @@
       }
     },
     {
-      "tag": "vless_31.76.249.144_0",
-      "server": "31.76.249.144",
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
       "server_port": 0,
       "type": "vless",
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
+      "uuid": "91b87e08-fcbd-425d-b275-c53a1f5def92",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.kicker.de",
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
-          "public_key": "FjnQOip9Vri01Kl3k0Y0uUZVgReYU0P4gt9EOXZoP3w"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "vless_31.76.249.150_0",
-      "server": "31.76.249.150",
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
       "server_port": 0,
       "type": "vless",
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
+      "uuid": "91b87e08-fcbd-425d-b275-c53a1f5def92",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.kicker.de",
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
-          "public_key": "xoWhMRI_9b7yxK9roN_Es31cXty0i480kww8VqGzBDY"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_31.76.249.151_0",
-      "server": "31.76.249.151",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.kicker.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "FjnQOip9Vri01Kl3k0Y0uUZVgReYU0P4gt9EOXZoP3w"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -3980,6 +4962,27 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.146_0",
+      "server": "194.110.207.146",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "9c3d8e77-82ca-48d5-9981-dfce97b20ab1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -4023,27 +5026,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.110.207.146_0",
-      "server": "194.110.207.146",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "9c3d8e77-82ca-48d5-9981-dfce97b20ab1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
         }
       }
     },
@@ -4210,6 +5192,69 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.89_0",
+      "server": "194.110.207.89",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a9ad5751-32e3-4fdc-b250-36b594bed2be",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.89_0",
+      "server": "194.110.207.89",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a9ad5751-32e3-4fdc-b250-36b594bed2be",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.89_0",
+      "server": "194.110.207.89",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a9ad5751-32e3-4fdc-b250-36b594bed2be",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -4231,7 +5276,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -4399,6 +5444,27 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.239_0",
+      "server": "151.242.168.239",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b1bf6960-1a7e-4ca3-8380-fa3160fc0fec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -4438,6 +5504,174 @@
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
           "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b1dff0ed-8404-4f07-950f-783dde2f993d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b292cccd-4af8-46f6-adf0-38a355447e1f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b292cccd-4af8-46f6-adf0-38a355447e1f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b292cccd-4af8-46f6-adf0-38a355447e1f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.155_0",
+      "server": "151.242.168.155",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b292cccd-4af8-46f6-adf0-38a355447e1f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
         },
         "utls": {
           "enabled": true,
@@ -4476,6 +5710,69 @@
       "tls": {
         "enabled": true,
         "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.188_0",
+      "server": "151.242.168.188",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b492cadd-44cc-4c06-9f10-be9372aaeb74",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.188_0",
+      "server": "151.242.168.188",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b492cadd-44cc-4c06-9f10-be9372aaeb74",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b88f4768-c394-4b66-995e-ebb786e89e1b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -4572,6 +5869,111 @@
       }
     },
     {
+      "tag": "vless_151.242.169.44_0",
+      "server": "151.242.169.44",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bb736369-b88e-4f18-9453-258364819ca7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.44_0",
+      "server": "151.242.169.44",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bb736369-b88e-4f18-9453-258364819ca7",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bd5186bb-8223-46b7-bb55-4345988ec205",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bd5186bb-8223-46b7-bb55-4345988ec205",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bd5186bb-8223-46b7-bb55-4345988ec205",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "vless_194.110.207.70_0",
       "server": "194.110.207.70",
       "server_port": 0,
@@ -4651,28 +6053,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.110.207.70_0",
-      "server": "194.110.207.70",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bd5186bb-8223-46b7-bb55-4345988ec205",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -4736,6 +6117,27 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "bd5186bb-8223-46b7-bb55-4345988ec205",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5221,15 +6623,15 @@
       }
     },
     {
-      "tag": "vless_151.242.168.188_0",
-      "server": "151.242.168.188",
+      "tag": "vless_194.110.207.70_0",
+      "server": "194.110.207.70",
       "server_port": 0,
       "type": "vless",
-      "uuid": "cdddad73-4753-40dd-8359-5e6edc9207b7",
+      "uuid": "cc5cd592-a3e7-4dd1-bfe8-4fd2cba10015",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kibi-institut.de",
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -5237,7 +6639,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5301,6 +6703,69 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cf51b1d9-9be7-4e14-957e-bbb288bc1e9e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cf51b1d9-9be7-4e14-957e-bbb288bc1e9e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cf51b1d9-9be7-4e14-957e-bbb288bc1e9e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5372,7 +6837,7 @@
       "server": "194.110.207.48",
       "server_port": 0,
       "type": "vless",
-      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "uuid": "d5383443-1e0d-4742-b973-44448ae8a1c4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -5384,7 +6849,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5393,7 +6858,7 @@
       "server": "194.110.207.48",
       "server_port": 0,
       "type": "vless",
-      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "uuid": "d5383443-1e0d-4742-b973-44448ae8a1c4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -5405,7 +6870,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5414,7 +6879,7 @@
       "server": "194.110.207.48",
       "server_port": 0,
       "type": "vless",
-      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "uuid": "d5383443-1e0d-4742-b973-44448ae8a1c4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -5426,49 +6891,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.110.207.48_0",
-      "server": "194.110.207.48",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.110.207.48_0",
-      "server": "194.110.207.48",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "kibi-institut.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -5503,6 +6926,195 @@
       "tls": {
         "enabled": true,
         "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_194.110.207.48_0",
+      "server": "194.110.207.48",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d551dc1e-a0d3-4d52-a8bb-756cb9dac0b2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6e76e7c-14ff-48a3-879c-81a257788059",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6e76e7c-14ff-48a3-879c-81a257788059",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6e76e7c-14ff-48a3-879c-81a257788059",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.186_0",
+      "server": "151.242.168.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6e76e7c-14ff-48a3-879c-81a257788059",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "dfea6e8d-d1cf-4838-a309-69c9bc5059b4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "dfea6e8d-d1cf-4838-a309-69c9bc5059b4",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
         "reality": {
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
@@ -5589,27 +7201,6 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_151.242.168.239_0",
-      "server": "151.242.168.239",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e54082f9-295f-4fa1-88c0-1c439166c576",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "frantax.my3cx.de",
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -5691,6 +7282,48 @@
           "enabled": true,
           "public_key": "yOIJGvYnT5qM_EFd6rsYWatUJiYMpmY_utAwN6cIT3o",
           "short_id": "c6fb13b1add66fbe"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ea79e66b-1dd2-42e6-95f8-aee08db430ed",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.168.238_0",
+      "server": "151.242.168.238",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ea79e66b-1dd2-42e6-95f8-aee08db430ed",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         },
         "utls": {
           "enabled": true,
@@ -5841,6 +7474,48 @@
         },
         "utls": {
           "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.43_0",
+      "server": "151.242.169.43",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f2570d0f-02b8-4c46-b30f-7a753783a28d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_151.242.169.43_0",
+      "server": "151.242.169.43",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f2570d0f-02b8-4c46-b30f-7a753783a28d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "oXYB-DXrI08UVBRFq8MERP36betSSd7Yb6MLN88F2R4",
+          "short_id": "f6b5862c1f73ab80"
+        },
+        "utls": {
+          "enabled": true,
           "fingerprint": "firefox"
         }
       }
@@ -5930,10 +7605,30 @@
       }
     },
     {
+      "tag": "vless_151.242.168.239_0",
+      "server": "151.242.168.239",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fdf2dfcb-a9ef-4bba-ae9b-74525f3e9cc8",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "frantax.my3cx.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_195.85.59.246_0",
         "trojan_147.45.178.55_0",
         "trojan_104.26.8.202_0",
         "trojan_104.18.20.69_0",
@@ -5943,13 +7638,21 @@
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
-        "vless_151.242.168.239_0",
-        "vless_151.242.168.239_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_151.242.168.180_0",
+        "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
@@ -5957,10 +7660,10 @@
         "vless_151.242.169.43_0",
         "vless_151.242.169.43_0",
         "vless_151.242.169.43_0",
-        "vless_151.242.169.43_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
-        "vless_162.159.152.4_0",
+        "vless_151.242.168.239_0",
+        "vless_151.242.168.239_0",
         "vless_162.159.152.4_0",
         "vless_164.38.155.61_0",
         "vless_166.62.104.61_0",
@@ -5980,25 +7683,34 @@
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
-        "vless_194.110.207.48_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
         "vless_213.202.223.13_0",
         "vless_151.242.168.237_0",
         "vless_151.242.168.237_0",
         "vless_151.242.168.237_0",
+        "vless_151.242.168.207_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
+        "vless_79.137.207.130_0",
+        "vless_79.137.207.130_0",
+        "vless_79.137.207.130_0",
         "vless_194.110.207.70_0",
-        "vless_151.242.168.238_0",
-        "vless_151.242.168.238_0",
-        "vless_151.242.168.238_0",
-        "vless_79.137.207.130_0",
-        "vless_79.137.207.130_0",
-        "vless_79.137.207.130_0",
+        "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_139.28.241.21_0",
         "vless_94.156.155.27_0",
         "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
+        "vless_94.156.155.27_0",
         "vless_151.242.168.238_0",
-        "vless_93.177.64.145_0",
-        "vless_104.16.33.150_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
         "vless_104.16.33.150_0",
         "vless_104.16.33.150_0",
         "vless_104.18.82.55_0",
@@ -6011,11 +7723,12 @@
         "vless_154.218.15.198_0",
         "vless_154.218.15.198_0",
         "vless_162.159.152.4_0",
-        "vless_162.159.152.4_0",
         "vless_162.159.152.53_0",
         "vless_172.67.161.104_0",
         "vless_198.41.208.23_0",
         "vless_198.41.208.23_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_104.16.122.175_0",
         "vless_104.16.122.175_0",
@@ -6030,9 +7743,9 @@
         "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
-        "vless_151.242.169.44_0",
-        "vless_151.242.169.44_0",
-        "vless_151.242.169.44_0",
+        "vless_194.110.207.70_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
         "vless_151.242.169.44_0",
         "vless_151.242.169.44_0",
         "vless_151.242.169.44_0",
@@ -6040,13 +7753,21 @@
         "vless_151.242.169.44_0",
         "vless_151.242.169.45_0",
         "vless_151.242.169.45_0",
-        "vless_151.242.169.45_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_104.238.167.226_0",
         "vless_151.242.168.155_0",
         "vless_151.242.168.155_0",
         "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
@@ -6066,15 +7787,33 @@
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
-        "vless_194.110.207.89_0",
         "vless_194.110.207.89_0",
         "vless_194.110.207.89_0",
         "vless_151.101.134.133_0",
         "vless_151.101.134.133_0",
+        "vless_150.241.64.1_0",
+        "vless_150.241.64.1_0",
+        "vless_150.241.64.1_0",
+        "vless_150.241.64.1_0",
+        "vless_150.241.64.1_0",
+        "vless_150.241.64.1_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.181_0",
+        "vless_151.242.168.181_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.182_0",
+        "vless_151.242.168.182_0",
         "vless_151.242.168.188_0",
         "vless_151.242.168.188_0",
+        "vless_151.242.168.188_0",
+        "vless_151.242.168.188_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_27.50.48.8_0",
         "vless_27.50.48.8_0",
@@ -6082,33 +7821,41 @@
         "vless_185.194.177.120_0",
         "vless_185.194.177.120_0",
         "vless_185.194.177.120_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
-        "vless_81.18.48.97_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_185.194.177.120_0",
+        "vless_176.124.199.193_0",
+        "vless_176.124.199.193_0",
         "vless_194.110.207.70_0",
         "vless_151.242.168.187_0",
+        "vless_151.242.168.187_0",
+        "vless_151.242.168.187_0",
+        "vless_194.110.207.59_0",
+        "vless_194.110.207.59_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
+        "vless_194.110.207.70_0",
+        "vless_194.110.207.70_0",
+        "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_194.110.207.48_0",
         "vless_151.242.169.45_0",
         "vless_151.242.169.45_0",
         "vless_151.242.169.45_0",
         "vless_151.242.169.45_0",
-        "vless_31.76.249.144_0",
-        "vless_31.76.249.150_0",
-        "vless_31.76.249.151_0",
+        "vless_151.242.169.45_0",
+        "vless_151.242.169.45_0",
+        "vless_151.242.169.45_0",
+        "vless_151.242.169.45_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_194.110.207.146_0",
@@ -6126,6 +7873,9 @@
         "vless_194.110.207.89_0",
         "vless_194.110.207.89_0",
         "vless_194.110.207.89_0",
+        "vless_194.110.207.89_0",
+        "vless_194.110.207.89_0",
+        "vless_194.110.207.89_0",
         "vless_151.242.169.45_0",
         "vless_151.242.169.44_0",
         "vless_151.242.169.44_0",
@@ -6133,14 +7883,31 @@
         "vless_151.242.169.44_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
+        "vless_151.242.168.239_0",
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
+        "vless_194.110.207.48_0",
+        "vless_194.110.207.48_0",
+        "vless_194.110.207.48_0",
+        "vless_194.110.207.48_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
+        "vless_151.242.168.155_0",
         "vless_151.242.168.188_0",
         "vless_151.242.168.188_0",
+        "vless_151.242.168.188_0",
+        "vless_151.242.168.188_0",
+        "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_151.242.169.44_0",
         "vless_151.242.169.44_0",
         "vless_151.242.169.44_0",
+        "vless_151.242.169.44_0",
+        "vless_151.242.169.44_0",
+        "vless_194.110.207.70_0",
+        "vless_194.110.207.70_0",
+        "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
         "vless_194.110.207.70_0",
@@ -6167,8 +7934,11 @@
         "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&allowInsecure=1&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
         "vless_27.50.49.104:443?security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&path=/snippets/ip%3Dtp50000.kr.proxyip.fgfw.eu.org_0",
         "vless_194.110.207.70_0",
+        "vless_194.110.207.70_0",
         "vless_151.242.168.188_0",
-        "vless_151.242.168.188_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
@@ -6181,15 +7951,23 @@
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
         "vless_194.110.207.48_0",
+        "vless_194.110.207.48_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.186_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_138.124.186.100_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
-        "vless_151.242.168.239_0",
         "vless_138.124.53.198_0",
         "vless_138.124.53.198_0",
+        "vless_151.242.168.238_0",
+        "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.168.239_0",
@@ -6197,7 +7975,10 @@
         "vless_151.242.168.238_0",
         "vless_151.242.168.238_0",
         "vless_151.242.169.43_0",
+        "vless_151.242.169.43_0",
+        "vless_151.242.169.43_0",
         "vless_194.110.207.70_0",
+        "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0",
         "vless_151.242.168.239_0"
