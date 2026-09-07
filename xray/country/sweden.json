@@ -53,6 +53,33 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_177.3.209.179_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "177.3.209.179",
+        "port": 0,
+        "id": "a0d181f9-e82f-454c-8dea-79d8e630ab96",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.telia.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "EsGa1C0nTVYyW4luB4-VBu0ECgbm2-61A5mjUDzpwSA",
+            "shortId": "9794b16a7080255c"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -90,7 +117,18 @@
         "outboundTag": "dns-out"
       }
     ],
-    "balancers": []
+    "balancers": [
+      {
+        "tag": "leastPing",
+        "selector": [
+          "vless_177.3.209.179_0"
+        ],
+        "strategy": {
+          "type": "leastPing",
+          "settings": {}
+        }
+      }
+    ]
   },
   "observatory": {
     "enable": true,

@@ -63,6 +63,24 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_85.17.145.65_0
+      server: 85.17.145.65
+      port: 0
+      udp: true
+      type: vless
+      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_85.17.145.65_0
+      server: 85.17.145.65
+      port: 0
+      udp: true
+      type: vless
+      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_172.67.132.41_0
       server: 172.67.132.41
       port: 0
@@ -87,37 +105,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_152.232.57.98_0
-      server: 152.232.57.98
-      port: 0
-      udp: true
-      type: vless
-      uuid: 3005a774-84ab-47de-a2dc-48f5e56d502b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: dont.block.us
-      client-fingerprint: qq
-      reality-opts:
-        public-key: SqArIWpSt5VG9HVrtcZQn1r0Tc_eRvYzca2OFDBkF24
-        short-id: 8d3e824947a4cb
--     name: vless_84.235.244.108_0
-      server: 84.235.244.108
-      port: 0
-      udp: true
-      type: vless
-      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_84.235.244.108_0
-      server: 84.235.244.108
-      port: 0
-      udp: true
-      type: vless
-      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_84.235.244.108_0
       server: 84.235.244.108
       port: 0
@@ -151,6 +138,15 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_163.8.195.241_0
+      server: 163.8.195.241
+      port: 0
+      udp: true
+      type: vless
+      uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_104.21.12.150_0
       server: 104.21.12.150
       port: 0
@@ -186,19 +182,10 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-      network: ws
-      ws-opts:
-        path: /dula
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_152.232.57.98_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_support.zoom.us_0]
+      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_163.8.195.241_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -24,91 +24,40 @@
       }
     },
     {
-      "tag": "vless_84.32.99.238_0",
-      "server": "84.32.99.238",
+      "tag": "trojan_42.236.73.72_0",
+      "server": "42.236.73.72",
       "server_port": 0,
-      "type": "vless",
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+      "type": "trojan",
+      "password": "fuck",
       "tls": {
         "enabled": true,
-        "server_name": "recaptcha.net.cn",
-        "reality": {
+        "server_name": "www.zitian.cn",
+        "alpn": {
           "enabled": true,
-          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
+          "protocols": [
+            "http/1.1"
+          ]
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
       }
     },
     {
-      "tag": "vless_84.32.99.238_0",
-      "server": "84.32.99.238",
+      "tag": "vless_103.75.119.12_0",
+      "server": "103.75.119.12",
       "server_port": 0,
       "type": "vless",
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+      "uuid": "8e2419a7-ef0d-4b19-b52b-3333a0edcba8",
+      "flow": "xtls-rprx-vision-udp443",
       "tls": {
         "enabled": true,
-        "server_name": "recaptcha.net.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
-        },
+        "server_name": "www.apple.com.cn",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/api/v1/data"
-      }
-    },
-    {
-      "tag": "vless_84.32.99.238_0",
-      "server": "84.32.99.238",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
-      "tls": {
-        "enabled": true,
-        "server_name": "recaptcha.net.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/api/v1/data"
-      }
-    },
-    {
-      "tag": "vless_84.32.99.238_0",
-      "server": "84.32.99.238",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
-      "tls": {
-        "enabled": true,
-        "server_name": "recaptcha.net.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/api/v1/data"
       }
     },
     {
@@ -116,10 +65,8 @@
       "type": "urltest",
       "outbounds": [
         "trojan_42.236.73.72_0",
-        "vless_84.32.99.238_0",
-        "vless_84.32.99.238_0",
-        "vless_84.32.99.238_0",
-        "vless_84.32.99.238_0"
+        "trojan_42.236.73.72_0",
+        "vless_103.75.119.12_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

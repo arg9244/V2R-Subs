@@ -9,11 +9,24 @@ dns:
   default-nameservers: [1.1.1.1, 8.8.8.8]
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
-proxies: []
+proxies:
+-     name: vless_177.3.209.179_0
+      server: 177.3.209.179
+      port: 0
+      udp: true
+      type: vless
+      uuid: a0d181f9-e82f-454c-8dea-79d8e630ab96
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.telia.se
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: EsGa1C0nTVYyW4luB4-VBu0ECgbm2-61A5mjUDzpwSA
+        short-id: 9794b16a7080255c
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: []
+      proxies: [vless_177.3.209.179_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

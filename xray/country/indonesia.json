@@ -95,10 +95,10 @@
       }
     },
     {
-      "tag": "trojan_104.21.83.135_0",
+      "tag": "trojan_104.21.70.21_0",
       "protocol": "trojan",
       "settings": {
-        "address": "104.21.83.135",
+        "address": "104.21.70.21",
         "port": 0,
         "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
         "level": 0
@@ -107,7 +107,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "id1.nathaya.web.id",
-          "allowInsecure": true
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -128,7 +128,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
+          "allowInsecure": true
         }
       },
       "mux": {
@@ -544,6 +544,32 @@
       }
     },
     {
+      "tag": "vless_172.67.221.199_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.221.199",
+        "port": 0,
+        "id": "aa81e188-a979-411e-a10b-08287646cc43",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vl26.rnd.biz.id",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.20.28.30_0",
       "protocol": "vless",
       "settings": {
@@ -588,32 +614,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/Free-CF-Proxy-AT24?--TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY----TELEGRAM-VITUREY"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.114.97.6_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.97.6",
-        "port": 0,
-        "id": "c6c1760f-f6af-4a54-8600-cf9c9971f7d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sgdo1.cassanova.biz.id",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/vless"
         }
       },
       "mux": {
@@ -691,7 +691,7 @@
         "selector": [
           "trojan_104.21.70.21_0",
           "trojan_104.21.70.21_0",
-          "trojan_104.21.83.135_0",
+          "trojan_104.21.70.21_0",
           "trojan_104.21.83.135_0",
           "trojan_104.21.83.135_0",
           "trojan_172.67.176.157_0",
@@ -710,9 +710,9 @@
           "vless_104.18.13.51_0",
           "vless_104.18.13.51_0",
           "vless_172.67.221.199_0",
+          "vless_172.67.221.199_0",
           "vless_104.20.28.30_0",
           "vless_172.66.158.93_0",
-          "vless_188.114.97.6_0",
           "vless_104.18.32.47_0"
         ],
         "strategy": {

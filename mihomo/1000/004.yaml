@@ -10,6 +10,48 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: ss_193.29.139.129_443
+      server: 193.29.139.129
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.129_8080
+      server: 193.29.139.129
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.159_8080
+      server: 193.29.139.159
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.151_8080
+      server: 193.29.139.151
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.165_8080
+      server: 193.29.139.165
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_193.29.139.167_8080
+      server: 193.29.139.167
+      port: 8080
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
 -     name: ss_193.29.139.180_8080
       server: 193.29.139.180
       port: 8080
@@ -304,22 +346,15 @@ proxies:
       type: ss
       cipher: aes-128-gcm
       password: shadowsocks
--     name: ss_118.107.222.231_65443
-      server: 118.107.222.231
+-     name: ss_103.169.67.34_65443
+      server: 103.169.67.34
       port: 65443
       udp: true
       type: ss
       cipher: aes-256-cfb
       password: 7eadc6dbe2ae
--     name: ss_121.46.230.137_65443
-      server: 121.46.230.137
-      port: 65443
-      udp: true
-      type: ss
-      cipher: aes-256-cfb
-      password: 7eadc6dbe2ae
--     name: ss_121.46.230.232_65443
-      server: 121.46.230.232
+-     name: ss_121.46.230.233_65443
+      server: 121.46.230.233
       port: 65443
       udp: true
       type: ss
@@ -332,20 +367,6 @@ proxies:
       type: ss
       cipher: aes-256-cfb
       password: 7eadc6dbe2ae
--     name: ss_13.40.94.70_443
-      server: 13.40.94.70
-      port: 443
-      udp: true
-      type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
--     name: ss_3.252.205.48_443
-      server: 3.252.205.48
-      port: 443
-      udp: true
-      type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
 -     name: ss_84.247.155.196_443
       server: 84.247.155.196
       port: 443
@@ -360,20 +381,13 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: 3eOFeNssde7PYYMv
--     name: ss_45.140.169.123_8011
-      server: 45.140.169.123
-      port: 8011
+-     name: ss_70.34.212.124_8388
+      server: 70.34.212.124
+      port: 8388
       udp: true
       type: ss
       cipher: aes-256-gcm
-      password: 6b39ae3234dfd68b
--     name: ss_176.32.35.51_10081
-      server: 176.32.35.51
-      port: 10081
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: 895b4b796a357570
+      password: AxIYWtskJWIIaefW
 -     name: ss_15.204.246.132_7307
       server: 15.204.246.132
       port: 7307
@@ -402,20 +416,20 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: XKFKl2rULjIp74
--     name: ss_15.204.246.107_8888
-      server: 15.204.246.107
-      port: 8888
+-     name: ss_51.222.200.165_5000
+      server: 51.222.200.165
+      port: 5000
       udp: true
       type: ss
       cipher: aes-256-gcm
       password: Y6R9pAtvxxzmGC
--     name: ss_51.222.155.113_5601
-      server: 51.222.155.113
-      port: 5601
+-     name: ss_15.204.246.189_8119
+      server: 15.204.246.189
+      port: 8119
       udp: true
       type: ss
       cipher: aes-256-gcm
-      password: Y6R9pAtvxxzmGC
+      password: cdBIDV42DCwnfIN
 -     name: ss_51.79.64.198_8119
       server: 51.79.64.198
       port: 8119
@@ -437,13 +451,6 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: faBAoD54k87UJG7
--     name: ss_166.88.130.218_8011
-      server: 166.88.130.218
-      port: 8011
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: fbcec76953a2d173
 -     name: ss_51.222.155.32_5003
       server: 51.222.155.32
       port: 5003
@@ -465,6 +472,13 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: g5h5jleTRSyO3Rk4
+-     name: ss_15.204.233.41_8882
+      server: 15.204.233.41
+      port: 8882
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: kDWvXYZoTBcGkC4
 -     name: ss_15.204.246.108_8881
       server: 15.204.246.108
       port: 8881
@@ -507,8 +521,22 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: pKEW8JPByTVTLtM
+-     name: ss_194.87.10.3_8388
+      server: 194.87.10.3
+      port: 8388
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: uqjAobQ7F6cuAfzt
 -     name: ss_51.222.12.127_445
       server: 51.222.12.127
+      port: 445
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: zDNVedRFPQexG9v
+-     name: ss_51.222.141.125_445
+      server: 51.222.141.125
       port: 445
       udp: true
       type: ss
@@ -521,6 +549,20 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: Hi9wk14VntzGq7kq
+-     name: ss_15.204.247.175_8008
+      server: 15.204.247.175
+      port: 8008
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: XKFKl2rULjIp74
+-     name: ss_51.222.200.165_5000
+      server: 51.222.200.165
+      port: 5000
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: Y6R9pAtvxxzmGC
 -     name: ss_51.79.49.116_8882
       server: 51.79.49.116
       port: 8882
@@ -531,7 +573,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_193.29.139.180_8080, ss_193.29.139.204_8080, ss_193.29.139.225_443, ss_193.29.139.225_8080, ss_193.29.139.235_443, ss_193.29.139.235_8080, ss_193.29.139.238_8080, ss_193.29.139.230_443, ss_193.29.139.230_8080, ss_193.29.139.249_443, ss_193.29.139.249_8080, ss_82.38.31.149_443, ss_82.38.31.149_8080, ss_82.38.31.164_443, ss_82.38.31.164_8080, ss_82.38.31.16_8080, ss_82.38.31.175_443, ss_82.38.31.175_8080, ss_82.38.31.17_443, ss_82.38.31.17_8080, ss_82.38.31.18_443, ss_82.38.31.18_8080, ss_82.38.31.11_443, ss_82.38.31.11_8080, ss_82.38.31.26_443, ss_82.38.31.28_8080, ss_82.38.31.35_8080, ss_82.38.31.36_8080, ss_82.38.31.48_443, ss_82.38.31.42_443, ss_82.38.31.42_8080, ss_82.38.31.7_8080, ss_82.38.31.7_8080, ss_82.38.31.9_8080, ss_23.150.248.20_8388, ss_140.174.184.5_8388, ss_149.22.95.183_443, ss_158.173.20.208_443, ss_158.173.24.73_443, ss_37.19.198.160_443, ss_37.19.198.243_443, ss_37.19.198.244_443, ss_118.107.222.231_65443, ss_121.46.230.137_65443, ss_121.46.230.232_65443, ss_95.170.13.47_65443, ss_13.40.94.70_443, ss_3.252.205.48_443, ss_84.247.155.196_443, ss_84.247.155.196_80, ss_45.140.169.123_8011, ss_176.32.35.51_10081, ss_15.204.246.132_7307, ss_213.202.208.199_7001, ss_94.156.250.148_7001, ss_15.204.247.175_8008, ss_15.204.246.107_8888, ss_51.222.155.113_5601, ss_51.79.64.198_8119, ss_51.79.85.185_8118, ss_15.204.247.124_2375, ss_166.88.130.218_8011, ss_51.222.155.32_5003, ss_149.102.132.184_443, ss_149.102.132.184_80, ss_15.204.246.108_8881, ss_51.222.136.236_8882, ss_51.79.49.116_8882, ss_139.180.133.90_80, ss_15.204.246.111_5498, ss_15.204.247.244_4444, ss_51.222.12.127_445, ss_154.12.242.150_80, ss_51.79.49.116_8882]
+      proxies: [ss_193.29.139.129_443, ss_193.29.139.129_8080, ss_193.29.139.159_8080, ss_193.29.139.151_8080, ss_193.29.139.165_8080, ss_193.29.139.167_8080, ss_193.29.139.180_8080, ss_193.29.139.204_8080, ss_193.29.139.225_443, ss_193.29.139.225_8080, ss_193.29.139.235_443, ss_193.29.139.235_8080, ss_193.29.139.238_8080, ss_193.29.139.230_443, ss_193.29.139.230_8080, ss_193.29.139.249_443, ss_193.29.139.249_8080, ss_82.38.31.149_443, ss_82.38.31.149_8080, ss_82.38.31.164_443, ss_82.38.31.164_8080, ss_82.38.31.16_8080, ss_82.38.31.175_443, ss_82.38.31.175_8080, ss_82.38.31.17_443, ss_82.38.31.17_8080, ss_82.38.31.18_443, ss_82.38.31.18_8080, ss_82.38.31.11_443, ss_82.38.31.11_8080, ss_82.38.31.26_443, ss_82.38.31.28_8080, ss_82.38.31.35_8080, ss_82.38.31.36_8080, ss_82.38.31.48_443, ss_82.38.31.42_443, ss_82.38.31.42_8080, ss_82.38.31.7_8080, ss_82.38.31.7_8080, ss_82.38.31.9_8080, ss_23.150.248.20_8388, ss_140.174.184.5_8388, ss_149.22.95.183_443, ss_158.173.20.208_443, ss_158.173.24.73_443, ss_37.19.198.160_443, ss_37.19.198.243_443, ss_37.19.198.244_443, ss_103.169.67.34_65443, ss_121.46.230.233_65443, ss_95.170.13.47_65443, ss_84.247.155.196_443, ss_84.247.155.196_80, ss_70.34.212.124_8388, ss_15.204.246.132_7307, ss_213.202.208.199_7001, ss_94.156.250.148_7001, ss_15.204.247.175_8008, ss_51.222.200.165_5000, ss_15.204.246.189_8119, ss_51.79.64.198_8119, ss_51.79.85.185_8118, ss_15.204.247.124_2375, ss_51.222.155.32_5003, ss_149.102.132.184_443, ss_149.102.132.184_80, ss_15.204.233.41_8882, ss_15.204.246.108_8881, ss_51.222.136.236_8882, ss_51.79.49.116_8882, ss_139.180.133.90_80, ss_15.204.246.111_5498, ss_15.204.247.244_4444, ss_194.87.10.3_8388, ss_51.222.12.127_445, ss_51.222.141.125_445, ss_154.12.242.150_80, ss_15.204.247.175_8008, ss_51.222.200.165_5000, ss_51.79.49.116_8882]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
