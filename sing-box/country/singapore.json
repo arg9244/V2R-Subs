@@ -17,10 +17,42 @@
       "server": "www.visa.com.sg",
       "server_port": 0,
       "type": "vless",
-      "uuid": "e9f44bc0-72c5-435b-9ab0-b1525823ad02",
+      "uuid": "81d55675-8570-4b40-9a77-3125339a0f86",
       "transport": {
         "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "81d55675-8570-4b40-9a77-3125339a0f86",
+      "transport": {
+        "type": "ws",
+        "path": "/ "
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "deee4a60-e8c3-456f-846f-aa2c2b7fae24",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.SG.CMLiussss.net"
       },
       "multiplex": {
         "enabled": true,
@@ -32,6 +64,8 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_www.visa.com.sg_0",
+        "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

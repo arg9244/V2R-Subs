@@ -72,39 +72,48 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_85.17.145.65_0
-      server: 85.17.145.65
+-     name: vless_172.67.132.41_0
+      server: 172.67.132.41
       port: 0
       udp: true
       type: vless
-      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      uuid: 0e989a0e-264b-4bbb-baa4-31603314531f
+      tls: true
+      servername: nl48.vlessx.us
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_172.67.132.41_0
+      server: 172.67.132.41
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0e989a0e-264b-4bbb-baa4-31603314531f
+      tls: true
+      servername: nl48.vlessx.us
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
       network: ws
       ws-opts:
         path: /
--     name: vless_172.67.132.41_0
-      server: 172.67.132.41
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
       port: 0
       udp: true
       type: vless
-      uuid: 0e989a0e-264b-4bbb-baa4-31603314531f
-      tls: true
-      servername: nl48.vlessx.us
-      client-fingerprint: randomized
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
       network: ws
       ws-opts:
-        path: "/?ed=2048"
--     name: vless_172.67.132.41_0
-      server: 172.67.132.41
-      port: 0
-      udp: true
-      type: vless
-      uuid: 0e989a0e-264b-4bbb-baa4-31603314531f
-      tls: true
-      servername: nl48.vlessx.us
-      client-fingerprint: randomized
-      network: ws
-      ws-opts:
-        path: "/?ed=2048"
+        path: /
 -     name: vless_84.235.244.108_0
       server: 84.235.244.108
       port: 0
@@ -185,7 +194,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_163.8.195.241_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
+      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_163.8.195.241_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -38,10 +38,32 @@
       }
     },
     {
+      "tag": "vless_107.189.27.148_0",
+      "server": "107.189.27.148",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "da11650e-da81-42ef-b6e1-7ed8eab402b2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "a2vonderenkerensheide.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "SbL7vo39Xki9E_DnR8S7HATgsThHH4gK9V_G-aA7ZDk",
+          "short_id": "e361ba0c532788b2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_194.61.120.198_0"
+        "vless_194.61.120.198_0",
+        "vless_107.189.27.148_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -120,11 +120,59 @@
       }
     },
     {
-      "tag": "vless_85.17.145.65_0",
-      "server": "85.17.145.65",
+      "tag": "vless_172.67.132.41_0",
+      "server": "172.67.132.41",
       "server_port": 0,
       "type": "vless",
-      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+      "uuid": "0e989a0e-264b-4bbb-baa4-31603314531f",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl48.vlessx.us",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_172.67.132.41_0",
+      "server": "172.67.132.41",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0e989a0e-264b-4bbb-baa4-31603314531f",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl48.vlessx.us",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
         "type": "ws",
         "path": "/"
@@ -136,46 +184,14 @@
       }
     },
     {
-      "tag": "vless_172.67.132.41_0",
-      "server": "172.67.132.41",
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
       "server_port": 0,
       "type": "vless",
-      "uuid": "0e989a0e-264b-4bbb-baa4-31603314531f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl48.vlessx.us",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_172.67.132.41_0",
-      "server": "172.67.132.41",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "0e989a0e-264b-4bbb-baa4-31603314531f",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl48.vlessx.us",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -342,9 +358,10 @@
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
-        "vless_85.17.145.65_0",
         "vless_172.67.132.41_0",
         "vless_172.67.132.41_0",
+        "vless_84.235.244.108_0",
+        "vless_84.235.244.108_0",
         "vless_84.235.244.108_0",
         "vless_104.21.4.8_0",
         "vless_104.21.4.8_0",

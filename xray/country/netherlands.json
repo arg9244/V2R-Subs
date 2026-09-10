@@ -80,6 +80,34 @@
       }
     },
     {
+      "tag": "vless_107.189.27.148_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "107.189.27.148",
+        "port": 0,
+        "id": "da11650e-da81-42ef-b6e1-7ed8eab402b2",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "a2vonderenkerensheide.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "SbL7vo39Xki9E_DnR8S7HATgsThHH4gK9V_G-aA7ZDk",
+            "shortId": "e361ba0c532788b2"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -121,7 +149,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_194.61.120.198_0"
+          "vless_194.61.120.198_0",
+          "vless_107.189.27.148_0"
         ],
         "strategy": {
           "type": "leastPing",

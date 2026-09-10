@@ -74,25 +74,26 @@
       }
     },
     {
-      "tag": "trojan_42.236.73.72_0",
-      "protocol": "trojan",
+      "tag": "vless_66.33.22.229_0",
+      "protocol": "vless",
       "settings": {
-        "address": "42.236.73.72",
+        "address": "66.33.22.229",
         "port": 0,
-        "password": "fuck",
-        "level": 0
+        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "www.zitian.cn",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
+            "shortId": "7aae950fc7d5"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -100,20 +101,105 @@
       }
     },
     {
-      "tag": "vless_103.75.119.12_0",
+      "tag": "vless_66.33.22.229_0",
       "protocol": "vless",
       "settings": {
-        "address": "103.75.119.12",
+        "address": "66.33.22.229",
         "port": 0,
-        "id": "8e2419a7-ef0d-4b19-b52b-3333a0edcba8",
+        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
         "tls": "tls",
-        "flow": "xtls-rprx-vision-udp443"
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "www.apple.com.cn",
-          "allowInsecure": false
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
+            "shortId": "7aae950fc7d5"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_66.33.22.229_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "66.33.22.229",
+        "port": 0,
+        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
+            "shortId": "7aae950fc7d5"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_66.33.22.229_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "66.33.22.229",
+        "port": 0,
+        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
+            "shortId": "7aae950fc7d5"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_66.33.22.229_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "66.33.22.229",
+        "port": 0,
+        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
+            "shortId": "7aae950fc7d5"
+          }
         },
         "network": "tcp"
       },
@@ -165,8 +251,11 @@
         "tag": "leastPing",
         "selector": [
           "trojan_42.236.73.72_0",
-          "trojan_42.236.73.72_0",
-          "vless_103.75.119.12_0"
+          "vless_66.33.22.229_0",
+          "vless_66.33.22.229_0",
+          "vless_66.33.22.229_0",
+          "vless_66.33.22.229_0",
+          "vless_66.33.22.229_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -18,30 +18,70 @@ proxies:
       password: fuck
       tls: true
       servername: www.zitian.cn
--     name: trojan_42.236.73.72_0
-      server: 42.236.73.72
-      port: 0
-      udp: true
-      type: trojan
-      password: fuck
-      tls: true
-      servername: www.zitian.cn
-      alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: vless_103.75.119.12_0
-      server: 103.75.119.12
+-     name: vless_66.33.22.229_0
+      server: 66.33.22.229
       port: 0
       udp: true
       type: vless
-      uuid: 8e2419a7-ef0d-4b19-b52b-3333a0edcba8
-      flow: xtls-rprx-vision-udp443
+      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
       tls: true
-      servername: www.apple.com.cn
+      servername: api-stg.semiconductor.samsung.cn
       client-fingerprint: chrome
+      reality-opts:
+        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
+        short-id: 7aae950fc7d5
+-     name: vless_66.33.22.229_0
+      server: 66.33.22.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
+      tls: true
+      servername: api-stg.semiconductor.samsung.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
+        short-id: 7aae950fc7d5
+-     name: vless_66.33.22.229_0
+      server: 66.33.22.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
+      tls: true
+      servername: api-stg.semiconductor.samsung.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
+        short-id: 7aae950fc7d5
+-     name: vless_66.33.22.229_0
+      server: 66.33.22.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
+      tls: true
+      servername: api-stg.semiconductor.samsung.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
+        short-id: 7aae950fc7d5
+-     name: vless_66.33.22.229_0
+      server: 66.33.22.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
+      tls: true
+      servername: api-stg.semiconductor.samsung.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
+        short-id: 7aae950fc7d5
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_42.236.73.72_0, trojan_42.236.73.72_0, vless_103.75.119.12_0]
+      proxies: [trojan_42.236.73.72_0, vless_66.33.22.229_0, vless_66.33.22.229_0, vless_66.33.22.229_0, vless_66.33.22.229_0, vless_66.33.22.229_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

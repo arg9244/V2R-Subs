@@ -26,10 +26,23 @@ proxies:
       xhttp-opts:
         path: /x
         host: ""
+-     name: vless_107.189.27.148_0
+      server: 107.189.27.148
+      port: 0
+      udp: true
+      type: vless
+      uuid: da11650e-da81-42ef-b6e1-7ed8eab402b2
+      flow: xtls-rprx-vision
+      tls: true
+      servername: a2vonderenkerensheide.nl
+      client-fingerprint: qq
+      reality-opts:
+        public-key: SbL7vo39Xki9E_DnR8S7HATgsThHH4gK9V_G-aA7ZDk
+        short-id: e361ba0c532788b2
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_194.61.120.198_0]
+      proxies: [vless_194.61.120.198_0, vless_107.189.27.148_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

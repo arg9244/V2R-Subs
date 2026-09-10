@@ -49,10 +49,23 @@ proxies:
       reality-opts:
         public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
         short-id: e5f67890
+-     name: vless_62.133.62.179_0
+      server: 62.133.62.179
+      port: 0
+      udp: true
+      type: vless
+      uuid: d67af820-f54c-48ab-862c-19086357f276
+      flow: xtls-rprx-vision
+      tls: true
+      servername: telegraf.lv
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+        short-id: e5f67890
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_62.133.62.179_0, vless_62.133.62.179_0, vless_62.133.62.179_0]
+      proxies: [vless_62.133.62.179_0, vless_62.133.62.179_0, vless_62.133.62.179_0, vless_62.133.62.179_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
