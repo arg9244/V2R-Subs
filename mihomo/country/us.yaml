@@ -72,6 +72,15 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_85.17.145.65_0
+      server: 85.17.145.65
+      port: 0
+      udp: true
+      type: vless
+      uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_172.67.132.41_0
       server: 172.67.132.41
       port: 0
@@ -96,6 +105,42 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_news.zoom.us_0
+      server: news.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+      tls: true
+      servername: u.srilankangrill.online
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_news.zoom.us_0
+      server: news.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+      tls: true
+      servername: u.srilankangrill.online
+      client-fingerprint: ios
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_news.zoom.us_0
+      server: news.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+      tls: true
+      servername: u.srilankangrill.online
+      client-fingerprint: qq
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_84.235.244.108_0
       server: 84.235.244.108
       port: 0
@@ -147,15 +192,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_163.8.195.241_0
-      server: 163.8.195.241
-      port: 0
-      udp: true
-      type: vless
-      uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_104.21.12.150_0
       server: 104.21.12.150
       port: 0
@@ -186,15 +222,56 @@ proxies:
       type: vless
       uuid: a2dadb95-3f15-4e1c-b517-0b54c336a5fd
       tls: true
+      servername: nl57.vlessx.us
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_104.21.12.150_0
+      server: 104.21.12.150
+      port: 0
+      udp: true
+      type: vless
+      uuid: a2dadb95-3f15-4e1c-b517-0b54c336a5fd
+      tls: true
       servername: nl57.Vlessx.us
       client-fingerprint: chrome
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_104.21.12.150_0
+      server: 104.21.12.150
+      port: 0
+      udp: true
+      type: vless
+      uuid: a2dadb95-3f15-4e1c-b517-0b54c336a5fd
+      tls: true
+      servername: nl57.vlessx.us
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_support.zoom.us_0
+      server: support.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
+      network: ws
+      ws-opts:
+        path: /free-server.techsonic.dev
+-     name: vless_support.zoom.us_0
+      server: support.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
+      network: ws
+      ws-opts:
+        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_163.8.195.241_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
+      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_news.zoom.us_0, vless_news.zoom.us_0, vless_news.zoom.us_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_support.zoom.us_0, vless_support.zoom.us_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

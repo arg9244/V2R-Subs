@@ -15,6 +15,11 @@ proxies:
       port: 1080
       udp: true
       type: socks5
+-     name: socks5_46.100.94.217_1080
+      server: 46.100.94.217
+      port: 1080
+      udp: true
+      type: socks5
 -     name: socks5_91.212.174.37_10808
       server: 91.212.174.37
       port: 10808
@@ -23,7 +28,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [socks5_178.252.165.226_1080, socks5_91.212.174.37_10808]
+      proxies: [socks5_178.252.165.226_1080, socks5_46.100.94.217_1080, socks5_91.212.174.37_10808]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

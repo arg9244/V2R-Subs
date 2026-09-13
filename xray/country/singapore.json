@@ -58,56 +58,19 @@
       "settings": {
         "address": "www.visa.com.sg",
         "port": 0,
-        "id": "81d55675-8570-4b40-9a77-3125339a0f86",
-        "tls": "none"
+        "id": "37d0b151-023e-4729-9994-45a7d9df5fd1",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "none",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pardazeshvpn-tg23.pages.dev",
+          "allowInsecure": false
+        },
         "network": "ws",
         "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "81d55675-8570-4b40-9a77-3125339a0f86",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ "
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "deee4a60-e8c3-456f-846f-aa2c2b7fae24",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
+          "path": "/TELEGRAM-MARAMBASHI/?ed=2048"
         }
       },
       "mux": {
@@ -157,8 +120,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_www.visa.com.sg_0",
-          "vless_www.visa.com.sg_0",
           "vless_www.visa.com.sg_0"
         ],
         "strategy": {

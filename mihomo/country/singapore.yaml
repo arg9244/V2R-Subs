@@ -15,32 +15,17 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
+      uuid: 37d0b151-023e-4729-9994-45a7d9df5fd1
+      tls: true
+      servername: pardazeshvpn-tg23.pages.dev
+      client-fingerprint: random
       network: ws
       ws-opts:
-        path: /
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-      network: ws
-      ws-opts:
-        path: "/ "
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: deee4a60-e8c3-456f-846f-aa2c2b7fae24
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.SG.CMLiussss.net"
+        path: "/TELEGRAM-MARAMBASHI/?ed=2048"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
+      proxies: [vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

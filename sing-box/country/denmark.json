@@ -13,23 +13,17 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_94.228.170.176_0",
-      "server": "94.228.170.176",
+      "tag": "trojan_45.95.232.189_0",
+      "server": "45.95.232.189",
       "server_port": 0,
       "type": "trojan",
       "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
       "tls": {
         "enabled": true,
-        "server_name": "tr-netherlands.unlimited-access.ru",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
+        "server_name": "tr-switzerlandgopota.unlimited-access.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -37,7 +31,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_94.228.170.176_0"
+        "trojan_45.95.232.189_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
