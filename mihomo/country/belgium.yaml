@@ -62,6 +62,17 @@ proxies:
       reality-opts:
         public-key: _VeT5AgFK65VebuF3KC-yYJtFw_fnJCLYGK1Ap2NfWI
         short-id: e9a7
+-     name: vless_45.135.235.111_0
+      server: 45.135.235.111
+      port: 0
+      udp: true
+      type: vless
+      uuid: 775213ac-3976-439a-8977-3277c0e4735d
+      tls: true
+      servername: fq521.6789.cloudns.be
+      network: ws
+      ws-opts:
+        path: twitterfreecodes
 -     name: vless_172.66.47.97_0
       server: 172.66.47.97
       port: 0
@@ -87,7 +98,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_172.66.47.97_0, vless_172.66.47.97_0]
+      proxies: [vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_144.31.183.177_0, vless_45.135.235.111_0, vless_172.66.47.97_0, vless_172.66.47.97_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

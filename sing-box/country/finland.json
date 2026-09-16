@@ -13,29 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_132.243.223.107_0",
-      "server": "132.243.223.107",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "735cccec-df5c-4616-9b62-d984a40a34b8",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.suomi.fi",
-        "reality": {
-          "enabled": true,
-          "public_key": "b4Vfq0h3epuCjjmWbNvdueMhVS9-vuWGl0AYGW-iHnw"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "suomi-grpc"
-      }
-    },
-    {
       "tag": "vless_185.42.163.5_0",
       "server": "185.42.163.5",
       "server_port": 0,
@@ -89,7 +66,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_132.243.223.107_0",
         "vless_185.42.163.5_0",
         "vless_185.42.163.5_0"
       ],

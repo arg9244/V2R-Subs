@@ -10,6 +10,13 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: ss_61.245.11.28_9090
+      server: 61.245.11.28
+      port: 9090
+      udp: true
+      type: ss
+      cipher: Channel
+      password: "telegram:TurboConfigs"
 -     name: ss_193.29.139.157_8080
       server: 193.29.139.157
       port: 8080
@@ -52,13 +59,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 1hhrqrokj3ag
--     name: ss_142.4.216.225_443
-      server: 142.4.216.225
+-     name: ss_20.87.3.84_443
+      server: 20.87.3.84
       port: 443
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 3ssumf2
+      password: w0Yff67jxd3zXY9g
 -     name: ss_148.253.208.76_3478
       server: 148.253.208.76
       port: 3478
@@ -73,20 +80,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: yu2XnSPWhmQjxn83iJA3DA
--     name: ss_108.181.58.239_8388
-      server: 108.181.58.239
-      port: 8388
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: CJmTCCx7Ltud
--     name: ss_20.111.9.76_59380
-      server: 20.111.9.76
-      port: 59380
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: DdhrBvEX2dHRjaakWHBZUa
 -     name: ss_144.31.243.2_16015
       server: 144.31.243.2
       port: 16015
@@ -108,13 +101,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: XF0klw7870vXn3uQIxe19Q
--     name: ss_83.171.225.55_1443
-      server: 83.171.225.55
-      port: 1443
+-     name: ss_61.231.15.229_50099
+      server: 61.231.15.229
+      port: 50099
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: ZjAxZ
+      password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
 -     name: ss_129.151.99.94_23345
       server: 129.151.99.94
       port: 23345
@@ -129,13 +122,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: c58d16e593d44f42
--     name: ss_31.76.82.131_34260
-      server: 31.76.82.131
-      port: 34260
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: cTAObwg4OWWXkZJQs0ZdgC
 -     name: ss_193.29.139.227_8080
       server: 193.29.139.227
       port: 8080
@@ -174,7 +160,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_193.29.139.157_8080, ss_193.29.139.234_8080, ss_129.151.99.94_23345, ss_140.238.175.124_33345, ss_103.160.63.199_31348, ss_209.46.102.22_8388, ss_142.4.216.225_443, ss_148.253.208.76_3478, ss_91.208.75.251_3478, ss_108.181.58.239_8388, ss_20.111.9.76_59380, ss_144.31.243.2_16015, ss_193.29.139.212_8080, ss_146.70.128.108_1080, ss_83.171.225.55_1443, ss_129.151.99.94_23345, ss_158.173.221.214_11001, ss_31.76.82.131_34260, ss_193.29.139.227_8080, ss_156.146.40.84_1080, ss_194.54.80.37_1080, ss_135.136.33.134_1080, ss_130.49.189.158_43558]
+      proxies: [ss_61.245.11.28_9090, ss_193.29.139.157_8080, ss_193.29.139.234_8080, ss_129.151.99.94_23345, ss_140.238.175.124_33345, ss_103.160.63.199_31348, ss_209.46.102.22_8388, ss_20.87.3.84_443, ss_148.253.208.76_3478, ss_91.208.75.251_3478, ss_144.31.243.2_16015, ss_193.29.139.212_8080, ss_146.70.128.108_1080, ss_61.231.15.229_50099, ss_129.151.99.94_23345, ss_158.173.221.214_11001, ss_193.29.139.227_8080, ss_156.146.40.84_1080, ss_194.54.80.37_1080, ss_135.136.33.134_1080, ss_130.49.189.158_43558]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

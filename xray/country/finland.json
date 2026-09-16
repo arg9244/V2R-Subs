@@ -53,34 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_132.243.223.107_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "132.243.223.107",
-        "port": 0,
-        "id": "735cccec-df5c-4616-9b62-d984a40a34b8",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.suomi.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "b4Vfq0h3epuCjjmWbNvdueMhVS9-vuWGl0AYGW-iHnw"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "suomi-grpc"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_185.42.163.5_0",
       "protocol": "vless",
       "settings": {
@@ -176,7 +148,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_132.243.223.107_0",
           "vless_185.42.163.5_0",
           "vless_185.42.163.5_0"
         ],

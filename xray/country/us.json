@@ -190,28 +190,6 @@
         "address": "85.17.145.65",
         "port": 0,
         "id": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_85.17.145.65_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "85.17.145.65",
-        "port": 0,
-        "id": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
         "tls": "none"
       },
       "streamSettings": {
@@ -279,24 +257,25 @@
       }
     },
     {
-      "tag": "vless_news.zoom.us_0",
+      "tag": "vless_178.162.252.123_0",
       "protocol": "vless",
       "settings": {
-        "address": "news.zoom.us",
+        "address": "178.162.252.123",
         "port": 0,
-        "id": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+        "id": "1b96549e-b6e4-4e19-9259-2ab1b10ce7f7",
         "tls": "tls"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "u.srilankangrill.online",
-          "allowInsecure": false
+          "serverName": "zoom.us",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE",
+            "shortId": "9791feaccc1ca4d8"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -304,24 +283,25 @@
       }
     },
     {
-      "tag": "vless_news.zoom.us_0",
+      "tag": "vless_178.162.252.123_0",
       "protocol": "vless",
       "settings": {
-        "address": "news.zoom.us",
+        "address": "178.162.252.123",
         "port": 0,
-        "id": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+        "id": "1b96549e-b6e4-4e19-9259-2ab1b10ce7f7",
         "tls": "tls"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "u.srilankangrill.online",
-          "allowInsecure": false
+          "serverName": "zoom.us",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE",
+            "shortId": "9791feaccc1ca4d8"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -329,24 +309,26 @@
       }
     },
     {
-      "tag": "vless_news.zoom.us_0",
+      "tag": "vless_178.162.252.123_0",
       "protocol": "vless",
       "settings": {
-        "address": "news.zoom.us",
+        "address": "178.162.252.123",
         "port": 0,
-        "id": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-        "tls": "tls"
+        "id": "1b96549e-b6e4-4e19-9259-2ab1b10ce7f7",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "u.srilankangrill.online",
-          "allowInsecure": false
+          "serverName": "zoom.us",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE",
+            "shortId": "9791feaccc1ca4d8"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -469,6 +451,136 @@
       }
     },
     {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "4d10c997-4781-4cd9-82c3-15453523e12c",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/sg-melbi"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "4d10c997-4781-4cd9-82c3-15453523e12c",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/sg-melbi"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "5aafc2be-9348-4dec-b896-f4a91253bbca",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/id-tksi"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "6680846a-8a57-4dfd-9a0e-63209cfc8535",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/sg-amz"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "6680846a-8a57-4dfd-9a0e-63209cfc8535",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "support.zoom.us.yxls.eu.cc",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/sg-amz"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.21.12.150_0",
       "protocol": "vless",
       "settings": {
@@ -573,66 +685,24 @@
       }
     },
     {
-      "tag": "vless_104.21.12.150_0",
+      "tag": "vless_support.zoom.us_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.21.12.150",
+        "address": "support.zoom.us",
         "port": 0,
-        "id": "a2dadb95-3f15-4e1c-b517-0b54c336a5fd",
-        "tls": "tls"
+        "id": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "nl57.vlessx.us",
+          "serverName": "primelinelk.me",
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_support.zoom.us_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "support.zoom.us",
-        "port": 0,
-        "id": "a57223c7-3581-4fec-9bc4-ad5c30900efb",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/free-server.techsonic.dev"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_support.zoom.us_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "support.zoom.us",
-        "port": 0,
-        "id": "a57223c7-3581-4fec-9bc4-ad5c30900efb",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
+          "path": "/xprolk-primeline"
         }
       },
       "mux": {
@@ -689,23 +759,25 @@
           "vless_85.17.145.65_0",
           "vless_85.17.145.65_0",
           "vless_85.17.145.65_0",
-          "vless_85.17.145.65_0",
           "vless_172.67.132.41_0",
           "vless_172.67.132.41_0",
-          "vless_news.zoom.us_0",
-          "vless_news.zoom.us_0",
-          "vless_news.zoom.us_0",
+          "vless_178.162.252.123_0",
+          "vless_178.162.252.123_0",
+          "vless_178.162.252.123_0",
           "vless_84.235.244.108_0",
           "vless_84.235.244.108_0",
           "vless_84.235.244.108_0",
           "vless_104.21.4.8_0",
           "vless_104.21.4.8_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
           "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0",
+          "vless_support.zoom.us_0",
+          "vless_104.21.12.150_0",
+          "vless_104.21.12.150_0",
+          "vless_104.21.12.150_0",
+          "vless_104.21.12.150_0",
           "vless_support.zoom.us_0"
         ],
         "strategy": {

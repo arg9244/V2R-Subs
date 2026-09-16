@@ -10,21 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_132.243.223.107_0
-      server: 132.243.223.107
-      port: 0
-      udp: true
-      type: vless
-      uuid: 735cccec-df5c-4616-9b62-d984a40a34b8
-      tls: true
-      servername: www.suomi.fi
-      client-fingerprint: qq
-      reality-opts:
-        public-key: b4Vfq0h3epuCjjmWbNvdueMhVS9-vuWGl0AYGW-iHnw
-        short-id: ""
-      network: grpc
-      grpc-opts:
-        grpc-service-name: suomi-grpc
 -     name: vless_185.42.163.5_0
       server: 185.42.163.5
       port: 0
@@ -60,7 +45,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_132.243.223.107_0, vless_185.42.163.5_0, vless_185.42.163.5_0]
+      proxies: [vless_185.42.163.5_0, vless_185.42.163.5_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

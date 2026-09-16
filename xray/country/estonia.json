@@ -58,9 +58,88 @@
       "settings": {
         "address": "46.22.216.32",
         "port": 0,
+        "id": "1e2c38d5-e0dc-472e-b31b-a1e15f083cc7",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "mail.protech-plus.ee",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_46.22.216.32_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "46.22.216.32",
+        "port": 0,
+        "id": "54b029e2-ff19-404d-ae24-8692bf2e4aa8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "mail.protech-plus.ee",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_46.22.216.32_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "46.22.216.32",
+        "port": 0,
         "id": "6fb79584-30b8-4888-b358-98f7ef6b8697",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "mail.protech-plus.ee",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_ee-node.usel.pro_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "ee-node.usel.pro",
+        "port": 0,
+        "id": "6fb79584-30b8-4888-b358-98f7ef6b8697",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -120,7 +199,10 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_46.22.216.32_0"
+          "vless_46.22.216.32_0",
+          "vless_46.22.216.32_0",
+          "vless_46.22.216.32_0",
+          "vless_ee-node.usel.pro_0"
         ],
         "strategy": {
           "type": "leastPing",
