@@ -117,13 +117,39 @@
       }
     },
     {
+      "tag": "vless_104.17.147.22_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.147.22",
+        "port": 0,
+        "id": "581cb8c3-dadb-4e10-a18b-5e79bfe7bd93",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "kr11.69lover.my",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/api/v2/58f8da21d2401b12/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.25.30.10_0",
       "protocol": "vless",
       "settings": {
         "address": "104.25.30.10",
         "port": 0,
         "id": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
-        "tls": "tls"
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
@@ -147,10 +173,10 @@
       }
     },
     {
-      "tag": "vless_104.25.30.10_0",
+      "tag": "vless_188.114.97.6_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.25.30.10",
+        "address": "188.114.97.6",
         "port": 0,
         "id": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
         "tls": "tls"
@@ -159,11 +185,16 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "de14.69lover.my",
-          "allowInsecure": true
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/"
+          "path": "/api/v2/6c316c769ad6853c/stream"
         }
       },
       "mux": {
@@ -460,7 +491,8 @@
         "address": "104.20.30.10",
         "port": 0,
         "id": "91d28760-ecf1-450b-9170-d310111a0e6d",
-        "tls": "tls"
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
@@ -484,6 +516,31 @@
       }
     },
     {
+      "tag": "vless_104.20.30.10_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.20.30.10",
+        "port": 0,
+        "id": "91d28760-ecf1-450b-9170-d310111a0e6d",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "us9.69lover.my",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.16.60.10_0",
       "protocol": "vless",
       "settings": {
@@ -491,6 +548,119 @@
         "port": 0,
         "id": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
         "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hk1.69lover.my",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/api/v2/e2fe4e52a165854d/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.60.10",
+        "port": 0,
+        "id": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hk1.69lover.my",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/api/v2/e2fe4e52a165854d/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.60.10",
+        "port": 0,
+        "id": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hk1.69lover.my",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/api/v2/e2fe4e52a165854d/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.60.10",
+        "port": 0,
+        "id": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hk1.69lover.my",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/api/v2/e2fe4e52a165854d/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.60.10",
+        "port": 0,
+        "id": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
@@ -557,8 +727,9 @@
         "selector": [
           "vless_104.21.79.221_0",
           "vless_104.21.79.221_0",
+          "vless_104.17.147.22_0",
           "vless_104.25.30.10_0",
-          "vless_104.25.30.10_0",
+          "vless_188.114.97.6_0",
           "vless_104.17.13.0_0",
           "vless_104.17.13.0_0",
           "vless_104.17.45.0_0",
@@ -571,6 +742,11 @@
           "vless_162.159.245.0_0",
           "vless_162.159.245.0_0",
           "vless_104.20.30.10_0",
+          "vless_104.20.30.10_0",
+          "vless_104.16.60.10_0",
+          "vless_104.16.60.10_0",
+          "vless_104.16.60.10_0",
+          "vless_104.16.60.10_0",
           "vless_104.16.60.10_0"
         ],
         "strategy": {

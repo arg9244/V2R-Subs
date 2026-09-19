@@ -75,6 +75,30 @@
       }
     },
     {
+      "tag": "vless_104.17.147.22_0",
+      "server": "104.17.147.22",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "581cb8c3-dadb-4e10-a18b-5e79bfe7bd93",
+      "tls": {
+        "enabled": true,
+        "server_name": "kr11.69lover.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/58f8da21d2401b12/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.25.30.10_0",
       "server": "104.25.30.10",
       "server_port": 0,
@@ -105,23 +129,28 @@
       }
     },
     {
-      "tag": "vless_104.25.30.10_0",
-      "server": "104.25.30.10",
+      "tag": "vless_188.114.97.6_0",
+      "server": "188.114.97.6",
       "server_port": 0,
       "type": "vless",
       "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "de14.69lover.my",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "unsafe"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/api/v2/6c316c769ad6853c/stream"
       },
       "multiplex": {
         "enabled": true,
@@ -376,6 +405,138 @@
       }
     },
     {
+      "tag": "vless_104.20.30.10_0",
+      "server": "104.20.30.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
+      "tls": {
+        "enabled": true,
+        "server_name": "us9.69lover.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "server": "104.16.60.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk1.69lover.my",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/e2fe4e52a165854d/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "server": "104.16.60.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk1.69lover.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/e2fe4e52a165854d/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "server": "104.16.60.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk1.69lover.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/e2fe4e52a165854d/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.16.60.10_0",
+      "server": "104.16.60.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk1.69lover.my",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v2/e2fe4e52a165854d/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.16.60.10_0",
       "server": "104.16.60.10",
       "server_port": 0,
@@ -411,8 +572,9 @@
       "outbounds": [
         "vless_104.21.79.221_0",
         "vless_104.21.79.221_0",
+        "vless_104.17.147.22_0",
         "vless_104.25.30.10_0",
-        "vless_104.25.30.10_0",
+        "vless_188.114.97.6_0",
         "vless_104.17.13.0_0",
         "vless_104.17.13.0_0",
         "vless_104.17.45.0_0",
@@ -425,6 +587,11 @@
         "vless_162.159.245.0_0",
         "vless_162.159.245.0_0",
         "vless_104.20.30.10_0",
+        "vless_104.20.30.10_0",
+        "vless_104.16.60.10_0",
+        "vless_104.16.60.10_0",
+        "vless_104.16.60.10_0",
+        "vless_104.16.60.10_0",
         "vless_104.16.60.10_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

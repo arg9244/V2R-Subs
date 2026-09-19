@@ -23,19 +23,6 @@ proxies:
       reality-opts:
         public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
         short-id: ""
--     name: vless_88.216.92.78_0
-      server: 88.216.92.78
-      port: 0
-      udp: true
-      type: vless
-      uuid: 1e2c38d5-e0dc-472e-b31b-a1e15f083cc7
-      flow: xtls-rprx-vision
-      tls: true
-      servername: vu.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
-        short-id: ""
 -     name: vless_84.32.214.77_0
       server: 84.32.214.77
       port: 0
@@ -49,6 +36,84 @@ proxies:
       reality-opts:
         public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
         short-id: ""
+-     name: vless_88.216.92.78_0
+      server: 88.216.92.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5934cc4f-c17b-41c0-9280-c75eb222f4b7
+      flow: xtls-rprx-vision
+      tls: true
+      servername: vu.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
+        short-id: ""
+-     name: vless_88.216.92.78_0
+      server: 88.216.92.78
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5934cc4f-c17b-41c0-9280-c75eb222f4b7
+      flow: xtls-rprx-vision
+      tls: true
+      servername: vu.nl
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
+        short-id: ""
+-     name: vless_2.27.40.16_0
+      server: 2.27.40.16
+      port: 0
+      udp: true
+      type: vless
+      uuid: 729425fa-585b-458e-841a-ea30872d4ac2
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.uva.nl
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118
+        short-id: 940dbf5b
+-     name: vless_2.27.40.16_0
+      server: 2.27.40.16
+      port: 0
+      udp: true
+      type: vless
+      uuid: 729425fa-585b-458e-841a-ea30872d4ac2
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.uva.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118
+        short-id: 940dbf5b
+-     name: vless_2.27.40.16_0
+      server: 2.27.40.16
+      port: 0
+      udp: true
+      type: vless
+      uuid: 729425fa-585b-458e-841a-ea30872d4ac2
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.uva.nl
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118
+        short-id: 940dbf5b
+-     name: vless_2.27.40.16_0
+      server: 2.27.40.16
+      port: 0
+      udp: true
+      type: vless
+      uuid: 729425fa-585b-458e-841a-ea30872d4ac2
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.uva.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118
+        short-id: 940dbf5b
 -     name: vless_172.66.47.67_0
       server: 172.66.47.67
       port: 0
@@ -63,39 +128,10 @@ proxies:
       ws-opts:
         path: /
         headers: {}
--     name: vless_66.33.22.238_0
-      server: 66.33.22.238
-      port: 0
-      udp: true
-      type: vless
-      uuid: c6b9bdad-a8bb-40a8-b112-f7fea2ed1077
-      tls: true
-      servername: eerstekamer.nl
-      client-fingerprint: ios
-      reality-opts:
-        public-key: OX0VS_KcAXqXowZCkYM-9N1g5nFsjr95Jm3jj4DGb3E
-        short-id: f4789e57c7
-      network: xhttp
-      xhttp-opts:
-        path: /
-        host: ""
--     name: vless_45.144.54.2_0
-      server: 45.144.54.2
-      port: 0
-      udp: true
-      type: vless
-      uuid: d97255e6-31b0-423f-ba40-689d9ebadce2
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.uva.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118
-        short-id: 940dbf5b
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_84.32.214.77_0, vless_88.216.92.78_0, vless_84.32.214.77_0, vless_172.66.47.67_0, vless_66.33.22.238_0, vless_45.144.54.2_0]
+      proxies: [vless_84.32.214.77_0, vless_84.32.214.77_0, vless_88.216.92.78_0, vless_88.216.92.78_0, vless_2.27.40.16_0, vless_2.27.40.16_0, vless_2.27.40.16_0, vless_2.27.40.16_0, vless_172.66.47.67_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

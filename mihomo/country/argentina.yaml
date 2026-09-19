@@ -27,30 +27,6 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 3845c09f-35c8-4852-b876-5ed8cc5ca6cd
-      flow: xtls-rprx-vision
-      tls: true
-      servername: lanacion.com.ar
-      reality-opts:
-        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-        short-id: fd55b698ee8c3629
--     name: vless_95.154.237.50_0
-      server: 95.154.237.50
-      port: 0
-      udp: true
-      type: vless
-      uuid: 9e5569c7-ecd9-48f4-837d-d077580ca5b3
-      flow: xtls-rprx-vision
-      tls: true
-      servername: lanacion.com.ar
-      reality-opts:
-        public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-        short-id: fd55b698ee8c3629
--     name: vless_95.154.237.47_0
-      server: 95.154.237.47
-      port: 0
-      udp: true
-      type: vless
       uuid: b113f831-8658-467f-a819-927d16a54d6a
       flow: xtls-rprx-vision
       tls: true
@@ -62,7 +38,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_95.154.237.47_0, vless_95.154.237.47_0, vless_95.154.237.50_0, vless_95.154.237.47_0]
+      proxies: [vless_95.154.237.47_0, vless_95.154.237.47_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
