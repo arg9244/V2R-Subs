@@ -87,30 +87,15 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_178.162.252.123_0
-      server: 178.162.252.123
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
       port: 0
       udp: true
       type: vless
-      uuid: 1b96549e-b6e4-4e19-9259-2ab1b10ce7f7
-      tls: true
-      servername: zoom.us
-      client-fingerprint: qq
-      reality-opts:
-        public-key: UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE
-        short-id: 9791feaccc1ca4d8
--     name: vless_178.162.252.123_0
-      server: 178.162.252.123
-      port: 0
-      udp: true
-      type: vless
-      uuid: 1b96549e-b6e4-4e19-9259-2ab1b10ce7f7
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE
-        short-id: 9791feaccc1ca4d8
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_84.235.244.108_0
       server: 84.235.244.108
       port: 0
@@ -190,10 +175,28 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_support.zoom.us_0
+      server: support.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_support.zoom.us_0
+      server: support.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+      network: ws
+      ws-opts:
+        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_178.162.252.123_0, vless_178.162.252.123_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
+      proxies: [trojan_104.21.19.64_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_85.17.145.65_0, vless_172.67.132.41_0, vless_172.67.132.41_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_support.zoom.us_0, vless_support.zoom.us_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

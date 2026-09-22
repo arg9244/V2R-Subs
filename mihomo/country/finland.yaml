@@ -42,10 +42,23 @@ proxies:
       xhttp-opts:
         path: /x
         host: ""
+-     name: vless_141.98.85.88_0
+      server: 141.98.85.88
+      port: 0
+      udp: true
+      type: vless
+      uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.jyu.fi
+      client-fingerprint: random
+      reality-opts:
+        public-key: hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8
+        short-id: 675a2ad9f7969dd7
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_185.42.163.5_0, vless_185.42.163.5_0]
+      proxies: [vless_185.42.163.5_0, vless_185.42.163.5_0, vless_141.98.85.88_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

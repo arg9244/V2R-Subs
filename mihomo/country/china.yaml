@@ -30,10 +30,57 @@ proxies:
       reality-opts:
         public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
         short-id: 7aae950fc7d5
+-     name: vless_84.32.99.238_0
+      server: 84.32.99.238
+      port: 0
+      udp: true
+      type: vless
+      uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+      tls: true
+      servername: recaptcha.net.cn
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+        short-id: ""
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_84.32.99.238_0
+      server: 84.32.99.238
+      port: 0
+      udp: true
+      type: vless
+      uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+      tls: true
+      servername: recaptcha.net.cn
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+        short-id: ""
+      network: xhttp
+      xhttp-opts:
+        path: /api/v1/data
+        host: ""
+-     name: vless_84.32.99.238_0
+      server: 84.32.99.238
+      port: 0
+      udp: true
+      type: vless
+      uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+      tls: true
+      servername: recaptcha.net.cn
+      reality-opts:
+        public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+        short-id: ""
+      network: xhttp
+      xhttp-opts:
+        path: /api/v1/data
+        host: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_42.236.73.72_0, vless_66.33.22.229_0]
+      proxies: [trojan_42.236.73.72_0, vless_66.33.22.229_0, vless_84.32.99.238_0, vless_84.32.99.238_0, vless_84.32.99.238_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

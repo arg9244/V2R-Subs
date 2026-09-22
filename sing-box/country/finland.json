@@ -63,11 +63,33 @@
       }
     },
     {
+      "tag": "vless_141.98.85.88_0",
+      "server": "141.98.85.88",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d2e00857-9581-4030-96e2-9d1ed0b95049",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.jyu.fi",
+        "reality": {
+          "enabled": true,
+          "public_key": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
+          "short_id": "675a2ad9f7969dd7"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_185.42.163.5_0",
-        "vless_185.42.163.5_0"
+        "vless_185.42.163.5_0",
+        "vless_141.98.85.88_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

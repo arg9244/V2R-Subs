@@ -53,6 +53,114 @@
   ],
   "outbounds": [
     {
+      "tag": "ss_149.22.95.183_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "149.22.95.183",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_158.173.20.208_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "158.173.20.208",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_158.173.24.73_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "158.173.24.73",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.160_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.160",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.243_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.243",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_37.19.198.244_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "37.19.198.244",
+        "port": 443,
+        "method": "aes-128-gcm",
+        "password": "shadowsocks",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "ss_84.247.155.196_443",
       "protocol": "shadowsocks",
       "settings": {
@@ -78,24 +186,6 @@
         "port": 80,
         "method": "aes-256-gcm",
         "password": "3eOFeNssde7PYYMv",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_195.133.5.102_10900",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "195.133.5.102",
-        "port": 10900,
-        "method": "aes-256-gcm",
-        "password": "895b4b796a357570",
         "level": 0
       },
       "streamSettings": {
@@ -150,6 +240,24 @@
         "port": 7001,
         "method": "aes-256-gcm",
         "password": "RexnBgU7EV5ADxG",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_15.204.247.175_8008",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "15.204.247.175",
+        "port": 8008,
+        "method": "aes-256-gcm",
+        "password": "XKFKl2rULjIp74",
         "level": 0
       },
       "streamSettings": {
@@ -294,6 +402,24 @@
         "port": 8118,
         "method": "aes-256-gcm",
         "password": "cdBIDV42DCwnfIN",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_185.156.47.97_9443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "185.156.47.97",
+        "port": 9443,
+        "method": "aes-256-gcm",
+        "password": "eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH",
         "level": 0
       },
       "streamSettings": {
@@ -467,6 +593,24 @@
       }
     },
     {
+      "tag": "ss_87.58.148.70_443",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "87.58.148.70",
+        "port": 443,
+        "method": "aes-256-gcm",
+        "password": "rg0g3xp9rk9nk9o0",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "ss_51.222.12.127_445",
       "protocol": "shadowsocks",
       "settings": {
@@ -616,12 +760,18 @@
       {
         "tag": "leastPing",
         "selector": [
+          "ss_149.22.95.183_443",
+          "ss_158.173.20.208_443",
+          "ss_158.173.24.73_443",
+          "ss_37.19.198.160_443",
+          "ss_37.19.198.243_443",
+          "ss_37.19.198.244_443",
           "ss_84.247.155.196_443",
           "ss_84.247.155.196_80",
-          "ss_195.133.5.102_10900",
           "ss_15.204.246.132_7307",
           "ss_213.202.208.199_7001",
           "ss_94.156.250.148_7001",
+          "ss_15.204.247.175_8008",
           "ss_15.204.246.107_8888",
           "ss_38.180.214.110_5600",
           "ss_51.222.155.113_5601",
@@ -630,6 +780,7 @@
           "ss_82.110.60.9_19999",
           "ss_51.79.64.198_8119",
           "ss_51.79.85.185_8118",
+          "ss_185.156.47.97_9443",
           "ss_yyz-ca-01.blncvpn4u.cc_9443",
           "ss_15.204.247.124_2375",
           "ss_51.222.155.32_5003",
@@ -639,6 +790,7 @@
           "ss_51.222.136.236_8882",
           "ss_15.204.247.206_4444",
           "ss_15.204.247.244_4444",
+          "ss_87.58.148.70_443",
           "ss_51.222.12.127_445",
           "ss_51.222.141.125_445",
           "ss_154.12.242.150_80",

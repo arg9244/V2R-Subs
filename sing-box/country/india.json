@@ -1026,27 +1026,6 @@
       }
     },
     {
-      "tag": "vless_172.66.47.69_0",
-      "server": "172.66.47.69",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sni.111000.indevs.in"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_176.124.223.138_0",
       "server": "176.124.223.138",
       "server_port": 0,
@@ -1496,26 +1475,6 @@
     {
       "tag": "vless_192.65.217.138_0",
       "server": "192.65.217.138",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_194.146.12.230_0",
-      "server": "194.146.12.230",
       "server_port": 0,
       "type": "vless",
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -2009,6 +1968,61 @@
       }
     },
     {
+      "tag": "vless_chatgpt.com_0",
+      "server": "chatgpt.com",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_chatgpt.com_0",
+      "server": "chatgpt.com",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "server_name": "sni.111000.indevs.in",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_132.243.168.76_0",
       "server": "132.243.168.76",
       "server_port": 0,
@@ -2082,7 +2096,6 @@
         "vless_172.64.149.54_0",
         "vless_172.64.155.209_0",
         "vless_172.66.47.69_0",
-        "vless_172.66.47.69_0",
         "vless_176.124.223.138_0",
         "vless_178.62.25.163_0",
         "vless_185.148.106.138_0",
@@ -2105,7 +2118,6 @@
         "vless_192.0.63.138_0",
         "vless_192.65.217.138_0",
         "vless_192.65.217.138_0",
-        "vless_194.146.12.230_0",
         "vless_195.133.65.202_0",
         "vless_195.85.23.138_0",
         "vless_198.12.145.138_0",
@@ -2128,6 +2140,8 @@
         "vless_89.116.250.138_0",
         "vless_89.23.106.39_0",
         "vless_92.53.191.138_0",
+        "vless_chatgpt.com_0",
+        "vless_chatgpt.com_0",
         "vless_132.243.168.76_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

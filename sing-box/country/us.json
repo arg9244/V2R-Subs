@@ -152,43 +152,19 @@
       }
     },
     {
-      "tag": "vless_178.162.252.123_0",
-      "server": "178.162.252.123",
+      "tag": "vless_84.235.244.108_0",
+      "server": "84.235.244.108",
       "server_port": 0,
       "type": "vless",
-      "uuid": "1b96549e-b6e4-4e19-9259-2ab1b10ce7f7",
-      "tls": {
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
         "enabled": true,
-        "server_name": "zoom.us",
-        "reality": {
-          "enabled": true,
-          "public_key": "UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE",
-          "short_id": "9791feaccc1ca4d8"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "vless_178.162.252.123_0",
-      "server": "178.162.252.123",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "1b96549e-b6e4-4e19-9259-2ab1b10ce7f7",
-      "tls": {
-        "enabled": true,
-        "server_name": "zoom.us",
-        "reality": {
-          "enabled": true,
-          "public_key": "UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE",
-          "short_id": "9791feaccc1ca4d8"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
@@ -344,6 +320,38 @@
       }
     },
     {
+      "tag": "vless_support.zoom.us_0",
+      "server": "support.zoom.us",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_support.zoom.us_0",
+      "server": "support.zoom.us",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
@@ -355,15 +363,16 @@
         "vless_85.17.145.65_0",
         "vless_172.67.132.41_0",
         "vless_172.67.132.41_0",
-        "vless_178.162.252.123_0",
-        "vless_178.162.252.123_0",
+        "vless_84.235.244.108_0",
         "vless_84.235.244.108_0",
         "vless_104.21.4.8_0",
         "vless_104.21.4.8_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
-        "vless_104.21.12.150_0"
+        "vless_104.21.12.150_0",
+        "vless_support.zoom.us_0",
+        "vless_support.zoom.us_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
