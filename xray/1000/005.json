@@ -197,60 +197,6 @@
       }
     },
     {
-      "tag": "ss_193.29.139.188_8080",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "193.29.139.188",
-        "port": 8080,
-        "method": "chacha20-ietf-poly1305",
-        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_193.29.139.202_8080",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "193.29.139.202",
-        "port": 8080,
-        "method": "chacha20-ietf-poly1305",
-        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_82.38.31.11_8080",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "82.38.31.11",
-        "port": 8080,
-        "method": "chacha20-ietf-poly1305",
-        "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "ss_82.38.31.35_8080",
       "protocol": "shadowsocks",
       "settings": {
@@ -258,6 +204,24 @@
         "port": 8080,
         "method": "chacha20-ietf-poly1305",
         "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "none"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "ss_179.61.138.73_8444",
+      "protocol": "shadowsocks",
+      "settings": {
+        "address": "179.61.138.73",
+        "port": 8444,
+        "method": "chacha20-ietf-poly1305",
+        "password": "tunnel-astrovpn_official",
         "level": 0
       },
       "streamSettings": {
@@ -318,10 +282,8 @@
           "ss_82.38.31.185_8080",
           "ss_82.38.31.195_8080",
           "ss_82.38.31.204_8080",
-          "ss_193.29.139.188_8080",
-          "ss_193.29.139.202_8080",
-          "ss_82.38.31.11_8080",
-          "ss_82.38.31.35_8080"
+          "ss_82.38.31.35_8080",
+          "ss_179.61.138.73_8444"
         ],
         "strategy": {
           "type": "leastPing",

@@ -17,17 +17,9 @@ proxies:
       type: trojan
       password: sg-trojan-2026
       tls: true
-      servername: sg-proxy.local
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
-      port: 0
-      udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
       skip-cert-verify: true
       servername: sg-proxy.local
-      client-fingerprint: android
+      client-fingerprint: chrome
 -     name: trojan_43.173.90.202_0
       server: 43.173.90.202
       port: 0
@@ -47,7 +39,15 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: sg-proxy.local
-      client-fingerprint: random
+      client-fingerprint: qq
+-     name: trojan_43.173.90.202_0
+      server: 43.173.90.202
+      port: 0
+      udp: true
+      type: trojan
+      password: sg-trojan-2026
+      tls: true
+      servername: sg-proxy.local
 -     name: vless_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -66,37 +66,10 @@ proxies:
       network: ws
       ws-opts:
         path: "/ "
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.KR.CMLiussss.net"
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: d8235de7-84c7-4454-b333-4d854c393929
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.US.CMLiussss.net"
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: deee4a60-e8c3-456f-846f-aa2c2b7fae24
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.SG.CMLiussss.net"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
+      proxies: [trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

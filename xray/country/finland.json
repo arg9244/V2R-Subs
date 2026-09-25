@@ -135,6 +135,33 @@
       }
     },
     {
+      "tag": "vless_141.98.85.88_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.98.85.88",
+        "port": 0,
+        "id": "d2e00857-9581-4030-96e2-9d1ed0b95049",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.jyu.fi",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
+            "shortId": "675a2ad9f7969dd7"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -178,6 +205,7 @@
         "selector": [
           "vless_185.42.163.5_0",
           "vless_185.42.163.5_0",
+          "vless_141.98.85.88_0",
           "vless_141.98.85.88_0"
         ],
         "strategy": {

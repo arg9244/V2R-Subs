@@ -65,70 +65,70 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sg-proxy.local",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_43.173.90.202_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "43.173.90.202",
+        "port": 0,
+        "password": "sg-trojan-2026",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sg-proxy.local",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_43.173.90.202_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "43.173.90.202",
+        "port": 0,
+        "password": "sg-trojan-2026",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sg-proxy.local",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_43.173.90.202_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "43.173.90.202",
+        "port": 0,
+        "password": "sg-trojan-2026",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sg-proxy.local",
           "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_43.173.90.202_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "43.173.90.202",
-        "port": 0,
-        "password": "sg-trojan-2026",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sg-proxy.local",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_43.173.90.202_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "43.173.90.202",
-        "port": 0,
-        "password": "sg-trojan-2026",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sg-proxy.local",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_43.173.90.202_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "43.173.90.202",
-        "port": 0,
-        "password": "sg-trojan-2026",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sg-proxy.local",
-          "allowInsecure": true
         }
       },
       "mux": {
@@ -171,70 +171,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/ "
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "81d55675-8570-4b40-9a77-3125339a0f86",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.KR.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "d8235de7-84c7-4454-b333-4d854c393929",
-        "tls": "none",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "deee4a60-e8c3-456f-846f-aa2c2b7fae24",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.SG.CMLiussss.net"
         }
       },
       "mux": {
@@ -288,9 +224,6 @@
           "trojan_43.173.90.202_0",
           "trojan_43.173.90.202_0",
           "trojan_43.173.90.202_0",
-          "vless_www.visa.com.sg_0",
-          "vless_www.visa.com.sg_0",
-          "vless_www.visa.com.sg_0",
           "vless_www.visa.com.sg_0",
           "vless_www.visa.com.sg_0"
         ],
