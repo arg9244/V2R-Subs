@@ -53,25 +53,27 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_104.21.43.168_0",
-      "protocol": "trojan",
+      "tag": "vless_5.78.45.230_0",
+      "protocol": "vless",
       "settings": {
-        "address": "104.21.43.168",
+        "address": "5.78.45.230",
         "port": 0,
-        "password": "mVaHDDWsvC",
-        "level": 0
+        "id": "fcc64e6f-bdcd-471a-a2d4-27c757578070",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.ujGwPjrSYI7GdKHFCqCefmLjOscWkoX4m_3s_1yZrEo"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "us-ashburn.wealthpost.ca",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
+          "serverName": "thestraightpath.ca",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw",
+            "shortId": "b684d13617792bb2"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -120,7 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_104.21.43.168_0"
+          "vless_5.78.45.230_0"
         ],
         "strategy": {
           "type": "leastPing",

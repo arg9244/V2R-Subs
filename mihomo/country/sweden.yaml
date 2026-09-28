@@ -19,8 +19,6 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: www.blocket.se
-      alpn: [v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus]
-      client-fingerprint: randomized
       reality-opts:
         public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
         short-id: ""
@@ -50,16 +48,45 @@ proxies:
       reality-opts:
         public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
         short-id: ""
--     name: vless_143.246.193.215_0
-      server: 143.246.193.215
+-     name: vless_46.246.97.245_0
+      server: 46.246.97.245
       port: 0
       udp: true
       type: vless
-      uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+      uuid: 84be60308f98488f91bcdbf78d4c5f8e
+      tls: true
+      servername: universityadmissions.se
+      client-fingerprint: random
+      reality-opts:
+        public-key: rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_143.246.196.122_0
+      server: 143.246.196.122
+      port: 0
+      udp: true
+      type: vless
+      uuid: ac0c2945-b758-11f1-8181-54db13ea7d40
       flow: xtls-rprx-vision
       tls: true
       servername: www.blocket.se
-      client-fingerprint: randomized
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+        short-id: ""
+-     name: vless_143.246.196.122_0
+      server: 143.246.196.122
+      port: 0
+      udp: true
+      type: vless
+      uuid: ac0c2945-b758-11f1-8181-54db13ea7d40
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.blocket.se
+      client-fingerprint: chrome
       reality-opts:
         public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
         short-id: ""
@@ -98,25 +125,12 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: www.blocket.se
-      client-fingerprint: chrome
+      client-fingerprint: safari
       reality-opts:
         public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
         short-id: ""
--     name: vless_143.246.196.122_0
-      server: 143.246.196.122
-      port: 0
-      udp: true
-      type: vless
-      uuid: ac0c2945-b758-11f1-8181-54db13ea7d40
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.blocket.se
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-        short-id: ""
--     name: vless_143.246.196.122_0
-      server: 143.246.196.122
+-     name: vless_143.246.196.207_0
+      server: 143.246.196.207
       port: 0
       udp: true
       type: vless
@@ -131,7 +145,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_143.246.193.215_0, vless_143.246.193.215_0, vless_143.246.193.215_0, vless_143.246.193.215_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0]
+      proxies: [vless_143.246.193.215_0, vless_143.246.193.215_0, vless_143.246.193.215_0, vless_46.246.97.245_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.207_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

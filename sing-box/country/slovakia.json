@@ -1,0 +1,74 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_91.107.170.8_0",
+      "server": "91.107.170.8",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fb807e29-4d00-4951-ac5c-a0de36dbc56e",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.sk",
+        "reality": {
+          "enabled": true,
+          "public_key": "hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI",
+          "short_id": "5ddd54e7f912"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/sky",
+        "headers": {
+          "Host": "panel.skyshopnet.ir"
+        }
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_91.107.170.8_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

@@ -81,6 +81,34 @@
       }
     },
     {
+      "tag": "vless_67.159.18.30_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "67.159.18.30",
+        "port": 0,
+        "id": "0adfbdbb-2c50-42ac-b3a0-d87f5277b1ba",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "expats.cz",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "HdM7NNWeW6queFno-hF8CET0i-ykrQJ9X4vqzGhaQ3E",
+            "shortId": "74c69f639fff6340"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -122,6 +150,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_67.159.18.30_0",
           "vless_67.159.18.30_0"
         ],
         "strategy": {

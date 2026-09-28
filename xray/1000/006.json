@@ -53,1050 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "ss_188.114.98.223_2095",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.114.98.223",
-        "port": 2095,
-        "method": "eyJ2IjogIjIiLCAiYWRkIjogIjE4My4yMzYuNTEuMjMiLCAicG9ydCI6ICI1MTcwNyIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless",
-        "password": "//cfb6d9ad-7a14-4061-b159-8902fd73bb58",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_185.146.173.58_8080",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "185.146.173.58",
-        "port": 8080,
-        "method": "eyJ2IjogIjIiLCAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogIjIwNTIiLCAiaWQiOiAiM2M1MDQ2YjQtMWE5Yy00MjdjLThhNTUtZTM1NTg0NmE5ZTRhIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJrdmpxcWtuempwNi55b2ZuaGtmYy54eXoiLCAicGF0aCI6ICIvdmlkZW8vWm85OFBZZkUiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless",
-        "password": "//20948265-ea02-416a-8ce4-3db7a80cc3f4",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_160.123.255.50_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "160.123.255.50",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE3Mi42NC4xNzUuMjIzIiwgInBvcnQiOiAiMjA1MiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiZDZiNmQ5ODItZDUyZi00NjVhLWI5ODgtODU2NzBiMjNmNjRhIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgImhvc3QiOiAiY2RuMi5mcmVlZ3JhZGVseS54eXoiLCAidGxzIjogIiJ9<br/><br/>vless",
-        "password": "//a13df940-020c-465f-bc89-ee5279b5cd6a",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_199.232.5.79_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "199.232.5.79",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwMy4xMzYuNjguOTIiLCAicG9ydCI6ICI1NDUyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI4OTY3ZjAzYS0zODU3LTQ0ZWMtYmI5Yy05NTNhN2RlODM5MjciLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==<br/><br/>vmess",
-        "password": "//eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE5NC44Ny4zMS4xNjAiLCAicG9ydCI6ICI4MDgxIiwgImlkIjogImE3ZTAwYzJmLTQxMWEtNDM4Zi05MTE5LTBmMDIyYTg1YTVlMyIsICJhaWQiOiAiMCIsICJzY3kiOiAiYXV0byIsICJuZXQiOiAidGNwIiwgInR5cGUiOiAibm9uZSIsICJob3N0IjogIiIsICJwYXRoIjogIiIsICJ0bHMiOiAiIiwgInNuaSI6ICIiLCAidGVzdF9uYW1lIjogIjMwIn0=<br/><br/>vless://89b3cbba-e6ac-485a-9481-976a0415eab9",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_108.162.195.202_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "108.162.195.202",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwMy4xMzYuNjguOTIiLCAicG9ydCI6ICI1NDUyIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICJmMjA2OGJjMC01NzQ1LTRlYTAtODcxOS1jYTQ5YWZmMzJlNTciLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==<br/><br/>vmess",
-        "password": "//eyJhZGQiOiAiMTkzLjEwOC4xMTkuMTEyIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICIzODBlYjVhZS1hNjA5LTQ4Y2EtOTNiMy05ZDg1NjQ3MTRjOWMiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjEyMjgxIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==<br/><br/>trojan://blue2024",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_104.24.59.48_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "104.24.59.48",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4xOC4xMTQuNTEiLCAicG9ydCI6ICI4ODgwIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI5MGY4ZjRkYy04MDkyLTQzNTUtOTA0Ny0wNWY1MDZmNWU5YWIiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCAiaG9zdCI6ICJtMS4xMDY3NzgueHl6IiwgInRscyI6ICIifQ==<br/><br/>trojan",
-        "password": "//blue2024",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.64.84.146_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.64.84.146",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4xOS41Ny40IiwgInBvcnQiOiAiMjA4NiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiZTllM2NjMTMtZGI0OC00Y2MxLThjMjQtNzYyNjQzOWE1MzM5IiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgImhvc3QiOiAiaXAxMS5mcmVlZ3JhZGVseS54eXoiLCAidGxzIjogIiJ9<br/><br/>vless",
-        "password": "//03993135-ae86-433f-94d4-7bad33d7fc22",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_162.159.14.2_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "162.159.14.2",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4yNi4wLjEwMyIsICJwb3J0IjogIjIwODIiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjVmM2YwOWFkLTg5Y2ItNGU5NC1hN2FkLWFhODIzOTkxMzU1NSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSIsICJob3N0IjogImU0LjY5MjkxOTgueHl6IiwgInRscyI6ICIifQ==<br/><br/>vmess",
-        "password": "//eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4yNi4wLjUxIiwgInBvcnQiOiAiMjA4NiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiYmM2NWZhYzItN2RjNy00MjZmLWFjZGQtMDc3OWE1MDM1YmRlIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgImhvc3QiOiAicDEuNjEzMDU1Lnh5eiIsICJ0bHMiOiAiIn0=<br/><br/>trojan://blue2024",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_185.193.28.17_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "185.193.28.17",
-        "port": 443,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4yNi4wLjIzMCIsICJwb3J0IjogIjIwOTUiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjE4ZDk2MTkwLWMxMGYtNDQ4Zi1hODJhLTJkMzZkZjVjM2NkZSIsICJhaWQiOiAiMCIsICJuZXQiOiAid3MiLCAicGF0aCI6ICJnaXRodWIuY29tL0FsdmluOTk5OSIsICJob3N0IjogImMzLjYwMTY3MjUueHl6IiwgInRscyI6ICIifQ==<br/><br/>vmess",
-        "password": "//eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjEwNC4xOC4xMTQuMTg4IiwgInBvcnQiOiAiODg4MCIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiOTBmOGY0ZGMtODA5Mi00MzU1LTkwNDctMDVmNTA2ZjVlOWFiIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgImhvc3QiOiAibTEuMTA2Nzc4Lnh5eiIsICJ0bHMiOiAiIn0=<br/><br/>trojan://NISHIKUITAN111",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.67.73.98_2053",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.67.73.98",
-        "port": 2053,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjM4LjMzLjU1LjcxIiwgInBvcnQiOiAiMzcwMDEiLCAidHlwZSI6ICJub25lIiwgImlkIjogIjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsICJhaWQiOiAiNjQiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3BhdGgvMTkxMDE5MDcyOTI3IiwgImhvc3QiOiAiIiwgInRscyI6ICJ0bHMifQ==<br/><br/>vless",
-        "password": "//89b3cbba-e6ac-485a-9481-976a0415eab9",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.66.44.135_80",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.66.44.135",
-        "port": 80,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogImFwaS5xaXNjdXMuY29tIiwgInBvcnQiOiAiNDQzIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICI4ZjliNjBlNi0xZGIzLTQyZTQtOTdiOS0xZTMxMWY0Mjc2NDkiLCAiYWlkIjogIjAiLCAibmV0IjogIndzIiwgInBhdGgiOiAiL3ZtZXNzLXdzLW1ha2FlIiwgImhvc3QiOiAiYm4taWQwMS5pcHYycmF5Lnh5eiIsICJ0bHMiOiAidGxzIn0=<br/><br/>vmess",
-        "password": "//eyJ2IjogIjIiLCAiYWRkIjogIjE3Mi42Ny43MS4xNjAiLCAicG9ydCI6ICI0NDMiLCAiaWQiOiAiMDU2NDFjZjUtNThkMi00YmE0LWE5ZjEtYjNjZGEwYjFmYjFkIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJvYmRpaS5jZmQiLCAicGF0aCI6ICIvbGlua3dzIiwgInRscyI6ICJ0bHMiLCAic25pIjogIm9iZGlpLmNmZCIsICJhbHBuIjogIiIsICJmcCI6ICJjaHJvbWUiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0ifQ==<br/><br/>vless://5df7962e-f9fe-41e6-ab49-ed96ccb856a7",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_185.146.173.5_8880",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "185.146.173.5",
-        "port": 8880,
-        "method": "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogImluZ3Jlc3MtaTEub25lYm94Ni5vcmciLCAicG9ydCI6ICIzODcwMSIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiNzkzODY2ODUtMTZkYS0zMjdjLTllMTQtYWE2ZDcwMmQ4NmJjIiwgImFpZCI6ICIxIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9obHMvY2N0djVwaGQubTN1OCIsICJob3N0IjogImluZ3Jlc3MtaTEub25lYm94Ni5vcmciLCAidGxzIjogIiJ9<br/><br/>vless",
-        "password": "//7a394851-1d60-4f99-a10b-adbc1c81b4e2",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_104.16.229.250_8080",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "104.16.229.250",
-        "port": 8080,
-        "method": "eyJhZGQiOiAiMTA0LjE2LjIxOS4xMDgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAicnViaWthLmlyLmdvb2dsZS5jb20ueG4tLWNyOGhhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhLnhuLS1jcjhoYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWEuYXBhcmF0LmNvbS5WMnJheS5jb20uc2h3Mi5pci54bi0tY3I4aGFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhLnhuLS1nMjhoLmRucy1keW5hbWljLm5ldC4iLCAiaWQiOiAiOTUwZGI2YWEtNDkyNi00NjE2LTgxNmUtZWMwMzEyZGNiODdiIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9UZWxlZ3JhbS9YVjJyYXkiLCAicG9ydCI6ICI4MCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless",
-        "password": "//1b3c9373-5013-4409-b5e7-b10a1a076f21",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_192.200.160.89_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "192.200.160.89",
-        "port": 443,
-        "method": "eyJhZGQiOiAiMTA0LjE3LjE5Ny4zMSIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJob3N0IjogInF1aWV0LW1vb24tMTMyYS54ZXRhZzQyNzE0LndvcmtlcnMuZGV2IiwgImlkIjogIjQ0MWRhMzQyLWNlOTAtNDQxZS1iZmY5LWQyY2ViNTVlNjhjYSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvaXZpZGVvcy5zYnMvbGlua3dzIiwgInBvcnQiOiAiNDQzIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJxdWlldC1tb29uLTEzMmEueGV0YWc0MjcxNC53b3JrZXJzLmRldiIsICJ0bHMiOiAidGxzIiwgInR5cGUiOiAiIiwgInYiOiAiMiIsICJwcyI6ICJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSJ9<br/><br/>vless",
-        "password": "//48198295-b7ba-4b5c-8d85-085d55a6c869",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_185.146.173.43_2095",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "185.146.173.43",
-        "port": 2095,
-        "method": "eyJhZGQiOiAiMTA0LjE5LjQ3LjE1IiwgImFpZCI6IDAsICJob3N0IjogImhrMDEubGlua2l0bm93Lm5ldCIsICJpZCI6ICIzOTEzNWEzOS1lNmNhLTQzZGYtYTM2MC1kODU5ZWVhNThkODYiLCAibmV0IjogIndzIiwgInBhdGgiOiAiLyIsICJwb3J0IjogODQ0MywgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJhdXRvIiwgInNlY3VyaXR5IjogImF1dG8iLCAic2tpcC1jZXJ0LXZlcmlmeSI6IHRydWUsICJzbmkiOiAiIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless",
-        "password": "//cfb6d9ad-7a14-4061-b159-8902fd73bb58",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.67.137.11_8880",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.67.137.11",
-        "port": 8880,
-        "method": "eyJhZGQiOiAiMTcyLjY3LjEzMC4xNDAiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiczFjLnYyLnYwMDFzc3MueHl6IiwgImlkIjogIjExMmFjMzZmLTNmNTMtNGUyNi04MzcxLWQyNWMwMjhlMWI5YSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiMjA4MiIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICIiLCAidiI6ICIyIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless",
-        "password": "//416f18ec-11f3-4648-9693-8c6480d0662d",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.114.97.141_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.114.97.141",
-        "port": 443,
-        "method": "eyJhZGQiOiAiMjE2LjEyOC4xMzYuMjMiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAibW9pLmlyIiwgImlkIjogImRiNWFmYWU0LWFjMjMtNDFhNi04Mzc4LWYzMDdhOWE0NzQzNiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiODg4MSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiIsICJwcyI6ICJASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSJ9<br/><br/>vmess",
-        "password": "//eyJhZGQiOiAiMTA0LjE3LjE0OC4xMjgiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiMTI3LjAuMC4xLmRsLlx1MDQ0ZFx1MDQzMlx1MDQ0MFx1MDQzOFx1MDQzYVx1MDQzMC5tcmFyc2hhLlx1NWMyNFx1OTFjY1x1NTM2MS5cdTkxYWJcdTc1MWYuXHUwNDQxXHUwNDNmXHUwNDM1XHUwNDQ2XHUwNDM4XHUwNDMwXHUwNDNiXHUwNDM4XHUwNDQxXHUwNDQyLndvbmthY2FwaXRhbm8uYnV6ei4iLCAiaWQiOiAiMmQxNGU4NGItMjI2Yi00MTJhLTlhM2MtZmZjZTcwYjAyYmRmIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi92bWVzcyIsICJwb3J0IjogIjgwIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIiIsICJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0ifQ==<br/><br/>vless://d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_151.101.56.7_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "151.101.56.7",
-        "port": 443,
-        "method": "eyJhZGQiOiI1Ny4xMjkuMTMyLjIyMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLmNvbSIsImlkIjoiYTI1Y2JmMTEtMjkwOC00YTFiLWEzYTgtOWE1NzE3NzdkY2EzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoiRnJlZSB4MTg0IEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>trojan",
-        "password": "//MiTiVPN",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_51.222.141.125_445",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "51.222.141.125",
-        "port": 445,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>vmess",
-        "password": "//eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_151.101.56.7_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "151.101.56.7",
-        "port": 443,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IkBWcG5fVGVocmFuIPCfpI0g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>trojan",
-        "password": "//MITIVpN",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_8.47.69.0_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "8.47.69.0",
-        "port": 443,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IkBWcG5fVGVocmFuIPCfpI0g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.67.130.159_2096",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.67.130.159",
-        "port": 2096,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IkBWcG5fVGVocmFuIPCfpI0g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>vless",
-        "password": "//214bf4c5-045a-4ddb-944b-e2eef9b33338",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_144.31.5.64_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "144.31.5.64",
-        "port": 443,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjIyMzI0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KWINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vless",
-        "password": "//cd3bb7d9-7df3-4644-ac05-c260990ac277",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_8.47.69.0_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "8.47.69.0",
-        "port": 443,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjIyMzI0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_85.17.145.65_12068",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "85.17.145.65",
-        "port": 12068,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjIyMzI0IiwicHMiOiJAVnBuX1RlaHJhbiDwn6SNINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vless",
-        "password": "//05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.42.145.180_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.42.145.180",
-        "port": 443,
-        "method": "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJAUHJveHlWUE4xMSIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8gQFByb3h5VlBOMTEiLCJwY3MiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IlRlbGVncmFt8J+RiUB2MnJheU5HX01hdHN1cmkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_2.27.59.206_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "2.27.59.206",
-        "port": 443,
-        "method": "eyJhZGQiOiI4Mi40MC42Mi4xOTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Imh0dHBzOi8vd3d3LnNwZWVkdGVzdC5uZXQiLCJpZCI6IjZhZGZmMDEwLTgyYjYtNGJiMi1hYzkwLTlmNjZkM2M0MjgzNiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicGNzIjoiIiwicG9ydCI6IjM1ODIzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>hysteria2",
-        "password": "//cd74c0a406664a5bc0bac098220a2468",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.114.97.6_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.114.97.6",
-        "port": 443,
-        "method": "eyJhZGQiOiI4Mi4xOTguMjQ2LjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE4MCIsInBzIjoiRnJlZSB4MTEyIEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>vless",
-        "password": "//86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_82.24.203.20_2087",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "82.24.203.20",
-        "port": 2087,
-        "method": "eyJhZGQiOiI4Mi4xOTguMjQ2Ljk3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJvbmUuY2YuY2RuLmh5bGkueHl6IiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIxODAiLCJwcyI6IkBWcG5fVGVocmFuIOKYou+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>vless",
-        "password": "//5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_104.26.15.69_2096",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "104.26.15.69",
-        "port": 2096,
-        "method": "eyJhZGQiOiI5MS45OS4xNTMuMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InBhbmVsLmFydXNoYXNvZnQuY29tIiwiaWQiOiI5ODVhZjQ4OS1mYjE2LTQ5MWEtODEzYy1mZGQ5MWI2YjA2ZWUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjM5MTMwIiwicHMiOiJAY29uZmlnZnJlZTIwMjU1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9<br/>vless",
-        "password": "//30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_51.222.141.125_445",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "51.222.141.125",
-        "port": 445,
-        "method": "eyJhZGQiOiIxMTguMTkzLjU3LjE2NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNDZiZjQ5Mi00NWY0LTRjMzMtODJkMS1lYTJhMWNiNTRlYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZDQ2YmY0OTIiLCJwb3J0IjoiNDk2NjciLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>vmess",
-        "password": "//eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_8.47.69.0_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "8.47.69.0",
-        "port": 443,
-        "method": "eyJhZGQiOiIxMzQuMTk1LjE5Ni4yMTEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxODAwMCIsInBzIjoiRnJlZSB4MzY2IEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_144.31.49.138_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "144.31.49.138",
-        "port": 443,
-        "method": "eyJhZGQiOiIxMzkuMjguMjQwLjY4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImY2MzYxYWY4LWJiOGYtNDYwOS1iZjVkLTNmYzBmNjg4ZjQ3YiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMjA4NiIsInBzIjoiTVRNVlBOIDEyIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>hysteria2",
-        "password": "//cd74c0a406664a5bc0bac098220a2468",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.42.145.180_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.42.145.180",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTQwLjIxNi4xNDIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjY1YTJkNjktNTYzNC00MmEyLWU0YmUtNTRlOGE2MTc2OTAwIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii9MZXZpa29Db25maWciLCJwb3J0IjoiNDQzIiwicHMiOiJAVnBuX1RlaHJhbiAx77iP4oOjMe+4j+KDoyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>vmess",
-        "password": "//eyJhZGQiOiI4Mi4xOTguMjQ2Ljk3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJvbmUuY2YuY2RuLmh5bGkueHl6IiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIxODAiLCJwcyI6IkBWcG5fVGVocmFuIDHvuI/ig6Mx77iP4oOjINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>trojan://humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_163.8.195.241_2087",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "163.8.195.241",
-        "port": 2087,
-        "method": "eyJhZGQiOiIxNjUuMTQwLjIxNi4xNDIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjY1YTJkNjktNTYzNC00MmEyLWU0YmUtNTRlOGE2MTc2OTAwIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IkBWcG5fVGVocmFuIPCfkqAg2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>vmess",
-        "password": "//eyJhZGQiOiIxNjUuMTQwLjIxNi4xNDIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjY1YTJkNjktNTYzNC00MmEyLWU0YmUtNTRlOGE2MTc2OTAwIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii9MZXZpa29Db25maWciLCJwb3J0IjoiNDQzIiwicHMiOiJAVnBuX1RlaHJhbiDwn5KgINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vmess://eyJhZGQiOiI4Mi4xOTguMjQ2Ljk3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJvbmUuY2YuY2RuLmh5bGkueHl6IiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIxODAiLCJwcyI6IkBWcG5fVGVocmFuIPCfkqAg2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>vless://56ba5d34-ef22-4ba6-8090-4188b807df54",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_8.47.69.0_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "8.47.69.0",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTQwLjIxNy4yIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImI2NWEyZDY5LTU2MzQtNDJhMi1lNGJlLTU0ZThhNjE3NjkwMCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJjaGFjaGEyMC1wb2x5MTMwNSIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vmess",
-        "password": "//eyJhZGQiOiIxNjUuMTQwLjIxNy4yIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImI2NWEyZDY5LTU2MzQtNDJhMi1lNGJlLTU0ZThhNjE3NjkwMCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>vmess://eyJhZGQiOiIxMTguMTkzLjU3LjE2NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNDZiZjQ5Mi00NWY0LTRjMzMtODJkMS1lYTJhMWNiNTRlYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZDQ2YmY0OTIiLCJwb3J0IjoiNDk2NjciLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>trojan://humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_51.222.155.32_5003",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "51.222.155.32",
-        "port": 5003,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDimK/vuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>ss",
-        "password": "//YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_51.222.107.43_2083",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "51.222.107.43",
-        "port": 2083,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KaINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss",
-        "password": "//MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_103.160.63.199_31348",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "103.160.63.199",
-        "port": 31348,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss",
-        "password": "//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.42.145.180_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.42.145.180",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_31.76.249.87_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "31.76.249.87",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vless",
-        "password": "//dc9e93bc-b53a-11f1-91d3-52540030ba36",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_156.146.38.167_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "156.146.38.167",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vmess",
-        "password": "//eyJhZGQiOiI4Mi4xOTguMjQ2LjIzMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE4MCIsInBzIjoiQFZwbl9UZWhyYW4g8J+SmiDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=<br/>ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_144.31.5.64_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "144.31.5.64",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KcINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vless",
-        "password": "//cd3bb7d9-7df3-4644-ac05-c260990ac277",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_88.216.220.88_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "88.216.220.88",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNjcuODguNjMuNTkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQG1lbGlwcm94eXkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/><br/>vmess",
-        "password": "//eyJhZGQiOiI4OS40MS4xNzIuODUiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQG1lbGlwcm94eXkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=<br/><br/>vless://a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.67.143.204_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.67.143.204",
-        "port": 443,
-        "method": "eyJhZGQiOiIxNzIuNjcuMjIwLjY0IiwidiI6MiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm71fMSIsInBvcnQiOiI0NDMiLCJpZCI6ImYyNGJiYTBmLTg2NTYtNDRmOC1iMjFlLWEwZTNhMTkwYzRjNSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwiaG9zdCI6Ind3dy4zMTAwMG9vb293ZTIuYmYiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiL2RmOTdiMjFlLTM5NDMtNDg2NS1hZjE4LWI1ZWE5Njc2YjAzNyJ9<br/>vmess",
-        "password": "//eyJhZGQiOiIxNzIuNjcuMjM1LjIzNyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjRiYmEwZi04NjU2LTQ0ZjgtYjIxZS1hMGUzYTE5MGM0YzUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsImhvc3QiOiJ3d3cuMzEwMDBvb29vd2UyLmJmIiwidGxzIjoidGxzIiwicGF0aCI6Ii9kZjk3YjIxZS0zOTQzLTQ4NjUtYWYxOC1iNWVhOTY3NmIwMzcifQ==<br/>vless://f69d4594-2d18-4266-abc4-eeb9c5604ca5",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_130.49.161.70_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "130.49.161.70",
-        "port": 443,
-        "method": "eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJlNGIzNjM5MS0wMTRmLTQ0NjItODA5Yy04ZTY0YWE4NDM1OWUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL1Byb3h5X1N0YXRpb24vIiwicGNzIjoiIiwicG9ydCI6IjIwMzAiLCJwcyI6IkBOT0ZpTFRFUklORzLwn4ep8J+HqiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/>hysteria2",
-        "password": "//p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_2.27.249.79_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "2.27.249.79",
-        "port": 443,
-        "method": "eyJhZGQiOiIxODUuMjA0LjE3MC4xMjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiMTg1LjIwNC4xNzAuMTI1IiwiaWQiOiJkMzFiODM0YS0wOTI4LTRlNjctODNlOC01Y2JjMDE4OGM4Y2MiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ4aHR0cCIsInBhdGgiOiIvIiwicGNzIjoiIiwicG9ydCI6IjEiLCJwcyI6Ik1UTVZQTiA2Iiwic2N5IjoiYXV0byIsInNuaSI6IjE4NS4yMDQuMTcwLjEyNSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>hysteria2",
-        "password": "//cd74c0a406664a5bc0bac098220a2468",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_85.17.145.65_12068",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "85.17.145.65",
-        "port": 12068,
-        "method": "eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>vless",
-        "password": "//05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_82.202.247.181_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "82.202.247.181",
-        "port": 443,
-        "method": "eyJhZGQiOiIyMDIuNDcuODkuMTMzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjNhMDM2MTNiLWJiYWMtNGEyMi1iZWU2LTJjOWE3NTFhMjc2MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ka2ZqaDIyMiIsInBjcyI6IiIsInBvcnQiOiI1MzU0OCIsInBzIjoi4pyoIEBOT0ZpTFRFUklORzIgfCDinaTvuI8g2YjYtdmEINi02K/bjCDYrNmI24zZhiDYtNmIIHwg4pqhIHwg8J+HqfCfh6oiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless",
-        "password": "//cd60668d-28d0-4070-8179-47ad0d151dd5",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_62.133.62.179_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "62.133.62.179",
-        "port": 443,
-        "method": "eyJhZGQiOiIyMTMuMTU2LjE1Mi42MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkOTY4MTkxNi01YTg1LTQ0YzgtODZhMi05ZmNhZTg3Y2Y4NTAiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjgwODAiLCJwcyI6IkBtZWhyb3NhYm9yYW4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9</code><br/><br/><code>vmess",
-        "password": "//eyJhZGQiOiI2NS4xMDkuMjExLjEzNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkOWM5MTljMi04NzJlLTQyOWQtYTY4MC0xZTZjNmJmZTY4MWIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjMzMTIwIiwicHMiOiJAbWVocm9zYWJvcmFuIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==</code><br/><br/><code>vless://d67af820-f54c-48ab-862c-19086357f276",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_216.24.57.7_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "216.24.57.7",
-        "port": 443,
-        "method": "eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjU2N2Y0YmU1LTEyYWItNDJlMS1iOGQ5LWRiNmZkMWZkZDMxYyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcy8iLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6IvCfh67wn4ezIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9<br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_199.232.78.159_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "199.232.78.159",
-        "port": 443,
-        "method": "eyJhZGQiOiJVaS5wYXlkYXIuc2l0ZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoid3d3LmRlbGwuY29tIiwiaWQiOiI5ZGYwZmVkOC02ODg3LTRhNWItOGYyZi02ZDdkNDBhY2Q3Y2MiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiI4NDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vless",
-        "password": "//558e9602-79d8-449c-ac49-6d709177e206",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_45.9.156.42_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "45.9.156.42",
-        "port": 443,
-        "method": "eyJhZGQiOiJVaS5wYXlkYXIuc2l0ZSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoid3d3LmRlbGwuY29tIiwiaWQiOiI5ZGYwZmVkOC02ODg3LTRhNWItOGYyZi02ZDdkNDBhY2Q3Y2MiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiI4NDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiJodHRwIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/><br/>vless",
-        "password": "//2f35965a-9a9b-45fd-ba32-987296dfb6be",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_188.114.97.7_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "188.114.97.7",
-        "port": 443,
-        "method": "eyJhZGQiOiJjbG9pci5kZXZpbGZydWl0LmlyIiwiYWlkIjoiMCIsImFscG4iOiJodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IiIsImlkIjoiM2JhZjI2ZmYtYTI1ZC00Nzc2LTkzMzMtYTNjOTc5MzI0YmI2IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2Rvd25sb2FkIiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6InRyLm9uZXBpbmcub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>trojan",
-        "password": "//humanity",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_162.19.10.99_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "162.19.10.99",
-        "port": 443,
-        "method": "eyJhZGQiOiJzMS5jb25uZWN0LmxhYmV4LnBybyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxNDU5NGQ1ZS04NmJkLTQ3MjctODc3Mi1mZWIxNmRiZjI0ZWMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjEwMDciLCJwcyI6IkZyZWUgeDQ1OCBAT3V0bGluZV9WcG4iLCJzY3kiOiJhZXMtMTI4LWdjbSIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>vless",
-        "password": "//e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_195.133.73.65_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "195.133.73.65",
-        "port": 443,
-        "method": "eyJhZGQiOiJzMS5jb25uZWN0LmxhYmV4LnBybyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNGM1NTZhMi0zZDYxLTRiMWQtOTU1MC1kNmQwMTBmZjFkM2YiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjEwMDciLCJwcyI6IkBGYXJhelYycmF5Iiwic2N5IjoiYWVzLTEyOC1nY20iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vless",
-        "password": "//ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.64.152.179_443",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.64.152.179",
-        "port": 443,
-        "method": "eyJhZGQiOiJzaGR4LnBteHUubGluayIsInYiOjIsInBzIjoi8J+HqPCfh7MgQ04g5Lit5Zu9IDEiLCJwb3J0IjoiMTUxMDkiLCJpZCI6IjYzYmFmZTA1LWEyMzEtMzRiYy1hOGRkLTRiOWNjNjVkNTdkOCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiJ9<br/>vmess",
-        "password": "//eyJhZGQiOiJoazUuYW5zaC5jZmQiLCJ2IjoyLCJwcyI6IvCfh7jwn4eoIFNDIOWhnuiIjOWwlCAyIiwicG9ydCI6IjU2MTIwIiwiaWQiOiIxZmVjMDJkMS1kNzUwLTQyNGYtYTU1Mi02ZWI1NzcwYzdlMmMiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsImhvc3QiOiJ5d2hrMS5rY2pzLm1lIiwidGxzIjoidGxzIiwicGF0aCI6Ii9nZDMyNDV2ZDJTMzJjciJ9<br/>vmess://eyJhZGQiOiI0NS4xNDkuMTg2LjIwNSIsInYiOjIsInBzIjoi8J+HrPCfh6cgR0Ig6Iux5Zu9IDMiLCJwb3J0IjoiNTE1NzUiLCJpZCI6IjJiZWFlN2ZkLTE5YzEtNDhiZi1kYjMwLThjMjMwODMwZDRlMiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiJ9<br/>vmess://eyJhZGQiOiJnbGFTY28uZngtdHJBZGVyLnNob3AiLCJ2IjoyLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSA0IiwicG9ydCI6IjgwIiwiaWQiOiJjZGJiMDg5OS03MTEzLTRkNGUtZjg2OC0zMTMzOWM3NWFkM2MiLCJhaWQiOiIwIiwic2N5IjoiYWVzLTEyOC1nY20iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidnZ2MnZheW8yLmV2ZXJ5dGhpbmdpc3JldmUuc2hvcCIsInRscyI6IiIsInBhdGgiOiIvIn0=<br/>vmess://eyJhZGQiOiJnbGFTY28uZngtdHJBZGVyLnNob3AiLCJ2IjoyLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSA1IiwicG9ydCI6IjgwIiwiaWQiOiJjZGJiMDg5OS03MTEzLTRkNGUtZjg2OC0zMTMzOWM3NWFkM2MiLCJhaWQiOiIwIiwic2N5IjoiYWVzLTEyOC1nY20iLCJuZXQiOiJ3cyIsInR5cGUiOiIiLCJob3N0IjoidnZ2MnZheW8yLmV2ZXJ5dGhpbmdpc3JldmUuc2hvcCIsInRscyI6IiIsInBhdGgiOiIvIn0=<br/>vless://bbbeae7c-13df-498b-8ba3-298c17e3b4bc",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "ss_172.64.146.20_2096",
-      "protocol": "shadowsocks",
-      "settings": {
-        "address": "172.64.146.20",
-        "port": 2096,
-        "method": "eyJzY3kiOiIiLCJhZGQiOiIxNS4yMzUuNDEuMjAwIiwiaG9zdCI6IiIsIm5ldCI6IndzIiwicGF0aCI6IlwvSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiIsInBzIjoiJTVCVGVsZWdyYW0lMjAlM0ElMjAlNDBraWF2YSU1RCUyMENBJTIwMTA3NDc3NjUiLCJpZCI6IjU4ZmUxNTQyLTUyOTAtNDBhZC04MTVhLTc3NzA3YTgxYWZlNSIsInBvcnQiOiI4MCJ9</pre><br/><br/><br/><pre>vless",
-        "password": "//1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "none"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_172.66.46.215_0",
       "protocol": "trojan",
       "settings": {
@@ -1181,44 +137,18 @@
       }
     },
     {
-      "tag": "trojan_gkh7imomi--3t3xcstzt8pp4dlzueskn.pages.dev_0",
+      "tag": "trojan_167.82.76.7_0",
       "protocol": "trojan",
       "settings": {
-        "address": "gkh7imomi--3t3xcstzt8pp4dlzueskn.pages.dev",
+        "address": "167.82.76.7",
         "port": 0,
-        "password": "%3FM%7C%24pIEDnf8N",
+        "password": "%4D%49%54%49%56%70%4E",
         "level": 0
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "Gkh7IMoMi--3t3XCSTZt8pp4dlzuESKn.PAgeS.dEV",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_www.speedtest.net_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "www.speedtest.net",
-        "port": 0,
-        "password": "%3FM%7C%24pIEDnf8N",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "gkH7iMomi--3t3XCStzt8pP4dLZUeskN.PagEs.Dev",
+          "serverName": "ssl.fastly.com",
           "alpn": {
             "alpn": [
               "http/1.1"
@@ -1903,23 +833,44 @@
       }
     },
     {
-      "tag": "trojan_151.101.56.7_0",
+      "tag": "trojan_188.114.96.8_0",
       "protocol": "trojan",
       "settings": {
-        "address": "151.101.56.7",
+        "address": "188.114.96.8",
         "port": 0,
-        "password": "%4d%69%54%69%56%50%4e",
+        "password": "%54%65%6c%65%67%72%61%6d%5f%68%65%61%6c%65%72%5f%63%6f%6e%66%69%67",
         "level": 0
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ssl.fastly.com",
+          "serverName": "y9p34jpjmqjazaypf.piiwddilxjcqehr17af22u7xk-yu.workers.dev",
           "alpn": {
             "alpn": [
               "http/1.1"
             ]
           },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.96.8_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.96.8",
+        "port": 0,
+        "password": "%54%65%6c%65%67%72%61%6d%5f%68%65%61%6c%65%72%5f%63%6f%6e%66%69%67",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "y9p34jpjmqjazaypf.piiwddilxjcqehr17af22u7xk-yu.workers.dev",
           "allowInsecure": false
         }
       },
@@ -2216,26 +1167,6 @@
       }
     },
     {
-      "tag": "trojan_www.speedtest.net_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "www.speedtest.net",
-        "port": 0,
-        "password": "%F0%9F%A4%A0%4A%4B%56%50%4E%5F%4A%4B%56%50%4E%F0%9F%A4%A0",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_18.238.109.28_0",
       "protocol": "trojan",
       "settings": {
@@ -2362,52 +1293,155 @@
       }
     },
     {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.21.33.59_0",
       "protocol": "trojan",
       "settings": {
         "address": "104.21.33.59",
-        "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.70.21_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.70.21",
-        "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.70.21_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.70.21",
         "port": 0,
         "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
         "level": 0
@@ -2617,6 +1651,130 @@
       "protocol": "trojan",
       "settings": {
         "address": "172.67.217.240",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
         "port": 0,
         "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
         "level": 0
@@ -3110,151 +2268,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.43.90_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.43.90",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.43.90_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.43.90",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.64.80.1_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.64.80.1",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.64.80.1_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.64.80.1",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.64.80.1_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.64.80.1",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.177.105_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.177.105",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.177.105_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.177.105",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
           "allowInsecure": false
         }
       },
@@ -3295,28 +2308,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_app-538961.user-y0o4gm.workers.dev_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "app-538961.user-y0o4gm.workers.dev",
-        "port": 0,
-        "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "app-538961.user-y0o4gm.workers.dev",
           "allowInsecure": false
         }
       },
@@ -3541,47 +2532,6 @@
       "settings": {
         "address": "104.21.72.201",
         "port": 0,
-        "password": "0hbl*0RB4T%2CLSk%3BJK",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.72.201_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.72.201",
-        "port": 0,
-        "password": "0hbl*0RB4T,LSk&JK",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.72.201_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.72.201",
-        "port": 0,
         "password": "0hbl*0RB4T,LSk;JK",
         "level": 0
       },
@@ -3777,27 +2727,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.17.122.10_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.17.122.10",
-        "port": 0,
-        "password": "123444",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "northrendserver.sherekontop.workers.dev",
           "allowInsecure": false
         }
       },
@@ -4385,47 +3314,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_188.114.98.0_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "188.114.98.0",
-        "port": 0,
-        "password": "1710442808",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "subb.nrshop198.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_188.114.98.0_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "188.114.98.0",
-        "port": 0,
-        "password": "1710442808",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
           "serverName": "subb.nrshop198.workers.dev",
           "allowInsecure": false
         }
@@ -4607,48 +3495,6 @@
       }
     },
     {
-      "tag": "trojan_104.16.148.5_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.16.148.5",
-        "port": 0,
-        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dimskiee.biz.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.16.148.5_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.16.148.5",
-        "port": 0,
-        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dimskiee.biz.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_104.18.153.182_0",
       "protocol": "trojan",
       "settings": {
@@ -4687,48 +3533,6 @@
               "http/1.1"
             ]
           },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_87.58.220.77_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "87.58.220.77",
-        "port": 0,
-        "password": "19a98e32a1149952a988e1e915306e07",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "yandex.ru",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_87.58.220.77_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "87.58.220.77",
-        "port": 0,
-        "password": "19a98e32a1149952a988e1e915306e07",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "yandex.ru",
           "allowInsecure": false
         }
       },
@@ -6012,32 +4816,6 @@
       }
     },
     {
-      "tag": "trojan_104.24.64.50_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.24.64.50",
-        "port": 0,
-        "password": "33abfd21-27ae-4f19-a2f7-cc381781d06e",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "web-app-hpi4v.app-19dj6e.workers.dev",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_172.67.173.73_0",
       "protocol": "trojan",
       "settings": {
@@ -6279,26 +5057,6 @@
       }
     },
     {
-      "tag": "trojan_43.160.197.160_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "43.160.197.160",
-        "port": 0,
-        "password": "38f169d6-d202-4b1b-8db8-e6eb1648f5cf",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_172.66.44.81_0",
       "protocol": "trojan",
       "settings": {
@@ -6530,6 +5288,27 @@
       }
     },
     {
+      "tag": "trojan_104.18.41.190_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.41.190",
+        "port": 0,
+        "password": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "nat11.outsidemyheart.space",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_23.227.38.45_0",
       "protocol": "trojan",
       "settings": {
@@ -6736,6 +5515,27 @@
         "tlsSettings": {
           "serverName": "18-140-66-207.nhost.00cdn.com",
           "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.16.75.127_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.75.127",
+        "port": 0,
+        "password": "45c47cfa-67da-47e0-b20b-5efa674e6a9b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "unnes.ac.id.r3xxe.eu.cc",
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -7683,7 +6483,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "o5zmxbeoutis.o7zluiebuo8s.workers.dev",
           "allowInsecure": false
         }
       },
@@ -7704,89 +6503,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.66.137_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.66.137",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "o5zmxbeoutis.o7zluiebuo8s.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.66.137_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.66.137",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.160.103_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.160.103",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "o5zmxbeoutis.o7zluiebuo8s.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.160.103_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.160.103",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "o5zmxbeoutis.o7zluiebuo8s.workers.dev",
           "allowInsecure": false
         }
       },
@@ -7807,48 +6523,6 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "rxziwiequtss.o7zluiebuo8s.workers.dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.21.66.137_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.21.66.137",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-eeb34b317c4f",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_172.67.160.103_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.160.103",
-        "port": 0,
-        "password": "50414e45-4c5f-5a45-5553-eeb34b317c4f",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rxziwiequtss.o7zluiebuo8s.workers.dev",
           "allowInsecure": false
         }
       },
@@ -7959,26 +6633,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "XxCdvfgty.444652.xyZ",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.248.161.136_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.248.161.136",
-        "port": 0,
-        "password": "521314",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
           "allowInsecure": false
         }
       },
@@ -8363,6 +7017,26 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_47.250.84.25_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "47.250.84.25",
+        "port": 0,
+        "password": "5931134d1cde66bf83a54acdfebe7ab2",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
           "serverName": "moltbot.doctoroyy.net",
           "allowInsecure": true
         }
@@ -8499,6 +7173,69 @@
       }
     },
     {
+      "tag": "trojan_103.97.91.17_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.97.91.17",
+        "port": 0,
+        "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "la.freeguard.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.97.91.17_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.97.91.17",
+        "port": 0,
+        "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "la.freeguard.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.160.44.203_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.160.44.203",
+        "port": 0,
+        "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "la14.freeguard.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.160.44.203_0",
       "protocol": "trojan",
       "settings": {
@@ -8742,6 +7479,48 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "bu2.freeguard.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_38.180.35.145_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "38.180.35.145",
+        "port": 0,
+        "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "bu2.freeguard.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_86.106.119.23_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "86.106.119.23",
+        "port": 0,
+        "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "gr.freeguard.org",
           "allowInsecure": false
         }
       },
@@ -10435,6 +9214,27 @@
       }
     },
     {
+      "tag": "trojan_60.250.152.209_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "60.250.152.209",
+        "port": 0,
+        "password": "736cd94d-7b94-3e44-8106-3419f64eaf09",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "a12.taipeicitygovernment.org.ua",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_69.46.46.148_0",
       "protocol": "trojan",
       "settings": {
@@ -10561,33 +9361,6 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_199.232.206.245_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "199.232.206.245",
-        "port": 0,
-        "password": "7b12dfabbe374661a12d11d698d86fbd",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ssl.fastly.com",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
         }
       },
       "mux": {
@@ -13065,6 +11838,27 @@
       }
     },
     {
+      "tag": "trojan_172.66.47.26_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "172.66.47.26",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_172.86.114.80_0",
       "protocol": "trojan",
       "settings": {
@@ -13779,27 +12573,6 @@
       }
     },
     {
-      "tag": "trojan_216.126.237.69_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "216.126.237.69",
-        "port": 0,
-        "password": "8r%3C%5B9%27l6hAO%238ZQi",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "Koma-YT.PAGeS.Dev",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_23.165.104.123_0",
       "protocol": "trojan",
       "settings": {
@@ -14073,6 +12846,2739 @@
       }
     },
     {
+      "tag": "trojan_46.8.238.49_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "46.8.238.49",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_46.8.70.178_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "46.8.70.178",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_5.144.179.49_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "5.144.179.49",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_50.62.174.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "50.62.174.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_50.62.195.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "50.62.195.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_50.62.89.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "50.62.89.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_62.60.157.104_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "62.60.157.104",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_64.181.255.215_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "64.181.255.215",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_64.227.62.172_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "64.227.62.172",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_72.167.242.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "72.167.242.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_72.56.107.167_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "72.56.107.167",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_72.56.85.104_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "72.56.85.104",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_74.50.11.24_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "74.50.11.24",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_77.110.106.55_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "77.110.106.55",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_77.110.106.91_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "77.110.106.91",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_77.239.98.141_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "77.239.98.141",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_77.239.98.191_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "77.239.98.191",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_8.34.146.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "8.34.146.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_8.6.112.0_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "8.6.112.0",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_8.6.112.0_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "8.6.112.0",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_8.6.112.0_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "8.6.112.0",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_80.93.202.253_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "80.93.202.253",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_88.218.78.20_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "88.218.78.20",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_91.107.158.211_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "91.107.158.211",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_91.220.8.170_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "91.220.8.170",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_91.220.8.170_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "91.220.8.170",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_91.99.193.84_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "91.99.193.84",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_95.182.101.74_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "95.182.101.74",
+        "port": 0,
+        "password": "8r%3C%5B9%27l6hAO%238ZQi",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Koma-YT.PAGeS.Dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.2_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.2",
+        "port": 0,
+        "password": "9010950e-8e09-486a-bf96-3b0cf22097b4",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tw1.sanfen001.pics",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_15.204.234.166_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "15.204.234.166",
+        "port": 0,
+        "password": "90580010-d84f-11ef-8489-1239d0255272",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_45.85.118.241_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "45.85.118.241",
+        "port": 0,
+        "password": "91618ae4-8364-430c-b941-f55ad78c0985",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "join-to-oxnet-ch-network-s1eee2.userargo1723.cf",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.22.136_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.22.136",
+        "port": 0,
+        "password": "91d237a0-8a03-11ee-b32f-1239d0255272",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de1.test3.net",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.23.136_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.23.136",
+        "port": 0,
+        "password": "91d237a0-8a03-11ee-b32f-1239d0255272",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "de1.test3.net",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.16.132.167_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.132.167",
+        "port": 0,
+        "password": "91d7b973-630c-492f-9600-719f6a70f01e",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e1.777655.xyz",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_69.84.182.108_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "69.84.182.108",
+        "port": 0,
+        "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn-node-oss-99.paofu.de",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_69.84.182.18_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "69.84.182.18",
+        "port": 0,
+        "password": "922b45c8-1ec8-4a65-9b32-137716a0e55f",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn-node-oss-99.paofu.de",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.26.15.85_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.26.15.85",
+        "port": 0,
+        "password": "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "md1.safecdn.site",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.58.135_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.58.135",
+        "port": 0,
+        "password": "9486ff17-2481-40c7-a5c4-d0d307de2509",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "yyyyyyyyyyy.818185.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_60.250.152.209_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "60.250.152.209",
+        "port": 0,
+        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "official.taipeicitygovernment.net.ua",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_60.250.152.230_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "60.250.152.230",
+        "port": 0,
+        "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "official.taipeicitygovernment.ivano-frankivsk.ua",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_51.77.213.197_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "51.77.213.197",
+        "port": 0,
+        "password": "973ed2e0-c4d8-4737-a093-71629148086d",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "frt2.sshocean.net",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_51.77.213.197_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "51.77.213.197",
+        "port": 0,
+        "password": "973ed2e0-c4d8-4737-a093-71629148086d",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "frt2.sshocean.net",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_51.77.213.197_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "51.77.213.197",
+        "port": 0,
+        "password": "973ed2e0-c4d8-4737-a093-71629148086d",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "frt2.sshocean.net",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_142.93.226.128_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "142.93.226.128",
+        "port": 0,
+        "password": "979c34ad-710d-4446-bc95-0bfd397aaa78",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_61.220.126.180_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "61.220.126.180",
+        "port": 0,
+        "password": "981db44e-9f07-49eb-9ba0-6ab4939919a2",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "twnode11.oportal.cc",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.16.159.5_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.159.5",
+        "port": 0,
+        "password": "984e400bf5d541b7b0815913fe0c432a",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "bangladeshipatri.com",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.171.9_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.171.9",
+        "port": 0,
+        "password": "984e400bf5d541b7b0815913fe0c432a",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "jobscareerfortoday.com",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_23.150.248.153_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "23.150.248.153",
+        "port": 0,
+        "password": "984e400bf5d541b7b0815913fe0c432a",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "jobscareerforstudent.com",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_20.89.130.227_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "20.89.130.227",
+        "port": 0,
+        "password": "9995cc0e-2e9d-4c80-8c81-4fdbb6322a3a",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fscus.fscloud123456789.com",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.224.212.213_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.224.212.213",
+        "port": 0,
+        "password": "99b166ff-25ab-4bda-9493-618d491c2a9a",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "us232.support-putin-kill-all-ukrainians.98848.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.16.190.131_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.190.131",
+        "port": 0,
+        "password": "9d5e7586-64e1-4c29-9d47-6cbbd57fe8d1",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "pardazeshvpn-tg48.pages.dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.86.140_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.86.140",
+        "port": 0,
+        "password": "9e7caa3b-ca9c-40ba-9ea0-f0c992359239",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m2rrrty.777219.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_172.67.220.93_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "172.67.220.93",
+        "port": 0,
+        "password": "9e7caa3b-ca9c-40ba-9ea0-f0c992359239",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m2rrrty.777219.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.71.8_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.71.8",
+        "port": 0,
+        "password": "9kHuEbiX7Bcp",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "khabaronline.itn24.ir",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.50.5_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.50.5",
+        "port": 0,
+        "password": "9yu6m5okr",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "production.tj.ojan.workers.dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_172.67.198.177_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "172.67.198.177",
+        "port": 0,
+        "password": "9yu6m5okr",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "production.tj.ojan.workers.dev",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_172.66.44.59_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "172.66.44.59",
+        "port": 0,
+        "password": "?M|$pIEDnf8N",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "gkH7imOMi--3t3xcStZT8pp4dlZUEsKN.PagEs.deV",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.17.148.22_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.17.148.22",
+        "port": 0,
+        "password": "A4u%5Ep%28_UR%2AF6",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "027.electrocellco-cf-027.workers.dev",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.70.21_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.70.21",
+        "port": 0,
+        "password": "A4u%5Ep%28_UR%2AF6",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "password": "A4u%5Ep%28_UR%2AF6",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "027.electrocellco-cf-027.workers.dev",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.17.148.22_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.17.148.22",
+        "port": 0,
+        "password": "A4u^p(_UR*F6",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.100_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.100",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepx.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.103_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.103",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.133_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.133",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epmo.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.152_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.152",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccs.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.189_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.189",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepx.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.230_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.230",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "agepj.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.235_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.235",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcco.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.248_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.248",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcca.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_103.116.7.67_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "103.116.7.67",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgb.aimercc.dpdns.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.129.166.131_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.129.166.131",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.129.167.255_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.129.167.255",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcct.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.16.246.132_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.246.132",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epmf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.17.127.213_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.17.127.213",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.103.190_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.103.190",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepy.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.38.166_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.38.166",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.39.28_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.39.28",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.4.237_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.4.237",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epmf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.44.91_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.44.91",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.57.203_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.57.203",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepy.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.60.99_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.60.99",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgb.aimercc.dpdns.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.19.61.13_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.19.61.13",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcca.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.235.194_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.235.194",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.21.37.106_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.21.37.106",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcch.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.234.239.235_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.234.239.235",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepx.ambercc.filegear-sg.me",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.25.252.184_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.25.252.184",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.25.254.197_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.25.254.197",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.26.15.138_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.26.15.138",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.26.15.138_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.26.15.138",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_107.172.180.73_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "107.172.180.73",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_107.173.155.242_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "107.173.155.242",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.193.144_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.193.144",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.193.190_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.193.190",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epmf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.193.201_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.193.201",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.195.127_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.195.127",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.195.236_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.195.236",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sage.ns.cloudflare.com",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.162.195.82_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.162.195.82",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepo.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.104_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.104",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccs.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.113_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.113",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.143_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.143",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.14_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.14",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.163_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.163",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcco.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.175_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.175",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcct.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.1_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.1",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepx.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.202_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.202",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgb.aimercc.dpdns.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.207_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.207",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcca.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.219_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.219",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "agepj.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.225_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.225",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcco.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.239_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.239",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.241_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.241",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acepo.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.249_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.249",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccz.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.36_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.36",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "acepo.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.40_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.40",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.55_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.55",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epml.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.59_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.59",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccq.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.65_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.65",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ngepy.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.66_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.66",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.71_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.71",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcch.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.78_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.78",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgb.aimercc.dpdns.org",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.80_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.80",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epgc.aimercc.dpdns.org",
+          "alpn": {
+            "alpn": [
+              "h3"
+            ]
+          },
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.82_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.82",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcch.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.91_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.91",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.92_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.92",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "agept.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.93_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.93",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccc.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_108.165.152.98_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "108.165.152.98",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccx.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_124.156.202.172_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "124.156.202.172",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epcca.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_130.250.137.63_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "130.250.137.63",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccd.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_135.84.64.36_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "135.84.64.36",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccf.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_135.84.64.77_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "135.84.64.77",
+        "port": 0,
+        "password": "Aimer",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "epccy.ambercc.filegear-sg.me",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -14114,70 +15620,11 @@
       {
         "tag": "leastPing",
         "selector": [
-          "ss_188.114.98.223_2095",
-          "ss_185.146.173.58_8080",
-          "ss_160.123.255.50_443",
-          "ss_199.232.5.79_443",
-          "ss_108.162.195.202_443",
-          "ss_104.24.59.48_443",
-          "ss_172.64.84.146_443",
-          "ss_162.159.14.2_443",
-          "ss_185.193.28.17_443",
-          "ss_172.67.73.98_2053",
-          "ss_172.66.44.135_80",
-          "ss_185.146.173.5_8880",
-          "ss_104.16.229.250_8080",
-          "ss_192.200.160.89_443",
-          "ss_185.146.173.43_2095",
-          "ss_172.67.137.11_8880",
-          "ss_188.114.97.141_443",
-          "ss_151.101.56.7_443",
-          "ss_51.222.141.125_445",
-          "ss_151.101.56.7_443",
-          "ss_8.47.69.0_443",
-          "ss_172.67.130.159_2096",
-          "ss_144.31.5.64_443",
-          "ss_8.47.69.0_443",
-          "ss_85.17.145.65_12068",
-          "ss_188.42.145.180_443",
-          "ss_2.27.59.206_443",
-          "ss_188.114.97.6_443",
-          "ss_82.24.203.20_2087",
-          "ss_104.26.15.69_2096",
-          "ss_51.222.141.125_445",
-          "ss_8.47.69.0_443",
-          "ss_144.31.49.138_443",
-          "ss_188.42.145.180_443",
-          "ss_163.8.195.241_2087",
-          "ss_8.47.69.0_443",
-          "ss_51.222.155.32_5003",
-          "ss_51.222.107.43_2083",
-          "ss_103.160.63.199_31348",
-          "ss_188.42.145.180_443",
-          "ss_31.76.249.87_443",
-          "ss_156.146.38.167_443",
-          "ss_144.31.5.64_443",
-          "ss_88.216.220.88_443",
-          "ss_172.67.143.204_443",
-          "ss_130.49.161.70_443",
-          "ss_2.27.249.79_443",
-          "ss_85.17.145.65_12068",
-          "ss_82.202.247.181_443",
-          "ss_62.133.62.179_443",
-          "ss_216.24.57.7_443",
-          "ss_199.232.78.159_443",
-          "ss_45.9.156.42_443",
-          "ss_188.114.97.7_443",
-          "ss_162.19.10.99_443",
-          "ss_195.133.73.65_443",
-          "ss_172.64.152.179_443",
-          "ss_172.64.146.20_2096",
           "trojan_172.66.46.215_0",
           "trojan_185.143.235.201_0",
           "trojan_172.66.44.115_0",
           "trojan_172.66.47.83_0",
-          "trojan_gkh7imomi--3t3xcstzt8pp4dlzueskn.pages.dev_0",
-          "trojan_www.speedtest.net_0",
+          "trojan_167.82.76.7_0",
           "trojan_167.82.76.7_0",
           "trojan_151.101.56.56_0",
           "trojan_151.101.56.56_0",
@@ -14207,7 +15654,8 @@
           "trojan_199.232.78.160_0",
           "trojan_151.101.56.230_0",
           "trojan_151.101.56.7_0",
-          "trojan_151.101.56.7_0",
+          "trojan_188.114.96.8_0",
+          "trojan_188.114.96.8_0",
           "trojan_130.250.137.171_0",
           "trojan_130.250.137.171_0",
           "trojan_172.67.149.60_0",
@@ -14221,16 +15669,20 @@
           "trojan_199.232.78.160_0",
           "trojan_199.232.78.160_0",
           "trojan_45.130.125.76_0",
-          "trojan_www.speedtest.net_0",
           "trojan_18.238.109.28_0",
           "trojan_3.168.86.26_0",
           "trojan_3.168.86.35_0",
           "trojan_3.168.86.96_0",
           "trojan_104.21.69.44_0",
           "trojan_188.114.98.0_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
+          "trojan_104.18.32.87_0",
           "trojan_104.21.33.59_0",
-          "trojan_104.21.70.21_0",
-          "trojan_104.21.70.21_0",
           "trojan_104.21.70.21_0",
           "trojan_104.21.70.21_0",
           "trojan_104.21.70.21_0",
@@ -14241,6 +15693,12 @@
           "trojan_172.67.176.157_0",
           "trojan_172.67.176.157_0",
           "trojan_172.67.217.240_0",
+          "trojan_188.114.97.6_0",
+          "trojan_188.114.97.6_0",
+          "trojan_188.114.97.6_0",
+          "trojan_188.114.97.6_0",
+          "trojan_188.114.97.6_0",
+          "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
           "trojan_159.223.21.187_0",
           "trojan_144.22.250.122_0",
@@ -14264,16 +15722,8 @@
           "trojan_104.21.60.120_0",
           "trojan_172.67.196.38_0",
           "trojan_104.21.43.90_0",
-          "trojan_104.21.43.90_0",
-          "trojan_104.21.43.90_0",
-          "trojan_172.64.80.1_0",
-          "trojan_172.64.80.1_0",
-          "trojan_172.64.80.1_0",
           "trojan_172.67.177.105_0",
           "trojan_172.67.177.105_0",
-          "trojan_172.67.177.105_0",
-          "trojan_172.67.177.105_0",
-          "trojan_app-538961.user-y0o4gm.workers.dev_0",
           "trojan_104.21.12.87_0",
           "trojan_104.21.12.87_0",
           "trojan_172.67.131.245_0",
@@ -14286,8 +15736,6 @@
           "trojan_172.67.150.132_0",
           "trojan_104.21.72.201_0",
           "trojan_104.21.72.201_0",
-          "trojan_104.21.72.201_0",
-          "trojan_104.21.72.201_0",
           "trojan_172.66.47.30_0",
           "trojan_104.21.53.151_0",
           "trojan_172.67.214.154_0",
@@ -14295,7 +15743,6 @@
           "trojan_172.67.211.136_0",
           "trojan_172.66.47.147_0",
           "trojan_104.21.29.205_0",
-          "trojan_104.17.122.10_0",
           "trojan_104.17.122.10_0",
           "trojan_104.17.122.10_0",
           "trojan_188.114.97.6_0",
@@ -14324,8 +15771,6 @@
           "trojan_188.114.97.6_0",
           "trojan_188.114.98.0_0",
           "trojan_188.114.98.0_0",
-          "trojan_188.114.98.0_0",
-          "trojan_188.114.98.0_0",
           "trojan_153.121.52.154_0",
           "trojan_49.212.178.155_0",
           "trojan_49.212.203.7_0",
@@ -14333,12 +15778,8 @@
           "trojan_104.16.122.175_0",
           "trojan_104.16.123.175_0",
           "trojan_104.16.148.5_0",
-          "trojan_104.16.148.5_0",
-          "trojan_104.16.148.5_0",
           "trojan_104.18.153.182_0",
           "trojan_172.67.149.202_0",
-          "trojan_87.58.220.77_0",
-          "trojan_87.58.220.77_0",
           "trojan_104.18.32.69_0",
           "trojan_172.64.155.187_0",
           "trojan_103.224.182.210_0",
@@ -14398,7 +15839,6 @@
           "trojan_172.66.45.43_0",
           "trojan_172.66.46.213_0",
           "trojan_172.66.46.213_0",
-          "trojan_104.24.64.50_0",
           "trojan_172.67.173.73_0",
           "trojan_104.27.65.143_0",
           "trojan_104.21.88.226_0",
@@ -14410,7 +15850,6 @@
           "trojan_195.133.93.81_0",
           "trojan_18.141.59.72_0",
           "trojan_77.73.70.64_0",
-          "trojan_43.160.197.160_0",
           "trojan_172.66.44.81_0",
           "trojan_172.66.44.81_0",
           "trojan_172.66.44.81_0",
@@ -14422,6 +15861,7 @@
           "trojan_188.114.97.2_0",
           "trojan_160.16.65.99_0",
           "trojan_104.18.41.190_0",
+          "trojan_104.18.41.190_0",
           "trojan_23.227.38.45_0",
           "trojan_23.227.39.36_0",
           "trojan_91.195.240.94_0",
@@ -14432,6 +15872,7 @@
           "trojan_104.21.38.163_0",
           "trojan_172.67.153.179_0",
           "trojan_217.79.184.76_0",
+          "trojan_104.16.75.127_0",
           "trojan_190.93.247.155_0",
           "trojan_173.245.58.57_0",
           "trojan_104.16.159.7_0",
@@ -14478,18 +15919,11 @@
           "trojan_104.21.66.137_0",
           "trojan_104.21.66.137_0",
           "trojan_104.21.66.137_0",
-          "trojan_104.21.66.137_0",
-          "trojan_172.67.160.103_0",
-          "trojan_172.67.160.103_0",
-          "trojan_104.21.66.137_0",
-          "trojan_104.21.66.137_0",
-          "trojan_172.67.160.103_0",
           "trojan_104.26.14.85_0",
           "trojan_172.67.148.211_0",
           "trojan_104.21.3.189_0",
           "trojan_172.67.131.27_0",
           "trojan_172.66.132.196_0",
-          "trojan_104.248.161.136_0",
           "trojan_118.218.10.159_0",
           "trojan_45.131.5.9_0",
           "trojan_104.21.47.176_0",
@@ -14509,11 +15943,15 @@
           "trojan_104.21.8.63_0",
           "trojan_47.250.84.25_0",
           "trojan_47.250.84.25_0",
+          "trojan_47.250.84.25_0",
           "trojan_51.91.11.29_0",
           "trojan_172.66.47.95_0",
           "trojan_18.65.190.65_0",
           "trojan_103.97.91.17_0",
           "trojan_103.97.91.17_0",
+          "trojan_103.97.91.17_0",
+          "trojan_103.97.91.17_0",
+          "trojan_104.160.44.203_0",
           "trojan_104.160.44.203_0",
           "trojan_104.160.44.203_0",
           "trojan_113.20.12.98_0",
@@ -14526,6 +15964,8 @@
           "trojan_23.106.44.14_0",
           "trojan_38.180.35.145_0",
           "trojan_38.180.35.145_0",
+          "trojan_38.180.35.145_0",
+          "trojan_86.106.119.23_0",
           "trojan_86.106.119.23_0",
           "trojan_86.106.119.23_0",
           "trojan_104.21.21.226_0",
@@ -14604,13 +16044,13 @@
           "trojan_162.159.153.7_0",
           "trojan_104.21.42.250_0",
           "trojan_103.235.46.40_0",
+          "trojan_60.250.152.209_0",
           "trojan_69.46.46.148_0",
           "trojan_13.250.28.5_0",
           "trojan_15.197.162.184_0",
           "trojan_172.232.250.160_0",
           "trojan_172.67.177.123_0",
           "trojan_133.242.55.38_0",
-          "trojan_199.232.206.245_0",
           "trojan_20.210.234.145_0",
           "trojan_15.204.209.50_0",
           "trojan_91.195.240.12_0",
@@ -14728,6 +16168,7 @@
           "trojan_172.64.149.54_0",
           "trojan_172.64.149.54_0",
           "trojan_172.66.44.230_0",
+          "trojan_172.66.47.26_0",
           "trojan_172.86.114.80_0",
           "trojan_176.124.201.78_0",
           "trojan_178.128.190.138_0",
@@ -14762,7 +16203,6 @@
           "trojan_209.97.171.87_0",
           "trojan_213.165.38.7_0",
           "trojan_213.232.204.28_0",
-          "trojan_216.126.237.69_0",
           "trojan_23.165.104.123_0",
           "trojan_23.168.72.23_0",
           "trojan_23.88.97.94_0",
@@ -14775,7 +16215,136 @@
           "trojan_31.56.228.7_0",
           "trojan_31.56.228.7_0",
           "trojan_31.57.109.126_0",
-          "trojan_38.107.232.124_0"
+          "trojan_38.107.232.124_0",
+          "trojan_46.8.238.49_0",
+          "trojan_46.8.70.178_0",
+          "trojan_5.144.179.49_0",
+          "trojan_50.62.174.253_0",
+          "trojan_50.62.195.253_0",
+          "trojan_50.62.89.253_0",
+          "trojan_62.60.157.104_0",
+          "trojan_64.181.255.215_0",
+          "trojan_64.227.62.172_0",
+          "trojan_72.167.242.253_0",
+          "trojan_72.56.107.167_0",
+          "trojan_72.56.85.104_0",
+          "trojan_74.50.11.24_0",
+          "trojan_77.110.106.55_0",
+          "trojan_77.110.106.91_0",
+          "trojan_77.239.98.141_0",
+          "trojan_77.239.98.191_0",
+          "trojan_8.34.146.253_0",
+          "trojan_8.6.112.0_0",
+          "trojan_8.6.112.0_0",
+          "trojan_8.6.112.0_0",
+          "trojan_80.93.202.253_0",
+          "trojan_88.218.78.20_0",
+          "trojan_91.107.158.211_0",
+          "trojan_91.220.8.170_0",
+          "trojan_91.220.8.170_0",
+          "trojan_91.99.193.84_0",
+          "trojan_95.182.101.74_0",
+          "trojan_188.114.97.2_0",
+          "trojan_15.204.234.166_0",
+          "trojan_45.85.118.241_0",
+          "trojan_104.18.22.136_0",
+          "trojan_104.18.23.136_0",
+          "trojan_104.16.132.167_0",
+          "trojan_69.84.182.108_0",
+          "trojan_69.84.182.18_0",
+          "trojan_104.26.15.85_0",
+          "trojan_104.21.58.135_0",
+          "trojan_60.250.152.209_0",
+          "trojan_60.250.152.230_0",
+          "trojan_51.77.213.197_0",
+          "trojan_51.77.213.197_0",
+          "trojan_51.77.213.197_0",
+          "trojan_142.93.226.128_0",
+          "trojan_61.220.126.180_0",
+          "trojan_104.16.159.5_0",
+          "trojan_104.19.171.9_0",
+          "trojan_23.150.248.153_0",
+          "trojan_20.89.130.227_0",
+          "trojan_103.224.212.213_0",
+          "trojan_104.16.190.131_0",
+          "trojan_104.21.86.140_0",
+          "trojan_172.67.220.93_0",
+          "trojan_104.21.71.8_0",
+          "trojan_104.21.50.5_0",
+          "trojan_172.67.198.177_0",
+          "trojan_172.66.44.59_0",
+          "trojan_104.17.148.22_0",
+          "trojan_104.21.70.21_0",
+          "trojan_188.114.97.6_0",
+          "trojan_104.17.148.22_0",
+          "trojan_103.116.7.100_0",
+          "trojan_103.116.7.103_0",
+          "trojan_103.116.7.133_0",
+          "trojan_103.116.7.152_0",
+          "trojan_103.116.7.189_0",
+          "trojan_103.116.7.230_0",
+          "trojan_103.116.7.235_0",
+          "trojan_103.116.7.248_0",
+          "trojan_103.116.7.67_0",
+          "trojan_104.129.166.131_0",
+          "trojan_104.129.167.255_0",
+          "trojan_104.16.246.132_0",
+          "trojan_104.17.127.213_0",
+          "trojan_104.19.103.190_0",
+          "trojan_104.19.38.166_0",
+          "trojan_104.19.39.28_0",
+          "trojan_104.19.4.237_0",
+          "trojan_104.19.44.91_0",
+          "trojan_104.19.57.203_0",
+          "trojan_104.19.60.99_0",
+          "trojan_104.19.61.13_0",
+          "trojan_104.21.235.194_0",
+          "trojan_104.21.37.106_0",
+          "trojan_104.234.239.235_0",
+          "trojan_104.25.252.184_0",
+          "trojan_104.25.254.197_0",
+          "trojan_104.26.15.138_0",
+          "trojan_104.26.15.138_0",
+          "trojan_107.172.180.73_0",
+          "trojan_107.173.155.242_0",
+          "trojan_108.162.193.144_0",
+          "trojan_108.162.193.190_0",
+          "trojan_108.162.193.201_0",
+          "trojan_108.162.195.127_0",
+          "trojan_108.162.195.236_0",
+          "trojan_108.162.195.82_0",
+          "trojan_108.165.152.104_0",
+          "trojan_108.165.152.113_0",
+          "trojan_108.165.152.143_0",
+          "trojan_108.165.152.14_0",
+          "trojan_108.165.152.163_0",
+          "trojan_108.165.152.175_0",
+          "trojan_108.165.152.1_0",
+          "trojan_108.165.152.202_0",
+          "trojan_108.165.152.207_0",
+          "trojan_108.165.152.219_0",
+          "trojan_108.165.152.225_0",
+          "trojan_108.165.152.239_0",
+          "trojan_108.165.152.241_0",
+          "trojan_108.165.152.249_0",
+          "trojan_108.165.152.36_0",
+          "trojan_108.165.152.40_0",
+          "trojan_108.165.152.55_0",
+          "trojan_108.165.152.59_0",
+          "trojan_108.165.152.65_0",
+          "trojan_108.165.152.66_0",
+          "trojan_108.165.152.71_0",
+          "trojan_108.165.152.78_0",
+          "trojan_108.165.152.80_0",
+          "trojan_108.165.152.82_0",
+          "trojan_108.165.152.91_0",
+          "trojan_108.165.152.92_0",
+          "trojan_108.165.152.93_0",
+          "trojan_108.165.152.98_0",
+          "trojan_124.156.202.172_0",
+          "trojan_130.250.137.63_0",
+          "trojan_135.84.64.36_0",
+          "trojan_135.84.64.77_0"
         ],
         "strategy": {
           "type": "leastPing",

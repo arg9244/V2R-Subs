@@ -53,23 +53,24 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_176.112.152.147_0",
+      "tag": "vless_87.121.86.40_0",
       "protocol": "vless",
       "settings": {
-        "address": "176.112.152.147",
+        "address": "87.121.86.40",
         "port": 0,
-        "id": "d2e00857-9581-4030-96e2-9d1ed0b95049",
+        "id": "06914c33-c6e0-464f-8fab-9bee9ee9b6a6",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.coop.ee",
+          "serverName": "tallinn.ee",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "805vJbnw_12vyuxa9pW46ObJ1cOub-75pGJYTfMJYHM",
-            "shortId": "74e50da3c1769379"
+            "publicKey": "B3hJ-HdMFRzN5TlkBgSBMMmD93kllvgPuTOCgWzR9U8",
+            "shortId": "b1a658e3128ee59f"
           }
         },
         "network": "tcp"
@@ -121,7 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_176.112.152.147_0"
+          "vless_87.121.86.40_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -17,59 +17,11 @@ proxies:
       type: trojan
       password: sg-trojan-2026
       tls: true
-      skip-cert-verify: true
       servername: sg-proxy.local
-      client-fingerprint: chrome
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
-      port: 0
-      udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
-      skip-cert-verify: true
-      servername: sg-proxy.local
-      client-fingerprint: edge
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
-      port: 0
-      udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
-      skip-cert-verify: true
-      servername: sg-proxy.local
-      client-fingerprint: qq
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
-      port: 0
-      udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
-      servername: sg-proxy.local
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
-      network: ws
-      ws-opts:
-        path: "/ "
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, trojan_43.173.90.202_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
+      proxies: [trojan_43.173.90.202_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

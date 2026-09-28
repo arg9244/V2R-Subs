@@ -72,6 +72,22 @@
       }
     },
     {
+      "tag": "vless_85.17.145.65_0",
+      "server": "85.17.145.65",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_172.67.132.41_0",
       "server": "172.67.132.41",
       "server_port": 0,
@@ -288,42 +304,11 @@
       }
     },
     {
-      "tag": "vless_170.114.46.6_0",
-      "server": "170.114.46.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "cac6ec8f-99f0-44c5-814f-2f3f65e4db74",
-      "transport": {
-        "type": "ws",
-        "path": "/dula"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_170.114.46.6_0",
-      "server": "170.114.46.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "cac6ec8f-99f0-44c5-814f-2f3f65e4db74",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "trojan_104.21.19.64_0",
+        "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
         "vless_85.17.145.65_0",
@@ -336,9 +321,7 @@
         "vless_104.21.4.8_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
-        "vless_104.21.12.150_0",
-        "vless_170.114.46.6_0",
-        "vless_170.114.46.6_0"
+        "vless_104.21.12.150_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

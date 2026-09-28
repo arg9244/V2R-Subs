@@ -13,19 +13,19 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_104.21.43.168_0",
-      "server": "104.21.43.168",
+      "tag": "vless_5.78.45.230_0",
+      "server": "5.78.45.230",
       "server_port": 0,
-      "type": "trojan",
-      "password": "mVaHDDWsvC",
+      "type": "vless",
+      "uuid": "fcc64e6f-bdcd-471a-a2d4-27c757578070",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "us-ashburn.wealthpost.ca",
-        "alpn": {
+        "server_name": "thestraightpath.ca",
+        "reality": {
           "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
+          "public_key": "lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw",
+          "short_id": "b684d13617792bb2"
         },
         "utls": {
           "enabled": true,
@@ -37,7 +37,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_104.21.43.168_0"
+        "vless_5.78.45.230_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
