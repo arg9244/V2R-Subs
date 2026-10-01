@@ -13,21 +13,26 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_43.173.90.202_0",
-      "server": "43.173.90.202",
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
       "server_port": 0,
-      "type": "trojan",
-      "password": "sg-trojan-2026",
-      "tls": {
+      "type": "vless",
+      "uuid": "f7ed4770-81f4-47a1-9490-8b8cd684c97e",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net"
+      },
+      "multiplex": {
         "enabled": true,
-        "server_name": "sg-proxy.local"
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_43.173.90.202_0"
+        "vless_www.visa.com.sg_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

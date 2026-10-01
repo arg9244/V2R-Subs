@@ -150,6 +150,48 @@
       }
     },
     {
+      "tag": "trojan_151.101.56.255_0",
+      "server": "151.101.56.255",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "%4D%69%54%69%56%50%4E",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_151.101.56.255_0",
+      "server": "151.101.56.255",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "%4D%69%54%69%56%50%4E",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_151.101.56.255_0",
+      "server": "151.101.56.255",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "%4D%69%54%69%56%50%4E",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com"
+      }
+    },
+    {
       "tag": "trojan_151.101.56.6_0",
       "server": "151.101.56.6",
       "server_port": 0,
@@ -533,6 +575,27 @@
       }
     },
     {
+      "tag": "trojan_104.16.104.34_0",
+      "server": "104.16.104.34",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "%54%65%6C%65%67%72%61%6D%5F%68%65%61%6C%65%72%5F%63%6F%6E%66%69%67",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_104.16.104.34_0",
+      "server": "104.16.104.34",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "%54%65%6C%65%67%72%61%6D%5F%68%65%61%6C%65%72%5F%63%6F%6E%66%69%67",
+      "tls": {
+        "enabled": true,
+        "server_name": "TH1R714O73d1P35f.mr2esNK29L620Xo76Kpuv-QUb4B7IDfR.WOrkeRS.DeV"
+      }
+    },
+    {
       "tag": "trojan_188.114.96.8_0",
       "server": "188.114.96.8",
       "server_port": 0,
@@ -561,7 +624,17 @@
       "password": "%54%65%6c%65%67%72%61%6d%5f%68%65%61%6c%65%72%5f%63%6f%6e%66%69%67",
       "tls": {
         "enabled": true,
-        "server_name": "y9p34jpjmqjazaypf.piiwddilxjcqehr17af22u7xk-yu.workers.dev"
+        "server_name": "y9p34jpjmqjazaypf.piiwddilxjcqehr17af22u7xk-yu.workers.dev",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -816,17 +889,6 @@
       "type": "trojan",
       "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
       "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id"
-      }
-    },
-    {
-      "tag": "trojan_104.18.32.87_0",
-      "server": "104.18.32.87",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
         "enabled": true
       }
     },
@@ -838,37 +900,7 @@
       "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      }
-    },
-    {
-      "tag": "trojan_104.18.32.87_0",
-      "server": "104.18.32.87",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
         "server_name": "id1.nathaya.web.id"
-      }
-    },
-    {
-      "tag": "trojan_104.18.32.87_0",
-      "server": "104.18.32.87",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
       }
     },
     {
@@ -893,18 +925,56 @@
       }
     },
     {
-      "tag": "trojan_104.21.33.59_0",
-      "server": "104.21.33.59",
+      "tag": "trojan_104.18.32.87_0",
+      "server": "104.18.32.87",
       "server_port": 0,
       "type": "trojan",
       "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "server": "104.18.32.87",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "server": "104.18.32.87",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87:443?path=/trojan&security=tls&fm={\"tcp\"_0",
+      "server": "104.18.32.87:443?path=/trojan&security=tls&fm={\"tcp\"",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_104.18.32.87_0",
+      "server": "104.18.32.87",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id"
       }
     },
     {
@@ -990,17 +1060,6 @@
           "enabled": true,
           "fingerprint": "unsafe"
         }
-      }
-    },
-    {
-      "tag": "trojan_104.25.82.149_0",
-      "server": "104.25.82.149",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id"
       }
     },
     {
@@ -1038,11 +1097,7 @@
       "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
+        "server_name": "id1.nathaya.web.id"
       }
     },
     {
@@ -1063,11 +1118,39 @@
       "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
       "tls": {
         "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "server": "188.114.97.6",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "server": "188.114.97.6",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
+      "tag": "trojan_188.114.97.6_0",
+      "server": "188.114.97.6",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true
       }
     },
     {
@@ -1094,42 +1177,6 @@
           "enabled": true,
           "fingerprint": "unsafe"
         }
-      }
-    },
-    {
-      "tag": "trojan_188.114.97.6_0",
-      "server": "188.114.97.6",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "tag": "trojan_188.114.97.6_0",
-      "server": "188.114.97.6",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      }
-    },
-    {
-      "tag": "trojan_188.114.97.6_0",
-      "server": "188.114.97.6",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-      "tls": {
-        "enabled": true,
-        "server_name": "id1.nathaya.web.id"
       }
     },
     {
@@ -1383,7 +1430,55 @@
       "type": "trojan",
       "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
       "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "app-538961.user-y0o4gm.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_104.21.43.90_0",
+      "server": "104.21.43.90",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
+      "tls": {
         "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_172.64.80.1_0",
+      "server": "172.64.80.1",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "app-538961.user-y0o4gm.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_172.67.177.105_0",
+      "server": "172.67.177.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "0b5fa773-6f37-4134-87d4-0c349742b6f6",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "app-538961.user-y0o4gm.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -1523,17 +1618,6 @@
       "server": "104.21.72.201",
       "server_port": 0,
       "type": "trojan",
-      "password": "0hbl*0RB4T,LSk;JK",
-      "tls": {
-        "enabled": true,
-        "server_name": "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv"
-      }
-    },
-    {
-      "tag": "trojan_104.21.72.201_0",
-      "server": "104.21.72.201",
-      "server_port": 0,
-      "type": "trojan",
       "password": "0hbl0RB4T%2CLSk%3BJK",
       "tls": {
         "enabled": true,
@@ -1625,6 +1709,21 @@
       "password": "123444",
       "tls": {
         "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "tag": "trojan_104.17.122.10_0",
+      "server": "104.17.122.10",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "123444",
+      "tls": {
+        "enabled": true,
+        "server_name": "northrendserver.sherekontop.workers.dev",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -1943,6 +2042,21 @@
       }
     },
     {
+      "tag": "trojan_45.76.218.34_0",
+      "server": "45.76.218.34",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "1426d11f-f700-466f-80fe-1010b0ab59ae",
+      "tls": {
+        "enabled": true,
+        "server_name": "lazeno.vip",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_172.67.188.77_0",
       "server": "172.67.188.77",
       "server_port": 0,
@@ -2119,11 +2233,18 @@
       "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
       "tls": {
         "enabled": true,
-        "server_name": "dimskiee.biz.id",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "dimskiee.biz.id"
+      }
+    },
+    {
+      "tag": "trojan_104.18.153.182_0",
+      "server": "104.18.153.182",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+      "tls": {
+        "enabled": true,
+        "server_name": "dimskiee.biz.id"
       }
     },
     {
@@ -2139,6 +2260,17 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "tag": "trojan_104.18.153.182_0",
+      "server": "104.18.153.182",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+      "tls": {
+        "enabled": true,
+        "server_name": "dimskiee.biz.id"
       }
     },
     {
@@ -2205,6 +2337,21 @@
         "enabled": true,
         "insecure": true,
         "server_name": "de.stablize.top"
+      }
+    },
+    {
+      "tag": "trojan_94.103.91.22_0",
+      "server": "94.103.91.22",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "1e3b3ecf567f44d2b6e82116795ec598",
+      "tls": {
+        "enabled": true,
+        "server_name": "ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
       }
     },
     {
@@ -2295,6 +2442,237 @@
       "tls": {
         "enabled": true,
         "server_name": "sscDfr5.999182.XyZ"
+      }
+    },
+    {
+      "tag": "trojan_151.101.56.90_0",
+      "server": "151.101.56.90",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_151.101.56.90_0",
+      "server": "151.101.56.90",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0",
+      "server": "167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" ",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={\"uplinkDataPlacement\"_0",
+      "server": "167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={\"uplinkDataPlacement\"",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159:443?security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0",
+      "server": "167.82.101.159:443?security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" ",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com"
+      }
+    },
+    {
+      "tag": "trojan_167.82.101.159_0",
+      "server": "167.82.101.159",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2223970e6a0b8ad289d3c43dd85dd2c9",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -2786,6 +3164,16 @@
       }
     },
     {
+      "tag": "trojan_www.speedtest.net_0",
+      "server": "www.speedtest.net",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "2f1f7fbf-f37d-4275-c014-298a83f4e5a8",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
       "tag": "trojan_92.38.145.145_0",
       "server": "92.38.145.145",
       "server_port": 0,
@@ -3002,27 +3390,6 @@
       }
     },
     {
-      "tag": "trojan_195.133.93.81_0",
-      "server": "195.133.93.81",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "3723507166611775488",
-      "tls": {
-        "enabled": true,
-        "server_name": "sensible-ocelot.boa152.lol",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "trojan_18.141.59.72_0",
       "server": "18.141.59.72",
       "server_port": 0,
@@ -3152,29 +3519,6 @@
       "tls": {
         "enabled": true,
         "server_name": "kdlsupport.zendesk.com"
-      }
-    },
-    {
-      "tag": "trojan_104.18.41.190_0",
-      "server": "104.18.41.190",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "nat11.outsidemyheart.space"
-      }
-    },
-    {
-      "tag": "trojan_104.18.41.190_0",
-      "server": "104.18.41.190",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
-      "tls": {
-        "enabled": true,
-        "server_name": "nat11.outsidemyheart.space"
       }
     },
     {
@@ -3621,6 +3965,17 @@
       }
     },
     {
+      "tag": "trojan_zi.you.usdtvfk.top_0",
+      "server": "zi.you.usdtvfk.top",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "4d048fc6-d944-41dd-b327-10856adcc82d",
+      "tls": {
+        "enabled": true,
+        "server_name": "zi.you.usdtvfk.top"
+      }
+    },
+    {
       "tag": "trojan_172.67.204.22_0",
       "server": "172.67.204.22",
       "server_port": 0,
@@ -3843,34 +4198,6 @@
       "server": "104.21.66.137",
       "server_port": 0,
       "type": "trojan",
-      "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "trojan_104.21.66.137_0",
-      "server": "104.21.66.137",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "50414e45-4c5f-5a45-5553-05920b4f8f35",
-      "tls": {
-        "enabled": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "trojan_104.21.66.137_0",
-      "server": "104.21.66.137",
-      "server_port": 0,
-      "type": "trojan",
       "password": "50414e45-4c5f-5a45-5553-eeb34b317c4f",
       "tls": {
         "enabled": true,
@@ -4055,6 +4382,42 @@
       }
     },
     {
+      "tag": "trojan_91.193.59.194_0",
+      "server": "91.193.59.194",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "54df124b-c11c-41b0-86da-9d642125671f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vpn2.xiweini.dpdns.org"
+      }
+    },
+    {
+      "tag": "trojan_91.193.59.194_0",
+      "server": "91.193.59.194",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "54df124b-c11c-41b0-86da-9d642125671f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vpn2.xiweini.dpdns.org"
+      }
+    },
+    {
+      "tag": "trojan_91.193.59.194_0",
+      "server": "91.193.59.194",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "54df124b-c11c-41b0-86da-9d642125671f",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vpn2.xiweini.dpdns.org"
+      }
+    },
+    {
       "tag": "trojan_51.83.186.142_0",
       "server": "51.83.186.142",
       "server_port": 0,
@@ -4111,6 +4474,38 @@
       }
     },
     {
+      "tag": "trojan_WwW.SpEEdTesT.NeT_0",
+      "server": "WwW.SpEEdTesT.NeT",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "578ade22-1e58-4c37-ce01-bfad51a72c62",
+      "tls": {
+        "enabled": true,
+        "server_name": "13l1.diginoshops10.ir"
+      }
+    },
+    {
+      "tag": "trojan_104.21.8.63_0",
+      "server": "104.21.8.63",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "5855d6850594830f",
+      "tls": {
+        "enabled": true,
+        "server_name": "AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_104.21.8.63_0",
       "server": "104.21.8.63",
       "server_port": 0,
@@ -4158,6 +4553,16 @@
       "type": "trojan",
       "password": "5931134d1cde66bf83a54acdfebe7ab2",
       "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "tag": "trojan_47.250.84.25_0",
+      "server": "47.250.84.25",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "tls": {
         "enabled": true,
         "insecure": true
       }
@@ -4169,9 +4574,7 @@
       "type": "trojan",
       "password": "5931134d1cde66bf83a54acdfebe7ab2",
       "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "moltbot.doctoroyy.net"
+        "enabled": true
       }
     },
     {
@@ -4244,32 +4647,6 @@
       "tls": {
         "enabled": true,
         "server_name": "la.freeguard.org"
-      }
-    },
-    {
-      "tag": "trojan_103.97.91.17_0",
-      "server": "103.97.91.17",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "la.freeguard.org"
-      }
-    },
-    {
-      "tag": "trojan_103.97.91.17_0",
-      "server": "103.97.91.17",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "la.freeguard.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -4417,36 +4794,6 @@
       "tls": {
         "enabled": true,
         "server_name": "bu2.freeguard.org"
-      }
-    },
-    {
-      "tag": "trojan_38.180.35.145_0",
-      "server": "38.180.35.145",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "bu2.freeguard.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "trojan_86.106.119.23_0",
-      "server": "86.106.119.23",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "gr.freeguard.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
       }
     },
     {
@@ -5193,6 +5540,27 @@
       }
     },
     {
+      "tag": "trojan_8.6.112.0_0",
+      "server": "8.6.112.0",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "6EEINO4XoG1Bl0PrG3Pvrg",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps1.2525mm.fun",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_104.20.5.134_0",
       "server": "104.20.5.134",
       "server_port": 0,
@@ -5427,6 +5795,29 @@
       }
     },
     {
+      "tag": "trojan_8.6.112.0_0",
+      "server": "8.6.112.0",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "74xjW7ZiYVwUYfeJRPxiNA",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.lunex-vpn.xyz",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_69.46.46.148_0",
       "server": "69.46.46.148",
       "server_port": 0,
@@ -5503,6 +5894,20 @@
         "enabled": true,
         "insecure": true,
         "server_name": "nika3hdfy2.foriran.trade"
+      }
+    },
+    {
+      "tag": "trojan_104.21.85.39_0",
+      "server": "104.21.85.39",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "7a657573-a2be-8079-c204-93ad9047f088",
+      "tls": {
+        "enabled": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -6135,6 +6540,169 @@
       }
     },
     {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http%2F1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "server_name": "quictest.burncommunity.ru"
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "tag": "trojan_199.107.164.105_0",
+      "server": "199.107.164.105",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8GXLP3dEzm7T8wP5Jx0Ufg",
+      "tls": {
+        "enabled": true,
+        "server_name": "quictest.burncommunity.ru",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "trojan_172.66.44.182_0",
       "server": "172.66.44.182",
       "server_port": 0,
@@ -6220,6 +6788,97 @@
       }
     },
     {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "trojan_107.149.159.190_0",
+      "server": "107.149.159.190",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "8bdfa4e8dac99c57decdd8bf55d2da4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf.shiranyu.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "trojan_172.64.80.1_0",
       "server": "172.64.80.1",
       "server_port": 0,
@@ -6239,60 +6898,6 @@
       "tls": {
         "enabled": true,
         "server_name": "fr1.test3.net"
-      }
-    },
-    {
-      "tag": "trojan_178.172.227.178_0",
-      "server": "178.172.227.178",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8qCNZU2XdtefT7uB4uPxgRR839btqMG8",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "tag": "trojan_178.172.227.178_0",
-      "server": "178.172.227.178",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8qCNZU2XdtefT7uB4uPxgRR839btqMG8",
-      "tls": {
-        "enabled": true,
-        "server_name": "by01.botovod.space",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "trojan_178.172.227.178_0",
-      "server": "178.172.227.178",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8qCNZU2XdtefT7uB4uPxgRR839btqMG8",
-      "tls": {
-        "enabled": true,
-        "server_name": "by01.botovod.space",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {
@@ -6573,17 +7178,6 @@
       }
     },
     {
-      "tag": "trojan_144.31.104.154_0",
-      "server": "144.31.104.154",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
       "tag": "trojan_144.31.57.146_0",
       "server": "144.31.57.146",
       "server_port": 0,
@@ -6595,30 +7189,8 @@
       }
     },
     {
-      "tag": "trojan_146.190.102.51_0",
-      "server": "146.190.102.51",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
       "tag": "trojan_146.190.27.232_0",
       "server": "146.190.27.232",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
-      "tag": "trojan_147.45.197.95_0",
-      "server": "147.45.197.95",
       "server_port": 0,
       "type": "trojan",
       "password": "8r%3C%5B9%27l6hAO%238ZQi",
@@ -6816,17 +7388,6 @@
       }
     },
     {
-      "tag": "trojan_167.71.169.92_0",
-      "server": "167.71.169.92",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
       "tag": "trojan_172.64.147.106_0",
       "server": "172.64.147.106",
       "server_port": 0,
@@ -6904,17 +7465,6 @@
     {
       "tag": "trojan_178.128.190.138_0",
       "server": "178.128.190.138",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
-      "tag": "trojan_178.128.60.89_0",
-      "server": "178.128.60.89",
       "server_port": 0,
       "type": "trojan",
       "password": "8r%3C%5B9%27l6hAO%238ZQi",
@@ -7653,17 +8203,6 @@
       }
     },
     {
-      "tag": "trojan_91.107.158.211_0",
-      "server": "91.107.158.211",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "8r%3C%5B9%27l6hAO%238ZQi",
-      "tls": {
-        "enabled": true,
-        "server_name": "Koma-YT.PAGeS.Dev"
-      }
-    },
-    {
       "tag": "trojan_91.220.8.170_0",
       "server": "91.220.8.170",
       "server_port": 0,
@@ -7817,6 +8356,27 @@
       "tls": {
         "enabled": true,
         "server_name": "yyyyyyyyyyy.818185.xyz"
+      }
+    },
+    {
+      "tag": "trojan_uwu.blueknightnet.qzz.io_0",
+      "server": "uwu.blueknightnet.qzz.io",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "95xjvytiw5l1jln5",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.dianaw.cc.cd",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -8835,72 +9395,6 @@
       }
     },
     {
-      "tag": "trojan_108.165.152.93_0",
-      "server": "108.165.152.93",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epccc.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "tag": "trojan_108.165.152.98_0",
-      "server": "108.165.152.98",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epccx.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "tag": "trojan_124.156.202.172_0",
-      "server": "124.156.202.172",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epcca.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "tag": "trojan_130.250.137.63_0",
-      "server": "130.250.137.63",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epccd.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "tag": "trojan_135.84.64.36_0",
-      "server": "135.84.64.36",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epccf.ambercc.filegear-sg.me"
-      }
-    },
-    {
-      "tag": "trojan_135.84.64.77_0",
-      "server": "135.84.64.77",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "Aimer",
-      "tls": {
-        "enabled": true,
-        "server_name": "epccy.ambercc.filegear-sg.me"
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
@@ -8914,6 +9408,9 @@
         "trojan_151.101.56.56_0",
         "trojan_199.232.78.160_0",
         "trojan_199.232.78.160_0",
+        "trojan_151.101.56.255_0",
+        "trojan_151.101.56.255_0",
+        "trojan_151.101.56.255_0",
         "trojan_151.101.56.6_0",
         "trojan_151.101.56.6_0",
         "trojan_151.101.56.7_0",
@@ -8938,6 +9435,8 @@
         "trojan_199.232.78.160_0",
         "trojan_151.101.56.230_0",
         "trojan_151.101.56.7_0",
+        "trojan_104.16.104.34_0",
+        "trojan_104.16.104.34_0",
         "trojan_188.114.96.8_0",
         "trojan_188.114.96.8_0",
         "trojan_130.250.137.171_0",
@@ -8966,13 +9465,13 @@
         "trojan_104.18.32.87_0",
         "trojan_104.18.32.87_0",
         "trojan_104.18.32.87_0",
-        "trojan_104.21.33.59_0",
+        "trojan_104.18.32.87:443?path=/trojan&security=tls&fm={\"tcp\"_0",
+        "trojan_104.18.32.87_0",
         "trojan_104.21.70.21_0",
         "trojan_104.21.70.21_0",
         "trojan_104.21.70.21_0",
         "trojan_104.21.83.135_0",
         "trojan_104.21.83.135_0",
-        "trojan_104.25.82.149_0",
         "trojan_104.25.82.149_0",
         "trojan_172.67.176.157_0",
         "trojan_172.67.176.157_0",
@@ -9006,6 +9505,9 @@
         "trojan_104.21.60.120_0",
         "trojan_172.67.196.38_0",
         "trojan_104.21.43.90_0",
+        "trojan_104.21.43.90_0",
+        "trojan_172.64.80.1_0",
+        "trojan_172.67.177.105_0",
         "trojan_172.67.177.105_0",
         "trojan_172.67.177.105_0",
         "trojan_104.21.12.87_0",
@@ -9019,7 +9521,6 @@
         "trojan_51.195.219.173_0",
         "trojan_172.67.150.132_0",
         "trojan_104.21.72.201_0",
-        "trojan_104.21.72.201_0",
         "trojan_172.66.47.30_0",
         "trojan_104.21.53.151_0",
         "trojan_172.67.214.154_0",
@@ -9027,6 +9528,7 @@
         "trojan_172.67.211.136_0",
         "trojan_172.66.47.147_0",
         "trojan_104.21.29.205_0",
+        "trojan_104.17.122.10_0",
         "trojan_104.17.122.10_0",
         "trojan_104.17.122.10_0",
         "trojan_188.114.97.6_0",
@@ -9047,6 +9549,7 @@
         "trojan_104.21.94.69_0",
         "trojan_172.67.185.107_0",
         "trojan_172.67.220.140_0",
+        "trojan_45.76.218.34_0",
         "trojan_172.67.188.77_0",
         "trojan_104.18.32.47_0",
         "trojan_15.235.197.4_0",
@@ -9063,11 +9566,14 @@
         "trojan_104.16.123.175_0",
         "trojan_104.16.148.5_0",
         "trojan_104.18.153.182_0",
+        "trojan_104.18.153.182_0",
+        "trojan_104.18.153.182_0",
         "trojan_172.67.149.202_0",
         "trojan_104.18.32.69_0",
         "trojan_172.64.155.187_0",
         "trojan_103.224.182.210_0",
         "trojan_13.248.169.48_0",
+        "trojan_94.103.91.22_0",
         "trojan_69.46.46.163_0",
         "trojan_104.18.21.18_0",
         "trojan_172.64.152.23_0",
@@ -9075,6 +9581,19 @@
         "trojan_104.21.19.64_0",
         "trojan_104.21.28.26_0",
         "trojan_172.67.170.51_0",
+        "trojan_151.101.56.90_0",
+        "trojan_151.101.56.90_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0",
+        "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={\"uplinkDataPlacement\"_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159:443?security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159_0",
+        "trojan_167.82.101.159_0",
         "trojan_104.21.51.242_0",
         "trojan_104.19.159.12_0",
         "trojan_157.120.32.122_0",
@@ -9114,6 +9633,7 @@
         "trojan_185.208.207.217_0",
         "trojan_192.3.107.252_0",
         "trojan_198.23.229.250_0",
+        "trojan_www.speedtest.net_0",
         "trojan_92.38.145.145_0",
         "trojan_188.114.97.82_0",
         "trojan_104.26.12.31_0",
@@ -9131,7 +9651,6 @@
         "trojan_104.31.16.120_0",
         "trojan_195.133.93.135_0",
         "trojan_195.133.93.81_0",
-        "trojan_195.133.93.81_0",
         "trojan_18.141.59.72_0",
         "trojan_77.73.70.64_0",
         "trojan_172.66.44.81_0",
@@ -9144,8 +9663,6 @@
         "trojan_172.66.47.175_0",
         "trojan_188.114.97.2_0",
         "trojan_160.16.65.99_0",
-        "trojan_104.18.41.190_0",
-        "trojan_104.18.41.190_0",
         "trojan_23.227.38.45_0",
         "trojan_23.227.39.36_0",
         "trojan_91.195.240.94_0",
@@ -9182,6 +9699,7 @@
         "trojan_64.186.240.9_0",
         "trojan_8.219.155.125_0",
         "trojan_141.193.213.156_0",
+        "trojan_zi.you.usdtvfk.top_0",
         "trojan_172.67.204.22_0",
         "trojan_104.17.245.1_0",
         "trojan_104.18.118.51_0",
@@ -9201,8 +9719,6 @@
         "trojan_172.67.135.37_0",
         "trojan_188.114.99.91_0",
         "trojan_104.21.66.137_0",
-        "trojan_104.21.66.137_0",
-        "trojan_104.21.66.137_0",
         "trojan_104.26.14.85_0",
         "trojan_172.67.148.211_0",
         "trojan_104.21.3.189_0",
@@ -9218,13 +9734,19 @@
         "trojan_152.67.160.174_0",
         "trojan_172.67.204.22_0",
         "trojan_172.67.210.210_0",
+        "trojan_91.193.59.194_0",
+        "trojan_91.193.59.194_0",
+        "trojan_91.193.59.194_0",
         "trojan_51.83.186.142_0",
         "trojan_51.83.186.142_0",
         "trojan_51.83.186.142_0",
         "trojan_51.83.186.142_0",
         "trojan_104.26.8.202_0",
+        "trojan_WwW.SpEEdTesT.NeT_0",
         "trojan_104.21.8.63_0",
         "trojan_104.21.8.63_0",
+        "trojan_104.21.8.63_0",
+        "trojan_47.250.84.25_0",
         "trojan_47.250.84.25_0",
         "trojan_47.250.84.25_0",
         "trojan_47.250.84.25_0",
@@ -9233,8 +9755,6 @@
         "trojan_18.65.190.65_0",
         "trojan_103.97.91.17_0",
         "trojan_103.97.91.17_0",
-        "trojan_103.97.91.17_0",
-        "trojan_103.97.91.17_0",
         "trojan_104.160.44.203_0",
         "trojan_104.160.44.203_0",
         "trojan_104.160.44.203_0",
@@ -9248,8 +9768,6 @@
         "trojan_23.106.44.14_0",
         "trojan_38.180.35.145_0",
         "trojan_38.180.35.145_0",
-        "trojan_38.180.35.145_0",
-        "trojan_86.106.119.23_0",
         "trojan_86.106.119.23_0",
         "trojan_86.106.119.23_0",
         "trojan_104.21.21.226_0",
@@ -9310,6 +9828,7 @@
         "trojan_45.67.215.153_0",
         "trojan_104.21.66.157_0",
         "trojan_172.67.161.129_0",
+        "trojan_8.6.112.0_0",
         "trojan_104.20.5.134_0",
         "trojan_172.67.204.84_0",
         "trojan_104.16.72.101_0",
@@ -9329,11 +9848,13 @@
         "trojan_104.21.42.250_0",
         "trojan_103.235.46.40_0",
         "trojan_60.250.152.209_0",
+        "trojan_8.6.112.0_0",
         "trojan_69.46.46.148_0",
         "trojan_13.250.28.5_0",
         "trojan_15.197.162.184_0",
         "trojan_172.232.250.160_0",
         "trojan_172.67.177.123_0",
+        "trojan_104.21.85.39_0",
         "trojan_133.242.55.38_0",
         "trojan_20.210.234.145_0",
         "trojan_15.204.209.50_0",
@@ -9388,6 +9909,14 @@
         "trojan_23.227.38.18_0",
         "trojan_23.227.39.108_0",
         "trojan_149.56.132.41_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
+        "trojan_199.107.164.105_0",
         "trojan_172.66.44.182_0",
         "trojan_20.255.74.102_0",
         "trojan_20.255.74.102_0",
@@ -9395,11 +9924,14 @@
         "trojan_149.56.141.11_0",
         "trojan_149.56.141.11_0",
         "trojan_193.124.46.65_0",
+        "trojan_107.149.159.190_0",
+        "trojan_107.149.159.190_0",
+        "trojan_107.149.159.190_0",
+        "trojan_107.149.159.190_0",
+        "trojan_107.149.159.190_0",
+        "trojan_107.149.159.190_0",
         "trojan_172.64.80.1_0",
         "trojan_104.31.16.14_0",
-        "trojan_178.172.227.178_0",
-        "trojan_178.172.227.178_0",
-        "trojan_178.172.227.178_0",
         "trojan_144.31.82.35_0",
         "trojan_154.26.128.147_0",
         "trojan_162.251.82.253_0",
@@ -9425,11 +9957,8 @@
         "trojan_141.101.120.253_0",
         "trojan_141.101.121.253_0",
         "trojan_143.110.133.216_0",
-        "trojan_144.31.104.154_0",
         "trojan_144.31.57.146_0",
-        "trojan_146.190.102.51_0",
         "trojan_146.190.27.232_0",
-        "trojan_147.45.197.95_0",
         "trojan_149.28.56.202_0",
         "trojan_150.241.108.1_0",
         "trojan_150.241.122.110_0",
@@ -9447,7 +9976,6 @@
         "trojan_166.62.112.253_0",
         "trojan_166.62.115.253_0",
         "trojan_167.68.11.253_0",
-        "trojan_167.71.169.92_0",
         "trojan_172.64.147.106_0",
         "trojan_172.64.149.54_0",
         "trojan_172.64.149.54_0",
@@ -9456,7 +9984,6 @@
         "trojan_172.86.114.80_0",
         "trojan_176.124.201.78_0",
         "trojan_178.128.190.138_0",
-        "trojan_178.128.60.89_0",
         "trojan_178.128.70.6_0",
         "trojan_178.128.97.53_0",
         "trojan_178.156.148.4_0",
@@ -9523,7 +10050,6 @@
         "trojan_8.6.112.0_0",
         "trojan_80.93.202.253_0",
         "trojan_88.218.78.20_0",
-        "trojan_91.107.158.211_0",
         "trojan_91.220.8.170_0",
         "trojan_91.220.8.170_0",
         "trojan_91.99.193.84_0",
@@ -9538,6 +10064,7 @@
         "trojan_69.84.182.18_0",
         "trojan_104.26.15.85_0",
         "trojan_104.21.58.135_0",
+        "trojan_uwu.blueknightnet.qzz.io_0",
         "trojan_60.250.152.209_0",
         "trojan_60.250.152.230_0",
         "trojan_51.77.213.197_0",
@@ -9622,13 +10149,7 @@
         "trojan_108.165.152.80_0",
         "trojan_108.165.152.82_0",
         "trojan_108.165.152.91_0",
-        "trojan_108.165.152.92_0",
-        "trojan_108.165.152.93_0",
-        "trojan_108.165.152.98_0",
-        "trojan_124.156.202.172_0",
-        "trojan_130.250.137.63_0",
-        "trojan_135.84.64.36_0",
-        "trojan_135.84.64.77_0"
+        "trojan_108.165.152.92_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

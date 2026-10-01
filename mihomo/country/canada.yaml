@@ -10,23 +10,23 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_5.78.45.230_0
-      server: 5.78.45.230
+-     name: vless_179.236.226.199_0
+      server: 179.236.226.199
       port: 0
       udp: true
       type: vless
-      uuid: fcc64e6f-bdcd-471a-a2d4-27c757578070
+      uuid: dbe7df9a-c846-4305-9bbf-771c1b2f0520
       flow: xtls-rprx-vision
       tls: true
-      servername: thestraightpath.ca
-      client-fingerprint: chrome
+      servername: www.flyprotect.ca
+      client-fingerprint: firefox
       reality-opts:
-        public-key: lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw
-        short-id: b684d13617792bb2
+        public-key: 7GrtXwjHcC6ScXB0e2KIJ6qAv2UEIlAPWVNolBeWe0A
+        short-id: 306e0b4dacd18252
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_5.78.45.230_0]
+      proxies: [vless_179.236.226.199_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

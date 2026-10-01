@@ -209,32 +209,6 @@
       }
     },
     {
-      "tag": "vless_159.223.24.65_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "159.223.24.65",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_167.99.80.91_0",
       "protocol": "vless",
       "settings": {
@@ -379,32 +353,6 @@
         "tlsSettings": {
           "serverName": "sni.111000.indevs.in",
           "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.66.47.69_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.66.47.69",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": true
         },
         "network": "ws",
         "wsSettings": {
@@ -691,6 +639,90 @@
       }
     },
     {
+      "tag": "vless_77.105.138.63_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "77.105.138.63",
+        "port": 0,
+        "id": "d5a5f132-67cc-4150-a04e-08d82ad11410",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "russian1.riseads.in",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "idEk2r0KAVDGq0lkpUUZ6vL-dRjsjO3fKxk_wyroOBE",
+            "shortId": "ac2f89279f4d0c53"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_89.124.107.171_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "89.124.107.171",
+        "port": 0,
+        "id": "d5a5f132-67cc-4150-a04e-08d82ad11410",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "peaceworld.riseads.in",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "5qBW1YJuGzgT9p7D9CU7Xtw9vHT_Vvyhqh__Mr6qAkQ",
+            "shortId": "e7628aed98cfedf1"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_89.124.107.171_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "89.124.107.171",
+        "port": 0,
+        "id": "d5a5f132-67cc-4150-a04e-08d82ad11410",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "peaceworld.riseads.in",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "5qBW1YJuGzgT9p7D9CU7Xtw9vHT_Vvyhqh__Mr6qAkQ",
+            "shortId": "e7628aed98cfedf1"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -738,13 +770,11 @@
           "vless_104.18.32.47_0",
           "vless_140.238.37.103_0",
           "vless_159.223.24.65_0",
-          "vless_159.223.24.65_0",
           "vless_167.99.80.91_0",
           "vless_167.99.80.91_0",
           "vless_167.99.80.91_0",
           "vless_167.99.80.91_0",
           "vless_172.64.149.54_0",
-          "vless_172.66.47.69_0",
           "vless_172.66.47.69_0",
           "vless_185.158.133.138_0",
           "vless_188.244.122.138_0",
@@ -755,7 +785,10 @@
           "vless_77.74.228.138_0",
           "vless_8.6.112.6_0",
           "vless_92.53.191.138_0",
-          "vless_132.243.168.76_0"
+          "vless_132.243.168.76_0",
+          "vless_77.105.138.63_0",
+          "vless_89.124.107.171_0",
+          "vless_89.124.107.171_0"
         ],
         "strategy": {
           "type": "leastPing",

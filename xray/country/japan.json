@@ -197,15 +197,41 @@
       }
     },
     {
-      "tag": "vless_64.176.190.196_0",
+      "tag": "vless_66.33.22.238_0",
       "protocol": "vless",
       "settings": {
-        "address": "64.176.190.196",
+        "address": "66.33.22.238",
         "port": 0,
-        "id": "4a41c064-5832-4f6c-992f-76a88dcd5c2c",
+        "id": "58a98463-e6b7-47ff-b3df-4f335ee9202f",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "a1.marugotoweb.jp",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA",
+            "shortId": "c083c270ef8e095e"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_65.20.113.19_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "65.20.113.19",
+        "port": 0,
+        "id": "68ef57c2-fc11-4468-9e68-625704c5eee8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -225,53 +251,26 @@
       }
     },
     {
-      "tag": "vless_66.33.22.238_0",
+      "tag": "vless_65.20.113.19_0",
       "protocol": "vless",
       "settings": {
-        "address": "66.33.22.238",
+        "address": "65.20.113.19",
         "port": 0,
-        "id": "58a98463-e6b7-47ff-b3df-4f335ee9202f",
+        "id": "71e6345a-4c1e-4b76-ae5e-f429687c1674",
         "tls": "tls",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "a1.marugotoweb.jp",
+          "serverName": "www.lovelive-anime.jp",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA",
-            "shortId": "c083c270ef8e095e"
+            "publicKey": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
+            "shortId": "f0eb800bd980b00b"
           }
         },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_66.33.22.238_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "66.33.22.238",
-        "port": 0,
-        "id": "58a98463-e6b7-47ff-b3df-4f335ee9202f",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "a1.marugotoweb.jp",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA",
-            "shortId": "c083c270ef8e095e"
-          }
-        },
-        "network": "xhttp"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -470,12 +469,12 @@
       }
     },
     {
-      "tag": "vless_137.175.82.40_0",
+      "tag": "vless_65.20.113.19_0",
       "protocol": "vless",
       "settings": {
-        "address": "137.175.82.40",
+        "address": "65.20.113.19",
         "port": 0,
-        "id": "949d278e-6d98-4014-84e9-59f1c6c93e0e",
+        "id": "975711ee-108d-4d0c-94a7-767ea445e62a",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
@@ -485,8 +484,8 @@
           "serverName": "www.lovelive-anime.jp",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E",
-            "shortId": "d082f567"
+            "publicKey": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
+            "shortId": "f0eb800bd980b00b"
           }
         },
         "network": "tcp"
@@ -544,9 +543,9 @@
           "trojan_3.168.86.96_0",
           "vless_88.216.73.74_0",
           "vless_88.216.73.74_0",
-          "vless_64.176.190.196_0",
           "vless_66.33.22.238_0",
-          "vless_66.33.22.238_0",
+          "vless_65.20.113.19_0",
+          "vless_65.20.113.19_0",
           "vless_137.175.82.40_0",
           "vless_137.175.82.40_0",
           "vless_137.175.82.40_0",
@@ -554,7 +553,7 @@
           "vless_137.175.82.40_0",
           "vless_137.175.82.40_0",
           "vless_137.175.82.40_0",
-          "vless_137.175.82.40_0"
+          "vless_65.20.113.19_0"
         ],
         "strategy": {
           "type": "leastPing",

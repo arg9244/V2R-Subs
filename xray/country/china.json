@@ -153,26 +153,24 @@
       }
     },
     {
-      "tag": "vless_66.33.22.229_0",
+      "tag": "vless_tg.juntham.cn_0",
       "protocol": "vless",
       "settings": {
-        "address": "66.33.22.229",
+        "address": "tg.juntham.cn",
         "port": 0,
-        "id": "b8d8944b-0ad5-4cb5-9b48-b73c5380b332",
-        "tls": "tls",
-        "encryption": "none"
+        "id": "da8aa4cc-4f76-4248-a289-41f25713b6e2",
+        "tls": "tls"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "api-stg.semiconductor.samsung.cn",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw",
-            "shortId": "7aae950fc7d5"
-          }
+          "serverName": "tg.juntham.cn",
+          "allowInsecure": false
         },
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
       },
       "mux": {
         "enabled": true,
@@ -225,7 +223,7 @@
           "vless_43.174.246.25_0",
           "vless_43.174.247.25_0",
           "vless_66.33.22.229_0",
-          "vless_66.33.22.229_0"
+          "vless_tg.juntham.cn_0"
         ],
         "strategy": {
           "type": "leastPing",

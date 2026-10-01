@@ -10,6 +10,70 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_95.182.88.129_0
+      server: 95.182.88.129
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39d5e728-c358-409a-8367-d5253a9ed825
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw
+        short-id: 3675
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_95.182.88.129_0
+      server: 95.182.88.129
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39d5e728-c358-409a-8367-d5253a9ed825
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw
+        short-id: 3675
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_95.182.88.129_0
+      server: 95.182.88.129
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39d5e728-c358-409a-8367-d5253a9ed825
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw
+        short-id: 3675
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: "vless_95.182.88.129:40913?mode=auto&path=/&security=reality&encryption=none&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":15,\"hMaxRequestTimes\":\"100-300\",\"hMaxReusableSecs\":\"600-1200\",\"maxConcurrency\":\"\",\"maxConnections\"_0"
+      server: "95.182.88.129:40913?mode=auto&path=/&security=reality&encryption=none&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":15,\"hMaxRequestTimes\":\"100-300\",\"hMaxReusableSecs\":\"600-1200\",\"maxConcurrency\":\"\",\"maxConnections\""
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39d5e728-c358-409a-8367-d5253a9ed825
+      tls: true
+      servername: yt.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 0cDEl8J8P1ZAFz34srLX5m_PBFtYtEeBm8PWMM5IvGw
+        short-id: 3675
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
 -     name: vless_172.66.47.97_0
       server: 172.66.47.97
       port: 0
@@ -35,7 +99,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_172.66.47.97_0, vless_172.66.47.97_0]
+      proxies: [vless_95.182.88.129_0, vless_95.182.88.129_0, vless_95.182.88.129_0, "vless_95.182.88.129:40913?mode=auto&path=/&security=reality&encryption=none&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":15,\"hMaxRequestTimes\":\"100-300\",\"hMaxReusableSecs\":\"600-1200\",\"maxConcurrency\":\"\",\"maxConnections\"_0", vless_172.66.47.97_0, vless_172.66.47.97_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -10,18 +10,19 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
+-     name: vless_www.visa.com.sg_0
+      server: www.visa.com.sg
       port: 0
       udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
-      servername: sg-proxy.local
+      type: vless
+      uuid: f7ed4770-81f4-47a1-9490-8b8cd684c97e
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.KR.CMLiussss.net"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_43.173.90.202_0]
+      proxies: [vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

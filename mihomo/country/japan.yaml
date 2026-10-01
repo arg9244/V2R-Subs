@@ -72,51 +72,48 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: grpc
--     name: vless_64.176.190.196_0
-      server: 64.176.190.196
+-     name: vless_66.33.22.238_0
+      server: 66.33.22.238
       port: 0
       udp: true
       type: vless
-      uuid: 4a41c064-5832-4f6c-992f-76a88dcd5c2c
+      uuid: 58a98463-e6b7-47ff-b3df-4f335ee9202f
+      tls: true
+      servername: a1.marugotoweb.jp
+      client-fingerprint: ios
+      reality-opts:
+        public-key: aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA
+        short-id: c083c270ef8e095e
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
+-     name: vless_65.20.113.19_0
+      server: 65.20.113.19
+      port: 0
+      udp: true
+      type: vless
+      uuid: 68ef57c2-fc11-4468-9e68-625704c5eee8
       flow: xtls-rprx-vision
       tls: true
       servername: www.lovelive-anime.jp
-      client-fingerprint: chrome
+      client-fingerprint: firefox
       reality-opts:
         public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
         short-id: f0eb800bd980b00b
--     name: vless_66.33.22.238_0
-      server: 66.33.22.238
+-     name: vless_65.20.113.19_0
+      server: 65.20.113.19
       port: 0
       udp: true
       type: vless
-      uuid: 58a98463-e6b7-47ff-b3df-4f335ee9202f
+      uuid: 71e6345a-4c1e-4b76-ae5e-f429687c1674
+      flow: xtls-rprx-vision
       tls: true
-      servername: a1.marugotoweb.jp
-      client-fingerprint: ios
+      servername: www.lovelive-anime.jp
+      client-fingerprint: firefox
       reality-opts:
-        public-key: aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA
-        short-id: c083c270ef8e095e
-      network: xhttp
-      xhttp-opts:
-        path: /
-        host: ""
--     name: vless_66.33.22.238_0
-      server: 66.33.22.238
-      port: 0
-      udp: true
-      type: vless
-      uuid: 58a98463-e6b7-47ff-b3df-4f335ee9202f
-      tls: true
-      servername: a1.marugotoweb.jp
-      client-fingerprint: ios
-      reality-opts:
-        public-key: aelE3AQ0i8osyvH_XbLUm2o7uu2uHO21gEQ3lwRZfCA
-        short-id: c083c270ef8e095e
-      network: xhttp
-      xhttp-opts:
-        path: /
-        host: ""
+        public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+        short-id: f0eb800bd980b00b
 -     name: vless_137.175.82.40_0
       server: 137.175.82.40
       port: 0
@@ -126,19 +123,6 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: www.lovelive-anime.jp
-      reality-opts:
-        public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
-        short-id: d082f567
--     name: vless_137.175.82.40_0
-      server: 137.175.82.40
-      port: 0
-      udp: true
-      type: vless
-      uuid: 949d278e-6d98-4014-84e9-59f1c6c93e0e
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.lovelive-anime.jp
-      client-fingerprint: chrome
       reality-opts:
         public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
         short-id: d082f567
@@ -220,10 +204,23 @@ proxies:
       reality-opts:
         public-key: EcmNQqZxyW4GCEQF-7nH54w3qgBkLzsfqFSgafGjB0E
         short-id: d082f567
+-     name: vless_65.20.113.19_0
+      server: 65.20.113.19
+      port: 0
+      udp: true
+      type: vless
+      uuid: 975711ee-108d-4d0c-94a7-767ea445e62a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.lovelive-anime.jp
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+        short-id: f0eb800bd980b00b
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_3.168.86.96_0, vless_88.216.73.74_0, vless_88.216.73.74_0, vless_64.176.190.196_0, vless_66.33.22.238_0, vless_66.33.22.238_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0]
+      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_3.168.86.96_0, vless_88.216.73.74_0, vless_88.216.73.74_0, vless_66.33.22.238_0, vless_65.20.113.19_0, vless_65.20.113.19_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_137.175.82.40_0, vless_65.20.113.19_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

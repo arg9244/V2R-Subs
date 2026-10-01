@@ -10,36 +10,23 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_151.244.237.100_0
-      server: 151.244.237.100
+-     name: vless_78.17.161.169_0
+      server: 78.17.161.169
       port: 0
       udp: true
       type: vless
-      uuid: 60e2a548-96aa-4850-a279-1edab743c39b
+      uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
       flow: xtls-rprx-vision
       tls: true
-      servername: atman.pl
+      servername: wp.pl
       client-fingerprint: firefox
       reality-opts:
-        public-key: AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk
-        short-id: dd1d50efb598160a
--     name: vless_151.244.237.100_0
-      server: 151.244.237.100
-      port: 0
-      udp: true
-      type: vless
-      uuid: 60e2a548-96aa-4850-a279-1edab743c39b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: atman.pl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: AOThrTy8YvNzlha_TjCFrNyIA7Z57YThumIy3tfIuEk
-        short-id: dd1d50efb598160a
+        public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
+        short-id: e852dc
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_151.244.237.100_0, vless_151.244.237.100_0]
+      proxies: [vless_78.17.161.169_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

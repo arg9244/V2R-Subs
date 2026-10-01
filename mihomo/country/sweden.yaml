@@ -35,19 +35,6 @@ proxies:
       reality-opts:
         public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
         short-id: ""
--     name: vless_143.246.193.215_0
-      server: 143.246.193.215
-      port: 0
-      udp: true
-      type: vless
-      uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.blocket.se
-      client-fingerprint: randomized
-      reality-opts:
-        public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
-        short-id: ""
 -     name: vless_46.246.97.245_0
       server: 46.246.97.245
       port: 0
@@ -64,6 +51,15 @@ proxies:
       xhttp-opts:
         path: /x
         host: ""
+-     name: vless_www.gov.se_0
+      server: www.gov.se
+      port: 0
+      udp: true
+      type: vless
+      uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_143.246.196.122_0
       server: 143.246.196.122
       port: 0
@@ -145,7 +141,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_143.246.193.215_0, vless_143.246.193.215_0, vless_143.246.193.215_0, vless_46.246.97.245_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.207_0]
+      proxies: [vless_143.246.193.215_0, vless_143.246.193.215_0, vless_46.246.97.245_0, vless_www.gov.se_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.122_0, vless_143.246.196.207_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

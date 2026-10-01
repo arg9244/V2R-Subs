@@ -13,6 +13,30 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_www.ipaddress.my_0",
+      "server": "www.ipaddress.my",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.21.79.221_0",
       "server": "104.21.79.221",
       "server_port": 0,
@@ -293,24 +317,14 @@
       }
     },
     {
-      "tag": "vless_104.20.30.10_0",
-      "server": "104.20.30.10",
+      "tag": "vless_104.16.181.38_0",
+      "server": "104.16.181.38",
       "server_port": 0,
       "type": "vless",
       "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
       "tls": {
         "enabled": true,
-        "server_name": "us9.69lover.my",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "us9.69lover.my"
       },
       "transport": {
         "type": "ws",
@@ -323,14 +337,13 @@
       }
     },
     {
-      "tag": "vless_104.20.30.10_0",
-      "server": "104.20.30.10",
+      "tag": "vless_104.16.181.38_0",
+      "server": "104.16.181.38",
       "server_port": 0,
       "type": "vless",
       "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "us9.69lover.my",
         "utls": {
           "enabled": true,
@@ -410,12 +423,6 @@
       "tls": {
         "enabled": true,
         "server_name": "us9.69lover.my",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -454,6 +461,30 @@
       "transport": {
         "type": "ws",
         "path": "/api/v2/63e9687fa53e441c/stream"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_104.20.30.10_0",
+      "server": "104.20.30.10",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
+      "tls": {
+        "enabled": true,
+        "server_name": "us9.69lover.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -552,36 +583,6 @@
       }
     },
     {
-      "tag": "vless_104.16.60.10_0",
-      "server": "104.16.60.10",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk1.69lover.my",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/e2fe4e52a165854d/stream"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_193.233.217.135_0",
       "server": "193.233.217.135",
       "server_port": 0,
@@ -605,6 +606,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_www.ipaddress.my_0",
         "vless_104.21.79.221_0",
         "vless_104.21.79.221_0",
         "vless_5.180.42.57_0",
@@ -617,14 +619,14 @@
         "vless_104.16.109.0_0",
         "vless_162.159.245.0_0",
         "vless_104.16.181.38_0",
-        "vless_104.20.30.10_0",
+        "vless_104.16.181.38_0",
+        "vless_104.16.181.38_0",
         "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_188.114.97.6_0",
-        "vless_104.16.60.10_0",
         "vless_104.16.60.10_0",
         "vless_104.16.60.10_0",
         "vless_193.233.217.135_0"

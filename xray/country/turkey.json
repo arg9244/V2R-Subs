@@ -274,21 +274,32 @@
       }
     },
     {
-      "tag": "vless_84.38.187.169_0",
+      "tag": "vless_any.elifportal.web.tr_0",
       "protocol": "vless",
       "settings": {
-        "address": "84.38.187.169",
+        "address": "any.elifportal.web.tr",
         "port": 0,
-        "id": "553d8193-d897-0037-bb46-f075b670f22a",
-        "tls": "tls"
+        "id": "566dc0a7-4a2d-49d0-bd87-d8d5443abbb2",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "mc.yandex.tr",
+          "serverName": "any.elifportal.web.tr",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
           "allowInsecure": false
         },
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/uk-cdn"
+        }
       },
       "mux": {
         "enabled": true,
@@ -602,37 +613,6 @@
       }
     },
     {
-      "tag": "vless_104.18.32.47_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.32.47",
-        "port": 0,
-        "id": "a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "de.mrtech.com.tr",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_45.130.125.76_0",
       "protocol": "vless",
       "settings": {
@@ -780,6 +760,7 @@
           "vless_104.26.1.117_0",
           "vless_104.26.1.117_0",
           "vless_104.16.72.70_0",
+          "vless_any.elifportal.web.tr_0",
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",
@@ -790,8 +771,6 @@
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",
-          "vless_84.38.187.169_0",
-          "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
           "vless_45.130.125.76_0",
           "vless_45.130.125.76_0",
