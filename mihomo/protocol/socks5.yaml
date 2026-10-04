@@ -10,8 +10,13 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: socks5_109.123.251.109_1080
-      server: 109.123.251.109
+-     name: socks5_171.25.158.95_1080
+      server: 171.25.158.95
+      port: 1080
+      udp: true
+      type: socks5
+-     name: socks5_178.252.165.226_1080
+      server: 178.252.165.226
       port: 1080
       udp: true
       type: socks5
@@ -23,7 +28,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [socks5_109.123.251.109_1080, socks5_91.212.174.37_10808]
+      proxies: [socks5_171.25.158.95_1080, socks5_178.252.165.226_1080, socks5_91.212.174.37_10808]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

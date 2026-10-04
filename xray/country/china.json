@@ -153,31 +153,6 @@
       }
     },
     {
-      "tag": "vless_tg.juntham.cn_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "tg.juntham.cn",
-        "port": 0,
-        "id": "da8aa4cc-4f76-4248-a289-41f25713b6e2",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "tg.juntham.cn",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -222,8 +197,7 @@
           "trojan_42.236.73.72_0",
           "vless_43.174.246.25_0",
           "vless_43.174.247.25_0",
-          "vless_66.33.22.229_0",
-          "vless_tg.juntham.cn_0"
+          "vless_66.33.22.229_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -13,8 +13,14 @@
   ],
   "outbounds": [
     {
-      "tag": "socks5_109.123.251.109_1080",
-      "server": "109.123.251.109",
+      "tag": "socks5_171.25.158.95_1080",
+      "server": "171.25.158.95",
+      "server_port": 1080,
+      "type": "socks"
+    },
+    {
+      "tag": "socks5_178.252.165.226_1080",
+      "server": "178.252.165.226",
       "server_port": 1080,
       "type": "socks"
     },
@@ -28,7 +34,8 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "socks5_109.123.251.109_1080",
+        "socks5_171.25.158.95_1080",
+        "socks5_178.252.165.226_1080",
         "socks5_91.212.174.37_10808"
       ],
       "url": "https://www.gstatic.com/generate_204",

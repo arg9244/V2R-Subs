@@ -65,17 +65,6 @@ proxies:
       type: vless
       uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
       tls: true
-      servername: ProxyVPN11.afrcloud22.mmv.kr
-      network: ws
-      ws-opts:
-        path: "/43.218.77.16=1443"
--     name: vless_104.16.2.90_0
-      server: 104.16.2.90
-      port: 0
-      udp: true
-      type: vless
-      uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-      tls: true
       skip-cert-verify: true
       servername: ProxyVPN11.afrcloud22.mmv.kr
       network: ws
@@ -88,6 +77,18 @@ proxies:
       type: vless
       uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
       tls: true
+      servername: afrcloud5.c01.kr
+      network: ws
+      ws-opts:
+        path: "/188.240.213.98:8443"
+-     name: vless_63.141.128.45_0
+      server: 63.141.128.45
+      port: 0
+      udp: true
+      type: vless
+      uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
+      tls: true
+      skip-cert-verify: true
       servername: afrcloud5.c01.kr
       network: ws
       ws-opts:
@@ -325,7 +326,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_172.67.73.14_0, vless_188.114.96.3_0, vless_104.16.0.108_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0]
+      proxies: [vless_172.67.73.14_0, vless_188.114.96.3_0, vless_104.16.0.108_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_63.141.128.45_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

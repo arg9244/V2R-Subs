@@ -92,38 +92,13 @@
       }
     },
     {
-      "tag": "vless_tg.juntham.cn_0",
-      "server": "tg.juntham.cn",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "da8aa4cc-4f76-4248-a289-41f25713b6e2",
-      "tls": {
-        "enabled": true,
-        "server_name": "tg.juntham.cn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "trojan_42.236.73.72_0",
         "vless_43.174.246.25_0",
         "vless_43.174.247.25_0",
-        "vless_66.33.22.229_0",
-        "vless_tg.juntham.cn_0"
+        "vless_66.33.22.229_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

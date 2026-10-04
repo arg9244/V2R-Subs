@@ -13,30 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_www.ipaddress.my_0",
-      "server": "www.ipaddress.my",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
-      "tls": {
-        "enabled": true,
-        "server_name": "misaka.cndyw.ggff.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.21.79.221_0",
       "server": "104.21.79.221",
       "server_port": 0,
@@ -133,6 +109,48 @@
           "enabled": true,
           "public_key": "nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24",
           "short_id": "24fc325b440818ce"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_2.56.124.3_0",
+      "server": "2.56.124.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "7cdc8f71-59a5-431e-a0a2-10b241a77844",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "edge-us1.lovely.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "JJV4Ix21lpPasIZx843xxTZRORXHHWS4Ku2w1GgVGjw",
+          "short_id": "e0c5ef4cd3c21c50"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_2.56.124.3_0",
+      "server": "2.56.124.3",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "7cdc8f71-59a5-431e-a0a2-10b241a77844",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "edge-us1.lovely.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "JJV4Ix21lpPasIZx843xxTZRORXHHWS4Ku2w1GgVGjw",
+          "short_id": "e0c5ef4cd3c21c50"
         },
         "utls": {
           "enabled": true,
@@ -337,30 +355,6 @@
       }
     },
     {
-      "tag": "vless_104.16.181.38_0",
-      "server": "104.16.181.38",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
-      "tls": {
-        "enabled": true,
-        "server_name": "us9.69lover.my",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.20.30.10_0",
       "server": "104.20.30.10",
       "server_port": 0,
@@ -407,84 +401,6 @@
       "transport": {
         "type": "ws",
         "path": "/api/v2/63e9687fa53e441c/stream"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.20.30.10_0",
-      "server": "104.20.30.10",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
-      "tls": {
-        "enabled": true,
-        "server_name": "us9.69lover.my",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/63e9687fa53e441c/stream"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.20.30.10_0",
-      "server": "104.20.30.10",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
-      "tls": {
-        "enabled": true,
-        "server_name": "us9.69lover.my",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v2/63e9687fa53e441c/stream"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.20.30.10_0",
-      "server": "104.20.30.10",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "91d28760-ecf1-450b-9170-d310111a0e6d",
-      "tls": {
-        "enabled": true,
-        "server_name": "us9.69lover.my",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -583,6 +499,111 @@
       }
     },
     {
+      "tag": "vless_185.236.22.34_0",
+      "server": "185.236.22.34",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amber.gaznw.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU",
+          "short_id": "46da9a2868751b85"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.236.22.34_0",
+      "server": "185.236.22.34",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amber.gaznw.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU",
+          "short_id": "46da9a2868751b85"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.236.22.34_0",
+      "server": "185.236.22.34",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amber.gaznw.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU",
+          "short_id": "46da9a2868751b85"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.236.22.34_0",
+      "server": "185.236.22.34",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amber.gaznw.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU",
+          "short_id": "46da9a2868751b85"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "vless_185.236.22.34_0",
+      "server": "185.236.22.34",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amber.gaznw.my",
+        "reality": {
+          "enabled": true,
+          "public_key": "oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU",
+          "short_id": "46da9a2868751b85"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
       "tag": "vless_193.233.217.135_0",
       "server": "193.233.217.135",
       "server_port": 0,
@@ -606,11 +627,12 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_www.ipaddress.my_0",
         "vless_104.21.79.221_0",
         "vless_104.21.79.221_0",
         "vless_5.180.42.57_0",
         "vless_5.180.42.57_0",
+        "vless_2.56.124.3_0",
+        "vless_2.56.124.3_0",
         "vless_104.25.30.10_0",
         "vless_104.17.13.0_0",
         "vless_104.17.45.0_0",
@@ -620,15 +642,16 @@
         "vless_162.159.245.0_0",
         "vless_104.16.181.38_0",
         "vless_104.16.181.38_0",
-        "vless_104.16.181.38_0",
-        "vless_104.20.30.10_0",
-        "vless_104.20.30.10_0",
-        "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_104.20.30.10_0",
         "vless_188.114.97.6_0",
         "vless_104.16.60.10_0",
         "vless_104.16.60.10_0",
+        "vless_185.236.22.34_0",
+        "vless_185.236.22.34_0",
+        "vless_185.236.22.34_0",
+        "vless_185.236.22.34_0",
+        "vless_185.236.22.34_0",
         "vless_193.233.217.135_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

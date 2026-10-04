@@ -592,6 +592,38 @@
       }
     },
     {
+      "tag": "vless_104.16.33.150_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.16.33.150",
+        "port": 0,
+        "id": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless.hubp.de",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.32.47_0",
       "protocol": "vless",
       "settings": {
@@ -1280,24 +1312,45 @@
       }
     },
     {
-      "tag": "vless_31.77.13.19_0",
+      "tag": "vless_193.233.231.30_0",
       "protocol": "vless",
       "settings": {
-        "address": "31.77.13.19",
+        "address": "193.233.231.30",
         "port": 0,
-        "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+        "id": "a7ec0f75-880b-41c3-ba83-7d85b4861b3b",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "rusbid.de",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
-          }
+          "serverName": "rus40.roscomsosal.de",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_193.233.231.30:443?security=tls&encryption=none&fm={\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"3-5\",\"6-8\",\"10-20\"],\"delays\":[\"10-20\"],\"maxSplit\"_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "193.233.231.30:443?security=tls&encryption=none&fm={\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"3-5\",\"6-8\",\"10-20\"],\"delays\":[\"10-20\"],\"maxSplit\"",
+        "port": 0,
+        "id": "a7ec0f75-880b-41c3-ba83-7d85b4861b3b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rus40.roscomsosal.de",
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -1503,7 +1556,8 @@
         "port": 0,
         "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -1514,7 +1568,88 @@
             "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
           }
         },
-        "network": "raw"
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.77.13.19_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.77.13.19",
+        "port": 0,
+        "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "rusbid.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.77.13.19_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.77.13.19",
+        "port": 0,
+        "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "rusbid.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.77.13.19_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.77.13.19",
+        "port": 0,
+        "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "rusbid.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -1736,6 +1871,32 @@
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "rusbid.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.77.13.19_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.77.13.19",
+        "port": 0,
+        "id": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -2149,6 +2310,88 @@
         "port": 0,
         "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
         "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "amazon.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
+            "shortId": "eba1498e012ef580"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.150.33.33_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.150.33.33",
+        "port": 0,
+        "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "amazon.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
+            "shortId": "eba1498e012ef580"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.150.33.33_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.150.33.33",
+        "port": 0,
+        "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "amazon.de",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
+            "shortId": "eba1498e012ef580"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.150.33.33_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.150.33.33",
+        "port": 0,
+        "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
+        "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
@@ -2231,6 +2474,7 @@
           "vless_79.137.207.130_0",
           "vless_104.16.33.150_0",
           "vless_104.16.33.150_0",
+          "vless_104.16.33.150_0",
           "vless_104.18.32.47_0",
           "vless_104.18.82.55_0",
           "vless_104.18.82.55_0",
@@ -2255,6 +2499,11 @@
           "vless_176.124.199.193_0",
           "vless_162.159.135.234_0",
           "vless_162.159.135.234_0",
+          "vless_193.233.231.30_0",
+          "vless_193.233.231.30:443?security=tls&encryption=none&fm={\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"3-5\",\"6-8\",\"10-20\"],\"delays\":[\"10-20\"],\"maxSplit\"_0",
+          "vless_31.77.13.19_0",
+          "vless_31.77.13.19_0",
+          "vless_31.77.13.19_0",
           "vless_31.77.13.19_0",
           "vless_31.77.13.19_0",
           "vless_31.77.13.19_0",
@@ -2286,6 +2535,9 @@
           "vless_62.60.239.210_0",
           "vless_62.60.239.210_0",
           "vless_62.60.239.210_0",
+          "vless_45.150.33.33_0",
+          "vless_45.150.33.33_0",
+          "vless_45.150.33.33_0",
           "vless_45.150.33.33_0"
         ],
         "strategy": {

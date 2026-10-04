@@ -106,19 +106,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_any.elifportal.web.tr_0
-      server: any.elifportal.web.tr
-      port: 0
-      udp: true
-      type: vless
-      uuid: 566dc0a7-4a2d-49d0-bd87-d8d5443abbb2
-      tls: true
-      servername: any.elifportal.web.tr
-      alpn: [h3, h2, http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /uk-cdn
 -     name: vless_84.38.187.169_0
       server: 84.38.187.169
       port: 0
@@ -293,6 +280,19 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_104.18.32.47_0
+      server: 104.18.32.47
+      port: 0
+      udp: true
+      type: vless
+      uuid: a4b96207-61fd-4ab3-aa1d-1e26fb02dc3b
+      tls: true
+      servername: de.mrtech.com.tr
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_45.130.125.76_0
       server: 45.130.125.76
       port: 0
@@ -342,7 +342,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_162.159.136.234_0, vless_162.159.136.234_0, vless_194.76.18.253_0, vless_194.76.18.253_0, vless_45.130.125.0_0, vless_104.26.1.117_0, vless_104.26.1.117_0, vless_104.16.72.70_0, vless_any.elifportal.web.tr_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0]
+      proxies: [vless_162.159.136.234_0, vless_162.159.136.234_0, vless_194.76.18.253_0, vless_194.76.18.253_0, vless_45.130.125.0_0, vless_104.26.1.117_0, vless_104.26.1.117_0, vless_104.16.72.70_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

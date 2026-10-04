@@ -10,18 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_www.ipaddress.my_0
-      server: www.ipaddress.my
-      port: 0
-      udp: true
-      type: vless
-      uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-      tls: true
-      servername: misaka.cndyw.ggff.net
-      client-fingerprint: random
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_104.21.79.221_0
       server: 104.21.79.221
       port: 0
@@ -74,6 +62,32 @@ proxies:
       reality-opts:
         public-key: nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24
         short-id: 24fc325b440818ce
+-     name: vless_2.56.124.3_0
+      server: 2.56.124.3
+      port: 0
+      udp: true
+      type: vless
+      uuid: 7cdc8f71-59a5-431e-a0a2-10b241a77844
+      flow: xtls-rprx-vision
+      tls: true
+      servername: edge-us1.lovely.my
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: JJV4Ix21lpPasIZx843xxTZRORXHHWS4Ku2w1GgVGjw
+        short-id: e0c5ef4cd3c21c50
+-     name: vless_2.56.124.3_0
+      server: 2.56.124.3
+      port: 0
+      udp: true
+      type: vless
+      uuid: 7cdc8f71-59a5-431e-a0a2-10b241a77844
+      flow: xtls-rprx-vision
+      tls: true
+      servername: edge-us1.lovely.my
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: JJV4Ix21lpPasIZx843xxTZRORXHHWS4Ku2w1GgVGjw
+        short-id: e0c5ef4cd3c21c50
 -     name: vless_104.25.30.10_0
       server: 104.25.30.10
       port: 0
@@ -175,18 +189,6 @@ proxies:
       network: ws
       ws-opts:
         path: /api/v2/63e9687fa53e441c/stream
--     name: vless_104.16.181.38_0
-      server: 104.16.181.38
-      port: 0
-      udp: true
-      type: vless
-      uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-      tls: true
-      servername: us9.69lover.my
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_104.20.30.10_0
       server: 104.20.30.10
       port: 0
@@ -212,43 +214,6 @@ proxies:
       network: ws
       ws-opts:
         path: /api/v2/63e9687fa53e441c/stream
--     name: vless_104.20.30.10_0
-      server: 104.20.30.10
-      port: 0
-      udp: true
-      type: vless
-      uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-      tls: true
-      servername: us9.69lover.my
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /api/v2/63e9687fa53e441c/stream
--     name: vless_104.20.30.10_0
-      server: 104.20.30.10
-      port: 0
-      udp: true
-      type: vless
-      uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-      tls: true
-      servername: us9.69lover.my
-      alpn: [http/1.1]
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /api/v2/63e9687fa53e441c/stream
--     name: vless_104.20.30.10_0
-      server: 104.20.30.10
-      port: 0
-      udp: true
-      type: vless
-      uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-      tls: true
-      servername: us9.69lover.my
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_188.114.97.6_0
       server: 188.114.97.6
       port: 0
@@ -288,6 +253,71 @@ proxies:
       network: ws
       ws-opts:
         path: /api/v2/e2fe4e52a165854d/stream
+-     name: vless_185.236.22.34_0
+      server: 185.236.22.34
+      port: 0
+      udp: true
+      type: vless
+      uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amber.gaznw.my
+      client-fingerprint: safari
+      reality-opts:
+        public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+        short-id: 46da9a2868751b85
+-     name: vless_185.236.22.34_0
+      server: 185.236.22.34
+      port: 0
+      udp: true
+      type: vless
+      uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amber.gaznw.my
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+        short-id: 46da9a2868751b85
+-     name: vless_185.236.22.34_0
+      server: 185.236.22.34
+      port: 0
+      udp: true
+      type: vless
+      uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amber.gaznw.my
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+        short-id: 46da9a2868751b85
+-     name: vless_185.236.22.34_0
+      server: 185.236.22.34
+      port: 0
+      udp: true
+      type: vless
+      uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amber.gaznw.my
+      client-fingerprint: safari
+      reality-opts:
+        public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+        short-id: 46da9a2868751b85
+-     name: vless_185.236.22.34_0
+      server: 185.236.22.34
+      port: 0
+      udp: true
+      type: vless
+      uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amber.gaznw.my
+      client-fingerprint: safari
+      reality-opts:
+        public-key: oKG1EhkfIvBM6xLEk7ck51ZbjvUKDR22RNjTJR_7sTU
+        short-id: 46da9a2868751b85
 -     name: vless_193.233.217.135_0
       server: 193.233.217.135
       port: 0
@@ -304,7 +334,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_www.ipaddress.my_0, vless_104.21.79.221_0, vless_104.21.79.221_0, vless_5.180.42.57_0, vless_5.180.42.57_0, vless_104.25.30.10_0, vless_104.17.13.0_0, vless_104.17.45.0_0, vless_104.17.82.0_0, vless_172.67.196.0_0, vless_104.16.109.0_0, vless_162.159.245.0_0, vless_104.16.181.38_0, vless_104.16.181.38_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_104.16.60.10_0, vless_104.16.60.10_0, vless_193.233.217.135_0]
+      proxies: [vless_104.21.79.221_0, vless_104.21.79.221_0, vless_5.180.42.57_0, vless_5.180.42.57_0, vless_2.56.124.3_0, vless_2.56.124.3_0, vless_104.25.30.10_0, vless_104.17.13.0_0, vless_104.17.45.0_0, vless_104.17.82.0_0, vless_172.67.196.0_0, vless_104.16.109.0_0, vless_162.159.245.0_0, vless_104.16.181.38_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_104.16.60.10_0, vless_104.16.60.10_0, vless_185.236.22.34_0, vless_185.236.22.34_0, vless_185.236.22.34_0, vless_185.236.22.34_0, vless_185.236.22.34_0, vless_193.233.217.135_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

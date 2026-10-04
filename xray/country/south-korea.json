@@ -182,32 +182,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "ProxyVPN11.afrcloud22.mmv.kr",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/43.218.77.16=1443"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.16.2.90_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.16.2.90",
-        "port": 0,
-        "id": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ProxyVPN11.afrcloud22.mmv.kr",
           "allowInsecure": true
         },
         "network": "ws",
@@ -235,6 +209,32 @@
         "tlsSettings": {
           "serverName": "afrcloud5.c01.kr",
           "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/188.240.213.98:8443"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_63.141.128.45_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "63.141.128.45",
+        "port": 0,
+        "id": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "afrcloud5.c01.kr",
+          "allowInsecure": true
         },
         "network": "ws",
         "wsSettings": {
@@ -813,7 +813,7 @@
           "vless_104.16.0.108_0",
           "vless_104.16.2.90_0",
           "vless_104.16.2.90_0",
-          "vless_104.16.2.90_0",
+          "vless_63.141.128.45_0",
           "vless_63.141.128.45_0",
           "vless_104.19.140.106_0",
           "vless_104.19.140.106_0",
