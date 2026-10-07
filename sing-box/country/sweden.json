@@ -13,11 +13,11 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_143.246.193.215_0",
-      "server": "143.246.193.215",
+      "tag": "vless_143.246.194.36_0",
+      "server": "143.246.194.36",
       "server_port": 0,
       "type": "vless",
-      "uuid": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
+      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -28,7 +28,47 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_143.246.194.36_0",
+      "server": "143.246.194.36",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.blocket.se",
+        "reality": {
+          "enabled": true,
+          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_143.246.194.36_0",
+      "server": "143.246.194.36",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.blocket.se",
+        "reality": {
+          "enabled": true,
+          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
       }
     },
@@ -58,108 +98,13 @@
       }
     },
     {
-      "tag": "vless_143.246.196.207_0",
-      "server": "143.246.196.207",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        }
-      }
-    },
-    {
-      "tag": "vless_143.246.196.207_0",
-      "server": "143.246.196.207",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_143.246.196.207_0",
-      "server": "143.246.196.207",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "tag": "vless_143.246.196.207_0",
-      "server": "143.246.196.207",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_143.246.196.207_0",
-      "server": "143.246.196.207",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        }
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_143.246.193.215_0",
-        "vless_46.246.97.245_0",
-        "vless_143.246.196.207_0",
-        "vless_143.246.196.207_0",
-        "vless_143.246.196.207_0",
-        "vless_143.246.196.207_0",
-        "vless_143.246.196.207_0"
+        "vless_143.246.194.36_0",
+        "vless_143.246.194.36_0",
+        "vless_143.246.194.36_0",
+        "vless_46.246.97.245_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

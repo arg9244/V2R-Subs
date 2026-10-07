@@ -58,71 +58,26 @@
       "settings": {
         "address": "time.is",
         "port": 0,
-        "id": "87637bc2-cdb0-6309-3bc5-86b0ecf3f275",
+        "id": "31aa0950-eb19-45ff-94a2-af416deb3b90",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "a.v2boxerfree9.workers.dev",
+          "serverName": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+          "alpn": {
+            "alpn": [
+              "h3",
+              "h2",
+              "http/1.1"
+            ]
+          },
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/v2"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_time.is_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "time.is",
-        "port": 0,
-        "id": "9bf5713f-3d65-b629-d5a5-11019ea57433",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "a.v2boxerfree3.workers.dev",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/v2"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_time.is_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "time.is",
-        "port": 0,
-        "id": "a388daca-d6e0-c599-a95d-14f4c720743b",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "a.v2boxerfree.workers.dev",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/v2"
+          "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed"
         }
       },
       "mux": {
@@ -172,8 +127,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_time.is_0",
-          "vless_time.is_0",
           "vless_time.is_0"
         ],
         "strategy": {

@@ -1,0 +1,89 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_2c15e9d2562b.varqima.ir_0",
+      "server": "2c15e9d2562b.varqima.ir",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0af6e48f-18c6-4ad9-8486-a46336cf5f84",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "support-shield.nvidia.it",
+        "reality": {
+          "enabled": true,
+          "public_key": "5M8dZvtIjvmCHyXhJRtoZXzv7ofTQrsZUDKHfo6QByc",
+          "short_id": "18a7a405d1ea5ecc"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_109.70.74.95_0",
+      "server": "109.70.74.95",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d464232a-0904-4502-a00a-27465760dae3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "support-shield.nvidia.it",
+        "reality": {
+          "enabled": true,
+          "public_key": "8AcTUz7x2pjdCF-dgSSW2adTZaCAnHd6kCR9h7G65TM",
+          "short_id": "03043abc3abf48cc"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_2c15e9d2562b.varqima.ir_0",
+        "vless_109.70.74.95_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

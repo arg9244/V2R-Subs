@@ -1,0 +1,55 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: vless_2c15e9d2562b.varqima.ir_0
+      server: 2c15e9d2562b.varqima.ir
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0af6e48f-18c6-4ad9-8486-a46336cf5f84
+      flow: xtls-rprx-vision
+      tls: true
+      servername: support-shield.nvidia.it
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 5M8dZvtIjvmCHyXhJRtoZXzv7ofTQrsZUDKHfo6QByc
+        short-id: 18a7a405d1ea5ecc
+-     name: vless_109.70.74.95_0
+      server: 109.70.74.95
+      port: 0
+      udp: true
+      type: vless
+      uuid: d464232a-0904-4502-a00a-27465760dae3
+      flow: xtls-rprx-vision
+      tls: true
+      servername: support-shield.nvidia.it
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 8AcTUz7x2pjdCF-dgSSW2adTZaCAnHd6kCR9h7G65TM
+        short-id: 03043abc3abf48cc
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [vless_2c15e9d2562b.varqima.ir_0, vless_109.70.74.95_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

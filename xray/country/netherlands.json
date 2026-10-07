@@ -116,13 +116,18 @@
         "port": 0,
         "id": "228ecfd3-9bf0-42fd-a50e-581f84022513",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
           "serverName": "www.ozone.nl",
-          "allowInsecure": false
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "XgdHElYEGdc0A5NTZP4uTya2Y4WTKnfFV4ormD7rLx4",
+            "shortId": "debb"
+          }
         },
         "network": "tcp"
       },
@@ -160,12 +165,12 @@
       }
     },
     {
-      "tag": "vless_147.182.144.185_0",
+      "tag": "vless_185.244.49.44_0",
       "protocol": "vless",
       "settings": {
-        "address": "147.182.144.185",
+        "address": "185.244.49.44",
         "port": 0,
-        "id": "3f2eaa98-5e92-20d8-c006-899e69c948a4",
+        "id": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -173,11 +178,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.tno.nl",
+          "serverName": "ozone.nl",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "ZrdPHtBvi7yMRj17SohKaGQEXuDptmCJWCi8gk5HlD8",
-            "shortId": "35938c4e546cd459"
+            "publicKey": "XgdHElYEGdc0A5NTZP4uTya2Y4WTKnfFV4ormD7rLx4",
+            "shortId": "7aeffef4214db200"
           }
         },
         "network": "tcp"
@@ -188,66 +193,12 @@
       }
     },
     {
-      "tag": "vless_147.182.144.185_0",
+      "tag": "vless_78.17.97.201_0",
       "protocol": "vless",
       "settings": {
-        "address": "147.182.144.185",
+        "address": "78.17.97.201",
         "port": 0,
-        "id": "3f2eaa98-5e92-20d8-c006-899e69c948a4",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.tno.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZrdPHtBvi7yMRj17SohKaGQEXuDptmCJWCi8gk5HlD8",
-            "shortId": "35938c4e546cd459"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_147.182.144.185_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "147.182.144.185",
-        "port": 0,
-        "id": "3f2eaa98-5e92-20d8-c006-899e69c948a4",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.tno.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZrdPHtBvi7yMRj17SohKaGQEXuDptmCJWCi8gk5HlD8",
-            "shortId": "35938c4e546cd459"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_194.87.130.9_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "194.87.130.9",
-        "port": 0,
-        "id": "57a437c4-7eed-4ecf-bf50-5e4e35f71deb",
+        "id": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -255,66 +206,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.marktplaats.nl",
+          "serverName": "ozone.nl",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "pccR04wlWHqbXoRk19m56lzp3CdDFd6RqGEuWj5TrWk",
-            "shortId": "793bf4b257bbf247"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_201.51.21.144_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "201.51.21.144",
-        "port": 0,
-        "id": "57a437c4-7eed-4ecf-bf50-5e4e35f71deb",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.marktplaats.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "pccR04wlWHqbXoRk19m56lzp3CdDFd6RqGEuWj5TrWk",
-            "shortId": "793bf4b257bbf247"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_185.246.152.209_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "185.246.152.209",
-        "port": 0,
-        "id": "5934cc4f-c17b-41c0-9280-c75eb222f4b7",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "vu.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18"
+            "publicKey": "Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM",
+            "shortId": "42df"
           }
         },
         "network": "tcp"
@@ -534,67 +430,39 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
+          "serverName": "ozone.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "yyH7Fyfh1ULPH4L5mFVtqPf_rB1IY6jwDgOuIRY7-wA",
+            "shortId": "9409a3561ba49f30"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_83.222.8.125_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "83.222.8.125",
+        "port": 0,
+        "id": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
           "serverName": "www.ozone.nl",
           "allowInsecure": false,
           "reality": {
             "publicKey": "yyH7Fyfh1ULPH4L5mFVtqPf_rB1IY6jwDgOuIRY7-wA",
             "shortId": "ccbe97abe7"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_2.27.40.16_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "2.27.40.16",
-        "port": 0,
-        "id": "729425fa-585b-458e-841a-ea30872d4ac2",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.uva.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118",
-            "shortId": "940dbf5b"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_2.27.40.16_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "2.27.40.16",
-        "port": 0,
-        "id": "729425fa-585b-458e-841a-ea30872d4ac2",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.uva.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZPdVCztKOeffv0v4TpdQ8X5LMGmVNxZe1ZC7BFC8118",
-            "shortId": "940dbf5b"
           }
         },
         "network": "tcp"
@@ -681,12 +549,8 @@
           "vless_185.244.48.183_0",
           "vless_185.244.48.183_0",
           "vless_83.222.8.125_0",
-          "vless_147.182.144.185_0",
-          "vless_147.182.144.185_0",
-          "vless_147.182.144.185_0",
-          "vless_194.87.130.9_0",
-          "vless_201.51.21.144_0",
-          "vless_185.246.152.209_0",
+          "vless_185.244.49.44_0",
+          "vless_78.17.97.201_0",
           "vless_78.17.97.201_0",
           "vless_78.17.97.201_0",
           "vless_78.17.97.201_0",
@@ -695,8 +559,7 @@
           "vless_78.17.97.201_0",
           "vless_78.17.97.201_0",
           "vless_83.222.8.125_0",
-          "vless_2.27.40.16_0",
-          "vless_2.27.40.16_0",
+          "vless_83.222.8.125_0",
           "vless_172.66.47.67_0"
         ],
         "strategy": {

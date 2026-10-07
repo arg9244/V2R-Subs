@@ -10,14 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_43.173.90.202_0
-      server: 43.173.90.202
-      port: 0
-      udp: true
-      type: trojan
-      password: sg-trojan-2026
-      tls: true
-      servername: sg-proxy.local
 -     name: vless_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -62,13 +54,10 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      tls: true
-      servername: azadnet-a8q.pages.dev
-      client-fingerprint: random
+      uuid: 81d55675-8570-4b40-9a77-3125339a0f86
       network: ws
       ws-opts:
-        path: "/?ed=2560"
+        path: "/pyip=ProxyIP.KR.CMLiussss.net"
 -     name: vless_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -76,11 +65,11 @@ proxies:
       type: vless
       uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
       tls: true
-      servername: azadnet-dbi.pages.dev
+      servername: azadnet-a8q.pages.dev
       client-fingerprint: random
       network: ws
       ws-opts:
-        path: "/?ed"
+        path: "/?ed=2560"
 -     name: vless_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -105,18 +94,6 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2560"
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: 90c7ad5e-cd15-4314-b39b-aeabd397d592
-      tls: true
-      servername: vl.hongkong6.qzz.io
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: "/?ed="
 -     name: vless_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -153,28 +130,10 @@ proxies:
       network: ws
       ws-opts:
         path: "Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net/?ed=2560"
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: d8235de7-84c7-4454-b333-4d854c393929
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.US.CMLiussss.net"
--     name: vless_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: vless
-      uuid: d8235de7-84c7-4454-b333-4d854c393929
-      network: ws
-      ws-opts:
-        path: "/pyip=ProxyIP.US.CMLiussss.net"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_43.173.90.202_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
+      proxies: [vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -13,17 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_43.173.90.202_0",
-      "server": "43.173.90.202",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "sg-trojan-2026",
-      "tls": {
-        "enabled": true,
-        "server_name": "sg-proxy.local"
-      }
-    },
-    {
       "tag": "vless_www.visa.com.sg_0",
       "server": "www.visa.com.sg",
       "server_port": 0,
@@ -100,18 +89,10 @@
       "server": "www.visa.com.sg",
       "server_port": 0,
       "type": "vless",
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "tls": {
-        "enabled": true,
-        "server_name": "azadnet-a8q.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
+      "uuid": "81d55675-8570-4b40-9a77-3125339a0f86",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560"
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net"
       },
       "multiplex": {
         "enabled": true,
@@ -127,7 +108,7 @@
       "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
       "tls": {
         "enabled": true,
-        "server_name": "azadnet-dbi.pages.dev",
+        "server_name": "azadnet-a8q.pages.dev",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -135,7 +116,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed"
+        "path": "/?ed=2560"
       },
       "multiplex": {
         "enabled": true,
@@ -184,30 +165,6 @@
       "transport": {
         "type": "ws",
         "path": "/?ed=2560"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
-      "tls": {
-        "enabled": true,
-        "server_name": "vl.hongkong6.qzz.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed="
       },
       "multiplex": {
         "enabled": true,
@@ -288,45 +245,9 @@
       }
     },
     {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "d8235de7-84c7-4454-b333-4d854c393929",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "d8235de7-84c7-4454-b333-4d854c393929",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_43.173.90.202_0",
-        "vless_www.visa.com.sg_0",
-        "vless_www.visa.com.sg_0",
-        "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0",
         "vless_www.visa.com.sg_0",

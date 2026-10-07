@@ -15,41 +15,18 @@ proxies:
       port: 0
       udp: true
       type: vless
-      uuid: 87637bc2-cdb0-6309-3bc5-86b0ecf3f275
+      uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
       tls: true
-      servername: a.v2boxerfree9.workers.dev
+      servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
+      alpn: [h3, h2, http/1.1]
       client-fingerprint: chrome
       network: ws
       ws-opts:
-        path: /v2
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: 9bf5713f-3d65-b629-d5a5-11019ea57433
-      tls: true
-      servername: a.v2boxerfree3.workers.dev
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /v2
--     name: vless_time.is_0
-      server: time.is
-      port: 0
-      udp: true
-      type: vless
-      uuid: a388daca-d6e0-c599-a95d-14f4c720743b
-      tls: true
-      servername: a.v2boxerfree.workers.dev
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /v2
+        path: "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_time.is_0, vless_time.is_0, vless_time.is_0]
+      proxies: [vless_time.is_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
