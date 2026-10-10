@@ -53,53 +53,27 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_185.42.163.5_0",
+      "tag": "vless_141.98.85.88_0",
       "protocol": "vless",
       "settings": {
-        "address": "185.42.163.5",
+        "address": "141.98.85.88",
         "port": 0,
-        "id": "ce735eb1358947f38d5a554c1dcbab87",
+        "id": "bf55376a-a3a0-480e-9317-afa32092a96a",
         "tls": "tls",
+        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "finland.fi",
+          "serverName": "www.jyu.fi",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
-            "shortId": "aabbccdd"
+            "publicKey": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
+            "shortId": "675a2ad9f7969dd7"
           }
         },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_185.42.163.5_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "185.42.163.5",
-        "port": 0,
-        "id": "ce735eb1358947f38d5a554c1dcbab87",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "finland.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
-            "shortId": "aabbccdd"
-          }
-        },
-        "network": "xhttp"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -148,8 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_185.42.163.5_0",
-          "vless_185.42.163.5_0"
+          "vless_141.98.85.88_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -53,6 +53,32 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_172.67.73.14_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.73.14",
+        "port": 0,
+        "id": "6fab6cc6-e340-4073-93e1-c6c6802002c7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "afrcloud22.mmv.kr",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/167.179.110.68"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.16.2.90_0",
       "protocol": "vless",
       "settings": {
@@ -432,6 +458,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_172.67.73.14_0",
           "vless_104.16.2.90_0",
           "vless_104.16.2.90_0",
           "vless_63.141.128.45_0",

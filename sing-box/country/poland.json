@@ -13,19 +13,18 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_78.17.161.169_0",
-      "server": "78.17.161.169",
+      "tag": "vless_195.133.80.85_0",
+      "server": "195.133.80.85",
       "server_port": 0,
       "type": "vless",
-      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "uuid": "08fe3bec-c2ee-11f1-bb36-54db13ea7d40",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wp.pl",
+        "server_name": "www.wp.pl",
         "reality": {
           "enabled": true,
-          "public_key": "YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w",
-          "short_id": "e852dc"
+          "public_key": "vFJOO1zpiLpsdgYj8ESya6pJnGtGyo6Fr05U5GmoTGc"
         },
         "utls": {
           "enabled": true,
@@ -34,10 +33,31 @@
       }
     },
     {
+      "tag": "vless_201.10.90.107_0",
+      "server": "201.10.90.107",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "f6a5817f-c34f-11f1-aabb-52540030ba36",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.wp.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_78.17.161.169_0"
+        "vless_195.133.80.85_0",
+        "vless_201.10.90.107_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

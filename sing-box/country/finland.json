@@ -13,61 +13,31 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_185.42.163.5_0",
-      "server": "185.42.163.5",
+      "tag": "vless_141.98.85.88_0",
+      "server": "141.98.85.88",
       "server_port": 0,
       "type": "vless",
-      "uuid": "ce735eb1358947f38d5a554c1dcbab87",
+      "uuid": "bf55376a-a3a0-480e-9317-afa32092a96a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "finland.fi",
+        "server_name": "www.jyu.fi",
         "reality": {
           "enabled": true,
-          "public_key": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
-          "short_id": "aabbccdd"
+          "public_key": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
+          "short_id": "675a2ad9f7969dd7"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/x"
-      }
-    },
-    {
-      "tag": "vless_185.42.163.5_0",
-      "server": "185.42.163.5",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "ce735eb1358947f38d5a554c1dcbab87",
-      "tls": {
-        "enabled": true,
-        "server_name": "finland.fi",
-        "reality": {
-          "enabled": true,
-          "public_key": "fVat3xehkX5tVqx8dpyyDDiqI1x2PfRKWkrf6nTsRTI",
-          "short_id": "aabbccdd"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/x"
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_185.42.163.5_0",
-        "vless_185.42.163.5_0"
+        "vless_141.98.85.88_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

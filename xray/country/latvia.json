@@ -53,12 +53,12 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_62.133.62.179_0",
+      "tag": "vless_31.57.106.241_0",
       "protocol": "vless",
       "settings": {
-        "address": "62.133.62.179",
+        "address": "31.57.106.241",
         "port": 0,
-        "id": "d67af820-f54c-48ab-862c-19086357f276",
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -66,11 +66,149 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "telegraf.lv",
+          "serverName": "www.lmt.lv",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI",
-            "shortId": "e5f67890"
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.57.106.241_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.57.106.241",
+        "port": 0,
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lmt.lv",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.57.106.241_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.57.106.241",
+        "port": 0,
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lmt.lv",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.57.106.241_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.57.106.241",
+        "port": 0,
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lmt.lv",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.57.106.241_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.57.106.241",
+        "port": 0,
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lmt.lv",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_31.57.106.241_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "31.57.106.241",
+        "port": 0,
+        "id": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.lmt.lv",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
+            "shortId": "44f7c5615039ae1b"
           }
         },
         "network": "tcp"
@@ -122,7 +260,12 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_62.133.62.179_0"
+          "vless_31.57.106.241_0",
+          "vless_31.57.106.241_0",
+          "vless_31.57.106.241_0",
+          "vless_31.57.106.241_0",
+          "vless_31.57.106.241_0",
+          "vless_31.57.106.241_0"
         ],
         "strategy": {
           "type": "leastPing",

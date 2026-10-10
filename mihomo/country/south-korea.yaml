@@ -10,6 +10,18 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_172.67.73.14_0
+      server: 172.67.73.14
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6fab6cc6-e340-4073-93e1-c6c6802002c7
+      tls: true
+      skip-cert-verify: true
+      servername: afrcloud22.mmv.kr
+      network: ws
+      ws-opts:
+        path: /167.179.110.68
 -     name: vless_104.16.2.90_0
       server: 104.16.2.90
       port: 0
@@ -169,7 +181,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.16.2.90_0, vless_104.16.2.90_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0]
+      proxies: [vless_172.67.73.14_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

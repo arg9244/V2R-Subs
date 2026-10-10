@@ -53,12 +53,12 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_78.17.161.169_0",
+      "tag": "vless_195.133.80.85_0",
       "protocol": "vless",
       "settings": {
-        "address": "78.17.161.169",
+        "address": "195.133.80.85",
         "port": 0,
-        "id": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+        "id": "08fe3bec-c2ee-11f1-bb36-54db13ea7d40",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -66,11 +66,36 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "wp.pl",
+          "serverName": "www.wp.pl",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w",
-            "shortId": "e852dc"
+            "publicKey": "vFJOO1zpiLpsdgYj8ESya6pJnGtGyo6Fr05U5GmoTGc"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_201.10.90.107_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "201.10.90.107",
+        "port": 0,
+        "id": "f6a5817f-c34f-11f1-aabb-52540030ba36",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.wp.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ"
           }
         },
         "network": "tcp"
@@ -122,7 +147,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_78.17.161.169_0"
+          "vless_195.133.80.85_0",
+          "vless_201.10.90.107_0"
         ],
         "strategy": {
           "type": "leastPing",

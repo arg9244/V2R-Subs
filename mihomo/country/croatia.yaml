@@ -26,26 +26,10 @@ proxies:
       xhttp-opts:
         path: /x
         host: ""
--     name: vless_5.181.2.78_0
-      server: 5.181.2.78
-      port: 0
-      udp: true
-      type: vless
-      uuid: e06ecfcf6c73431c8d2a1fa03b210c7f
-      tls: true
-      servername: net.hr
-      client-fingerprint: random
-      reality-opts:
-        public-key: b3zd86dnGJwVtoby8xGAeUCQOy5NzjWXEDlxTLCqRCs
-        short-id: aabbccdd
-      network: xhttp
-      xhttp-opts:
-        path: /x
-        host: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_5.181.2.78_0, vless_5.181.2.78_0]
+      proxies: [vless_5.181.2.78_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -53,12 +53,12 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_143.246.194.36_0",
+      "tag": "vless_143.246.193.215_0",
       "protocol": "vless",
       "settings": {
-        "address": "143.246.194.36",
+        "address": "143.246.193.215",
         "port": 0,
-        "id": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
+        "id": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
@@ -80,52 +80,26 @@
       }
     },
     {
-      "tag": "vless_143.246.194.36_0",
+      "tag": "vless_46.246.97.245_0",
       "protocol": "vless",
       "settings": {
-        "address": "143.246.194.36",
+        "address": "46.246.97.245",
         "port": 0,
-        "id": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
+        "id": "84be60308f98488f91bcdbf78d4c5f8e",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.blocket.se",
+          "serverName": "universityadmissions.se",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
+            "publicKey": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
+            "shortId": "aabbccdd"
           }
         },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_143.246.194.36_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "143.246.194.36",
-        "port": 0,
-        "id": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.blocket.se",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-          }
-        },
-        "network": "tcp"
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -201,9 +175,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_143.246.194.36_0",
-          "vless_143.246.194.36_0",
-          "vless_143.246.194.36_0",
+          "vless_143.246.193.215_0",
+          "vless_46.246.97.245_0",
           "vless_46.246.97.245_0"
         ],
         "strategy": {

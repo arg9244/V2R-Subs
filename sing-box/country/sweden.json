@@ -13,11 +13,11 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_143.246.194.36_0",
-      "server": "143.246.194.36",
+      "tag": "vless_143.246.193.215_0",
+      "server": "143.246.193.215",
       "server_port": 0,
       "type": "vless",
-      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
+      "uuid": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -28,48 +28,33 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
       }
     },
     {
-      "tag": "vless_143.246.194.36_0",
-      "server": "143.246.194.36",
+      "tag": "vless_46.246.97.245_0",
+      "server": "46.246.97.245",
       "server_port": 0,
       "type": "vless",
-      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
+      "uuid": "84be60308f98488f91bcdbf78d4c5f8e",
       "tls": {
         "enabled": true,
-        "server_name": "www.blocket.se",
+        "server_name": "universityadmissions.se",
         "reality": {
           "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
+          "public_key": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
+          "short_id": "aabbccdd"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         }
-      }
-    },
-    {
-      "tag": "vless_143.246.194.36_0",
-      "server": "143.246.194.36",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "49dc4f1e-c185-11f1-997b-54db13ea7d40",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
       }
     },
     {
@@ -101,9 +86,8 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_143.246.194.36_0",
-        "vless_143.246.194.36_0",
-        "vless_143.246.194.36_0",
+        "vless_143.246.193.215_0",
+        "vless_46.246.97.245_0",
         "vless_46.246.97.245_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

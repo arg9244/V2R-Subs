@@ -1,0 +1,192 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_46.8.230.143_0",
+      "server": "46.8.230.143",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "a0624d3f-79dd-455e-b06f-1f87957bdea0",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.ie",
+        "reality": {
+          "enabled": true,
+          "public_key": "W346cXA49I0T8FDlWGyH7qTidk1IR1r-0BQrJm6cjD8",
+          "short_id": "85cd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0",
+        "vless_46.8.230.143_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

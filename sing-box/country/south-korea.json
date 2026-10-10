@@ -13,6 +13,27 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_172.67.73.14_0",
+      "server": "172.67.73.14",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6fab6cc6-e340-4073-93e1-c6c6802002c7",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud22.mmv.kr"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/167.179.110.68"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.16.2.90_0",
       "server": "104.16.2.90",
       "server_port": 0,
@@ -292,6 +313,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_172.67.73.14_0",
         "vless_104.16.2.90_0",
         "vless_104.16.2.90_0",
         "vless_63.141.128.45_0",

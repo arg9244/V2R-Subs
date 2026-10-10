@@ -10,13 +10,13 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: ss_206.1.100.83_25178
-      server: 206.1.100.83
-      port: 25178
+-     name: ss_167.104.219.43_53826
+      server: 167.104.219.43
+      port: 53826
       udp: true
       type: ss
-      cipher: 2022-blake3-aes-256-gcm
-      password: "ADzlhA3ndouUCY3JbLddR%2FjwgYY7IDGc1T%2B5DuCix9Y%3D%3AKyFe2akGo5hcrswbMkD2%2BBM52si%2BD7lzyccZFTd4xaU%3D"
+      cipher: 2022-blake3-aes-128-gcm
+      password: "4ju6nGCdR%2Fx9tFN85ImeVg%3D%3D%3AaoULtGpYuYN2W5MnGwdxNA%3D%3D"
 -     name: ss_206.1.100.83_25178
       server: 206.1.100.83
       port: 25178
@@ -24,34 +24,20 @@ proxies:
       type: ss
       cipher: 2022-blake3-aes-256-gcm
       password: "ADzlhA3ndouUCY3JbLddR/jwgYY7IDGc1T+5DuCix9Y=:KyFe2akGo5hcrswbMkD2+BM52si+D7lzyccZFTd4xaU="
--     name: ss_78.47.35.178_29582
-      server: 78.47.35.178
-      port: 29582
+-     name: ss_31.57.185.253_25852
+      server: 31.57.185.253
+      port: 25852
       udp: true
       type: ss
       cipher: 2022-blake3-aes-256-gcm
-      password: "KGhfmOEomB8MYWOFuIFxaU6wfSAYDFzBKE9sg3vMll8%3D%3AHNUZ1NG1sNLqEe6v7XAY39JLPBTA2vAB9PGvS9VZGEA%3D"
--     name: ss_31.57.185.180_30966
-      server: 31.57.185.180
-      port: 30966
-      udp: true
-      type: ss
-      cipher: 2022-blake3-aes-256-gcm
-      password: "Pil67PqflZg0TtPVO/PoFLTMrJDyC5p27jc0S7fuFCQ=:SXou9caBcLaritdsJnL/7rwkcSbAoMnjszimt/5vmEg="
--     name: ss_172.104.129.6_2087
-      server: 172.104.129.6
-      port: 2087
-      udp: true
-      type: ss
-      cipher: 2022-blake3-aes-256-gcm
-      password: "WAqeGA+dU+HZYSipCio+Jmt7SSVfHjwMH7j8xmsm7%2Fs=:althddZ27iu261I+568pk7HZzBFDCyIx6pvG8H9oXow="
+      password: "Uggiq+MU2DrXqjM0aHddud8xoJ4KwHHxZJDtYdiR1q8=:DA1vvMbbr8DEFi3x6Ra/IIdEf578UZOxmxHGRbw0nSs="
 -     name: ss_51.38.71.51_2083
       server: 51.38.71.51
       port: 2083
       udp: true
       type: ss
       cipher: 2022-blake3-aes-256-gcm
-      password: "cOiC%2B3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4%3D%3A2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho%3D"
+      password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=%3A2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
 -     name: ss_129.150.59.74_14384
       server: 129.150.59.74
       port: 14384
@@ -59,13 +45,13 @@ proxies:
       type: ss
       cipher: 2022-blake3-aes-256-gcm
       password: "sUR6Ny8Y6PSvHhl%2FDUxconwxg6VZyFdsdfaVCvEatJo%3D%3A7bTEhHgpErKiRjE1ega%2BH6pcpJsNLFB0CjQseujAHrA%3D"
--     name: ss_31.57.185.180_29328
-      server: 31.57.185.180
-      port: 29328
+-     name: ss_47.85.168.157_443
+      server: 47.85.168.157
+      port: 443
       udp: true
       type: ss
-      cipher: 2022-blake3-aes-256-gcm
-      password: "uWLyO+Ei/W17qCiFBES9LAAYxeCNwkjROZi/biAnfOw=:UAY9PzHMMXUn1te9/mwY0E8lD0JDFTf8ENpSXDevx5E="
+      cipher: 2022-blake3-chacha20-poly1305
+      password: "3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA%3D"
 -     name: ss_193.29.139.157_8080
       server: 193.29.139.157
       port: 8080
@@ -80,20 +66,20 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: 4a2rfixophdjffa8KVA4Aa
--     name: ss_129.151.99.94_23345
-      server: 129.151.99.94
-      port: 23345
+-     name: ss_103.160.63.199_31348
+      server: 103.160.63.199
+      port: 31348
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 5d79906d-89ab-430b-acbc-3327568a5be3
--     name: ss_13.124.117.110_8443
-      server: 13.124.117.110
-      port: 8443
+      password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+-     name: ss_45.128.12.20_14249
+      server: 45.128.12.20
+      port: 14249
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+      password: 9epp3o9ng8ej59uv
 -     name: ss_209.46.102.22_8388
       server: 209.46.102.22
       port: 8388
@@ -108,13 +94,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: y7KeRTzmH0vXT2kp
--     name: ss_148.253.208.76_3478
-      server: 148.253.208.76
-      port: 3478
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: yu2XnSPWhmQjxn83iJA3DA
 -     name: ss_91.208.75.251_3478
       server: 91.208.75.251
       port: 3478
@@ -122,34 +101,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: yu2XnSPWhmQjxn83iJA3DA
--     name: ss_130.49.189.158_43558
-      server: 130.49.189.158
-      port: 43558
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: "ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I="
--     name: ss_108.181.58.239_8388
-      server: 108.181.58.239
-      port: 8388
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: CJmTCCx7Ltud
--     name: ss_20.223.236.165_443
-      server: 20.223.236.165
+-     name: ss_20.87.212.24_443
+      server: 20.87.212.24
       port: 443
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: CNL3mxdfZKiPKizL
--     name: ss_130.49.189.158_43558
-      server: 130.49.189.158
-      port: 43558
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: "EKGHx2yhUzmnRONhNOxvn+BqUr10wfqDQqRg4DYUJE8="
+      password: zlHMpI7N5dkZOHdH
 -     name: ss_57.129.113.16_8388
       server: 57.129.113.16
       port: 8388
@@ -164,6 +122,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: QCXDxuDlTTMD7jtgHUjIoj
+-     name: ss_31.76.11.83_42800
+      server: 31.76.11.83
+      port: 42800
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: "adzpq0ltVHdCxO2lsW5N9C8H5B9hXnD7YyXZfP5aulw="
 -     name: ss_193.29.139.227_8080
       server: 193.29.139.227
       port: 8080
@@ -178,20 +143,13 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
--     name: ss_156.146.40.84_1080
-      server: 156.146.40.84
-      port: 1080
+-     name: ss_82.38.31.178_8080
+      server: 82.38.31.178
+      port: 8080
       udp: true
       type: ss
       cipher: chacha20-ietf-poly1305
-      password: gelwvU9mUR0orEFS5D6u7A
--     name: ss_135.136.33.134_1080
-      server: 135.136.33.134
-      port: 1080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: gelwvU9mUR0orEFS5D6u7A
+      password: k1dBOmOB4oqi7Ump37a1bQ
 -     name: ss_77.221.155.75_12576
       server: 77.221.155.75
       port: 12576
@@ -269,20 +227,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
--     name: ss_82.38.31.164_443
-      server: 82.38.31.164
-      port: 443
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
--     name: ss_82.38.31.164_8080
-      server: 82.38.31.164
-      port: 8080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
 -     name: ss_82.38.31.16_8080
       server: 82.38.31.16
       port: 8080
@@ -292,6 +236,13 @@ proxies:
       password: oZIoA69Q8yhcQV8ka3Pa3A
 -     name: ss_82.38.31.170_443
       server: 82.38.31.170
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+-     name: ss_82.38.31.171_443
+      server: 82.38.31.171
       port: 443
       udp: true
       type: ss
@@ -388,55 +339,41 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: oZIoA69Q8yhcQV8ka3Pa3A
--     name: ss_telegram.khp25.com_1080
-      server: telegram.khp25.com
-      port: 1080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: pno0e2keji2gsfea
--     name: ss_140.174.184.5_8388
-      server: 140.174.184.5
-      port: 8388
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: qItG8SueYQcP
--     name: ss_64.42.182.133_16669
-      server: 64.42.182.133
-      port: 16669
+-     name: ss_64.74.161.147_17200
+      server: 64.74.161.147
+      port: 17200
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: 091fb9a133ef695fa0a0994bdc2b1da3
--     name: ss_103.214.109.197_16444
-      server: 103.214.109.197
-      port: 16444
+      password: 1cbb3e347ee86e1980a7c731e9dd00a0
+-     name: ss_64.74.161.149_17202
+      server: 64.74.161.149
+      port: 17202
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: 0b6091bbea4d8d0ab0e327902dcd3244
--     name: ss_104.192.225.106_15438
-      server: 104.192.225.106
-      port: 15438
+      password: 1cbb3e347ee86e1980a7c731e9dd00a0
+-     name: ss_66.23.204.218_10675
+      server: 66.23.204.218
+      port: 10675
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: 0dd1077fdfae98efd742d9b97e5dbb87
--     name: ss_45.82.67.39_16486
-      server: 45.82.67.39
-      port: 16486
+      password: 2591a42af498878e47d881cd1ed1fa9d
+-     name: ss_78.129.252.65_17096
+      server: 78.129.252.65
+      port: 17096
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: 7ef14360a25ffe504e38fb9a0a82f224
--     name: ss_216.105.168.157_11331
-      server: 216.105.168.157
-      port: 11331
+      password: 7c55c080c3949e03f1a6a559a9851c68
+-     name: ss_64.74.163.67_18764
+      server: 64.74.163.67
+      port: 18764
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: 404243f1f29932014b81216208f96031
+      password: 4efe1af272e7292139b889f6a63ee071
 -     name: ss_64.74.163.69_18766
       server: 64.74.163.69
       port: 18766
@@ -444,34 +381,69 @@ proxies:
       type: ss
       cipher: aes-128-gcm
       password: 4efe1af272e7292139b889f6a63ee071
--     name: ss_66.23.204.210_16995
-      server: 66.23.204.210
-      port: 16995
+-     name: ss_185.212.171.202_18670
+      server: 185.212.171.202
+      port: 18670
+      udp: true
+      type: ss
+      cipher: aes-128-gcm
+      password: 59ded1591b0b45f0b1e9361334c0f7d9
+-     name: ss_144.48.107.10_19142
+      server: 144.48.107.10
+      port: 19142
+      udp: true
+      type: ss
+      cipher: aes-128-gcm
+      password: 645af07ee09c066da207ad26d78322c2
+-     name: ss_147.78.1.253_16674
+      server: 147.78.1.253
+      port: 16674
+      udp: true
+      type: ss
+      cipher: aes-128-gcm
+      password: 67c57ae584eecd70396fcd7ca7521130
+-     name: ss_148.72.164.235_11995
+      server: 148.72.164.235
+      port: 11995
+      udp: true
+      type: ss
+      cipher: aes-128-gcm
+      password: 827e870752e820c4ef7cc4058c1d0a99
+-     name: ss_66.23.204.214_16999
+      server: 66.23.204.214
+      port: 16999
       udp: true
       type: ss
       cipher: aes-128-gcm
       password: 89d3a0375a279f6e743fea76e72952a8
--     name: ss_216.244.76.142_16957
-      server: 216.244.76.142
-      port: 16957
+-     name: ss_216.52.183.174_17036
+      server: 216.52.183.174
+      port: 17036
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: b23cc2418b734f8206d18b0b3d91f270
--     name: ss_130.94.81.180_18415
-      server: 130.94.81.180
-      port: 18415
+      password: 9fbcf342cc8d6993ef6faf9ed65f8943
+-     name: ss_69.10.61.53_18853
+      server: 69.10.61.53
+      port: 18853
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: b667234b8d2e7eb34444857ea3a9b18a
--     name: ss_161.129.71.149_17915
-      server: 161.129.71.149
-      port: 17915
+      password: bc7d6364944140ea4e922dfc064d92e0
+-     name: ss_66.23.205.83_17529
+      server: 66.23.205.83
+      port: 17529
       udp: true
       type: ss
       cipher: aes-128-gcm
-      password: f8e5c6741fbbc00504f41af1ab878402
+      password: bdd35b65a5b716eb7a91150c06764956
+-     name: ss_205.209.126.205_19049
+      server: 205.209.126.205
+      port: 19049
+      udp: true
+      type: ss
+      cipher: aes-128-gcm
+      password: e72a793d634d99748cf908d21fd935c3
 -     name: ss_185.103.110.66_18280
       server: 185.103.110.66
       port: 18280
@@ -521,20 +493,13 @@ proxies:
       type: ss
       cipher: aes-128-gcm
       password: shadowsocks
--     name: ss_13.36.178.160_443
-      server: 13.36.178.160
-      port: 443
+-     name: ss_51.158.26.27_15104
+      server: 51.158.26.27
+      port: 15104
       udp: true
       type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
--     name: ss_18.208.223.39_443
-      server: 18.208.223.39
-      port: 443
-      udp: true
-      type: ss
-      cipher: aes-256-cfb
-      password: amazonskr05
+      cipher: aes-128-gcm
+      password: vldolmlmzmypc36okhum
 -     name: ss_84.247.155.196_80
       server: 84.247.155.196
       port: 80
@@ -542,48 +507,20 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: 3eOFeNssde7PYYMv
--     name: ss_194.87.196.13_10550
+-     name: ss_194.87.196.13_40440
       server: 194.87.196.13
-      port: 10550
+      port: 40440
       udp: true
       type: ss
       cipher: aes-256-gcm
       password: 4938e975724d0ed1
--     name: ss_46.17.42.141_10550
+-     name: ss_46.17.42.141_20221
       server: 46.17.42.141
-      port: 10550
+      port: 20221
       udp: true
       type: ss
       cipher: aes-256-gcm
       password: 6b39ae3234dfd68b
--     name: ss_45.144.172.123_10550
-      server: 45.144.172.123
-      port: 10550
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: 78235e7dc55e9ad1
--     name: ss_194.87.68.140_10771
-      server: 194.87.68.140
-      port: 10771
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: 81a20429165df87e
--     name: ss_176.32.39.52_10550
-      server: 176.32.39.52
-      port: 10550
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: 8ad9d72a5571df86
--     name: ss_212.192.221.129_10550
-      server: 212.192.221.129
-      port: 10550
-      udp: true
-      type: ss
-      cipher: aes-256-gcm
-      password: 9cfaa78d51ac366f
 -     name: ss_15.204.246.132_7307
       server: 15.204.246.132
       port: 7307
@@ -605,6 +542,13 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: RexnBgU7EV5ADxG
+-     name: ss_15.204.247.175_8008
+      server: 15.204.247.175
+      port: 8008
+      udp: true
+      type: ss
+      cipher: aes-256-gcm
+      password: XKFKl2rULjIp74
 -     name: ss_15.204.246.107_8888
       server: 15.204.246.107
       port: 8888
@@ -647,20 +591,20 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: cdBIDV42DCwnfIN
--     name: ss_46.17.45.31_10550
-      server: 46.17.45.31
-      port: 10550
+-     name: ss_211.174.113.172_49642
+      server: 211.174.113.172
+      port: 49642
       udp: true
       type: ss
       cipher: aes-256-gcm
-      password: bdb313adf74c2ede
--     name: ss_yyz-ca-01.blncvpn4u.cc_9443
-      server: yyz-ca-01.blncvpn4u.cc
-      port: 9443
+      password: ac9c0a7b
+-     name: ss_ce1fc2d8.krkt.hkssip.com_49642
+      server: ce1fc2d8.krkt.hkssip.com
+      port: 49642
       udp: true
       type: ss
       cipher: aes-256-gcm
-      password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+      password: ac9c0a7b
 -     name: ss_15.204.247.124_2375
       server: 15.204.247.124
       port: 2375
@@ -696,13 +640,13 @@ proxies:
       type: ss
       cipher: aes-256-gcm
       password: kDWvXYZoTBcGkC4
--     name: ss_51.222.136.236_8882
-      server: 51.222.136.236
-      port: 8882
+-     name: ss_103.107.52.106_52351
+      server: 103.107.52.106
+      port: 52351
       udp: true
       type: ss
       cipher: aes-256-gcm
-      password: kDWvXYZoTBcGkC4
+      password: "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
 -     name: ss_15.204.247.206_4444
       server: 15.204.247.206
       port: 4444
@@ -780,13 +724,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: k1dBOmOB4oqi7Ump37a1bQ
--     name: ss_82.38.31.195_8080
-      server: 82.38.31.195
-      port: 8080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: k1dBOmOB4oqi7Ump37a1bQ
 -     name: ss_82.38.31.204_8080
       server: 82.38.31.204
       port: 8080
@@ -794,13 +731,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: k1dBOmOB4oqi7Ump37a1bQ
--     name: ss_82.38.31.35_8080
-      server: 82.38.31.35
-      port: 8080
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: oZIoA69Q8yhcQV8ka3Pa3A
 -     name: ss_188.114.98.223_2095
       server: 188.114.98.223
       port: 2095
@@ -913,6 +843,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiI1LjQ1Ljk3LjE0NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMThmYmZiNy03MjFhLTQ5YTktYjlmNS1mYjU1ZDkyNTkyYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiIxMDgwMyIsInBzIjoiVGVsZWdyYW0gUHJveHlfbXRtICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless"
       password: //b3b04464-5e5c-4a9d-acd7-3e931579fca0
+-     name: ss_172.67.139.14_443
+      server: 172.67.139.14
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiI1Ny4xMjguMTY0LjIxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJodHRwcy5odHRwLnd3dy5uZXQuY29tLnJhbXNleXYyLmlyLiIsImlkIjoiMTAwMjljMDMtNWQyZi00MTg1LWFhYjItY2JmOTFlZWY3MzYxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2QzZDNMbWx5WVc1b2IzTjBMbU52YlFcdTAwM2RcdTAwM2Q/ZWRcdTAwM2QyNTYwIiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>trojan"
+      password: //humanity
 -     name: ss_151.101.56.7_443
       server: 151.101.56.7
       port: 443
@@ -954,13 +891,6 @@ proxies:
       udp: true
       type: ss
       cipher: "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjIyMzI0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>trojan"
-      password: //humanity
--     name: ss_188.42.145.180_443
-      server: 188.42.145.180
-      port: 443
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiI2Ni4xNjMuMTE3LjU4IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJAUHJveHlWUE4xMSIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8gQFByb3h5VlBOMTEiLCJwY3MiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IlRlbGVncmFt8J+RiUB2MnJheU5HX01hdHN1cmkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>trojan"
       password: //humanity
 -     name: ss_169.40.42.179_443
       server: 169.40.42.179
@@ -1018,13 +948,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiI5MS45OS4xNTMuMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InBhbmVsLmFydXNoYXNvZnQuY29tIiwiaWQiOiI5ODVhZjQ4OS1mYjE2LTQ5MWEtODEzYy1mZGQ5MWI2YjA2ZWUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjM5MTMwIiwicHMiOiJAY29uZmlnZnJlZTIwMjU1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9<br/>vless"
       password: //30f2d443-af46-4dd6-83c9-b5e17299ebd2
--     name: ss_fast.jkerm.com_443
-      server: fast.jkerm.com
-      port: 443
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiI5My4xMTQuOTguNzkiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI2YTM4MjgzOS1kNGQ0LTRlNWEtYTA2MS0zMjhiNzRlZTlhZGEiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjIwODMiLCJwcyI6InQubWUvbXRtdnBuIiwic2N5IjoiYXV0byIsInNuaSI6ImFkc2xuZGlmNjNmNC5kb3A2NjYuY29tIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vless"
-      password: //2e8cd1fa-0dcc-4402-bb99-be3d623fc1d5
 -     name: ss_51.222.141.125_445
       server: 51.222.141.125
       port: 445
@@ -1032,6 +955,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxMTguMTkzLjU3LjE2NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkNDZiZjQ5Mi00NWY0LTRjMzMtODJkMS1lYTJhMWNiNTRlYjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZDQ2YmY0OTIiLCJwb3J0IjoiNDk2NjciLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>vmess"
       password: "//eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDinaTvuI8g2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/>ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2"
+-     name: ss_188.114.97.6_443
+      server: 188.114.97.6
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiIxMjAuNDguMTMzLjE2MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmZGUxMGUzOS00OGJiLTRkY2YtYjNiYS03MWQ3MTEzMjNhNTQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvP1RlbGVncmFtLS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVUIiwicGNzIjoiIiwicG9ydCI6IjEwMDg2IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vmess"
+      password: "//eyJhZGQiOiIxMjAuNDguMTMzLjE2MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmZGUxMGUzOS00OGJiLTRkY2YtYjNiYS03MWQ3MTEzMjNhNTQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMTAwODYiLCJwcyI6IkBGYXJhelYycmF5ICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless://495c7195-85b8-498a-bf20-2ea9ce9175b5"
 -     name: ss_8.47.69.0_443
       server: 8.47.69.0
       port: 443
@@ -1081,13 +1011,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KaINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss"
       password: //MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0
--     name: ss_103.160.63.199_31348
-      server: 103.160.63.199
-      port: 31348
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiIxNjUuMTU0LjE5NS4zOCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5NTlhOGNhZi00Y2VhLTQzZDAtYTU0OC0zNjI4ZTdkZGZhZmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjM1MDM0IiwicHMiOiJAVnBuX1RlaHJhbiDwn5KbINqp2KfZhtin2YQg2KrZhNqv2LHYp9mFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>ss"
-      password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4QzV2YWxoT2Q4dmZ3YVRYVVNaNlp5YjBJcDM0bFJSNXo3UDhheg
 -     name: ss_188.42.145.180_443
       server: 188.42.145.180
       port: 443
@@ -1144,6 +1067,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxNzIuNjcuMjIwLjY0IiwidiI6MiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm71fMSIsInBvcnQiOiI0NDMiLCJpZCI6ImYyNGJiYTBmLTg2NTYtNDRmOC1iMjFlLWEwZTNhMTkwYzRjNSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwiaG9zdCI6Ind3dy4zMTAwMG9vb293ZTIuYmYiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiL2RmOTdiMjFlLTM5NDMtNDg2NS1hZjE4LWI1ZWE5Njc2YjAzNyJ9<br/>vmess"
       password: "//eyJhZGQiOiIxNzIuNjcuMjM1LjIzNyIsInYiOjIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzIiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjRiYmEwZi04NjU2LTQ0ZjgtYjIxZS1hMGUzYTE5MGM0YzUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsImhvc3QiOiJ3d3cuMzEwMDBvb29vd2UyLmJmIiwidGxzIjoidGxzIiwicGF0aCI6Ii9kZjk3YjIxZS0zOTQzLTQ4NjUtYWYxOC1iNWVhOTY3NmIwMzcifQ==<br/>vless://f69d4594-2d18-4266-abc4-eeb9c5604ca5"
+-     name: ss_31.76.19.168_443
+      server: 31.76.19.168
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiIxODUuMTc3LjIyOS4xMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess"
+      password: "//eyJhZGQiOiIxNTEuMjQzLjE3My4xMTkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicGNzIjoiIiwicG9ydCI6IjMzNzM2IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vmess://eyJhZGQiOiIxODYuMTkwLjIxMS4xNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vless://86037609-3790-4901-bd2f-c698092fb1fc"
 -     name: ss_130.49.161.70_443
       server: 130.49.161.70
       port: 443
@@ -1193,6 +1123,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxOTQuOTkuNzkuMjYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFrc2FpLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiYWtzYWkub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess"
       password: "//eyJhZGQiOiIyMTYuMTUyLjE1Mi4xODciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vmess://eyJhZGQiOiIxNjcuODguNjIuMTI0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjA0NjIxYmFlLWFiMzYtMTFlYy1iOTA5LTAyNDJhYzEyMDAwMiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMjIzMjQiLCJwcyI6IkBGYXJhelYycmF5ICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>trojan://humanity"
+-     name: ss_188.114.97.6_443
+      server: 188.114.97.6
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgMTA3Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vmess"
+      password: "//eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgODQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vless://698b212d-ca12-4794-8256-252a6e1b4533"
 -     name: ss_82.202.247.181_443
       server: 82.202.247.181
       port: 443
@@ -1214,6 +1151,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIyMy4xNjIuMjAwLjE5OCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjE4MDAwIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/><br/>vless"
       password: //f774f037-6320-42e3-a97b-6d4a1f018dd5
+-     name: ss_205.237.110.254_443
+      server: 205.237.110.254
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiIzMS43Ni4xMS44MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwNDlhNTdiOS00OTEzLTRmOWYtOWNkYS1hODYxOTg5ZWU1OWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjU1OTY5IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
+      password: //e75ad2eb-6c1f-45ce-8023-f5f10875df66
 -     name: ss_169.40.42.75_443
       server: 169.40.42.75
       port: 443
@@ -1277,13 +1221,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiJhbWlyLmFtaXJwb3J0LmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJhbWlyLmFtaXJwb3J0LmlyIiwiaWQiOiJhMmJiYTg1OC1lOGMyLTQzOGUtOWRhNS01MjY4N2EwYWEyMDEiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicGNzIjoiIiwicG9ydCI6Ijg4ODAiLCJwcyI6IlRlbGVncmFtIFByb3h5X210bSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>vless"
       password: //ff6d2dda-7b90-404e-9951-34b3124bfdfa
--     name: ss_104.243.33.154_45299
-      server: 104.243.33.154
-      port: 45299
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiJmaXNnd3cucG92cmFrLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJjcyI6IiIsImRpYWxNb2RlIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1NzRkZjYzMy0wYmZiLTRmZGEtODhkOS00MzdlNmFkMDU5NGQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjU4MTc5IiwicHMiOiJDaGFubmVsIDogQHByb3h5X2thZmVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>vmess"
-      password: "//eyJhZGQiOiJmZXJhNC5wb3ZyYWsuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImNzIjoiIiwiZGlhbE1vZGUiOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjU3NGRmNjMzLTBiZmItNGZkYS04OGQ5LTQzN2U2YWQwNTk0ZCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMjY5ODgiLCJwcyI6IkNoYW5uZWwgOiBAcHJveHlfa2FmZWUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vless://261f011c-e97a-4d72-b596-e6329b50b47b"
 -     name: ss_169.40.42.75_443
       server: 169.40.42.75
       port: 443
@@ -1291,6 +1228,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6Im15Z3B0YWdlbnQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
       password: //d65cc14c-f53f-4fe2-b262-97856601319c
+-     name: ss_172.104.164.70_443
+      server: 172.104.164.70
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiJteWdwdGFnZW50Lm9yZyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoibXlncHRhZ2VudC5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicGNzIjoiIiwicG9ydCI6IjQ0MyIsInBzIjoiVGVsZWdyYW3wn5GJQHYycmF5TkdfTWF0c3VyaSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless"
+      password: //d90087c3-54f5-4283-a13f-615260c8b0c7
 -     name: ss_162.19.10.99_443
       server: 162.19.10.99
       port: 443
@@ -1322,7 +1266,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_206.1.100.83_25178, ss_206.1.100.83_25178, ss_78.47.35.178_29582, ss_31.57.185.180_30966, ss_172.104.129.6_2087, ss_51.38.71.51_2083, ss_129.150.59.74_14384, ss_31.57.185.180_29328, ss_193.29.139.157_8080, ss_193.29.139.234_8080, ss_129.151.99.94_23345, ss_13.124.117.110_8443, ss_209.46.102.22_8388, ss_c3.nastuh.link_443, ss_148.253.208.76_3478, ss_91.208.75.251_3478, ss_130.49.189.158_43558, ss_108.181.58.239_8388, ss_20.223.236.165_443, ss_130.49.189.158_43558, ss_57.129.113.16_8388, ss_193.29.139.212_8080, ss_193.29.139.227_8080, ss_132.243.175.144_8388, ss_156.146.40.84_1080, ss_135.136.33.134_1080, ss_77.221.155.75_12576, ss_193.29.139.151_8080, ss_193.29.139.197_8080, ss_193.29.139.204_8080, ss_193.29.139.225_8080, ss_193.29.139.235_443, ss_193.29.139.235_8080, ss_82.38.31.149_443, ss_82.38.31.149_8080, ss_82.38.31.157_8080, ss_82.38.31.159_443, ss_82.38.31.164_443, ss_82.38.31.164_8080, ss_82.38.31.16_8080, ss_82.38.31.170_443, ss_82.38.31.171_8080, ss_82.38.31.175_443, ss_82.38.31.175_8080, ss_82.38.31.17_8080, ss_82.38.31.18_8080, ss_82.38.31.11_8080, ss_82.38.31.28_8080, ss_82.38.31.35_8080, ss_82.38.31.36_8080, ss_82.38.31.42_8080, ss_82.38.31.7_8080, ss_82.38.31.7_8080, ss_82.38.31.9_8080, ss_telegram.khp25.com_1080, ss_140.174.184.5_8388, ss_64.42.182.133_16669, ss_103.214.109.197_16444, ss_104.192.225.106_15438, ss_45.82.67.39_16486, ss_216.105.168.157_11331, ss_64.74.163.69_18766, ss_66.23.204.210_16995, ss_216.244.76.142_16957, ss_130.94.81.180_18415, ss_161.129.71.149_17915, ss_185.103.110.66_18280, ss_149.22.95.183_443, ss_158.173.20.208_443, ss_158.173.24.73_443, ss_37.19.198.160_443, ss_37.19.198.243_443, ss_37.19.198.244_443, ss_13.36.178.160_443, ss_18.208.223.39_443, ss_84.247.155.196_80, ss_194.87.196.13_10550, ss_46.17.42.141_10550, ss_45.144.172.123_10550, ss_194.87.68.140_10771, ss_176.32.39.52_10550, ss_212.192.221.129_10550, ss_15.204.246.132_7307, ss_213.202.208.199_7001, ss_94.156.250.148_7001, ss_15.204.246.107_8888, ss_213.202.208.199_5000, ss_51.222.155.113_5601, ss_51.222.200.165_5000, ss_51.79.64.198_8119, ss_51.79.85.185_8118, ss_46.17.45.31_10550, ss_yyz-ca-01.blncvpn4u.cc_9443, ss_15.204.247.124_2375, ss_51.222.155.32_5003, ss_149.102.132.184_443, ss_149.102.132.184_80, ss_15.204.233.41_8882, ss_51.222.136.236_8882, ss_15.204.247.206_4444, ss_15.204.247.244_4444, ss_51.222.12.127_445, ss_51.222.141.125_445, ss_154.12.242.150_80, ss_51.222.200.165_5000, ss_51.79.49.116_8882, ss_146.70.222.126_1080, ss_146.70.53.62_1080, ss_198.98.53.130_443, ss_82.38.31.185_8080, ss_82.38.31.195_8080, ss_82.38.31.204_8080, ss_82.38.31.35_8080, ss_188.114.98.223_2095, ss_185.146.173.58_8080, ss_160.123.255.50_443, ss_172.64.84.146_443, ss_172.67.73.98_2053, ss_172.66.44.135_80, ss_185.146.173.5_8880, ss_104.16.229.250_8080, ss_192.200.160.89_443, ss_185.146.173.43_2095, ss_172.67.137.11_8880, ss_188.114.97.141_443, ss_188.114.97.6_443, ss_169.40.42.184_443, ss_103.160.63.199_31348, ss_185.143.232.245_2087, ss_151.101.56.7_443, ss_51.222.141.125_445, ss_151.101.56.7_443, ss_8.47.69.0_443, ss_172.67.130.159_2096, ss_8.47.69.0_443, ss_188.42.145.180_443, ss_169.40.42.179_443, ss_87.192.47.10_52006, ss_142.91.106.31_43000, ss_169.40.42.75_443, ss_195.123.235.177_443, ss_82.152.223.82_443, ss_188.114.97.6_443, ss_104.26.15.69_2096, ss_fast.jkerm.com_443, ss_51.222.141.125_445, ss_8.47.69.0_443, ss_144.31.49.138_443, ss_199.232.78.185_443, ss_8.47.69.0_443, ss_51.222.155.32_5003, ss_103.160.63.199_31348, ss_51.222.107.43_2083, ss_103.160.63.199_31348, ss_188.42.145.180_443, ss_31.76.249.87_443, ss_156.146.38.167_443, ss_156.146.38.167_443, ss_162.19.10.99_443, ss_169.40.42.184_443, ss_102.37.156.224_443, ss_172.67.143.204_443, ss_130.49.161.70_443, ss_188.42.145.180_443, ss_95.85.227.241_443, ss_188.42.145.180_443, ss_87.58.201.67_443, ss_51.222.107.43_2083, ss_172.67.139.14_443, ss_82.202.247.181_443, ss_89.47.164.182_1081, ss_2.28.142.170_443, ss_169.40.42.75_443, ss_31.76.249.174_443, ss_185.156.47.97_9443, ss_18.143.92.167_443, ss_199.232.78.101_443, ss_82.38.31.159_443, ss_150.40.126.18_443, ss_82.38.31.191_8080, ss_2.26.11.234_9543, ss_104.243.33.154_45299, ss_169.40.42.75_443, ss_162.19.10.99_443, ss_172.64.152.179_443, ss_185.156.47.97_9443, ss_172.64.146.20_2096]
+      proxies: [ss_167.104.219.43_53826, ss_206.1.100.83_25178, ss_31.57.185.253_25852, ss_51.38.71.51_2083, ss_129.150.59.74_14384, ss_47.85.168.157_443, ss_193.29.139.157_8080, ss_193.29.139.234_8080, ss_103.160.63.199_31348, ss_45.128.12.20_14249, ss_209.46.102.22_8388, ss_c3.nastuh.link_443, ss_91.208.75.251_3478, ss_20.87.212.24_443, ss_57.129.113.16_8388, ss_193.29.139.212_8080, ss_31.76.11.83_42800, ss_193.29.139.227_8080, ss_132.243.175.144_8388, ss_82.38.31.178_8080, ss_77.221.155.75_12576, ss_193.29.139.151_8080, ss_193.29.139.197_8080, ss_193.29.139.204_8080, ss_193.29.139.225_8080, ss_193.29.139.235_443, ss_193.29.139.235_8080, ss_82.38.31.149_443, ss_82.38.31.149_8080, ss_82.38.31.157_8080, ss_82.38.31.159_443, ss_82.38.31.16_8080, ss_82.38.31.170_443, ss_82.38.31.171_443, ss_82.38.31.171_8080, ss_82.38.31.175_443, ss_82.38.31.175_8080, ss_82.38.31.17_8080, ss_82.38.31.18_8080, ss_82.38.31.11_8080, ss_82.38.31.28_8080, ss_82.38.31.35_8080, ss_82.38.31.36_8080, ss_82.38.31.42_8080, ss_82.38.31.7_8080, ss_82.38.31.7_8080, ss_82.38.31.9_8080, ss_64.74.161.147_17200, ss_64.74.161.149_17202, ss_66.23.204.218_10675, ss_78.129.252.65_17096, ss_64.74.163.67_18764, ss_64.74.163.69_18766, ss_185.212.171.202_18670, ss_144.48.107.10_19142, ss_147.78.1.253_16674, ss_148.72.164.235_11995, ss_66.23.204.214_16999, ss_216.52.183.174_17036, ss_69.10.61.53_18853, ss_66.23.205.83_17529, ss_205.209.126.205_19049, ss_185.103.110.66_18280, ss_149.22.95.183_443, ss_158.173.20.208_443, ss_158.173.24.73_443, ss_37.19.198.160_443, ss_37.19.198.243_443, ss_37.19.198.244_443, ss_51.158.26.27_15104, ss_84.247.155.196_80, ss_194.87.196.13_40440, ss_46.17.42.141_20221, ss_15.204.246.132_7307, ss_213.202.208.199_7001, ss_94.156.250.148_7001, ss_15.204.247.175_8008, ss_15.204.246.107_8888, ss_213.202.208.199_5000, ss_51.222.155.113_5601, ss_51.222.200.165_5000, ss_51.79.64.198_8119, ss_51.79.85.185_8118, ss_211.174.113.172_49642, ss_ce1fc2d8.krkt.hkssip.com_49642, ss_15.204.247.124_2375, ss_51.222.155.32_5003, ss_149.102.132.184_443, ss_149.102.132.184_80, ss_15.204.233.41_8882, ss_103.107.52.106_52351, ss_15.204.247.206_4444, ss_15.204.247.244_4444, ss_51.222.12.127_445, ss_51.222.141.125_445, ss_154.12.242.150_80, ss_51.222.200.165_5000, ss_51.79.49.116_8882, ss_146.70.222.126_1080, ss_146.70.53.62_1080, ss_198.98.53.130_443, ss_82.38.31.185_8080, ss_82.38.31.204_8080, ss_188.114.98.223_2095, ss_185.146.173.58_8080, ss_160.123.255.50_443, ss_172.64.84.146_443, ss_172.67.73.98_2053, ss_172.66.44.135_80, ss_185.146.173.5_8880, ss_104.16.229.250_8080, ss_192.200.160.89_443, ss_185.146.173.43_2095, ss_172.67.137.11_8880, ss_188.114.97.141_443, ss_188.114.97.6_443, ss_169.40.42.184_443, ss_103.160.63.199_31348, ss_185.143.232.245_2087, ss_172.67.139.14_443, ss_151.101.56.7_443, ss_51.222.141.125_445, ss_151.101.56.7_443, ss_8.47.69.0_443, ss_172.67.130.159_2096, ss_8.47.69.0_443, ss_169.40.42.179_443, ss_87.192.47.10_52006, ss_142.91.106.31_43000, ss_169.40.42.75_443, ss_195.123.235.177_443, ss_82.152.223.82_443, ss_188.114.97.6_443, ss_104.26.15.69_2096, ss_51.222.141.125_445, ss_188.114.97.6_443, ss_8.47.69.0_443, ss_144.31.49.138_443, ss_199.232.78.185_443, ss_8.47.69.0_443, ss_51.222.155.32_5003, ss_103.160.63.199_31348, ss_51.222.107.43_2083, ss_188.42.145.180_443, ss_31.76.249.87_443, ss_156.146.38.167_443, ss_156.146.38.167_443, ss_162.19.10.99_443, ss_169.40.42.184_443, ss_102.37.156.224_443, ss_172.67.143.204_443, ss_31.76.19.168_443, ss_130.49.161.70_443, ss_188.42.145.180_443, ss_95.85.227.241_443, ss_188.42.145.180_443, ss_87.58.201.67_443, ss_51.222.107.43_2083, ss_172.67.139.14_443, ss_188.114.97.6_443, ss_82.202.247.181_443, ss_89.47.164.182_1081, ss_2.28.142.170_443, ss_205.237.110.254_443, ss_169.40.42.75_443, ss_31.76.249.174_443, ss_185.156.47.97_9443, ss_18.143.92.167_443, ss_199.232.78.101_443, ss_82.38.31.159_443, ss_150.40.126.18_443, ss_82.38.31.191_8080, ss_2.26.11.234_9543, ss_169.40.42.75_443, ss_172.104.164.70_443, ss_162.19.10.99_443, ss_172.64.152.179_443, ss_185.156.47.97_9443, ss_172.64.146.20_2096]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
