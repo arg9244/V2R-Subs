@@ -53,25 +53,26 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_172.66.47.97_0",
+      "tag": "vless_94.182.131.101_0",
       "protocol": "vless",
       "settings": {
-        "address": "172.66.47.97",
+        "address": "94.182.131.101",
         "port": 0,
-        "id": "ad966d2b-5d1a-4f03-9956-5cbd024a238a",
+        "id": "950ec237-e75f-4e99-9557-6545784d4202",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "3.sleepzzzz.cloudns.be",
-          "allowInsecure": false
+          "serverName": "youtu.be",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0",
+            "shortId": "489861db"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -79,25 +80,26 @@
       }
     },
     {
-      "tag": "vless_172.66.47.97_0",
+      "tag": "vless_94.182.131.101_0",
       "protocol": "vless",
       "settings": {
-        "address": "172.66.47.97",
+        "address": "94.182.131.101",
         "port": 0,
-        "id": "ad966d2b-5d1a-4f03-9956-5cbd024a238a",
+        "id": "950ec237-e75f-4e99-9557-6545784d4202",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "3.sleepzzzz.cloudns.be",
-          "allowInsecure": false
+          "serverName": "youtu.be",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0",
+            "shortId": "489861db"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -146,8 +148,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_172.66.47.97_0",
-          "vless_172.66.47.97_0"
+          "vless_94.182.131.101_0",
+          "vless_94.182.131.101_0"
         ],
         "strategy": {
           "type": "leastPing",

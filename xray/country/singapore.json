@@ -108,27 +108,21 @@
       }
     },
     {
-      "tag": "vless_154.64.251.118_0",
+      "tag": "vless_www.visa.com.sg_0",
       "protocol": "vless",
       "settings": {
-        "address": "154.64.251.118",
+        "address": "www.visa.com.sg",
         "port": 0,
-        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
+        "id": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
+        "tls": "none",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.lamer.com.sg",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-            "shortId": "9c3c0f8ec8b4af12"
-          }
-        },
-        "network": "tcp"
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
+        }
       },
       "mux": {
         "enabled": true,
@@ -136,26 +130,20 @@
       }
     },
     {
-      "tag": "vless_154.64.251.118_0",
+      "tag": "vless_www.visa.com.sg_0",
       "protocol": "vless",
       "settings": {
-        "address": "154.64.251.118",
+        "address": "www.visa.com.sg",
         "port": 0,
-        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "id": "d8235de7-84c7-4454-b333-4d854c393929",
+        "tls": "none"
       },
       "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.lamer.com.sg",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-            "shortId": "9c3c0f8ec8b4af12"
-          }
-        },
-        "network": "tcp"
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
       },
       "mux": {
         "enabled": true,
@@ -206,8 +194,8 @@
         "selector": [
           "vless_154.21.203.106_0",
           "vless_154.21.203.106_0",
-          "vless_154.64.251.118_0",
-          "vless_154.64.251.118_0"
+          "vless_www.visa.com.sg_0",
+          "vless_www.visa.com.sg_0"
         ],
         "strategy": {
           "type": "leastPing",

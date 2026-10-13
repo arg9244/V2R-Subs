@@ -188,6 +188,31 @@
         "address": "104.17.98.5",
         "port": 0,
         "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newcscf.jisucf.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.17.98.5_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.98.5",
+        "port": 0,
+        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
         "tls": "tls",
         "encryption": "none"
       },
@@ -323,6 +348,31 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "newcscf.jisucf.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.97.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newcscf.jisucf.cloudns.ch",
           "alpn": {
             "alpn": [
               "http/1.1"
@@ -364,6 +414,68 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.97.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newcscf.jisucf.cloudns.ch",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.97.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6",
+        "port": 0,
+        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newcscf.jisucf.cloudns.ch",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram---mehrosabiran"
         }
       },
       "mux": {
@@ -434,6 +546,37 @@
       }
     },
     {
+      "tag": "vless_188.114.97.6:443?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6:443?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp",
+        "port": 0,
+        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newcscf.jisucf.cloudns.ch",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_188.114.97.6:443?path=/?Telegram---mehrosabiran&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp_0",
       "protocol": "vless",
       "settings": {
@@ -482,31 +625,6 @@
               "http/1.1"
             ]
           },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=newcscf.jisucf.cloudns.ch&host=newcscf.jisucf.cloudns.ch&ech=cloudflare-ech.com+udp_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=newcscf.jisucf.cloudns.ch&host=newcscf.jisucf.cloudns.ch&ech=cloudflare-ech.com+udp",
-        "port": 0,
-        "id": "49ccad64-c854-4f33-b334-793cf0d02b74",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "newcscf.jisucf.cloudns.ch",
           "allowInsecure": false
         },
         "network": "ws",
@@ -1274,58 +1392,6 @@
       }
     },
     {
-      "tag": "vless_104.18.37.228_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.37.228",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.37.228_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.37.228",
-        "port": 0,
-        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "josni.hoyes.cloudns.ch",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/sg-melbi"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
       "protocol": "vless",
       "settings": {
@@ -1872,6 +1938,32 @@
       }
     },
     {
+      "tag": "vless_172.66.44.97_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.66.44.97",
+        "port": 0,
+        "id": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "josni.hoyes.cloudns.ch",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_194.71.227.213_0",
       "protocol": "vless",
       "settings": {
@@ -2028,13 +2120,17 @@
           "vless_104.17.98.5_0",
           "vless_104.17.98.5_0",
           "vless_104.17.98.5_0",
+          "vless_104.17.98.5_0",
+          "vless_188.114.97.6_0",
+          "vless_188.114.97.6_0",
+          "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6:443?path=/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp_0",
+          "vless_188.114.97.6:443?path=/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp_0",
           "vless_188.114.97.6:443?path=/?Telegram---mehrosabiran&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=newcscf.jisucf.cloudns.ch&fp=chrome&ech=cloudflare-ech.com+udp_0",
           "vless_188.114.97.6_0",
-          "vless_188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=newcscf.jisucf.cloudns.ch&host=newcscf.jisucf.cloudns.ch&ech=cloudflare-ech.com+udp_0",
           "vless_104.16.117.43_0",
           "vless_104.16.117.43_0",
           "vless_104.16.117.43_0",
@@ -2064,8 +2160,6 @@
           "vless_104.18.37.228_0",
           "vless_104.18.37.228_0",
           "vless_104.18.37.228_0",
-          "vless_104.18.37.228_0",
-          "vless_104.18.37.228_0",
           "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_104.18.37.228_0",
@@ -2087,6 +2181,7 @@
           "vless_172.66.44.97:443?path=/sg-melbi&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_172.66.44.97:443?path=/sg-melbi/=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_172.66.44.97:443?path=?ed=2048&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
+          "vless_172.66.44.97_0",
           "vless_194.71.227.213_0",
           "vless_208.103.161.32_0",
           "vless_91.250.248.151_0",

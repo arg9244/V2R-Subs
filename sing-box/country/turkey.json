@@ -51,14 +51,38 @@
       }
     },
     {
-      "tag": "vless_168.119.155.195_0",
-      "server": "168.119.155.195",
+      "tag": "vless_83.217.9.220_0",
+      "server": "83.217.9.220",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "15c75de9a09149d0bf0393d855a98082",
+      "tls": {
+        "enabled": true,
+        "server_name": "transfermarkt.com.tr",
+        "reality": {
+          "enabled": true,
+          "public_key": "88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU",
+          "short_id": "aabbccdd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
+      }
+    },
+    {
+      "tag": "vless_91.98.103.93_0",
+      "server": "91.98.103.93",
       "server_port": 0,
       "type": "vless",
       "uuid": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
       "tls": {
         "enabled": true,
-        "insecure": true,
         "server_name": "www3.donyumvps.tr",
         "reality": {
           "enabled": true,
@@ -67,7 +91,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       }
     },
@@ -462,52 +486,13 @@
       }
     },
     {
-      "tag": "vless_104.21.63.20_0",
-      "server": "104.21.63.20",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr.miligoli.com.tr"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_104.21.63.20_0",
-      "server": "104.21.63.20",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr.miligoli.com.tr"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_162.159.136.234_0",
         "vless_194.76.18.253_0",
-        "vless_168.119.155.195_0",
+        "vless_83.217.9.220_0",
+        "vless_91.98.103.93_0",
         "vless_104.26.1.117_0",
         "vless_104.16.72.70_0",
         "vless_84.38.187.169_0",
@@ -523,9 +508,7 @@
         "vless_104.18.32.47_0",
         "vless_45.130.125.76_0",
         "vless_45.130.125.76_0",
-        "vless_45.130.125.76_0",
-        "vless_104.21.63.20_0",
-        "vless_104.21.63.20_0"
+        "vless_45.130.125.76_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

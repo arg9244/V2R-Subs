@@ -13,18 +13,39 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_195.133.80.85_0",
-      "server": "195.133.80.85",
+      "tag": "vless_201.10.91.196_0",
+      "server": "201.10.91.196",
       "server_port": 0,
       "type": "vless",
-      "uuid": "08fe3bec-c2ee-11f1-bb36-54db13ea7d40",
+      "uuid": "0c3ad9d5-cffd-4748-b8df-ab145288144b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ceneo.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
+          "short_id": "103d1dc5ed8eaf4c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "tag": "vless_72.56.52.35_0",
+      "server": "72.56.52.35",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "3f79805b-954e-40de-9d85-9f24b3acf4b6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.wp.pl",
+        "server_name": "pap.pl",
         "reality": {
           "enabled": true,
-          "public_key": "vFJOO1zpiLpsdgYj8ESya6pJnGtGyo6Fr05U5GmoTGc"
+          "public_key": "Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w",
+          "short_id": "4ab3ad05ce108450"
         },
         "utls": {
           "enabled": true,
@@ -33,18 +54,82 @@
       }
     },
     {
-      "tag": "vless_201.10.90.107_0",
-      "server": "201.10.90.107",
+      "tag": "vless_72.56.52.35_0",
+      "server": "72.56.52.35",
       "server_port": 0,
       "type": "vless",
-      "uuid": "f6a5817f-c34f-11f1-aabb-52540030ba36",
+      "uuid": "3f79805b-954e-40de-9d85-9f24b3acf4b6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.wp.pl",
+        "server_name": "pap.pl",
         "reality": {
           "enabled": true,
-          "public_key": "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ"
+          "public_key": "Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w",
+          "short_id": "4ab3ad05ce108450"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_72.56.52.35_0",
+      "server": "72.56.52.35",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "62610fc6-8333-41f9-9258-08915e4343ab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "pap.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w",
+          "short_id": "4ab3ad05ce108450"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_72.56.52.35_0",
+      "server": "72.56.52.35",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "62610fc6-8333-41f9-9258-08915e4343ab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pap.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w",
+          "short_id": "4ab3ad05ce108450"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_201.10.91.196_0",
+      "server": "201.10.91.196",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ceneo.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
+          "short_id": "103d1dc5ed8eaf4c"
         },
         "utls": {
           "enabled": true,
@@ -56,8 +141,12 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_195.133.80.85_0",
-        "vless_201.10.90.107_0"
+        "vless_201.10.91.196_0",
+        "vless_72.56.52.35_0",
+        "vless_72.56.52.35_0",
+        "vless_72.56.52.35_0",
+        "vless_72.56.52.35_0",
+        "vless_201.10.91.196_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

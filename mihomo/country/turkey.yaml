@@ -34,16 +34,31 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: 👨🚀Free👨🚀
--     name: vless_168.119.155.195_0
-      server: 168.119.155.195
+-     name: vless_83.217.9.220_0
+      server: 83.217.9.220
+      port: 0
+      udp: true
+      type: vless
+      uuid: 15c75de9a09149d0bf0393d855a98082
+      tls: true
+      servername: transfermarkt.com.tr
+      client-fingerprint: random
+      reality-opts:
+        public-key: 88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_91.98.103.93_0
+      server: 91.98.103.93
       port: 0
       udp: true
       type: vless
       uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
       tls: true
-      skip-cert-verify: true
       servername: www3.donyumvps.tr
-      client-fingerprint: chrome
+      client-fingerprint: random
       reality-opts:
         public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
         short-id: 125ba3
@@ -276,32 +291,10 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_104.21.63.20_0
-      server: 104.21.63.20
-      port: 0
-      udp: true
-      type: vless
-      uuid: c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9
-      tls: true
-      servername: fr.miligoli.com.tr
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_104.21.63.20_0
-      server: 104.21.63.20
-      port: 0
-      udp: true
-      type: vless
-      uuid: c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9
-      tls: true
-      servername: fr.miligoli.com.tr
-      network: ws
-      ws-opts:
-        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_168.119.155.195_0, vless_104.26.1.117_0, vless_104.16.72.70_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_104.21.63.20_0, vless_104.21.63.20_0]
+      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_83.217.9.220_0, vless_91.98.103.93_0, vless_104.26.1.117_0, vless_104.16.72.70_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

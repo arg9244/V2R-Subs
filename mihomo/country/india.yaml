@@ -56,18 +56,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_172.66.47.69_0
-      server: 172.66.47.69
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-      tls: true
-      skip-cert-verify: true
-      servername: sni.111000.indevs.in
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_185.162.231.138_0
       server: 185.162.231.138
       port: 0
@@ -173,7 +161,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.16.7.70_0, vless_104.18.13.149_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_172.66.47.69_0, vless_185.162.231.138_0, vless_188.244.122.138_0, vless_192.193.104.25_0, vless_57.128.176.82_0, vless_77.238.232.228_0, vless_94.130.132.180_0, vless_45.11.26.110_0, vless_89.124.107.171_0]
+      proxies: [vless_104.16.7.70_0, vless_104.18.13.149_0, vless_167.99.80.91_0, vless_167.99.80.91_0, vless_185.162.231.138_0, vless_188.244.122.138_0, vless_192.193.104.25_0, vless_57.128.176.82_0, vless_77.238.232.228_0, vless_94.130.132.180_0, vless_45.11.26.110_0, vless_89.124.107.171_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -50,50 +50,40 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
-        }
-      }
-    },
-    {
-      "tag": "vless_154.64.251.118_0",
-      "server": "154.64.251.118",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.lamer.com.sg",
-        "reality": {
-          "enabled": true,
-          "public_key": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-          "short_id": "9c3c0f8ec8b4af12"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "vless_154.64.251.118_0",
-      "server": "154.64.251.118",
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
       "server_port": 0,
       "type": "vless",
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
-      "tls": {
+      "uuid": "d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.JP.CMLiussss.net"
+      },
+      "multiplex": {
         "enabled": true,
-        "server_name": "www.lamer.com.sg",
-        "reality": {
-          "enabled": true,
-          "public_key": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-          "short_id": "9c3c0f8ec8b4af12"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d8235de7-84c7-4454-b333-4d854c393929",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
@@ -102,8 +92,8 @@
       "outbounds": [
         "vless_154.21.203.106_0",
         "vless_154.21.203.106_0",
-        "vless_154.64.251.118_0",
-        "vless_154.64.251.118_0"
+        "vless_www.visa.com.sg_0",
+        "vless_www.visa.com.sg_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -10,54 +10,22 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_42.236.73.72_0
-      server: 42.236.73.72
-      port: 0
-      udp: true
-      type: trojan
-      password: fuck
-      tls: true
-      servername: www.zitian.cn
--     name: vless_43.174.246.25_0
-      server: 43.174.246.25
+-     name: vless_217.11.164.183_0
+      server: 217.11.164.183
       port: 0
       udp: true
       type: vless
-      uuid: 00f8cbcc-bf10-418b-a842-35519f460c7f
+      uuid: 03b0a000-a9f1-4ced-8a13-00e807d8b998
       tls: true
-      servername: lovesykun.cn
+      servername: www.apple.com.cn
       client-fingerprint: firefox
-      network: ws
-      ws-opts:
-        path: /15753/socket
--     name: vless_43.174.247.25_0
-      server: 43.174.247.25
-      port: 0
-      udp: true
-      type: vless
-      uuid: 00f8cbcc-bf10-418b-a842-35519f460c7f
-      tls: true
-      servername: lovesykun.cn
-      client-fingerprint: firefox
-      network: ws
-      ws-opts:
-        path: /15753/socket
--     name: vless_66.33.22.229_0
-      server: 66.33.22.229
-      port: 0
-      udp: true
-      type: vless
-      uuid: b8d8944b-0ad5-4cb5-9b48-b73c5380b332
-      tls: true
-      servername: api-stg.semiconductor.samsung.cn
-      client-fingerprint: chrome
       reality-opts:
-        public-key: UT-idtQ3uOpbcVz2GXAn-9IkNL4Q6mwfqgb_z9JHTVw
-        short-id: 7aae950fc7d5
+        public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
+        short-id: 06
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_42.236.73.72_0, vless_43.174.246.25_0, vless_43.174.247.25_0, vless_66.33.22.229_0]
+      proxies: [vless_217.11.164.183_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

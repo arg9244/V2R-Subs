@@ -32,40 +32,32 @@ proxies:
       flow: xtls-rprx-vision
       tls: true
       servername: www.lamer.com.sg
-      client-fingerprint: random
-      reality-opts:
-        public-key: XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE
-        short-id: 9c3c0f8ec8b4af12
--     name: vless_154.64.251.118_0
-      server: 154.64.251.118
-      port: 0
-      udp: true
-      type: vless
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.lamer.com.sg
       client-fingerprint: firefox
       reality-opts:
         public-key: XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE
         short-id: 9c3c0f8ec8b4af12
--     name: vless_154.64.251.118_0
-      server: 154.64.251.118
+-     name: vless_www.visa.com.sg_0
+      server: www.visa.com.sg
       port: 0
       udp: true
       type: vless
-      uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.lamer.com.sg
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE
-        short-id: 9c3c0f8ec8b4af12
+      uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.JP.CMLiussss.net"
+-     name: vless_www.visa.com.sg_0
+      server: www.visa.com.sg
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8235de7-84c7-4454-b333-4d854c393929
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_154.21.203.106_0, vless_154.21.203.106_0, vless_154.64.251.118_0, vless_154.64.251.118_0]
+      proxies: [vless_154.21.203.106_0, vless_154.21.203.106_0, vless_www.visa.com.sg_0, vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

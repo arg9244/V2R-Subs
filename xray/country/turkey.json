@@ -105,20 +105,46 @@
       }
     },
     {
-      "tag": "vless_168.119.155.195_0",
+      "tag": "vless_83.217.9.220_0",
       "protocol": "vless",
       "settings": {
-        "address": "168.119.155.195",
+        "address": "83.217.9.220",
         "port": 0,
-        "id": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
+        "id": "15c75de9a09149d0bf0393d855a98082",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
+          "serverName": "transfermarkt.com.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU",
+            "shortId": "aabbccdd"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_91.98.103.93_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "91.98.103.93",
+        "port": 0,
+        "id": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
           "serverName": "www3.donyumvps.tr",
-          "allowInsecure": true,
+          "allowInsecure": false,
           "reality": {
             "publicKey": "p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ",
             "shortId": "125ba3"
@@ -568,58 +594,6 @@
       }
     },
     {
-      "tag": "vless_104.21.63.20_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.63.20",
-        "port": 0,
-        "id": "c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.YqCXY6j6C_WtSA9P_xIDZQrOq78YCFWUKbMfP_GIq0o"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "fr.miligoli.com.tr",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.21.63.20_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.63.20",
-        "port": 0,
-        "id": "c1fe46b0-d966-4f02-a554-9cb2dbb8f2a9",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.YqCXY6j6C_WtSA9P_xIDZQrOq78YCFWUKbMfP_GIq0o"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "fr.miligoli.com.tr",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -663,7 +637,8 @@
         "selector": [
           "vless_162.159.136.234_0",
           "vless_194.76.18.253_0",
-          "vless_168.119.155.195_0",
+          "vless_83.217.9.220_0",
+          "vless_91.98.103.93_0",
           "vless_104.26.1.117_0",
           "vless_104.16.72.70_0",
           "vless_84.38.187.169_0",
@@ -679,9 +654,7 @@
           "vless_104.18.32.47_0",
           "vless_45.130.125.76_0",
           "vless_45.130.125.76_0",
-          "vless_45.130.125.76_0",
-          "vless_104.21.63.20_0",
-          "vless_104.21.63.20_0"
+          "vless_45.130.125.76_0"
         ],
         "strategy": {
           "type": "leastPing",
