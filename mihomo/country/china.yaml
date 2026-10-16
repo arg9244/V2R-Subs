@@ -22,10 +22,22 @@ proxies:
       reality-opts:
         public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
         short-id: 06
+-     name: vless_217.11.164.183_0
+      server: 217.11.164.183
+      port: 0
+      udp: true
+      type: vless
+      uuid: 03b0a000-a9f1-4ced-8a13-00e807d8b998
+      tls: true
+      servername: www.apple.com.cn
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
+        short-id: 06
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_217.11.164.183_0]
+      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

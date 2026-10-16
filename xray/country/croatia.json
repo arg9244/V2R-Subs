@@ -80,33 +80,6 @@
       }
     },
     {
-      "tag": "vless_5.181.2.78_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "5.181.2.78",
-        "port": 0,
-        "id": "e06ecfcf6c73431c8d2a1fa03b210c7f",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "net.hr",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "b3zd86dnGJwVtoby8xGAeUCQOy5NzjWXEDlxTLCqRCs",
-            "shortId": "aabbccdd"
-          }
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -148,7 +121,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_5.181.2.78_0",
           "vless_5.181.2.78_0"
         ],
         "strategy": {

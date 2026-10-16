@@ -157,6 +157,32 @@
       }
     },
     {
+      "tag": "vless_172.66.47.69_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.66.47.69",
+        "port": 0,
+        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sni.111000.indevs.in",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_185.162.231.138_0",
       "protocol": "vless",
       "settings": {
@@ -279,64 +305,6 @@
       }
     },
     {
-      "tag": "vless_77.238.232.228_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "77.238.232.228",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.130.132.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.130.132.180",
-        "port": 0,
-        "id": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni.111000.indevs.in",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_45.11.26.110_0",
       "protocol": "vless",
       "settings": {
@@ -438,12 +406,11 @@
           "vless_104.18.13.149_0",
           "vless_167.99.80.91_0",
           "vless_167.99.80.91_0",
+          "vless_172.66.47.69_0",
           "vless_185.162.231.138_0",
           "vless_188.244.122.138_0",
           "vless_192.193.104.25_0",
           "vless_57.128.176.82_0",
-          "vless_77.238.232.228_0",
-          "vless_94.130.132.180_0",
           "vless_45.11.26.110_0",
           "vless_89.124.107.171_0"
         ],

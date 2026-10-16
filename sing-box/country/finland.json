@@ -13,31 +13,59 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_141.98.85.88_0",
-      "server": "141.98.85.88",
+      "tag": "vless_81.90.21.89_0",
+      "server": "81.90.21.89",
       "server_port": 0,
       "type": "vless",
-      "uuid": "bf55376a-a3a0-480e-9317-afa32092a96a",
-      "flow": "xtls-rprx-vision",
+      "uuid": "89f84dc1-39e4-4302-a455-1e4b946883b0",
       "tls": {
         "enabled": true,
-        "server_name": "www.jyu.fi",
+        "server_name": "deliberi.fi",
         "reality": {
           "enabled": true,
-          "public_key": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
-          "short_id": "675a2ad9f7969dd7"
+          "public_key": "ib3Kd2S4Y5q_T9UOnOB9d5YCj8bP36lKy6kE75BZ7DQ",
+          "short_id": "6f4e398e3638a914"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "fdd375774aa4"
+      }
+    },
+    {
+      "tag": "vless_81.90.21.89_0",
+      "server": "81.90.21.89",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f84dc1-39e4-4302-a455-1e4b946883b0",
+      "tls": {
+        "enabled": true,
+        "server_name": "deliberi.fi",
+        "reality": {
+          "enabled": true,
+          "public_key": "ib3Kd2S4Y5q_T9UOnOB9d5YCj8bP36lKy6kE75BZ7DQ",
+          "short_id": "6f4e398e3638a914"
         },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "fdd375774aa4"
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_141.98.85.88_0"
+        "vless_81.90.21.89_0",
+        "vless_81.90.21.89_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

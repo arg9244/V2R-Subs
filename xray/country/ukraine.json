@@ -116,6 +116,26 @@
       }
     },
     {
+      "tag": "trojan_mfa.gov.ua_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "mfa.gov.ua",
+        "port": 0,
+        "password": "87d1bfd4-574e-4c96-ad42-0426f27461ff",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_60.250.152.209_0",
       "protocol": "trojan",
       "settings": {
@@ -179,14 +199,13 @@
       }
     },
     {
-      "tag": "vless_172.65.90.52_0",
+      "tag": "vless_172.65.90.53_0",
       "protocol": "vless",
       "settings": {
-        "address": "172.65.90.52",
+        "address": "172.65.90.53",
         "port": 0,
         "id": "121c3728-2b6b-4b69-bac6-170b13658d74",
-        "tls": "none",
-        "encryption": "none"
+        "tls": "none"
       },
       "streamSettings": {
         "security": "none",
@@ -395,27 +414,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/lzjjj"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.gov.ua_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.gov.ua",
-        "port": 0,
-        "id": "afb13fa2-bba2-417f-b8c2-62565f92a78d",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.JP.CMLiussss.net"
         }
       },
       "mux": {
@@ -655,10 +653,11 @@
           "trojan_60.250.152.229_0",
           "trojan_60.250.152.230_0",
           "trojan_60.250.152.209_0",
+          "trojan_mfa.gov.ua_0",
           "trojan_60.250.152.209_0",
           "trojan_60.250.152.230_0",
           "trojan_141.101.121.163_0",
-          "vless_172.65.90.52_0",
+          "vless_172.65.90.53_0",
           "vless_104.21.22.133_0",
           "vless_104.21.79.79_0",
           "vless_104.21.71.205_0",
@@ -666,7 +665,6 @@
           "vless_104.18.83.92_0",
           "vless_66.179.48.46_0",
           "vless_66.179.48.46_0",
-          "vless_www.gov.ua_0",
           "vless_141.101.120.100_0",
           "vless_141.101.120.102_0",
           "vless_141.101.120.198_0",

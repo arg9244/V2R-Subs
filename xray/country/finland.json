@@ -53,27 +53,59 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_141.98.85.88_0",
+      "tag": "vless_81.90.21.89_0",
       "protocol": "vless",
       "settings": {
-        "address": "141.98.85.88",
+        "address": "81.90.21.89",
         "port": 0,
-        "id": "bf55376a-a3a0-480e-9317-afa32092a96a",
+        "id": "89f84dc1-39e4-4302-a455-1e4b946883b0",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.jyu.fi",
+          "serverName": "deliberi.fi",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "hSCJ3zKX3Pb_-0EYSwUK7XHy2QqzVGWqoiVS9HKLjy8",
-            "shortId": "675a2ad9f7969dd7"
+            "publicKey": "ib3Kd2S4Y5q_T9UOnOB9d5YCj8bP36lKy6kE75BZ7DQ",
+            "shortId": "6f4e398e3638a914"
           }
         },
-        "network": "tcp"
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "fdd375774aa4"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_81.90.21.89_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "81.90.21.89",
+        "port": 0,
+        "id": "89f84dc1-39e4-4302-a455-1e4b946883b0",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "deliberi.fi",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ib3Kd2S4Y5q_T9UOnOB9d5YCj8bP36lKy6kE75BZ7DQ",
+            "shortId": "6f4e398e3638a914"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "fdd375774aa4"
+        }
       },
       "mux": {
         "enabled": true,
@@ -122,7 +154,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_141.98.85.88_0"
+          "vless_81.90.21.89_0",
+          "vless_81.90.21.89_0"
         ],
         "strategy": {
           "type": "leastPing",

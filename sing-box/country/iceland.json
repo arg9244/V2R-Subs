@@ -17,10 +17,41 @@
       "server": "time.is",
       "server_port": 0,
       "type": "vless",
-      "uuid": "31aa0950-eb19-45ff-94a2-af416deb3b90",
+      "uuid": "eaaf6b7c-4a8e-45bb-bf9e-24395976415f",
       "tls": {
         "enabled": true,
-        "server_name": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+        "server_name": "rnus1.466688.xyz",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1",
+            "h3"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/secure-xhttp?https://t.me/QiangLieTuiJian",
+        "headers": {
+          "Host": "rnus1.466688.xyz"
+        }
+      }
+    },
+    {
+      "tag": "vless_time.is_0",
+      "server": "time.is",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fc8a0708-951a-4027-860f-2a154ebc4dd7",
+      "tls": {
+        "enabled": true,
+        "server_name": "crimson-king-301d.nexoxnet.workers.dev",
         "alpn": {
           "enabled": true,
           "protocols": [
@@ -36,7 +67,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed"
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -48,6 +79,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_time.is_0",
         "vless_time.is_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

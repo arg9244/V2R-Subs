@@ -22,22 +22,10 @@ proxies:
       reality-opts:
         public-key: fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0
         short-id: 489861db
--     name: vless_94.182.131.101_0
-      server: 94.182.131.101
-      port: 0
-      udp: true
-      type: vless
-      uuid: 950ec237-e75f-4e99-9557-6545784d4202
-      tls: true
-      servername: youtu.be
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0
-        short-id: 489861db
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_94.182.131.101_0, vless_94.182.131.101_0]
+      proxies: [vless_94.182.131.101_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -80,33 +80,6 @@
       }
     },
     {
-      "tag": "vless_94.182.131.101_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.182.131.101",
-        "port": 0,
-        "id": "950ec237-e75f-4e99-9557-6545784d4202",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "youtu.be",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0",
-            "shortId": "489861db"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -148,7 +121,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_94.182.131.101_0",
           "vless_94.182.131.101_0"
         ],
         "strategy": {

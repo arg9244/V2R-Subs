@@ -98,6 +98,27 @@
       }
     },
     {
+      "tag": "vless_172.66.47.69_0",
+      "server": "172.66.47.69",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "sni.111000.indevs.in"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_185.162.231.138_0",
       "server": "185.162.231.138",
       "server_port": 0,
@@ -215,61 +236,6 @@
       }
     },
     {
-      "tag": "vless_77.238.232.228_0",
-      "server": "77.238.232.228",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560&Telegram🇨🇳 @WangCai2"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_94.130.132.180_0",
-      "server": "94.130.132.180",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "tls": {
-        "enabled": true,
-        "server_name": "sni.111000.indevs.in",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_45.11.26.110_0",
       "server": "45.11.26.110",
       "server_port": 0,
@@ -319,12 +285,11 @@
         "vless_104.18.13.149_0",
         "vless_167.99.80.91_0",
         "vless_167.99.80.91_0",
+        "vless_172.66.47.69_0",
         "vless_185.162.231.138_0",
         "vless_188.244.122.138_0",
         "vless_192.193.104.25_0",
         "vless_57.128.176.82_0",
-        "vless_77.238.232.228_0",
-        "vless_94.130.132.180_0",
         "vless_45.11.26.110_0",
         "vless_89.124.107.171_0"
       ],
