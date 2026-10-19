@@ -85,6 +85,38 @@
       }
     },
     {
+      "tag": "vless_104.21.79.221_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.79.221",
+        "port": 0,
+        "id": "2b619c86-0173-4779-b1db-91bd18e3a618",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "phantom.persia.my",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_5.180.42.57_0",
       "protocol": "vless",
       "settings": {
@@ -416,6 +448,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_104.21.79.221_0",
           "vless_104.21.79.221_0",
           "vless_5.180.42.57_0",
           "vless_2.56.124.3_0",

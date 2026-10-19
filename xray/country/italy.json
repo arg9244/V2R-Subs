@@ -81,6 +81,70 @@
       }
     },
     {
+      "tag": "vless_151.101.65.140_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.101.65.140",
+        "port": 0,
+        "id": "4cab3073-5346-42bb-9dd4-4dc516e7e266",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "redd.it",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_151.101.129.140_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.101.129.140",
+        "port": 0,
+        "id": "8b222b0d-dfc1-4ed9-9c26-1c6b66e03c09",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "redd.it",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=1024"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_109.70.74.95_0",
       "protocol": "vless",
       "settings": {
@@ -151,6 +215,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_2c15e9d2562b.varqima.ir_0",
+          "vless_151.101.65.140_0",
+          "vless_151.101.129.140_0",
           "vless_109.70.74.95_0"
         ],
         "strategy": {

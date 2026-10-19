@@ -34,10 +34,32 @@ proxies:
       reality-opts:
         public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
         short-id: 06
+-     name: vless_42.236.73.72_0
+      server: 42.236.73.72
+      port: 0
+      udp: true
+      type: vless
+      uuid: 11916472-4e2c-49c6-b75d-71196b3a7ecf
+      tls: true
+      servername: www.zitian.cn
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: vless_104.19.152.87_0
+      server: 104.19.152.87
+      port: 0
+      udp: true
+      type: vless
+      uuid: d2efa18a-9e8a-3057-91fe-90c8e620e49f
+      tls: true
+      servername: s6.oboob.cn
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /db1024113a787392
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0]
+      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -81,27 +81,52 @@
       }
     },
     {
-      "tag": "vless_72.56.52.35_0",
+      "tag": "vless_pl4.h1cloud.net_0",
       "protocol": "vless",
       "settings": {
-        "address": "72.56.52.35",
+        "address": "pl4.h1cloud.net",
         "port": 0,
-        "id": "62610fc6-8333-41f9-9258-08915e4343ab",
+        "id": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.ceneo.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
+            "shortId": "103d1dc5ed8eaf4c"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_pl4.h1cloud.net_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "pl4.h1cloud.net",
+        "port": 0,
+        "id": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "pap.pl",
-          "allowInsecure": true,
+          "serverName": "www.ceneo.pl",
+          "allowInsecure": false,
           "reality": {
-            "publicKey": "Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w",
-            "shortId": "4ab3ad05ce108450"
+            "publicKey": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
+            "shortId": "103d1dc5ed8eaf4c"
           }
         },
-        "network": "tcp"
+        "network": "raw"
       },
       "mux": {
         "enabled": true,
@@ -151,7 +176,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_72.56.52.35_0",
-          "vless_72.56.52.35_0"
+          "vless_pl4.h1cloud.net_0",
+          "vless_pl4.h1cloud.net_0"
         ],
         "strategy": {
           "type": "leastPing",

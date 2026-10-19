@@ -53,11 +53,58 @@
       }
     },
     {
+      "tag": "vless_42.236.73.72_0",
+      "server": "42.236.73.72",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "11916472-4e2c-49c6-b75d-71196b3a7ecf",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.zitian.cn",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_104.19.152.87_0",
+      "server": "104.19.152.87",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d2efa18a-9e8a-3057-91fe-90c8e620e49f",
+      "tls": {
+        "enabled": true,
+        "server_name": "s6.oboob.cn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/db1024113a787392"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_217.11.164.183_0",
-        "vless_217.11.164.183_0"
+        "vless_217.11.164.183_0",
+        "vless_42.236.73.72_0",
+        "vless_104.19.152.87_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

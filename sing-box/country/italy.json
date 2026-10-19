@@ -34,6 +34,68 @@
       }
     },
     {
+      "tag": "vless_151.101.65.140_0",
+      "server": "151.101.65.140",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "4cab3073-5346-42bb-9dd4-4dc516e7e266",
+      "tls": {
+        "enabled": true,
+        "server_name": "redd.it",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_151.101.129.140_0",
+      "server": "151.101.129.140",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "8b222b0d-dfc1-4ed9-9c26-1c6b66e03c09",
+      "tls": {
+        "enabled": true,
+        "server_name": "redd.it",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=1024"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_109.70.74.95_0",
       "server": "109.70.74.95",
       "server_port": 0,
@@ -59,6 +121,8 @@
       "type": "urltest",
       "outbounds": [
         "vless_2c15e9d2562b.varqima.ir_0",
+        "vless_151.101.65.140_0",
+        "vless_151.101.129.140_0",
         "vless_109.70.74.95_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

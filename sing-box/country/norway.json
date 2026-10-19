@@ -75,11 +75,32 @@
       }
     },
     {
+      "tag": "vless_151.101.1.203_0",
+      "server": "151.101.1.203",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "9d21c63f-a121-4411-cd51-1d6782157c0f",
+      "tls": {
+        "enabled": true,
+        "server_name": "video.nordkapp-boats.no"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray/?ed=2560"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_151.101.129.203_0",
-        "vless_151.101.129.203_0"
+        "vless_151.101.129.203_0",
+        "vless_151.101.1.203_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

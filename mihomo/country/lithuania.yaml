@@ -10,22 +10,62 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_84.252.132.142_0
-      server: 84.252.132.142
+-     name: vless_84.32.244.240_0
+      server: 84.32.244.240
       port: 0
       udp: true
       type: vless
-      uuid: 852c7b52-ca2d-4c63-9413-586c611c2ba6
+      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      flow: xtls-rprx-vision
       tls: true
-      servername: yandex.lt
+      servername: www.maxima.lt
       client-fingerprint: firefox
       reality-opts:
-        public-key: IoP794V4wh0SxFDooTa4ZUl9s5W7ViJBo1-rBm7aEFg
-        short-id: 8c48e512ffd0
+        public-key: 27MLZbr4_ldNKw45jVF61b_SoQ8p78VUCqJONOM5F2g
+        short-id: da2fd9c69e29fa4a
+-     name: vless_84.32.244.240_0
+      server: 84.32.244.240
+      port: 0
+      udp: true
+      type: vless
+      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.maxima.lt
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 27MLZbr4_ldNKw45jVF61b_SoQ8p78VUCqJONOM5F2g
+        short-id: da2fd9c69e29fa4a
+-     name: vless_88.216.62.196_0
+      server: 88.216.62.196
+      port: 0
+      udp: true
+      type: vless
+      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.aruodas.lt
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: iLBZW3C5IDa7oXK3t1nKIzZn-faVNcfNiXdv07DF13s
+        short-id: cc2737a4e060b379
+-     name: vless_88.216.62.196_0
+      server: 88.216.62.196
+      port: 0
+      udp: true
+      type: vless
+      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.aruodas.lt
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: iLBZW3C5IDa7oXK3t1nKIzZn-faVNcfNiXdv07DF13s
+        short-id: cc2737a4e060b379
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_84.252.132.142_0]
+      proxies: [vless_84.32.244.240_0, vless_84.32.244.240_0, vless_88.216.62.196_0, vless_88.216.62.196_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

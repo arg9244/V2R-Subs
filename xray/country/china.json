@@ -107,6 +107,60 @@
       }
     },
     {
+      "tag": "vless_42.236.73.72_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "42.236.73.72",
+        "port": 0,
+        "id": "11916472-4e2c-49c6-b75d-71196b3a7ecf",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.zitian.cn",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.19.152.87_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.19.152.87",
+        "port": 0,
+        "id": "d2efa18a-9e8a-3057-91fe-90c8e620e49f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "s6.oboob.cn",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/db1024113a787392"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -149,7 +203,9 @@
         "tag": "leastPing",
         "selector": [
           "vless_217.11.164.183_0",
-          "vless_217.11.164.183_0"
+          "vless_217.11.164.183_0",
+          "vless_42.236.73.72_0",
+          "vless_104.19.152.87_0"
         ],
         "strategy": {
           "type": "leastPing",

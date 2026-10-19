@@ -53,27 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_104.19.45.195_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.19.45.195",
-        "port": 0,
-        "password": "pH%5B%5DS%5BBh%3A_%3AD6T4k",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "AZaDneT-692.PagEs.DEv",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -111,18 +90,7 @@
         "outboundTag": "dns-out"
       }
     ],
-    "balancers": [
-      {
-        "tag": "leastPing",
-        "selector": [
-          "trojan_104.19.45.195_0"
-        ],
-        "strategy": {
-          "type": "leastPing",
-          "settings": {}
-        }
-      }
-    ]
+    "balancers": []
   },
   "observatory": {
     "enable": true,

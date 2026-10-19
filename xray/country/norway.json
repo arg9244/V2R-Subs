@@ -117,6 +117,32 @@
       }
     },
     {
+      "tag": "vless_151.101.1.203_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "151.101.1.203",
+        "port": 0,
+        "id": "9d21c63f-a121-4411-cd51-1d6782157c0f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "video.nordkapp-boats.no",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -159,7 +185,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_151.101.129.203_0",
-          "vless_151.101.129.203_0"
+          "vless_151.101.129.203_0",
+          "vless_151.101.1.203_0"
         ],
         "strategy": {
           "type": "leastPing",

@@ -10,6 +10,30 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: trojan_104.21.30.167_0
+      server: 104.21.30.167
+      port: 0
+      udp: true
+      type: trojan
+      password: 2fec7227-9abe-46f2-af18-78302b836c45
+      tls: true
+      servername: 3y.2032.pp.ua
+-     name: trojan_104.21.26.17_0
+      server: 104.21.26.17
+      port: 0
+      udp: true
+      type: trojan
+      password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
+      tls: true
+      servername: m9rrrfgh.459.pp.ua
+-     name: trojan_172.67.135.37_0
+      server: 172.67.135.37
+      port: 0
+      udp: true
+      type: trojan
+      password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
+      tls: true
+      servername: m9rrrfgh.459.pp.ua
 -     name: trojan_60.250.152.229_0
       server: 60.250.152.229
       port: 0
@@ -37,13 +61,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: a12.taipeicitygovernment.org.ua
--     name: trojan_mfa.gov.ua_0
-      server: mfa.gov.ua
-      port: 0
-      udp: true
-      type: trojan
-      password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-      tls: true
 -     name: trojan_60.250.152.209_0
       server: 60.250.152.209
       port: 0
@@ -63,6 +80,48 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: official.taipeicitygovernment.ivano-frankivsk.ua
+-     name: trojan_172.67.173.64_0
+      server: 172.67.173.64
+      port: 0
+      udp: true
+      type: trojan
+      password: a7b22c05-27fd-4a76-8896-2aebaf4cf3a1
+      tls: true
+      servername: TttTtTYU.2032.PP.UA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_104.21.23.162_0
+      server: 104.21.23.162
+      port: 0
+      udp: true
+      type: trojan
+      password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
+      tls: true
+      servername: 7mmm.131.pp.ua
+-     name: trojan_141.101.120.153_0
+      server: 141.101.120.153
+      port: 0
+      udp: true
+      type: trojan
+      password: c65dbe85-354d-4892-909d-2b288830ee37
+      tls: true
+      servername: 1744156312.speed.nycvara.china.nicchina.pp.ua
+-     name: trojan_141.101.120.15_0
+      server: 141.101.120.15
+      port: 0
+      udp: true
+      type: trojan
+      password: c65dbe85-354d-4892-909d-2b288830ee37
+      tls: true
+      servername: 1744156312.speed.baxsab.china.nicchina.pp.ua
+-     name: trojan_141.101.120.197_0
+      server: 141.101.120.197
+      port: 0
+      udp: true
+      type: trojan
+      password: c65dbe85-354d-4892-909d-2b288830ee37
+      tls: true
+      servername: 1744156312.speed.baxsab.china.nicchina.pp.ua
 -     name: trojan_141.101.121.163_0
       server: 141.101.121.163
       port: 0
@@ -71,6 +130,48 @@ proxies:
       password: c65dbe85-354d-4892-909d-2b288830ee37
       tls: true
       servername: 1744156312.speed.baxsab.china.nicchina.pp.ua
+-     name: trojan_141.101.121.206_0
+      server: 141.101.121.206
+      port: 0
+      udp: true
+      type: trojan
+      password: c65dbe85-354d-4892-909d-2b288830ee37
+      tls: true
+      servername: 1744156312.speed.baxsab.china.nicchina.pp.ua
+-     name: trojan_104.21.73.150_0
+      server: 104.21.73.150
+      port: 0
+      udp: true
+      type: trojan
+      password: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+      tls: true
+      servername: sDFgHU.931.pP.ua
+-     name: trojan_172.67.163.102_0
+      server: 172.67.163.102
+      port: 0
+      udp: true
+      type: trojan
+      password: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+      tls: true
+      servername: sDFgHU.931.pP.ua
+-     name: trojan_172.67.208.155_0
+      server: 172.67.208.155
+      port: 0
+      udp: true
+      type: trojan
+      password: da128246-33b0-4c88-a44e-d91e9e0a1e05
+      tls: true
+      servername: SsSDdDffGBNhJu.2030.Pp.Ua
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_172.67.212.82_0
+      server: 172.67.212.82
+      port: 0
+      udp: true
+      type: trojan
+      password: f82fb954-06a1-4f0b-9180-17e07585b61f
+      tls: true
+      servername: 6yuioph.131.pp.ua
 -     name: vless_172.65.90.53_0
       server: 172.65.90.53
       port: 0
@@ -80,6 +181,19 @@ proxies:
       network: ws
       ws-opts:
         path: "/pyip=ProxyIP.SG.CMLiussss.net"
+-     name: vless_104.21.22.133_0
+      server: 104.21.22.133
+      port: 0
+      udp: true
+      type: vless
+      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+      tls: true
+      servername: 300-ac1b-3e970b59d0.20220420.pp.ua
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /ok1UBnf7txQ8YJFJxz
 -     name: vless_104.21.22.133_0
       server: 104.21.22.133
       port: 0
@@ -106,6 +220,30 @@ proxies:
       network: ws
       ws-opts:
         path: /GLDvleH8RDu6ZqfwAwY2SNm
+-     name: vless_104.21.79.79_0
+      server: 104.21.79.79
+      port: 0
+      udp: true
+      type: vless
+      uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
+      tls: true
+      servername: WwsdE.938.Pp.uA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /GLDvleH8RDu6ZqfwAwY2SNm
+-     name: vless_104.21.23.162_0
+      server: 104.21.23.162
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+      tls: true
+      servername: D05f4AA7-92B1-a659-E3B9-695dd2870b3c.131.pp.UA
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_104.21.71.205_0
       server: 104.21.71.205
       port: 0
@@ -119,6 +257,30 @@ proxies:
       network: ws
       ws-opts:
         path: /XcQF058rNJ3gc4aj
+-     name: vless_104.21.71.205_0
+      server: 104.21.71.205
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+      tls: true
+      servername: 7d33510a-5dA0-4F85-b1d5-5321a9eaA72a.890603.pP.uA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /XcQF058rNJ3gc4aj
+-     name: vless_172.67.205.22_0
+      server: 172.67.205.22
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+      tls: true
+      servername: 1SsdDdfFffHhHJjJJ.20220420.PP.ua
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_172.67.212.59_0
       server: 172.67.212.59
       port: 0
@@ -132,6 +294,30 @@ proxies:
       network: ws
       ws-opts:
         path: /rU9rSjDSOd4yY2fOe
+-     name: vless_172.67.212.59_0
+      server: 172.67.212.59
+      port: 0
+      udp: true
+      type: vless
+      uuid: 585acd30-52bf-4b70-a537-e13649fafefc
+      tls: true
+      servername: bBA.890601.pP.UA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /rU9rSjDSOd4yY2fOe
+-     name: vless_104.18.80.243_0
+      server: 104.18.80.243
+      port: 0
+      udp: true
+      type: vless
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      tls: true
+      servername: 0229.patterdeng.pp.ua
+      network: ws
+      ws-opts:
+        path: "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
 -     name: vless_104.18.83.92_0
       server: 104.18.83.92
       port: 0
@@ -144,6 +330,51 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_104.18.83.92_0
+      server: 104.18.83.92
+      port: 0
+      udp: true
+      type: vless
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      tls: true
+      servername: 0229.patterdeng.pp.ua
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_160.79.104.113_0
+      server: 160.79.104.113
+      port: 0
+      udp: true
+      type: vless
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      tls: true
+      servername: 0229.patterdeng.pp.ua
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_162.159.153.42_0
+      server: 162.159.153.42
+      port: 0
+      udp: true
+      type: vless
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      tls: true
+      servername: 0229.patterdeng.pp.ua
+      network: ws
+      ws-opts:
+        path: "/proxyip=proxyip.oracle.cmliussss.netsecurity=tls"
+-     name: vless_212.183.88.46_0
+      server: 212.183.88.46
+      port: 0
+      udp: true
+      type: vless
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      tls: true
+      servername: 0229.patterdeng.pp.ua
+      network: ws
+      ws-opts:
+        path: "/?ed=2560security=tls"
 -     name: vless_66.179.48.46_0
       server: 66.179.48.46
       port: 0
@@ -168,6 +399,53 @@ proxies:
       network: ws
       ws-opts:
         path: /lzjjj
+-     name: vless_66.179.48.46_0
+      server: 66.179.48.46
+      port: 0
+      udp: true
+      type: vless
+      uuid: a3c075ab-51cd-4947-e8a4-aad55e19bec2
+      tls: true
+      servername: hy2.xiaozi.cc.ua
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /lzjjj
+-     name: vless_172.67.163.102_0
+      server: 172.67.163.102
+      port: 0
+      udp: true
+      type: vless
+      uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
+      tls: true
+      servername: SssDCvFbgnjKi.931.PP.Ua
+      network: ws
+      ws-opts:
+        path: /JUnt3S1C1hYgCXNutkS5H
+-     name: vless_172.67.172.91_0
+      server: 172.67.172.91
+      port: 0
+      udp: true
+      type: vless
+      uuid: b30a50bc-0f63-422d-bbd6-8c790c0abb4d
+      tls: true
+      servername: m8ui9.457.pp.ua
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_104.21.26.17_0
+      server: 104.21.26.17
+      port: 0
+      udp: true
+      type: vless
+      uuid: cf8c791e-9d0b-4e90-aaf6-41ac62468416
+      tls: true
+      servername: IiIIIiiIIIiiO.459.pp.uA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /dtBdvnoJO8180gomOew3d
 -     name: vless_141.101.120.100_0
       server: 141.101.120.100
       port: 0
@@ -192,6 +470,53 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_141.101.120.102_0
+      server: 141.101.120.102
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_141.101.120.132_0
+      server: 141.101.120.132
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_141.101.120.15_0
+      server: 141.101.120.15
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
+-     name: vless_141.101.120.198_0
+      server: 141.101.120.198
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: "/?ed=2048"
 -     name: vless_141.101.120.198_0
       server: 141.101.120.198
       port: 0
@@ -206,6 +531,30 @@ proxies:
         path: "/?ed=2048"
 -     name: vless_141.101.120.2_0
       server: 141.101.120.2
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_141.101.120.2_0
+      server: 141.101.120.2
+      port: 0
+      udp: true
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      tls: true
+      servername: 1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_141.101.121.225_0
+      server: 141.101.121.225
       port: 0
       udp: true
       type: vless
@@ -253,10 +602,23 @@ proxies:
       network: ws
       ws-opts:
         path: /AMpQdWyvpaPkb7QHHkQBzYO
+-     name: vless_104.21.63.226_0
+      server: 104.21.63.226
+      port: 0
+      udp: true
+      type: vless
+      uuid: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
+      tls: true
+      servername: SdERt.457.pp.UA
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /AMpQdWyvpaPkb7QHHkQBzYO
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_60.250.152.209_0, trojan_mfa.gov.ua_0, trojan_60.250.152.209_0, trojan_60.250.152.230_0, trojan_141.101.121.163_0, vless_172.65.90.53_0, vless_104.21.22.133_0, vless_104.21.79.79_0, vless_104.21.71.205_0, vless_172.67.212.59_0, vless_104.18.83.92_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_141.101.120.100_0, vless_141.101.120.102_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_172.67.149.248_0, vless_104.21.63.226_0]
+      proxies: [trojan_104.21.30.167_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_60.250.152.209_0, trojan_60.250.152.209_0, trojan_60.250.152.230_0, trojan_172.67.173.64_0, trojan_104.21.23.162_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.208.155_0, trojan_172.67.212.82_0, vless_172.65.90.53_0, vless_104.21.22.133_0, vless_104.21.22.133_0, vless_104.21.79.79_0, vless_104.21.79.79_0, vless_104.21.23.162_0, vless_104.21.71.205_0, vless_104.21.71.205_0, vless_172.67.205.22_0, vless_172.67.212.59_0, vless_172.67.212.59_0, vless_104.18.80.243_0, vless_104.18.83.92_0, vless_104.18.83.92_0, vless_160.79.104.113_0, vless_162.159.153.42_0, vless_212.183.88.46_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_172.67.163.102_0, vless_172.67.172.91_0, vless_104.21.26.17_0, vless_141.101.120.100_0, vless_141.101.120.102_0, vless_141.101.120.102_0, vless_141.101.120.132_0, vless_141.101.120.15_0, vless_141.101.120.198_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_141.101.121.225_0, vless_172.67.149.248_0, vless_104.21.63.226_0, vless_104.21.63.226_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

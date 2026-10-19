@@ -13,6 +13,86 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_209.46.30.217_0",
+      "server": "209.46.30.217",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
+      "tls": {
+        "enabled": true,
+        "server_name": "fq521.6789.cloudns.be"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/twitter苏小柠security=tls"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_62.72.166.67_0",
+      "server": "62.72.166.67",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
+      "tls": {
+        "enabled": true,
+        "server_name": "fq521.6789.cloudns.be"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/twitter苏小柠security=tls"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_94.247.142.241_0",
+      "server": "94.247.142.241",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "775213ac-3976-439a-8977-3277c0e4735d",
+      "tls": {
+        "enabled": true,
+        "server_name": "fq521.6789.cloudns.be"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "twitterfreecodessecurity=tls"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_94.182.131.101_0",
+      "server": "94.182.131.101",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "950ec237-e75f-4e99-9557-6545784d4202",
+      "tls": {
+        "enabled": true,
+        "server_name": "youtu.be",
+        "reality": {
+          "enabled": true,
+          "public_key": "fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0",
+          "short_id": "489861db"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "vless_94.182.131.101_0",
       "server": "94.182.131.101",
       "server_port": 0,
@@ -36,6 +116,10 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_209.46.30.217_0",
+        "vless_62.72.166.67_0",
+        "vless_94.247.142.241_0",
+        "vless_94.182.131.101_0",
         "vless_94.182.131.101_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

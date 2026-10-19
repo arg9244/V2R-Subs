@@ -10,6 +10,51 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_209.46.30.217_0
+      server: 209.46.30.217
+      port: 0
+      udp: true
+      type: vless
+      uuid: 775213ac-3976-439a-8977-3277c0e4735d
+      tls: true
+      servername: fq521.6789.cloudns.be
+      network: ws
+      ws-opts:
+        path: "/twitter苏小柠security=tls"
+-     name: vless_62.72.166.67_0
+      server: 62.72.166.67
+      port: 0
+      udp: true
+      type: vless
+      uuid: 775213ac-3976-439a-8977-3277c0e4735d
+      tls: true
+      servername: fq521.6789.cloudns.be
+      network: ws
+      ws-opts:
+        path: "/twitter苏小柠security=tls"
+-     name: vless_94.247.142.241_0
+      server: 94.247.142.241
+      port: 0
+      udp: true
+      type: vless
+      uuid: 775213ac-3976-439a-8977-3277c0e4735d
+      tls: true
+      servername: fq521.6789.cloudns.be
+      network: ws
+      ws-opts:
+        path: "twitterfreecodessecurity=tls"
+-     name: vless_94.182.131.101_0
+      server: 94.182.131.101
+      port: 0
+      udp: true
+      type: vless
+      uuid: 950ec237-e75f-4e99-9557-6545784d4202
+      tls: true
+      servername: youtu.be
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0
+        short-id: 489861db
 -     name: vless_94.182.131.101_0
       server: 94.182.131.101
       port: 0
@@ -25,7 +70,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_94.182.131.101_0]
+      proxies: [vless_209.46.30.217_0, vless_62.72.166.67_0, vless_94.247.142.241_0, vless_94.182.131.101_0, vless_94.182.131.101_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

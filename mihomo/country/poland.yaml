@@ -23,24 +23,34 @@ proxies:
       reality-opts:
         public-key: Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w
         short-id: 4ab3ad05ce108450
--     name: vless_72.56.52.35_0
-      server: 72.56.52.35
+-     name: vless_pl4.h1cloud.net_0
+      server: pl4.h1cloud.net
       port: 0
       udp: true
       type: vless
-      uuid: 62610fc6-8333-41f9-9258-08915e4343ab
-      flow: xtls-rprx-vision
+      uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
       tls: true
-      skip-cert-verify: true
-      servername: pap.pl
-      client-fingerprint: firefox
+      servername: www.ceneo.pl
+      client-fingerprint: random
       reality-opts:
-        public-key: Qny0nDXZPLi-EqG6kCxz4zZykkttmKgBcXU1DIMj32w
-        short-id: 4ab3ad05ce108450
+        public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+        short-id: 103d1dc5ed8eaf4c
+-     name: vless_pl4.h1cloud.net_0
+      server: pl4.h1cloud.net
+      port: 0
+      udp: true
+      type: vless
+      uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+      tls: true
+      servername: www.ceneo.pl
+      client-fingerprint: random
+      reality-opts:
+        public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+        short-id: 103d1dc5ed8eaf4c
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_72.56.52.35_0, vless_72.56.52.35_0]
+      proxies: [vless_72.56.52.35_0, vless_pl4.h1cloud.net_0, vless_pl4.h1cloud.net_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

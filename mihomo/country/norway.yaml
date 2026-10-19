@@ -36,10 +36,21 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=1024"
+-     name: vless_151.101.1.203_0
+      server: 151.101.1.203
+      port: 0
+      udp: true
+      type: vless
+      uuid: 9d21c63f-a121-4411-cd51-1d6782157c0f
+      tls: true
+      servername: video.nordkapp-boats.no
+      network: ws
+      ws-opts:
+        path: "/@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray,@ViraV2ray/?ed=2560"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0]
+      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0, vless_151.101.1.203_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

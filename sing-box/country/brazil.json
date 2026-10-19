@@ -1,0 +1,70 @@
+{
+  "log": {
+    "level": "info",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 1080,
+      "tag": "local"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "vless_www.visa.com.br_0",
+      "server": "www.visa.com.br",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "4e4768df-0fbb-4cc1-8fd3-7c6fea95742a",
+      "tls": {
+        "enabled": true,
+        "server_name": "RayAN-Y09.pAraStOo.DpdNs.oRg",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/@Rayan_Config"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "urltest",
+      "type": "urltest",
+      "outbounds": [
+        "vless_www.visa.com.br_0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50,
+      "idle_timeout": "30m"
+    }
+  ],
+  "route": {
+    "final": "urltest"
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "local",
+        "address": "1.1.1.1",
+        "detour": "local"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "local"
+      }
+    ],
+    "final": "local"
+  }
+}

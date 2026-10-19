@@ -23,6 +23,32 @@ proxies:
       reality-opts:
         public-key: 5M8dZvtIjvmCHyXhJRtoZXzv7ofTQrsZUDKHfo6QByc
         short-id: 18a7a405d1ea5ecc
+-     name: vless_151.101.65.140_0
+      server: 151.101.65.140
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4cab3073-5346-42bb-9dd4-4dc516e7e266
+      tls: true
+      servername: redd.it
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420,telegram-@EXPRESSVPN_420?ed=2048"
+-     name: vless_151.101.129.140_0
+      server: 151.101.129.140
+      port: 0
+      udp: true
+      type: vless
+      uuid: 8b222b0d-dfc1-4ed9-9c26-1c6b66e03c09
+      tls: true
+      servername: redd.it
+      alpn: [h2, http/1.1]
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/?ed=1024"
 -     name: vless_109.70.74.95_0
       server: 109.70.74.95
       port: 0
@@ -39,7 +65,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_2c15e9d2562b.varqima.ir_0, vless_109.70.74.95_0]
+      proxies: [vless_2c15e9d2562b.varqima.ir_0, vless_151.101.65.140_0, vless_151.101.129.140_0, vless_109.70.74.95_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

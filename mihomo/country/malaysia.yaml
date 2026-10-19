@@ -23,6 +23,19 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_104.21.79.221_0
+      server: 104.21.79.221
+      port: 0
+      udp: true
+      type: vless
+      uuid: 2b619c86-0173-4779-b1db-91bd18e3a618
+      tls: true
+      servername: phantom.persia.my
+      alpn: [h2, http/1.1]
+      client-fingerprint: randomized
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_5.180.42.57_0
       server: 5.180.42.57
       port: 0
@@ -155,7 +168,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.21.79.221_0, vless_5.180.42.57_0, vless_2.56.124.3_0, vless_2.56.124.3_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_104.16.60.10_0, vless_185.236.22.34_0, vless_185.236.22.34_0]
+      proxies: [vless_104.21.79.221_0, vless_104.21.79.221_0, vless_5.180.42.57_0, vless_2.56.124.3_0, vless_2.56.124.3_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_104.16.60.10_0, vless_185.236.22.34_0, vless_185.236.22.34_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
