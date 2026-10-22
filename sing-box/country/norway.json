@@ -75,6 +75,34 @@
       }
     },
     {
+      "tag": "vless_91.107.170.8_0",
+      "server": "91.107.170.8",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "76bd0b98-1a2e-4616-81c6-d2c8d112eeb6",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.no",
+        "reality": {
+          "enabled": true,
+          "public_key": "hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI",
+          "short_id": "9e47e3"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/sky",
+        "headers": {
+          "Host": "panel.skyshopnet.ir"
+        }
+      }
+    },
+    {
       "tag": "vless_151.101.1.203_0",
       "server": "151.101.1.203",
       "server_port": 0,
@@ -100,6 +128,7 @@
       "outbounds": [
         "vless_151.101.129.203_0",
         "vless_151.101.129.203_0",
+        "vless_91.107.170.8_0",
         "vless_151.101.1.203_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

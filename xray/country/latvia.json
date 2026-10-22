@@ -120,16 +120,12 @@
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
           "serverName": "www.lmt.lv",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
-            "shortId": "44f7c5615039ae1b"
-          }
+          "allowInsecure": false
         },
-        "network": "raw"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,

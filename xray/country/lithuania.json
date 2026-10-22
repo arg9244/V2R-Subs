@@ -53,60 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_84.32.244.240_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "84.32.244.240",
-        "port": 0,
-        "id": "a11213e8-a42f-4492-beaa-14084f6ae28a",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.maxima.lt",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "27MLZbr4_ldNKw45jVF61b_SoQ8p78VUCqJONOM5F2g",
-            "shortId": "da2fd9c69e29fa4a"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_84.32.244.240_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "84.32.244.240",
-        "port": 0,
-        "id": "a11213e8-a42f-4492-beaa-14084f6ae28a",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.maxima.lt",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "27MLZbr4_ldNKw45jVF61b_SoQ8p78VUCqJONOM5F2g",
-            "shortId": "da2fd9c69e29fa4a"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_88.216.62.196_0",
       "protocol": "vless",
       "settings": {
@@ -114,34 +60,8 @@
         "port": 0,
         "id": "a11213e8-a42f-4492-beaa-14084f6ae28a",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.aruodas.lt",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "iLBZW3C5IDa7oXK3t1nKIzZn-faVNcfNiXdv07DF13s",
-            "shortId": "cc2737a4e060b379"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_88.216.62.196_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "88.216.62.196",
-        "port": 0,
-        "id": "a11213e8-a42f-4492-beaa-14084f6ae28a",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -202,9 +122,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_84.32.244.240_0",
-          "vless_84.32.244.240_0",
-          "vless_88.216.62.196_0",
           "vless_88.216.62.196_0"
         ],
         "strategy": {

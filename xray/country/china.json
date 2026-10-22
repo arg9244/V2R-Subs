@@ -107,6 +107,58 @@
       }
     },
     {
+      "tag": "vless_217.11.164.183_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "217.11.164.183",
+        "port": 0,
+        "id": "03b0a000-a9f1-4ced-8a13-00e807d8b998",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.apple.com.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
+            "shortId": "06"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_217.11.164.183_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "217.11.164.183",
+        "port": 0,
+        "id": "03b0a000-a9f1-4ced-8a13-00e807d8b998",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.apple.com.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
+            "shortId": "06"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_42.236.73.72_0",
       "protocol": "vless",
       "settings": {
@@ -202,6 +254,8 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_217.11.164.183_0",
+          "vless_217.11.164.183_0",
           "vless_217.11.164.183_0",
           "vless_217.11.164.183_0",
           "vless_42.236.73.72_0",

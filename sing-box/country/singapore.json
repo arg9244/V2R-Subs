@@ -34,11 +34,25 @@
       }
     },
     {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
+      "tag": "vless_154.21.203.106_0",
+      "server": "154.21.203.106",
       "server_port": 0,
       "type": "vless",
-      "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592"
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.lamer.com.sg",
+        "reality": {
+          "enabled": true,
+          "public_key": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
+          "short_id": "9c3c0f8ec8b4af12"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
     },
     {
       "tag": "vless_www.visa.com.sg_0",
@@ -61,7 +75,7 @@
       "type": "urltest",
       "outbounds": [
         "vless_154.21.203.106_0",
-        "vless_www.visa.com.sg_0",
+        "vless_154.21.203.106_0",
         "vless_www.visa.com.sg_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

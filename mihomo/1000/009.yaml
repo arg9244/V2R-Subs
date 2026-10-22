@@ -10,82 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: trojan_104.17.35.62_0
-      server: 104.17.35.62
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      skip-cert-verify: true
-      servername: bpb.my79801.com
--     name: trojan_104.17.45.180_0
-      server: 104.17.45.180
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      skip-cert-verify: true
-      servername: bpb.my79801.com
--     name: trojan_104.17.51.115_0
-      server: 104.17.51.115
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: fcspring.ggff.net
--     name: trojan_104.17.68.111_0
-      server: 104.17.68.111
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: bpb.my79801.com
--     name: trojan_104.17.76.107_0
-      server: 104.17.76.107
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: bpb.my79801.com
--     name: trojan_104.17.79.62_0
-      server: 104.17.79.62
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      skip-cert-verify: true
-      servername: bpb.my79801.com
--     name: trojan_104.17.9.38_0
-      server: 104.17.9.38
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      skip-cert-verify: true
-      servername: bpb.my79801.com
--     name: trojan_104.18.107.117_0
-      server: 104.18.107.117
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: bpb.my79801.com
--     name: trojan_104.18.113.223_0
-      server: 104.18.113.223
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: fcspring.ggff.net
 -     name: trojan_104.18.126.124_0
       server: 104.18.126.124
       port: 0
@@ -94,14 +18,6 @@ proxies:
       password: bpb-trojan
       tls: true
       skip-cert-verify: true
-      servername: bpb.my79801.com
--     name: trojan_104.18.126.124_0
-      server: 104.18.126.124
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
       servername: bpb.my79801.com
 -     name: trojan_104.18.146.214_0
       server: 104.18.146.214
@@ -327,6 +243,7 @@ proxies:
       password: bpb-trojan
       tls: true
       servername: vless.herogoing.top
+      client-fingerprint: chrome
 -     name: trojan_104.21.30.195_0
       server: 104.21.30.195
       port: 0
@@ -636,14 +553,6 @@ proxies:
       password: bpb-trojan
       tls: true
       servername: bpb.my79801.com
--     name: trojan_108.165.216.155_0
-      server: 108.165.216.155
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: bpb.my79801.com
 -     name: trojan_141.101.113.119_0
       server: 141.101.113.119
       port: 0
@@ -908,6 +817,14 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: tao9.taolifu.sbs
+-     name: trojan_172.64.80.1_0
+      server: 172.64.80.1
+      port: 0
+      udp: true
+      type: trojan
+      password: bpb-trojan
+      tls: true
+      servername: vless.herogoing.top
 -     name: trojan_172.64.80.1_0
       server: 172.64.80.1
       port: 0
@@ -1834,14 +1751,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: bpb.my79801.com
--     name: trojan_japan.com_0
-      server: japan.com
-      port: 0
-      udp: true
-      type: trojan
-      password: bpb-trojan
-      tls: true
-      servername: zamim340.ggff.net
 -     name: trojan_15.204.210.176_0
       server: 15.204.210.176
       port: 0
@@ -2026,6 +1935,13 @@ proxies:
       type: trojan
       password: cMCQxnflDO
       tls: true
+-     name: trojan_31.76.10.180_0
+      server: 31.76.10.180
+      port: 0
+      udp: true
+      type: trojan
+      password: cMCQxnflDO
+      tls: true
 -     name: trojan_172.67.143.250_0
       server: 172.67.143.250
       port: 0
@@ -2090,6 +2006,15 @@ proxies:
       password: channel-daily-configs
       tls: true
       servername: kanale-daily-configs.blackoutconnection.ir
+-     name: trojan_104.19.173.68_0
+      server: 104.19.173.68
+      port: 0
+      udp: true
+      type: trojan
+      password: d0298536-d670-4045-bbb1-ddd5ea68683e
+      tls: true
+      servername: azadnet-5vk.pages.dev
+      client-fingerprint: chrome
 -     name: trojan_172.67.192.215_0
       server: 172.67.192.215
       port: 0
@@ -2329,6 +2254,23 @@ proxies:
       password: dba20dcb635e430fa4d3bfc303a149d2
       tls: true
       servername: jobscareerforlawyers.com
+-     name: trojan_216.106.186.32_0
+      server: 216.106.186.32
+      port: 0
+      udp: true
+      type: trojan
+      password: dba20dcb635e430fa4d3bfc303a149d2
+      tls: true
+      servername: blog.findlocaljobnetworkandbuildcommunityconnections.com
+-     name: trojan_216.106.186.32_0
+      server: 216.106.186.32
+      port: 0
+      udp: true
+      type: trojan
+      password: dba20dcb635e430fa4d3bfc303a149d2
+      tls: true
+      servername: blog.findlocaljobnetworkandbuildcommunityconnections.com
+      client-fingerprint: chrome
 -     name: trojan_129.146.190.42_0
       server: 129.146.190.42
       port: 0
@@ -2453,13 +2395,6 @@ proxies:
       password: dreDeMpIQpnv
       tls: true
       servername: aryanews.onetwothree123.ir
--     name: trojan_13.250.28.5_0
-      server: 13.250.28.5
-      port: 0
-      udp: true
-      type: trojan
-      password: e016d072-ed97-40d4-a83f-04c00f8df2a5
-      tls: true
 -     name: trojan_51.91.11.29_0
       server: 51.91.11.29
       port: 0
@@ -2500,14 +2435,6 @@ proxies:
       password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
       tls: true
       skip-cert-verify: true
--     name: trojan_139.180.146.200_0
-      server: 139.180.146.200
-      port: 0
-      udp: true
-      type: trojan
-      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-      tls: true
-      skip-cert-verify: true
       servername: 139.180.146.200
 -     name: trojan_139.180.146.200_0
       server: 139.180.146.200
@@ -2524,7 +2451,6 @@ proxies:
       type: trojan
       password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
       tls: true
-      skip-cert-verify: true
       servername: 139.180.146.200
 -     name: trojan_139.180.146.200_0
       server: 139.180.146.200
@@ -2552,40 +2478,14 @@ proxies:
       password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
       tls: true
       servername: 139.180.146.200
--     name: trojan_45.32.52.173_0
-      server: 45.32.52.173
+-     name: trojan_139.180.146.200_0
+      server: 139.180.146.200
       port: 0
       udp: true
       type: trojan
       password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
       tls: true
-      skip-cert-verify: true
-      servername: 45.32.52.173
--     name: trojan_45.32.52.173_0
-      server: 45.32.52.173
-      port: 0
-      udp: true
-      type: trojan
-      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-      tls: true
-      servername: 45.32.52.173
--     name: trojan_45.32.52.173_0
-      server: 45.32.52.173
-      port: 0
-      udp: true
-      type: trojan
-      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-      tls: true
-      servername: 45.32.52.173
--     name: trojan_45.32.52.173_0
-      server: 45.32.52.173
-      port: 0
-      udp: true
-      type: trojan
-      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-      tls: true
-      skip-cert-verify: true
-      servername: 45.32.52.173
+      servername: 139.180.146.200
       client-fingerprint: chrome
 -     name: trojan_45.32.52.173_0
       server: 45.32.52.173
@@ -2594,6 +2494,32 @@ proxies:
       type: trojan
       password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
       tls: true
+      skip-cert-verify: true
+      servername: 45.32.52.173
+-     name: trojan_45.32.52.173_0
+      server: 45.32.52.173
+      port: 0
+      udp: true
+      type: trojan
+      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+      tls: true
+      servername: 45.32.52.173
+-     name: trojan_45.32.52.173_0
+      server: 45.32.52.173
+      port: 0
+      udp: true
+      type: trojan
+      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+      tls: true
+      servername: 45.32.52.173
+-     name: trojan_45.32.52.173_0
+      server: 45.32.52.173
+      port: 0
+      udp: true
+      type: trojan
+      password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+      tls: true
+      skip-cert-verify: true
       servername: 45.32.52.173
       client-fingerprint: chrome
 -     name: trojan_104.26.14.85_0
@@ -2660,16 +2586,6 @@ proxies:
       tls: true
       servername: nimm.mpd.cc.cd
       alpn: [h3, h2, http/1.1]
-      client-fingerprint: chrome
--     name: trojan_104.26.14.137_0
-      server: 104.26.14.137
-      port: 0
-      udp: true
-      type: trojan
-      password: e309e031-991e-4656-9934-44d10deb8fd8
-      tls: true
-      servername: nimm.mpd.cc.cd.
-      alpn: [h3, h2, http/1.1]
       client-fingerprint: ios
 -     name: trojan_104.26.14.137_0
       server: 104.26.14.137
@@ -2721,6 +2637,16 @@ proxies:
       servername: nimm.mpd.cc.cd.
       alpn: [h3, h2, http/1.1]
       client-fingerprint: chrome
+-     name: trojan_104.26.15.137_0
+      server: 104.26.15.137
+      port: 0
+      udp: true
+      type: trojan
+      password: e309e031-991e-4656-9934-44d10deb8fd8
+      tls: true
+      servername: nimm.mpd.cc.cd.
+      alpn: [h3, h2, http/1.1]
+      client-fingerprint: ios
 -     name: trojan_172.67.176.3_0
       server: 172.67.176.3
       port: 0
@@ -2728,7 +2654,14 @@ proxies:
       type: trojan
       password: e309e031-991e-4656-9934-44d10deb8fd8
       tls: true
-      skip-cert-verify: true
+      servername: nimm.mpd.cc.cd
+-     name: trojan_172.67.176.3_0
+      server: 172.67.176.3
+      port: 0
+      udp: true
+      type: trojan
+      password: e309e031-991e-4656-9934-44d10deb8fd8
+      tls: true
       servername: nimm.mpd.cc.cd
       alpn: [h3h2http/1.1]
       client-fingerprint: chrome
@@ -2740,7 +2673,6 @@ proxies:
       password: e309e031-991e-4656-9934-44d10deb8fd8
       tls: true
       servername: nimm.mpd.cc.cd
-      alpn: [h3h2http/1.1]
       client-fingerprint: chrome
 -     name: trojan_172.67.74.2_0
       server: 172.67.74.2
@@ -2762,6 +2694,14 @@ proxies:
       servername: nimm.mpd.cc.cd.
       alpn: [h3, h2, http/1.1]
       client-fingerprint: ios
+-     name: trojan_172.67.74.2_0
+      server: 172.67.74.2
+      port: 0
+      udp: true
+      type: trojan
+      password: e309e031-991e-4656-9934-44d10deb8fd8
+      tls: true
+      servername: nimm.mpd.cc.cd.
 -     name: trojan_188.114.98.0_0
       server: 188.114.98.0
       port: 0
@@ -2770,13 +2710,6 @@ proxies:
       password: e309e031-991e-4656-9934-44d10deb8fd8
       tls: true
       servername: nimm.mpd.cc.cd
--     name: trojan_188.114.98.0_0
-      server: 188.114.98.0
-      port: 0
-      udp: true
-      type: trojan
-      password: e309e031-991e-4656-9934-44d10deb8fd8
-      tls: true
 -     name: trojan_188.114.98.0_0
       server: 188.114.98.0
       port: 0
@@ -2847,30 +2780,6 @@ proxies:
       servername: nimm.mpd.cc.cd.
       alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_nimm.mpd.cc.cd_0
-      server: nimm.mpd.cc.cd
-      port: 0
-      udp: true
-      type: trojan
-      password: e309e031-991e-4656-9934-44d10deb8fd8
-      tls: true
-      servername: nimm.mpd.cc.cd
--     name: trojan_nimm.mpd.cc.cd_0
-      server: nimm.mpd.cc.cd
-      port: 0
-      udp: true
-      type: trojan
-      password: e309e031-991e-4656-9934-44d10deb8fd8
-      tls: true
-      servername: nimm.mpd.cc.cd
--     name: trojan_nimm.mpd.cc.cd_0
-      server: nimm.mpd.cc.cd
-      port: 0
-      udp: true
-      type: trojan
-      password: e309e031-991e-4656-9934-44d10deb8fd8
-      tls: true
-      servername: nimm.mpd.cc.cd
 -     name: trojan_51.159.59.186_0
       server: 51.159.59.186
       port: 0
@@ -2957,25 +2866,33 @@ proxies:
       tls: true
       servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
       alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: trojan_188.114.97.0_0
-      server: 188.114.97.0
+-     name: trojan_172.66.47.18_0
+      server: 172.66.47.18
       port: 0
       udp: true
       type: trojan
       password: "e7TTceggMwUMg%2BaFN%3AF4"
       tls: true
-      servername: Apkd964o1oghltGhhT0L0oF.PAGEs.DeV
+      servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
       alpn: [http/1.1]
-      client-fingerprint: android
--     name: trojan_188.114.97.0_0
-      server: 188.114.97.0
+      client-fingerprint: chrome
+-     name: trojan_172.66.47.18_0
+      server: 172.66.47.18
       port: 0
       udp: true
       type: trojan
       password: "e7TTceggMwUMg+aFN:F4"
       tls: true
+      skip-cert-verify: true
       alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_172.66.47.18_0
+      server: 172.66.47.18
+      port: 0
+      udp: true
+      type: trojan
+      password: "e7TTceggMwUMg+aFN:F4"
+      tls: true
       client-fingerprint: chrome
 -     name: trojan_172.66.47.130_0
       server: 172.66.47.130
@@ -2985,15 +2902,6 @@ proxies:
       password: e8b87dd9-cc8f-407c-a1f3-a564009fe6ee
       tls: true
       servername: dc1bf227.vf-8co.pages.dev
--     name: trojan_sv1.ahsg.top_0
-      server: sv1.ahsg.top
-      port: 0
-      udp: true
-      type: trojan
-      password: eLpjAXg6pM
-      tls: true
-      skip-cert-verify: true
-      servername: vkvd127.mycdn.me
 -     name: trojan_172.67.141.68_0
       server: 172.67.141.68
       port: 0
@@ -3108,14 +3016,6 @@ proxies:
       tls: true
       servername: jobscareerforstudent.com
       alpn: [http/1.1]
--     name: trojan_162.159.140.220_0
-      server: 162.159.140.220
-      port: 0
-      udp: true
-      type: trojan
-      password: f0eb8c92ce8946aaba856569cff1a16b
-      tls: true
-      servername: jobscareerforstudent.com
 -     name: trojan_172.66.0.218_0
       server: 172.66.0.218
       port: 0
@@ -3125,8 +3025,24 @@ proxies:
       tls: true
       servername: jobscareerforstudent.com
       alpn: [http/1.1]
--     name: trojan_resources.findlocaljobnetworkandbuildcommunityconnections.com_0
-      server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+-     name: trojan_216.106.186.33_0
+      server: 216.106.186.33
+      port: 0
+      udp: true
+      type: trojan
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      tls: true
+      servername: resources.findlocaljobnetworkandbuildcommunityconnections.com
+-     name: trojan_216.106.186.33_0
+      server: 216.106.186.33
+      port: 0
+      udp: true
+      type: trojan
+      password: f0eb8c92ce8946aaba856569cff1a16b
+      tls: true
+      servername: resources.findlocaljobnetworkandbuildcommunityconnections.com
+-     name: trojan_216.106.186.33_0
+      server: 216.106.186.33
       port: 0
       udp: true
       type: trojan
@@ -3335,15 +3251,6 @@ proxies:
       password: "fnufMt%3AsQ&rC0HUu"
       tls: true
       servername: joinmAHDIsERVER-6vv.PaGeS.dEv
--     name: trojan_xhop-production.up.railway.app_0
-      server: xhop-production.up.railway.app
-      port: 0
-      udp: true
-      type: trojan
-      password: fvXi1ZyhJ9TMbgZSdc3g9g
-      tls: true
-      servername: xhop-production.up.railway.app
-      client-fingerprint: chrome
 -     name: trojan_104.21.25.67_0
       server: 104.21.25.67
       port: 0
@@ -3352,32 +3259,6 @@ proxies:
       password: g8h9i0j1-2345-5bcd-abc1-4567890abcde
       tls: true
       servername: trojan.workers.dev
--     name: trojan_mr-taha66-production.up.railway.app_0
-      server: mr-taha66-production.up.railway.app
-      port: 0
-      udp: true
-      type: trojan
-      password: gBhqUAyFVAnh-Izet4KW57De91y1jNbG
-      tls: true
-      servername: mr-taha66-production.up.railway.app
-      alpn: [http/1.1]
-      client-fingerprint: safari
--     name: trojan_93.152.223.201_0
-      server: 93.152.223.201
-      port: 0
-      udp: true
-      type: trojan
-      password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-      tls: true
-      servername: ger2.fytpn.com
--     name: trojan_93.152.223.201_0
-      server: 93.152.223.201
-      port: 0
-      udp: true
-      type: trojan
-      password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
-      tls: true
-      servername: ger2.fytpn.com
 -     name: trojan_93.152.223.201_0
       server: 93.152.223.201
       port: 0
@@ -3419,53 +3300,14 @@ proxies:
       servername: nl1.xnetaro.ir
       alpn: [h2, http/1.1, h3]
       client-fingerprint: chrome
--     name: trojan_de-bots4.h1cloud.net_0
-      server: de-bots4.h1cloud.net
+-     name: trojan_43.207.87.133_0
+      server: 43.207.87.133
       port: 0
       udp: true
       type: trojan
-      password: happybirthdaydaniel
+      password: hV66LcSGyxUdHq2aAeqxmLfpBDQmRYxo8Wte43oZr8L379SS
       tls: true
-      skip-cert-verify: true
-      servername: t.me/FuckTheWall
-      alpn: [http/1.1]
-      client-fingerprint: firefox
--     name: trojan_de-bots4.h1cloud.net_0
-      server: de-bots4.h1cloud.net
-      port: 0
-      udp: true
-      type: trojan
-      password: happybirthdaydaniel
-      tls: true
-      servername: t.me/FuckTheWall
--     name: trojan_de-bots4.h1cloud.net_0
-      server: de-bots4.h1cloud.net
-      port: 0
-      udp: true
-      type: trojan
-      password: happybirthdaydaniel
-      tls: true
-      servername: t.me/FuckTheWall
--     name: trojan_31.77.31.57_0
-      server: 31.77.31.57
-      port: 0
-      udp: true
-      type: trojan
-      password: hc50cKVuDe9CcNganKUYhrew7mhjxUbH
-      tls: true
-      servername: node44.overcdn.ru
-      alpn: [h2, http/1.1]
-      client-fingerprint: chrome
--     name: trojan_personalws22-production.up.railway.app_0
-      server: personalws22-production.up.railway.app
-      port: 0
-      udp: true
-      type: trojan
-      password: hd9iqRxwDZDqcHof
-      tls: true
-      servername: personalws22-production.up.railway.app
-      alpn: [http/1.1]
-      client-fingerprint: chrome
+      servername: node2.bw8848.org
 -     name: trojan_104.16.117.43_0
       server: 104.16.117.43
       port: 0
@@ -3474,14 +3316,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.creationlong.org
--     name: trojan_104.16.122.175_0
-      server: 104.16.122.175
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.16.122.175_0
       server: 104.16.122.175
       port: 0
@@ -3794,6 +3628,15 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
+-     name: trojan_104.16.6.70_0
+      server: 104.16.6.70
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      client-fingerprint: chrome
 -     name: trojan_104.16.62.25_0
       server: 104.16.62.25
       port: 0
@@ -3843,6 +3686,15 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
+-     name: trojan_104.16.71.213_0
+      server: 104.16.71.213
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: chrome
 -     name: trojan_104.16.72.2_0
       server: 104.16.72.2
       port: 0
@@ -3901,22 +3753,6 @@ proxies:
       servername: www.calmlunch.com
 -     name: trojan_104.16.72.41_0
       server: 104.16.72.41
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
--     name: trojan_104.16.72.41_0
-      server: 104.16.72.41
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
--     name: trojan_104.16.72.50_0
-      server: 104.16.72.50
       port: 0
       udp: true
       type: trojan
@@ -3931,6 +3767,14 @@ proxies:
       password: humanity
       tls: true
       skip-cert-verify: true
+      servername: www.calmlunch.com
+-     name: trojan_104.16.72.50_0
+      server: 104.16.72.50
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
       servername: www.calmlunch.com
 -     name: trojan_104.16.72.50_0
       server: 104.16.72.50
@@ -3975,7 +3819,6 @@ proxies:
       skip-cert-verify: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
-      client-fingerprint: chrome
 -     name: trojan_104.16.85.85_0
       server: 104.16.85.85
       port: 0
@@ -4012,14 +3855,6 @@ proxies:
       tls: true
       servername: www.ignitelimit.com
       client-fingerprint: chrome
--     name: trojan_104.17.121.43_0
-      server: 104.17.121.43
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.17.121.71_0
       server: 104.17.121.71
       port: 0
@@ -4028,6 +3863,14 @@ proxies:
       password: humanity
       tls: true
       servername: www.creationlong.org
+-     name: trojan_104.17.121.71_0
+      server: 104.17.121.71
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
 -     name: trojan_104.17.121.71_0
       server: 104.17.121.71
       port: 0
@@ -4072,14 +3915,6 @@ proxies:
       tls: true
       servername: www.gossipglove.com
       client-fingerprint: chrome
--     name: trojan_104.17.147.22_0
-      server: 104.17.147.22
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.17.147.22_0
       server: 104.17.147.22
       port: 0
@@ -4133,6 +3968,7 @@ proxies:
       tls: true
       servername: www.pleadcourt.org
       alpn: [http/1.1]
+      client-fingerprint: unsafe
 -     name: trojan_104.17.44.17_0
       server: 104.17.44.17
       port: 0
@@ -4140,7 +3976,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.pleadcourt.org
       alpn: [http/1.1]
 -     name: trojan_104.17.44.17_0
       server: 104.17.44.17
@@ -4160,6 +3995,24 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
+-     name: trojan_104.17.44.17_0
+      server: 104.17.44.17
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_104.17.44.17_0
+      server: 104.17.44.17
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: trojan_104.17.72.206_0
       server: 104.17.72.206
       port: 0
@@ -4375,15 +4228,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.ignitelimit.com
--     name: trojan_104.18.152.179_0
-      server: 104.18.152.179
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.ignitelimit.com
-      client-fingerprint: chrome
 -     name: trojan_104.18.152.187_0
       server: 104.18.152.187
       port: 0
@@ -4426,6 +4270,14 @@ proxies:
       servername: www.ignitelimit.com
 -     name: trojan_104.18.152.210_0
       server: 104.18.152.210
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_104.18.152.219_0
+      server: 104.18.152.219
       port: 0
       udp: true
       type: trojan
@@ -4567,22 +4419,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.ignitelimit.com
--     name: trojan_104.18.152.73_0
-      server: 104.18.152.73
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.ignitelimit.com
--     name: trojan_104.18.152.73_0
-      server: 104.18.152.73
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.ignitelimit.com
 -     name: trojan_104.18.152.77_0
       server: 104.18.152.77
       port: 0
@@ -4625,6 +4461,14 @@ proxies:
       tls: true
       servername: www.pleadcourt.org
       client-fingerprint: chrome
+-     name: trojan_104.18.24.120_0
+      server: 104.18.24.120
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
 -     name: trojan_104.18.25.120_0
       server: 104.18.25.120
       port: 0
@@ -4919,6 +4763,23 @@ proxies:
       password: humanity
       tls: true
       servername: www.volumerOot.coM.
+-     name: trojan_104.18.35.86_0
+      server: 104.18.35.86
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com.
+      client-fingerprint: chrome
+-     name: trojan_104.18.35.86_0
+      server: 104.18.35.86
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumerOot.coM.
       alpn: [http/1.1]
 -     name: trojan_104.18.37.127_0
       server: 104.18.37.127
@@ -4928,8 +4789,6 @@ proxies:
       password: humanity
       tls: true
       servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: chrome
 -     name: trojan_104.18.37.127_0
       server: 104.18.37.127
       port: 0
@@ -4949,6 +4808,15 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: trojan_104.18.37.127_0
+      server: 104.18.37.127
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com.
+      alpn: [http/1.1]
 -     name: trojan_104.18.37.228_0
       server: 104.18.37.228
       port: 0
@@ -5036,16 +4904,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_104.18.4.5_0
-      server: 104.18.4.5
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      alpn: [http/1.1]
 -     name: trojan_104.18.4.5_0
       server: 104.18.4.5
       port: 0
@@ -5105,6 +4963,15 @@ proxies:
       tls: true
       servername: www.calmlunch.com
       client-fingerprint: chrome
+-     name: trojan_104.18.8.83_0
+      server: 104.18.8.83
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: chrome
 -     name: trojan_104.18.9.83_0
       server: 104.18.9.83
       port: 0
@@ -5120,14 +4987,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
--     name: trojan_104.18.9.83_0
-      server: 104.18.9.83
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.18.9.83_0
       server: 104.18.9.83
       port: 0
@@ -5159,6 +5018,14 @@ proxies:
       tls: true
       servername: www.calmlunch.com
       client-fingerprint: chrome
+-     name: trojan_104.18.9.83_0
+      server: 104.18.9.83
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
 -     name: trojan_104.18.9.83_0
       server: 104.18.9.83
       port: 0
@@ -5221,6 +5088,15 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: www.volumeroot.com
+-     name: trojan_104.19.157.30_0
+      server: 104.19.157.30
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      client-fingerprint: chrome
 -     name: trojan_104.19.2.175_0
       server: 104.19.2.175
       port: 0
@@ -5336,14 +5212,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.calmlunch.com
--     name: trojan_104.19.229.21_0
-      server: 104.19.229.21
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.ignitelimit.com
 -     name: trojan_104.19.229.21_0
       server: 104.19.229.21
@@ -5394,6 +5262,14 @@ proxies:
       type: trojan
       password: humanity
       tls: true
+      servername: www.calmlunch.com
+-     name: trojan_104.19.229.21_0
+      server: 104.19.229.21
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
       servername: www.calmloud.com
 -     name: trojan_104.19.229.21_0
       server: 104.19.229.21
@@ -5418,14 +5294,6 @@ proxies:
       tls: true
       servername: www.calmlunch.com
       client-fingerprint: chrome
--     name: trojan_104.19.229.21_0
-      server: 104.19.229.21
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.19.230.21_0
       server: 104.19.230.21
       port: 0
@@ -5446,14 +5314,6 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_104.19.64.105_0
-      server: 104.19.64.105
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_104.20.42.250_0
       server: 104.20.42.250
       port: 0
@@ -5509,17 +5369,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.ignitelimit.com
--     name: trojan_104.21.103.254_0
-      server: 104.21.103.254
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      skip-cert-verify: true
-      servername: www.calmlunch.com
-      alpn: [http/1.1]
-      client-fingerprint: chrome
 -     name: trojan_104.21.103.254_0
       server: 104.21.103.254
       port: 0
@@ -5593,6 +5442,7 @@ proxies:
       tls: true
       servername: www.pleadcourt.org
       alpn: [http/1.1]
+      client-fingerprint: unsafe
 -     name: trojan_104.21.33.59_0
       server: 104.21.33.59
       port: 0
@@ -5601,8 +5451,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_104.21.33.59_0
       server: 104.21.33.59
       port: 0
@@ -5708,16 +5556,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: ww
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_104.21.37.56_0
-      server: 104.21.37.56
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: unsafe
@@ -5785,7 +5623,25 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: ww
+      servername: www.volumeroot.com
+-     name: trojan_104.21.37.56_0
+      server: 104.21.37.56
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+-     name: trojan_104.21.37.56_0
+      server: 104.21.37.56
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
 -     name: trojan_104.21.37.56_0
       server: 104.21.37.56
       port: 0
@@ -5869,15 +5725,14 @@ proxies:
       tls: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
--     name: trojan_104.25.109.237_0
-      server: 104.25.109.237
+-     name: trojan_104.21.57.25_0
+      server: 104.21.57.25
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      skip-cert-verify: true
-      servername: www.calmlunch.com
+      servername: www.volumeroot.com
 -     name: trojan_104.25.109.237_0
       server: 104.25.109.237
       port: 0
@@ -5957,26 +5812,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_107.181.155.237_0
-      server: 107.181.155.237
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_107.181.155.237_0
-      server: 107.181.155.237
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: wWw.Volumeroot.cOm.
 -     name: trojan_107.181.155.237_0
       server: 107.181.155.237
@@ -6013,9 +5848,8 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
+      servername: www.volumeroot.com.
       alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_108.162.194.134_0
       server: 108.162.194.134
       port: 0
@@ -6032,6 +5866,21 @@ proxies:
       type: trojan
       password: humanity
       tls: true
+-     name: trojan_108.162.194.134_0
+      server: 108.162.194.134
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_108.162.194.134_0
+      server: 108.162.194.134
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
       servername: www.pleadcourt.org
 -     name: trojan_108.162.194.134_0
       server: 108.162.194.134
@@ -6049,6 +5898,15 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
+-     name: trojan_108.162.194.134_0
+      server: 108.162.194.134
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      client-fingerprint: chrome
 -     name: trojan_130.250.137.171_0
       server: 130.250.137.171
       port: 0
@@ -6056,14 +5914,163 @@ proxies:
       type: trojan
       password: humanity
       tls: true
--     name: trojan_130.250.137.171_0
-      server: 130.250.137.171
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      servername: www.ignitelimit.com
+      servername: www.volumeroot.com
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      client-fingerprint: chrome
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      client-fingerprint: unsafe
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_131.196.254.151_0
+      server: 131.196.254.151
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com.
+      client-fingerprint: unsafe
+-     name: trojan_138.68.131.253_0
+      server: 138.68.131.253
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_138.68.131.253_0
+      server: 138.68.131.253
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
 -     name: trojan_138.68.131.253_0
       server: 138.68.131.253
       port: 0
@@ -6084,46 +6091,8 @@ proxies:
       servername: www.pleadcourt.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_138.68.131.253_0
-      server: 138.68.131.253
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_138.68.131.253_0
-      server: 138.68.131.253
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_138.68.131.253_0
-      server: 138.68.131.253
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_138.68.131.253_0
-      server: 138.68.131.253
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_138.68.131.253_0
-      server: 138.68.131.253
+-     name: trojan_139.28.240.24_0
+      server: 139.28.240.24
       port: 0
       udp: true
       type: trojan
@@ -6155,48 +6124,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
--     name: trojan_139.59.186.54_0
-      server: 139.59.186.54
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_139.59.186.54_0
-      server: 139.59.186.54
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_139.59.186.54_0
-      server: 139.59.186.54
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_139.59.186.54_0
-      server: 139.59.186.54
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_139.59.186.54_0
-      server: 139.59.186.54
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: unsafe
@@ -6235,6 +6162,24 @@ proxies:
       password: humanity
       tls: true
       servername: www.volumeroot.com
+      client-fingerprint: unsafe
+-     name: trojan_141.101.115.104_0
+      server: 141.101.115.104
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_141.101.115.104_0
+      server: 141.101.115.104
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      alpn: [http/1.1]
 -     name: trojan_141.101.115.104_0
       server: 141.101.115.104
       port: 0
@@ -6260,6 +6205,15 @@ proxies:
       servername: www.calmlunch.com
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: trojan_141.101.115.104_0
+      server: 141.101.115.104
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      alpn: [http/1.1]
 -     name: trojan_141.101.90.101_0
       server: 141.101.90.101
       port: 0
@@ -6325,14 +6279,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
--     name: trojan_141.193.213.172_0
-      server: 141.193.213.172
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: trojan_141.193.213.172_0
       server: 141.193.213.172
       port: 0
@@ -6467,14 +6413,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
--     name: trojan_141.193.213.172_0
-      server: 141.193.213.172
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
 -     name: "trojan_141.193.213.172:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp_0"
       server: "141.193.213.172:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp"
       port: 0
@@ -6543,136 +6481,6 @@ proxies:
       servername: www.calmloud.com
       alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_143.246.136.156_0
-      server: 143.246.136.156
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
--     name: trojan_143.246.136.99_0
-      server: 143.246.136.99
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.99_0
-      server: 143.246.136.99
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.99_0
-      server: 143.246.136.99
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
--     name: trojan_143.246.136.99_0
-      server: 143.246.136.99
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_143.246.136.99_0
-      server: 143.246.136.99
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_144.31.182.130_0
       server: 144.31.182.130
       port: 0
@@ -6747,6 +6555,35 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
+-     name: trojan_144.31.182.130_0
+      server: 144.31.182.130
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+-     name: trojan_144.31.195.61_0
+      server: 144.31.195.61
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_144.31.195.61_0
+      server: 144.31.195.61
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
 -     name: trojan_144.31.195.61_0
       server: 144.31.195.61
       port: 0
@@ -6763,18 +6600,8 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.volumeroot.com
+      servername: www.pleadcourt.org
       alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_144.31.195.61_0
-      server: 144.31.195.61
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
 -     name: trojan_144.31.205.106_0
       server: 144.31.205.106
       port: 0
@@ -6865,7 +6692,16 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
-      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_144.31.205.106_0
+      server: 144.31.205.106
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      client-fingerprint: unsafe
 -     name: trojan_144.31.205.106_0
       server: 144.31.205.106
       port: 0
@@ -6885,6 +6721,14 @@ proxies:
       tls: true
       servername: www.volumeroot.com
       client-fingerprint: unsafe
+-     name: trojan_144.31.205.106_0
+      server: 144.31.205.106
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
 -     name: trojan_146.185.141.92_0
       server: 146.185.141.92
       port: 0
@@ -6897,117 +6741,23 @@ proxies:
       client-fingerprint: unsafe
 -     name: trojan_146.185.141.92_0
       server: 146.185.141.92
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.141.92_0
-      server: 146.185.141.92
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.141.92_0
-      server: 146.185.141.92
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_146.185.174.59_0
-      server: 146.185.174.59
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_148.253.212.42_0
-      server: 148.253.212.42
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_148.253.212.42_0
-      server: 148.253.212.42
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
       servername: www.volumeroot.com.
--     name: trojan_152.42.130.189_0
-      server: 152.42.130.189
+      alpn: [http/1.1]
+-     name: trojan_146.185.174.59_0
+      server: 146.185.174.59
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+-     name: trojan_146.185.174.59_0
+      server: 146.185.174.59
       port: 0
       udp: true
       type: trojan
@@ -7016,26 +6766,78 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_152.42.130.189_0
-      server: 152.42.130.189
+-     name: trojan_146.185.174.59_0
+      server: 146.185.174.59
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_146.185.174.59_0
+      server: 146.185.174.59
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
       servername: www.volumeroot.com
+      client-fingerprint: unsafe
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.volumeroot.com.
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_152.42.130.189_0
-      server: 152.42.130.189
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      client-fingerprint: unsafe
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_148.253.212.42_0
+      server: 148.253.212.42
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
       servername: www.volumeroot.com
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_152.42.130.189_0
       server: 152.42.130.189
       port: 0
@@ -7063,6 +6865,17 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
+-     name: trojan_155.103.71.142_0
+      server: 155.103.71.142
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.calmlunch.com
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: trojan_155.103.71.142_0
       server: 155.103.71.142
       port: 0
@@ -7092,15 +6905,6 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: edge
--     name: trojan_155.103.71.142_0
-      server: 155.103.71.142
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
-      alpn: [http/1.1]
 -     name: trojan_155.103.71.159_0
       server: 155.103.71.159
       port: 0
@@ -7117,53 +6921,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.pleadcourt.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
@@ -7177,8 +6934,120 @@ proxies:
       servername: wWw.Volumeroot.cOm
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
+-     name: trojan_157.230.127.28_0
+      server: 157.230.127.28
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+-     name: trojan_157.230.127.28_0
+      server: 157.230.127.28
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_157.230.127.28_0
+      server: 157.230.127.28
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_157.230.29.88_0
+      server: 157.230.29.88
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: wWw.Volumeroot.cOm
+-     name: trojan_157.230.29.88_0
+      server: 157.230.29.88
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: wWw.Volumeroot.cOm
+      alpn: [http/1.1]
+-     name: trojan_157.230.29.88_0
+      server: 157.230.29.88
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: wWw.Volumeroot.cOm
+-     name: trojan_157.230.29.88_0
+      server: 157.230.29.88
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_157.230.29.88_0
+      server: 157.230.29.88
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: wWw.Volumeroot.cOm.
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
       port: 0
       udp: true
       type: trojan
@@ -7186,246 +7055,96 @@ proxies:
       tls: true
       servername: www.volumeroot.com
       client-fingerprint: unsafe
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_157.173.97.132_0
-      server: 157.173.97.132
+-     name: trojan_159.223.12.89_0
+      server: 159.223.12.89
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
       servername: www.volumeroot.com.
+      alpn: [http/1.1]
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
+      servername: www.pleadcourt.org
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
+      servername: www.pleadcourt.org
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
+      servername: www.pleadcourt.org
+-     name: trojan_161.35.192.122_0
+      server: 161.35.192.122
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.127.28_0
-      server: 157.230.127.28
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
+      servername: www.pleadcourt.org
+-     name: trojan_162.159.156.228_0
+      server: 162.159.156.228
       port: 0
       udp: true
       type: trojan
       password: humanity
       tls: true
       servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
       alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_157.230.29.88_0
-      server: 157.230.29.88
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_159.223.12.89_0
-      server: 159.223.12.89
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
--     name: trojan_159.223.12.89_0
-      server: 159.223.12.89
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_159.223.12.89_0
-      server: 159.223.12.89
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_159.223.12.89_0
-      server: 159.223.12.89
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_159.223.12.89_0
-      server: 159.223.12.89
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_161.35.192.122_0
-      server: 161.35.192.122
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
 -     name: trojan_162.159.17.189_0
       server: 162.159.17.189
       port: 0
@@ -7494,8 +7213,8 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
--     name: trojan_162.159.253.41_0
-      server: 162.159.253.41
+-     name: trojan_162.159.244.91_0
+      server: 162.159.244.91
       port: 0
       udp: true
       type: trojan
@@ -7625,99 +7344,84 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+-     name: trojan_164.92.200.68_0
+      server: 164.92.200.68
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
       client-fingerprint: chrome
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_164.92.200.68_0
-      server: 164.92.200.68
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_164.92.223.252_0
       server: 164.92.223.252
       port: 0
@@ -7726,36 +7430,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.223.252_0
-      server: 164.92.223.252
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_164.92.223.252_0
-      server: 164.92.223.252
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_164.92.223.252_0
-      server: 164.92.223.252
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_164.92.223.252_0
       server: 164.92.223.252
       port: 0
@@ -7815,6 +7489,15 @@ proxies:
       type: trojan
       password: humanity
       tls: true
+      skip-cert-verify: true
+      servername: www.calmlunch.com
+-     name: trojan_165.215.250.14_0
+      server: 165.215.250.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
       servername: www.calmlunch.com
 -     name: trojan_165.215.250.14_0
       server: 165.215.250.14
@@ -7874,34 +7557,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.calmlunch.com
--     name: trojan_165.215.250.14_0
-      server: 165.215.250.14
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      skip-cert-verify: true
-      servername: www.calmlunch.com
-      client-fingerprint: chrome
--     name: trojan_165.215.250.14_0
-      server: 165.215.250.14
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      skip-cert-verify: true
-      servername: www.creationlong.org
-      client-fingerprint: chrome
--     name: trojan_165.215.250.14_0
-      server: 165.215.250.14
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
 -     name: trojan_165.215.250.14_0
       server: 165.215.250.14
       port: 0
@@ -7918,7 +7573,16 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: www.creationlong.org
+      servername: www.calmlunch.com
+-     name: trojan_165.215.250.14_0
+      server: 165.215.250.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: chrome
 -     name: trojan_165.215.250.14_0
       server: 165.215.250.14
       port: 0
@@ -7974,33 +7638,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
-      client-fingerprint: chrome
--     name: trojan_166.1.36.83_0
-      server: 166.1.36.83
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.calmlunch.com
--     name: trojan_167.172.61.197_0
-      server: 167.172.61.197
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
--     name: trojan_167.172.61.197_0
-      server: 167.172.61.197
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.volumeroot.com
-      client-fingerprint: unsafe
 -     name: trojan_167.172.61.197_0
       server: 167.172.61.197
       port: 0
@@ -8027,16 +7664,6 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      servername: wWw.Volumeroot.cOm.
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_167.172.61.197_0
-      server: 167.172.61.197
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.volumeroot.com
       client-fingerprint: unsafe
 -     name: trojan_168.235.125.93_0
@@ -8047,8 +7674,6 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_168.235.125.93_0
       server: 168.235.125.93
       port: 0
@@ -8059,43 +7684,6 @@ proxies:
       servername: www.pleadcourt.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_168.235.125.93_0
-      server: 168.235.125.93
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
--     name: trojan_168.235.125.93_0
-      server: 168.235.125.93
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_168.235.125.93_0
-      server: 168.235.125.93
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
--     name: trojan_168.235.125.93_0
-      server: 168.235.125.93
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      servername: www.pleadcourt.org
-      alpn: [http/1.1]
 -     name: trojan_172.64.145.133_0
       server: 172.64.145.133
       port: 0
@@ -8111,7 +7699,14 @@ proxies:
       password: humanity
       tls: true
       servername: www.pleadcourt.org
-      client-fingerprint: unsafe
+-     name: trojan_172.64.145.133_0
+      server: 172.64.145.133
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
 -     name: trojan_172.64.145.133_0
       server: 172.64.145.133
       port: 0
@@ -8130,6 +7725,14 @@ proxies:
       tls: true
       servername: www.pleadcourt.org
       client-fingerprint: unsafe
+-     name: trojan_172.64.145.133_0
+      server: 172.64.145.133
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
 -     name: trojan_172.64.145.133_0
       server: 172.64.145.133
       port: 0
@@ -8302,7 +7905,23 @@ proxies:
       password: humanity
       tls: true
       servername: www.calmlunch.com
+-     name: trojan_172.64.152.23_0
+      server: 172.64.152.23
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
       client-fingerprint: unsafe
+-     name: trojan_172.64.152.23_0
+      server: 172.64.152.23
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
 -     name: trojan_172.64.152.23_0
       server: 172.64.152.23
       port: 0
@@ -8369,25 +7988,9 @@ proxies:
       type: trojan
       password: humanity
       tls: true
-      alpn: [http/1.1]
--     name: trojan_172.64.72.171_0
-      server: 172.64.72.171
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: unsafe
--     name: trojan_172.64.72.171_0
-      server: 172.64.72.171
-      port: 0
-      udp: true
-      type: trojan
-      password: humanity
-      tls: true
-      alpn: [http/1.1]
 -     name: trojan_172.66.40.99_0
       server: 172.66.40.99
       port: 0
@@ -8450,6 +8053,22 @@ proxies:
       tls: true
       servername: www.volumeroot.com
       alpn: [http/1.1]
+-     name: trojan_172.67.118.45_0
+      server: 172.67.118.45
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+-     name: trojan_172.67.118.45_0
+      server: 172.67.118.45
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
       client-fingerprint: chrome
 -     name: trojan_172.67.118.45_0
       server: 172.67.118.45
@@ -8461,6 +8080,35 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: trojan_172.67.118.45_0
+      server: 172.67.118.45
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_172.67.118.45_0
+      server: 172.67.118.45
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
 -     name: trojan_172.67.139.14_0
       server: 172.67.139.14
       port: 0
@@ -8521,10 +8169,302 @@ proxies:
       servername: www.volumeroot.com
       alpn: [http/1.1]
       client-fingerprint: unsafe
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+      alpn: [http/1.1]
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+-     name: trojan_172.67.139.14_0
+      server: 172.67.139.14
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.volumeroot.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: "trojan_172.67.149.60:443?path=/assignment&security=tls&insecure=0&ech=ip.gs+udp_0"
+      server: "172.67.149.60:443?path=/assignment&security=tls&insecure=0&ech=ip.gs+udp"
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: "trojan_172.67.149.60:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp_0"
+      server: "172.67.149.60:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp"
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.ignitelimit.com
+-     name: trojan_172.67.149.60_0
+      server: 172.67.149.60
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_172.67.155.199_0
+      server: 172.67.155.199
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmloud.com
+      client-fingerprint: ios
+-     name: trojan_172.67.180.92_0
+      server: 172.67.180.92
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.multiplydose.com
+-     name: trojan_172.67.180.92_0
+      server: 172.67.180.92
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.multiplydose.com
+      client-fingerprint: chrome
+-     name: trojan_172.67.180.92_0
+      server: 172.67.180.92
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.multiplydose.com
+      client-fingerprint: chrome
+-     name: trojan_172.67.180.92_0
+      server: 172.67.180.92
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.multiplydose.com
+      client-fingerprint: chrome
+-     name: trojan_172.67.200.219_0
+      server: 172.67.200.219
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_172.67.200.219_0
+      server: 172.67.200.219
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+-     name: trojan_172.67.200.219_0
+      server: 172.67.200.219
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: chrome
+-     name: trojan_172.67.200.219_0
+      server: 172.67.200.219
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_172.67.217.240_0
+      server: 172.67.217.240
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: unsafe
+-     name: trojan_172.67.217.240_0
+      server: 172.67.217.240
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: unsafe
+-     name: trojan_172.67.217.240_0
+      server: 172.67.217.240
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: unsafe
+-     name: trojan_178.128.45.156_0
+      server: 178.128.45.156
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      skip-cert-verify: true
+      servername: www.pleadcourt.org
+-     name: trojan_178.128.45.156_0
+      server: 178.128.45.156
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      client-fingerprint: unsafe
+-     name: trojan_178.128.45.156_0
+      server: 178.128.45.156
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.pleadcourt.org
+      client-fingerprint: unsafe
+-     name: trojan_185.114.72.31_0
+      server: 185.114.72.31
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_185.114.72.31_0
+      server: 185.114.72.31
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_185.114.72.31_0
+      server: 185.114.72.31
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_185.114.72.31_0
+      server: 185.114.72.31
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+-     name: trojan_185.114.72.31_0
+      server: 185.114.72.31
+      port: 0
+      udp: true
+      type: trojan
+      password: humanity
+      tls: true
+      servername: www.calmlunch.com
+      client-fingerprint: ios
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.17.35.62_0, trojan_104.17.45.180_0, trojan_104.17.51.115_0, trojan_104.17.68.111_0, trojan_104.17.76.107_0, trojan_104.17.79.62_0, trojan_104.17.9.38_0, trojan_104.18.107.117_0, trojan_104.18.113.223_0, trojan_104.18.126.124_0, trojan_104.18.126.124_0, trojan_104.18.146.214_0, trojan_104.18.160.246_0, trojan_104.18.161.108_0, trojan_104.18.181.179_0, trojan_104.18.182.198_0, trojan_104.18.203.219_0, trojan_104.18.205.85_0, trojan_104.18.23.235_0, trojan_104.18.23.235_0, trojan_104.18.34.21_0, trojan_104.18.37.111_0, trojan_104.18.86.0_0, trojan_104.18.89.137_0, trojan_104.18.9.19_0, trojan_104.18.94.159_0, trojan_104.19.128.93_0, trojan_104.19.148.27_0, trojan_104.19.177.234_0, trojan_104.19.213.76_0, trojan_104.19.214.24_0, trojan_104.19.222.79_0, trojan_104.19.32.112_0, trojan_104.19.35.14_0, trojan_104.19.81.29_0, trojan_104.19.89.225_0, trojan_104.20.47.72_0, trojan_104.21.26.36_0, trojan_104.21.30.195_0, trojan_104.21.30.195_0, trojan_104.21.7.153_0, trojan_104.21.75.193_0, trojan_104.21.77.150_0, trojan_104.21.77.150_0, trojan_104.21.79.143_0, trojan_104.21.79.143_0, trojan_104.21.83.62_0, trojan_104.24.151.117_0, trojan_104.24.202.246_0, trojan_104.24.206.177_0, trojan_104.24.217.109_0, trojan_104.24.248.249_0, trojan_104.24.48.227_0, trojan_104.25.1.130_0, trojan_104.25.116.172_0, trojan_104.25.118.42_0, trojan_104.25.216.8_0, trojan_104.25.251.140_0, trojan_104.25.48.219_0, trojan_104.25.7.183_0, trojan_104.25.8.6_0, trojan_104.26.12.31_0, trojan_104.26.4.60_0, trojan_104.26.7.62_0, trojan_104.27.205.63_0, trojan_104.27.30.100_0, trojan_104.27.30.190_0, trojan_104.27.70.90_0, trojan_104.27.85.4_0, trojan_104.27.9.13_0, trojan_104.27.97.121_0, trojan_108.162.194.233_0, trojan_108.162.196.153_0, trojan_108.162.198.69_0, trojan_108.165.216.155_0, trojan_108.165.216.155_0, trojan_141.101.113.119_0, trojan_141.101.113.119_0, trojan_141.101.114.163_0, trojan_141.101.114.2_0, trojan_141.101.114.43_0, trojan_141.101.114.52_0, trojan_141.101.121.171_0, trojan_141.101.122.113_0, trojan_141.101.123.129_0, trojan_141.11.203.98_0, trojan_159.112.235.48_0, trojan_162.159.1.2_0, trojan_162.159.152.198_0, trojan_162.159.152.240_0, trojan_162.159.152.35_0, trojan_162.159.152.59_0, trojan_162.159.153.132_0, trojan_162.159.153.161_0, trojan_162.159.153.172_0, trojan_162.159.153.19_0, trojan_162.159.153.208_0, trojan_162.159.153.229_0, trojan_162.159.153.2_0, trojan_162.159.198.172_0, trojan_162.159.27.42_0, trojan_162.159.33.147_0, trojan_172.64.150.145_0, trojan_172.64.150.145_0, trojan_172.64.152.215_0, trojan_172.64.153.235_0, trojan_172.64.32.178_0, trojan_172.64.35.53_0, trojan_172.64.80.1_0, trojan_172.66.213.38_0, trojan_172.66.44.128_0, trojan_172.66.44.139_0, trojan_172.66.44.141_0, trojan_172.66.44.156_0, trojan_172.66.44.156_0, trojan_172.66.44.156_0, trojan_172.66.44.203_0, trojan_172.66.44.203_0, trojan_172.66.44.53_0, trojan_172.66.47.100_0, trojan_172.66.47.117_0, trojan_172.66.47.128_0, trojan_172.66.47.169_0, trojan_172.66.47.53_0, trojan_172.67.130.82_0, trojan_172.67.135.88_0, trojan_172.67.140.61_0, trojan_172.67.153.198_0, trojan_172.67.173.143_0, trojan_172.67.173.143_0, trojan_172.67.180.238_0, trojan_172.67.180.238_0, trojan_172.67.209.80_0, trojan_172.67.213.179_0, trojan_172.67.214.246_0, trojan_172.67.238.207_0, trojan_172.67.70.92_0, trojan_172.67.75.172_0, trojan_172.67.92.184_0, trojan_173.245.49.177_0, trojan_173.245.49.187_0, trojan_173.245.49.49_0, trojan_173.245.58.150_0, trojan_173.245.58.16_0, trojan_173.245.58.39_0, trojan_173.245.58.87_0, trojan_173.245.59.101_0, trojan_173.245.59.167_0, trojan_173.245.59.182_0, trojan_185.148.104.251_0, trojan_185.159.247.248_0, trojan_185.162.229.179_0, trojan_185.238.228.210_0, trojan_185.238.228.6_0, trojan_188.114.96.16_0, trojan_188.114.96.16_0, trojan_188.114.96.245_0, trojan_188.114.96.34_0, trojan_188.114.97.159_0, trojan_188.114.97.36_0, trojan_188.114.97.88_0, trojan_188.114.98.12_0, trojan_188.114.98.138_0, trojan_188.114.98.162_0, trojan_188.114.98.209_0, trojan_188.114.98.244_0, trojan_188.114.98.253_0, trojan_188.114.98.89_0, trojan_188.114.99.179_0, trojan_188.114.99.187_0, trojan_188.114.99.190_0, trojan_188.114.99.208_0, trojan_188.114.99.85_0, trojan_188.114.99.94_0, trojan_190.93.244.136_0, trojan_190.93.244.202_0, trojan_190.93.244.202_0, trojan_190.93.244.233_0, trojan_190.93.244.25_0, trojan_190.93.244.66_0, trojan_190.93.244.89_0, trojan_190.93.245.12_0, trojan_190.93.245.14_0, trojan_190.93.245.157_0, trojan_190.93.245.48_0, trojan_190.93.245.69_0, trojan_190.93.245.71_0, trojan_190.93.245.74_0, trojan_190.93.246.121_0, trojan_190.93.246.31_0, trojan_190.93.246.80_0, trojan_190.93.247.54_0, trojan_195.85.23.232_0, trojan_198.202.211.146_0, trojan_198.41.192.41_0, trojan_198.41.193.210_0, trojan_198.41.194.30_0, trojan_198.41.197.94_0, trojan_198.41.200.251_0, trojan_198.41.202.175_0, trojan_198.41.202.175_0, trojan_198.41.202.57_0, trojan_198.41.202.75_0, trojan_198.41.204.192_0, trojan_198.41.204.23_0, trojan_198.41.211.21_0, trojan_198.41.215.216_0, trojan_198.41.215.85_0, trojan_198.41.219.190_0, trojan_198.41.222.155_0, trojan_23.227.60.8_0, trojan_45.131.208.81_0, trojan_45.131.209.114_0, trojan_45.142.120.4_0, trojan_45.80.110.224_0, trojan_45.80.111.9_0, trojan_62.72.166.140_0, trojan_86.38.214.132_0, trojan_89.116.250.94_0, trojan_89.117.112.181_0, trojan_92.243.74.60_0, trojan_japan.com_0, trojan_15.204.210.176_0, trojan_15.204.210.176_0, trojan_15.204.210.176_0, trojan_104.18.1.1_0, trojan_172.67.149.60_0, trojan_141.193.213.106_0, trojan_172.67.177.109_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_172.67.200.117_0, trojan_172.66.47.200_0, trojan_104.21.41.21_0, trojan_45.149.92.71_0, trojan_172.67.181.193_0, trojan_104.26.2.3_0, trojan_104.21.75.121_0, trojan_172.67.175.149_0, trojan_31.76.10.180_0, trojan_31.76.10.180_0, trojan_31.76.10.180_0, trojan_172.67.143.250_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_104.21.30.37_0, trojan_104.17.148.22_0, trojan_104.19.159.10_0, trojan_151.101.3.10_0, trojan_104.18.6.36_0, trojan_172.67.192.215_0, trojan_198.244.190.189_0, trojan_195.54.161.249_0, trojan_38.180.240.150_0, trojan_104.24.24.45_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_139.162.36.248_0, trojan_172.67.159.56_0, trojan_109.169.76.23_0, trojan_151.101.2.228_0, trojan_151.101.66.228_0, trojan_104.17.128.1_0, trojan_104.25.254.4_0, trojan_154.83.2.54_0, trojan_104.17.156.140_0, trojan_162.159.138.232_0, trojan_185.143.232.200_0, trojan_185.143.233.200_0, trojan_185.143.235.200_0, trojan_185.143.235.200_0, trojan_104.21.54.208_0, trojan_104.21.17.127_0, trojan_172.67.208.155_0, trojan_104.16.159.3_0, trojan_104.16.192.157_0, trojan_104.17.61.2_0, trojan_104.19.171.4_0, trojan_190.93.246.247_0, trojan_129.146.190.42_0, trojan_89.116.46.68_0, trojan_195.85.59.246_0, trojan_104.24.196.20_0, trojan_162.159.153.2_0, trojan_104.21.92.73_0, trojan_135.84.79.80_0, trojan_172.67.188.160_0, trojan_199.68.156.68_0, trojan_199.68.156.69_0, trojan_199.68.156.69_0, trojan_206.238.237.1_0, trojan_63.141.128.254_0, trojan_66.179.48.88_0, trojan_66.179.48.88_0, trojan_104.21.44.185_0, trojan_13.250.28.5_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_104.26.14.85_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.26.14.137_0, trojan_104.26.14.137_0, trojan_104.26.14.137_0, trojan_104.26.15.137_0, trojan_104.26.15.137_0, trojan_104.26.15.137_0, trojan_172.67.176.3_0, trojan_172.67.176.3_0, trojan_172.67.74.2_0, trojan_172.67.74.2_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, "trojan_188.114.98.0:443?path=/0962&security=tls&alpn=http/1.1&insecure=0&host=nimm.mpd.cc.cd&fp=chrome&ech=cloudflare-ech.com+udp_0", "trojan_188.114.98.0:443?path=/0962&security=tls&alpn=http/1.1&insecure=0&host=nimm.mpd.cc.cd.&fp=chrome&ech=cloudflare-ech.com+udp_0", trojan_188.114.98.0_0, trojan_188.114.98.0_0, "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nimm.mpd.cc.cd&host=nimm.mpd.cc.cd&alpn=http/1.1&ech=cloudflare-ech.com+udp_0", "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nimm.mpd.cc.cd.&host=nimm.mpd.cc.cd.&alpn=http/1.1&ech=cloudflare-ech.com+udp_0", trojan_nimm.mpd.cc.cd_0, trojan_nimm.mpd.cc.cd_0, trojan_nimm.mpd.cc.cd_0, trojan_51.159.59.186_0, trojan_104.21.79.246_0, trojan_104.21.79.246_0, trojan_104.21.14.54_0, trojan_172.67.157.220_0, trojan_159.223.76.87_0, trojan_104.21.37.43_0, trojan_172.67.203.189_0, trojan_172.64.229.128_0, trojan_172.66.47.18_0, trojan_188.114.97.0_0, trojan_188.114.97.0_0, trojan_172.66.47.130_0, trojan_sv1.ahsg.top_0, trojan_172.67.141.68_0, trojan_104.19.209.229_0, trojan_135.148.148.4_0, trojan_81.22.132.183_0, trojan_132.226.23.185_0, trojan_43.169.19.179_0, trojan_104.19.209.229_0, trojan_104.21.3.233_0, trojan_198.41.214.224_0, trojan_104.16.192.135_0, trojan_104.16.192.158_0, trojan_104.17.61.6_0, trojan_104.19.171.3_0, trojan_162.159.140.220_0, trojan_162.159.140.220_0, trojan_172.66.0.218_0, trojan_resources.findlocaljobnetworkandbuildcommunityconnections.com_0, trojan_104.21.66.223_0, trojan_104.21.72.109_0, trojan_172.67.156.25_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_51.158.146.183_0, trojan_51.158.146.183_0, trojan_104.26.4.60_0, trojan_172.67.70.92_0, trojan_172.67.212.82_0, trojan_104.21.22.159_0, trojan_151.101.194.228_0, trojan_172.66.47.199_0, trojan_104.21.63.135_0, trojan_172.67.145.200_0, trojan_199.34.228.178_0, trojan_188.114.97.7_0, trojan_172.67.152.170_0, trojan_165.22.30.47_0, trojan_45.130.125.160_0, trojan_172.67.220.32_0, trojan_104.21.32.1_0, trojan_172.66.44.172_0, trojan_172.66.47.84_0, trojan_xhop-production.up.railway.app_0, trojan_104.21.25.67_0, trojan_mr-taha66-production.up.railway.app_0, trojan_93.152.223.201_0, trojan_93.152.223.201_0, trojan_93.152.223.201_0, trojan_93.152.223.201_0, trojan_104.21.25.80_0, trojan_172.67.182.229_0, trojan_172.67.182.229_0, trojan_de-bots4.h1cloud.net_0, trojan_de-bots4.h1cloud.net_0, trojan_de-bots4.h1cloud.net_0, trojan_31.77.31.57_0, trojan_personalws22-production.up.railway.app_0, trojan_104.16.117.43_0, trojan_104.16.122.175_0, trojan_104.16.122.175_0, trojan_104.16.123.96_0, trojan_104.16.124.96_0, trojan_104.16.174.101_0, trojan_104.16.174.109_0, trojan_104.16.174.117_0, trojan_104.16.174.117_0, trojan_104.16.174.117_0, trojan_104.16.174.121_0, trojan_104.16.174.121_0, trojan_104.16.174.121_0, trojan_104.16.174.124_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.143_0, trojan_104.16.174.14_0, trojan_104.16.174.185_0, trojan_104.16.174.22_0, trojan_104.16.174.33_0, trojan_104.16.174.34_0, trojan_104.16.174.34_0, trojan_104.16.174.36_0, trojan_104.16.174.36_0, trojan_104.16.174.36_0, trojan_104.16.174.37_0, trojan_104.16.174.44_0, trojan_104.16.174.44_0, trojan_104.16.174.44_0, trojan_104.16.174.46_0, trojan_104.16.174.6_0, trojan_104.16.174.6_0, trojan_104.16.174.71_0, trojan_104.16.174.72_0, trojan_104.16.6.70_0, trojan_104.16.6.70_0, trojan_104.16.6.70_0, trojan_104.16.62.25_0, trojan_104.16.7.70_0, trojan_104.16.7.70_0, trojan_104.16.7.70_0, trojan_104.16.71.213_0, trojan_104.16.71.213_0, trojan_104.16.72.2_0, trojan_104.16.72.2_0, trojan_104.16.72.2_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.50_0, trojan_104.16.72.50_0, trojan_104.16.72.50_0, trojan_104.16.79.73_0, trojan_104.16.80.73_0, trojan_104.16.80.73_0, trojan_104.16.85.85_0, trojan_104.16.85.85_0, trojan_104.16.89.120_0, trojan_104.17.111.8_0, trojan_104.17.111.8_0, trojan_104.17.121.43_0, trojan_104.17.121.71_0, trojan_104.17.121.71_0, trojan_104.17.121.71_0, trojan_104.17.121.9_0, trojan_104.17.121.9_0, trojan_104.17.131.88_0, trojan_104.17.147.22_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.72.206_0, trojan_104.18.10.110_0, trojan_104.18.11.110_0, trojan_104.18.11.110_0, trojan_104.18.115.61_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.13.149_0, trojan_104.18.152.103_0, trojan_104.18.152.108_0, trojan_104.18.152.113_0, trojan_104.18.152.133_0, trojan_104.18.152.140_0, trojan_104.18.152.143_0, trojan_104.18.152.144_0, trojan_104.18.152.149_0, trojan_104.18.152.152_0, trojan_104.18.152.155_0, trojan_104.18.152.159_0, trojan_104.18.152.161_0, trojan_104.18.152.175_0, trojan_104.18.152.179_0, trojan_104.18.152.179_0, trojan_104.18.152.187_0, trojan_104.18.152.187_0, trojan_104.18.152.204_0, trojan_104.18.152.207_0, trojan_104.18.152.208_0, trojan_104.18.152.210_0, trojan_104.18.152.219_0, trojan_104.18.152.225_0, trojan_104.18.152.225_0, trojan_104.18.152.225_0, trojan_104.18.152.229_0, trojan_104.18.152.229_0, trojan_104.18.152.230_0, trojan_104.18.152.233_0, trojan_104.18.152.233_0, trojan_104.18.152.244_0, trojan_104.18.152.246_0, trojan_104.18.152.246_0, trojan_104.18.152.246_0, trojan_104.18.152.50_0, trojan_104.18.152.54_0, trojan_104.18.152.73_0, trojan_104.18.152.73_0, trojan_104.18.152.73_0, trojan_104.18.152.77_0, trojan_104.18.152.97_0, trojan_104.18.16.56_0, trojan_104.18.24.120_0, trojan_104.18.24.120_0, trojan_104.18.25.120_0, trojan_104.18.32.37_0, trojan_104.18.32.37_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.37.127_0, trojan_104.18.37.127_0, trojan_104.18.37.127_0, trojan_104.18.37.228_0, trojan_104.18.37.228_0, trojan_104.18.37.228_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.19.157.30_0, trojan_104.19.157.30_0, trojan_104.19.157.30_0, trojan_104.19.2.175_0, trojan_104.19.208.184_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.230.21_0, trojan_104.19.230.21_0, trojan_104.19.64.105_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.6.134_0, trojan_104.20.6.134_0, trojan_104.21.103.254_0, trojan_104.21.103.254_0, trojan_104.21.103.254_0, trojan_104.21.13.204_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.40.34_0, trojan_104.21.40.34_0, trojan_104.21.40.34_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.25.109.237_0, trojan_104.25.109.237_0, trojan_104.26.14.137_0, trojan_104.26.14.137_0, trojan_104.26.6.159_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_130.250.137.171_0, trojan_130.250.137.171_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_139.28.240.24_0, trojan_139.28.240.24_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_141.101.115.104_0, trojan_141.101.115.104_0, "trojan_141.101.115.104:443?type=ws&security=tls&fp=chrome&sni=www.calmlunch.com&host=www.calmlunch.com&alpn=http/1.1&ech=dolts.ir+udp_0", trojan_141.101.90.101_0, trojan_141.193.213.10_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, "trojan_141.193.213.172:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp_0", trojan_141.193.213.172_0, trojan_141.193.213.172_0, "trojan_141.193.213.172:443?type=ws&security=tls&fp=android&sni=www.calmlunch.com&host=www.calmlunch.com&ech=ip.gs+udp_0", trojan_141.193.213.21_0, trojan_141.193.213.21_0, trojan_141.193.213.21_0, trojan_141.193.213.30_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.156_0, trojan_143.246.136.99_0, trojan_143.246.136.99_0, trojan_143.246.136.99_0, trojan_143.246.136.99_0, trojan_143.246.136.99_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.195.61_0, trojan_144.31.195.61_0, trojan_144.31.195.61_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_146.185.141.92_0, trojan_146.185.141.92_0, trojan_146.185.141.92_0, trojan_146.185.141.92_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_152.42.130.189_0, trojan_152.42.130.189_0, trojan_152.42.130.189_0, trojan_152.42.130.189_0, trojan_153.92.127.26_0, trojan_153.92.127.26_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.159_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.193.22_0, trojan_162.159.228.224_0, trojan_162.159.228.224_0, trojan_162.159.244.91_0, trojan_162.159.253.41_0, trojan_162.159.253.41_0, trojan_162.159.36.20_0, trojan_162.159.36.20_0, trojan_162.159.36.20_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.223.252_0, trojan_164.92.223.252_0, trojan_164.92.223.252_0, trojan_164.92.223.252_0, trojan_164.92.223.252_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_166.1.36.83_0, trojan_166.1.36.83_0, trojan_166.1.36.83_0, trojan_166.1.36.83_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.146.199_0, trojan_172.64.147.166_0, trojan_172.64.147.236_0, trojan_172.64.147.24_0, trojan_172.64.147.24_0, trojan_172.64.150.28_0, trojan_172.64.150.28_0, trojan_172.64.150.28_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.38_0, trojan_172.64.155.209_0, trojan_172.64.229.75_0, trojan_172.64.72.171_0, trojan_172.64.72.171_0, trojan_172.64.72.171_0, trojan_172.64.72.171_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.44.211_0, trojan_172.66.47.69_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0]
+      proxies: [trojan_104.18.126.124_0, trojan_104.18.146.214_0, trojan_104.18.160.246_0, trojan_104.18.161.108_0, trojan_104.18.181.179_0, trojan_104.18.182.198_0, trojan_104.18.203.219_0, trojan_104.18.205.85_0, trojan_104.18.23.235_0, trojan_104.18.23.235_0, trojan_104.18.34.21_0, trojan_104.18.37.111_0, trojan_104.18.86.0_0, trojan_104.18.89.137_0, trojan_104.18.9.19_0, trojan_104.18.94.159_0, trojan_104.19.128.93_0, trojan_104.19.148.27_0, trojan_104.19.177.234_0, trojan_104.19.213.76_0, trojan_104.19.214.24_0, trojan_104.19.222.79_0, trojan_104.19.32.112_0, trojan_104.19.35.14_0, trojan_104.19.81.29_0, trojan_104.19.89.225_0, trojan_104.20.47.72_0, trojan_104.21.26.36_0, trojan_104.21.30.195_0, trojan_104.21.30.195_0, trojan_104.21.7.153_0, trojan_104.21.75.193_0, trojan_104.21.77.150_0, trojan_104.21.77.150_0, trojan_104.21.79.143_0, trojan_104.21.79.143_0, trojan_104.21.83.62_0, trojan_104.24.151.117_0, trojan_104.24.202.246_0, trojan_104.24.206.177_0, trojan_104.24.217.109_0, trojan_104.24.248.249_0, trojan_104.24.48.227_0, trojan_104.25.1.130_0, trojan_104.25.116.172_0, trojan_104.25.118.42_0, trojan_104.25.216.8_0, trojan_104.25.251.140_0, trojan_104.25.48.219_0, trojan_104.25.7.183_0, trojan_104.25.8.6_0, trojan_104.26.12.31_0, trojan_104.26.4.60_0, trojan_104.26.7.62_0, trojan_104.27.205.63_0, trojan_104.27.30.100_0, trojan_104.27.30.190_0, trojan_104.27.70.90_0, trojan_104.27.85.4_0, trojan_104.27.9.13_0, trojan_104.27.97.121_0, trojan_108.162.194.233_0, trojan_108.162.196.153_0, trojan_108.162.198.69_0, trojan_108.165.216.155_0, trojan_141.101.113.119_0, trojan_141.101.113.119_0, trojan_141.101.114.163_0, trojan_141.101.114.2_0, trojan_141.101.114.43_0, trojan_141.101.114.52_0, trojan_141.101.121.171_0, trojan_141.101.122.113_0, trojan_141.101.123.129_0, trojan_141.11.203.98_0, trojan_159.112.235.48_0, trojan_162.159.1.2_0, trojan_162.159.152.198_0, trojan_162.159.152.240_0, trojan_162.159.152.35_0, trojan_162.159.152.59_0, trojan_162.159.153.132_0, trojan_162.159.153.161_0, trojan_162.159.153.172_0, trojan_162.159.153.19_0, trojan_162.159.153.208_0, trojan_162.159.153.229_0, trojan_162.159.153.2_0, trojan_162.159.198.172_0, trojan_162.159.27.42_0, trojan_162.159.33.147_0, trojan_172.64.150.145_0, trojan_172.64.150.145_0, trojan_172.64.152.215_0, trojan_172.64.153.235_0, trojan_172.64.32.178_0, trojan_172.64.35.53_0, trojan_172.64.80.1_0, trojan_172.64.80.1_0, trojan_172.66.213.38_0, trojan_172.66.44.128_0, trojan_172.66.44.139_0, trojan_172.66.44.141_0, trojan_172.66.44.156_0, trojan_172.66.44.156_0, trojan_172.66.44.156_0, trojan_172.66.44.203_0, trojan_172.66.44.203_0, trojan_172.66.44.53_0, trojan_172.66.47.100_0, trojan_172.66.47.117_0, trojan_172.66.47.128_0, trojan_172.66.47.169_0, trojan_172.66.47.53_0, trojan_172.67.130.82_0, trojan_172.67.135.88_0, trojan_172.67.140.61_0, trojan_172.67.153.198_0, trojan_172.67.173.143_0, trojan_172.67.173.143_0, trojan_172.67.180.238_0, trojan_172.67.180.238_0, trojan_172.67.209.80_0, trojan_172.67.213.179_0, trojan_172.67.214.246_0, trojan_172.67.238.207_0, trojan_172.67.70.92_0, trojan_172.67.75.172_0, trojan_172.67.92.184_0, trojan_173.245.49.177_0, trojan_173.245.49.187_0, trojan_173.245.49.49_0, trojan_173.245.58.150_0, trojan_173.245.58.16_0, trojan_173.245.58.39_0, trojan_173.245.58.87_0, trojan_173.245.59.101_0, trojan_173.245.59.167_0, trojan_173.245.59.182_0, trojan_185.148.104.251_0, trojan_185.159.247.248_0, trojan_185.162.229.179_0, trojan_185.238.228.210_0, trojan_185.238.228.6_0, trojan_188.114.96.16_0, trojan_188.114.96.16_0, trojan_188.114.96.245_0, trojan_188.114.96.34_0, trojan_188.114.97.159_0, trojan_188.114.97.36_0, trojan_188.114.97.88_0, trojan_188.114.98.12_0, trojan_188.114.98.138_0, trojan_188.114.98.162_0, trojan_188.114.98.209_0, trojan_188.114.98.244_0, trojan_188.114.98.253_0, trojan_188.114.98.89_0, trojan_188.114.99.179_0, trojan_188.114.99.187_0, trojan_188.114.99.190_0, trojan_188.114.99.208_0, trojan_188.114.99.85_0, trojan_188.114.99.94_0, trojan_190.93.244.136_0, trojan_190.93.244.202_0, trojan_190.93.244.202_0, trojan_190.93.244.233_0, trojan_190.93.244.25_0, trojan_190.93.244.66_0, trojan_190.93.244.89_0, trojan_190.93.245.12_0, trojan_190.93.245.14_0, trojan_190.93.245.157_0, trojan_190.93.245.48_0, trojan_190.93.245.69_0, trojan_190.93.245.71_0, trojan_190.93.245.74_0, trojan_190.93.246.121_0, trojan_190.93.246.31_0, trojan_190.93.246.80_0, trojan_190.93.247.54_0, trojan_195.85.23.232_0, trojan_198.202.211.146_0, trojan_198.41.192.41_0, trojan_198.41.193.210_0, trojan_198.41.194.30_0, trojan_198.41.197.94_0, trojan_198.41.200.251_0, trojan_198.41.202.175_0, trojan_198.41.202.175_0, trojan_198.41.202.57_0, trojan_198.41.202.75_0, trojan_198.41.204.192_0, trojan_198.41.204.23_0, trojan_198.41.211.21_0, trojan_198.41.215.216_0, trojan_198.41.215.85_0, trojan_198.41.219.190_0, trojan_198.41.222.155_0, trojan_23.227.60.8_0, trojan_45.131.208.81_0, trojan_45.131.209.114_0, trojan_45.142.120.4_0, trojan_45.80.110.224_0, trojan_45.80.111.9_0, trojan_62.72.166.140_0, trojan_86.38.214.132_0, trojan_89.116.250.94_0, trojan_89.117.112.181_0, trojan_92.243.74.60_0, trojan_15.204.210.176_0, trojan_15.204.210.176_0, trojan_15.204.210.176_0, trojan_104.18.1.1_0, trojan_172.67.149.60_0, trojan_141.193.213.106_0, trojan_172.67.177.109_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_172.67.200.117_0, trojan_172.66.47.200_0, trojan_104.21.41.21_0, trojan_45.149.92.71_0, trojan_172.67.181.193_0, trojan_104.26.2.3_0, trojan_104.21.75.121_0, trojan_172.67.175.149_0, trojan_31.76.10.180_0, trojan_31.76.10.180_0, trojan_31.76.10.180_0, trojan_31.76.10.180_0, trojan_172.67.143.250_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_104.21.30.37_0, trojan_104.17.148.22_0, trojan_104.19.159.10_0, trojan_151.101.3.10_0, trojan_104.18.6.36_0, trojan_104.19.173.68_0, trojan_172.67.192.215_0, trojan_198.244.190.189_0, trojan_195.54.161.249_0, trojan_38.180.240.150_0, trojan_104.24.24.45_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_139.162.36.248_0, trojan_172.67.159.56_0, trojan_109.169.76.23_0, trojan_151.101.2.228_0, trojan_151.101.66.228_0, trojan_104.17.128.1_0, trojan_104.25.254.4_0, trojan_154.83.2.54_0, trojan_104.17.156.140_0, trojan_162.159.138.232_0, trojan_185.143.232.200_0, trojan_185.143.233.200_0, trojan_185.143.235.200_0, trojan_185.143.235.200_0, trojan_104.21.54.208_0, trojan_104.21.17.127_0, trojan_172.67.208.155_0, trojan_104.16.159.3_0, trojan_104.16.192.157_0, trojan_104.17.61.2_0, trojan_104.19.171.4_0, trojan_190.93.246.247_0, trojan_216.106.186.32_0, trojan_216.106.186.32_0, trojan_129.146.190.42_0, trojan_89.116.46.68_0, trojan_195.85.59.246_0, trojan_104.24.196.20_0, trojan_162.159.153.2_0, trojan_104.21.92.73_0, trojan_135.84.79.80_0, trojan_172.67.188.160_0, trojan_199.68.156.68_0, trojan_199.68.156.69_0, trojan_199.68.156.69_0, trojan_206.238.237.1_0, trojan_63.141.128.254_0, trojan_66.179.48.88_0, trojan_66.179.48.88_0, trojan_104.21.44.185_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_51.91.11.29_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_139.180.146.200_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_45.32.52.173_0, trojan_104.26.14.85_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.21.48.18_0, trojan_104.26.14.137_0, trojan_104.26.14.137_0, trojan_104.26.15.137_0, trojan_104.26.15.137_0, trojan_104.26.15.137_0, trojan_104.26.15.137_0, trojan_172.67.176.3_0, trojan_172.67.176.3_0, trojan_172.67.176.3_0, trojan_172.67.74.2_0, trojan_172.67.74.2_0, trojan_172.67.74.2_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, "trojan_188.114.98.0:443?path=/0962&security=tls&alpn=http/1.1&insecure=0&host=nimm.mpd.cc.cd&fp=chrome&ech=cloudflare-ech.com+udp_0", "trojan_188.114.98.0:443?path=/0962&security=tls&alpn=http/1.1&insecure=0&host=nimm.mpd.cc.cd.&fp=chrome&ech=cloudflare-ech.com+udp_0", trojan_188.114.98.0_0, trojan_188.114.98.0_0, "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nimm.mpd.cc.cd&host=nimm.mpd.cc.cd&alpn=http/1.1&ech=cloudflare-ech.com+udp_0", "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nimm.mpd.cc.cd.&host=nimm.mpd.cc.cd.&alpn=http/1.1&ech=cloudflare-ech.com+udp_0", trojan_51.159.59.186_0, trojan_104.21.79.246_0, trojan_104.21.79.246_0, trojan_104.21.14.54_0, trojan_172.67.157.220_0, trojan_159.223.76.87_0, trojan_104.21.37.43_0, trojan_172.67.203.189_0, trojan_172.64.229.128_0, trojan_172.66.47.18_0, trojan_172.66.47.18_0, trojan_172.66.47.18_0, trojan_172.66.47.18_0, trojan_172.66.47.130_0, trojan_172.67.141.68_0, trojan_104.19.209.229_0, trojan_135.148.148.4_0, trojan_81.22.132.183_0, trojan_132.226.23.185_0, trojan_43.169.19.179_0, trojan_104.19.209.229_0, trojan_104.21.3.233_0, trojan_198.41.214.224_0, trojan_104.16.192.135_0, trojan_104.16.192.158_0, trojan_104.17.61.6_0, trojan_104.19.171.3_0, trojan_162.159.140.220_0, trojan_172.66.0.218_0, trojan_216.106.186.33_0, trojan_216.106.186.33_0, trojan_216.106.186.33_0, trojan_104.21.66.223_0, trojan_104.21.72.109_0, trojan_172.67.156.25_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_172.67.181.173_0, trojan_51.158.146.183_0, trojan_51.158.146.183_0, trojan_104.26.4.60_0, trojan_172.67.70.92_0, trojan_172.67.212.82_0, trojan_104.21.22.159_0, trojan_151.101.194.228_0, trojan_172.66.47.199_0, trojan_104.21.63.135_0, trojan_172.67.145.200_0, trojan_199.34.228.178_0, trojan_188.114.97.7_0, trojan_172.67.152.170_0, trojan_165.22.30.47_0, trojan_45.130.125.160_0, trojan_172.67.220.32_0, trojan_104.21.32.1_0, trojan_172.66.44.172_0, trojan_172.66.47.84_0, trojan_104.21.25.67_0, trojan_93.152.223.201_0, trojan_93.152.223.201_0, trojan_104.21.25.80_0, trojan_172.67.182.229_0, trojan_172.67.182.229_0, trojan_43.207.87.133_0, trojan_104.16.117.43_0, trojan_104.16.122.175_0, trojan_104.16.123.96_0, trojan_104.16.124.96_0, trojan_104.16.174.101_0, trojan_104.16.174.109_0, trojan_104.16.174.117_0, trojan_104.16.174.117_0, trojan_104.16.174.117_0, trojan_104.16.174.121_0, trojan_104.16.174.121_0, trojan_104.16.174.121_0, trojan_104.16.174.124_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.12_0, trojan_104.16.174.143_0, trojan_104.16.174.14_0, trojan_104.16.174.185_0, trojan_104.16.174.22_0, trojan_104.16.174.33_0, trojan_104.16.174.34_0, trojan_104.16.174.34_0, trojan_104.16.174.36_0, trojan_104.16.174.36_0, trojan_104.16.174.36_0, trojan_104.16.174.37_0, trojan_104.16.174.44_0, trojan_104.16.174.44_0, trojan_104.16.174.44_0, trojan_104.16.174.46_0, trojan_104.16.174.6_0, trojan_104.16.174.6_0, trojan_104.16.174.71_0, trojan_104.16.174.72_0, trojan_104.16.6.70_0, trojan_104.16.6.70_0, trojan_104.16.6.70_0, trojan_104.16.6.70_0, trojan_104.16.62.25_0, trojan_104.16.7.70_0, trojan_104.16.7.70_0, trojan_104.16.7.70_0, trojan_104.16.71.213_0, trojan_104.16.71.213_0, trojan_104.16.71.213_0, trojan_104.16.72.2_0, trojan_104.16.72.2_0, trojan_104.16.72.2_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.41_0, trojan_104.16.72.50_0, trojan_104.16.72.50_0, trojan_104.16.72.50_0, trojan_104.16.79.73_0, trojan_104.16.80.73_0, trojan_104.16.80.73_0, trojan_104.16.85.85_0, trojan_104.16.85.85_0, trojan_104.16.89.120_0, trojan_104.17.111.8_0, trojan_104.17.111.8_0, trojan_104.17.121.71_0, trojan_104.17.121.71_0, trojan_104.17.121.71_0, trojan_104.17.121.71_0, trojan_104.17.121.9_0, trojan_104.17.121.9_0, trojan_104.17.131.88_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.44.17_0, trojan_104.17.72.206_0, trojan_104.18.10.110_0, trojan_104.18.11.110_0, trojan_104.18.11.110_0, trojan_104.18.115.61_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.12.149_0, trojan_104.18.13.149_0, trojan_104.18.152.103_0, trojan_104.18.152.108_0, trojan_104.18.152.113_0, trojan_104.18.152.133_0, trojan_104.18.152.140_0, trojan_104.18.152.143_0, trojan_104.18.152.144_0, trojan_104.18.152.149_0, trojan_104.18.152.152_0, trojan_104.18.152.155_0, trojan_104.18.152.159_0, trojan_104.18.152.161_0, trojan_104.18.152.175_0, trojan_104.18.152.179_0, trojan_104.18.152.187_0, trojan_104.18.152.187_0, trojan_104.18.152.204_0, trojan_104.18.152.207_0, trojan_104.18.152.208_0, trojan_104.18.152.210_0, trojan_104.18.152.219_0, trojan_104.18.152.219_0, trojan_104.18.152.225_0, trojan_104.18.152.225_0, trojan_104.18.152.225_0, trojan_104.18.152.229_0, trojan_104.18.152.229_0, trojan_104.18.152.230_0, trojan_104.18.152.233_0, trojan_104.18.152.233_0, trojan_104.18.152.244_0, trojan_104.18.152.246_0, trojan_104.18.152.246_0, trojan_104.18.152.246_0, trojan_104.18.152.50_0, trojan_104.18.152.54_0, trojan_104.18.152.73_0, trojan_104.18.152.77_0, trojan_104.18.152.97_0, trojan_104.18.16.56_0, trojan_104.18.24.120_0, trojan_104.18.24.120_0, trojan_104.18.24.120_0, trojan_104.18.25.120_0, trojan_104.18.32.37_0, trojan_104.18.32.37_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.32.47_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.35.86_0, trojan_104.18.37.127_0, trojan_104.18.37.127_0, trojan_104.18.37.127_0, trojan_104.18.37.127_0, trojan_104.18.37.228_0, trojan_104.18.37.228_0, trojan_104.18.37.228_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.4.5_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.8.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.18.9.83_0, trojan_104.19.157.30_0, trojan_104.19.157.30_0, trojan_104.19.157.30_0, trojan_104.19.157.30_0, trojan_104.19.2.175_0, trojan_104.19.208.184_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.229.21_0, trojan_104.19.230.21_0, trojan_104.19.230.21_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.42.250_0, trojan_104.20.6.134_0, trojan_104.20.6.134_0, trojan_104.21.103.254_0, trojan_104.21.103.254_0, trojan_104.21.13.204_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.33.59_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.37.56_0, trojan_104.21.40.34_0, trojan_104.21.40.34_0, trojan_104.21.40.34_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.21.57.25_0, trojan_104.25.109.237_0, trojan_104.26.14.137_0, trojan_104.26.14.137_0, trojan_104.26.6.159_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_104.27.21.22_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_107.181.155.237_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_108.162.194.134_0, trojan_130.250.137.171_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_131.196.254.151_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_138.68.131.253_0, trojan_139.28.240.24_0, trojan_139.28.240.24_0, trojan_139.28.240.24_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_139.59.186.54_0, trojan_141.101.115.104_0, trojan_141.101.115.104_0, trojan_141.101.115.104_0, trojan_141.101.115.104_0, "trojan_141.101.115.104:443?type=ws&security=tls&fp=chrome&sni=www.calmlunch.com&host=www.calmlunch.com&alpn=http/1.1&ech=dolts.ir+udp_0", trojan_141.101.115.104_0, trojan_141.101.90.101_0, trojan_141.193.213.10_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.11_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, trojan_141.193.213.172_0, "trojan_141.193.213.172:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&ech=ip.gs+udp_0", trojan_141.193.213.172_0, trojan_141.193.213.172_0, "trojan_141.193.213.172:443?type=ws&security=tls&fp=android&sni=www.calmlunch.com&host=www.calmlunch.com&ech=ip.gs+udp_0", trojan_141.193.213.21_0, trojan_141.193.213.21_0, trojan_141.193.213.21_0, trojan_141.193.213.30_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.182.130_0, trojan_144.31.195.61_0, trojan_144.31.195.61_0, trojan_144.31.195.61_0, trojan_144.31.195.61_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_144.31.205.106_0, trojan_146.185.141.92_0, trojan_146.185.141.92_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_146.185.174.59_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_148.253.212.42_0, trojan_152.42.130.189_0, trojan_153.92.127.26_0, trojan_153.92.127.26_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.142_0, trojan_155.103.71.159_0, trojan_157.173.97.132_0, trojan_157.173.97.132_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.127.28_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_157.230.29.88_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_159.223.12.89_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_161.35.192.122_0, trojan_162.159.156.228_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.17.189_0, trojan_162.159.193.22_0, trojan_162.159.228.224_0, trojan_162.159.228.224_0, trojan_162.159.244.91_0, trojan_162.159.244.91_0, trojan_162.159.253.41_0, trojan_162.159.36.20_0, trojan_162.159.36.20_0, trojan_162.159.36.20_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.38.119_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_162.159.91.211_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.200.68_0, trojan_164.92.223.252_0, trojan_164.92.223.252_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_165.215.250.14_0, trojan_166.1.36.83_0, trojan_166.1.36.83_0, trojan_166.1.36.83_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_167.172.61.197_0, trojan_168.235.125.93_0, trojan_168.235.125.93_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.145.133_0, trojan_172.64.146.199_0, trojan_172.64.147.166_0, trojan_172.64.147.236_0, trojan_172.64.147.24_0, trojan_172.64.147.24_0, trojan_172.64.150.28_0, trojan_172.64.150.28_0, trojan_172.64.150.28_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_172.64.152.38_0, trojan_172.64.155.209_0, trojan_172.64.229.75_0, trojan_172.64.72.171_0, trojan_172.64.72.171_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.40.99_0, trojan_172.66.44.211_0, trojan_172.66.47.69_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.118.45_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.139.14_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, trojan_172.67.149.60_0, "trojan_172.67.149.60:443?path=/assignment&security=tls&insecure=0&ech=ip.gs+udp_0", "trojan_172.67.149.60:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs+udp_0", trojan_172.67.149.60_0, trojan_172.67.155.199_0, trojan_172.67.180.92_0, trojan_172.67.180.92_0, trojan_172.67.180.92_0, trojan_172.67.180.92_0, trojan_172.67.200.219_0, trojan_172.67.200.219_0, trojan_172.67.200.219_0, trojan_172.67.200.219_0, trojan_172.67.217.240_0, trojan_172.67.217.240_0, trojan_172.67.217.240_0, trojan_178.128.45.156_0, trojan_178.128.45.156_0, trojan_178.128.45.156_0, trojan_185.114.72.31_0, trojan_185.114.72.31_0, trojan_185.114.72.31_0, trojan_185.114.72.31_0, trojan_185.114.72.31_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

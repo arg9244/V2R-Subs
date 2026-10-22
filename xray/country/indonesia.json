@@ -95,27 +95,6 @@
       }
     },
     {
-      "tag": "trojan_172.67.217.240_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "172.67.217.240",
-        "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_188.114.97.6_0",
       "protocol": "trojan",
       "settings": {
@@ -284,26 +263,6 @@
       }
     },
     {
-      "tag": "trojan_ca-trojan.bonds.id_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "ca-trojan.bonds.id",
-        "port": 0,
-        "password": "bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_109.169.76.23_0",
       "protocol": "trojan",
       "settings": {
@@ -409,30 +368,27 @@
       }
     },
     {
-      "tag": "vless_www.ums.id_0",
+      "tag": "vless_202.10.40.89_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.ums.id",
+        "address": "202.10.40.89",
         "port": 0,
-        "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+        "id": "5a380395-9c91-4174-8330-475d1235ed61",
         "tls": "tls",
+        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "carlotta.shoorekeeper.cloudns.org",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
+          "serverName": "amproject.my.id",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
+            "shortId": "5b4a12ef7e1694dd"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -440,92 +396,26 @@
       }
     },
     {
-      "tag": "vless_www.ums.id_0",
+      "tag": "vless_202.10.40.89_0",
       "protocol": "vless",
       "settings": {
-        "address": "www.ums.id",
+        "address": "202.10.40.89",
         "port": 0,
-        "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
+        "id": "5a380395-9c91-4174-8330-475d1235ed61",
         "tls": "tls",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "carlotta.shoorekeeper.cloudns.org",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
+          "serverName": "amproject.my.id",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
+            "shortId": "5b4a12ef7e1694dd"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=zani.yaemiko.ggff.net"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.ums.id_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.ums.id",
-        "port": 0,
-        "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "carlotta.shoorekeeper.cloudns.org",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=zani.yaemiko.ggff.net/?JKVPN_TELEGRAM_JKVPN_JKVPN"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.ums.id_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.ums.id",
-        "port": 0,
-        "id": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "carlotta.shoorekeeper.cloudns.org",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/proxyip=zani.yaemiko.ggff.net/?Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -663,24 +553,24 @@
       }
     },
     {
-      "tag": "vless_104.18.12.51_0",
+      "tag": "vless_104.21.78.131_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.18.12.51",
+        "address": "104.21.78.131",
         "port": 0,
-        "id": "9cf8d292-153b-4bb9-87fc-1a48907dfda9",
+        "id": "9bc90ddf-b865-47cc-9f97-9d5ea3bca89f",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "a.xiazitong.zone.id",
+          "serverName": "vl31.rnd.biz.id",
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/?ed=2560"
+          "path": "/?ed=2048"
         }
       },
       "mux": {
@@ -759,6 +649,32 @@
         "network": "ws",
         "wsSettings": {
           "path": "/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.67.221.199_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.221.199",
+        "port": 0,
+        "id": "aa81e188-a979-411e-a10b-08287646cc43",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vl26.rnd.biz.id",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
         }
       },
       "mux": {
@@ -836,7 +752,6 @@
         "selector": [
           "trojan_104.18.32.87_0",
           "trojan_104.21.70.21_0",
-          "trojan_172.67.217.240_0",
           "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
           "trojan_138.124.30.8_0",
@@ -845,25 +760,23 @@
           "trojan_104.18.153.182_0",
           "trojan_193.180.211.52_0",
           "trojan_91.192.102.92_0",
-          "trojan_ca-trojan.bonds.id_0",
           "trojan_109.169.76.23_0",
           "trojan_81.22.132.183_0",
           "trojan_104.21.72.109_0",
           "trojan_172.67.156.25_0",
           "trojan_172.67.181.173_0",
-          "vless_www.ums.id_0",
-          "vless_www.ums.id_0",
-          "vless_www.ums.id_0",
-          "vless_www.ums.id_0",
+          "vless_202.10.40.89_0",
+          "vless_202.10.40.89_0",
           "vless_199.232.0.39_0",
           "vless_199.232.1.47_0",
           "vless_104.26.1.108_0",
           "vless_104.26.0.108_0",
           "vless_172.67.74.133_0",
-          "vless_104.18.12.51_0",
+          "vless_104.21.78.131_0",
           "vless_104.18.12.51_0",
           "vless_104.18.13.51_0",
           "vless_104.18.13.51_0",
+          "vless_172.67.221.199_0",
           "vless_104.18.32.47_0"
         ],
         "strategy": {

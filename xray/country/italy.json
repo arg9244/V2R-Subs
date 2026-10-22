@@ -53,34 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_2c15e9d2562b.varqima.ir_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "2c15e9d2562b.varqima.ir",
-        "port": 0,
-        "id": "0af6e48f-18c6-4ad9-8486-a46336cf5f84",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "support-shield.nvidia.it",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "5M8dZvtIjvmCHyXhJRtoZXzv7ofTQrsZUDKHfo6QByc",
-            "shortId": "18a7a405d1ea5ecc"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_151.101.65.140_0",
       "protocol": "vless",
       "settings": {
@@ -145,34 +117,6 @@
       }
     },
     {
-      "tag": "vless_109.70.74.95_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "109.70.74.95",
-        "port": 0,
-        "id": "d464232a-0904-4502-a00a-27465760dae3",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "support-shield.nvidia.it",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "8AcTUz7x2pjdCF-dgSSW2adTZaCAnHd6kCR9h7G65TM",
-            "shortId": "03043abc3abf48cc"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -214,10 +158,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_2c15e9d2562b.varqima.ir_0",
           "vless_151.101.65.140_0",
-          "vless_151.101.129.140_0",
-          "vless_109.70.74.95_0"
+          "vless_151.101.129.140_0"
         ],
         "strategy": {
           "type": "leastPing",

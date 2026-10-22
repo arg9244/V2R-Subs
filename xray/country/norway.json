@@ -117,6 +117,33 @@
       }
     },
     {
+      "tag": "vless_91.107.170.8_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "91.107.170.8",
+        "port": 0,
+        "id": "76bd0b98-1a2e-4616-81c6-d2c8d112eeb6",
+        "tls": "tls",
+        "encryption": "mlkem768x25519plus.native.0rtt.ylWaNV7JiVE1OUF1VfMPRL_6Wakrx28Q2J1JLJL0ujU"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.no",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI",
+            "shortId": "9e47e3"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.101.1.203_0",
       "protocol": "vless",
       "settings": {
@@ -186,6 +213,7 @@
         "selector": [
           "vless_151.101.129.203_0",
           "vless_151.101.129.203_0",
+          "vless_91.107.170.8_0",
           "vless_151.101.1.203_0"
         ],
         "strategy": {

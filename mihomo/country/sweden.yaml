@@ -10,6 +10,38 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_46.246.97.245_0
+      server: 46.246.97.245
+      port: 0
+      udp: true
+      type: vless
+      uuid: 84be60308f98488f91bcdbf78d4c5f8e
+      tls: true
+      servername: universityadmissions.se
+      client-fingerprint: random
+      reality-opts:
+        public-key: rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
+-     name: vless_46.246.97.245_0
+      server: 46.246.97.245
+      port: 0
+      udp: true
+      type: vless
+      uuid: 84be60308f98488f91bcdbf78d4c5f8e
+      tls: true
+      servername: universityadmissions.se
+      client-fingerprint: random
+      reality-opts:
+        public-key: rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ
+        short-id: aabbccdd
+      network: xhttp
+      xhttp-opts:
+        path: /x
+        host: ""
 -     name: vless_104.18.26.94_0
       server: 104.18.26.94
       port: 0
@@ -22,7 +54,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.18.26.94_0]
+      proxies: [vless_46.246.97.245_0, vless_46.246.97.245_0, vless_104.18.26.94_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

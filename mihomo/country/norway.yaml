@@ -36,6 +36,22 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=1024"
+-     name: vless_91.107.170.8_0
+      server: 91.107.170.8
+      port: 0
+      udp: true
+      type: vless
+      uuid: 76bd0b98-1a2e-4616-81c6-d2c8d112eeb6
+      tls: true
+      servername: www.sony.no
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI
+        short-id: 9e47e3
+      network: xhttp
+      xhttp-opts:
+        path: /sky
+        host: panel.skyshopnet.ir
 -     name: vless_151.101.1.203_0
       server: 151.101.1.203
       port: 0
@@ -50,7 +66,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0, vless_151.101.1.203_0]
+      proxies: [vless_151.101.129.203_0, vless_151.101.129.203_0, vless_91.107.170.8_0, vless_151.101.1.203_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
