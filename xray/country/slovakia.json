@@ -53,26 +53,27 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_91.107.170.8_0",
+      "tag": "vless_45.129.141.154_0",
       "protocol": "vless",
       "settings": {
-        "address": "91.107.170.8",
+        "address": "45.129.141.154",
         "port": 0,
-        "id": "fb807e29-4d00-4951-ac5c-a0de36dbc56e",
+        "id": "689a62e4-37e7-41de-9e6a-f2a56368c9e2",
         "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.ylWaNV7JiVE1OUF1VfMPRL_6Wakrx28Q2J1JLJL0ujU"
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.sony.sk",
+          "serverName": "www.websupport.sk",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "hpqn8r_F_YEnWuzRgNtRM5uHgUkrIzx99VEwzJH-PTI",
-            "shortId": "5ddd54e7f912"
+            "publicKey": "breG0HwhH88ppAzFb4ZiWvhJjDAQCXJvIG6Ef95MXis",
+            "shortId": "ef"
           }
         },
-        "network": "xhttp"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -121,7 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_91.107.170.8_0"
+          "vless_45.129.141.154_0"
         ],
         "strategy": {
           "type": "leastPing",

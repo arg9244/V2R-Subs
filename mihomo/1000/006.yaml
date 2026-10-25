@@ -10,27 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: ss_188.114.98.223_2095
-      server: 188.114.98.223
-      port: 2095
-      udp: true
-      type: ss
-      cipher: "eyJ2IjogIjIiLCAiYWRkIjogIjE4My4yMzYuNTEuMjMiLCAicG9ydCI6ICI1MTcwNyIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwgImFpZCI6ICI2NCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJob3N0IjogIiIsICJ0bHMiOiAiIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless"
-      password: //cfb6d9ad-7a14-4061-b159-8902fd73bb58
--     name: ss_185.146.173.58_8080
-      server: 185.146.173.58
-      port: 8080
-      udp: true
-      type: ss
-      cipher: "eyJ2IjogIjIiLCAiYWRkIjogImNmY2RuMy5zYW5mZW5jZG45LmNvbSIsICJwb3J0IjogIjIwNTIiLCAiaWQiOiAiM2M1MDQ2YjQtMWE5Yy00MjdjLThhNTUtZTM1NTg0NmE5ZTRhIiwgImFpZCI6ICIwIiwgInNjeSI6ICJhdXRvIiwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogIm5vbmUiLCAiaG9zdCI6ICJrdmpxcWtuempwNi55b2ZuaGtmYy54eXoiLCAicGF0aCI6ICIvdmlkZW8vWm85OFBZZkUiLCAidGxzIjogIiIsICJzbmkiOiAiIiwgImFscG4iOiAiIiwgInBzIjogIkBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtIn0=<br/><br/>vless"
-      password: //20948265-ea02-416a-8ce4-3db7a80cc3f4
--     name: ss_160.123.255.50_443
-      server: 160.123.255.50
-      port: 443
-      udp: true
-      type: ss
-      cipher: "eyJ2IjogIjIiLCAicHMiOiAiQEhvcGVfTmV0LWpvaW4tdXMtb24tVGVsZWdyYW0iLCAiYWRkIjogIjE3Mi42NC4xNzUuMjIzIiwgInBvcnQiOiAiMjA1MiIsICJ0eXBlIjogIm5vbmUiLCAiaWQiOiAiZDZiNmQ5ODItZDUyZi00NjVhLWI5ODgtODU2NzBiMjNmNjRhIiwgImFpZCI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogImdpdGh1Yi5jb20vQWx2aW45OTk5IiwgImhvc3QiOiAiY2RuMi5mcmVlZ3JhZGVseS54eXoiLCAidGxzIjogIiJ9<br/><br/>vless"
-      password: //a13df940-020c-465f-bc89-ee5279b5cd6a
 -     name: ss_172.64.84.146_443
       server: 172.64.84.146
       port: 443
@@ -108,20 +87,20 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBSeHYycmF5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9</code><b><br/><br/></b><code>vmess"
       password: "//eyJhZGQiOiIxNDUuMjM5LjU1LjIxMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uZm9ydHJlc3Nob3N0LmlyLiIsImlkIjoiMDY3ZmNkNjMtYjIxNS00YWJkLTg1MjktYWU5MjlhOTk3MWE5IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4MCIsInBzIjoiQFJ4djJyYXkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=</code><b><br/><br/></b><code>ss://YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg=="
--     name: ss_3.11.145.4_22223
-      server: 3.11.145.4
-      port: 22223
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBWcG5fVGVocmFuIPCfqbUg2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=<br/>vless"
-      password: //e4514801-0d5a-42ba-869f-39bd605aef9e
--     name: ss_172.67.139.14_443
-      server: 172.67.139.14
+-     name: ss_198.98.53.130_443
+      server: 198.98.53.130
       port: 443
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiI1Ny4xMjguMTY0LjIxIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJodHRwcy5odHRwLnd3dy5uZXQuY29tLnJhbXNleXYyLmlyLiIsImlkIjoiMTAwMjljMDMtNWQyZi00MTg1LWFhYjItY2JmOTFlZWY3MzYxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2QzZDNMbWx5WVc1b2IzTjBMbU52YlFcdTAwM2RcdTAwM2Q/ZWRcdTAwM2QyNTYwIiwicGNzIjoiIiwicG9ydCI6IjgwIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>trojan"
-      password: //humanity
+      cipher: "eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBWcG5fVGVocmFuIOKdpO+4jyDaqdin2YbYp9mEINiq2YTar9ix2KfZhSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>ss"
+      password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL
+-     name: ss_57.129.113.16_8388
+      server: 57.129.113.16
+      port: 8388
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiI1NC4zNy4xMzEuMTI2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6IjZkZWVmOWFkLTEzNTctNDQzZC1mOTVjLWNiMTg5NTJjMjBiMyIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkNoYW5uZWwgOiBAcHJveHlfa2FmZWUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=<br/>vmess"
+      password: "//eyJhZGQiOiIxNDUuMjM5LjU1LjIxMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0uZm9ydHJlc3Nob3N0LmlyLiIsImlkIjoiMDY3ZmNkNjMtYjIxNS00YWJkLTg1MjktYWU5MjlhOTk3MWE5IiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4MCIsInBzIjoiQ2hhbm5lbCA6IEBwcm94eV9rYWZlZSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOY0FYYzBVWkk2eVFKRTFwOFFtT3Y4"
 -     name: ss_15.204.97.206_23576
       server: 15.204.97.206
       port: 23576
@@ -136,13 +115,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiI1Ny4xMjkuMTMyLjIyMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLmNvbSIsImlkIjoiYTI1Y2JmMTEtMjkwOC00YTFiLWEzYTgtOWE1NzE3NzdkY2EzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoiRnJlZSB4MTg0IEBPdXRsaW5lX1ZwbiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==<br/>trojan"
       password: //MiTiVPN
--     name: ss_65.109.209.239_33477
-      server: 65.109.209.239
-      port: 33477
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiI2NS4xMDkuMjA5LjIzOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwYTlkZmIwYi00ZmUxLTQwZmUtYjc0Yy0wMzY3ZTY2NmNhOTYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjE2OTExIiwicHMiOiLwn4e68J+HuPCdmY/wnZma8J2ZofCdmZrwnZmc8J2Zp/CdmZbwnZmi4qu4QPCdmavwnZ+u8J2Zp/CdmZbwnZmu8J2ZifCdmYJf8J2ZiPCdmZbwnZmp8J2ZqPCdmarwnZmn8J2ZniIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vless"
-      password: //0a9dfb0b-4fe1-40fe-b74c-0367e666ca96
 -     name: ss_51.222.141.125_445
       server: 51.222.141.125
       port: 445
@@ -213,13 +185,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiI5MS45OS4xNTMuMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InBhbmVsLmFydXNoYXNvZnQuY29tIiwiaWQiOiI5ODVhZjQ4OS1mYjE2LTQ5MWEtODEzYy1mZGQ5MWI2YjA2ZWUiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjM5MTMwIiwicHMiOiJAY29uZmlnZnJlZTIwMjU1Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9<br/>vless"
       password: //30f2d443-af46-4dd6-83c9-b5e17299ebd2
--     name: ss_188.114.97.6_443
-      server: 188.114.97.6
-      port: 443
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiIxMDQuMjM3LjI1MC45OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI3NWNiMDRmNS1lMGEwLTQzNzItYmZkNC0zN2VkMTBiNGEwZTYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjU4MDczIiwicHMiOiJDaGFubmVsIDogQHByb3h5X2thZmVlIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==<br/>trojan"
-      password: //mitivpn
 -     name: ss_51.222.141.125_445
       server: 51.222.141.125
       port: 445
@@ -241,13 +206,6 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxMjAuNDguMTMzLjE2MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmZGUxMGUzOS00OGJiLTRkY2YtYjNiYS03MWQ3MTEzMjNhNTQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMTAwODYiLCJwcyI6IkBGYXJhelYycmF5ICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
       password: //c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
--     name: ss_188.114.97.6_443
-      server: 188.114.97.6
-      port: 443
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiIxMjAuNDguMTMzLjE2MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmZGUxMGUzOS00OGJiLTRkY2YtYjNiYS03MWQ3MTEzMjNhNTQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvP1RlbGVncmFtLS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVUIiwicGNzIjoiIiwicG9ydCI6IjEwMDg2IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vmess"
-      password: "//eyJhZGQiOiIxMjAuNDguMTMzLjE2MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmZGUxMGUzOS00OGJiLTRkY2YtYjNiYS03MWQ3MTEzMjNhNTQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiMTAwODYiLCJwcyI6IkBGYXJhelYycmF5ICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless://495c7195-85b8-498a-bf20-2ea9ce9175b5"
 -     name: ss_188.114.97.6_443
       server: 188.114.97.6
       port: 443
@@ -332,13 +290,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxNzguMTA1LjE2OC4xNzEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDZkNGQwMDEtNDE2OC00ODc2LTk0MTYtN2NhZWNmNTc4ZjQwIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMTEwIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vless"
       password: //e6df2095-a73c-4043-8693-8d5a03686870
--     name: ss_31.76.19.168_443
-      server: 31.76.19.168
-      port: 443
+-     name: ss_82.202.157.123_5002
+      server: 82.202.157.123
+      port: 5002
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiIxODUuMTc3LjIyOS4xMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess"
-      password: "//eyJhZGQiOiIxNTEuMjQzLjE3My4xMTkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjNhMTEwNjgtMWE3ZS00NjQzLTg1ZGUtN2M4MmNjZTQ2OTQzIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLXdzIiwicGNzIjoiIiwicG9ydCI6IjMzNzM2IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vmess://eyJhZGQiOiIxODYuMTkwLjIxMS4xNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIyMjMyNCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vless://86037609-3790-4901-bd2f-c698092fb1fc"
+      cipher: "eyJhZGQiOiIxOC4yMjAuMTc1LjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNjA3ZTI2M2YtOGZlZi00NTNkLTliNWUtODZkZTQ4OTM4NDE0IiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIxMjgwOSIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/><br/>vless"
+      password: //34851fc1-c4bb-4b17-a815-bc17c09e11a0
 -     name: ss_130.49.161.70_443
       server: 130.49.161.70
       port: 443
@@ -360,13 +318,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIxODguMTE0Ljk2LjE5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS5oZXNhbmlkOC5pci4iLCJpZCI6ImFlZDg4ZTc5LTU3NjItNGQyZi04NmZhLWY0MzhmMzJhNzY1NCIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiODAiLCJwcyI6IkBWcG5fVGVocmFuIPCfqbUg2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YUiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=<br/>ss"
       password: //MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0
--     name: ss_188.114.97.6_443
-      server: 188.114.97.6
+-     name: ss_72.56.241.230_443
+      server: 72.56.241.230
       port: 443
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgMTA3Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vmess"
-      password: "//eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgODQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vless://698b212d-ca12-4794-8256-252a6e1b4533"
+      cipher: "eyJhZGQiOiIxOTUuMTc3LjI1NS4yMzMiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMTcxNGJjMDgtZTg4OC00YzQ3LTliY2QtNWZkNzUwYzZkZjBlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiI0MTM0MyIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
+      password: //88b744bb-8ac7-484e-a376-136193452a2c
 -     name: ss_188.114.97.6_443
       server: 188.114.97.6
       port: 443
@@ -381,6 +339,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgMTU5Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9<br/>vmess"
       password: "//eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiJTZXJ2ZXIgNjAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless://495c7195-85b8-498a-bf20-2ea9ce9175b5"
+-     name: ss_193.29.139.225_8080
+      server: 193.29.139.225
+      port: 8080
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiIyMDAxOmJjODozMmQ3OjFhOTo6MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIzYTk2NmQyMC03YjlkLTQ4Y2MtYmEyYy04ZDM4MTYxYjZkM2EiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZ2l0aHViLmNvbS9BbHZpbjk5OTktbmV3cGFjL2ZhbnFpYW5nP2VkI1RlbGVncmFtLS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVULS0tUExBTkJfTkVUIiwicGNzIjoiIiwicG9ydCI6IjE4OTAxIiwicHMiOiLwn4e68J+HuPCdmY/wnZma8J2ZofCdmZrwnZmc8J2Zp/CdmZbwnZmi4qu4QPCdmavwnZ+u8J2Zp/CdmZbwnZmu8J2ZifCdmYJf8J2ZiPCdmZbwnZmp8J2ZqPCdmarwnZmn8J2ZniIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>ss"
+      password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB
 -     name: ss_82.202.247.181_443
       server: 82.202.247.181
       port: 443
@@ -388,20 +353,13 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiIyMDIuNDcuODkuMTMzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjNhMDM2MTNiLWJiYWMtNGEyMi1iZWU2LTJjOWE3NTFhMjc2MSIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9ka2ZqaDIyMiIsInBjcyI6IiIsInBvcnQiOiI1MzU0OCIsInBzIjoi4pyoIEBOT0ZpTFRFUklORzIgfCDinaTvuI8g2YjYtdmEINi02K/bjCDYrNmI24zZhiDYtNmIIHwg4pqhIHwg8J+HqfCfh6oiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless"
       password: //cd60668d-28d0-4070-8179-47ad0d151dd5
--     name: ss_89.47.164.182_1081
-      server: 89.47.164.182
-      port: 1081
-      udp: true
-      type: ss
-      cipher: "eyJhZGQiOiIyMTYuMTA2LjE4Ny42MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjIyMzI0IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoibm9uZSIsInR5cGUiOiIiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>socks"
-      password: //QnVnRnJlZU5ldF9CdWdGcmVlU2hlbGw6QnVnRnJlZU5ldF9CdWdGcmVlU2hlbGw
--     name: ss_205.237.110.254_443
-      server: 205.237.110.254
+-     name: ss_84.247.155.196_443
+      server: 84.247.155.196
       port: 443
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiIzMS43Ni4xMS44MyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwNDlhNTdiOS00OTEzLTRmOWYtOWNkYS1hODYxOTg5ZWU1OWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjU1OTY5IiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
-      password: //e75ad2eb-6c1f-45ce-8023-f5f10875df66
+      cipher: "eyJhZGQiOiIzOC4xMTAuMS4yNDYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTgwMDAiLCJwcyI6IkBtZWxpcHJveHkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9<br/><br/>ss"
+      password: //YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg
 -     name: ss_82.38.31.216_8080
       server: 82.38.31.216
       port: 8080
@@ -409,20 +367,34 @@ proxies:
       type: ss
       cipher: "eyJhZGQiOiJ3d3cuYXNhbXBpbmcuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Ind3dy5hc2FtcGluZy5pciIsImlkIjoiYTU1Y2RjNDAtNWFmNS00ZjAyLTlhNDYtNDE2ODUxMjBmZTZmIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiIyMDk1IiwicHMiOiJTZXJ2ZXIgMzIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/>ss"
       password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR
--     name: ss_150.40.126.18_443
-      server: 150.40.126.18
+-     name: ss_91.228.227.172_443
+      server: 91.228.227.172
       port: 443
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiJha3NhaS5vcmciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFrc2FpLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess"
-      password: "//eyJhZGQiOiIxNjguMTM4LjQzLjc1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIxNjguMTM4LjQzLjc1IiwiaWQiOiIxMWMzNjI3Zi0zMWU4LTQ2OTUtZGZiZC0zNDA3NmUyZjFmNWQiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2N0djEzLm0zdTgiLCJwY3MiOiIiLCJwb3J0IjoiODAiLCJwcyI6IkBGYXJhelYycmF5ICIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess://eyJhZGQiOiIxOTQuOTkuNzkuMjYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFrc2FpLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiYWtzYWkub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInZjbiI6IiJ9<br/><br/>vmess://eyJhZGQiOiIxOTQuOTkuNzkuMjYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFrc2FpLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiJARmFyYXpWMnJheSAiLCJzY3kiOiJhdXRvIiwic25pIjoiYWtzYWkub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless://2f35965a-9a9b-45fd-ba32-987296dfb6be"
--     name: ss_20.166.51.228_443
-      server: 20.166.51.228
+      cipher: "eyJhZGQiOiJkYXNoYm9hcmQubHVuYXJhbWFya2V0LnRvcCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxYWYxYjdmNS1lYjFlLTQxNzYtYWI2MC1jMTM0ZmQyODNiNmMiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjQxNTAxIiwicHMiOiJAU2hoX1Byb3h5LU5ld+KBtiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/><br/>vless"
+      password: //02a96d4d-f2f5-4c0b-ba83-d24aec5defb8
+-     name: ss_146.75.57.238_443
+      server: 146.75.57.238
       port: 443
       udp: true
       type: ss
-      cipher: "eyJhZGQiOiJvY3RwdXMxLmdzbW9ubGluZS5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic25hcHAuaXIiLCJpZCI6IjQzYmQ2MDI3LTFhMzYtNDFkNy1hYzA3LTkzZDU2ZTNhYTM5YiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwY3MiOiIiLCJwb3J0IjoiODA4MCIsInBzIjoiQEZhcmF6VjJyYXkgIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/><br/>ss"
-      password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMVk1saHZLODJUbzFGR3N5
+      cipher: "eyJhZGQiOiJkZWZlLnN5bmMtYnJpZGdlLmlyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImRlZmUuc3luYy1icmlkZ2UuaXIiLCJpZCI6IjM4NmM1MzIyLTQ4YWEtNGZjMS04MTRmLTJmZjZjMzRkNzdlMCIsImluc2VjdXJlIjoiMCIsIm5ldCI6Imh0dHB1cGdyYWRlIiwicGF0aCI6Ii9jaGFubmVsQGF3c180NDMiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e48J+HqkBGcmVha0NvbmZpZyIsInNjeSI6ImF1dG8iLCJzbmkiOiJkZWZlLnN5bmMtYnJpZGdlLmlyIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless"
+      password: //5545d204-13f5-4e3e-af5c-4ded2b945743
+-     name: ss_146.75.57.111_443
+      server: 146.75.57.111
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiJmcmVlLmVydGViYXRnb29zdGFyLmlyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM5ZWFiNDM5LTUzYmYtNDZlNC1iYTU4LWZjMzY4YWUxZWU4YyIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e58J+Ht0BGcmVha0NvbmZpZyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=<br/>vless"
+      password: //7623b717-29f8-4f76-9a9a-eec96d92dba9
+-     name: ss_199.232.78.159_443
+      server: 199.232.78.159
+      port: 443
+      udp: true
+      type: ss
+      cipher: "eyJhZGQiOiJubDMuZG93bmJhbGEuY29tIiwiYWlkIjoiMCIsImFscG4iOiJodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6Im5sMy5kb3duYmFsYS5jb20iLCJpZCI6IjUzNjAwNmRhLTE1ZDItNDMyZC1iMThiLTMwN2YyMjMwZGM4MiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zeW5jLyIsInBjcyI6IjQ0YzYxNDI4NDJjNjIzNDI4MjA5ODA1NDU2ZjRkZDQ0NDRjMWU3ZDkwMTc4YTRlYWU3ZjczYjQ2NDc1ZmEwZDgiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ez8J+HsUBGcmVha0NvbmZpZyIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0MC5tLmF3c3N0YXRpYy5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==<br/>vless"
+      password: //f2a1f964-7cfb-435f-abb2-2969bd595c75
 -     name: ss_188.114.97.6_443
       server: 188.114.97.6
       port: 443
@@ -483,40 +455,6 @@ proxies:
       password: "$_qP4V4U26sb%7B04A"
       tls: true
       servername: do-itfORYOU.PAGEs.deV
--     name: trojan_151.101.56.255_0
-      server: 151.101.56.255
-      port: 0
-      udp: true
-      type: trojan
-      password: "%4D%69%54%69%56%50%4E"
-      tls: true
--     name: trojan_151.101.56.255_0
-      server: 151.101.56.255
-      port: 0
-      udp: true
-      type: trojan
-      password: "%4D%69%54%69%56%50%4E"
-      tls: true
-      servername: ssl.fastly.com
-      alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: trojan_104.16.104.34_0
-      server: 104.16.104.34
-      port: 0
-      udp: true
-      type: trojan
-      password: "%54%65%6C%65%67%72%61%6D%5F%68%65%61%6C%65%72%5F%63%6F%6E%66%69%67"
-      tls: true
--     name: trojan_104.16.104.34_0
-      server: 104.16.104.34
-      port: 0
-      udp: true
-      type: trojan
-      password: "%54%65%6C%65%67%72%61%6D%5F%68%65%61%6C%65%72%5F%63%6F%6E%66%69%67"
-      tls: true
-      servername: TH1R714O73d1P35f.mr2esNK29L620Xo76Kpuv-QUb4B7IDfR.WOrkeRS.DeV
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
 -     name: trojan_104.16.104.34_0
       server: 104.16.104.34
       port: 0
@@ -598,31 +536,21 @@ proxies:
       servername: www.firefox.com
       alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_151.101.38.6_0
-      server: 151.101.38.6
+-     name: trojan_167.82.64.46_0
+      server: 167.82.64.46
       port: 0
       udp: true
       type: trojan
       password: "%6D%69%74%69%76%70%6E"
       tls: true
-      servername: www.firefox.com
--     name: trojan_167.82.76.7_0
-      server: 167.82.76.7
+-     name: trojan_167.82.64.46_0
+      server: 167.82.64.46
       port: 0
       udp: true
       type: trojan
       password: "%6D%69%74%69%76%70%6E"
       tls: true
--     name: trojan_167.82.76.7_0
-      server: 167.82.76.7
-      port: 0
-      udp: true
-      type: trojan
-      password: "%6D%69%74%69%76%70%6E"
-      tls: true
-      servername: ssl.fastly.com
-      alpn: [http/1.1]
-      client-fingerprint: chrome
+      servername: firefox.com
 -     name: trojan_167.82.76.7_0
       server: 167.82.76.7
       port: 0
@@ -640,21 +568,24 @@ proxies:
       type: trojan
       password: "%6D%69%74%69%76%70%6E"
       tls: true
--     name: trojan_199.232.78.101_0
-      server: 199.232.78.101
+-     name: trojan_188.114.97.6_0
+      server: 188.114.97.6
       port: 0
       udp: true
       type: trojan
       password: "%6D%69%74%69%76%70%6E"
       tls: true
--     name: trojan_199.232.78.101_0
-      server: 199.232.78.101
+      servername: de.mitivpn.in.net
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_188.114.97.6_0
+      server: 188.114.97.6
       port: 0
       udp: true
       type: trojan
       password: "%6D%69%74%69%76%70%6E"
       tls: true
-      servername: ssl.fastly.com
+      servername: de.mitivpn.in.net
       alpn: [http/1.1]
       client-fingerprint: chrome
 -     name: trojan_199.232.78.101_0
@@ -667,6 +598,13 @@ proxies:
       servername: ssl.fastly.com
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: trojan_199.232.78.160_0
+      server: 199.232.78.160
+      port: 0
+      udp: true
+      type: trojan
+      password: "%6D%69%74%69%76%70%6E"
+      tls: true
 -     name: trojan_199.232.78.160_0
       server: 199.232.78.160
       port: 0
@@ -1037,6 +975,15 @@ proxies:
       servername: uwu.dianaw.cc.cd
       alpn: [h2]
       client-fingerprint: chrome
+-     name: trojan_104.21.65.43_0
+      server: 104.21.65.43
+      port: 0
+      udp: true
+      type: trojan
+      password: 0y7hid61k3k2vuy1
+      tls: true
+      servername: uwu.dianaw.cc.cd
+      alpn: [h2]
 -     name: trojan_104.21.53.151_0
       server: 104.21.53.151
       port: 0
@@ -1119,6 +1066,14 @@ proxies:
       password: 123456
       tls: true
       alpn: [h3]
+-     name: trojan_104.16.246.173_0
+      server: 104.16.246.173
+      port: 0
+      udp: true
+      type: trojan
+      password: 123456
+      tls: true
+      alpn: [h3]
       client-fingerprint: chrome
 -     name: trojan_104.17.234.157_0
       server: 104.17.234.157
@@ -1127,14 +1082,6 @@ proxies:
       type: trojan
       password: 123456
       tls: true
--     name: trojan_104.17.234.157_0
-      server: 104.17.234.157
-      port: 0
-      udp: true
-      type: trojan
-      password: 123456
-      tls: true
-      client-fingerprint: random
 -     name: trojan_104.18.35.86_0
       server: 104.18.35.86
       port: 0
@@ -1144,6 +1091,14 @@ proxies:
       tls: true
       skip-cert-verify: true
       client-fingerprint: chrome
+-     name: trojan_104.19.150.163_0
+      server: 104.19.150.163
+      port: 0
+      udp: true
+      type: trojan
+      password: 123456
+      tls: true
+      alpn: [h3]
 -     name: trojan_104.25.165.81_0
       server: 104.25.165.81
       port: 0
@@ -1160,6 +1115,14 @@ proxies:
       password: 123456
       tls: true
       servername: top-azx.pages.dev
+-     name: trojan_162.159.152.81_0
+      server: 162.159.152.81
+      port: 0
+      udp: true
+      type: trojan
+      password: 123456
+      tls: true
+      servername: now-pages-sub-em4.pages.dev
 -     name: trojan_194.233.88.107_0
       server: 194.233.88.107
       port: 0
@@ -1322,7 +1285,6 @@ proxies:
       password: 19877587-ed94-4033-88cd-4ac50a5e8718
       tls: true
       servername: dimskiee.biz.id
-      client-fingerprint: chrome
 -     name: trojan_104.18.153.182_0
       server: 104.18.153.182
       port: 0
@@ -1425,15 +1387,6 @@ proxies:
       password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
       tls: true
       servername: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
--     name: trojan_38.150.35.208_0
-      server: 38.150.35.208
-      port: 0
-      udp: true
-      type: trojan
-      password: 1f8dc24373d4add7767beac448e32397
-      tls: true
-      skip-cert-verify: true
-      servername: www.apple.com
 -     name: trojan_172.64.152.23_0
       server: 172.64.152.23
       port: 0
@@ -1493,14 +1446,6 @@ proxies:
       servername: ssl.fastly.com
       alpn: [h2]
       client-fingerprint: chrome
--     name: trojan_172.64.152.23_0
-      server: 172.64.152.23
-      port: 0
-      udp: true
-      type: trojan
-      password: 2238e2f3-1a01-485e-8c22-24b65764c68b
-      tls: true
-      servername: gzjx.dpdns.org
 -     name: trojan_172.64.152.23_0
       server: 172.64.152.23
       port: 0
@@ -1615,32 +1560,6 @@ proxies:
       password: 2YDH6ktJOt
       tls: true
       servername: support.sabapardaziran.ir
--     name: trojan_104.21.88.77_0
-      server: 104.21.88.77
-      port: 0
-      udp: true
-      type: trojan
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      tls: true
-      servername: blackshadow.dpdns.org
-      client-fingerprint: chrome
--     name: trojan_104.21.88.77_0
-      server: 104.21.88.77
-      port: 0
-      udp: true
-      type: trojan
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      tls: true
-      servername: blackshadow.dpdns.org
--     name: trojan_172.67.174.10_0
-      server: 172.67.174.10
-      port: 0
-      udp: true
-      type: trojan
-      password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-      tls: true
-      servername: blackshadow.dpdns.org
-      client-fingerprint: chrome
 -     name: trojan_104.21.17.25_0
       server: 104.21.17.25
       port: 0
@@ -1897,6 +1816,13 @@ proxies:
       password: 38720105-063f-40f5-a5eb-f3198b9b617d
       tls: true
       servername: aksnmaioas.pages.dev
+-     name: trojan_43.160.197.160_0
+      server: 43.160.197.160
+      port: 0
+      udp: true
+      type: trojan
+      password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
+      tls: true
 -     name: trojan_172.66.44.81_0
       server: 172.66.44.81
       port: 0
@@ -2034,14 +1960,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: 18-140-66-207.nhost.00cdn.com
--     name: trojan_104.16.75.127_0
-      server: 104.16.75.127
-      port: 0
-      udp: true
-      type: trojan
-      password: 45c47cfa-67da-47e0-b20b-5efa674e6a9b
-      tls: true
-      servername: unnes.ac.id.r3xxe.eu.cc
 -     name: trojan_173.245.58.57_0
       server: 173.245.58.57
       port: 0
@@ -2100,6 +2018,16 @@ proxies:
       password: 47df6fe1-cc2a-4f26-b748-08d902272bde
       tls: true
       servername: PpAL03.arNUlFo-kunZE.WORkerS.dEV
+-     name: trojan_188.211.233.134_0
+      server: 188.211.233.134
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: ie1.dedushka.top
+      alpn: [http/1.1]
+      client-fingerprint: firefox
 -     name: trojan_188.241.241.102_0
       server: 188.241.241.102
       port: 0
@@ -2109,16 +2037,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: de4.dedushka.top
--     name: trojan_188.241.241.102_0
-      server: 188.241.241.102
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de4.dedushka.top
-      client-fingerprint: chrome
 -     name: trojan_188.241.241.102_0
       server: 188.241.241.102
       port: 0
@@ -2180,7 +2098,6 @@ proxies:
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
-      skip-cert-verify: true
       servername: de8.dedushka.top
       alpn: [http/1.1]
       client-fingerprint: firefox
@@ -2220,23 +2137,7 @@ proxies:
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
       servername: de8.dedushka.top
--     name: trojan_188.241.241.117_0
-      server: 188.241.241.117
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de8.dedushka.top
       client-fingerprint: chrome
--     name: trojan_188.241.241.122_0
-      server: 188.241.241.122
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de2.dedushka.top
 -     name: trojan_188.241.241.122_0
       server: 188.241.241.122
       port: 0
@@ -2246,16 +2147,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: de2.dedushka.top
--     name: trojan_188.241.241.122_0
-      server: 188.241.241.122
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de2.dedushka.top
-      client-fingerprint: chrome
 -     name: trojan_188.241.241.122_0
       server: 188.241.241.122
       port: 0
@@ -2325,229 +2216,235 @@ proxies:
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
       servername: de2.dedushka.top
--     name: trojan_188.241.241.122_0
-      server: 188.241.241.122
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de2.dedushka.top
       client-fingerprint: chrome
--     name: trojan_188.241.241.200_0
-      server: 188.241.241.200
+-     name: trojan_188.241.241.133_0
+      server: 188.241.241.133
       port: 0
       udp: true
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
-      servername: de7.dedushka.top
--     name: trojan_188.241.241.200_0
-      server: 188.241.241.200
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de7.dedushka.top
--     name: trojan_188.241.241.200_0
-      server: 188.241.241.200
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de7.dedushka.top
--     name: trojan_188.241.241.200_0
-      server: 188.241.241.200
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de7.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.200_0
-      server: 188.241.241.200
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de7.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.235_0
-      server: 188.241.241.235
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de9.dedushka.top
--     name: trojan_188.241.241.235_0
-      server: 188.241.241.235
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de9.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.235_0
-      server: 188.241.241.235
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de9.dedushka.top
-      alpn: [http/1.1]
--     name: trojan_188.241.241.235_0
-      server: 188.241.241.235
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de9.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.235_0
-      server: 188.241.241.235
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de9.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de10.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de10.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
-      alpn: [http/1.1]
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
-      alpn: [http/1.1]
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
-      alpn: [http/1.1]
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
--     name: trojan_188.241.241.236_0
-      server: 188.241.241.236
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de10.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.49_0
-      server: 188.241.241.49
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      skip-cert-verify: true
-      servername: de6.dedushka.top
--     name: trojan_188.241.241.49_0
-      server: 188.241.241.49
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: de6.dedushka.top
+      servername: de12.dedushka.top
       alpn: [http/1.1]
       client-fingerprint: firefox
--     name: trojan_188.241.241.49_0
-      server: 188.241.241.49
+-     name: trojan_188.241.241.200_0
+      server: 188.241.241.200
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de7.dedushka.top
+-     name: trojan_188.241.241.200_0
+      server: 188.241.241.200
       port: 0
       udp: true
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
       skip-cert-verify: true
-      servername: de6.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_188.241.241.49_0
-      server: 188.241.241.49
+      servername: de7.dedushka.top
+-     name: trojan_188.241.241.200_0
+      server: 188.241.241.200
       port: 0
       udp: true
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
-      servername: de6.dedushka.top
+      servername: de7.dedushka.top
+-     name: trojan_188.241.241.200_0
+      server: 188.241.241.200
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      skip-cert-verify: true
+      servername: de7.dedushka.top
+      client-fingerprint: chrome
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      skip-cert-verify: true
+      servername: de9.dedushka.top
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      skip-cert-verify: true
+      servername: de9.dedushka.top
+      client-fingerprint: chrome
+-     name: trojan_188.241.241.235_0
+      server: 188.241.241.235
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de9.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      skip-cert-verify: true
+      servername: de10.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      alpn: [http/1.1]
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+-     name: trojan_188.241.241.236_0
+      server: 188.241.241.236
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: de10.dedushka.top
+      client-fingerprint: chrome
+-     name: trojan_23.237.47.24_0
+      server: 23.237.47.24
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: us3.dedushka.top
+      alpn: [http/1.1]
+      client-fingerprint: firefox
 -     name: trojan_31.133.0.182_0
       server: 31.133.0.182
       port: 0
@@ -2565,7 +2462,6 @@ proxies:
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
       servername: pl1.dedushka.top
-      client-fingerprint: chrome
 -     name: trojan_31.133.0.182_0
       server: 31.133.0.182
       port: 0
@@ -2573,8 +2469,15 @@ proxies:
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
+      skip-cert-verify: true
       servername: pl1.dedushka.top
-      client-fingerprint: chrome
+-     name: trojan_31.133.0.186_443
+      server: 31.133.0.186
+      port: 443
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
 -     name: trojan_31.133.0.186_0
       server: 31.133.0.186
       port: 0
@@ -2582,7 +2485,7 @@ proxies:
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
-      servername: pl2.dedushka.top
+      skip-cert-verify: true
 -     name: trojan_31.133.0.186_0
       server: 31.133.0.186
       port: 0
@@ -2619,14 +2522,6 @@ proxies:
       servername: pl2.dedushka.top
       alpn: [http/1.1]
       client-fingerprint: firefox
--     name: trojan_31.133.0.186_0
-      server: 31.133.0.186
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: pl2.dedushka.top
 -     name: trojan_31.133.0.186_0
       server: 31.133.0.186
       port: 0
@@ -2664,25 +2559,34 @@ proxies:
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
       servername: pl2.dedushka.top
--     name: trojan_31.133.0.186_0
-      server: 31.133.0.186
+-     name: trojan_46.229.253.57_0
+      server: 46.229.253.57
       port: 0
       udp: true
       type: trojan
       password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
       tls: true
-      servername: pl2.dedushka.top
-      client-fingerprint: chrome
--     name: trojan_31.133.0.186_0
-      server: 31.133.0.186
-      port: 0
-      udp: true
-      type: trojan
-      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-      tls: true
-      servername: pl2.dedushka.top
+      servername: de1.dedushka.top
       alpn: [http/1.1]
       client-fingerprint: firefox
+-     name: trojan_92.42.100.132_0
+      server: 92.42.100.132
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: it1.dedushka.top
+      alpn: [http/1.1]
+      client-fingerprint: firefox
+-     name: trojan_94.140.112.22_0
+      server: 94.140.112.22
+      port: 0
+      udp: true
+      type: trojan
+      password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+      tls: true
+      servername: lv1.dedushka.top
 -     name: trojan_104.21.83.113_0
       server: 104.21.83.113
       port: 0
@@ -3048,6 +2952,15 @@ proxies:
       password: 5504eaa8-1395-402f-8e0e-75ecd762e627
       tls: true
       servername: nat11.outsidemyheart.space
+-     name: trojan_104.18.41.190_0
+      server: 104.18.41.190
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+      client-fingerprint: chrome
 -     name: trojan_104.18.43.174_0
       server: 104.18.43.174
       port: 0
@@ -3056,6 +2969,15 @@ proxies:
       password: 5504eaa8-1395-402f-8e0e-75ecd762e627
       tls: true
       servername: server41.9966338.xyz
+-     name: trojan_104.18.43.174_0
+      server: 104.18.43.174
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: server41.9966338.xyz
+      client-fingerprint: chrome
 -     name: trojan_104.18.65.57_0
       server: 104.18.65.57
       port: 0
@@ -3073,15 +2995,6 @@ proxies:
       password: 5504eaa8-1395-402f-8e0e-75ecd762e627
       tls: true
       servername: nat3.xxai.dpdns.org
--     name: trojan_104.18.65.57_0
-      server: 104.18.65.57
-      port: 0
-      udp: true
-      type: trojan
-      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
-      tls: true
-      servername: nat3.xxai.dpdns.org
-      client-fingerprint: chrome
 -     name: trojan_104.18.66.57_0
       server: 104.18.66.57
       port: 0
@@ -3099,23 +3012,41 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: nat3.xxai.dpdns.org
--     name: trojan_172.64.144.82_0
-      server: 172.64.144.82
+-     name: trojan_109.234.211.232_0
+      server: 109.234.211.232
       port: 0
       udp: true
       type: trojan
       password: 5504eaa8-1395-402f-8e0e-75ecd762e627
       tls: true
-      servername: server41.9966338.xyz
--     name: trojan_172.64.144.82_0
-      server: 172.64.144.82
+      servername: nat11.outsidemyheart.space
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_109.234.211.232_0
+      server: 109.234.211.232
       port: 0
       udp: true
       type: trojan
       password: 5504eaa8-1395-402f-8e0e-75ecd762e627
       tls: true
-      servername: server41.9966338.xyz
+      servername: nat11.outsidemyheart.space
+-     name: trojan_162.159.152.18_0
+      server: 162.159.152.18
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat6.outsidemyheart.space
       client-fingerprint: chrome
+-     name: trojan_172.64.144.82_0
+      server: 172.64.144.82
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: server41.9966338.xyz
 -     name: trojan_172.64.146.66_0
       server: 172.64.146.66
       port: 0
@@ -3142,6 +3073,64 @@ proxies:
       servername: nat3.xxai.dpdns.org
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: "trojan_188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=nat3.xxai.dpdns.org&host=nat3.xxai.dpdns.org&alpn=http/1.1&ech=cloudflare-ech.com+udp_0"
+      server: "188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=nat3.xxai.dpdns.org&host=nat3.xxai.dpdns.org&alpn=http/1.1&ech=cloudflare-ech.com+udp"
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat3.xxai.dpdns.org
+      alpn: [http/1.1]
+      client-fingerprint: chrome
+-     name: trojan_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+-     name: trojan_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat3.xxai.dpdns.org
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: trojan_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+-     name: "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nat11.outsidemyheart.space&host=nat11.outsidemyheart.space&alpn=http/1.1&ech=crypto.cloudflare.com+udp_0"
+      server: "188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nat11.outsidemyheart.space&host=nat11.outsidemyheart.space&alpn=http/1.1&ech=crypto.cloudflare.com+udp"
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: trojan_188.114.98.0_0
       server: 188.114.98.0
       port: 0
@@ -3162,6 +3151,23 @@ proxies:
       servername: nat3.xxai.dpdns.org
       alpn: [http/1.1]
       client-fingerprint: unsafe
+-     name: trojan_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
+      alpn: [http/1.1]
+-     name: trojan_8.47.69.60_0
+      server: 8.47.69.60
+      port: 0
+      udp: true
+      type: trojan
+      password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      tls: true
+      servername: nat11.outsidemyheart.space
 -     name: trojan_51.83.186.142_0
       server: 51.83.186.142
       port: 0
@@ -3240,6 +3246,13 @@ proxies:
       servername: AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: trojan_47.250.84.25_443
+      server: 47.250.84.25
+      port: 443
+      udp: true
+      type: trojan
+      password: 5931134d1cde66bf83a54acdfebe7ab2
+      tls: true
 -     name: trojan_47.250.84.25_0
       server: 47.250.84.25
       port: 0
@@ -3263,6 +3276,13 @@ proxies:
       password: 5931134d1cde66bf83a54acdfebe7ab2
       tls: true
       skip-cert-verify: true
+-     name: trojan_47.250.84.25_0
+      server: 47.250.84.25
+      port: 0
+      udp: true
+      type: trojan
+      password: 5931134d1cde66bf83a54acdfebe7ab2
+      tls: true
 -     name: trojan_47.250.84.25_0
       server: 47.250.84.25
       port: 0
@@ -3399,6 +3419,15 @@ proxies:
       password: 5a2c16f9
       tls: true
       servername: snippets.kkii.eu.org
+-     name: trojan_one.cf.cdn.hyli.xyz_0
+      server: one.cf.cdn.hyli.xyz
+      port: 0
+      udp: true
+      type: trojan
+      password: 5a2c16f9
+      tls: true
+      skip-cert-verify: true
+      servername: snippets.kkii.eu.org
 -     name: trojan_18.65.190.65_0
       server: 18.65.190.65
       port: 0
@@ -3479,14 +3508,6 @@ proxies:
       password: 600421cf-11d7-429f-a65b-c30397f1bc03
       tls: true
       servername: kr.freeguard.org
--     name: trojan_23.106.44.14_0
-      server: 23.106.44.14
-      port: 0
-      udp: true
-      type: trojan
-      password: 600421cf-11d7-429f-a65b-c30397f1bc03
-      tls: true
-      servername: sj6.freeguard.org
 -     name: trojan_23.106.44.14_0
       server: 23.106.44.14
       port: 0
@@ -4008,16 +4029,6 @@ proxies:
       type: trojan
       password: 6c73b7937b3e44e5982f9d5efa57d8cd
       tls: true
-      skip-cert-verify: true
-      alpn: [http/1.1]
-      client-fingerprint: chrome
--     name: trojan_172.67.131.217_0
-      server: 172.67.131.217
-      port: 0
-      udp: true
-      type: trojan
-      password: 6c73b7937b3e44e5982f9d5efa57d8cd
-      tls: true
 -     name: trojan_172.67.131.217_0
       server: 172.67.131.217
       port: 0
@@ -4028,15 +4039,6 @@ proxies:
       servername: aUTO-scale-728382.BuiLD-sVc-267891.wORkErs.dEv
       alpn: [http/1.1]
       client-fingerprint: chrome
--     name: trojan_172.67.131.217_0
-      server: 172.67.131.217
-      port: 0
-      udp: true
-      type: trojan
-      password: 6c73b7937b3e44e5982f9d5efa57d8cd
-      tls: true
-      servername: aUTO-scale-728382.BuiLD-sVc-267891.wORkErs.dEv
-      alpn: [http/1.1]
 -     name: trojan_172.67.131.217_0
       server: 172.67.131.217
       port: 0
@@ -4141,7 +4143,7 @@ proxies:
       password: 70756c73-0000-4000-8000-650000000000
       tls: true
       servername: parsa-panel-u48we.wotic15356.workers.dev
-      client-fingerprint: chrome
+      client-fingerprint: android
 -     name: trojan_199.181.197.99_0
       server: 199.181.197.99
       port: 0
@@ -4149,7 +4151,8 @@ proxies:
       type: trojan
       password: 70756c73-0000-4000-8000-650000000000
       tls: true
-      client-fingerprint: chrome
+      servername: parsa-panel-u48we.wotic15356.workers.dev
+      client-fingerprint: ios
 -     name: trojan_144.24.72.126_0
       server: 144.24.72.126
       port: 0
@@ -4225,6 +4228,14 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: nika3hdfy2.foriran.trade
+-     name: trojan_95.179.217.221_0
+      server: 95.179.217.221
+      port: 0
+      udp: true
+      type: trojan
+      password: 79770a32-9607-4919-9483-0f1794559390
+      tls: true
+      servername: nika2.hdfy2.foriran.trade
 -     name: trojan_104.21.24.15_0
       server: 104.21.24.15
       port: 0
@@ -4566,13 +4577,6 @@ proxies:
       type: trojan
       password: 8GXLP3dEzm7T8wP5Jx0Ufg
       tls: true
--     name: trojan_104.19.242.85_0
-      server: 104.19.242.85
-      port: 0
-      udp: true
-      type: trojan
-      password: 8GXLP3dEzm7T8wP5Jx0Ufg
-      tls: true
       servername: quictest.burncommunity.ru
       alpn: [http/1.1]
 -     name: trojan_104.21.41.49_0
@@ -4853,6 +4857,14 @@ proxies:
       servername: Koma-YT.PAGeS.Dev
 -     name: trojan_149.28.56.202_0
       server: 149.28.56.202
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_15.204.173.154_0
+      server: 15.204.173.154
       port: 0
       udp: true
       type: trojan
@@ -5171,10 +5183,228 @@ proxies:
       password: "8r%3C%5B9%27l6hAO%238ZQi"
       tls: true
       servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.12.145.253_0
+      server: 198.12.145.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.199.115.61_0
+      server: 198.199.115.61
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.62.62.253_0
+      server: 198.62.62.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.71.188.253_0
+      server: 198.71.188.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.71.190.253_0
+      server: 198.71.190.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_198.71.233.253_0
+      server: 198.71.233.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_206.189.214.99_0
+      server: 206.189.214.99
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      skip-cert-verify: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_206.189.214.99_0
+      server: 206.189.214.99
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_206.189.214.99_0
+      server: 206.189.214.99
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_209.97.170.177_0
+      server: 209.97.170.177
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_209.97.171.87_0
+      server: 209.97.171.87
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_213.165.38.7_0
+      server: 213.165.38.7
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_213.232.204.28_0
+      server: 213.232.204.28
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_23.168.72.23_0
+      server: 23.168.72.23
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_23.88.97.94_0
+      server: 23.88.97.94
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_23.94.59.201_0
+      server: 23.94.59.201
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_23.95.34.158_0
+      server: 23.95.34.158
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      skip-cert-verify: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.15.18.58_0
+      server: 31.15.18.58
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.56.227.49_0
+      server: 31.56.227.49
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.56.228.7_0
+      server: 31.56.228.7
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.56.228.7_0
+      server: 31.56.228.7
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.57.105.39_0
+      server: 31.57.105.39
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.57.109.126_0
+      server: 31.57.109.126
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_31.57.27.233_0
+      server: 31.57.27.233
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_5.144.179.49_0
+      server: 5.144.179.49
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_50.62.174.253_0
+      server: 50.62.174.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
+-     name: trojan_50.62.195.253_0
+      server: 50.62.195.253
+      port: 0
+      udp: true
+      type: trojan
+      password: "8r%3C%5B9%27l6hAO%238ZQi"
+      tls: true
+      servername: Koma-YT.PAGeS.Dev
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_188.114.98.223_2095, ss_185.146.173.58_8080, ss_160.123.255.50_443, ss_172.64.84.146_443, ss_172.67.73.98_2053, ss_172.66.44.135_80, ss_185.146.173.5_8880, ss_104.16.229.250_8080, ss_192.200.160.89_443, ss_185.146.173.43_2095, ss_172.67.137.11_8880, ss_188.114.97.141_443, ss_51.79.85.185_8118, ss_84.247.155.196_80, ss_3.11.145.4_22223, ss_172.67.139.14_443, ss_15.204.97.206_23576, ss_151.101.56.7_443, ss_65.109.209.239_33477, ss_51.222.141.125_445, ss_151.101.56.7_443, ss_8.47.69.0_443, ss_172.67.130.159_2096, ss_8.47.69.0_443, ss_195.123.235.177_443, ss_188.42.145.180_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_104.26.15.69_2096, ss_188.114.97.6_443, ss_51.222.141.125_445, ss_199.232.78.159_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_8.47.69.0_443, ss_199.232.78.185_443, ss_8.47.69.0_443, ss_51.222.107.43_2083, ss_188.42.145.180_443, ss_31.76.249.87_443, ss_156.146.38.167_443, ss_156.146.38.167_443, ss_162.19.10.99_443, ss_172.67.143.204_443, ss_31.77.126.2_443, ss_31.76.19.168_443, ss_130.49.161.70_443, ss_87.58.201.67_443, ss_51.222.107.43_2083, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_82.202.247.181_443, ss_89.47.164.182_1081, ss_205.237.110.254_443, ss_82.38.31.216_8080, ss_150.40.126.18_443, ss_20.166.51.228_443, ss_188.114.97.6_443, ss_162.19.10.99_443, ss_172.64.152.179_443, ss_172.64.146.20_2096, trojan_172.66.46.215_0, trojan_172.66.46.215_0, trojan_185.143.235.201_0, trojan_172.66.44.115_0, trojan_151.101.56.255_0, trojan_151.101.56.255_0, trojan_104.16.104.34_0, trojan_104.16.104.34_0, trojan_104.16.104.34_0, trojan_146.75.57.238_0, trojan_146.75.57.238_0, trojan_146.75.57.238_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_167.82.76.7_0, trojan_167.82.76.7_0, trojan_167.82.76.7_0, trojan_188.114.97.6_0, trojan_199.232.78.101_0, trojan_199.232.78.101_0, trojan_199.232.78.101_0, trojan_199.232.78.160_0, trojan_199.232.78.160_0, trojan_199.232.78.160_0, trojan_45.130.125.76_0, trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_104.18.32.87_0, trojan_104.21.70.21_0, trojan_104.21.70.21_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_144.22.250.122_0, trojan_88.214.24.235_0, trojan_132.145.51.172_0, trojan_132.145.51.172_0, trojan_138.124.30.8_0, trojan_104.21.71.83_0, trojan_104.21.84.242_0, trojan_104.21.24.172_0, trojan_104.21.22.211_0, trojan_172.67.207.27_0, trojan_104.21.57.88_0, trojan_104.21.86.44_0, trojan_172.67.162.74_0, trojan_172.67.215.15_0, trojan_104.21.69.50_0, trojan_172.67.204.177_0, trojan_172.67.180.67_0, trojan_104.16.192.146_0, trojan_104.16.192.1_0, trojan_104.17.147.11_0, trojan_172.67.176.46_0, trojan_172.66.44.87_0, trojan_104.21.12.87_0, trojan_104.21.12.87_0, trojan_172.67.204.120_0, trojan_206.238.236.187_0, trojan_104.21.69.44_0, trojan_51.195.219.173_0, trojan_172.67.150.132_0, trojan_104.21.83.62_0, trojan_172.66.47.30_0, trojan_104.21.65.43_0, trojan_104.21.65.43_0, trojan_104.21.53.151_0, trojan_172.67.214.154_0, trojan_104.21.61.154_0, trojan_172.67.211.136_0, trojan_172.66.44.109_0, trojan_172.66.47.147_0, trojan_104.21.29.205_0, trojan_198.62.62.4_0, trojan_104.16.246.173_0, trojan_104.16.246.173_0, trojan_104.17.234.157_0, trojan_104.17.234.157_0, trojan_104.18.35.86_0, trojan_104.25.165.81_0, trojan_104.25.165.83_0, trojan_194.233.88.107_0, trojan_194.233.88.109_0, trojan_198.41.208.69_0, trojan_149.202.57.89_0, trojan_104.21.75.120_0, trojan_104.21.78.206_0, trojan_104.21.95.229_0, trojan_172.67.175.148_0, trojan_172.67.188.77_0, trojan_104.18.32.47_0, trojan_15.235.197.4_0, trojan_15.235.197.4_0, trojan_15.235.197.4_0, trojan_188.114.97.6_0, trojan_153.121.52.154_0, trojan_49.212.178.155_0, trojan_49.212.203.7_0, trojan_104.16.148.5_0, trojan_104.18.153.182_0, trojan_104.18.153.182_0, trojan_104.21.29.205_0, trojan_172.67.149.202_0, trojan_104.18.15.19_0, trojan_104.18.32.69_0, trojan_172.64.155.187_0, trojan_172.64.155.187_0, trojan_13.248.169.48_0, trojan_172.67.203.189_0, trojan_94.103.91.22_0, trojan_185.18.250.117_0, trojan_38.150.35.208_0, trojan_172.64.152.23_0, trojan_172.67.175.6_0, trojan_104.21.19.64_0, trojan_104.21.28.26_0, trojan_172.67.170.51_0, trojan_167.82.101.159_0, "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0", trojan_172.64.152.23_0, trojan_172.64.152.23_0, trojan_185.146.173.52_0, trojan_104.19.159.12_0, trojan_104.19.159.12_0, trojan_51.38.65.155_0, trojan_104.21.39.134_0, trojan_45.147.200.44_0, trojan_104.21.84.58_0, trojan_104.21.77.79_0, trojan_172.67.175.139_0, trojan_172.67.200.11_0, trojan_151.101.2.133_0, trojan_172.67.161.74_0, trojan_172.67.161.74_0, trojan_104.21.88.77_0, trojan_104.21.88.77_0, trojan_172.67.174.10_0, trojan_104.21.17.25_0, trojan_104.17.215.8_0, trojan_104.18.22.19_0, trojan_104.17.147.5_0, trojan_172.67.191.174_0, trojan_15.204.248.103_0, trojan_192.3.107.252_0, trojan_198.23.229.250_0, trojan_45.91.171.116_0, trojan_104.17.148.22_0, trojan_188.114.97.82_0, trojan_104.26.12.31_0, trojan_104.21.30.167_0, trojan_172.67.200.238_0, trojan_104.17.147.22_0, trojan_172.66.45.43_0, trojan_172.66.46.213_0, trojan_172.66.46.213_0, trojan_172.67.173.73_0, trojan_172.66.44.101_0, trojan_104.21.88.226_0, trojan_35.168.124.79_0, trojan_54.36.191.211_0, trojan_195.133.93.135_0, trojan_195.133.93.81_0, trojan_195.133.93.135_0, trojan_18.141.59.72_0, trojan_77.73.70.64_0, trojan_208.103.161.170_0, trojan_172.66.44.233_0, trojan_172.66.47.23_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_188.114.97.2_0, trojan_172.66.47.175_0, trojan_172.66.44.56_0, trojan_172.66.47.100_0, trojan_172.66.47.100_0, trojan_104.21.71.131_0, trojan_104.17.238.76_0, trojan_104.21.38.163_0, trojan_217.79.184.76_0, trojan_104.16.75.127_0, trojan_173.245.58.57_0, trojan_104.16.159.7_0, trojan_104.17.147.4_0, trojan_104.17.215.18_0, trojan_104.17.61.7_0, trojan_172.66.44.171_0, trojan_172.67.201.123_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.49_0, trojan_188.241.241.49_0, trojan_188.241.241.49_0, trojan_188.241.241.49_0, trojan_31.133.0.182_0, trojan_31.133.0.182_0, trojan_31.133.0.182_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_104.21.83.113_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_104.16.159.112_0, trojan_104.19.159.144_0, trojan_104.21.3.60_0, trojan_108.162.196.69_0, trojan_108.162.198.165_0, trojan_141.101.120.10_0, trojan_188.114.97.58_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.21.7.147_0, trojan_172.67.214.21_0, trojan_138.2.59.112_0, trojan_161.33.14.183_0, trojan_45.76.208.253_0, trojan_64.186.240.9_0, trojan_8.219.155.125_0, trojan_141.193.213.156_0, trojan_172.67.204.22_0, trojan_103.168.56.77_0, trojan_103.168.56.77_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_188.114.99.91_0, trojan_216.24.57.250_0, trojan_104.21.200.224_0, trojan_104.21.200.224_0, trojan_104.26.14.85_0, trojan_172.67.148.211_0, trojan_104.21.3.189_0, trojan_172.66.132.196_0, trojan_45.131.5.9_0, trojan_104.21.47.176_0, trojan_104.18.124.198_0, trojan_104.18.124.198_0, trojan_172.67.219.196_0, trojan_152.67.160.174_0, trojan_152.67.160.174_0, trojan_172.67.204.22_0, trojan_172.67.210.210_0, trojan_104.18.41.190_0, trojan_104.18.43.174_0, trojan_104.18.65.57_0, trojan_104.18.65.57_0, trojan_104.18.65.57_0, trojan_104.18.66.57_0, trojan_104.18.66.57_0, trojan_172.64.144.82_0, trojan_172.64.144.82_0, trojan_172.64.146.66_0, trojan_172.64.152.241_0, "trojan_188.114.97.6:443?path=/anyway&security=tls&alpn=http/1.1&insecure=0&host=nat3.xxai.dpdns.org&fp=chrome&ech=cloudflare-ech.com%2Budp_0", trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_104.26.8.202_0, trojan_190.93.247.152_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.21.8.63_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_172.66.47.95_0, trojan_172.66.47.95_0, trojan_104.21.71.8_0, trojan_104.17.167.134_0, trojan_104.19.220.22_0, trojan_104.19.55.205_0, trojan_104.26.1.110_0, trojan_135.84.73.238_0, trojan_138.2.59.96_0, trojan_162.159.128.253_0, trojan_162.55.187.121_0, trojan_172.64.229.33_0, trojan_57.128.178.232_0, trojan_57.128.181.125_0, trojan_57.128.183.248_0, trojan_94.140.0.238_0, trojan_18.65.190.65_0, trojan_172.64.144.21_0, trojan_172.64.144.22_0, trojan_104.21.65.43_0, trojan_103.97.91.17_0, trojan_104.160.44.203_0, trojan_113.20.12.98_0, trojan_152.53.80.195_0, trojan_158.247.222.240_0, trojan_23.106.44.14_0, trojan_23.106.44.14_0, trojan_23.106.44.14_0, trojan_38.180.35.145_0, trojan_86.106.119.23_0, trojan_104.21.21.226_0, trojan_172.67.200.238_0, trojan_172.67.204.22_0, trojan_172.67.168.193_0, trojan_104.18.12.149_0, trojan_172.67.214.246_0, trojan_172.67.136.117_0, trojan_139.162.158.172_0, trojan_104.16.159.6_0, trojan_104.16.159.6_0, trojan_104.16.192.145_0, trojan_104.17.147.3_0, trojan_104.17.215.2_0, trojan_104.19.171.36_0, trojan_104.21.6.179_0, trojan_172.67.201.36_0, trojan_104.21.86.106_0, trojan_103.116.7.20_0, trojan_104.16.143.237_0, trojan_104.16.21.118_0, trojan_104.16.223.254_0, trojan_104.21.88.129_0, trojan_104.26.6.214_0, trojan_160.123.255.199_0, trojan_160.79.105.169_0, trojan_160.79.105.220_0, trojan_162.159.152.17_0, trojan_162.159.153.216_0, trojan_162.159.153.217_0, trojan_162.159.153.247_0, trojan_172.64.145.158_0, trojan_172.64.145.239_0, trojan_172.67.182.83_0, trojan_172.67.68.240_0, trojan_172.67.70.191_0, trojan_185.133.35.160_0, trojan_185.133.35.254_0, trojan_192.0.54.184_0, trojan_192.0.54.194_0, trojan_194.76.18.122_0, trojan_194.76.18.129_0, trojan_212.183.88.156_0, trojan_212.183.88.172_0, trojan_212.183.88.194_0, trojan_217.163.76.227_0, trojan_217.163.76.237_0, trojan_217.163.76.254_0, trojan_217.163.76.51_0, trojan_217.163.76.89_0, trojan_45.67.215.153_0, trojan_104.21.66.157_0, trojan_172.67.161.129_0, trojan_141.193.213.10_0, trojan_104.20.5.134_0, trojan_104.21.69.44_0, trojan_104.26.12.31_0, trojan_172.67.204.84_0, trojan_172.67.66.177_0, trojan_172.67.68.157_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_104.16.72.70_0, trojan_104.16.72.70_0, trojan_104.21.26.69_0, trojan_104.21.63.236_0, trojan_172.67.133.248_0, trojan_172.67.204.120_0, trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_141.94.76.177_0, trojan_141.94.76.177_0, trojan_172.67.193.157_0, trojan_199.181.197.99_0, trojan_199.181.197.99_0, trojan_144.24.72.126_0, trojan_104.17.147.77_0, trojan_104.17.147.77_0, trojan_162.159.153.7_0, trojan_193.180.211.52_0, trojan_103.235.46.40_0, trojan_60.250.152.209_0, trojan_15.197.162.184_0, trojan_172.67.177.123_0, trojan_104.21.24.15_0, trojan_135.148.148.4_0, trojan_135.148.148.4_0, trojan_77.110.101.210_0, trojan_172.66.41.28_0, trojan_172.66.42.228_0, trojan_172.66.43.41_0, trojan_104.21.16.1_0, trojan_104.21.96.1_0, trojan_104.19.52.10_0, trojan_104.19.52.167_0, trojan_104.19.52.219_0, trojan_104.19.52.233_0, trojan_104.19.52.255_0, trojan_104.19.52.35_0, trojan_104.19.52.45_0, trojan_104.19.53.251_0, trojan_104.19.53.254_0, trojan_104.19.53.64_0, trojan_104.19.53.73_0, trojan_104.21.49.59_0, trojan_45.130.125.126_0, trojan_185.44.76.188_0, trojan_185.44.76.188_0, trojan_172.67.215.250_0, trojan_104.21.29.75_0, trojan_104.21.29.75_0, trojan_104.21.71.112_0, trojan_104.18.39.232_0, trojan_104.18.39.232_0, trojan_162.159.192.163_0, trojan_162.159.192.163_0, trojan_167.82.30.71_0, trojan_172.66.47.155_0, trojan_172.66.47.61_0, trojan_199.232.197.231_0, trojan_199.232.95.123_0, trojan_23.227.38.208_0, trojan_104.21.23.115_0, trojan_104.21.58.135_0, trojan_104.19.242.85_0, trojan_104.19.242.85_0, trojan_104.21.41.49_0, trojan_172.66.44.182_0, trojan_20.255.74.102_0, trojan_20.255.74.102_0, trojan_104.18.20.69_0, trojan_149.56.141.11_0, trojan_193.124.46.65_0, trojan_91.192.102.92_0, trojan_172.64.80.1_0, trojan_162.159.137.232_0, trojan_162.251.82.253_0, trojan_46.225.121.230_0, trojan_98.96.231.180_0, trojan_104.129.166.25_0, trojan_104.129.167.253_0, trojan_104.18.16.56_0, trojan_104.20.5.134_0, trojan_104.238.70.253_0, trojan_104.31.16.253_0, trojan_107.172.201.15_0, trojan_107.175.209.186_0, trojan_108.162.195.253_0, trojan_108.165.216.253_0, trojan_128.14.196.46_0, trojan_129.159.34.196_0, trojan_138.124.123.201_0, trojan_140.83.50.165_0, trojan_141.101.114.253_0, trojan_141.101.120.253_0, trojan_141.101.121.253_0, trojan_143.110.133.216_0, trojan_144.31.104.154_0, trojan_144.31.57.146_0, trojan_146.190.27.232_0, trojan_149.28.56.202_0, trojan_150.241.108.1_0, trojan_150.241.122.110_0, trojan_152.53.153.158_0, trojan_154.92.9.253_0, trojan_154.92.9.25_0, trojan_159.242.242.253_0, trojan_160.153.138.253_0, trojan_162.243.143.110_0, trojan_162.243.249.250_0, trojan_165.22.104.36_0, trojan_165.22.130.178_0, trojan_165.227.60.231_0, trojan_165.232.54.102_0, trojan_166.62.112.253_0, trojan_166.62.115.253_0, trojan_167.68.11.253_0, trojan_172.64.147.106_0, trojan_172.64.149.54_0, trojan_172.64.149.54_0, trojan_172.66.47.26_0, trojan_172.86.114.80_0, trojan_176.124.201.78_0, trojan_178.128.190.138_0, trojan_178.128.70.6_0, trojan_178.128.97.53_0, trojan_178.156.148.4_0, trojan_185.148.105.253_0, trojan_188.226.188.55_0, trojan_188.239.9.91_0, trojan_192.0.63.253_0, trojan_192.210.217.68_0, trojan_193.109.84.103_0, trojan_194.164.235.62_0, trojan_194.233.67.84_0, trojan_195.123.218.46_0, trojan_195.123.220.24_0, trojan_195.135.252.148_0, trojan_195.58.50.128_0, trojan_198.12.144.253_0]
+      proxies: [ss_172.64.84.146_443, ss_172.67.73.98_2053, ss_172.66.44.135_80, ss_185.146.173.5_8880, ss_104.16.229.250_8080, ss_192.200.160.89_443, ss_185.146.173.43_2095, ss_172.67.137.11_8880, ss_188.114.97.141_443, ss_51.79.85.185_8118, ss_84.247.155.196_80, ss_198.98.53.130_443, ss_57.129.113.16_8388, ss_15.204.97.206_23576, ss_151.101.56.7_443, ss_51.222.141.125_445, ss_151.101.56.7_443, ss_8.47.69.0_443, ss_172.67.130.159_2096, ss_8.47.69.0_443, ss_195.123.235.177_443, ss_188.42.145.180_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_104.26.15.69_2096, ss_51.222.141.125_445, ss_199.232.78.159_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_8.47.69.0_443, ss_199.232.78.185_443, ss_8.47.69.0_443, ss_51.222.107.43_2083, ss_188.42.145.180_443, ss_31.76.249.87_443, ss_156.146.38.167_443, ss_156.146.38.167_443, ss_162.19.10.99_443, ss_172.67.143.204_443, ss_31.77.126.2_443, ss_82.202.157.123_5002, ss_130.49.161.70_443, ss_87.58.201.67_443, ss_51.222.107.43_2083, ss_72.56.241.230_443, ss_188.114.97.6_443, ss_188.114.97.6_443, ss_193.29.139.225_8080, ss_82.202.247.181_443, ss_84.247.155.196_443, ss_82.38.31.216_8080, ss_91.228.227.172_443, ss_146.75.57.238_443, ss_146.75.57.111_443, ss_199.232.78.159_443, ss_188.114.97.6_443, ss_162.19.10.99_443, ss_172.64.152.179_443, ss_172.64.146.20_2096, trojan_172.66.46.215_0, trojan_172.66.46.215_0, trojan_185.143.235.201_0, trojan_172.66.44.115_0, trojan_104.16.104.34_0, trojan_146.75.57.238_0, trojan_146.75.57.238_0, trojan_146.75.57.238_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_151.101.38.6_0, trojan_167.82.64.46_0, trojan_167.82.64.46_0, trojan_167.82.76.7_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_199.232.78.101_0, trojan_199.232.78.160_0, trojan_199.232.78.160_0, trojan_199.232.78.160_0, trojan_199.232.78.160_0, trojan_45.130.125.76_0, trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, trojan_104.18.32.87_0, trojan_104.21.70.21_0, trojan_104.21.70.21_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_144.22.250.122_0, trojan_88.214.24.235_0, trojan_132.145.51.172_0, trojan_132.145.51.172_0, trojan_138.124.30.8_0, trojan_104.21.71.83_0, trojan_104.21.84.242_0, trojan_104.21.24.172_0, trojan_104.21.22.211_0, trojan_172.67.207.27_0, trojan_104.21.57.88_0, trojan_104.21.86.44_0, trojan_172.67.162.74_0, trojan_172.67.215.15_0, trojan_104.21.69.50_0, trojan_172.67.204.177_0, trojan_172.67.180.67_0, trojan_104.16.192.146_0, trojan_104.16.192.1_0, trojan_104.17.147.11_0, trojan_172.67.176.46_0, trojan_172.66.44.87_0, trojan_104.21.12.87_0, trojan_104.21.12.87_0, trojan_172.67.204.120_0, trojan_206.238.236.187_0, trojan_104.21.69.44_0, trojan_51.195.219.173_0, trojan_172.67.150.132_0, trojan_104.21.83.62_0, trojan_172.66.47.30_0, trojan_104.21.65.43_0, trojan_104.21.65.43_0, trojan_104.21.65.43_0, trojan_104.21.53.151_0, trojan_172.67.214.154_0, trojan_104.21.61.154_0, trojan_172.67.211.136_0, trojan_172.66.44.109_0, trojan_172.66.47.147_0, trojan_104.21.29.205_0, trojan_198.62.62.4_0, trojan_104.16.246.173_0, trojan_104.16.246.173_0, trojan_104.16.246.173_0, trojan_104.17.234.157_0, trojan_104.18.35.86_0, trojan_104.19.150.163_0, trojan_104.25.165.81_0, trojan_104.25.165.83_0, trojan_162.159.152.81_0, trojan_194.233.88.107_0, trojan_194.233.88.109_0, trojan_198.41.208.69_0, trojan_149.202.57.89_0, trojan_104.21.75.120_0, trojan_104.21.78.206_0, trojan_104.21.95.229_0, trojan_172.67.175.148_0, trojan_172.67.188.77_0, trojan_104.18.32.47_0, trojan_15.235.197.4_0, trojan_15.235.197.4_0, trojan_15.235.197.4_0, trojan_188.114.97.6_0, trojan_153.121.52.154_0, trojan_49.212.178.155_0, trojan_49.212.203.7_0, trojan_104.16.148.5_0, trojan_104.18.153.182_0, trojan_104.18.153.182_0, trojan_104.21.29.205_0, trojan_172.67.149.202_0, trojan_104.18.15.19_0, trojan_104.18.32.69_0, trojan_172.64.155.187_0, trojan_172.64.155.187_0, trojan_13.248.169.48_0, trojan_172.67.203.189_0, trojan_94.103.91.22_0, trojan_185.18.250.117_0, trojan_172.64.152.23_0, trojan_172.67.175.6_0, trojan_104.21.19.64_0, trojan_104.21.28.26_0, trojan_172.67.170.51_0, trojan_167.82.101.159_0, "trojan_167.82.101.159:443?mode=auto&security=tls&alpn=h2&extra={  \"uplinkDataPlacement\" _0", trojan_172.64.152.23_0, trojan_185.146.173.52_0, trojan_104.19.159.12_0, trojan_104.19.159.12_0, trojan_51.38.65.155_0, trojan_104.21.39.134_0, trojan_45.147.200.44_0, trojan_104.21.84.58_0, trojan_104.21.77.79_0, trojan_172.67.175.139_0, trojan_172.67.200.11_0, trojan_151.101.2.133_0, trojan_172.67.161.74_0, trojan_172.67.161.74_0, trojan_104.21.17.25_0, trojan_104.17.215.8_0, trojan_104.18.22.19_0, trojan_104.17.147.5_0, trojan_172.67.191.174_0, trojan_15.204.248.103_0, trojan_192.3.107.252_0, trojan_198.23.229.250_0, trojan_45.91.171.116_0, trojan_104.17.148.22_0, trojan_188.114.97.82_0, trojan_104.26.12.31_0, trojan_104.21.30.167_0, trojan_172.67.200.238_0, trojan_104.17.147.22_0, trojan_172.66.45.43_0, trojan_172.66.46.213_0, trojan_172.66.46.213_0, trojan_172.67.173.73_0, trojan_172.66.44.101_0, trojan_104.21.88.226_0, trojan_35.168.124.79_0, trojan_54.36.191.211_0, trojan_195.133.93.135_0, trojan_195.133.93.81_0, trojan_195.133.93.135_0, trojan_18.141.59.72_0, trojan_77.73.70.64_0, trojan_208.103.161.170_0, trojan_172.66.44.233_0, trojan_172.66.47.23_0, trojan_43.160.197.160_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.44.81_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_172.66.47.175_0, trojan_188.114.97.2_0, trojan_172.66.47.175_0, trojan_172.66.44.56_0, trojan_172.66.47.100_0, trojan_172.66.47.100_0, trojan_104.21.71.131_0, trojan_104.17.238.76_0, trojan_104.21.38.163_0, trojan_217.79.184.76_0, trojan_173.245.58.57_0, trojan_104.16.159.7_0, trojan_104.17.147.4_0, trojan_104.17.215.18_0, trojan_104.17.61.7_0, trojan_172.66.44.171_0, trojan_172.67.201.123_0, trojan_188.211.233.134_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.102_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.117_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.122_0, trojan_188.241.241.133_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.200_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.235_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_188.241.241.236_0, trojan_23.237.47.24_0, trojan_31.133.0.182_0, trojan_31.133.0.182_0, trojan_31.133.0.182_0, trojan_31.133.0.186_443, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_31.133.0.186_0, trojan_46.229.253.57_0, trojan_92.42.100.132_0, trojan_94.140.112.22_0, trojan_104.21.83.113_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_151.101.34.144_0, trojan_104.16.159.112_0, trojan_104.19.159.144_0, trojan_104.21.3.60_0, trojan_108.162.196.69_0, trojan_108.162.198.165_0, trojan_141.101.120.10_0, trojan_188.114.97.58_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.21.7.147_0, trojan_172.67.214.21_0, trojan_138.2.59.112_0, trojan_161.33.14.183_0, trojan_45.76.208.253_0, trojan_64.186.240.9_0, trojan_8.219.155.125_0, trojan_141.193.213.156_0, trojan_172.67.204.22_0, trojan_103.168.56.77_0, trojan_103.168.56.77_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_188.114.99.91_0, trojan_216.24.57.250_0, trojan_104.21.200.224_0, trojan_104.21.200.224_0, trojan_104.26.14.85_0, trojan_172.67.148.211_0, trojan_104.21.3.189_0, trojan_172.66.132.196_0, trojan_45.131.5.9_0, trojan_104.21.47.176_0, trojan_104.18.124.198_0, trojan_104.18.124.198_0, trojan_172.67.219.196_0, trojan_152.67.160.174_0, trojan_152.67.160.174_0, trojan_172.67.204.22_0, trojan_172.67.210.210_0, trojan_104.18.41.190_0, trojan_104.18.41.190_0, trojan_104.18.43.174_0, trojan_104.18.43.174_0, trojan_104.18.65.57_0, trojan_104.18.65.57_0, trojan_104.18.66.57_0, trojan_104.18.66.57_0, trojan_109.234.211.232_0, trojan_109.234.211.232_0, trojan_162.159.152.18_0, trojan_172.64.144.82_0, trojan_172.64.146.66_0, trojan_172.64.152.241_0, "trojan_188.114.97.6:443?path=/anyway&security=tls&alpn=http/1.1&insecure=0&host=nat3.xxai.dpdns.org&fp=chrome&ech=cloudflare-ech.com%2Budp_0", "trojan_188.114.97.6:443?type=ws&security=tls&fp=chrome&sni=nat3.xxai.dpdns.org&host=nat3.xxai.dpdns.org&alpn=http/1.1&ech=cloudflare-ech.com+udp_0", trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, "trojan_188.114.98.0:443?type=ws&security=tls&fp=chrome&sni=nat11.outsidemyheart.space&host=nat11.outsidemyheart.space&alpn=http/1.1&ech=crypto.cloudflare.com+udp_0", trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_188.114.98.0_0, trojan_8.47.69.60_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_51.83.186.142_0, trojan_104.26.8.202_0, trojan_190.93.247.152_0, trojan_104.17.147.22_0, trojan_104.17.148.22_0, trojan_104.21.8.63_0, trojan_47.250.84.25_443, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_47.250.84.25_0, trojan_172.66.47.95_0, trojan_172.66.47.95_0, trojan_104.21.71.8_0, trojan_104.17.167.134_0, trojan_104.19.220.22_0, trojan_104.19.55.205_0, trojan_104.26.1.110_0, trojan_135.84.73.238_0, trojan_138.2.59.96_0, trojan_162.159.128.253_0, trojan_162.55.187.121_0, trojan_172.64.229.33_0, trojan_57.128.178.232_0, trojan_57.128.181.125_0, trojan_57.128.183.248_0, trojan_94.140.0.238_0, trojan_one.cf.cdn.hyli.xyz_0, trojan_18.65.190.65_0, trojan_172.64.144.21_0, trojan_172.64.144.22_0, trojan_104.21.65.43_0, trojan_103.97.91.17_0, trojan_104.160.44.203_0, trojan_113.20.12.98_0, trojan_152.53.80.195_0, trojan_158.247.222.240_0, trojan_23.106.44.14_0, trojan_23.106.44.14_0, trojan_38.180.35.145_0, trojan_86.106.119.23_0, trojan_104.21.21.226_0, trojan_172.67.200.238_0, trojan_172.67.204.22_0, trojan_172.67.168.193_0, trojan_104.18.12.149_0, trojan_172.67.214.246_0, trojan_172.67.136.117_0, trojan_139.162.158.172_0, trojan_104.16.159.6_0, trojan_104.16.159.6_0, trojan_104.16.192.145_0, trojan_104.17.147.3_0, trojan_104.17.215.2_0, trojan_104.19.171.36_0, trojan_104.21.6.179_0, trojan_172.67.201.36_0, trojan_104.21.86.106_0, trojan_103.116.7.20_0, trojan_104.16.143.237_0, trojan_104.16.21.118_0, trojan_104.16.223.254_0, trojan_104.21.88.129_0, trojan_104.26.6.214_0, trojan_160.123.255.199_0, trojan_160.79.105.169_0, trojan_160.79.105.220_0, trojan_162.159.152.17_0, trojan_162.159.153.216_0, trojan_162.159.153.217_0, trojan_162.159.153.247_0, trojan_172.64.145.158_0, trojan_172.64.145.239_0, trojan_172.67.182.83_0, trojan_172.67.68.240_0, trojan_172.67.70.191_0, trojan_185.133.35.160_0, trojan_185.133.35.254_0, trojan_192.0.54.184_0, trojan_192.0.54.194_0, trojan_194.76.18.122_0, trojan_194.76.18.129_0, trojan_212.183.88.156_0, trojan_212.183.88.172_0, trojan_212.183.88.194_0, trojan_217.163.76.227_0, trojan_217.163.76.237_0, trojan_217.163.76.254_0, trojan_217.163.76.51_0, trojan_217.163.76.89_0, trojan_45.67.215.153_0, trojan_104.21.66.157_0, trojan_172.67.161.129_0, trojan_141.193.213.10_0, trojan_104.20.5.134_0, trojan_104.21.69.44_0, trojan_104.26.12.31_0, trojan_172.67.204.84_0, trojan_172.67.66.177_0, trojan_172.67.68.157_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_172.67.131.217_0, trojan_104.16.72.70_0, trojan_104.16.72.70_0, trojan_104.21.26.69_0, trojan_104.21.63.236_0, trojan_172.67.133.248_0, trojan_172.67.204.120_0, trojan_60.250.152.229_0, trojan_60.250.152.230_0, trojan_141.94.76.177_0, trojan_141.94.76.177_0, trojan_172.67.193.157_0, trojan_199.181.197.99_0, trojan_199.181.197.99_0, trojan_144.24.72.126_0, trojan_104.17.147.77_0, trojan_104.17.147.77_0, trojan_162.159.153.7_0, trojan_193.180.211.52_0, trojan_103.235.46.40_0, trojan_60.250.152.209_0, trojan_15.197.162.184_0, trojan_172.67.177.123_0, trojan_95.179.217.221_0, trojan_104.21.24.15_0, trojan_135.148.148.4_0, trojan_135.148.148.4_0, trojan_77.110.101.210_0, trojan_172.66.41.28_0, trojan_172.66.42.228_0, trojan_172.66.43.41_0, trojan_104.21.16.1_0, trojan_104.21.96.1_0, trojan_104.19.52.10_0, trojan_104.19.52.167_0, trojan_104.19.52.219_0, trojan_104.19.52.233_0, trojan_104.19.52.255_0, trojan_104.19.52.35_0, trojan_104.19.52.45_0, trojan_104.19.53.251_0, trojan_104.19.53.254_0, trojan_104.19.53.64_0, trojan_104.19.53.73_0, trojan_104.21.49.59_0, trojan_45.130.125.126_0, trojan_185.44.76.188_0, trojan_185.44.76.188_0, trojan_172.67.215.250_0, trojan_104.21.29.75_0, trojan_104.21.29.75_0, trojan_104.21.71.112_0, trojan_104.18.39.232_0, trojan_104.18.39.232_0, trojan_162.159.192.163_0, trojan_162.159.192.163_0, trojan_167.82.30.71_0, trojan_172.66.47.155_0, trojan_172.66.47.61_0, trojan_199.232.197.231_0, trojan_199.232.95.123_0, trojan_23.227.38.208_0, trojan_104.21.23.115_0, trojan_104.21.58.135_0, trojan_104.19.242.85_0, trojan_104.21.41.49_0, trojan_172.66.44.182_0, trojan_20.255.74.102_0, trojan_20.255.74.102_0, trojan_104.18.20.69_0, trojan_149.56.141.11_0, trojan_193.124.46.65_0, trojan_91.192.102.92_0, trojan_172.64.80.1_0, trojan_162.159.137.232_0, trojan_162.251.82.253_0, trojan_46.225.121.230_0, trojan_98.96.231.180_0, trojan_104.129.166.25_0, trojan_104.129.167.253_0, trojan_104.18.16.56_0, trojan_104.20.5.134_0, trojan_104.238.70.253_0, trojan_104.31.16.253_0, trojan_107.172.201.15_0, trojan_107.175.209.186_0, trojan_108.162.195.253_0, trojan_108.165.216.253_0, trojan_128.14.196.46_0, trojan_129.159.34.196_0, trojan_138.124.123.201_0, trojan_140.83.50.165_0, trojan_141.101.114.253_0, trojan_141.101.120.253_0, trojan_141.101.121.253_0, trojan_143.110.133.216_0, trojan_144.31.104.154_0, trojan_144.31.57.146_0, trojan_146.190.27.232_0, trojan_149.28.56.202_0, trojan_15.204.173.154_0, trojan_150.241.108.1_0, trojan_150.241.122.110_0, trojan_152.53.153.158_0, trojan_154.92.9.253_0, trojan_154.92.9.25_0, trojan_159.242.242.253_0, trojan_160.153.138.253_0, trojan_162.243.143.110_0, trojan_162.243.249.250_0, trojan_165.22.104.36_0, trojan_165.22.130.178_0, trojan_165.227.60.231_0, trojan_165.232.54.102_0, trojan_166.62.112.253_0, trojan_166.62.115.253_0, trojan_167.68.11.253_0, trojan_172.64.147.106_0, trojan_172.64.149.54_0, trojan_172.64.149.54_0, trojan_172.66.47.26_0, trojan_172.86.114.80_0, trojan_176.124.201.78_0, trojan_178.128.190.138_0, trojan_178.128.70.6_0, trojan_178.128.97.53_0, trojan_178.156.148.4_0, trojan_185.148.105.253_0, trojan_188.226.188.55_0, trojan_188.239.9.91_0, trojan_192.0.63.253_0, trojan_192.210.217.68_0, trojan_193.109.84.103_0, trojan_194.164.235.62_0, trojan_194.233.67.84_0, trojan_195.123.218.46_0, trojan_195.123.220.24_0, trojan_195.135.252.148_0, trojan_195.58.50.128_0, trojan_198.12.144.253_0, trojan_198.12.145.253_0, trojan_198.199.115.61_0, trojan_198.62.62.253_0, trojan_198.71.188.253_0, trojan_198.71.190.253_0, trojan_198.71.233.253_0, trojan_206.189.214.99_0, trojan_206.189.214.99_0, trojan_206.189.214.99_0, trojan_209.97.170.177_0, trojan_209.97.171.87_0, trojan_213.165.38.7_0, trojan_213.232.204.28_0, trojan_23.168.72.23_0, trojan_23.88.97.94_0, trojan_23.94.59.201_0, trojan_23.95.34.158_0, trojan_31.15.18.58_0, trojan_31.56.227.49_0, trojan_31.56.228.7_0, trojan_31.56.228.7_0, trojan_31.57.105.39_0, trojan_31.57.109.126_0, trojan_31.57.27.233_0, trojan_5.144.179.49_0, trojan_50.62.174.253_0, trojan_50.62.195.253_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

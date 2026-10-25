@@ -36,23 +36,10 @@ proxies:
       reality-opts:
         public-key: 5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4
         short-id: 654119f9d6f01dba
--     name: vless_103.214.69.177_0
-      server: 103.214.69.177
-      port: 0
-      udp: true
-      type: vless
-      uuid: 92295a0d-b610-4075-85e9-bfab09ec6f3a
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.unb.ca
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: 5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4
-        short-id: 654119f9d6f01dba
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_103.214.69.177_0, vless_103.214.69.177_0, vless_103.214.69.177_0]
+      proxies: [vless_103.214.69.177_0, vless_103.214.69.177_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

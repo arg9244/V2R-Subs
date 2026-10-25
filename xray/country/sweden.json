@@ -80,54 +80,6 @@
       }
     },
     {
-      "tag": "vless_46.246.97.245_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "46.246.97.245",
-        "port": 0,
-        "id": "84be60308f98488f91bcdbf78d4c5f8e",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "universityadmissions.se",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
-            "shortId": "aabbccdd"
-          }
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.18.26.94_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.26.94",
-        "port": 0,
-        "id": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -169,9 +121,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_46.246.97.245_0",
-          "vless_46.246.97.245_0",
-          "vless_104.18.26.94_0"
+          "vless_46.246.97.245_0"
         ],
         "strategy": {
           "type": "leastPing",
