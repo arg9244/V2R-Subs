@@ -13,26 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_103.192.179.132_0",
-      "server": "103.192.179.132",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "06b65903-406d-4a41-8463-6fd5c0ee7798",
-      "tls": {
-        "enabled": true,
-        "server_name": "sn1.skylee5.cloudns.ch"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_43.169.18.179_0",
       "server": "43.169.18.179",
       "server_port": 0,
@@ -1002,7 +982,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_103.192.179.132_0",
         "vless_43.169.18.179_0",
         "vless_104.17.98.5_0",
         "vless_104.17.98.5_0",

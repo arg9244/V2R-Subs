@@ -13,30 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "37d0b151-023e-4729-9994-45a7d9df5fd1",
-      "tls": {
-        "enabled": true,
-        "server_name": "pardazeshvpn-tg23.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM-MARAMBASHI/?ed=2048"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_154.21.203.106_0",
       "server": "154.21.203.106",
       "server_port": 0,
@@ -76,54 +52,14 @@
           "enabled": true,
           "fingerprint": "firefox"
         }
-      }
-    },
-    {
-      "tag": "vless_95.134.250.190_0",
-      "server": "95.134.250.190",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "7a6e1e77-46ed-4f3f-960e-8f49810f0255",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.gov.sg",
-        "reality": {
-          "enabled": true,
-          "public_key": "YuQJBPkwrRR0EBNknG2ZDWhyCWCV5YMJFj1DlC8F5RU",
-          "short_id": "4e37af843f76e999"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "server": "www.visa.com.sg",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "d8235de7-84c7-4454-b333-4d854c393929",
-      "transport": {
-        "type": "ws",
-        "path": "/pyip=ProxyIP.US.CMLiussss.net"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_www.visa.com.sg_0",
         "vless_154.21.203.106_0",
-        "vless_154.21.203.106_0",
-        "vless_95.134.250.190_0",
-        "vless_www.visa.com.sg_0"
+        "vless_154.21.203.106_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -51,14 +51,6 @@ proxies:
       password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
       tls: true
       servername: joss.gpj1.web.id
--     name: trojan_104.16.148.5_0
-      server: 104.16.148.5
-      port: 0
-      udp: true
-      type: trojan
-      password: 19877587-ed94-4033-88cd-4ac50a5e8718
-      tls: true
-      servername: dimskiee.biz.id
 -     name: trojan_104.18.153.182_0
       server: 104.18.153.182
       port: 0
@@ -67,15 +59,6 @@ proxies:
       password: 19877587-ed94-4033-88cd-4ac50a5e8718
       tls: true
       servername: dimskiee.biz.id
--     name: trojan_104.18.153.182_0
-      server: 104.18.153.182
-      port: 0
-      udp: true
-      type: trojan
-      password: 19877587-ed94-4033-88cd-4ac50a5e8718
-      tls: true
-      servername: dimskiee.biz.id
-      client-fingerprint: chrome
 -     name: trojan_193.180.211.52_0
       server: 193.180.211.52
       port: 0
@@ -133,6 +116,19 @@ proxies:
       tls: true
       servername: vpn.stupidworld.web.id
       client-fingerprint: chrome
+-     name: vless_202.10.40.89_0
+      server: 202.10.40.89
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5a380395-9c91-4174-8330-475d1235ed61
+      flow: xtls-rprx-vision
+      tls: true
+      servername: amproject.my.id
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY
+        short-id: 5b4a12ef7e1694dd
 -     name: vless_202.10.40.89_0
       server: 202.10.40.89
       port: 0
@@ -290,7 +286,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.18.32.87_0, trojan_104.21.70.21_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_138.124.30.8_0, trojan_104.16.148.5_0, trojan_104.18.153.182_0, trojan_104.18.153.182_0, trojan_193.180.211.52_0, trojan_91.192.102.92_0, trojan_109.169.76.23_0, trojan_81.22.132.183_0, trojan_104.21.72.109_0, trojan_172.67.156.25_0, trojan_172.67.181.173_0, vless_202.10.40.89_0, vless_202.10.40.89_0, vless_199.232.0.39_0, vless_199.232.1.47_0, vless_104.26.1.108_0, vless_104.26.0.108_0, vless_172.67.74.133_0, vless_104.21.78.131_0, vless_104.18.12.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_172.67.221.199_0, vless_104.18.32.47_0]
+      proxies: [trojan_104.18.32.87_0, trojan_104.21.70.21_0, trojan_188.114.97.6_0, trojan_188.114.97.6_0, trojan_138.124.30.8_0, trojan_104.18.153.182_0, trojan_193.180.211.52_0, trojan_91.192.102.92_0, trojan_109.169.76.23_0, trojan_81.22.132.183_0, trojan_104.21.72.109_0, trojan_172.67.156.25_0, trojan_172.67.181.173_0, vless_202.10.40.89_0, vless_202.10.40.89_0, vless_202.10.40.89_0, vless_199.232.0.39_0, vless_199.232.1.47_0, vless_104.26.1.108_0, vless_104.26.0.108_0, vless_172.67.74.133_0, vless_104.21.78.131_0, vless_104.18.12.51_0, vless_104.18.13.51_0, vless_104.18.13.51_0, vless_172.67.221.199_0, vless_104.18.32.47_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -114,6 +114,36 @@
       }
     },
     {
+      "tag": "vless_188.114.98.0_0",
+      "server": "188.114.98.0",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+      "tls": {
+        "enabled": true,
+        "server_name": "px2.5ibtc.cn",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.19.152.87_0",
       "server": "104.19.152.87",
       "server_port": 0,
@@ -146,6 +176,7 @@
         "vless_217.11.164.183_0",
         "vless_217.11.164.183_0",
         "vless_42.236.73.72_0",
+        "vless_188.114.98.0_0",
         "vless_104.19.152.87_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

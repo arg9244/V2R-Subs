@@ -38,10 +38,53 @@
       }
     },
     {
+      "tag": "vless_46.246.97.245_0",
+      "server": "46.246.97.245",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "84be60308f98488f91bcdbf78d4c5f8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "universityadmissions.se",
+        "reality": {
+          "enabled": true,
+          "public_key": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
+          "short_id": "aabbccdd"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/x"
+      }
+    },
+    {
+      "tag": "vless_104.18.26.94_0",
+      "server": "104.18.26.94",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_46.246.97.245_0"
+        "vless_46.246.97.245_0",
+        "vless_46.246.97.245_0",
+        "vless_104.18.26.94_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

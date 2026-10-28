@@ -187,6 +187,37 @@
       }
     },
     {
+      "tag": "vless_188.114.98.0_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.98.0",
+        "port": 0,
+        "id": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "px2.5ibtc.cn",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.19.152.87_0",
       "protocol": "vless",
       "settings": {
@@ -259,6 +290,7 @@
           "vless_217.11.164.183_0",
           "vless_217.11.164.183_0",
           "vless_42.236.73.72_0",
+          "vless_188.114.98.0_0",
           "vless_104.19.152.87_0"
         ],
         "strategy": {

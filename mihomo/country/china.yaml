@@ -68,6 +68,19 @@ proxies:
       servername: www.zitian.cn
       alpn: [http/1.1]
       client-fingerprint: chrome
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+      tls: true
+      servername: px2.5ibtc.cn
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+      network: ws
+      ws-opts:
+        path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -83,7 +96,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.19.152.87_0]
+      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_188.114.98.0_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

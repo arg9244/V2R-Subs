@@ -53,32 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "37d0b151-023e-4729-9994-45a7d9df5fd1",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pardazeshvpn-tg23.pages.dev",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/TELEGRAM-MARAMBASHI/?ed=2048"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_154.21.203.106_0",
       "protocol": "vless",
       "settings": {
@@ -128,55 +102,6 @@
           }
         },
         "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_95.134.250.190_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "95.134.250.190",
-        "port": 0,
-        "id": "7a6e1e77-46ed-4f3f-960e-8f49810f0255",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.gov.sg",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "YuQJBPkwrRR0EBNknG2ZDWhyCWCV5YMJFj1DlC8F5RU",
-            "shortId": "4e37af843f76e999"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_www.visa.com.sg_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "www.visa.com.sg",
-        "port": 0,
-        "id": "d8235de7-84c7-4454-b333-4d854c393929",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/pyip=ProxyIP.US.CMLiussss.net"
-        }
       },
       "mux": {
         "enabled": true,
@@ -225,11 +150,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_www.visa.com.sg_0",
           "vless_154.21.203.106_0",
-          "vless_154.21.203.106_0",
-          "vless_95.134.250.190_0",
-          "vless_www.visa.com.sg_0"
+          "vless_154.21.203.106_0"
         ],
         "strategy": {
           "type": "leastPing",

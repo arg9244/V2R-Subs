@@ -81,33 +81,6 @@
       }
     },
     {
-      "tag": "vless_103.214.69.177_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "103.214.69.177",
-        "port": 0,
-        "id": "92295a0d-b610-4075-85e9-bfab09ec6f3a",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.unb.ca",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4",
-            "shortId": "654119f9d6f01dba"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -149,7 +122,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_103.214.69.177_0",
           "vless_103.214.69.177_0"
         ],
         "strategy": {

@@ -18,19 +18,6 @@ proxies:
       password: cefffd1d-cc58-4560-b4d1-44f1af528f30
       tls: true
       servername: uni.fi
--     name: vless_191.44.46.37_0
-      server: 191.44.46.37
-      port: 0
-      udp: true
-      type: vless
-      uuid: 23611b17-4e04-42ba-88e9-ec8a9309089a
-      flow: xtls-rprx-vision
-      tls: true
-      servername: kookas.fi
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
-        short-id: 43dcff53849b81e6
 -     name: vless_191.44.47.164_0
       server: 191.44.47.164
       port: 0
@@ -70,23 +57,22 @@ proxies:
       reality-opts:
         public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
         short-id: 43dcff53849b81e6
--     name: vless_191.44.46.37_0
-      server: 191.44.46.37
+-     name: vless_78.17.27.137_0
+      server: 78.17.27.137
       port: 0
       udp: true
       type: vless
-      uuid: 4dd83a42-70e6-4df3-9343-cee2d5696050
-      flow: xtls-rprx-vision
+      uuid: 48d9a277-776b-4ab8-a357-88a1958beed8
       tls: true
-      servername: kookas.fi
+      servername: www.aalto.fi
       client-fingerprint: firefox
       reality-opts:
-        public-key: qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA
-        short-id: 43dcff52289b81e6
+        public-key: DZ0BYEIHEe9KmJzM_j5EAN0t3_BTcfO63P7x6SRCeQM
+        short-id: a05ccbf2edb5ebd1
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_151.101.3.10_0, vless_191.44.46.37_0, vless_191.44.47.164_0, vless_191.44.47.164_0, vless_191.44.47.164_0, vless_191.44.46.37_0]
+      proxies: [trojan_151.101.3.10_0, vless_191.44.47.164_0, vless_191.44.47.164_0, vless_191.44.47.164_0, vless_78.17.27.137_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
