@@ -13,23 +13,62 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_103.214.69.177_0",
-      "server": "103.214.69.177",
+      "tag": "vless_195.26.26.56_0",
+      "server": "195.26.26.56",
       "server_port": 0,
       "type": "vless",
-      "uuid": "92295a0d-b610-4075-85e9-bfab09ec6f3a",
-      "flow": "xtls-rprx-vision",
+      "uuid": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
       "tls": {
         "enabled": true,
-        "server_name": "www.unb.ca",
+        "server_name": "store.sony.ca",
         "reality": {
           "enabled": true,
-          "public_key": "5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4",
-          "short_id": "654119f9d6f01dba"
+          "public_key": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+          "short_id": "b1"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_195.26.26.56_0",
+      "server": "195.26.26.56",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
+      "tls": {
+        "enabled": true,
+        "server_name": "store.sony.ca",
+        "reality": {
+          "enabled": true,
+          "public_key": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+          "short_id": "b1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_195.26.26.56_0",
+      "server": "195.26.26.56",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
+      "tls": {
+        "enabled": true,
+        "server_name": "store.sony.ca",
+        "reality": {
+          "enabled": true,
+          "public_key": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+          "short_id": "b1"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -37,7 +76,9 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_103.214.69.177_0"
+        "vless_195.26.26.56_0",
+        "vless_195.26.26.56_0",
+        "vless_195.26.26.56_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

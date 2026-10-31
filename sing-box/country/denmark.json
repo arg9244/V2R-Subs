@@ -13,14 +13,20 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_45.95.232.189_0",
-      "server": "45.95.232.189",
+      "tag": "vless_150.241.71.225_0",
+      "server": "150.241.71.225",
       "server_port": 0,
-      "type": "trojan",
-      "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
+      "type": "vless",
+      "uuid": "f9018277-8f50-4d15-8def-b3db9fa1e7a1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tr-switzerlandgopota.unlimited-access.ru",
+        "server_name": "unicast.censurfridns.dk",
+        "reality": {
+          "enabled": true,
+          "public_key": "EO9fp0qjUoVP2ogAsQZOHF_1cvLIo30ndyw_vYAjcj4",
+          "short_id": "1aa0c89639"
+        },
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -31,7 +37,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_45.95.232.189_0"
+        "vless_150.241.71.225_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

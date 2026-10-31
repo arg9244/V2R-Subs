@@ -158,6 +158,69 @@
       }
     },
     {
+      "tag": "trojan_104.16.148.5_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.148.5",
+        "port": 0,
+        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dimskiee.biz.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.153.182_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.153.182",
+        "port": 0,
+        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dimskiee.biz.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.153.182_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.153.182",
+        "port": 0,
+        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dimskiee.biz.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.18.153.182_0",
       "protocol": "trojan",
       "settings": {
@@ -326,25 +389,41 @@
       }
     },
     {
-      "tag": "vless_202.10.40.89_0",
+      "tag": "vless_172.233.43.5_0",
       "protocol": "vless",
       "settings": {
-        "address": "202.10.40.89",
+        "address": "172.233.43.5",
         "port": 0,
-        "id": "5a380395-9c91-4174-8330-475d1235ed61",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "id": "32413dda-504c-4906-b732-8ecaff901179",
+        "tls": "tls"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "amproject.my.id",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
-            "shortId": "5b4a12ef7e1694dd"
-          }
+          "serverName": "hiweb.my.id",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.233.43.5_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.233.43.5",
+        "port": 0,
+        "id": "32413dda-504c-4906-b732-8ecaff901179",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "hiweb.my.id",
+          "allowInsecure": false
         },
         "network": "raw"
       },
@@ -354,25 +433,19 @@
       }
     },
     {
-      "tag": "vless_202.10.40.89_0",
+      "tag": "vless_172.233.43.5_0",
       "protocol": "vless",
       "settings": {
-        "address": "202.10.40.89",
+        "address": "172.233.43.5",
         "port": 0,
-        "id": "5a380395-9c91-4174-8330-475d1235ed61",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "id": "32413dda-504c-4906-b732-8ecaff901179",
+        "tls": "tls"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "amproject.my.id",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
-            "shortId": "5b4a12ef7e1694dd"
-          }
+          "serverName": "hiweb.my.id",
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -741,6 +814,9 @@
           "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
           "trojan_138.124.30.8_0",
+          "trojan_104.16.148.5_0",
+          "trojan_104.18.153.182_0",
+          "trojan_104.18.153.182_0",
           "trojan_104.18.153.182_0",
           "trojan_193.180.211.52_0",
           "trojan_91.192.102.92_0",
@@ -749,8 +825,9 @@
           "trojan_104.21.72.109_0",
           "trojan_172.67.156.25_0",
           "trojan_172.67.181.173_0",
-          "vless_202.10.40.89_0",
-          "vless_202.10.40.89_0",
+          "vless_172.233.43.5_0",
+          "vless_172.233.43.5_0",
+          "vless_172.233.43.5_0",
           "vless_202.10.40.89_0",
           "vless_199.232.0.39_0",
           "vless_199.232.1.47_0",

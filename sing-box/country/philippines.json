@@ -13,9 +13,26 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_104.19.45.195_0",
+      "server": "104.19.45.195",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "pH%5B%5DS%5BBh:_%3AD6T4k",
+      "tls": {
+        "enabled": true,
+        "server_name": "AZaDneT-692.PagEs.DEv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
-      "outbounds": [],
+      "outbounds": [
+        "trojan_104.19.45.195_0"
+      ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,

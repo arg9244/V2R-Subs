@@ -13,41 +13,33 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_time.is_0",
+      "tag": "trojan_time.is_0",
       "server": "time.is",
       "server_port": 0,
-      "type": "vless",
-      "uuid": "3e1eed6a-ab4e-437b-aa49-f9578a008fee",
+      "type": "trojan",
+      "password": "22367c45-f6c4-4ca8-1d52-d9787d7bbe91",
       "tls": {
         "enabled": true,
-        "server_name": "rnus1.466688.xyz",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2",
-            "http/1.1",
-            "h3"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/secure-xhttp?tg@QiangLieTuiJian",
-        "headers": {
-          "Host": "rnus1.466688.xyz"
-        }
+        "server_name": "cm3-bpg.filegear-sg.me"
+      }
+    },
+    {
+      "tag": "trojan_time.is_0",
+      "server": "time.is",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "vip",
+      "tls": {
+        "enabled": true,
+        "server_name": "heihu880.pages.dev"
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_time.is_0"
+        "trojan_time.is_0",
+        "trojan_time.is_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

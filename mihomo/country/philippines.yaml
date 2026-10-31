@@ -9,11 +9,20 @@ dns:
   default-nameservers: [1.1.1.1, 8.8.8.8]
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
-proxies: []
+proxies:
+-     name: trojan_104.19.45.195_0
+      server: 104.19.45.195
+      port: 0
+      udp: true
+      type: trojan
+      password: "pH%5B%5DS%5BBh:_%3AD6T4k"
+      tls: true
+      servername: AZaDneT-692.PagEs.DEv
+      client-fingerprint: chrome
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: []
+      proxies: [trojan_104.19.45.195_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

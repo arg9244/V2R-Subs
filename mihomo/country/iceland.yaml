@@ -10,24 +10,26 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_time.is_0
+-     name: trojan_time.is_0
       server: time.is
       port: 0
       udp: true
-      type: vless
-      uuid: 3e1eed6a-ab4e-437b-aa49-f9578a008fee
+      type: trojan
+      password: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
       tls: true
-      servername: rnus1.466688.xyz
-      alpn: [h2, http/1.1, h3]
-      client-fingerprint: chrome
-      network: xhttp
-      xhttp-opts:
-        path: "/secure-xhttp?tg@QiangLieTuiJian"
-        host: rnus1.466688.xyz
+      servername: cm3-bpg.filegear-sg.me
+-     name: trojan_time.is_0
+      server: time.is
+      port: 0
+      udp: true
+      type: trojan
+      password: vip
+      tls: true
+      servername: heihu880.pages.dev
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_time.is_0]
+      proxies: [trojan_time.is_0, trojan_time.is_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

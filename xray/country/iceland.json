@@ -53,29 +53,41 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_time.is_0",
-      "protocol": "vless",
+      "tag": "trojan_time.is_0",
+      "protocol": "trojan",
       "settings": {
         "address": "time.is",
         "port": 0,
-        "id": "3e1eed6a-ab4e-437b-aa49-f9578a008fee",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.Ej6qiVXuHk3zJ8TYzROpyIPQbFMAL94-aS7wleMmYnY"
+        "password": "22367c45-f6c4-4ca8-1d52-d9787d7bbe91",
+        "level": 0
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "rnus1.466688.xyz",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1",
-              "h3"
-            ]
-          },
+          "serverName": "cm3-bpg.filegear-sg.me",
           "allowInsecure": false
-        },
-        "network": "xhttp"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_time.is_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "time.is",
+        "port": 0,
+        "password": "vip",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "heihu880.pages.dev",
+          "allowInsecure": false
+        }
       },
       "mux": {
         "enabled": true,
@@ -124,7 +136,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_time.is_0"
+          "trojan_time.is_0",
+          "trojan_time.is_0"
         ],
         "strategy": {
           "type": "leastPing",

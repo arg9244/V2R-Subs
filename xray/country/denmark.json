@@ -53,20 +53,27 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_45.95.232.189_0",
-      "protocol": "trojan",
+      "tag": "vless_150.241.71.225_0",
+      "protocol": "vless",
       "settings": {
-        "address": "45.95.232.189",
+        "address": "150.241.71.225",
         "port": 0,
-        "password": "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi",
-        "level": 0
+        "id": "f9018277-8f50-4d15-8def-b3db9fa1e7a1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "tr-switzerlandgopota.unlimited-access.ru",
-          "allowInsecure": false
-        }
+          "serverName": "unicast.censurfridns.dk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "EO9fp0qjUoVP2ogAsQZOHF_1cvLIo30ndyw_vYAjcj4",
+            "shortId": "1aa0c89639"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -115,7 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_45.95.232.189_0"
+          "vless_150.241.71.225_0"
         ],
         "strategy": {
           "type": "leastPing",

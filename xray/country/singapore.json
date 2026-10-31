@@ -53,27 +53,146 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_154.21.203.106_0",
-      "protocol": "vless",
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
       "settings": {
-        "address": "154.21.203.106",
+        "address": "www.visa.com.sg",
         "port": 0,
-        "id": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "password": "3aa78b49-5530-45a2-93cb-b093745824f1",
+        "level": 0
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "www.lamer.com.sg",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE",
-            "shortId": "9c3c0f8ec8b4af12"
-          }
-        },
-        "network": "tcp"
+          "serverName": "au4.yang-1989.xyz",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "3aa78b49-5530-45a2-93cb-b093745824f1",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au4.yang-1989.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "5b670b35-e96d-44d1-8bd8-6582f48e1c42",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au3.yang-1989.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "9d033eb1-22c7-4ae9-9d59-783e40c8eec3",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au5.yang-1989.xyz",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "9d033eb1-22c7-4ae9-9d59-783e40c8eec3",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au5.yang-1989.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "f7c5011b-84cc-45d4-a0b3-ce28be0f5807",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au1.yang-1989.xyz",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_www.visa.com.sg_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "password": "f7c5011b-84cc-45d4-a0b3-ce28be0f5807",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "au1.yang-1989.xyz",
+          "allowInsecure": false
+        }
       },
       "mux": {
         "enabled": true,
@@ -102,6 +221,27 @@
           }
         },
         "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_www.visa.com.sg_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "www.visa.com.sg",
+        "port": 0,
+        "id": "d8235de7-84c7-4454-b333-4d854c393929",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/pyip=ProxyIP.US.CMLiussss.net"
+        }
       },
       "mux": {
         "enabled": true,
@@ -150,8 +290,15 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
+          "trojan_www.visa.com.sg_0",
           "vless_154.21.203.106_0",
-          "vless_154.21.203.106_0"
+          "vless_www.visa.com.sg_0"
         ],
         "strategy": {
           "type": "leastPing",

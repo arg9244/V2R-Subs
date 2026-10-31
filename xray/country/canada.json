@@ -53,24 +53,76 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_103.214.69.177_0",
+      "tag": "vless_195.26.26.56_0",
       "protocol": "vless",
       "settings": {
-        "address": "103.214.69.177",
+        "address": "195.26.26.56",
         "port": 0,
-        "id": "92295a0d-b610-4075-85e9-bfab09ec6f3a",
+        "id": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.unb.ca",
+          "serverName": "store.sony.ca",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4",
-            "shortId": "654119f9d6f01dba"
+            "publicKey": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+            "shortId": "b1"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_195.26.26.56_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "195.26.26.56",
+        "port": 0,
+        "id": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "store.sony.ca",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+            "shortId": "b1"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_195.26.26.56_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "195.26.26.56",
+        "port": 0,
+        "id": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "store.sony.ca",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
+            "shortId": "b1"
           }
         },
         "network": "tcp"
@@ -122,7 +174,9 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_103.214.69.177_0"
+          "vless_195.26.26.56_0",
+          "vless_195.26.26.56_0",
+          "vless_195.26.26.56_0"
         ],
         "strategy": {
           "type": "leastPing",
