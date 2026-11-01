@@ -22,34 +22,10 @@ proxies:
       reality-opts:
         public-key: ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4
         short-id: b1
--     name: vless_195.26.26.56_0
-      server: 195.26.26.56
-      port: 0
-      udp: true
-      type: vless
-      uuid: 0c0b4387-f620-48fb-8ce1-9176a2b68bd7
-      tls: true
-      servername: store.sony.ca
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4
-        short-id: b1
--     name: vless_195.26.26.56_0
-      server: 195.26.26.56
-      port: 0
-      udp: true
-      type: vless
-      uuid: 0c0b4387-f620-48fb-8ce1-9176a2b68bd7
-      tls: true
-      servername: store.sony.ca
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4
-        short-id: b1
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_195.26.26.56_0, vless_195.26.26.56_0, vless_195.26.26.56_0]
+      proxies: [vless_195.26.26.56_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -80,59 +80,6 @@
       }
     },
     {
-      "tag": "vless_195.26.26.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "195.26.26.56",
-        "port": 0,
-        "id": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "store.sony.ca",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
-            "shortId": "b1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_195.26.26.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "195.26.26.56",
-        "port": 0,
-        "id": "0c0b4387-f620-48fb-8ce1-9176a2b68bd7",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "store.sony.ca",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4",
-            "shortId": "b1"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -174,8 +121,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_195.26.26.56_0",
-          "vless_195.26.26.56_0",
           "vless_195.26.26.56_0"
         ],
         "strategy": {

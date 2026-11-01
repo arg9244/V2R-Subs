@@ -105,33 +105,6 @@
       }
     },
     {
-      "tag": "vless_83.217.9.220_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "83.217.9.220",
-        "port": 0,
-        "id": "15c75de9a09149d0bf0393d855a98082",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "transfermarkt.com.tr",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU",
-            "shortId": "aabbccdd"
-          }
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_167.148.156.172_0",
       "protocol": "vless",
       "settings": {
@@ -150,6 +123,34 @@
             "publicKey": "KWZ8_wctsfsW_vURZto-YOre2VlFM4HS_duhfUU5UxI",
             "shortId": "0739285d"
           }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_194.32.214.87_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "194.32.214.87",
+        "port": 0,
+        "id": "27632004-774f-7914-1578-93f7f60244c0",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn3.cloudino.tr",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -260,6 +261,28 @@
           }
         },
         "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_cumhuriyet.com.tr_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "cumhuriyet.com.tr",
+        "port": 0,
+        "id": "6be4fd18-d9ad-4ea5-d517-da25914b7829",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480"
+        }
       },
       "mux": {
         "enabled": true,
@@ -766,12 +789,13 @@
         "selector": [
           "vless_162.159.136.234_0",
           "vless_194.76.18.253_0",
-          "vless_83.217.9.220_0",
           "vless_167.148.156.172_0",
+          "vless_194.32.214.87_0",
           "vless_1e2c.donyumvps.tr_0",
           "vless_2.28.12.136_0",
           "vless_219f.donyumvps.tr_0",
           "vless_2d72.donyumvps.tr_0",
+          "vless_cumhuriyet.com.tr_0",
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",
           "vless_84.38.187.169_0",

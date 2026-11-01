@@ -74,20 +74,29 @@
       }
     },
     {
-      "tag": "trojan_time.is_0",
-      "protocol": "trojan",
+      "tag": "vless_time.is_0",
+      "protocol": "vless",
       "settings": {
         "address": "time.is",
         "port": 0,
-        "password": "vip",
-        "level": 0
+        "id": "42717998-dcfd-4a63-80a8-70c5d88d2008",
+        "tls": "tls",
+        "encryption": "mlkem768x25519plus.native.0rtt.Ej6qiVXuHk3zJ8TYzROpyIPQbFMAL94-aS7wleMmYnY"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "heihu880.pages.dev",
+          "serverName": "rnus1.466688.xyz",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1",
+              "h3"
+            ]
+          },
           "allowInsecure": false
-        }
+        },
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -137,7 +146,7 @@
         "tag": "leastPing",
         "selector": [
           "trojan_time.is_0",
-          "trojan_time.is_0"
+          "vless_time.is_0"
         ],
         "strategy": {
           "type": "leastPing",

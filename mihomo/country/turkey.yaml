@@ -34,22 +34,6 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: 👨🚀Free👨🚀
--     name: vless_83.217.9.220_0
-      server: 83.217.9.220
-      port: 0
-      udp: true
-      type: vless
-      uuid: 15c75de9a09149d0bf0393d855a98082
-      tls: true
-      servername: transfermarkt.com.tr
-      client-fingerprint: random
-      reality-opts:
-        public-key: 88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU
-        short-id: aabbccdd
-      network: xhttp
-      xhttp-opts:
-        path: /x
-        host: ""
 -     name: vless_167.148.156.172_0
       server: 167.148.156.172
       port: 0
@@ -62,6 +46,16 @@ proxies:
       reality-opts:
         public-key: KWZ8_wctsfsW_vURZto-YOre2VlFM4HS_duhfUU5UxI
         short-id: 0739285d
+-     name: vless_194.32.214.87_0
+      server: 194.32.214.87
+      port: 0
+      udp: true
+      type: vless
+      uuid: 27632004-774f-7914-1578-93f7f60244c0
+      tls: true
+      servername: cdn3.cloudino.tr
+      alpn: [http/1.1]
+      client-fingerprint: chrome
 -     name: vless_1e2c.donyumvps.tr_0
       server: 1e2c.donyumvps.tr
       port: 0
@@ -110,6 +104,15 @@ proxies:
       reality-opts:
         public-key: 60sY2ikAsShBKbYL9Y083dvfslJKhdNPvb6tzqIsrjk
         short-id: 671cadfd
+-     name: vless_cumhuriyet.com.tr_0
+      server: cumhuriyet.com.tr
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6be4fd18-d9ad-4ea5-d517-da25914b7829
+      network: ws
+      ws-opts:
+        path: "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@unlimitedev----@unlimiteddev----@unlimiteddev?ed=2480"
 -     name: vless_84.38.187.169_0
       server: 84.38.187.169
       port: 0
@@ -356,7 +359,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_83.217.9.220_0, vless_167.148.156.172_0, vless_1e2c.donyumvps.tr_0, vless_2.28.12.136_0, vless_219f.donyumvps.tr_0, vless_2d72.donyumvps.tr_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_104.21.20.192_0]
+      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_167.148.156.172_0, vless_194.32.214.87_0, vless_1e2c.donyumvps.tr_0, vless_2.28.12.136_0, vless_219f.donyumvps.tr_0, vless_2d72.donyumvps.tr_0, vless_cumhuriyet.com.tr_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_84.38.187.169_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_104.21.20.192_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

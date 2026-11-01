@@ -17,15 +17,6 @@ proxies:
       type: trojan
       password: 3aa78b49-5530-45a2-93cb-b093745824f1
       tls: true
-      skip-cert-verify: true
-      servername: au4.yang-1989.xyz
--     name: trojan_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: trojan
-      password: 3aa78b49-5530-45a2-93cb-b093745824f1
-      tls: true
       servername: au4.yang-1989.xyz
 -     name: trojan_www.visa.com.sg_0
       server: www.visa.com.sg
@@ -42,25 +33,7 @@ proxies:
       type: trojan
       password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
       tls: true
-      skip-cert-verify: true
       servername: au5.yang-1989.xyz
--     name: trojan_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: trojan
-      password: 9d033eb1-22c7-4ae9-9d59-783e40c8eec3
-      tls: true
-      servername: au5.yang-1989.xyz
--     name: trojan_www.visa.com.sg_0
-      server: www.visa.com.sg
-      port: 0
-      udp: true
-      type: trojan
-      password: f7c5011b-84cc-45d4-a0b3-ce28be0f5807
-      tls: true
-      skip-cert-verify: true
-      servername: au1.yang-1989.xyz
 -     name: trojan_www.visa.com.sg_0
       server: www.visa.com.sg
       port: 0
@@ -94,7 +67,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, vless_154.21.203.106_0, vless_www.visa.com.sg_0]
+      proxies: [trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, trojan_www.visa.com.sg_0, vless_154.21.203.106_0, vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

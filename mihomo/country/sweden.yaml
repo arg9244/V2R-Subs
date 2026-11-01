@@ -19,10 +19,19 @@ proxies:
       network: ws
       ws-opts:
         path: /
+-     name: vless_104.18.26.94_0
+      server: 104.18.26.94
+      port: 0
+      udp: true
+      type: vless
+      uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
+      network: ws
+      ws-opts:
+        path: /
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.18.26.94_0]
+      proxies: [vless_104.18.26.94_0, vless_104.18.26.94_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

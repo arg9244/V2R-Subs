@@ -53,27 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_104.18.32.87_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.18.32.87",
-        "port": 0,
-        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "id1.nathaya.web.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "trojan_104.21.70.21_0",
       "protocol": "trojan",
       "settings": {
@@ -382,72 +361,6 @@
           "serverName": "vpn.stupidworld.web.id",
           "allowInsecure": false
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.233.43.5_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.233.43.5",
-        "port": 0,
-        "id": "32413dda-504c-4906-b732-8ecaff901179",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hiweb.my.id",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.233.43.5_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.233.43.5",
-        "port": 0,
-        "id": "32413dda-504c-4906-b732-8ecaff901179",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hiweb.my.id",
-          "allowInsecure": false
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_172.233.43.5_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.233.43.5",
-        "port": 0,
-        "id": "32413dda-504c-4906-b732-8ecaff901179",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hiweb.my.id",
-          "allowInsecure": false
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -809,7 +722,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_104.18.32.87_0",
           "trojan_104.21.70.21_0",
           "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
@@ -825,9 +737,6 @@
           "trojan_104.21.72.109_0",
           "trojan_172.67.156.25_0",
           "trojan_172.67.181.173_0",
-          "vless_172.233.43.5_0",
-          "vless_172.233.43.5_0",
-          "vless_172.233.43.5_0",
           "vless_202.10.40.89_0",
           "vless_199.232.0.39_0",
           "vless_199.232.1.47_0",

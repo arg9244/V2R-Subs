@@ -29,9 +29,26 @@
       }
     },
     {
+      "tag": "vless_104.18.26.94_0",
+      "server": "104.18.26.94",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_104.18.26.94_0",
         "vless_104.18.26.94_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
