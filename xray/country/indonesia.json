@@ -53,6 +53,27 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_104.18.32.87_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.32.87",
+        "port": 0,
+        "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "id1.nathaya.web.id",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.21.70.21_0",
       "protocol": "trojan",
       "settings": {
@@ -141,27 +162,6 @@
       "protocol": "trojan",
       "settings": {
         "address": "104.16.148.5",
-        "port": 0,
-        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "dimskiee.biz.id",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_104.18.153.182_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "104.18.153.182",
         "port": 0,
         "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
         "level": 0
@@ -361,33 +361,6 @@
           "serverName": "vpn.stupidworld.web.id",
           "allowInsecure": false
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_202.10.40.89_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "202.10.40.89",
-        "port": 0,
-        "id": "5a380395-9c91-4174-8330-475d1235ed61",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "amproject.my.id",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
-            "shortId": "5b4a12ef7e1694dd"
-          }
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -722,12 +695,12 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_104.18.32.87_0",
           "trojan_104.21.70.21_0",
           "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
           "trojan_138.124.30.8_0",
           "trojan_104.16.148.5_0",
-          "trojan_104.18.153.182_0",
           "trojan_104.18.153.182_0",
           "trojan_104.18.153.182_0",
           "trojan_193.180.211.52_0",
@@ -737,7 +710,6 @@
           "trojan_104.21.72.109_0",
           "trojan_172.67.156.25_0",
           "trojan_172.67.181.173_0",
-          "vless_202.10.40.89_0",
           "vless_199.232.0.39_0",
           "vless_199.232.1.47_0",
           "vless_104.26.1.108_0",

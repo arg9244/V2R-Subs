@@ -42,10 +42,9 @@ proxies:
       udp: true
       type: vless
       uuid: 6b566898-8416-4ac3-8b8f-66db059c462b
-      flow: xtls-rprx-vision
       tls: true
       servername: www.ru.nl
-      client-fingerprint: chrome
+      client-fingerprint: firefox
       reality-opts:
         public-key: drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U
         short-id: ""
@@ -57,33 +56,9 @@ proxies:
       uuid: 6b566898-8416-4ac3-8b8f-66db059c462b
       tls: true
       servername: www.ru.nl
-      client-fingerprint: chrome
--     name: vless_78.17.97.201_0
-      server: 78.17.97.201
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-      flow: xtls-rprx-vision
-      tls: true
-      servername: ozone.nl
-      client-fingerprint: firefox
       reality-opts:
-        public-key: Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM
-        short-id: 42df
--     name: vless_78.17.97.201_0
-      server: 78.17.97.201
-      port: 0
-      udp: true
-      type: vless
-      uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-      flow: xtls-rprx-vision
-      tls: true
-      servername: ozone.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: Jx7Z4PZ5DvGyEniIJhf6LwetaZ1_WDvPdpqtBDYOjyM
-        short-id: 42df
+        public-key: drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U
+        short-id: ""
 -     name: vless_172.66.47.67_0
       server: 172.66.47.67
       port: 0
@@ -111,49 +86,10 @@ proxies:
       reality-opts:
         public-key: tXT4qv4t7mKzWav_8e7eQdw9qhvoePARvGtvwDiiux4
         short-id: 99b8d353e73e0b27
--     name: vless_72.56.23.254_0
-      server: 72.56.23.254
-      port: 0
-      udp: true
-      type: vless
-      uuid: e769c1c2-f2b8-4006-bc84-0672c8368578
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.google.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: cpKcsAG-_0k5q8envXiiOoBzt53gxwVWEqg6uVKMNDk
-        short-id: fba996d8e3568d0d
--     name: vless_72.56.23.254_0
-      server: 72.56.23.254
-      port: 0
-      udp: true
-      type: vless
-      uuid: e769c1c2-f2b8-4006-bc84-0672c8368578
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.google.nl
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: cpKcsAG-_0k5q8envXiiOoBzt53gxwVWEqg6uVKMNDk
-        short-id: fba996d8e3568d0d
--     name: vless_72.56.23.254_0
-      server: 72.56.23.254
-      port: 0
-      udp: true
-      type: vless
-      uuid: e769c1c2-f2b8-4006-bc84-0672c8368578
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.google.nl
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: cpKcsAG-_0k5q8envXiiOoBzt53gxwVWEqg6uVKMNDk
-        short-id: fba996d8e3568d0d
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_107.161.175.107_0, vless_185.246.152.209_0, vless_78.17.53.142_0, vless_78.17.53.142_0, vless_78.17.97.201_0, vless_78.17.97.201_0, vless_172.66.47.67_0, vless_138.124.2.239_0, vless_72.56.23.254_0, vless_72.56.23.254_0, vless_72.56.23.254_0]
+      proxies: [vless_107.161.175.107_0, vless_185.246.152.209_0, vless_78.17.53.142_0, vless_78.17.53.142_0, vless_172.66.47.67_0, vless_138.124.2.239_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

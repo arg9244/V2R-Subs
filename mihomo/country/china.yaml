@@ -46,18 +46,6 @@ proxies:
       reality-opts:
         public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
         short-id: 06
--     name: vless_217.11.164.183_0
-      server: 217.11.164.183
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03b0a000-a9f1-4ced-8a13-00e807d8b998
-      tls: true
-      servername: www.apple.com.cn
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
-        short-id: 06
 -     name: vless_42.236.73.72_0
       server: 42.236.73.72
       port: 0
@@ -104,6 +92,45 @@ proxies:
       network: ws
       ws-opts:
         path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+      tls: true
+      servername: px2.5ibtc.cn
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+      network: ws
+      ws-opts:
+        path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+-     name: "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0"
+      server: "188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\""
+      port: 0
+      udp: true
+      type: vless
+      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+      tls: true
+      servername: px2.5ibtc.cn
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+      network: ws
+      ws-opts:
+        path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+-     name: vless_188.114.98.0_0
+      server: 188.114.98.0
+      port: 0
+      udp: true
+      type: vless
+      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+      tls: true
+      servername: px2.5ibtc.cn
+      alpn: [http/1.1]
+      client-fingerprint: unsafe
+      network: ws
+      ws-opts:
+        path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -119,7 +146,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.21.29.202_0, vless_104.21.29.202_0, vless_172.67.149.199_0, vless_104.19.152.87_0]
+      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.21.29.202_0, vless_104.21.29.202_0, vless_172.67.149.199_0, vless_188.114.98.0_0, "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0", vless_188.114.98.0_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

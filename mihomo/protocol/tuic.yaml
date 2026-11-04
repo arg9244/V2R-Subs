@@ -1,0 +1,41 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+ipv6: true
+dns:
+  enable: true
+  enhanced-mode: redir-host
+  default-nameservers: [1.1.1.1, 8.8.8.8]
+  nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
+  rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
+proxies:
+-     name: tuic_51.75.118.5_0
+      server: 51.75.118.5
+      port: 0
+      udp: true
+      type: tuic
+      uuid: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
+      password: 418ddc75-aa9c-4e5d-a9a3-82c50a5a02b6
+      congestion-controller: bbr
+      alpn: [h3]
+      sni: www.google.com
+      tls: true
+      servername: www.google.com
+proxy-groups:
+-     name: url-test
+      type: url-test
+      proxies: [tuic_51.75.118.5_0]
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      tolerance: 50
+      expected-status: 204
+rules: ["DOMAIN-KEYWORD,local,DIRECT", "DOMAIN-SUFFIX,localhost,DIRECT", "IP-CIDR,127.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,10.0.0.0/8,DIRECT,no-resolve", "IP-CIDR,172.16.0.0/12,DIRECT,no-resolve", "IP-CIDR,192.168.0.0/16,DIRECT,no-resolve", "IP-CIDR6,::1/128,DIRECT,no-resolve", "MATCH,url-test"]
+clash-api:
+  external-controller: "0.0.0.0:9090"
+  secret: ""
+external-controller: "0.0.0.0:9090"
+secret: ""
+ipv6-hint: false
+snell-address: []
+redir-host: true

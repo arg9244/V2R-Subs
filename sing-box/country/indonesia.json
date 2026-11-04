@@ -13,6 +13,17 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_104.18.32.87_0",
+      "server": "104.18.32.87",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "018b8e7b-7813-4dcb-84a5-3c98f1521e00",
+      "tls": {
+        "enabled": true,
+        "server_name": "id1.nathaya.web.id"
+      }
+    },
+    {
       "tag": "trojan_104.21.70.21_0",
       "server": "104.21.70.21",
       "server_port": 0,
@@ -68,18 +79,11 @@
       "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
       "tls": {
         "enabled": true,
-        "server_name": "dimskiee.biz.id"
-      }
-    },
-    {
-      "tag": "trojan_104.18.153.182_0",
-      "server": "104.18.153.182",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
-      "tls": {
-        "enabled": true,
-        "server_name": "dimskiee.biz.id"
+        "server_name": "dimskiee.biz.id",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -186,27 +190,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_202.10.40.89_0",
-      "server": "202.10.40.89",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5a380395-9c91-4174-8330-475d1235ed61",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amproject.my.id",
-        "reality": {
-          "enabled": true,
-          "public_key": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
-          "short_id": "5b4a12ef7e1694dd"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
         }
       }
     },
@@ -462,12 +445,12 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "trojan_104.18.32.87_0",
         "trojan_104.21.70.21_0",
         "trojan_188.114.97.6_0",
         "trojan_188.114.97.6_0",
         "trojan_138.124.30.8_0",
         "trojan_104.16.148.5_0",
-        "trojan_104.18.153.182_0",
         "trojan_104.18.153.182_0",
         "trojan_104.18.153.182_0",
         "trojan_193.180.211.52_0",
@@ -477,7 +460,6 @@
         "trojan_104.21.72.109_0",
         "trojan_172.67.156.25_0",
         "trojan_172.67.181.173_0",
-        "vless_202.10.40.89_0",
         "vless_199.232.0.39_0",
         "vless_199.232.1.47_0",
         "vless_104.26.1.108_0",

@@ -143,7 +143,7 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "newcscf.jisucf.cloudns.ch",
+          "serverName": "newcf.jisucf.cloudns.ch",
           "allowInsecure": false
         },
         "network": "ws",
@@ -1212,33 +1212,6 @@
       }
     },
     {
-      "tag": "vless_179.43.138.70_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.43.138.70",
-        "port": 0,
-        "id": "e69fd81c-c6f4-4998-afb8-42e771f2d978",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "ethz.ch",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "U682Pn1N94W72DLrimGwWyePnEeeceKC7LojBtvFgSs",
-            "shortId": "82ae"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -1323,8 +1296,7 @@
           "vless_172.66.44.97:443?path=/sg-melbi/=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0",
           "vless_172.66.44.97_0",
           "vless_208.103.161.32_0",
-          "vless_208.103.161.32_0",
-          "vless_179.43.138.70_0"
+          "vless_208.103.161.32_0"
         ],
         "strategy": {
           "type": "leastPing",
