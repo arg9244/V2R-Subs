@@ -34,18 +34,6 @@ proxies:
       reality-opts:
         public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
         short-id: 06
--     name: vless_217.11.164.183_0
-      server: 217.11.164.183
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03b0a000-a9f1-4ced-8a13-00e807d8b998
-      tls: true
-      servername: www.apple.com.cn
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU
-        short-id: 06
 -     name: vless_42.236.73.72_0
       server: 42.236.73.72
       port: 0
@@ -68,18 +56,6 @@ proxies:
       network: ws
       ws-opts:
         path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
--     name: vless_104.21.29.202_0
-      server: 104.21.29.202
-      port: 0
-      udp: true
-      type: vless
-      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-      tls: true
-      servername: px2.5ibtc.cn
-      client-fingerprint: chrome
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_172.67.149.199_0
       server: 172.67.149.199
       port: 0
@@ -92,6 +68,18 @@ proxies:
       network: ws
       ws-opts:
         path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+-     name: vless_172.67.149.199_0
+      server: 172.67.149.199
+      port: 0
+      udp: true
+      type: vless
+      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+      tls: true
+      servername: px2.5ibtc.cn
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_188.114.98.0_0
       server: 188.114.98.0
       port: 0
@@ -105,19 +93,6 @@ proxies:
       network: ws
       ws-opts:
         path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
--     name: "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0"
-      server: "188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\""
-      port: 0
-      udp: true
-      type: vless
-      uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-      tls: true
-      servername: px2.5ibtc.cn
-      alpn: [http/1.1]
-      client-fingerprint: unsafe
-      network: ws
-      ws-opts:
-        path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
 -     name: vless_188.114.98.0_0
       server: 188.114.98.0
       port: 0
@@ -131,6 +106,31 @@ proxies:
       network: ws
       ws-opts:
         path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      skip-cert-verify: true
+      servername: yingguo.rymaker.cn
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      servername: yingguo.rymaker.cn
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -143,10 +143,36 @@ proxies:
       network: ws
       ws-opts:
         path: /db1024113a787392
+-     name: vless_142.91.109.11_0
+      server: 142.91.109.11
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8cf80f7-e24b-4961-91f6-77d494bcbdab
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.apple.com.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: b6ndQ_P82h5fxP4fQkArf8hxVK3gsOTmwLeIPhLBPh4
+        short-id: 9a79ee418c7c1fc3
+-     name: vless_154.85.19.50_0
+      server: 154.85.19.50
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8cf80f7-e24b-4961-91f6-77d494bcbdab
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.apple.com.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 2lNjLBk8RkAQ23COw1w_kcii_1SJTfT34G3Wn5HU2Ak
+        short-id: 849d268eb0c43243
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.21.29.202_0, vless_104.21.29.202_0, vless_172.67.149.199_0, vless_188.114.98.0_0, "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0", vless_188.114.98.0_0, vless_104.19.152.87_0]
+      proxies: [vless_217.11.164.183_0, vless_217.11.164.183_0, vless_42.236.73.72_0, vless_104.21.29.202_0, vless_172.67.149.199_0, vless_172.67.149.199_0, vless_188.114.98.0_0, vless_188.114.98.0_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_104.19.152.87_0, vless_142.91.109.11_0, vless_154.85.19.50_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

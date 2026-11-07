@@ -10,16 +10,14 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: hys_45.192.12.83_0
-      server: 45.192.12.83
+-     name: hys_201.58.187.25_0
+      server: 201.58.187.25
       port: 0
       udp: true
       type: hysteria2
-      password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+      password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
       sni: nl1.obxodvpn.us
-      insecure: true
       tls: true
-      skip-cert-verify: true
       servername: nl1.obxodvpn.us
 -     name: vless_69.48.201.136_0
       server: 69.48.201.136
@@ -30,8 +28,8 @@ proxies:
       network: ws
       ws-opts:
         path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
+-     name: vless_uspanel.unixzone.us_0
+      server: uspanel.unixzone.us
       port: 0
       udp: true
       type: vless
@@ -39,51 +37,6 @@ proxies:
       network: ws
       ws-opts:
         path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /usserver
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /
--     name: vless_69.48.201.136_0
-      server: 69.48.201.136
-      port: 0
-      udp: true
-      type: vless
-      uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_172.67.132.41_0
       server: 172.67.132.41
       port: 0
@@ -96,6 +49,48 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
+-     name: vless_news.zoom.us_0
+      server: news.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
+      tls: true
+      servername: free.vkehi.store
+      alpn: [http/1.1]
+      network: ws
+      ws-opts:
+        path: "/fp=chrome"
+-     name: vless_news.zoom.us_0
+      server: news.zoom.us
+      port: 0
+      udp: true
+      type: vless
+      uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+      tls: true
+      servername: u.srilankangrill.online
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_84.235.244.108_0
+      server: 84.235.244.108
+      port: 0
+      udp: true
+      type: vless
+      uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+      network: ws
+      ws-opts:
+        path: /
 -     name: vless_104.21.4.8_0
       server: 104.21.4.8
       port: 0
@@ -154,270 +149,10 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2048"
--     name: vless_support.zoom.us_0
-      server: support.zoom.us
-      port: 0
-      udp: true
-      type: vless
-      uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-      tls: true
-      servername: primelinelk.me
-      client-fingerprint: qq
-      network: ws
-      ws-opts:
-        path: /xprolk-primeline
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      alpn: [h2]
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      alpn: [h2]
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: random
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      alpn: [h2]
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: random
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: random
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: random
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
--     name: vless_172.237.88.103_0
-      server: 172.237.88.103
-      port: 0
-      udp: true
-      type: vless
-      uuid: efd11a89-7506-44ce-95b6-6654859f155b
-      flow: xtls-rprx-vision
-      tls: true
-      servername: zoom.us
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI
-        short-id: 5a42dbd7e26a0415
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [hys_45.192.12.83_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_69.48.201.136_0, vless_172.67.132.41_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_support.zoom.us_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0, vless_172.237.88.103_0]
+      proxies: [hys_201.58.187.25_0, vless_69.48.201.136_0, vless_uspanel.unixzone.us_0, vless_172.67.132.41_0, vless_news.zoom.us_0, vless_news.zoom.us_0, vless_84.235.244.108_0, vless_84.235.244.108_0, vless_104.21.4.8_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0, vless_104.21.12.150_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

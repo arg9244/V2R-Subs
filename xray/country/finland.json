@@ -120,33 +120,6 @@
             "publicKey": "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
           }
         },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_217.144.188.185_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "217.144.188.185",
-        "port": 0,
-        "id": "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.nordea.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-          }
-        },
         "network": "tcp"
       },
       "mux": {
@@ -219,93 +192,10 @@
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
           "serverName": "www.nordea.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_217.144.188.185_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "217.144.188.185",
-        "port": 0,
-        "id": "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.nordea.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_217.144.188.185_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "217.144.188.185",
-        "port": 0,
-        "id": "8d954cbe-7ca9-402d-bfaf-aca6c92c04c3",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.nordea.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "_ZRqqX7UVPTq--m8Lk8YHhrfElad2dIIpTh3D59f8zk"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_179.255.186.182_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.255.186.182",
-        "port": 0,
-        "id": "8df28c55-5c2e-48ab-84aa-24c7a4530115",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "kookas.fi",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
-            "shortId": "43dcff53849b81e6"
-          }
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -361,11 +251,7 @@
           "vless_217.144.188.185_0",
           "vless_217.144.188.185_0",
           "vless_217.144.188.185_0",
-          "vless_217.144.188.185_0",
-          "vless_217.144.188.185_0",
-          "vless_217.144.188.185_0",
-          "vless_217.144.188.185_0",
-          "vless_179.255.186.182_0"
+          "vless_217.144.188.185_0"
         ],
         "strategy": {
           "type": "leastPing",

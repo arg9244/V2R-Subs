@@ -46,10 +46,75 @@ proxies:
       tls: true
       servername: www.lmt.lv
       client-fingerprint: firefox
+-     name: vless_31.76.62.158_0
+      server: 31.76.62.158
+      port: 0
+      udp: true
+      type: vless
+      uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.maxima.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: q97mUwRiZeygHgoRa6PJHDamhGS5lrMMB0zh6qFY6gk
+        short-id: ""
+-     name: vless_31.76.83.1_0
+      server: 31.76.83.1
+      port: 0
+      udp: true
+      type: vless
+      uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.rimi.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU
+        short-id: ""
+-     name: vless_31.76.83.1_0
+      server: 31.76.83.1
+      port: 0
+      udp: true
+      type: vless
+      uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.rimi.lv
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU
+        short-id: ""
+-     name: vless_31.76.83.1_0
+      server: 31.76.83.1
+      port: 0
+      udp: true
+      type: vless
+      uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.rimi.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU
+        short-id: ""
+-     name: vless_31.76.83.1_0
+      server: 31.76.83.1
+      port: 0
+      udp: true
+      type: vless
+      uuid: caedb3a1-6395-40b9-a9a8-4b9694eb224a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.rimi.lv
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: 0ucabP76F6UHGAAoi73bxlt6ugwqoRDoLAW5n39pezU
+        short-id: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_31.57.106.241_0, vless_31.57.106.241_0, vless_31.57.106.241_0]
+      proxies: [vless_31.57.106.241_0, vless_31.57.106.241_0, vless_31.57.106.241_0, vless_31.76.62.158_0, vless_31.76.83.1_0, vless_31.76.83.1_0, vless_31.76.83.1_0, vless_31.76.83.1_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -53,34 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_107.161.175.107_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "107.161.175.107",
-        "port": 0,
-        "id": "19fa78ee-a288-42b8-a4aa-6d5562f0eac8",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.flexwebhosting.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "hrH83gh613E5NHE5CEkUWMorPMBzUw0S52xNVaUTHg0",
-            "shortId": "45523710b488"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_185.246.152.209_0",
       "protocol": "vless",
       "settings": {
@@ -98,58 +70,6 @@
           "allowInsecure": false,
           "reality": {
             "publicKey": "BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_78.17.53.142_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "78.17.53.142",
-        "port": 0,
-        "id": "6b566898-8416-4ac3-8b8f-66db059c462b",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.ru.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_78.17.53.142_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "78.17.53.142",
-        "port": 0,
-        "id": "6b566898-8416-4ac3-8b8f-66db059c462b",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.ru.nl",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U"
           }
         },
         "network": "tcp"
@@ -219,6 +139,33 @@
       }
     },
     {
+      "tag": "vless_84.32.98.27_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.98.27",
+        "port": 0,
+        "id": "f5a915e2-de2c-4939-97c2-9926c4f55719",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.ing.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc",
+            "shortId": "4ea6a183"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -260,12 +207,10 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_107.161.175.107_0",
           "vless_185.246.152.209_0",
-          "vless_78.17.53.142_0",
-          "vless_78.17.53.142_0",
           "vless_172.66.47.67_0",
-          "vless_138.124.2.239_0"
+          "vless_138.124.2.239_0",
+          "vless_84.32.98.27_0"
         ],
         "strategy": {
           "type": "leastPing",

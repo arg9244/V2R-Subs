@@ -53,26 +53,6 @@
       }
     },
     {
-      "tag": "vless_217.11.164.183_0",
-      "server": "217.11.164.183",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "03b0a000-a9f1-4ced-8a13-00e807d8b998",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com.cn",
-        "reality": {
-          "enabled": true,
-          "public_key": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
-          "short_id": "06"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "vless_42.236.73.72_0",
       "server": "42.236.73.72",
       "server_port": 0,
@@ -118,30 +98,6 @@
       }
     },
     {
-      "tag": "vless_104.21.29.202_0",
-      "server": "104.21.29.202",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
-      "tls": {
-        "enabled": true,
-        "server_name": "px2.5ibtc.cn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_172.67.149.199_0",
       "server": "172.67.149.199",
       "server_port": 0,
@@ -166,58 +122,22 @@
       }
     },
     {
-      "tag": "vless_188.114.98.0_0",
-      "server": "188.114.98.0",
+      "tag": "vless_172.67.149.199_0",
+      "server": "172.67.149.199",
       "server_port": 0,
       "type": "vless",
       "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
       "tls": {
         "enabled": true,
         "server_name": "px2.5ibtc.cn",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
         "utls": {
           "enabled": true,
-          "fingerprint": "unsafe"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0",
-      "server": "188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
-      "tls": {
-        "enabled": true,
-        "server_name": "px2.5ibtc.cn",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -248,6 +168,85 @@
       "transport": {
         "type": "ws",
         "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_188.114.98.0_0",
+      "server": "188.114.98.0",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+      "tls": {
+        "enabled": true,
+        "server_name": "px2.5ibtc.cn",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "http/1.1"
+          ]
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "server": "34.39.80.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "yingguo.rymaker.cn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "server": "34.39.80.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+      "tls": {
+        "enabled": true,
+        "server_name": "yingguo.rymaker.cn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -280,20 +279,64 @@
       }
     },
     {
+      "tag": "vless_142.91.109.11_0",
+      "server": "142.91.109.11",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d8cf80f7-e24b-4961-91f6-77d494bcbdab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com.cn",
+        "reality": {
+          "enabled": true,
+          "public_key": "b6ndQ_P82h5fxP4fQkArf8hxVK3gsOTmwLeIPhLBPh4",
+          "short_id": "9a79ee418c7c1fc3"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_154.85.19.50_0",
+      "server": "154.85.19.50",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d8cf80f7-e24b-4961-91f6-77d494bcbdab",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com.cn",
+        "reality": {
+          "enabled": true,
+          "public_key": "2lNjLBk8RkAQ23COw1w_kcii_1SJTfT34G3Wn5HU2Ak",
+          "short_id": "849d268eb0c43243"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_217.11.164.183_0",
         "vless_217.11.164.183_0",
-        "vless_217.11.164.183_0",
         "vless_42.236.73.72_0",
         "vless_104.21.29.202_0",
-        "vless_104.21.29.202_0",
+        "vless_172.67.149.199_0",
         "vless_172.67.149.199_0",
         "vless_188.114.98.0_0",
-        "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0",
         "vless_188.114.98.0_0",
-        "vless_104.19.152.87_0"
+        "vless_34.39.80.57_0",
+        "vless_34.39.80.57_0",
+        "vless_104.19.152.87_0",
+        "vless_142.91.109.11_0",
+        "vless_154.85.19.50_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -107,32 +107,6 @@
       }
     },
     {
-      "tag": "vless_217.11.164.183_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "217.11.164.183",
-        "port": 0,
-        "id": "03b0a000-a9f1-4ced-8a13-00e807d8b998",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.apple.com.cn",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "bWIOrQAqUWCrz6BGdwaG42xaV-HEo8sUdGqVktUh0XU",
-            "shortId": "06"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_42.236.73.72_0",
       "protocol": "vless",
       "settings": {
@@ -186,31 +160,6 @@
       }
     },
     {
-      "tag": "vless_104.21.29.202_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.21.29.202",
-        "port": 0,
-        "id": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "px2.5ibtc.cn",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_172.67.149.199_0",
       "protocol": "vless",
       "settings": {
@@ -236,29 +185,23 @@
       }
     },
     {
-      "tag": "vless_188.114.98.0_0",
+      "tag": "vless_172.67.149.199_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.114.98.0",
+        "address": "172.67.149.199",
         "port": 0,
         "id": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
-        "tls": "tls",
-        "encryption": "none"
+        "tls": "tls"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
           "serverName": "px2.5ibtc.cn",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+          "path": "/"
         }
       },
       "mux": {
@@ -267,10 +210,10 @@
       }
     },
     {
-      "tag": "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0",
+      "tag": "vless_188.114.98.0_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"",
+        "address": "188.114.98.0",
         "port": 0,
         "id": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
         "tls": "tls",
@@ -320,6 +263,56 @@
         "network": "ws",
         "wsSettings": {
           "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "34.39.80.57",
+        "port": 0,
+        "id": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "yingguo.rymaker.cn",
+          "allowInsecure": true
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "34.39.80.57",
+        "port": 0,
+        "id": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "yingguo.rymaker.cn",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
         }
       },
       "mux": {
@@ -347,6 +340,60 @@
         "wsSettings": {
           "path": "/db1024113a787392"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_142.91.109.11_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "142.91.109.11",
+        "port": 0,
+        "id": "d8cf80f7-e24b-4961-91f6-77d494bcbdab",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.apple.com.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "b6ndQ_P82h5fxP4fQkArf8hxVK3gsOTmwLeIPhLBPh4",
+            "shortId": "9a79ee418c7c1fc3"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_154.85.19.50_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "154.85.19.50",
+        "port": 0,
+        "id": "d8cf80f7-e24b-4961-91f6-77d494bcbdab",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.apple.com.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "2lNjLBk8RkAQ23COw1w_kcii_1SJTfT34G3Wn5HU2Ak",
+            "shortId": "849d268eb0c43243"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -397,15 +444,17 @@
         "selector": [
           "vless_217.11.164.183_0",
           "vless_217.11.164.183_0",
-          "vless_217.11.164.183_0",
           "vless_42.236.73.72_0",
           "vless_104.21.29.202_0",
-          "vless_104.21.29.202_0",
+          "vless_172.67.149.199_0",
           "vless_172.67.149.199_0",
           "vless_188.114.98.0_0",
-          "vless_188.114.98.0:443?path=/326227e2-f2d1-4f43-8715-9da854f5f4c0&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\": [{\"type\": \"fragment\", \"settings\": {\"packets\": \"tlshello\", \"lengths\": [\"0\", \"104\", \"1\"], \"delays\": [\"0\"], \"maxSplit\": \"0\"}},{\"type\": \"fragment\", \"settings\": {\"packets\": \"1-1\", \"lengths\": [\"114\", \"1\"], \"delays\": [\"1\"], \"maxSplit\"_0",
           "vless_188.114.98.0_0",
-          "vless_104.19.152.87_0"
+          "vless_34.39.80.57_0",
+          "vless_34.39.80.57_0",
+          "vless_104.19.152.87_0",
+          "vless_142.91.109.11_0",
+          "vless_154.85.19.50_0"
         ],
         "strategy": {
           "type": "leastPing",
