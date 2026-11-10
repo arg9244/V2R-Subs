@@ -44,6 +44,46 @@
       }
     },
     {
+      "tag": "vless_85.234.100.186_0",
+      "server": "85.234.100.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "71e095f8-29e8-4ac3-ad6c-cc888b08d540",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "preview.redd.it",
+        "reality": {
+          "enabled": true,
+          "public_key": "Xbd0JeKM6WsUITbELeeCEmQLl-4Sw_A-JQuzDBEco2M"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_85.234.100.186_0",
+      "server": "85.234.100.186",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "71e095f8-29e8-4ac3-ad6c-cc888b08d540",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "preview.redd.it",
+        "reality": {
+          "enabled": true,
+          "public_key": "Xbd0JeKM6WsUITbELeeCEmQLl-4Sw_A-JQuzDBEco2M"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "vless_151.101.129.140_0",
       "server": "151.101.129.140",
       "server_port": 0,
@@ -79,6 +119,8 @@
       "type": "urltest",
       "outbounds": [
         "vless_151.101.65.140_0",
+        "vless_85.234.100.186_0",
+        "vless_85.234.100.186_0",
         "vless_151.101.129.140_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

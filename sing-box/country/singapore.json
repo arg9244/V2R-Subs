@@ -34,10 +34,71 @@
       }
     },
     {
+      "tag": "vless_23.95.72.244_0",
+      "server": "23.95.72.244",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aboutamazon.sg",
+        "reality": {
+          "enabled": true,
+          "public_key": "qeuzgTUkTLMVZZ3AclsA1_Qn_xX9NFDzuNzJnotcMWY",
+          "short_id": "e718c0495c85dab2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_23.95.72.244_0",
+      "server": "23.95.72.244",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aboutamazon.sg",
+        "reality": {
+          "enabled": true,
+          "public_key": "qeuzgTUkTLMVZZ3AclsA1_Qn_xX9NFDzuNzJnotcMWY",
+          "short_id": "e718c0495c85dab2"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "vless_www.visa.com.sg_0",
+      "server": "www.visa.com.sg",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d8235de7-84c7-4454-b333-4d854c393929",
+      "transport": {
+        "type": "ws",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_154.21.203.106_0"
+        "vless_154.21.203.106_0",
+        "vless_23.95.72.244_0",
+        "vless_23.95.72.244_0",
+        "vless_www.visa.com.sg_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

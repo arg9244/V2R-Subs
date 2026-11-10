@@ -172,6 +172,87 @@
       }
     },
     {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "02a441e1-47ed-4c5c-bb4e-cf44b6f824a3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "02a441e1-47ed-4c5c-bb4e-cf44b6f824a3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "02a441e1-47ed-4c5c-bb4e-cf44b6f824a3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.17.121.71_0",
       "protocol": "vless",
       "settings": {
@@ -334,31 +415,22 @@
       }
     },
     {
-      "tag": "vless_104.17.121.253_0",
+      "tag": "vless_196.196.203.13:443?encryption=none&type=xhttp&security=tls&sni=0d81b209.ferrin.uk&fp=chrome&mode=stream-one&extra=%7B%22xmux%22:%7B%22maxConnections%22:%221%22,%22maxReuseTimes%22_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.17.121.253",
+        "address": "196.196.203.13:443?encryption=none&type=xhttp&security=tls&sni=0d81b209.ferrin.uk&fp=chrome&mode=stream-one&extra=%7B%22xmux%22:%7B%22maxConnections%22:%221%22,%22maxReuseTimes%22",
         "port": 0,
-        "id": "10be524f-e1dc-4d1c-a256-17df1399a739",
+        "id": "0d81b209-0722-4b32-9163-542f54ba56ed",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
+          "serverName": "0d81b209.ferrin.uk",
           "allowInsecure": false
         },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net"
-        }
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -398,6 +470,38 @@
       }
     },
     {
+      "tag": "vless_104.17.121.253_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.121.253",
+        "port": 0,
+        "id": "10be524f-e1dc-4d1c-a256-17df1399a739",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "loVELY-bATtLeNn9IH0SniS.WInDlER.Co.Uk",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.32.47_0",
       "protocol": "vless",
       "settings": {
@@ -519,34 +623,6 @@
         "grpcSettings": {
           "serviceName": "donya-e-eqtesad.com.fararu.com.alef.ir.hamshahrionline.ir.khabaronline.ir.asriran.com.alalamtv.net"
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_212.64.210.109_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "212.64.210.109",
-        "port": 0,
-        "id": "10cb2689-72fc-418d-8d21-cf625e558bec",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "tr.responsiblecare.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg",
-            "shortId": "c324fdcf18f3390e"
-          }
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -732,107 +808,6 @@
       }
     },
     {
-      "tag": "vless_23.227.38.86_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "23.227.38.86",
-        "port": 0,
-        "id": "2c366360-0333-4738-9423-6d5b378e3594",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "uud01.gg9901.uk",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_77.232.135.141_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "77.232.135.141",
-        "port": 0,
-        "id": "36cf792c-f07d-4500-97ea-a395e5178deb",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru1.radiolumens.uk",
-          "allowInsecure": false
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "beru-pl"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_77.232.135.141_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "77.232.135.141",
-        "port": 0,
-        "id": "36cf792c-f07d-4500-97ea-a395e5178deb",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru1.radiolumens.uk",
-          "allowInsecure": false
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "beru-pl"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_77.232.135.141_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "77.232.135.141",
-        "port": 0,
-        "id": "36cf792c-f07d-4500-97ea-a395e5178deb",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ru1.radiolumens.uk",
-          "allowInsecure": false
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "beru-pl"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_188.116.27.6_0",
       "protocol": "vless",
       "settings": {
@@ -945,18 +920,129 @@
       }
     },
     {
-      "tag": "vless_157.22.240.159_0",
+      "tag": "vless_188.116.27.6_0",
       "protocol": "vless",
       "settings": {
-        "address": "157.22.240.159",
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.86.86.21_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.86.86.21",
         "port": 0,
         "id": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
-        "tls": "tls"
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "alb.play-cat.uk",
+          "serverName": "us2.qik-fin.uk",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.86.86.21_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.86.86.21",
+        "port": 0,
+        "id": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "us2.qik-fin.uk",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.86.86.21_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.86.86.21",
+        "port": 0,
+        "id": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "us2.qik-fin.uk",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
           "allowInsecure": false
         },
         "network": "xhttp"
@@ -979,67 +1065,14 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "us2.qik-fin.uk",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
           "allowInsecure": false
         },
         "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_143.246.215.89_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "143.246.215.89",
-        "port": 0,
-        "id": "3d78373f-bdbd-428a-9b83-aea64264bf4e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "usanse.gamescloud.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "qS2UEMU1McVr90QCtTkkJ2m_6pXrxLHOHbr18XqcfHc",
-            "shortId": "3870f8c5ac529149"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_176.116.0.110_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "176.116.0.110",
-        "port": 0,
-        "id": "3d78373f-bdbd-428a-9b83-aea64264bf4e",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "hostex.vps-cloud.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "7ze1GgkGHDN__UL7u-kAEBtcI-Ojw_pzBx12HqOFhAU",
-            "shortId": "2d40fd0658427ac5"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel"
-        }
       },
       "mux": {
         "enabled": true,
@@ -1141,10 +1174,68 @@
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
           "serverName": "www.sony.co.uk",
-          "allowInsecure": false
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "407d047a-d9b4-41f3-8a02-ebc53854efca",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "407d047a-d9b4-41f3-8a02-ebc53854efca",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
         },
         "network": "tcp"
       },
@@ -1199,6 +1290,60 @@
         "wsSettings": {
           "path": "/"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_8.6.112.0_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "8.6.112.0",
+        "port": 0,
+        "id": "427d85cd-a2a8-4668-8118-0d43d2d57f77",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "asmaos.uk",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.159.10.78_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.159.10.78",
+        "port": 0,
+        "id": "43488128-319e-f480-64ea-0acdc712e2a8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.vodafone.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc",
+            "shortId": "d27683580fc15f1e"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -1440,8 +1585,61 @@
         "port": 0,
         "id": "441caaf2-aae6-4883-8af9-1e5770395ae8",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "441caaf2-aae6-4883-8af9-1e5770395ae8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "441caaf2-aae6-4883-8af9-1e5770395ae8",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -1498,6 +1696,87 @@
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "45c02942-9e3a-4dfd-8042-4f6f83207824",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "45c02942-9e3a-4dfd-8042-4f6f83207824",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "45c02942-9e3a-4dfd-8042-4f6f83207824",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -1945,6 +2224,87 @@
       }
     },
     {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "5f387ecb-781c-4256-8111-142ca3f31ab7",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "5f387ecb-781c-4256-8111-142ca3f31ab7",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "5f387ecb-781c-4256-8111-142ca3f31ab7",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.32.47_0",
       "protocol": "vless",
       "settings": {
@@ -2002,6 +2362,97 @@
         "grpcSettings": {
           "serviceName": "parstoday.com.alef.ir.iribnews.ir.hamshahrionline.ir.alalamtv.net.kayhan.ir.irannewsdaily.com"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.248.149.50_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.248.149.50",
+        "port": 0,
+        "id": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "base.hosamobenl.co.uk",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.248.149.50_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.248.149.50",
+        "port": 0,
+        "id": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "base.hosamobenl.co.uk",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.248.149.50_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.248.149.50",
+        "port": 0,
+        "id": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "base.hosamobenl.co.uk",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.248.149.50_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.248.149.50",
+        "port": 0,
+        "id": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "base.hosamobenl.co.uk",
+          "allowInsecure": false
+        },
+        "network": "raw"
       },
       "mux": {
         "enabled": true,
@@ -2253,79 +2704,6 @@
       }
     },
     {
-      "tag": "vless_87.120.126.49_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "87.120.126.49",
-        "port": 0,
-        "id": "76ef5ab3-7075-4e23-b445-f3b1bd05d431",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "gers.connect-qik.uk",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_87.120.126.49_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "87.120.126.49",
-        "port": 0,
-        "id": "76ef5ab3-7075-4e23-b445-f3b1bd05d431",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "gers.connect-qik.uk",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.103.2.55_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.103.2.55",
-        "port": 0,
-        "id": "76ef5ab3-7075-4e23-b445-f3b1bd05d431",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rus.play-cat.uk",
-          "allowInsecure": false
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "assets"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_80.66.78.227_0",
       "protocol": "vless",
       "settings": {
@@ -2553,26 +2931,91 @@
       }
     },
     {
-      "tag": "vless_50.7.42.43_0",
+      "tag": "vless_84.32.108.4_0",
       "protocol": "vless",
       "settings": {
-        "address": "50.7.42.43",
+        "address": "84.32.108.4",
         "port": 0,
-        "id": "7af8ad56-33ce-4f3d-ad15-ef32a71d67f7",
+        "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
         "tls": "tls",
-        "flow": "xtls-rprx-vision"
+        "encryption": "none"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "cdnportu.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "9RfJDCFKCykiqgKvUggHX9CtzaOIADK-cZcSKdo1ITw",
-            "shortId": "8fbee7b12cdb537a"
-          }
+          "serverName": "7d1a74fd.ferrin.uk",
+          "allowInsecure": false
         },
-        "network": "tcp"
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_84.32.108.4_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.108.4",
+        "port": 0,
+        "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "7d1a74fd.ferrin.uk",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_84.32.108.4_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.108.4",
+        "port": 0,
+        "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "7d1a74fd.ferrin.uk",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_84.32.108.4_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "84.32.108.4",
+        "port": 0,
+        "id": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "7d1a74fd.ferrin.uk",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -2636,105 +3079,23 @@
       }
     },
     {
-      "tag": "vless_104.194.144.122_0",
+      "tag": "vless_188.116.27.6_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.194.144.122",
+        "address": "188.116.27.6",
         "port": 0,
-        "id": "8301bf90-8c37-45c8-9e74-442ea11737e5",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "suffolkprimarycare.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZsPMlk9GJQhNvKUfzqcTAUKBa_A_XvoSGuP8M_eIyRo",
-            "shortId": "9ebddbd6ffb1a830"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.194.144.122_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.194.144.122",
-        "port": 0,
-        "id": "8301bf90-8c37-45c8-9e74-442ea11737e5",
+        "id": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "suffolkprimarycare.uk",
+          "serverName": "www.sony.co.uk",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "ZsPMlk9GJQhNvKUfzqcTAUKBa_A_XvoSGuP8M_eIyRo",
-            "shortId": "9ebddbd6ffb1a830"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.194.144.122_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.194.144.122",
-        "port": 0,
-        "id": "8301bf90-8c37-45c8-9e74-442ea11737e5",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "suffolkprimarycare.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZsPMlk9GJQhNvKUfzqcTAUKBa_A_XvoSGuP8M_eIyRo",
-            "shortId": "9ebddbd6ffb1a830"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.194.144.122_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.194.144.122",
-        "port": 0,
-        "id": "8301bf90-8c37-45c8-9e74-442ea11737e5",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "suffolkprimarycare.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "ZsPMlk9GJQhNvKUfzqcTAUKBa_A_XvoSGuP8M_eIyRo",
-            "shortId": "9ebddbd6ffb1a830"
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
           }
         },
         "network": "tcp"
@@ -3232,6 +3593,33 @@
       }
     },
     {
+      "tag": "vless_23.95.72.244_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "23.95.72.244",
+        "port": 0,
+        "id": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "business.amazon.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "E6XD__G0KCmX1LibW4qwafvYXID5zci_bcwKueuhEA8",
+            "shortId": "807c3fa325465508"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_91.103.140.11_0",
       "protocol": "vless",
       "settings": {
@@ -3351,6 +3739,60 @@
         "tls": "tls",
         "flow": "xtls-rprx-vision",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "a4a03a70-47c1-4c5f-89d6-dd9d3d2c5ada",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "a4a03a70-47c1-4c5f-89d6-dd9d3d2c5ada",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -3825,25 +4267,43 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
+      "tag": "vless_87.120.126.43_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.116.27.6",
+        "address": "87.120.126.43",
         "port": 0,
-        "id": "bcf7f0af-dc39-423b-9ceb-046a8d8fe358",
+        "id": "bc6c3e9a-592c-46b9-ad48-87c052c64486",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "www.sony.co.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-            "shortId": "1174"
-          }
+          "serverName": "gr.connect-qik.uk",
+          "allowInsecure": true
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.120.126.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.120.126.43",
+        "port": 0,
+        "id": "bc6c3e9a-592c-46b9-ad48-87c052c64486",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "gr.connect-qik.uk",
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -3891,9 +4351,148 @@
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
           "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.120.126.43_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.120.126.43",
+        "port": 0,
+        "id": "cbd6c099-5d4f-467e-86d2-92cb292892fb",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "gr.connect-qik.uk",
           "allowInsecure": false
         },
         "network": "tcp"
@@ -3904,25 +4503,20 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
+      "tag": "vless_87.120.126.43_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.116.27.6",
+        "address": "87.120.126.43",
         "port": 0,
-        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "id": "cbd6c099-5d4f-467e-86d2-92cb292892fb",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "www.sony.co.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-            "shortId": "1174"
-          }
+          "serverName": "gr.connect-qik.uk",
+          "allowInsecure": true
         },
         "network": "tcp"
       },
@@ -3932,25 +4526,20 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
+      "tag": "vless_87.120.126.43_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.116.27.6",
+        "address": "87.120.126.43",
         "port": 0,
-        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "id": "cbd6c099-5d4f-467e-86d2-92cb292892fb",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "www.sony.co.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-            "shortId": "1174"
-          }
+          "serverName": "gr.connect-qik.uk",
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -3960,25 +4549,20 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
+      "tag": "vless_87.120.126.43_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.116.27.6",
+        "address": "87.120.126.43",
         "port": 0,
-        "id": "c5166628-47a8-4b6c-9b57-4c8cfb60a6d3",
+        "id": "cbd6c099-5d4f-467e-86d2-92cb292892fb",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "reality",
+        "security": "tls",
         "tlsSettings": {
-          "serverName": "www.sony.co.uk",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-            "shortId": "1174"
-          }
+          "serverName": "gr.connect-qik.uk",
+          "allowInsecure": false
         },
         "network": "tcp"
       },
@@ -4148,6 +4732,83 @@
       }
     },
     {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "f3d543c5-f41b-46d7-85f8-d6f3ccefe280",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "f3d543c5-f41b-46d7-85f8-d6f3ccefe280",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "f3d543c5-f41b-46d7-85f8-d6f3ccefe280",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_213.108.20.152_0",
       "protocol": "vless",
       "settings": {
@@ -4228,6 +4889,56 @@
       }
     },
     {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "fbc74c2d-d749-47b6-bedc-1c3f7b23eca3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.116.27.6_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.116.27.6",
+        "port": 0,
+        "id": "fbc74c2d-d749-47b6-bedc-1c3f7b23eca3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.co.uk",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+            "shortId": "1174"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -4274,48 +4985,58 @@
           "trojan_104.16.201.94_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_104.17.121.71_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
           "vless_104.17.148.22_0",
           "vless_45.131.210.125_0",
+          "vless_196.196.203.13:443?encryption=none&type=xhttp&security=tls&sni=0d81b209.ferrin.uk&fp=chrome&mode=stream-one&extra=%7B%22xmux%22:%7B%22maxConnections%22:%221%22,%22maxReuseTimes%22_0",
           "vless_104.17.121.253_0",
           "vless_104.17.121.253_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
-          "vless_212.64.210.109_0",
           "vless_66.33.22.232_0",
           "vless_66.33.22.232_0",
           "vless_66.33.22.232_0",
           "vless_104.18.36.24_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
-          "vless_23.227.38.86_0",
-          "vless_77.232.135.141_0",
-          "vless_77.232.135.141_0",
-          "vless_77.232.135.141_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
-          "vless_157.22.240.159_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_172.86.86.21_0",
-          "vless_143.246.215.89_0",
-          "vless_176.116.0.110_0",
+          "vless_172.86.86.21_0",
+          "vless_172.86.86.21_0",
+          "vless_172.86.86.21_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_8.6.112.0_0",
           "vless_8.6.112.0_0",
+          "vless_8.6.112.0_0",
+          "vless_178.159.10.78_0",
           "vless_178.159.10.78_0",
           "vless_178.159.10.78_0",
           "vless_178.159.10.78_0",
           "vless_178.159.10.78_0",
           "vless_178.159.10.78_0",
           "vless_104.18.32.47_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
@@ -4337,8 +5058,15 @@
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
+          "vless_87.248.149.50_0",
+          "vless_87.248.149.50_0",
+          "vless_87.248.149.50_0",
+          "vless_87.248.149.50_0",
           "vless_165.231.99.52_0",
           "vless_165.231.99.52_0",
           "vless_165.231.177.114_0",
@@ -4348,9 +5076,6 @@
           "vless_165.231.177.114_0",
           "vless_165.231.177.114_0",
           "vless_165.231.177.50_0",
-          "vless_87.120.126.49_0",
-          "vless_87.120.126.49_0",
-          "vless_94.103.2.55_0",
           "vless_80.66.78.227_0",
           "vless_80.66.78.227_0",
           "vless_80.66.78.227_0",
@@ -4359,13 +5084,13 @@
           "vless_80.66.78.227_0",
           "vless_80.66.78.227_0",
           "vless_104.18.32.47_0",
-          "vless_50.7.42.43_0",
+          "vless_84.32.108.4_0",
+          "vless_84.32.108.4_0",
+          "vless_84.32.108.4_0",
+          "vless_84.32.108.4_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
-          "vless_104.194.144.122_0",
-          "vless_104.194.144.122_0",
-          "vless_104.194.144.122_0",
-          "vless_104.194.144.122_0",
+          "vless_188.116.27.6_0",
           "vless_104.21.60.101_0",
           "vless_104.21.60.101_0",
           "vless_172.67.195.196_0",
@@ -4383,8 +5108,11 @@
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.98.0_0",
+          "vless_23.95.72.244_0",
           "vless_91.103.140.11_0",
           "vless_91.103.140.11_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
@@ -4405,19 +5133,30 @@
           "vless_196.198.111.138_0",
           "vless_196.198.111.138_0",
           "vless_104.17.227.60_0",
+          "vless_87.120.126.43_0",
+          "vless_87.120.126.43_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
+          "vless_87.120.126.43_0",
+          "vless_87.120.126.43_0",
+          "vless_87.120.126.43_0",
+          "vless_87.120.126.43_0",
           "vless_89.40.70.124_0",
           "vless_89.40.70.124_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_213.108.20.152_0",
+          "vless_188.116.27.6_0",
+          "vless_188.116.27.6_0",
           "vless_188.116.27.6_0",
           "vless_188.116.27.6_0"
         ],

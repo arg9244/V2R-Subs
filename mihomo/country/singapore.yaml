@@ -23,10 +23,45 @@ proxies:
       reality-opts:
         public-key: XBntt77MdH3EMkPXibOAO_NSBrL_aqwiLItU98rqlHE
         short-id: 9c3c0f8ec8b4af12
+-     name: vless_23.95.72.244_0
+      server: 23.95.72.244
+      port: 0
+      udp: true
+      type: vless
+      uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.aboutamazon.sg
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: qeuzgTUkTLMVZZ3AclsA1_Qn_xX9NFDzuNzJnotcMWY
+        short-id: e718c0495c85dab2
+-     name: vless_23.95.72.244_0
+      server: 23.95.72.244
+      port: 0
+      udp: true
+      type: vless
+      uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.aboutamazon.sg
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: qeuzgTUkTLMVZZ3AclsA1_Qn_xX9NFDzuNzJnotcMWY
+        short-id: e718c0495c85dab2
+-     name: vless_www.visa.com.sg_0
+      server: www.visa.com.sg
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8235de7-84c7-4454-b333-4d854c393929
+      network: ws
+      ws-opts:
+        path: "/pyip=ProxyIP.US.CMLiussss.net"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_154.21.203.106_0]
+      proxies: [vless_154.21.203.106_0, vless_23.95.72.244_0, vless_23.95.72.244_0, vless_www.visa.com.sg_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

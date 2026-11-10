@@ -33,6 +33,25 @@
       }
     },
     {
+      "tag": "vless_78.17.53.142_0",
+      "server": "78.17.53.142",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "6b566898-8416-4ac3-8b8f-66db059c462b",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ru.nl",
+        "reality": {
+          "enabled": true,
+          "public_key": "drwJd-KiNSQHhp1yHQBknycbzWEzR2K9_R9ZdfPra3U"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "vless_172.66.47.67_0",
       "server": "172.66.47.67",
       "server_port": 0,
@@ -79,34 +98,13 @@
       }
     },
     {
-      "tag": "vless_84.32.98.27_0",
-      "server": "84.32.98.27",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f5a915e2-de2c-4939-97c2-9926c4f55719",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ing.nl",
-        "reality": {
-          "enabled": true,
-          "public_key": "bNpg56GtTArrVyrnonNlMA-3JyYIAFATdgsH_wn0gmc",
-          "short_id": "4ea6a183"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
         "vless_185.246.152.209_0",
+        "vless_78.17.53.142_0",
         "vless_172.66.47.67_0",
-        "vless_138.124.2.239_0",
-        "vless_84.32.98.27_0"
+        "vless_138.124.2.239_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

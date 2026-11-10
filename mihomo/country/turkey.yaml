@@ -50,34 +50,6 @@ proxies:
       xhttp-opts:
         path: /x
         host: ""
--     name: vless_83.217.9.220_0
-      server: 83.217.9.220
-      port: 0
-      udp: true
-      type: vless
-      uuid: 15c75de9a09149d0bf0393d855a98082
-      tls: true
-      servername: transfermarkt.com.tr
-      client-fingerprint: random
-      reality-opts:
-        public-key: 88smHXvz17v0my95NX0AfT9PmcMRNKY75ruZ3sRdaBU
-        short-id: aabbccdd
-      network: xhttp
-      xhttp-opts:
-        path: /x
-        host: ""
--     name: vless_167.148.156.172_0
-      server: 167.148.156.172
-      port: 0
-      udp: true
-      type: vless
-      uuid: 250865f0-4a0f-4e2e-8d14-4c39a25d0bef
-      tls: true
-      servername: www3.donyumvps.tr
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: KWZ8_wctsfsW_vURZto-YOre2VlFM4HS_duhfUU5UxI
-        short-id: 0739285d
 -     name: vless_2.28.12.136_0
       server: 2.28.12.136
       port: 0
@@ -185,10 +157,22 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: xzy
+-     name: vless_93fc.n9ne.com.tr_0
+      server: 93fc.n9ne.com.tr
+      port: 0
+      udp: true
+      type: vless
+      uuid: e81e1114-99b5-4fea-aafc-84426e845a14
+      tls: true
+      servername: n9ne.com.tr
+      client-fingerprint: qq
+      reality-opts:
+        public-key: QDwBE99Ao8pBd7Kp_4BLEgm_W0gdnjLTRwnRThmfVHY
+        short-id: 24f2e35ce5bc9899
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_83.217.9.220_0, vless_83.217.9.220_0, vless_167.148.156.172_0, vless_2.28.12.136_0, vless_2d72.donyumvps.tr_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_104.21.20.192_0]
+      proxies: [vless_162.159.136.234_0, vless_194.76.18.253_0, vless_83.217.9.220_0, vless_2.28.12.136_0, vless_2d72.donyumvps.tr_0, vless_104.18.32.47_0, vless_104.18.32.47_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_45.130.125.76_0, vless_104.21.20.192_0, vless_93fc.n9ne.com.tr_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

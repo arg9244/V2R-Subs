@@ -85,6 +85,58 @@
       }
     },
     {
+      "tag": "vless_85.234.100.186_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "85.234.100.186",
+        "port": 0,
+        "id": "71e095f8-29e8-4ac3-ad6c-cc888b08d540",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "preview.redd.it",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "Xbd0JeKM6WsUITbELeeCEmQLl-4Sw_A-JQuzDBEco2M"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_85.234.100.186_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "85.234.100.186",
+        "port": 0,
+        "id": "71e095f8-29e8-4ac3-ad6c-cc888b08d540",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "preview.redd.it",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "Xbd0JeKM6WsUITbELeeCEmQLl-4Sw_A-JQuzDBEco2M"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_151.101.129.140_0",
       "protocol": "vless",
       "settings": {
@@ -159,6 +211,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_151.101.65.140_0",
+          "vless_85.234.100.186_0",
+          "vless_85.234.100.186_0",
           "vless_151.101.129.140_0"
         ],
         "strategy": {

@@ -53,14 +53,45 @@
   ],
   "outbounds": [
     {
-      "tag": "hys_201.58.187.25_0",
+      "tag": "hys_13.143.239.127_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "201.58.187.25",
+        "address": "13.143.239.127",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "c9aca131-c6a4-4518-9d7d-be52a60b4a3f",
+        "auth": "2a0fc918-9c61-451b-a9ad-e8f796e70f52",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "nl1.obxodvpn.us",
+          "alpn": {
+            "alpn": [
+              "h3"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_13.143.239.127_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "13.143.239.127",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "2a0fc918-9c61-451b-a9ad-e8f796e70f52",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -100,10 +131,52 @@
       }
     },
     {
-      "tag": "vless_uspanel.unixzone.us_0",
+      "tag": "vless_69.48.201.136_0",
       "protocol": "vless",
       "settings": {
-        "address": "uspanel.unixzone.us",
+        "address": "69.48.201.136",
+        "port": 0,
+        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/usserver"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_69.48.201.136_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "69.48.201.136",
+        "port": 0,
+        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/usserver"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_69.48.201.136_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "69.48.201.136",
         "port": 0,
         "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
         "tls": "none"
@@ -147,51 +220,16 @@
       }
     },
     {
-      "tag": "vless_news.zoom.us_0",
+      "tag": "vless_84.235.244.108_0",
       "protocol": "vless",
       "settings": {
-        "address": "news.zoom.us",
+        "address": "84.235.244.108",
         "port": 0,
-        "id": "0ef68b97-f878-4cea-b756-c56ea3632851",
-        "tls": "tls"
+        "id": "39947382-3212-41c9-bc3a-589574ac8b23",
+        "tls": "none"
       },
       "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "free.vkehi.store",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fp=chrome"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_news.zoom.us_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "news.zoom.us",
-        "port": 0,
-        "id": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "u.srilankangrill.online",
-          "allowInsecure": false
-        },
+        "security": "none",
         "network": "ws",
         "wsSettings": {
           "path": "/"
@@ -375,6 +413,28 @@
       }
     },
     {
+      "tag": "vless_support.zoom.us_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "support.zoom.us",
+        "port": 0,
+        "id": "d18e76ed-eca4-43ff-a916-9b34533c4d2e",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/cs"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -416,19 +476,22 @@
       {
         "tag": "leastPing",
         "selector": [
-          "hys_201.58.187.25_0",
+          "hys_13.143.239.127_0",
+          "hys_13.143.239.127_0",
           "vless_69.48.201.136_0",
-          "vless_uspanel.unixzone.us_0",
+          "vless_69.48.201.136_0",
+          "vless_69.48.201.136_0",
+          "vless_69.48.201.136_0",
           "vless_172.67.132.41_0",
-          "vless_news.zoom.us_0",
-          "vless_news.zoom.us_0",
+          "vless_84.235.244.108_0",
           "vless_84.235.244.108_0",
           "vless_84.235.244.108_0",
           "vless_104.21.4.8_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0"
+          "vless_104.21.12.150_0",
+          "vless_support.zoom.us_0"
         ],
         "strategy": {
           "type": "leastPing",

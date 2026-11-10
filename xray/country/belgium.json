@@ -158,6 +158,60 @@
       }
     },
     {
+      "tag": "vless_23.95.72.244_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "23.95.72.244",
+        "port": 0,
+        "id": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.amazon.com.be",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ZJFE8ADmle161t4Tn5X6wqvP4RDPKfeMxENt8h594zk",
+            "shortId": "706030ef0be31d4b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_23.95.72.244_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "23.95.72.244",
+        "port": 0,
+        "id": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.amazon.com.be",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ZJFE8ADmle161t4Tn5X6wqvP4RDPKfeMxENt8h594zk",
+            "shortId": "706030ef0be31d4b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -202,7 +256,9 @@
           "vless_209.46.30.217_0",
           "vless_62.72.166.67_0",
           "vless_94.247.142.241_0",
-          "vless_94.182.131.101_0"
+          "vless_94.182.131.101_0",
+          "vless_23.95.72.244_0",
+          "vless_23.95.72.244_0"
         ],
         "strategy": {
           "type": "leastPing",
