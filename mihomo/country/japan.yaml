@@ -64,10 +64,75 @@ proxies:
       network: grpc
       grpc-opts:
         grpc-service-name: grpc
+-     name: vless_54.199.28.208_0
+      server: 54.199.28.208
+      port: 0
+      udp: true
+      type: vless
+      uuid: 53fd4cd0-15fd-4352-9d6b-d18770049c86
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.capcom.co.jp
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 3yorIs_psiYbIeESwMdne5mPe2JVzeNOpDa2IJxQ-Es
+        short-id: 21fa8a1ebf
+-     name: vless_45.192.203.44_0
+      server: 45.192.203.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: b6058894-f212-4926-9e19-f65713cca4a4
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nit.ac.jp
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: Bo_Ty--LAtTzXucycRCKAeh1ktzls1dKv0vuYkoHPTE
+        short-id: ""
+-     name: vless_45.192.203.44_0
+      server: 45.192.203.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: b6058894-f212-4926-9e19-f65713cca4a4
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nit.ac.jp
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: yXPPzfUp2T-BiLIGriVsi1zL7xqyWPvHDI9Fs4lgPyg
+        short-id: ""
+-     name: vless_45.192.203.44_0
+      server: 45.192.203.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: b6058894-f212-4926-9e19-f65713cca4a4
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nit.ac.jp
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: yXPPzfUp2T-BiLIGriVsi1zL7xqyWPvHDI9Fs4lgPyg
+        short-id: ""
+-     name: vless_45.192.203.44_0
+      server: 45.192.203.44
+      port: 0
+      udp: true
+      type: vless
+      uuid: b6058894-f212-4926-9e19-f65713cca4a4
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nit.ac.jp
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: LwajVxx7JjeFcBc1r1WoceX-5Tga7_SwCfEUYS-1Dhg
+        short-id: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, vless_88.216.73.74_0, vless_88.216.73.74_0]
+      proxies: [trojan_18.238.109.28_0, trojan_3.168.86.26_0, trojan_3.168.86.35_0, vless_88.216.73.74_0, vless_88.216.73.74_0, vless_54.199.28.208_0, vless_45.192.203.44_0, vless_45.192.203.44_0, vless_45.192.203.44_0, vless_45.192.203.44_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

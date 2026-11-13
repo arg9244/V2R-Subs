@@ -105,6 +105,54 @@
       }
     },
     {
+      "tag": "vless_69.48.201.136_0",
+      "server": "69.48.201.136",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+      "transport": {
+        "type": "ws",
+        "path": "/usserver"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_69.48.201.136_0",
+      "server": "69.48.201.136",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+      "transport": {
+        "type": "ws",
+        "path": "/usserver"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_69.48.201.136_0",
+      "server": "69.48.201.136",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_172.67.132.41_0",
       "server": "172.67.132.41",
       "server_port": 0,
@@ -129,35 +177,31 @@
       }
     },
     {
-      "tag": "vless_84.235.244.108_0",
-      "server": "84.235.244.108",
+      "tag": "vless_177.3.252.14_0",
+      "server": "177.3.252.14",
       "server_port": 0,
       "type": "vless",
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
+      "uuid": "146d567c-6335-4e63-a8aa-7ec068642440",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_84.235.244.108_0",
-      "server": "84.235.244.108",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "transport": {
-        "type": "ws",
-        "path": "/"
+        "server_name": "pl1.obxodvpn.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw",
+          "short_id": "5c42ed8c"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/xhttp",
+        "headers": {
+          "Host": "pl1.obxodvpn.us"
+        }
       }
     },
     {
@@ -289,19 +333,124 @@
       }
     },
     {
-      "tag": "vless_support.zoom.us_0",
-      "server": "support.zoom.us",
+      "tag": "vless_42.2.130.53_0",
+      "server": "42.2.130.53",
       "server_port": 0,
       "type": "vless",
-      "uuid": "d18e76ed-eca4-43ff-a916-9b34533c4d2e",
-      "transport": {
-        "type": "ws",
-        "path": "/cs"
-      },
-      "multiplex": {
+      "uuid": "d68fbc96-5187-4b8f-965e-eecd7a699e81",
+      "flow": "xtls-rprx-vision",
+      "tls": {
         "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "62.lwdh.us",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.237.88.103_0",
+      "server": "172.237.88.103",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+          "short_id": "5a42dbd7e26a0415"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.237.88.103_0",
+      "server": "172.237.88.103",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+          "short_id": "5a42dbd7e26a0415"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.237.88.103_0",
+      "server": "172.237.88.103",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+          "short_id": "5a42dbd7e26a0415"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.237.88.103_0",
+      "server": "172.237.88.103",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+          "short_id": "5a42dbd7e26a0415"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      }
+    },
+    {
+      "tag": "vless_172.237.88.103_0",
+      "server": "172.237.88.103",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.us",
+        "reality": {
+          "enabled": true,
+          "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+          "short_id": "5a42dbd7e26a0415"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -314,16 +463,23 @@
         "vless_69.48.201.136_0",
         "vless_69.48.201.136_0",
         "vless_69.48.201.136_0",
+        "vless_69.48.201.136_0",
+        "vless_69.48.201.136_0",
+        "vless_69.48.201.136_0",
         "vless_172.67.132.41_0",
-        "vless_84.235.244.108_0",
-        "vless_84.235.244.108_0",
+        "vless_177.3.252.14_0",
         "vless_84.235.244.108_0",
         "vless_104.21.4.8_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
         "vless_104.21.12.150_0",
-        "vless_support.zoom.us_0"
+        "vless_42.2.130.53_0",
+        "vless_172.237.88.103_0",
+        "vless_172.237.88.103_0",
+        "vless_172.237.88.103_0",
+        "vless_172.237.88.103_0",
+        "vless_172.237.88.103_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -53,24 +53,48 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_177.1.192.6_0",
+      "tag": "vless_87.120.106.95_0",
       "protocol": "vless",
       "settings": {
-        "address": "177.1.192.6",
+        "address": "87.120.106.95",
         "port": 0,
-        "id": "608f1c47-6578-4a9a-9763-a7b41807737d",
+        "id": "28042b5e-74e9-4cba-b1ef-ebbc53a9298a",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "www.wp.pl",
+          "serverName": "supersklep.pl",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "C8mInpXkWRNyrClx1qc_WPoyI_f09hURS126zcI4Bg0",
-            "shortId": "cad1e2accc3a48f3"
+            "publicKey": "iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_87.120.106.21_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "87.120.106.21",
+        "port": 0,
+        "id": "df3c0b34-922d-4b5d-8c96-8561bfaac91b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "supersklep.pl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4"
           }
         },
         "network": "tcp"
@@ -122,7 +146,8 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_177.1.192.6_0"
+          "vless_87.120.106.95_0",
+          "vless_87.120.106.21_0"
         ],
         "strategy": {
           "type": "leastPing",

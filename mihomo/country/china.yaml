@@ -40,6 +40,42 @@ proxies:
       uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
       tls: true
       servername: yingguo.rymaker.cn
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /GunService
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      servername: yingguo.rymaker.cn
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: /GunService
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      servername: yingguo.rymaker.cn
+      network: ws
+      ws-opts:
+        path: /GunService
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      servername: yingguo.rymaker.cn
+      client-fingerprint: chrome
       network: ws
       ws-opts:
         path: /GunService
@@ -54,6 +90,19 @@ proxies:
       network: ws
       ws-opts:
         path: "/GunServicefp=chrome"
+-     name: vless_43.174.246.63_0
+      server: 43.174.246.63
+      port: 0
+      udp: true
+      type: vless
+      uuid: 88c0b07e-e7ba-40df-8242-994d6a30339f
+      tls: true
+      servername: www.thevicinityapp.cn
+      client-fingerprint: firefox
+      network: http
+      ws-opts:
+        path: /
+        headers: {}
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -69,7 +118,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_42.236.73.72_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_104.19.152.87_0]
+      proxies: [vless_42.236.73.72_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_43.174.246.63_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

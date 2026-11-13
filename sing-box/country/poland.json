@@ -13,19 +13,45 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_177.1.192.6_0",
-      "server": "177.1.192.6",
+      "tag": "vless_87.120.106.95_0",
+      "server": "87.120.106.95",
       "server_port": 0,
       "type": "vless",
-      "uuid": "608f1c47-6578-4a9a-9763-a7b41807737d",
+      "uuid": "28042b5e-74e9-4cba-b1ef-ebbc53a9298a",
+      "tls": {
+        "enabled": true,
+        "server_name": "supersklep.pl",
+        "reality": {
+          "enabled": true,
+          "public_key": "iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/",
+        "headers": {
+          "Host": "supersklep.pl"
+        }
+      }
+    },
+    {
+      "tag": "vless_87.120.106.21_0",
+      "server": "87.120.106.21",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "df3c0b34-922d-4b5d-8c96-8561bfaac91b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.wp.pl",
+        "server_name": "supersklep.pl",
         "reality": {
           "enabled": true,
-          "public_key": "C8mInpXkWRNyrClx1qc_WPoyI_f09hURS126zcI4Bg0",
-          "short_id": "cad1e2accc3a48f3"
+          "public_key": "6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4"
         },
         "utls": {
           "enabled": true,
@@ -37,7 +63,8 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_177.1.192.6_0"
+        "vless_87.120.106.95_0",
+        "vless_87.120.106.21_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

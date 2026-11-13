@@ -53,6 +53,26 @@
   ],
   "outbounds": [
     {
+      "tag": "trojan_wwww.qarvian.ir_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "password": "%4D%69%54%69%56%50%4E",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_45.130.125.76_0",
       "protocol": "trojan",
       "settings": {
@@ -344,32 +364,6 @@
               "http/1.1"
             ]
           },
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_199.68.156.121_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "199.68.156.121",
-        "port": 0,
-        "password": "7bpe9s002exll38s",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nexoshop.netvia.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
           "allowInsecure": false
         }
       },
@@ -417,32 +411,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "nexoshop.netvia.ir",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_199.68.156.121_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "199.68.156.121",
-        "port": 0,
-        "password": "7bpe9s002exll38s",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nexoshop.netvia.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
           "allowInsecure": false
         }
       },
@@ -548,32 +516,6 @@
             ]
           },
           "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_199.68.156.250_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "199.68.156.250",
-        "port": 0,
-        "password": "7bpe9s002exll38s",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nexoshop.netvia.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
         }
       },
       "mux": {
@@ -1304,6 +1246,27 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "trojan_104.18.42.68_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.18.42.68",
+        "port": 0,
+        "password": "MITIVPN",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR",
           "alpn": {
             "alpn": [
               "http/1.1"
@@ -1702,33 +1665,6 @@
             ]
           },
           "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "trojan_www.speedtest.net_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "www.speedtest.net",
-        "port": 0,
-        "password": "MITIVPN",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "de-j7o-doo.MaQror.IR",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": true
         }
       },
       "mux": {
@@ -5295,33 +5231,6 @@
       }
     },
     {
-      "tag": "vless_31.57.185.67_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "31.57.185.67",
-        "port": 0,
-        "id": "055f9334-9a42-49b6-8c78-4006c9b93fa9",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.jBIi6k4VqbVPeRyUTZrN70d8QDnivMfegA351_CixA8"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "zoomit.ir",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "hQST9Txi5xZBGXrx-JnMyju-miKD2mMF8xevm1lgI2c",
-            "shortId": "de51cc13"
-          }
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_188.114.97.6_0",
       "protocol": "vless",
       "settings": {
@@ -5498,6 +5407,75 @@
         "wsSettings": {
           "path": "/"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_26e2075944ff.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "26e2075944ff.salzivo.ir",
+        "port": 0,
+        "id": "0873316d-539b-498f-bba2-04d37dfb1cb5",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_3873e70a3b17.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "3873e70a3b17.salzivo.ir",
+        "port": 0,
+        "id": "0873316d-539b-498f-bba2-04d37dfb1cb5",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_5acd66e41bc1.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5acd66e41bc1.salzivo.ir",
+        "port": 0,
+        "id": "0873316d-539b-498f-bba2-04d37dfb1cb5",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -6155,41 +6133,10 @@
       }
     },
     {
-      "tag": "vless_104.16.216.241_0",
+      "tag": "vless_91.98.109.151_0",
       "protocol": "vless",
       "settings": {
-        "address": "104.16.216.241",
-        "port": 0,
-        "id": "10716279-b1ee-41d8-b63e-87782088305b",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "heY.bACHeBiapAiN.Ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/iXNpb8TL5D4uHOQC?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_167.233.191.107_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "167.233.191.107",
+        "address": "91.98.109.151",
         "port": 0,
         "id": "109fe686-024c-48cf-8f74-6a8e938a0464",
         "tls": "tls",
@@ -6504,6 +6451,64 @@
       "protocol": "vless",
       "settings": {
         "address": "104.18.29.129",
+        "port": 0,
+        "id": "192a06cc-d80b-1459-1cca-0a5a3a03beb8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "jHgGiUg0.vArZeShFoTsAl.iR",
+          "alpn": {
+            "alpn": [
+              "http/1.1",
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_about.gitlab.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "about.gitlab.com",
+        "port": 0,
+        "id": "192a06cc-d80b-1459-1cca-0a5a3a03beb8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "jHgGiUg0.vArZeShFoTsAl.iR",
+          "alpn": {
+            "alpn": [
+              "http/1.1",
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_about.gitlab.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "about.gitlab.com",
         "port": 0,
         "id": "192a06cc-d80b-1459-1cca-0a5a3a03beb8",
         "tls": "tls",
@@ -7980,58 +7985,6 @@
       }
     },
     {
-      "tag": "vless_31.43.179.111_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "31.43.179.111",
-        "port": 0,
-        "id": "359b9ad3-0009-4655-8872-d0ab566751d3",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "d03298146e8e2fe6.hozheen.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ws?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_45.81.58.159_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "45.81.58.159",
-        "port": 0,
-        "id": "359b9ad3-0009-4655-8872-d0ab566751d3",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "e832b8629fff3263.hozheen.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ws?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_45.81.58.159_0",
       "protocol": "vless",
       "settings": {
@@ -8288,6 +8241,31 @@
         "network": "ws",
         "wsSettings": {
           "path": "/eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_141.193.27.16_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "141.193.27.16",
+        "port": 0,
+        "id": "38a43f18-b4d9-443f-9ff1-4cf9de3d666e",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "valid22.validbv9501.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ=="
         }
       },
       "mux": {
@@ -8874,117 +8852,6 @@
         "wsSettings": {
           "path": "/"
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_144.31.157.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "144.31.157.56",
-        "port": 0,
-        "id": "3e0c34a4-1c38-4d93-88c6-5155e81f8b52",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "saorg.ir",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0",
-            "shortId": "6ba85179e30d4fc2"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_144.31.157.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "144.31.157.56",
-        "port": 0,
-        "id": "3e0c34a4-1c38-4d93-88c6-5155e81f8b52",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "snapp.ir",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0",
-            "shortId": "6ba85179e30d4fc2"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_144.31.157.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "144.31.157.56",
-        "port": 0,
-        "id": "3e0c34a4-1c38-4d93-88c6-5155e81f8b52",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "snapp.ir",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0",
-            "shortId": "6ba85179e30d4fc2"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_144.31.157.56_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "144.31.157.56",
-        "port": 0,
-        "id": "3e0c34a4-1c38-4d93-88c6-5155e81f8b52",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "snapp.ir",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "D-7qX4fqUFKDS2dQWFgGT4fXJnABnpM6IkU8SDHLMC0",
-            "shortId": "6ba85179e30d4fc2"
-          }
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -9881,6 +9748,174 @@
       }
     },
     {
+      "tag": "vless_1bccfbc69597.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "1bccfbc69597.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_26e2075944ff.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "26e2075944ff.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_2e9c6de06bd9.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2e9c6de06bd9.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_3873e70a3b17.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "3873e70a3b17.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_5acd66e41bc1.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5acd66e41bc1.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_7a93d9a1af92.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "7a93d9a1af92.salzivo.ir",
+        "port": 0,
+        "id": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "google.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_108.162.198.154_0",
       "protocol": "vless",
       "settings": {
@@ -10112,20 +10147,24 @@
       }
     },
     {
-      "tag": "vless_157.180.81.207_0",
+      "tag": "vless_5.161.18.68_0",
       "protocol": "vless",
       "settings": {
-        "address": "157.180.81.207",
+        "address": "5.161.18.68",
         "port": 0,
-        "id": "44285ef8-77e0-4d48-a1fc-e5cf58898f87",
+        "id": "457f1972-19e5-4f9e-bcd3-1a6b51a2c48a",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "tcptlsdigikala.savfasf.ir",
-          "allowInsecure": false
+          "serverName": "nobitex.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+            "shortId": "377d"
+          }
         },
         "network": "tcp"
       },
@@ -10135,22 +10174,26 @@
       }
     },
     {
-      "tag": "vless_157.180.81.207_0",
+      "tag": "vless_5.161.18.68_0",
       "protocol": "vless",
       "settings": {
-        "address": "157.180.81.207",
+        "address": "5.161.18.68",
         "port": 0,
-        "id": "44285ef8-77e0-4d48-a1fc-e5cf58898f87",
+        "id": "457f1972-19e5-4f9e-bcd3-1a6b51a2c48a",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "tcptlsdigikala.savfasf.ir",
-          "allowInsecure": false
+          "serverName": "nobitex.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+            "shortId": "e8f4426268c05621"
+          }
         },
-        "network": "raw"
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -10158,20 +10201,24 @@
       }
     },
     {
-      "tag": "vless_157.180.81.207_0",
+      "tag": "vless_5.161.18.68_0",
       "protocol": "vless",
       "settings": {
-        "address": "157.180.81.207",
+        "address": "5.161.18.68",
         "port": 0,
-        "id": "44285ef8-77e0-4d48-a1fc-e5cf58898f87",
+        "id": "457f1972-19e5-4f9e-bcd3-1a6b51a2c48a",
         "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "tcptlsdigikala.savfasf.ir",
-          "allowInsecure": false
+          "serverName": "nobitex.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+            "shortId": "e8f4426268c05621"
+          }
         },
         "network": "tcp"
       },
@@ -10431,37 +10478,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "cdn.topingr.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/gropcdn"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.114.98.0_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.98.0",
-        "port": 0,
-        "id": "497f5381-3533-4c6a-939c-66eb3a7de108",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn.topingr.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
           "allowInsecure": false
         },
         "network": "ws",
@@ -10953,6 +10969,38 @@
       }
     },
     {
+      "tag": "vless_162.159.192.149_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.192.149",
+        "port": 0,
+        "id": "4f9219f6-ba56-4e5a-a676-0978d8b613e4",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "Noshteri.hooplnqpb.ir",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/mobilesignal/?ed=2048"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_188.114.99.91_0",
       "protocol": "vless",
       "settings": {
@@ -11249,8 +11297,58 @@
         "address": "104.21.74.214",
         "port": 0,
         "id": "50414e45-4c5f-5a45-5553-6f51879c0594",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "levikoconfig.levikogjgfdd.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.74.214_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.74.214",
+        "port": 0,
+        "id": "50414e45-4c5f-5a45-5553-6f51879c0594",
         "tls": "tls",
         "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "levikoconfig.levikogjgfdd.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.74.214_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.74.214",
+        "port": 0,
+        "id": "50414e45-4c5f-5a45-5553-6f51879c0594",
+        "tls": "tls"
       },
       "streamSettings": {
         "security": "tls",
@@ -11695,6 +11793,37 @@
         "network": "ws",
         "wsSettings": {
           "path": "/Ewn8AiCso7BnkGtV?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.21.56.44_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.56.44",
+        "port": 0,
+        "id": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "301.POoRIam.ir",
+          "alpn": {
+            "alpn": [
+              "h2",
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Ewn8AiCso7BnkGtV?ed=2550"
         }
       },
       "mux": {
@@ -12483,31 +12612,6 @@
       }
     },
     {
-      "tag": "vless_8.35.211.87_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "8.35.211.87",
-        "port": 0,
-        "id": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "go.iranfree.de5.net",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/fp=chrome"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.18.6.73_0",
       "protocol": "vless",
       "settings": {
@@ -13269,6 +13373,29 @@
       }
     },
     {
+      "tag": "vless_178.105.192.66_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.105.192.66",
+        "port": 0,
+        "id": "60054261-299d-40ac-8b82-b76c29cb2d56",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tcptlsdigikala.savfasf.ir",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.15.235_0",
       "protocol": "vless",
       "settings": {
@@ -13540,35 +13667,6 @@
       }
     },
     {
-      "tag": "vless_2.144.28.150_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "2.144.28.150",
-        "port": 0,
-        "id": "647f3600-112a-406c-9d19-6d1da58ff041",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "kaveh4.gofuc7f.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_2.144.30.70_0",
       "protocol": "vless",
       "settings": {
@@ -13668,65 +13766,6 @@
         "address": "188.114.98.0",
         "port": 0,
         "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nl29.dr-ping.ir",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.114.98.0_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.98.0",
-        "port": 0,
-        "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nl29.dr-ping.ir",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": true
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.114.98.0_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.114.98.0",
-        "port": 0,
-        "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
         "tls": "tls",
         "encryption": "none"
       },
@@ -13751,10 +13790,10 @@
       }
     },
     {
-      "tag": "vless_188.114.98.0_0",
+      "tag": "vless_188.114.98.0:443?encryption=none&security=tls&sni=nl29.dr-ping.ir&fp=unsafe&alpn=h3,h2,http/1.1&fm={\"tcp\":[{\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"0\",\"104\",\"1\"],\"delays\":[\"0\"],\"maxSplit\":\"0\"}},{\"type\":\"fragment\",\"settings\":{\"packets\":\"1-1\",\"lengths\":[\"114\",\"1\"],\"delays\":[\"1\"],\"maxSplit\":\"11\"}}]}&type=xhttp&host=nl29.dr-ping.ir&path=/&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\"_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.114.98.0",
+        "address": "188.114.98.0:443?encryption=none&security=tls&sni=nl29.dr-ping.ir&fp=unsafe&alpn=h3,h2,http/1.1&fm={\"tcp\":[{\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"0\",\"104\",\"1\"],\"delays\":[\"0\"],\"maxSplit\":\"0\"}},{\"type\":\"fragment\",\"settings\":{\"packets\":\"1-1\",\"lengths\":[\"114\",\"1\"],\"delays\":[\"1\"],\"maxSplit\":\"11\"}}]}&type=xhttp&host=nl29.dr-ping.ir&path=/&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\"",
         "port": 0,
         "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
         "tls": "tls",
@@ -13968,66 +14007,6 @@
         "port": 0,
         "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
         "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nl29.dr-ping.ir",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_198.202.24.27_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "198.202.24.27",
-        "port": 0,
-        "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "nl29.dr-ping.ir",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_198.202.24.27_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "198.202.24.27",
-        "port": 0,
-        "id": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
-        "tls": "tls",
-        "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
@@ -14128,6 +14107,68 @@
         "network": "ws",
         "wsSettings": {
           "path": "/joinmahdiserver.colib63603.workers.dev/?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.24.68.75_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.24.68.75",
+        "port": 0,
+        "id": "65e7fa8d-180a-4819-8f77-28e93f58f0ce",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tunc.rupfem.ir",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/98b08ea93e"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.24.68.75_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.24.68.75",
+        "port": 0,
+        "id": "65e7fa8d-180a-4819-8f77-28e93f58f0ce",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tunc.rupfem.ir",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/98b08ea93e"
         }
       },
       "mux": {
@@ -14353,6 +14394,58 @@
       }
     },
     {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "69eb5502-0090-47be-a602-2c61c2074d93",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "firefox.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "69eb5502-0090-47be-a602-2c61c2074d93",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "firefox.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_216.24.57.3_0",
       "protocol": "vless",
       "settings": {
@@ -14518,6 +14611,58 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "6cf32cac-67c3-4d24-9e9b-f6afe7c91fd2",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "firefox.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_69.84.182.120_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "69.84.182.120",
+        "port": 0,
+        "id": "6df3cc5d-a9e5-4117-8ddc-bedbe44a6f14",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sepah.systemgamingirani.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2048"
         }
       },
       "mux": {
@@ -15307,6 +15452,199 @@
       }
     },
     {
+      "tag": "vless_1bccfbc69597.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "1bccfbc69597.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_26e2075944ff.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "26e2075944ff.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_2e9c6de06bd9.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2e9c6de06bd9.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_3873e70a3b17.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "3873e70a3b17.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_54a2930ba989.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "54a2930ba989.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "alpn": {
+            "alpn": [
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_5acd66e41bc1.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5acd66e41bc1.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_7a93d9a1af92.salzivo.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "7a93d9a1af92.salzivo.ir",
+        "port": 0,
+        "id": "768f325b-38e8-443c-9761-1cfcb17c4410",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_193.23.195.139_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "193.23.195.139",
+        "port": 0,
+        "id": "76ab5e47-c9a9-4ceb-82d3-7e1db7a44459",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www3.denzaro.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "2Bs8LTdTCl2P-P-1tG7dOEAJ1eSouUdgy2UFYNkKJEc",
+            "shortId": "37997b9c519fd96c"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_43.174.246.46_0",
       "protocol": "vless",
       "settings": {
@@ -15461,6 +15799,37 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_91.107.169.224_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "91.107.169.224",
+        "port": 0,
+        "id": "7be42a07-169b-4397-9692-3ec545413563",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "kala.taghvimtime.ir",
+          "alpn": {
+            "alpn": [
+              "h2%2Chttp%2F1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "%2F"
         }
       },
       "mux": {
@@ -15804,6 +16173,99 @@
         "grpcSettings": {
           "serviceName": "xJX3PGDyJyGsis0VUWr541fqk"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.105.192.66_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.105.192.66",
+        "port": 0,
+        "id": "8733d1e5-6f6e-49bc-8c04-079ec4a8da64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tcptlsdigikala.savfasf.ir",
+          "allowInsecure": true
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.105.192.66_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.105.192.66",
+        "port": 0,
+        "id": "8733d1e5-6f6e-49bc-8c04-079ec4a8da64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tcptlsdigikala.savfasf.ir",
+          "allowInsecure": false
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.105.192.66_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.105.192.66",
+        "port": 0,
+        "id": "8733d1e5-6f6e-49bc-8c04-079ec4a8da64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tcptlsdigikala.savfasf.ir",
+          "allowInsecure": false
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_178.105.192.66_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "178.105.192.66",
+        "port": 0,
+        "id": "8733d1e5-6f6e-49bc-8c04-079ec4a8da64",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "tcptlsdigikala.savfasf.ir",
+          "allowInsecure": false
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -18095,39 +18557,6 @@
       }
     },
     {
-      "tag": "vless_104.18.32.47_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.32.47",
-        "port": 0,
-        "id": "90162f4d-1b10-4f7c-aca9-198e4dd4faa9",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sv1.software2025.ir",
-          "alpn": {
-            "alpn": [
-              "h3",
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": true
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.21.57.88_0",
       "protocol": "vless",
       "settings": {
@@ -18233,57 +18662,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "host.taghvimtime.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_91.107.191.188_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.191.188",
-        "port": 0,
-        "id": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "host.taghvimtime.ir",
-          "alpn": {
-            "alpn": [
-              "h2"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_91.107.191.188_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.191.188",
-        "port": 0,
-        "id": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "host.taghvimtime.ir",
           "alpn": {
             "alpn": [
               "h2"
@@ -18447,85 +18825,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "host.taghvimtime.ir",
-          "alpn": {
-            "alpn": [
-              "h2"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_91.107.191.188_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.191.188",
-        "port": 0,
-        "id": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "host.taghvimtime.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_91.107.191.188_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.191.188",
-        "port": 0,
-        "id": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "host.taghvimtime.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_91.107.191.188:8443?mode=auto&path=/Meh?di=443&security=tls&alpn=h2&encryption=none&extra={\"scMaxBufferedPosts\":30,\"scMaxEachPostBytes\":\"1000000\",\"scStreamUpServerSecs\":\"20-80\",\"xPaddingBytes\":\"100-1000\",\"scMinPostsIntervalMs\":\"30\",\"xmux\":{\"maxConcurrency\":\"16-32\",\"maxConnections\":0,\"cMaxReuseTimes\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"hKeepAlivePeriod\"_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.191.188:8443?mode=auto&path=/Meh?di=443&security=tls&alpn=h2&encryption=none&extra={\"scMaxBufferedPosts\":30,\"scMaxEachPostBytes\":\"1000000\",\"scStreamUpServerSecs\":\"20-80\",\"xPaddingBytes\":\"100-1000\",\"scMinPostsIntervalMs\":\"30\",\"xmux\":{\"maxConcurrency\":\"16-32\",\"maxConnections\":0,\"cMaxReuseTimes\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"hKeepAlivePeriod\"",
-        "port": 0,
-        "id": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "host.taghvimtime.ir",
-          "alpn": {
-            "alpn": [
-              "h2"
-            ]
-          },
           "allowInsecure": false
         },
         "network": "xhttp"
@@ -19783,6 +20082,36 @@
       }
     },
     {
+      "tag": "vless_104.21.70.21_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.21.70.21",
+        "port": 0,
+        "id": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "fornewiran.ade-1000.workers.dev",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.25.5.52_0",
       "protocol": "vless",
       "settings": {
@@ -20152,6 +20481,37 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "amiin.yas-nowin.ir",
+          "alpn": {
+            "alpn": [
+              "http/1.1"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/cloud-vps"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"",
+        "port": 0,
+        "id": "94498f1a-26c1-4d86-a38c-fb33e0eb1ded",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "amin.yas-nowin.ir",
           "alpn": {
             "alpn": [
               "http/1.1"
@@ -20565,6 +20925,162 @@
       }
     },
     {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_wwww.qarvian.ir_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "wwww.qarvian.ir",
+        "port": 0,
+        "id": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.akamai.steamstatic.com",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_45.130.125.76_0",
       "protocol": "vless",
       "settings": {
@@ -20725,6 +21241,60 @@
       }
     },
     {
+      "tag": "vless_5.161.18.68_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5.161.18.68",
+        "port": 0,
+        "id": "9b6e5818-4e11-4282-ba64-deec7b00e7ca",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "nobitex.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+            "shortId": "f88610dd"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_5.161.18.68_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5.161.18.68",
+        "port": 0,
+        "id": "9beb7deb-9063-4244-9a54-03fd2504023b",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "nobitex.ir",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+            "shortId": "aefc7f3722"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.17.121.71_0",
       "protocol": "vless",
       "settings": {
@@ -20776,52 +21346,6 @@
           "allowInsecure": false
         },
         "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_179.43.187.67_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.43.187.67",
-        "port": 0,
-        "id": "9dd38d60-e683-47c6-bd53-d71bdfee78f3",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "portal.mavexa.ir",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_179.43.187.67_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.43.187.67",
-        "port": 0,
-        "id": "9dd38d60-e683-47c6-bd53-d71bdfee78f3",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "portal.mavexa.ir",
-          "allowInsecure": false
-        },
-        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -22707,29 +23231,29 @@
       }
     },
     {
-      "tag": "vless_94.103.168.58_0",
+      "tag": "vless_192.71.82.2_0",
       "protocol": "vless",
       "settings": {
-        "address": "94.103.168.58",
+        "address": "192.71.82.2",
         "port": 0,
-        "id": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
+        "id": "a5c05c1e-aa68-443f-8598-09800244bd4b",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "fretegtrthgbfd.localip.ir",
+          "serverName": "kingcloud.biack.ir",
           "alpn": {
             "alpn": [
-              "http/1.1"
+              "h3"
             ]
           },
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/hokm"
+          "path": "/LiL?ed"
         }
       },
       "mux": {
@@ -22738,29 +23262,29 @@
       }
     },
     {
-      "tag": "vless_94.103.168.58_0",
+      "tag": "vless_192.71.82.2_0",
       "protocol": "vless",
       "settings": {
-        "address": "94.103.168.58",
+        "address": "192.71.82.2",
         "port": 0,
-        "id": "a5db5ab5-8d28-49c0-ad55-0ad4724e5c0d",
+        "id": "a5c05c1e-aa68-443f-8598-09800244bd4b",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "stop.localip.ir",
+          "serverName": "kingcloud.biack.ir",
           "alpn": {
             "alpn": [
-              "http/1.1"
+              "h3"
             ]
           },
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/hokm"
+          "path": "/LiL?ed"
         }
       },
       "mux": {
@@ -23806,6 +24330,57 @@
       }
     },
     {
+      "tag": "vless_49.13.34.140_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "49.13.34.140",
+        "port": 0,
+        "id": "ade238d6-637e-4f6c-b1fc-268579b262f5",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless1.greewebservices.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/timer/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_49.13.34.140_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "49.13.34.140",
+        "port": 0,
+        "id": "ade238d6-637e-4f6c-b1fc-268579b262f5",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "vless1.greewebservices.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.18.12.149_0",
       "protocol": "vless",
       "settings": {
@@ -23886,6 +24461,52 @@
         "grpcSettings": {
           "serviceName": "@VPNwedbaz--@vpnwedbaz"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_13.140.90.29_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "13.140.90.29",
+        "port": 0,
+        "id": "b0a76856-69a7-456f-8ffe-c903e2893b7c",
+        "tls": "tls",
+        "encryption": "mlkem768x25519plus.native.0rtt.fy1wurvh1vnieda4ac61jahcbflzuyhcwbuo7mnjxwy"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.hyby.ir",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_13.140.90.29_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "13.140.90.29",
+        "port": 0,
+        "id": "b0a76856-69a7-456f-8ffe-c903e2893b7c",
+        "tls": "tls",
+        "encryption": "mlkem768x25519plus.native.0rtt.fy1wurvh1vnieda4ac61jahcbflzuyhcwbuo7mnjxwy"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.hyby.ir",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
       },
       "mux": {
         "enabled": true,
@@ -24245,32 +24866,6 @@
       }
     },
     {
-      "tag": "vless_172.67.146.180_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.67.146.180",
-        "port": 0,
-        "id": "b86451af-4c98-4b7d-96e5-16f2e9df1d46",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "skapk-yjq.miniseries.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_173.245.58.100_0",
       "protocol": "vless",
       "settings": {
@@ -24446,60 +25041,6 @@
       }
     },
     {
-      "tag": "vless_109.104.155.131_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "109.104.155.131",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-br1.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "MwJoFytMWCLdwCCt0cSTM8L6ZzYKxlZbFMML_3nnJms",
-            "shortId": "508118120e886b5a"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_109.104.155.131_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "109.104.155.131",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-br1.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "MwJoFytMWCLdwCCt0cSTM8L6ZzYKxlZbFMML_3nnJms",
-            "shortId": "508118120e886b5a"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_179.254.170.73_0",
       "protocol": "vless",
       "settings": {
@@ -24531,87 +25072,6 @@
       "protocol": "vless",
       "settings": {
         "address": "179.254.170.73",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-de7.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
-            "shortId": "e686927aa82c825d"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_179.254.170.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.254.170.73",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-de7.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
-            "shortId": "e686927aa82c825d"
-          }
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_179.254.170.73_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "179.254.170.73",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-de7.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
-            "shortId": "e686927aa82c825d"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.183.157.205_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.183.157.205",
         "port": 0,
         "id": "bb3723d7-462e-442c-9472-496750476f45",
         "tls": "tls",
@@ -24621,11 +25081,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "dir-pl2.filesapp.org",
+          "serverName": "dir-de7.filesapp.org",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "VrMjCVfS9bVTnIr2X_zBMIJylL5AMPMJoiwW14kyyjY",
-            "shortId": "b5e4cbe5fea54f53"
+            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
+            "shortId": "e686927aa82c825d"
           }
         },
         "network": "tcp"
@@ -24636,10 +25096,10 @@
       }
     },
     {
-      "tag": "vless_94.183.157.205_0",
+      "tag": "vless_179.254.170.73_0",
       "protocol": "vless",
       "settings": {
-        "address": "94.183.157.205",
+        "address": "179.254.170.73",
         "port": 0,
         "id": "bb3723d7-462e-442c-9472-496750476f45",
         "tls": "tls",
@@ -24648,38 +25108,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "dir-pl2.filesapp.org",
+          "serverName": "dir-de7.filesapp.org",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "VrMjCVfS9bVTnIr2X_zBMIJylL5AMPMJoiwW14kyyjY",
-            "shortId": "b5e4cbe5fea54f53"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_94.183.157.205_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "94.183.157.205",
-        "port": 0,
-        "id": "bb3723d7-462e-442c-9472-496750476f45",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "dir-pl2.filesapp.org",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "VrMjCVfS9bVTnIr2X_zBMIJylL5AMPMJoiwW14kyyjY",
-            "shortId": "b5e4cbe5fea54f53"
+            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
+            "shortId": "e686927aa82c825d"
           }
         },
         "network": "raw"
@@ -24690,10 +25123,10 @@
       }
     },
     {
-      "tag": "vless_94.183.157.205_0",
+      "tag": "vless_179.254.170.73_0",
       "protocol": "vless",
       "settings": {
-        "address": "94.183.157.205",
+        "address": "179.254.170.73",
         "port": 0,
         "id": "bb3723d7-462e-442c-9472-496750476f45",
         "tls": "tls",
@@ -24702,11 +25135,11 @@
       "streamSettings": {
         "security": "reality",
         "tlsSettings": {
-          "serverName": "dir-pl2.filesapp.org",
+          "serverName": "dir-de7.filesapp.org",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "VrMjCVfS9bVTnIr2X_zBMIJylL5AMPMJoiwW14kyyjY",
-            "shortId": "b5e4cbe5fea54f53"
+            "publicKey": "8JqBmPXSb2aGu8IzkxkfLo_CkxGzq6Zjjbn6HnU3Tn8",
+            "shortId": "e686927aa82c825d"
           }
         },
         "network": "tcp"
@@ -24888,32 +25321,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_2.144.28.28_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "2.144.28.28",
-        "port": 0,
-        "id": "bc6c9172-07cc-47ff-91c7-e9e277539e77",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vip2.polnejat.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/nova-6757d8"
         }
       },
       "mux": {
@@ -25180,32 +25587,6 @@
         "tlsSettings": {
           "serverName": "cdn-uk.fxcdn.ir",
           "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_8.6.112.0_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "8.6.112.0",
-        "port": 0,
-        "id": "bf3303bd-17ee-4508-bf01-14c378802e61",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn-uk.fxcdn.ir",
-          "allowInsecure": true
         },
         "network": "ws",
         "wsSettings": {
@@ -27418,29 +27799,6 @@
       }
     },
     {
-      "tag": "vless_91.107.247.173_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "91.107.247.173",
-        "port": 0,
-        "id": "c60cd62f-8dc5-415f-826b-abb7856027d1",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.0Vh97j6xS7KWSt0KJUlPGDqvOnB6YEWo0xWQ3HQgYm4"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "kala.fortresshost.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_162.159.192.143_0",
       "protocol": "vless",
       "settings": {
@@ -27764,37 +28122,6 @@
       }
     },
     {
-      "tag": "vless_104.18.32.47_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.18.32.47",
-        "port": 0,
-        "id": "ca699157-fd33-4de5-8767-6dc481398765",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "icyou.daftarakeman.ir",
-          "alpn": {
-            "alpn": [
-              "h2"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.17.158.32_0",
       "protocol": "vless",
       "settings": {
@@ -27856,6 +28183,93 @@
       "protocol": "vless",
       "settings": {
         "address": "104.18.29.129",
+        "port": 0,
+        "id": "ccbdd23b-98c6-9d4f-6a8f-8949d35adb49",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "HbJcJiFjIj.vArZeShFoTsAl.iR",
+          "alpn": {
+            "alpn": [
+              "http/1.1",
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_about.gitlab.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "about.gitlab.com",
+        "port": 0,
+        "id": "ccbdd23b-98c6-9d4f-6a8f-8949d35adb49",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "HbJcJiFjIj.vArZeShFoTsAl.iR",
+          "alpn": {
+            "alpn": [
+              "http/1.1",
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_about.gitlab.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "about.gitlab.com",
+        "port": 0,
+        "id": "ccbdd23b-98c6-9d4f-6a8f-8949d35adb49",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "HbJcJiFjIj.vArZeShFoTsAl.iR",
+          "alpn": {
+            "alpn": [
+              "http/1.1",
+              "h2"
+            ]
+          },
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_about.gitlab.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "about.gitlab.com",
         "port": 0,
         "id": "ccbdd23b-98c6-9d4f-6a8f-8949d35adb49",
         "tls": "tls",
@@ -28091,6 +28505,31 @@
               "http/1.1"
             ]
           },
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_172.67.219.189_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "172.67.219.189",
+        "port": 0,
+        "id": "d027b485-4e11-4485-9d0f-2ef1f1129eff",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn4.salamfox.ir",
           "allowInsecure": false
         },
         "network": "ws",
@@ -28678,52 +29117,6 @@
       }
     },
     {
-      "tag": "vless_darsadgir.ir_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "darsadgir.ir",
-        "port": 0,
-        "id": "d5af4dfe-eaf1-460c-87aa-fefe930db0ba",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "chopin.paxr.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_darsadgir.ir_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "darsadgir.ir",
-        "port": 0,
-        "id": "d5af4dfe-eaf1-460c-87aa-fefe930db0ba",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "chopin.paxr.ir",
-          "allowInsecure": false
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_209.208.227.239_0",
       "protocol": "vless",
       "settings": {
@@ -29159,6 +29552,31 @@
       }
     },
     {
+      "tag": "vless_162.159.153.4_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "162.159.153.4",
+        "port": 0,
+        "id": "dbf4678a-2e98-a5cc-b053-972c41d44a40",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "deepsidetr.plmusic.ir",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "network12tr36"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.21.32.1_0",
       "protocol": "vless",
       "settings": {
@@ -29484,6 +29902,32 @@
         "network": "ws",
         "wsSettings": {
           "path": "/stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_chatgpt.com_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "chatgpt.com",
+        "port": 0,
+        "id": "e0c50817-86dd-4ee1-bca3-6e296d85dd59",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "blouck-de.gozarcloud.ir",
+          "allowInsecure": false
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "Love"
         }
       },
       "mux": {
@@ -29828,6 +30272,31 @@
         "network": "ws",
         "wsSettings": {
           "path": "/8PaKguUsL3cShypYFXoLUeVZ81vwc"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_95.182.98.40_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "95.182.98.40",
+        "port": 0,
+        "id": "e5be613e-0b23-4c08-88fb-6b4a82055365",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "oslo.zovip2.ir",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
         }
       },
       "mux": {
@@ -30698,129 +31167,6 @@
       }
     },
     {
-      "tag": "vless_188.130.154.204_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.130.154.204",
-        "port": 0,
-        "id": "ed2e4dd1-d19f-48dd-b613-3f855b1d0765",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn2.zovip2.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/api/v3/pulse"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.130.154.204_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.130.154.204",
-        "port": 0,
-        "id": "ed2e4dd1-d19f-48dd-b613-3f855b1d0765",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn2.zovip2.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/api/v3/pulse"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.130.154.204_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.130.154.204",
-        "port": 0,
-        "id": "ed2e4dd1-d19f-48dd-b613-3f855b1d0765",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn2.zovip2.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/api/v3/pulse"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_188.130.154.204_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "188.130.154.204",
-        "port": 0,
-        "id": "ed2e4dd1-d19f-48dd-b613-3f855b1d0765",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cdn2.zovip2.ir",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/api/v3/pulsefp=chrome"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_188.114.97.2_0",
       "protocol": "vless",
       "settings": {
@@ -31460,36 +31806,6 @@
       }
     },
     {
-      "tag": "vless_172.67.190.251_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "172.67.190.251",
-        "port": 0,
-        "id": "f7d2e53e-0728-49b0-89f7-ad730ee0cc49",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "uciran-uciran-uciran-uciran-uciran-uciran-uciran.wamivah516.workers.dev",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_172.64.152.23_0",
       "protocol": "vless",
       "settings": {
@@ -31980,221 +32296,6 @@
       }
     },
     {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "raw"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_15.236.109.186_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "15.236.109.186",
-        "port": 0,
-        "id": "fbda2834-b1e7-4148-afb9-deda31036a30",
-        "tls": "tls"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "w.geogame.ir",
-          "allowInsecure": false
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_104.17.108.69_0",
       "protocol": "vless",
       "settings": {
@@ -32272,32 +32373,6 @@
           "allowInsecure": false
         },
         "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_104.17.108.69_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "104.17.108.69",
-        "port": 0,
-        "id": "fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "live-uk-k643wcl7-gw7v3s5s.kyronexa.ir",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ws-vlees"
-        }
       },
       "mux": {
         "enabled": true,
@@ -32579,6 +32654,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "trojan_wwww.qarvian.ir_0",
           "trojan_45.130.125.76_0",
           "trojan_104.21.57.88_0",
           "trojan_172.67.162.74_0",
@@ -32594,9 +32670,6 @@
           "trojan_199.68.156.121_0",
           "trojan_199.68.156.121_0",
           "trojan_199.68.156.121_0",
-          "trojan_199.68.156.121_0",
-          "trojan_199.68.156.121_0",
-          "trojan_199.68.156.250_0",
           "trojan_199.68.156.250_0",
           "trojan_199.68.156.250_0",
           "trojan_199.68.156.250_0",
@@ -32633,6 +32706,7 @@
           "trojan_104.18.16.56_0",
           "trojan_104.18.39.172_0",
           "trojan_104.18.42.68_0",
+          "trojan_104.18.42.68_0",
           "trojan_104.19.229.21_0",
           "trojan_104.19.229.21_0",
           "trojan_104.20.6.134_0",
@@ -32648,7 +32722,6 @@
           "trojan_188.114.98.0_0",
           "trojan_45.130.125.112_0",
           "trojan_94.140.0.100_0",
-          "trojan_www.speedtest.net_0",
           "trojan_104.16.174.44_0",
           "trojan_104.16.26.90_0",
           "trojan_104.16.26.90_0",
@@ -32796,13 +32869,15 @@
           "vless_104.16.75.234_0",
           "vless_104.18.26.90_0",
           "vless_188.114.97.6_0",
-          "vless_31.57.185.67_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6:443?path=/pgcfws-d7k&security=tls&alpn=http/1.1&encryption=none&fm={\"tcp\":[{\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\"_0",
           "vless_162.159.3.239_0",
           "vless_178.105.168.171_0",
           "vless_185.143.233.202_0",
+          "vless_26e2075944ff.salzivo.ir_0",
+          "vless_3873e70a3b17.salzivo.ir_0",
+          "vless_5acd66e41bc1.salzivo.ir_0",
           "vless_188.114.96.3_0",
           "vless_188.114.97.3_0",
           "vless_188.114.97.3_0",
@@ -32825,8 +32900,7 @@
           "vless_185.143.233.120_0",
           "vless_104.16.216.241_0",
           "vless_104.16.216.241_0",
-          "vless_104.16.216.241_0",
-          "vless_167.233.191.107_0",
+          "vless_91.98.109.151_0",
           "vless_188.114.97.3_0",
           "vless_185.146.173.82_0",
           "vless_45.130.125.162_0",
@@ -32838,6 +32912,8 @@
           "vless_172.67.73.163_0",
           "vless_104.18.28.129_0",
           "vless_104.18.29.129_0",
+          "vless_about.gitlab.com_0",
+          "vless_about.gitlab.com_0",
           "vless_104.24.196.20_0",
           "vless_104.18.138.67_0",
           "vless_104.18.138.67_0",
@@ -32889,14 +32965,13 @@
           "vless_108.162.194.232_0",
           "vless_31.43.179.111_0",
           "vless_31.43.179.111_0",
-          "vless_31.43.179.111_0",
-          "vless_45.81.58.159_0",
           "vless_45.81.58.159_0",
           "vless_45.81.58.159_0",
           "vless_104.18.32.47_0",
           "vless_172.64.155.209_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
+          "vless_141.193.27.16_0",
           "vless_141.193.27.16_0",
           "vless_141.193.27.16_0",
           "vless_141.193.27.16_0",
@@ -32922,10 +32997,6 @@
           "vless_104.21.24.106_0",
           "vless_172.67.218.84_0",
           "vless_172.67.218.84_0",
-          "vless_144.31.157.56_0",
-          "vless_144.31.157.56_0",
-          "vless_144.31.157.56_0",
-          "vless_144.31.157.56_0",
           "vless_185.143.233.68_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
@@ -32957,6 +33028,12 @@
           "vless_209.208.227.229_0",
           "vless_209.208.227.239_0",
           "vless_104.16.122.177_0",
+          "vless_1bccfbc69597.salzivo.ir_0",
+          "vless_26e2075944ff.salzivo.ir_0",
+          "vless_2e9c6de06bd9.salzivo.ir_0",
+          "vless_3873e70a3b17.salzivo.ir_0",
+          "vless_5acd66e41bc1.salzivo.ir_0",
+          "vless_7a93d9a1af92.salzivo.ir_0",
           "vless_108.162.198.154_0",
           "vless_185.143.234.122_0",
           "vless_167.82.0.103_0",
@@ -32965,9 +33042,9 @@
           "vless_185.146.173.69_0",
           "vless_185.146.173.69_0",
           "vless_185.146.173.69_0",
-          "vless_157.180.81.207_0",
-          "vless_157.180.81.207_0",
-          "vless_157.180.81.207_0",
+          "vless_5.161.18.68_0",
+          "vless_5.161.18.68_0",
+          "vless_5.161.18.68_0",
           "vless_104.21.62.144_0",
           "vless_104.21.62.144_0",
           "vless_37.32.44.145_0",
@@ -32975,7 +33052,6 @@
           "vless_172.67.209.29_0",
           "vless_104.21.74.214_0",
           "vless_104.21.74.214_0",
-          "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
@@ -32995,6 +33071,7 @@
           "vless_212.80.9.157_0",
           "vless_162.159.192.149_0",
           "vless_162.159.192.149_0",
+          "vless_162.159.192.149_0",
           "vless_188.114.99.91_0",
           "vless_188.114.99.91_0",
           "vless_188.114.99.91_0",
@@ -33003,6 +33080,8 @@
           "vless_104.18.80.149_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
+          "vless_104.21.74.214_0",
+          "vless_104.21.74.214_0",
           "vless_104.21.74.214_0",
           "vless_104.21.74.214_0",
           "vless_104.21.74.214_0",
@@ -33019,6 +33098,7 @@
           "vless_89.116.250.75_0",
           "vless_89.167.44.187_0",
           "vless_185.143.233.120_0",
+          "vless_104.21.56.44_0",
           "vless_104.21.56.44_0",
           "vless_104.21.56.44_0",
           "vless_104.21.56.44_0",
@@ -33050,7 +33130,6 @@
           "vless_8.35.211.87_0",
           "vless_8.35.211.87_0",
           "vless_8.35.211.87_0",
-          "vless_8.35.211.87_0",
           "vless_104.18.6.73_0",
           "vless_104.18.7.73_0",
           "vless_104.16.139.160_0",
@@ -33077,6 +33156,7 @@
           "vless_45.130.125.69_0",
           "vless_172.64.145.38_0",
           "vless_104.17.3.1_0",
+          "vless_178.105.192.66_0",
           "vless_104.18.15.235_0",
           "vless_45.130.125.114_0",
           "vless_104.17.148.22_0",
@@ -33086,26 +33166,23 @@
           "vless_104.18.32.47_0",
           "vless_104.21.66.246_0",
           "vless_172.67.166.135_0",
-          "vless_2.144.28.150_0",
           "vless_2.144.30.70_0",
           "vless_104.21.48.1_0",
           "vless_104.21.80.1_0",
           "vless_188.114.98.0_0",
+          "vless_188.114.98.0:443?encryption=none&security=tls&sni=nl29.dr-ping.ir&fp=unsafe&alpn=h3,h2,http/1.1&fm={\"tcp\":[{\"type\":\"fragment\",\"settings\":{\"packets\":\"tlshello\",\"lengths\":[\"0\",\"104\",\"1\"],\"delays\":[\"0\"],\"maxSplit\":\"0\"}},{\"type\":\"fragment\",\"settings\":{\"packets\":\"1-1\",\"lengths\":[\"114\",\"1\"],\"delays\":[\"1\"],\"maxSplit\":\"11\"}}]}&type=xhttp&host=nl29.dr-ping.ir&path=/&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\"_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
           "vless_188.114.98.0_0",
-          "vless_188.114.98.0_0",
-          "vless_188.114.98.0_0",
-          "vless_188.114.98.0_0",
-          "vless_198.202.24.27_0",
-          "vless_198.202.24.27_0",
           "vless_198.202.24.27_0",
           "vless_8.6.112.0_0",
           "vless_188.114.97.6_0",
           "vless_162.159.129.11_0",
+          "vless_104.24.68.75_0",
+          "vless_104.24.68.75_0",
           "vless_104.21.65.133_0",
           "vless_172.67.182.46_0",
           "vless_172.67.182.46_0",
@@ -33113,6 +33190,8 @@
           "vless_104.17.121.152_0",
           "vless_104.17.121.37_0",
           "vless_104.17.121.37_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
           "vless_216.24.57.3_0",
           "vless_216.24.57.3_0",
           "vless_216.24.57.3_0",
@@ -33120,6 +33199,8 @@
           "vless_188.114.97.2_0",
           "vless_188.114.97.2_0",
           "vless_104.21.37.43_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_69.84.182.120_0",
           "vless_69.84.182.120_0",
           "vless_69.84.182.120_0",
           "vless_104.16.237.74_0",
@@ -33147,12 +33228,21 @@
           "vless_104.16.243.59_0",
           "vless_104.16.243.59_0",
           "vless_172.67.92.147_0",
+          "vless_1bccfbc69597.salzivo.ir_0",
+          "vless_26e2075944ff.salzivo.ir_0",
+          "vless_2e9c6de06bd9.salzivo.ir_0",
+          "vless_3873e70a3b17.salzivo.ir_0",
+          "vless_54a2930ba989.salzivo.ir_0",
+          "vless_5acd66e41bc1.salzivo.ir_0",
+          "vless_7a93d9a1af92.salzivo.ir_0",
+          "vless_193.23.195.139_0",
           "vless_43.174.246.46_0",
           "vless_43.174.246.46_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_104.20.6.134_0",
           "vless_172.66.46.227_0",
+          "vless_91.107.169.224_0",
           "vless_172.67.169.94_0",
           "vless_104.16.53.11_0",
           "vless_104.16.53.11_0",
@@ -33165,6 +33255,10 @@
           "vless_104.21.80.1_0",
           "vless_5.202.5.146_0",
           "vless_172.67.219.124_0",
+          "vless_178.105.192.66_0",
+          "vless_178.105.192.66_0",
+          "vless_178.105.192.66_0",
+          "vless_178.105.192.66_0",
           "vless_172.67.148.150_0",
           "vless_104.156.81.138_0",
           "vless_104.156.81.193_0",
@@ -33241,7 +33335,6 @@
           "vless_185.135.9.202_0",
           "vless_185.135.9.6_0",
           "vless_104.18.32.47_0",
-          "vless_104.18.32.47_0",
           "vless_104.21.57.88_0",
           "vless_172.67.202.155_0",
           "vless_91.107.191.188_0",
@@ -33252,11 +33345,6 @@
           "vless_91.107.191.188_0",
           "vless_91.107.191.188_0",
           "vless_91.107.191.188_0",
-          "vless_91.107.191.188_0",
-          "vless_91.107.191.188_0",
-          "vless_91.107.191.188_0",
-          "vless_91.107.191.188_0",
-          "vless_91.107.191.188:8443?mode=auto&path=/Meh?di=443&security=tls&alpn=h2&encryption=none&extra={\"scMaxBufferedPosts\":30,\"scMaxEachPostBytes\":\"1000000\",\"scStreamUpServerSecs\":\"20-80\",\"xPaddingBytes\":\"100-1000\",\"scMinPostsIntervalMs\":\"30\",\"xmux\":{\"maxConcurrency\":\"16-32\",\"maxConnections\":0,\"cMaxReuseTimes\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"hKeepAlivePeriod\"_0",
           "vless_104.16.174.12_0",
           "vless_104.16.174.12_0",
           "vless_104.18.152.229_0",
@@ -33296,6 +33384,7 @@
           "vless_45.80.111.7_0",
           "vless_45.80.111.7_0",
           "vless_104.21.70.21_0",
+          "vless_104.21.70.21_0",
           "vless_104.25.5.52_0",
           "vless_104.25.5.52_0",
           "vless_104.25.5.52_0",
@@ -33306,6 +33395,7 @@
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
+          "vless_188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"_0",
           "vless_188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"_0",
           "vless_188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"_0",
           "vless_188.114.97.6:443?path=/cloud-vps&security=tls&alpn=http/1.1&encryption=none&fm={\"udp\":[{\"settings\":{\"header\":\"\",\"value\":\"\"},\"type\"_0",
@@ -33323,16 +33413,22 @@
           "vless_190.93.244.234_0",
           "vless_190.93.244.234_0",
           "vless_185.143.233.5_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
+          "vless_wwww.qarvian.ir_0",
           "vless_45.130.125.76_0",
           "vless_31.76.252.118_0",
           "vless_31.76.252.118_0",
           "vless_104.17.107.134_0",
           "vless_104.17.107.134_0",
           "vless_104.21.44.35_0",
+          "vless_5.161.18.68_0",
+          "vless_5.161.18.68_0",
           "vless_104.17.121.71_0",
           "vless_104.17.121.71_0",
-          "vless_179.43.187.67_0",
-          "vless_179.43.187.67_0",
           "vless_179.43.187.67_0",
           "vless_179.43.187.67_0",
           "vless_179.43.187.67_0",
@@ -33402,8 +33498,8 @@
           "vless_192.71.82.2_0",
           "vless_192.71.82.2_0",
           "vless_192.71.82.2_0",
-          "vless_94.103.168.58_0",
-          "vless_94.103.168.58_0",
+          "vless_192.71.82.2_0",
+          "vless_192.71.82.2_0",
           "vless_188.114.97.6_0",
           "vless_188.114.97.6_0",
           "vless_209.94.90.47_0",
@@ -33441,9 +33537,13 @@
           "vless_172.64.152.33_0",
           "vless_172.64.91.139_0",
           "vless_188.114.97.7_0",
+          "vless_49.13.34.140_0",
+          "vless_49.13.34.140_0",
           "vless_104.18.12.149_0",
           "vless_65.108.58.248_0",
           "vless_65.108.58.248_0",
+          "vless_13.140.90.29_0",
+          "vless_13.140.90.29_0",
           "vless_104.21.16.1_0",
           "vless_172.66.44.197_0",
           "vless_188.114.97.6_0",
@@ -33457,30 +33557,22 @@
           "vless_104.21.62.144_0",
           "vless_104.21.62.144_0",
           "vless_51.38.99.96_0",
-          "vless_172.67.146.180_0",
           "vless_173.245.58.100_0",
           "vless_173.245.59.100_0",
           "vless_172.66.47.181_0",
           "vless_104.27.5.143_0",
           "vless_104.27.5.143_0",
           "vless_109.104.155.131_0",
-          "vless_109.104.155.131_0",
-          "vless_109.104.155.131_0",
           "vless_179.254.170.73_0",
           "vless_179.254.170.73_0",
           "vless_179.254.170.73_0",
           "vless_179.254.170.73_0",
-          "vless_94.183.157.205_0",
-          "vless_94.183.157.205_0",
-          "vless_94.183.157.205_0",
-          "vless_94.183.157.205_0",
           "vless_188.114.97.3_0",
           "vless_104.21.16.1_0",
           "vless_172.67.164.239_0",
           "vless_188.114.98.6_0",
           "vless_188.114.98.6_0",
           "vless_188.114.98.6_0",
-          "vless_2.144.28.28_0",
           "vless_185.143.233.233_0",
           "vless_185.143.233.233_0",
           "vless_185.143.233.233_0",
@@ -33490,7 +33582,6 @@
           "vless_185.143.233.5_0",
           "vless_45.130.125.107_0",
           "vless_45.130.125.107_0",
-          "vless_8.6.112.0_0",
           "vless_8.6.112.0_0",
           "vless_104.24.179.164_0",
           "vless_104.16.194.245_0",
@@ -33563,7 +33654,6 @@
           "vless_91.107.247.173_0",
           "vless_91.107.247.173_0",
           "vless_91.107.247.173_0",
-          "vless_91.107.247.173_0",
           "vless_162.159.192.143_0",
           "vless_162.159.193.4_0",
           "vless_162.159.193.4_0",
@@ -33575,10 +33665,12 @@
           "vless_172.67.131.237_0",
           "vless_104.21.58.126_0",
           "vless_104.18.32.47_0",
-          "vless_104.18.32.47_0",
           "vless_104.17.158.32_0",
           "vless_104.18.28.129_0",
           "vless_104.18.29.129_0",
+          "vless_about.gitlab.com_0",
+          "vless_about.gitlab.com_0",
+          "vless_about.gitlab.com_0",
           "vless_162.159.7.226_0",
           "vless_66.235.200.146_0",
           "vless_45.131.209.84_0",
@@ -33587,6 +33679,7 @@
           "vless_188.114.98.0_0",
           "vless_45.130.125.69_0",
           "vless_45.130.125.69_0",
+          "vless_172.67.219.189_0",
           "vless_172.67.219.189_0",
           "vless_104.21.90.170_0",
           "vless_188.114.97.6_0",
@@ -33608,8 +33701,6 @@
           "vless_45.130.125.194_0",
           "vless_212.80.9.153_0",
           "vless_199.232.8.123_0",
-          "vless_darsadgir.ir_0",
-          "vless_darsadgir.ir_0",
           "vless_209.208.227.239_0",
           "vless_178.104.36.19_0",
           "vless_104.21.66.203_0",
@@ -33625,6 +33716,7 @@
           "vless_104.18.1.1_0",
           "vless_104.18.1.1_0",
           "vless_94.184.37.55_0",
+          "vless_162.159.153.4_0",
           "vless_104.21.32.1_0",
           "vless_104.18.32.47_0",
           "vless_104.18.32.47_0",
@@ -33636,6 +33728,7 @@
           "vless_45.130.125.76_0",
           "vless_45.130.125.76_0",
           "vless_216.24.57.1_0",
+          "vless_chatgpt.com_0",
           "vless_172.66.47.55_0",
           "vless_104.18.32.47_0",
           "vless_104.17.108.1_0",
@@ -33647,6 +33740,7 @@
           "vless_104.18.4.130_0",
           "vless_45.130.125.160_0",
           "vless_104.21.37.43_0",
+          "vless_95.182.98.40_0",
           "vless_104.16.250.22_0",
           "vless_104.17.25.173_0",
           "vless_104.17.25.173_0",
@@ -33679,10 +33773,6 @@
           "vless_185.146.173.167_0",
           "vless_185.146.173.63_0",
           "vless_45.130.125.101_0",
-          "vless_188.130.154.204_0",
-          "vless_188.130.154.204_0",
-          "vless_188.130.154.204_0",
-          "vless_188.130.154.204_0",
           "vless_188.114.97.2_0",
           "vless_172.64.229.81_0",
           "vless_172.64.229.81_0",
@@ -33705,7 +33795,6 @@
           "vless_104.21.96.1_0",
           "vless_172.67.190.251_0",
           "vless_172.67.190.251_0",
-          "vless_172.67.190.251_0",
           "vless_172.64.152.23_0",
           "vless_91.107.180.141_0",
           "vless_154.83.2.212_0",
@@ -33723,15 +33812,6 @@
           "vless_199.232.86.55_0",
           "vless_104.18.152.231_0",
           "vless_104.18.32.47_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_15.236.109.186_0",
-          "vless_104.17.108.69_0",
           "vless_104.17.108.69_0",
           "vless_104.17.108.69_0",
           "vless_104.17.108.69_0",

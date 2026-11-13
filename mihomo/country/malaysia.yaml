@@ -10,19 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_2.27.203.251_0
-      server: 2.27.203.251
-      port: 0
-      udp: true
-      type: vless
-      uuid: 1ef7d97f-3aa5-4fe6-8521-84cf4794bf7a
-      flow: xtls-rprx-vision
-      tls: true
-      servername: edge-fi2.lovely.my
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: QYdQmsVvUj4jwo9gH20nJA5x015gaAL0nGipORe6ZmY
-        short-id: ""
 -     name: vless_104.21.79.221_0
       server: 104.21.79.221
       port: 0
@@ -87,10 +74,35 @@ proxies:
       network: ws
       ws-opts:
         path: /api/v2/63e9687fa53e441c/stream
+-     name: vless_178.250.242.229_0
+      server: 178.250.242.229
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8d9d99e-6622-4620-92dc-23ac2b6d30f6
+      tls: true
+      servername: edge-major.gruzit.my
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /
+-     name: "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0"
+      server: "188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\""
+      port: 0
+      udp: true
+      type: vless
+      uuid: d8d9d99e-6622-4620-92dc-23ac2b6d30f6
+      tls: true
+      servername: shop07.gruzit.my
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /api/orders/track/
+        host: shop07.gruzit.my
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_2.27.203.251_0, vless_104.21.79.221_0, vless_5.180.42.57_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0]
+      proxies: [vless_104.21.79.221_0, vless_5.180.42.57_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_178.250.242.229_0, "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0"]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

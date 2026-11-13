@@ -33,17 +33,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_104.17.98.5_0
-      server: 104.17.98.5
-      port: 0
-      udp: true
-      type: vless
-      uuid: 49ccad64-c854-4f33-b334-793cf0d02b74
-      tls: true
-      servername: newcscf.jisucf.cloudns.ch
-      network: ws
-      ws-opts:
-        path: /
 -     name: vless_188.114.97.6_0
       server: 188.114.97.6
       port: 0
@@ -250,6 +239,17 @@ proxies:
         path: "/?TELEGRAM-leviconfigs_leviconfigs?ed=512"
 -     name: vless_104.16.79.73_0
       server: 104.16.79.73
+      port: 0
+      udp: true
+      type: vless
+      uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+      tls: true
+      servername: josni.hoyes.cloudns.ch
+      network: ws
+      ws-opts:
+        path: "musiclovers85?ed=512"
+-     name: "vless_104.16.79.73:443?path=musiclovers85?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0"
+      server: "104.16.79.73:443?path=musiclovers85?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp"
       port: 0
       udp: true
       type: vless
@@ -482,7 +482,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_43.169.18.179_0, vless_104.17.98.5_0, vless_104.17.98.5_0, vless_188.114.97.6_0, vless_188.114.97.6_0, vless_188.114.97.6_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs?ed&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_104.16.79.73_0, vless_104.18.37.228_0, vless_104.18.37.228_0, vless_104.18.37.228_0, vless_104.18.37.228_0, "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, "vless_172.66.44.97:443?path=/?TELEGRAM-leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_172.66.44.97:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_172.66.44.97:443?path=/sg-melbi/=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_172.66.44.97_0, vless_208.103.161.32_0, vless_208.103.161.32_0]
+      proxies: [vless_43.169.18.179_0, vless_104.17.98.5_0, vless_188.114.97.6_0, vless_188.114.97.6_0, vless_188.114.97.6_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.117.43_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, vless_104.16.79.73_0, "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs?ed&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.16.79.73:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_104.16.79.73_0, "vless_104.16.79.73:443?path=musiclovers85?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_104.18.37.228_0, vless_104.18.37.228_0, vless_104.18.37.228_0, vless_104.18.37.228_0, "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs?ed=2560&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_104.18.37.228:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, vless_172.66.44.97_0, "vless_172.66.44.97:443?path=/?TELEGRAM-leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_172.66.44.97:443?path=/?TELEGRAM-leviconfigs_leviconfigs?ed=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", "vless_172.66.44.97:443?path=/sg-melbi/=512&security=tls&encryption=none&insecure=0&host=josni.hoyes.cloudns.ch&ech=ip.gs+udp_0", vless_172.66.44.97_0, vless_208.103.161.32_0, vless_208.103.161.32_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

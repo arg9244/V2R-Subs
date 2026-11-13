@@ -55,36 +55,10 @@ proxies:
       reality-opts:
         public-key: fPjow17wDX8YJG89j9lraSqv54yvuS21lq3lJiAX_g0
         short-id: 489861db
--     name: vless_23.95.72.244_0
-      server: 23.95.72.244
-      port: 0
-      udp: true
-      type: vless
-      uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.amazon.com.be
-      client-fingerprint: qq
-      reality-opts:
-        public-key: ZJFE8ADmle161t4Tn5X6wqvP4RDPKfeMxENt8h594zk
-        short-id: 706030ef0be31d4b
--     name: vless_23.95.72.244_0
-      server: 23.95.72.244
-      port: 0
-      udp: true
-      type: vless
-      uuid: 9a5e7b1c-bf39-4b1f-891f-ac87824ee38f
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.amazon.com.be
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: ZJFE8ADmle161t4Tn5X6wqvP4RDPKfeMxENt8h594zk
-        short-id: 706030ef0be31d4b
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_209.46.30.217_0, vless_62.72.166.67_0, vless_94.247.142.241_0, vless_94.182.131.101_0, vless_23.95.72.244_0, vless_23.95.72.244_0]
+      proxies: [vless_209.46.30.217_0, vless_62.72.166.67_0, vless_94.247.142.241_0, vless_94.182.131.101_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
