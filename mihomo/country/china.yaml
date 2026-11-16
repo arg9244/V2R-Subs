@@ -10,16 +10,15 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_42.236.73.72_0
-      server: 42.236.73.72
+-     name: trojan_42.51.25.69_0
+      server: 42.51.25.69
       port: 0
       udp: true
-      type: vless
-      uuid: 11916472-4e2c-49c6-b75d-71196b3a7ecf
+      type: trojan
+      password: 254a0b7402009010a3740e084dff6b56
       tls: true
-      servername: www.zitian.cn
-      alpn: [http/1.1]
-      client-fingerprint: chrome
+      skip-cert-verify: true
+      servername: ja262.magiclampcloud.cn
 -     name: vless_34.39.80.57_0
       server: 34.39.80.57
       port: 0
@@ -90,19 +89,42 @@ proxies:
       network: ws
       ws-opts:
         path: "/GunServicefp=chrome"
--     name: vless_43.174.246.63_0
-      server: 43.174.246.63
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
       port: 0
       udp: true
       type: vless
-      uuid: 88c0b07e-e7ba-40df-8242-994d6a30339f
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
       tls: true
-      servername: www.thevicinityapp.cn
-      client-fingerprint: firefox
-      network: http
+      servername: yingguo.rymaker.cn
+      client-fingerprint: chrome
+      network: ws
       ws-opts:
         path: /
-        headers: {}
+-     name: vless_34.39.80.57_0
+      server: 34.39.80.57
+      port: 0
+      udp: true
+      type: vless
+      uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+      tls: true
+      servername: yingguo.rymaker.cn
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /
+-     name: vless_64.186.233.233_0
+      server: 64.186.233.233
+      port: 0
+      udp: true
+      type: vless
+      uuid: d006ef4a-d235-4691-bf05-abbe0d14055c
+      tls: true
+      servername: clash.ddm4.cn
+      client-fingerprint: firefox
+      network: ws
+      ws-opts:
+        path: /vless
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -118,7 +140,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_42.236.73.72_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_43.174.246.63_0, vless_104.19.152.87_0]
+      proxies: [trojan_42.51.25.69_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_34.39.80.57_0, vless_64.186.233.233_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

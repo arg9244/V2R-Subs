@@ -53,33 +53,12 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_time.is_0",
-      "protocol": "trojan",
-      "settings": {
-        "address": "time.is",
-        "port": 0,
-        "password": "22367c45-f6c4-4ca8-1d52-d9787d7bbe91",
-        "level": 0
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cm3-bpg.filegear-sg.me",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_time.is_0",
       "protocol": "vless",
       "settings": {
         "address": "time.is",
         "port": 0,
-        "id": "42717998-dcfd-4a63-80a8-70c5d88d2008",
+        "id": "3dfdc1ed-9986-48b1-a700-4830bbbde2a0",
         "tls": "tls",
         "encryption": "mlkem768x25519plus.native.0rtt.Ej6qiVXuHk3zJ8TYzROpyIPQbFMAL94-aS7wleMmYnY"
       },
@@ -145,7 +124,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "trojan_time.is_0",
           "vless_time.is_0"
         ],
         "strategy": {

@@ -10,23 +10,36 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_176.112.152.147_0
-      server: 176.112.152.147
+-     name: vless_46.22.216.31_0
+      server: 46.22.216.31
       port: 0
       udp: true
       type: vless
-      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      uuid: 4612258c-15e8-4459-a3b6-8b6571699c5f
       flow: xtls-rprx-vision
       tls: true
-      servername: www.coop.ee
-      client-fingerprint: firefox
+      servername: mail.protech-plus.ee
+      client-fingerprint: chrome
       reality-opts:
-        public-key: 805vJbnw_12vyuxa9pW46ObJ1cOub-75pGJYTfMJYHM
-        short-id: 74e50da3c1769379
+        public-key: NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg
+        short-id: ""
+-     name: vless_46.22.216.31_0
+      server: 46.22.216.31
+      port: 0
+      udp: true
+      type: vless
+      uuid: 4612258c-15e8-4459-a3b6-8b6571699c5f
+      flow: xtls-rprx-vision
+      tls: true
+      servername: mail.protech-plus.ee
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: NiCJO84l7l--GJ10ggvb6HcOS8qLR30pWTphwvWozhg
+        short-id: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_176.112.152.147_0]
+      proxies: [vless_46.22.216.31_0, vless_46.22.216.31_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

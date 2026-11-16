@@ -13,22 +13,11 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_time.is_0",
-      "server": "time.is",
-      "server_port": 0,
-      "type": "trojan",
-      "password": "22367c45-f6c4-4ca8-1d52-d9787d7bbe91",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm3-bpg.filegear-sg.me"
-      }
-    },
-    {
       "tag": "vless_time.is_0",
       "server": "time.is",
       "server_port": 0,
       "type": "vless",
-      "uuid": "42717998-dcfd-4a63-80a8-70c5d88d2008",
+      "uuid": "3dfdc1ed-9986-48b1-a700-4830bbbde2a0",
       "tls": {
         "enabled": true,
         "server_name": "rnus1.466688.xyz",
@@ -58,7 +47,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "trojan_time.is_0",
         "vless_time.is_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

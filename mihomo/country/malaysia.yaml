@@ -23,19 +23,6 @@ proxies:
       network: ws
       ws-opts:
         path: /
--     name: vless_5.180.42.57_0
-      server: 5.180.42.57
-      port: 0
-      udp: true
-      type: vless
-      uuid: 416b35f4-7cba-4023-a915-b22af73cd0c2
-      flow: xtls-rprx-vision
-      tls: true
-      servername: edge-kz1.lovely.my
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24
-        short-id: 24fc325b440818ce
 -     name: vless_104.16.181.38_0
       server: 104.16.181.38
       port: 0
@@ -74,26 +61,67 @@ proxies:
       network: ws
       ws-opts:
         path: /api/v2/63e9687fa53e441c/stream
--     name: vless_178.250.242.229_0
-      server: 178.250.242.229
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
       port: 0
       udp: true
       type: vless
-      uuid: d8d9d99e-6622-4620-92dc-23ac2b6d30f6
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
       tls: true
-      servername: edge-major.gruzit.my
-      client-fingerprint: firefox
-      network: ws
-      ws-opts:
+      servername: m.yourvibe.my
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
         path: /
--     name: "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0"
-      server: "188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\""
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
+        host: ""
+-     name: vless_188.72.112.1_0
+      server: 188.72.112.1
       port: 0
       udp: true
       type: vless
       uuid: d8d9d99e-6622-4620-92dc-23ac2b6d30f6
       tls: true
       servername: shop07.gruzit.my
+      alpn: [h2, http/1.1]
       client-fingerprint: firefox
       network: xhttp
       xhttp-opts:
@@ -102,7 +130,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.21.79.221_0, vless_5.180.42.57_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_178.250.242.229_0, "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0"]
+      proxies: [vless_104.21.79.221_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_188.72.112.1_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

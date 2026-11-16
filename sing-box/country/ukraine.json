@@ -187,6 +187,26 @@
       }
     },
     {
+      "tag": "vless_www.zsu.gov.ua_0",
+      "server": "www.zsu.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "tls": {
+        "enabled": true,
+        "server_name": "misaka.cndyw.ggff.net"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2560fp=random"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "vless_104.21.22.133_0",
       "server": "104.21.22.133",
       "server_port": 0,
@@ -339,6 +359,30 @@
       "transport": {
         "type": "ws",
         "path": "/rU9rSjDSOd4yY2fOe"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_mfa.gov.ua_0",
+      "server": "mfa.gov.ua",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "tls": {
+        "enabled": true,
+        "server_name": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
       },
       "multiplex": {
         "enabled": true,
@@ -796,12 +840,14 @@
         "trojan_172.67.163.102_0",
         "trojan_172.67.208.155_0",
         "trojan_172.67.212.82_0",
+        "vless_www.zsu.gov.ua_0",
         "vless_104.21.22.133_0",
         "vless_104.21.79.79_0",
         "vless_104.21.23.162_0",
         "vless_104.21.71.205_0",
         "vless_172.67.205.22_0",
         "vless_172.67.212.59_0",
+        "vless_mfa.gov.ua_0",
         "vless_104.18.80.243_0",
         "vless_104.18.83.92_0",
         "vless_160.79.104.113_0",

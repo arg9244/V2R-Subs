@@ -53,27 +53,20 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_42.236.73.72_0",
-      "protocol": "vless",
+      "tag": "trojan_42.51.25.69_0",
+      "protocol": "trojan",
       "settings": {
-        "address": "42.236.73.72",
+        "address": "42.51.25.69",
         "port": 0,
-        "id": "11916472-4e2c-49c6-b75d-71196b3a7ecf",
-        "tls": "tls",
-        "encryption": "none"
+        "password": "254a0b7402009010a3740e084dff6b56",
+        "level": 0
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "www.zitian.cn",
-          "alpn": {
-            "alpn": [
-              "http/1.1"
-            ]
-          },
-          "allowInsecure": false
-        },
-        "network": "tcp"
+          "serverName": "ja262.magiclampcloud.cn",
+          "allowInsecure": true
+        }
       },
       "mux": {
         "enabled": true,
@@ -233,24 +226,74 @@
       }
     },
     {
-      "tag": "vless_43.174.246.63_0",
+      "tag": "vless_34.39.80.57_0",
       "protocol": "vless",
       "settings": {
-        "address": "43.174.246.63",
+        "address": "34.39.80.57",
         "port": 0,
-        "id": "88c0b07e-e7ba-40df-8242-994d6a30339f",
-        "tls": "tls",
-        "encryption": "mlkem768x25519plus.native.0rtt.debrcmtx4dphnug0dlt9hap2txcpekioia_htswao08"
+        "id": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+        "tls": "tls"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "www.thevicinityapp.cn",
+          "serverName": "yingguo.rymaker.cn",
           "allowInsecure": false
         },
         "network": "ws",
         "wsSettings": {
-          "path": "/up"
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "34.39.80.57",
+        "port": 0,
+        "id": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+        "tls": "tls"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "yingguo.rymaker.cn",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_64.186.233.233_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "64.186.233.233",
+        "port": 0,
+        "id": "d006ef4a-d235-4691-bf05-abbe0d14055c",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "clash.ddm4.cn",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/vless"
         }
       },
       "mux": {
@@ -326,14 +369,16 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_42.236.73.72_0",
+          "trojan_42.51.25.69_0",
           "vless_34.39.80.57_0",
           "vless_34.39.80.57_0",
           "vless_34.39.80.57_0",
           "vless_34.39.80.57_0",
           "vless_34.39.80.57_0",
           "vless_34.39.80.57_0",
-          "vless_43.174.246.63_0",
+          "vless_34.39.80.57_0",
+          "vless_34.39.80.57_0",
+          "vless_64.186.233.233_0",
           "vless_104.19.152.87_0"
         ],
         "strategy": {

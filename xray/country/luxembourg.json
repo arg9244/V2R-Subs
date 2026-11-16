@@ -53,51 +53,27 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_92.223.124.62_0",
+      "tag": "vless_23.19.231.244_0",
       "protocol": "vless",
       "settings": {
-        "address": "92.223.124.62",
+        "address": "23.19.231.244",
         "port": 0,
-        "id": "f2004126-5865-4980-b6dd-2211dbaadf10",
+        "id": "fa9efcb1-8ed0-40c5-ad0b-2734a86094b1",
         "tls": "tls",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision",
+        "encryption": "mlkem768x25519plus.native.0rtt.eKxh1EXR6JBroWu68IeolcGCVzIFK8DoJhRXT3isg3A"
       },
       "streamSettings": {
-        "security": "tls",
+        "security": "reality",
         "tlsSettings": {
-          "serverName": "gcore.lu",
-          "allowInsecure": false
+          "serverName": "www.sony.lu",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "dC9UK2QEeHOIsY7dyWvmBpniHHb7X4HPRGT_g0Cd-Sg",
+            "shortId": "5122cc86"
+          }
         },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_92.223.124.62_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "92.223.124.62",
-        "port": 0,
-        "id": "f2004126-5865-4980-b6dd-2211dbaadf10",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "gcore.lu",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560"
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -146,8 +122,7 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_92.223.124.62_0",
-          "vless_92.223.124.62_0"
+          "vless_23.19.231.244_0"
         ],
         "strategy": {
           "type": "leastPing",

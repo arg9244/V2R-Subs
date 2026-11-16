@@ -44,27 +44,6 @@
       }
     },
     {
-      "tag": "vless_5.180.42.57_0",
-      "server": "5.180.42.57",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "416b35f4-7cba-4023-a915-b22af73cd0c2",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "edge-kz1.lovely.my",
-        "reality": {
-          "enabled": true,
-          "public_key": "nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24",
-          "short_id": "24fc325b440818ce"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "vless_104.16.181.38_0",
       "server": "104.16.181.38",
       "server_port": 0,
@@ -149,38 +128,101 @@
       }
     },
     {
-      "tag": "vless_178.250.242.229_0",
-      "server": "178.250.242.229",
+      "tag": "vless_45.88.176.223_0",
+      "server": "45.88.176.223",
       "server_port": 0,
       "type": "vless",
-      "uuid": "d8d9d99e-6622-4620-92dc-23ac2b6d30f6",
+      "uuid": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
       "tls": {
         "enabled": true,
-        "server_name": "edge-major.gruzit.my",
+        "server_name": "m.yourvibe.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
+      }
+    },
+    {
+      "tag": "vless_45.88.176.223_0",
+      "server": "45.88.176.223",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.yourvibe.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/media/e1c76c"
+      }
+    },
+    {
+      "tag": "vless_45.88.176.223_0",
+      "server": "45.88.176.223",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.yourvibe.my",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "type": "http",
+        "method": "POST",
+        "path": "/media/e1c76c"
       }
     },
     {
-      "tag": "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0",
-      "server": "188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"",
+      "tag": "vless_45.88.176.223_0",
+      "server": "45.88.176.223",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.yourvibe.my",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/media/e1c76c"
+      }
+    },
+    {
+      "tag": "vless_188.72.112.1_0",
+      "server": "188.72.112.1",
       "server_port": 0,
       "type": "vless",
       "uuid": "d8d9d99e-6622-4620-92dc-23ac2b6d30f6",
       "tls": {
         "enabled": true,
         "server_name": "shop07.gruzit.my",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2",
+            "http/1.1"
+          ]
+        },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -200,12 +242,14 @@
       "type": "urltest",
       "outbounds": [
         "vless_104.21.79.221_0",
-        "vless_5.180.42.57_0",
         "vless_104.16.181.38_0",
         "vless_104.20.30.10_0",
         "vless_188.114.97.6_0",
-        "vless_178.250.242.229_0",
-        "vless_188.72.112.1:443?type=xhttp&security=tls&fp=firefox&sni=shop07.gruzit.my&path=/api/orders/track/&host=shop07.gruzit.my&mode=packet-up&extra={\"path\":\"/api/orders/track/\",\"scMaxEachPostBytes\":\"16000-24000\",\"uplinkDataKey\":\"ref\",\"uplinkDataPlacement\":\"header\",\"uplinkHTTPMethod\":\"HEAD\",\"xPaddingBytes\":\"8-32\",\"xPaddingHeader\":\"X-Signature\",\"xPaddingKey\":\"_token\",\"xPaddingMethod\":\"tokenish\",\"xPaddingObfsMode\":true,\"xPaddingPlacement\":\"queryInHeader\",\"xmux\":{\"cMaxLifetimeMs\":0,\"cMaxReuseTimes\":0,\"maxConcurrency\":\"16-32\",\"maxConnections\"_0"
+        "vless_45.88.176.223_0",
+        "vless_45.88.176.223_0",
+        "vless_45.88.176.223_0",
+        "vless_45.88.176.223_0",
+        "vless_188.72.112.1_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

@@ -137,6 +137,27 @@
       }
     },
     {
+      "tag": "trojan_104.16.148.5_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "104.16.148.5",
+        "port": 0,
+        "password": "19877587-ed94-4033-88cd-4ac50a5e8718",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "dimskiee.biz.id",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "trojan_104.18.153.182_0",
       "protocol": "trojan",
       "settings": {
@@ -591,6 +612,49 @@
       }
     },
     {
+      "tag": "vless_104.17.3.81_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.3.81",
+        "port": 0,
+        "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
+        "tls": "none",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/worryfree"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_104.17.3.81_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.3.81",
+        "port": 0,
+        "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -636,6 +700,7 @@
           "trojan_104.21.70.21_0",
           "trojan_188.114.97.6_0",
           "trojan_188.114.97.6_0",
+          "trojan_104.16.148.5_0",
           "trojan_104.18.153.182_0",
           "trojan_193.180.211.52_0",
           "trojan_91.192.102.92_0",
@@ -654,7 +719,9 @@
           "vless_104.18.13.51_0",
           "vless_104.18.13.51_0",
           "vless_172.67.221.199_0",
-          "vless_104.18.32.47_0"
+          "vless_104.18.32.47_0",
+          "vless_104.17.3.81_0",
+          "vless_104.17.3.81_0"
         ],
         "strategy": {
           "type": "leastPing",

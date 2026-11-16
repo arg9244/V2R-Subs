@@ -399,6 +399,33 @@
       }
     },
     {
+      "tag": "vless_93fc.n9ne.com.tr_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "93fc.n9ne.com.tr",
+        "port": 0,
+        "id": "e81e1114-99b5-4fea-aafc-84426e845a14",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "n9ne.com.tr",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "QDwBE99Ao8pBd7Kp_4BLEgm_W0gdnjLTRwnRThmfVHY",
+            "shortId": "24f2e35ce5bc9899"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -452,7 +479,8 @@
           "vless_45.130.125.76_0",
           "vless_45.130.125.76_0",
           "vless_45.130.125.76_0",
-          "vless_104.21.20.192_0"
+          "vless_104.21.20.192_0",
+          "vless_93fc.n9ne.com.tr_0"
         ],
         "strategy": {
           "type": "leastPing",

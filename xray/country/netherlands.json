@@ -53,6 +53,32 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_193.233.127.76_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "193.233.127.76",
+        "port": 0,
+        "id": "5472dcf3-b9ec-4273-8031-50de98443ca3",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.nu.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "pnuCubdtpaioDPV2iTUgSE3to5p3f42-Cx8J-vQysFw"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_185.246.152.209_0",
       "protocol": "vless",
       "settings": {
@@ -165,6 +191,33 @@
       }
     },
     {
+      "tag": "vless_72.56.23.254_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "72.56.23.254",
+        "port": 0,
+        "id": "e769c1c2-f2b8-4006-bc84-0672c8368578",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.google.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "cpKcsAG-_0k5q8envXiiOoBzt53gxwVWEqg6uVKMNDk",
+            "shortId": "fba996d8e3568d0d"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -206,10 +259,12 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_193.233.127.76_0",
           "vless_185.246.152.209_0",
           "vless_78.17.53.142_0",
           "vless_172.66.47.67_0",
-          "vless_138.124.2.239_0"
+          "vless_138.124.2.239_0",
+          "vless_72.56.23.254_0"
         ],
         "strategy": {
           "type": "leastPing",

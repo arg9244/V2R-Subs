@@ -13,24 +13,15 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_42.236.73.72_0",
-      "server": "42.236.73.72",
+      "tag": "trojan_42.51.25.69_0",
+      "server": "42.51.25.69",
       "server_port": 0,
-      "type": "vless",
-      "uuid": "11916472-4e2c-49c6-b75d-71196b3a7ecf",
+      "type": "trojan",
+      "password": "254a0b7402009010a3740e084dff6b56",
       "tls": {
         "enabled": true,
-        "server_name": "www.zitian.cn",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true,
+        "server_name": "ja262.magiclampcloud.cn"
       }
     },
     {
@@ -170,14 +161,38 @@
       }
     },
     {
-      "tag": "vless_43.174.246.63_0",
-      "server": "43.174.246.63",
+      "tag": "vless_34.39.80.57_0",
+      "server": "34.39.80.57",
       "server_port": 0,
       "type": "vless",
-      "uuid": "88c0b07e-e7ba-40df-8242-994d6a30339f",
+      "uuid": "408c814e-f70a-4d16-b3b3-8182bb70211d",
       "tls": {
         "enabled": true,
-        "server_name": "www.thevicinityapp.cn",
+        "server_name": "yingguo.rymaker.cn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_34.39.80.57_0",
+      "server": "34.39.80.57",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "408c814e-f70a-4d16-b3b3-8182bb70211d",
+      "tls": {
+        "enabled": true,
+        "server_name": "yingguo.rymaker.cn",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -185,7 +200,36 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/up"
+        "path": "/"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_64.186.233.233_0",
+      "server": "64.186.233.233",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "d006ef4a-d235-4691-bf05-abbe0d14055c",
+      "tls": {
+        "enabled": true,
+        "server_name": "clash.ddm4.cn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
@@ -216,14 +260,16 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_42.236.73.72_0",
+        "trojan_42.51.25.69_0",
         "vless_34.39.80.57_0",
         "vless_34.39.80.57_0",
         "vless_34.39.80.57_0",
         "vless_34.39.80.57_0",
         "vless_34.39.80.57_0",
         "vless_34.39.80.57_0",
-        "vless_43.174.246.63_0",
+        "vless_34.39.80.57_0",
+        "vless_34.39.80.57_0",
+        "vless_64.186.233.233_0",
         "vless_104.19.152.87_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

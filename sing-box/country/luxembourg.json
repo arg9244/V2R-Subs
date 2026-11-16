@@ -13,51 +13,31 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_92.223.124.62_0",
-      "server": "92.223.124.62",
+      "tag": "vless_23.19.231.244_0",
+      "server": "23.19.231.244",
       "server_port": 0,
       "type": "vless",
-      "uuid": "f2004126-5865-4980-b6dd-2211dbaadf10",
+      "uuid": "fa9efcb1-8ed0-40c5-ad0b-2734a86094b1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gcore.lu"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
-      "tag": "vless_92.223.124.62_0",
-      "server": "92.223.124.62",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f2004126-5865-4980-b6dd-2211dbaadf10",
-      "tls": {
-        "enabled": true,
-        "server_name": "gcore.lu"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2560"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
+        "server_name": "www.sony.lu",
+        "reality": {
+          "enabled": true,
+          "public_key": "dC9UK2QEeHOIsY7dyWvmBpniHHb7X4HPRGT_g0Cd-Sg",
+          "short_id": "5122cc86"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_92.223.124.62_0",
-        "vless_92.223.124.62_0"
+        "vless_23.19.231.244_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
