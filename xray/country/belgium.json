@@ -53,6 +53,34 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_217.78.237.118_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "217.78.237.118",
+        "port": 0,
+        "id": "483c6187-3c8d-436b-8413-536c2c87b70c",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.apache.be",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
+            "shortId": "be4c5e1a"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_209.46.30.217_0",
       "protocol": "vless",
       "settings": {
@@ -199,6 +227,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_217.78.237.118_0",
           "vless_209.46.30.217_0",
           "vless_62.72.166.67_0",
           "vless_94.247.142.241_0",

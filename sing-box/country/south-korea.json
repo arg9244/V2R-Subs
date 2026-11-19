@@ -316,27 +316,6 @@
       }
     },
     {
-      "tag": "vless_104.16.2.90_0",
-      "server": "104.16.2.90",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "ProxyVPN11.afrcloud22.mmv.kr"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/43.218.77.16=1443"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.20.1.252_0",
       "server": "104.20.1.252",
       "server_port": 0,
@@ -950,6 +929,79 @@
       }
     },
     {
+      "tag": "vless_afrcloud22.mmv.kr_0",
+      "server": "afrcloud22.mmv.kr",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fa335d1c-e6d1-48bb-99a3-f06710a29043",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/130.185.164.213=8443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_afrcloud22.mmv.kr_0",
+      "server": "afrcloud22.mmv.kr",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fa335d1c-e6d1-48bb-99a3-f06710a29043",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/130.185.164.213=8443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
+      "tag": "vless_afrcloud22.mmv.kr_0",
+      "server": "afrcloud22.mmv.kr",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "fa335d1c-e6d1-48bb-99a3-f06710a29043",
+      "tls": {
+        "enabled": true,
+        "server_name": "afrcloud22.mmv.kr",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/130.185.164.213=8443"
+      },
+      "multiplex": {
+        "enabled": true,
+        "max_connections": 8,
+        "max_streams": 8
+      }
+    },
+    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
@@ -965,7 +1017,6 @@
         "vless_172.66.128.70_0",
         "vless_104.16.0.108_0",
         "vless_104.16.0.108_0",
-        "vless_104.16.2.90_0",
         "vless_104.16.2.90_0",
         "vless_104.16.2.90_0",
         "vless_104.16.2.90_0",
@@ -998,7 +1049,10 @@
         "vless_104.19.141.129_0",
         "vless_104.19.141.129_0",
         "vless_104.19.141.3_0",
-        "vless_104.19.141.3_0"
+        "vless_104.19.141.3_0",
+        "vless_afrcloud22.mmv.kr_0",
+        "vless_afrcloud22.mmv.kr_0",
+        "vless_afrcloud22.mmv.kr_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

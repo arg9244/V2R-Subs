@@ -72,7 +72,46 @@ proxies:
       client-fingerprint: chrome
       network: xhttp
       xhttp-opts:
-        path: /
+        path: /media/e1c76c
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: firefox
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
+        host: ""
+-     name: vless_45.88.176.223_0
+      server: 45.88.176.223
+      port: 0
+      udp: true
+      type: vless
+      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+      tls: true
+      servername: m.yourvibe.my
+      client-fingerprint: chrome
+      network: xhttp
+      xhttp-opts:
+        path: /media/e1c76c
         host: ""
 -     name: vless_45.88.176.223_0
       server: 45.88.176.223
@@ -100,37 +139,10 @@ proxies:
       xhttp-opts:
         path: /media/e1c76c
         host: ""
--     name: vless_45.88.176.223_0
-      server: 45.88.176.223
-      port: 0
-      udp: true
-      type: vless
-      uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-      tls: true
-      servername: m.yourvibe.my
-      client-fingerprint: firefox
-      network: xhttp
-      xhttp-opts:
-        path: /media/e1c76c
-        host: ""
--     name: vless_188.72.112.1_0
-      server: 188.72.112.1
-      port: 0
-      udp: true
-      type: vless
-      uuid: d8d9d99e-6622-4620-92dc-23ac2b6d30f6
-      tls: true
-      servername: shop07.gruzit.my
-      alpn: [h2, http/1.1]
-      client-fingerprint: firefox
-      network: xhttp
-      xhttp-opts:
-        path: /api/orders/track/
-        host: shop07.gruzit.my
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.21.79.221_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_188.72.112.1_0]
+      proxies: [vless_104.21.79.221_0, vless_104.16.181.38_0, vless_104.20.30.10_0, vless_188.114.97.6_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0, vless_45.88.176.223_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

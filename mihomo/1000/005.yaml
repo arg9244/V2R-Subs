@@ -38,13 +38,6 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: _c43uV0__ztFhshnuY4RvhVOC2FgxCjA
--     name: ss_dns27.m3hrzd.ir_8044
-      server: dns27.m3hrzd.ir
-      port: 8044
-      udp: true
-      type: ss
-      cipher: chacha20-ietf-poly1305
-      password: _c43uV0__ztFhshnuY4RvhVOC2FgxCjA
 -     name: ss_198.98.53.130_443
       server: 198.98.53.130
       port: 443
@@ -59,10 +52,17 @@ proxies:
       type: ss
       cipher: chacha20-ietf-poly1305
       password: k1dBOmOB4oqi7Ump37a1bQ
+-     name: ss_20.107.184.151_443
+      server: 20.107.184.151
+      port: 443
+      udp: true
+      type: ss
+      cipher: chacha20-ietf-poly1305
+      password: zziXHDOFXc4qRjoj
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [ss_193.29.139.212_8080, ss_146.70.222.126_1080, ss_146.70.53.62_1080, ss_185.4.115.146_8044, ss_dns27.m3hrzd.ir_8044, ss_198.98.53.130_443, ss_82.38.31.204_8080]
+      proxies: [ss_193.29.139.212_8080, ss_146.70.222.126_1080, ss_146.70.53.62_1080, ss_185.4.115.146_8044, ss_198.98.53.130_443, ss_82.38.31.204_8080, ss_20.107.184.151_443]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

@@ -23,10 +23,23 @@ proxies:
       reality-opts:
         public-key: dC9UK2QEeHOIsY7dyWvmBpniHHb7X4HPRGT_g0Cd-Sg
         short-id: 5122cc86
+-     name: vless_23.19.231.244_0
+      server: 23.19.231.244
+      port: 0
+      udp: true
+      type: vless
+      uuid: fa9efcb1-8ed0-40c5-ad0b-2734a86094b1
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.sony.lu
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: dC9UK2QEeHOIsY7dyWvmBpniHHb7X4HPRGT_g0Cd-Sg
+        short-id: 5122cc86
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_23.19.231.244_0]
+      proxies: [vless_23.19.231.244_0, vless_23.19.231.244_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

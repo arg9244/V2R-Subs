@@ -10,18 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: hys_201.58.190.235_0
-      server: 201.58.190.235
-      port: 0
-      udp: true
-      type: hysteria2
-      password: 247802ca-0fbb-428a-b807-91a6e571b5c7
-      obfs: salamander
-      sni: hy2-pl.snobvpn.online
-      insecure: true
-      tls: true
-      skip-cert-verify: true
-      servername: hy2-pl.snobvpn.online
 -     name: hys_13.143.239.127_0
       server: 13.143.239.127
       port: 0
@@ -41,28 +29,43 @@ proxies:
       sni: nl1.obxodvpn.us
       tls: true
       servername: nl1.obxodvpn.us
--     name: hys_43.239.249.178_0
-      server: 43.239.249.178
+-     name: hys_31.76.106.92_0
+      server: 31.76.106.92
       port: 0
       udp: true
       type: hysteria2
-      password: 3OAaD9HeUplLnOOA0StMZG
-      sni: www.bing.com
-      insecure: true
+      password: 2d399e38-245c-4f07-abf2-cfce7397ba9c
+      sni: va.stream-room.com
       tls: true
-      skip-cert-verify: true
-      servername: www.bing.com
--     name: hys_43.239.249.178_0
-      server: 43.239.249.178
+      servername: va.stream-room.com
+-     name: hys_31.76.106.92_0
+      server: 31.76.106.92
       port: 0
       udp: true
       type: hysteria2
-      password: 3OAaD9HeUplLnOOA0StMZG
-      sni: www.bing.com
-      insecure: true
+      password: 2d399e38-245c-4f07-abf2-cfce7397ba9c
+      sni: va.stream-room.com
       tls: true
-      skip-cert-verify: true
-      servername: www.bing.com
+      servername: va.stream-room.com
+-     name: hys_130.49.163.188_0
+      server: 130.49.163.188
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 307ee0e53ea04dfd86a7f2f9fcd53844
+      sni: s5.libertyrunet.store
+      tls: true
+      servername: s5.libertyrunet.store
+-     name: hys_130.49.163.188_0
+      server: 130.49.163.188
+      port: 0
+      udp: true
+      type: hysteria2
+      password: 307ee0e53ea04dfd86a7f2f9fcd53844
+      sni: s5.libertyrunet.store
+      alpn: [h3]
+      tls: true
+      servername: s5.libertyrunet.store
 -     name: hys_31.76.80.69_0
       server: 31.76.80.69
       port: 0
@@ -109,8 +112,21 @@ proxies:
       type: hysteria2
       password: 769f34f0-1500-488f-b414-03bc90666502
       sni: se.mimowhat.online
+      insecure: true
       tls: true
+      skip-cert-verify: true
       servername: se.mimowhat.online
+-     name: hys_34.24.25.1_0
+      server: 34.24.25.1
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "8dOHZ13sx33R1%2FPQbhTK%2Fw%3D%3D"
+      sni: bing.com
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: bing.com
 -     name: hys_95.140.147.245_0
       server: 95.140.147.245
       port: 0
@@ -149,23 +165,54 @@ proxies:
       type: hysteria2
       password: HowdyHysteria2023w0W
       obfs: salamander
-      sni: hysteria.udpgw.co
+      sni: t.me
       insecure: true
       tls: true
       skip-cert-verify: true
-      servername: hysteria.udpgw.co
--     name: hys_51.15.19.206_0
-      server: 51.15.19.206
+      servername: t.me
+-     name: hys_162.249.125.133_0
+      server: 162.249.125.133
       port: 0
       udp: true
       type: hysteria2
-      password: HowdyHysteria2023w0W
+      password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
       obfs: salamander
-      sni: hysteria.udpgw.co
+      sni: hy2-new.aspidnet.xyz
+      tls: true
+      servername: hy2-new.aspidnet.xyz
+-     name: hys_185.164.72.192_0
+      server: 185.164.72.192
+      port: 0
+      udp: true
+      type: hysteria2
+      password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
+      obfs: salamander
+      sni: config7x.de5.net
+      tls: true
+      servername: config7x.de5.net
+-     name: hys_82.152.161.146_0
+      server: 82.152.161.146
+      port: 0
+      udp: true
+      type: hysteria2
+      password: VR7zICGZd3cB34G0FxSYQra3
+      sni: pic.bstarstatic.com
       insecure: true
       tls: true
       skip-cert-verify: true
-      servername: hysteria.udpgw.co
+      servername: pic.bstarstatic.com
+-     name: hys_206.189.229.48_0
+      server: 206.189.229.48
+      port: 0
+      udp: true
+      type: hysteria2
+      password: YV1sd3tfCZngTtnvRmy7
+      obfs: salamander
+      sni: www.microsoft.com
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: www.microsoft.com
 -     name: hys_144.31.49.47_0
       server: 144.31.49.47
       port: 0
@@ -195,16 +242,6 @@ proxies:
       type: hysteria2
       password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
       sni: admin.wwwinternetvideo.click
-      tls: true
-      servername: admin.wwwinternetvideo.click
--     name: hys_45.192.12.93_0
-      server: 45.192.12.93
-      port: 0
-      udp: true
-      type: hysteria2
-      password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-      sni: admin.wwwinternetvideo.click
-      alpn: [h3]
       tls: true
       servername: admin.wwwinternetvideo.click
 -     name: hys_45.192.12.93_0
@@ -258,34 +295,15 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: www.microsoft.com
--     name: hys_86.107.179.245_0
-      server: 86.107.179.245
+-     name: hys_62.210.124.146_0
+      server: 62.210.124.146
       port: 0
       udp: true
       type: hysteria2
-      password: e45c1654-9184-40c7-b68b-2929ce2a0a89
-      sni: cruises-cdn.travel-blogmir.blog
-      alpn: [h3]
+      password: dongtaiwang.com
+      sni: www.microsoft.com
       tls: true
-      servername: cruises-cdn.travel-blogmir.blog
--     name: hys_86.107.179.245_0
-      server: 86.107.179.245
-      port: 0
-      udp: true
-      type: hysteria2
-      password: e45c1654-9184-40c7-b68b-2929ce2a0a89
-      sni: cruises-cdn.travel-blogmir.blog
-      tls: true
-      servername: cruises-cdn.travel-blogmir.blog
--     name: hys_86.107.179.245_0
-      server: 86.107.179.245
-      port: 0
-      udp: true
-      type: hysteria2
-      password: e45c1654-9184-40c7-b68b-2929ce2a0a89
-      sni: cruises-cdn.travel-blogmir.blog
-      tls: true
-      servername: cruises-cdn.travel-blogmir.blog
+      servername: www.microsoft.com
 -     name: hys_194.238.40.185_0
       server: 194.238.40.185
       port: 0
@@ -447,11 +465,31 @@ proxies:
       udp: true
       type: hysteria2
       password: "gf1:gfhysteria2024"
+      sni: 185.156.44.99
+      insecure: true
+      tls: true
+      skip-cert-verify: true
+      servername: 185.156.44.99
+-     name: hys_185.156.44.99_0
+      server: 185.156.44.99
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
       sni: vk.com
       down: 50
       up: 10
       tls: true
       servername: vk.com
+-     name: hys_5.129.235.85_0
+      server: 5.129.235.85
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
+      sni: google.com
+      tls: true
+      servername: google.com
 -     name: hys_66.94.121.46_0
       server: 66.94.121.46
       port: 0
@@ -474,6 +512,15 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: www.broadcom.com
+-     name: hys_66.94.121.46_0
+      server: 66.94.121.46
+      port: 0
+      udp: true
+      type: hysteria2
+      password: "gf1:gfhysteria2024"
+      sni: 66.94.121.46
+      tls: true
+      servername: 66.94.121.46
 -     name: hys_222.167.212.82_0
       server: 222.167.212.82
       port: 0
@@ -598,15 +645,6 @@ proxies:
       tls: true
       skip-cert-verify: true
       servername: bing.com
--     name: hys_8.209.247.109_0
-      server: 8.209.247.109
-      port: 0
-      udp: true
-      type: hysteria2
-      password: usqmqUKJFIlCmvkCNSY64L3k
-      insecure: true
-      tls: true
-      skip-cert-verify: true
 -     name: hys_8.209.247.109_0
       server: 8.209.247.109
       port: 0
@@ -656,7 +694,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [hys_201.58.190.235_0, hys_13.143.239.127_0, hys_13.143.239.127_0, hys_43.239.249.178_0, hys_43.239.249.178_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_95.143.196.97_0, hys_95.143.196.97_0, hys_95.140.147.245_0, hys_72.56.92.120_0, hys_72.56.92.120_0, hys_51.15.19.206_0, hys_51.15.19.206_0, hys_144.31.49.47_0, hys_144.31.49.47_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_192.142.23.46_0, hys_192.142.23.46_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_86.107.179.245_0, hys_86.107.179.245_0, hys_86.107.179.245_0, hys_194.238.40.185_0, hys_194.238.40.185_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_66.94.121.46_0, hys_66.94.121.46_0, hys_185.156.44.99_0, hys_66.94.121.46_0, hys_66.94.121.46_0, hys_222.167.212.82_0, hys_222.167.212.82_0, hys_201.51.24.4_0, hys_201.51.24.4_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_8.209.247.109_0, hys_8.209.247.109_0, hys_8.209.247.109_0, hys_8.209.247.109_0, hys_192.255.152.147_0, hys_192.255.152.147_0]
+      proxies: [hys_13.143.239.127_0, hys_13.143.239.127_0, hys_31.76.106.92_0, hys_31.76.106.92_0, hys_130.49.163.188_0, hys_130.49.163.188_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_31.76.80.69_0, hys_95.143.196.97_0, hys_95.143.196.97_0, hys_34.24.25.1_0, hys_95.140.147.245_0, hys_72.56.92.120_0, hys_72.56.92.120_0, hys_51.15.19.206_0, hys_162.249.125.133_0, hys_185.164.72.192_0, hys_82.152.161.146_0, hys_206.189.229.48_0, hys_144.31.49.47_0, hys_144.31.49.47_0, hys_45.192.12.93_0, hys_45.192.12.93_0, hys_192.142.23.46_0, hys_192.142.23.46_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_62.210.124.146_0, hys_194.238.40.185_0, hys_194.238.40.185_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_5.129.235.85_0, hys_66.94.121.46_0, hys_66.94.121.46_0, hys_185.156.44.99_0, hys_185.156.44.99_0, hys_5.129.235.85_0, hys_66.94.121.46_0, hys_66.94.121.46_0, hys_66.94.121.46_0, hys_222.167.212.82_0, hys_222.167.212.82_0, hys_201.51.24.4_0, hys_201.51.24.4_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_130.49.161.70_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_217.60.182.79_0, hys_8.209.247.109_0, hys_8.209.247.109_0, hys_8.209.247.109_0, hys_192.255.152.147_0, hys_192.255.152.147_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

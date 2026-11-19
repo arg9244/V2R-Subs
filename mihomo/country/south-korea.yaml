@@ -175,18 +175,6 @@ proxies:
       network: ws
       ws-opts:
         path: /43.218.77.16
--     name: vless_104.16.2.90_0
-      server: 104.16.2.90
-      port: 0
-      udp: true
-      type: vless
-      uuid: aaaaaabb-4ddd-4eee-9fff-ffffffffffff
-      tls: true
-      skip-cert-verify: true
-      servername: ProxyVPN11.afrcloud22.mmv.kr
-      network: ws
-      ws-opts:
-        path: "/43.218.77.16=1443"
 -     name: vless_104.20.1.252_0
       server: 104.20.1.252
       port: 0
@@ -530,10 +518,47 @@ proxies:
       network: ws
       ws-opts:
         path: "/194.127.193.124=24467"
+-     name: vless_afrcloud22.mmv.kr_0
+      server: afrcloud22.mmv.kr
+      port: 0
+      udp: true
+      type: vless
+      uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+      tls: true
+      skip-cert-verify: true
+      servername: afrcloud22.mmv.kr
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/130.185.164.213=8443"
+-     name: vless_afrcloud22.mmv.kr_0
+      server: afrcloud22.mmv.kr
+      port: 0
+      udp: true
+      type: vless
+      uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+      tls: true
+      servername: afrcloud22.mmv.kr
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/130.185.164.213=8443"
+-     name: vless_afrcloud22.mmv.kr_0
+      server: afrcloud22.mmv.kr
+      port: 0
+      udp: true
+      type: vless
+      uuid: fa335d1c-e6d1-48bb-99a3-f06710a29043
+      tls: true
+      servername: afrcloud22.mmv.kr
+      client-fingerprint: chrome
+      network: ws
+      ws-opts:
+        path: "/130.185.164.213=8443"
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_216.24.57.250_0, vless_172.67.73.14_0, vless_172.67.194.187_0, vless_104.26.14.21_0, vless_172.67.73.14_0, vless_172.67.73.14_0, vless_208.103.161.52_0, vless_216.24.57.250_0, vless_188.114.96.3_0, vless_172.66.128.70_0, vless_104.16.0.108_0, vless_104.16.0.108_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.20.1.252_0, vless_104.21.95.114_0, vless_104.26.7.13_0, vless_170.114.45.1_0, vless_172.67.210.52_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.26.15.21_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0]
+      proxies: [trojan_216.24.57.250_0, vless_172.67.73.14_0, vless_172.67.194.187_0, vless_104.26.14.21_0, vless_172.67.73.14_0, vless_172.67.73.14_0, vless_208.103.161.52_0, vless_216.24.57.250_0, vless_188.114.96.3_0, vless_172.66.128.70_0, vless_104.16.0.108_0, vless_104.16.0.108_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.16.2.90_0, vless_104.20.1.252_0, vless_104.21.95.114_0, vless_104.26.7.13_0, vless_170.114.45.1_0, vless_172.67.210.52_0, vless_63.141.128.45_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_104.26.15.21_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.140.106_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.129_0, vless_104.19.141.3_0, vless_104.19.141.3_0, vless_afrcloud22.mmv.kr_0, vless_afrcloud22.mmv.kr_0, vless_afrcloud22.mmv.kr_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

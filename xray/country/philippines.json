@@ -116,6 +116,27 @@
       }
     },
     {
+      "tag": "trojan_185.158.133.107_0",
+      "protocol": "trojan",
+      "settings": {
+        "address": "185.158.133.107",
+        "port": 0,
+        "password": "pH%5B%5DS%5BBh%3A_%3AD6T4k",
+        "level": 0
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "AZaDneT-692.PagEs.DEv",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -159,7 +180,8 @@
         "selector": [
           "trojan_104.19.45.195_0",
           "trojan_104.19.45.195_0",
-          "trojan_104.19.45.195_0"
+          "trojan_104.19.45.195_0",
+          "trojan_185.158.133.107_0"
         ],
         "strategy": {
           "type": "leastPing",

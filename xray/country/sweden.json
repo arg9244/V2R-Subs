@@ -59,7 +59,38 @@
         "address": "88.216.189.20",
         "port": 0,
         "id": "0ed9418b-e687-4c2d-8869-7e368c44887e",
-        "tls": "tls"
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "thelocal.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4",
+            "shortId": "08"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_88.216.189.20_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "88.216.189.20",
+        "port": 0,
+        "id": "0ed9418b-e687-4c2d-8869-7e368c44887e",
+        "tls": "tls",
+        "encryption": "none"
       },
       "streamSettings": {
         "security": "reality",
@@ -110,33 +141,6 @@
       }
     },
     {
-      "tag": "vless_46.246.97.245_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "46.246.97.245",
-        "port": 0,
-        "id": "84be60308f98488f91bcdbf78d4c5f8e",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "universityadmissions.se",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
-            "shortId": "aabbccdd"
-          }
-        },
-        "network": "xhttp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -179,8 +183,8 @@
         "tag": "leastPing",
         "selector": [
           "vless_88.216.189.20_0",
-          "vless_45.80.230.231_0",
-          "vless_46.246.97.245_0"
+          "vless_88.216.189.20_0",
+          "vless_45.80.230.231_0"
         ],
         "strategy": {
           "type": "leastPing",

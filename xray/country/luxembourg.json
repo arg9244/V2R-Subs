@@ -81,6 +81,34 @@
       }
     },
     {
+      "tag": "vless_23.19.231.244_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "23.19.231.244",
+        "port": 0,
+        "id": "fa9efcb1-8ed0-40c5-ad0b-2734a86094b1",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "mlkem768x25519plus.native.0rtt.ekxh1exr6jbrowu68ieolcgcvzifk8dojhrxt3isg3a"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.sony.lu",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "dC9UK2QEeHOIsY7dyWvmBpniHHb7X4HPRGT_g0Cd-Sg",
+            "shortId": "5122cc86"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -122,6 +150,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_23.19.231.244_0",
           "vless_23.19.231.244_0"
         ],
         "strategy": {

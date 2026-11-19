@@ -13,6 +13,27 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_217.78.237.118_0",
+      "server": "217.78.237.118",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "483c6187-3c8d-436b-8413-536c2c87b70c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apache.be",
+        "reality": {
+          "enabled": true,
+          "public_key": "uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA",
+          "short_id": "be4c5e1a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "vless_209.46.30.217_0",
       "server": "209.46.30.217",
       "server_port": 0,
@@ -96,6 +117,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_217.78.237.118_0",
         "vless_209.46.30.217_0",
         "vless_62.72.166.67_0",
         "vless_94.247.142.241_0",

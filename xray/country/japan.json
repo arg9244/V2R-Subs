@@ -238,6 +238,33 @@
         "port": 0,
         "id": "8614bde7-34cf-4413-8360-e96f1b960528",
         "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.iij.ad.jp",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.192.193.54_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.192.193.54",
+        "port": 0,
+        "id": "8614bde7-34cf-4413-8360-e96f1b960528",
+        "tls": "tls",
         "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
@@ -283,15 +310,14 @@
       }
     },
     {
-      "tag": "vless_45.192.194.104_0",
+      "tag": "vless_45.192.193.54_0",
       "protocol": "vless",
       "settings": {
-        "address": "45.192.194.104",
+        "address": "45.192.193.54",
         "port": 0,
-        "id": "d34c4e7c-3eac-4a26-adb9-9004b6981ad8",
+        "id": "8614bde7-34cf-4413-8360-e96f1b960528",
         "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
+        "flow": "xtls-rprx-vision"
       },
       "streamSettings": {
         "security": "reality",
@@ -299,7 +325,7 @@
           "serverName": "www.iij.ad.jp",
           "allowInsecure": false,
           "reality": {
-            "publicKey": "zHmC_LkSMSrRHcetzsRJZvu6irqviiG3vf9VuXRL6FE"
+            "publicKey": "fJwbUNPAxu-CcoWnzWrvtDkX7QMDvJwFGWzJ3lDcFC4"
           }
         },
         "network": "tcp"
@@ -360,7 +386,8 @@
           "vless_45.192.193.54_0",
           "vless_45.192.193.54_0",
           "vless_45.192.193.54_0",
-          "vless_45.192.194.104_0"
+          "vless_45.192.193.54_0",
+          "vless_45.192.193.54_0"
         ],
         "strategy": {
           "type": "leastPing",

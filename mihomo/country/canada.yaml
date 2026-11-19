@@ -10,22 +10,63 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_195.26.26.56_0
-      server: 195.26.26.56
+-     name: vless_23.155.44.105_0
+      server: 23.155.44.105
       port: 0
       udp: true
       type: vless
-      uuid: 0c0b4387-f620-48fb-8ce1-9176a2b68bd7
+      uuid: 128ce9ab-63bc-48dc-92ca-1b5426a9eb46
+      flow: xtls-rprx-vision
       tls: true
-      servername: store.sony.ca
+      servername: app.flyprotect.ca
       client-fingerprint: chrome
       reality-opts:
-        public-key: ebu4fMRt44lcyq5jaBuHTyay54XscBWrNyyzCXjOTF4
-        short-id: b1
+        public-key: HE1CGzI0QBqhMRUsHqq_9v4Mj3M5dkluFmfyMBH_7kM
+        short-id: 70f75668dc5914b3
+-     name: vless_23.155.44.105_0
+      server: 23.155.44.105
+      port: 0
+      udp: true
+      type: vless
+      uuid: 128ce9ab-63bc-48dc-92ca-1b5426a9eb46
+      flow: xtls-rprx-vision
+      tls: true
+      servername: app.flyprotect.ca
+      reality-opts:
+        public-key: HE1CGzI0QBqhMRUsHqq_9v4Mj3M5dkluFmfyMBH_7kM
+        short-id: 70f75668dc5914b3
+-     name: vless_23.155.44.105_0
+      server: 23.155.44.105
+      port: 0
+      udp: true
+      type: vless
+      uuid: 128ce9ab-63bc-48dc-92ca-1b5426a9eb46
+      flow: xtls-rprx-vision
+      tls: true
+      servername: app.flyprotect.ca
+      reality-opts:
+        public-key: HE1CGzI0QBqhMRUsHqq_9v4Mj3M5dkluFmfyMBH_7kM
+        short-id: 70f75668dc5914b3
+-     name: vless_185.210.155.38_0
+      server: 185.210.155.38
+      port: 0
+      udp: true
+      type: vless
+      uuid: 17f3c566-b6c3-42f4-a098-b2f5374339a8
+      tls: true
+      servername: cira.ca
+      client-fingerprint: safari
+      reality-opts:
+        public-key: gF44pErBRsCwFGY398I654T5EBhcB6sryObLgcqxTSI
+        short-id: 41b779
+      network: xhttp
+      xhttp-opts:
+        path: /
+        host: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_195.26.26.56_0]
+      proxies: [vless_23.155.44.105_0, vless_23.155.44.105_0, vless_23.155.44.105_0, vless_185.210.155.38_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

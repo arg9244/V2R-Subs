@@ -265,25 +265,42 @@
       }
     },
     {
-      "tag": "vless_188.72.112.1_0",
+      "tag": "vless_45.88.176.223_0",
       "protocol": "vless",
       "settings": {
-        "address": "188.72.112.1",
+        "address": "45.88.176.223",
         "port": 0,
-        "id": "d8d9d99e-6622-4620-92dc-23ac2b6d30f6",
+        "id": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
         "tls": "tls",
         "encryption": "none"
       },
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "shop07.gruzit.my",
-          "alpn": {
-            "alpn": [
-              "h2",
-              "http/1.1"
-            ]
-          },
+          "serverName": "m.yourvibe.my",
+          "allowInsecure": false
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.88.176.223_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.88.176.223",
+        "port": 0,
+        "id": "d73e3cdc-a80b-4e73-a11b-cc467d7a84f8",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "m.yourvibe.my",
           "allowInsecure": false
         },
         "network": "xhttp"
@@ -343,7 +360,8 @@
           "vless_45.88.176.223_0",
           "vless_45.88.176.223_0",
           "vless_45.88.176.223_0",
-          "vless_188.72.112.1_0"
+          "vless_45.88.176.223_0",
+          "vless_45.88.176.223_0"
         ],
         "strategy": {
           "type": "leastPing",

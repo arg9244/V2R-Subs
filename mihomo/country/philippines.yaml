@@ -37,10 +37,18 @@ proxies:
       tls: true
       servername: AZaDneT-692.PagEs.DEv
       client-fingerprint: firefox
+-     name: trojan_185.158.133.107_0
+      server: 185.158.133.107
+      port: 0
+      udp: true
+      type: trojan
+      password: "pH%5B%5DS%5BBh%3A_%3AD6T4k"
+      tls: true
+      servername: AZaDneT-692.PagEs.DEv
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.19.45.195_0, trojan_104.19.45.195_0, trojan_104.19.45.195_0]
+      proxies: [trojan_104.19.45.195_0, trojan_104.19.45.195_0, trojan_104.19.45.195_0, trojan_185.158.133.107_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
