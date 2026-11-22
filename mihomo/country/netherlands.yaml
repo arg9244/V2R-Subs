@@ -10,45 +10,6 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: vless_107.161.175.107_0
-      server: 107.161.175.107
-      port: 0
-      udp: true
-      type: vless
-      uuid: 19fa78ee-a288-42b8-a4aa-6d5562f0eac8
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.flexwebhosting.nl
-      client-fingerprint: qq
-      reality-opts:
-        public-key: hrH83gh613E5NHE5CEkUWMorPMBzUw0S52xNVaUTHg0
-        short-id: 45523710b488
--     name: vless_45.192.12.92_0
-      server: 45.192.12.92
-      port: 0
-      udp: true
-      type: vless
-      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-      flow: xtls-rprx-vision
-      tls: true
-      servername: nltimes.nl
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
-        short-id: ""
--     name: vless_45.192.12.92_0
-      server: 45.192.12.92
-      port: 0
-      udp: true
-      type: vless
-      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-      flow: xtls-rprx-vision
-      tls: true
-      servername: nltimes.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
-        short-id: ""
 -     name: vless_45.192.12.92_0
       server: 45.192.12.92
       port: 0
@@ -94,20 +55,7 @@ proxies:
       udp: true
       type: vless
       uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-      flow: xtls-rprx-vision
-      tls: true
-      servername: nltimes.nl
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
-        short-id: ""
--     name: vless_45.192.12.92_0
-      server: 45.192.12.92
-      port: 0
-      udp: true
-      type: vless
-      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-      flow: xtls-rprx-vision
+      flow: xtls-rprx-vision-udp443
       tls: true
       servername: nltimes.nl
       client-fingerprint: firefox
@@ -159,12 +107,77 @@ proxies:
       udp: true
       type: vless
       uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+      flow: xtls-rprx-vision-udp443
+      tls: true
+      servername: nltimes.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
+        short-id: ""
+-     name: vless_45.192.12.92_0
+      server: 45.192.12.92
+      port: 0
+      udp: true
+      type: vless
+      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
       flow: xtls-rprx-vision
       tls: true
       servername: nltimes.nl
       client-fingerprint: firefox
       reality-opts:
         public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
+        short-id: ""
+-     name: vless_45.192.12.92_0
+      server: 45.192.12.92
+      port: 0
+      udp: true
+      type: vless
+      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+      flow: xtls-rprx-vision
+      tls: true
+      servername: nltimes.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
+        short-id: ""
+-     name: vless_45.192.12.92_0
+      server: 45.192.12.92
+      port: 0
+      udp: true
+      type: vless
+      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+      flow: xtls-rprx-vision
+      tls: true
+      servername: nltimes.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
+        short-id: ""
+-     name: vless_45.192.12.92_0
+      server: 45.192.12.92
+      port: 0
+      udp: true
+      type: vless
+      uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+      flow: xtls-rprx-vision
+      tls: true
+      servername: nltimes.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE
+        short-id: ""
+-     name: vless_193.233.127.76_0
+      server: 193.233.127.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: 5472dcf3-b9ec-4273-8031-50de98443ca3
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nu.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: pnuCubdtpaioDPV2iTUgSE3to5p3f42-Cx8J-vQysFw
         short-id: ""
 -     name: vless_185.246.152.209_0
       server: 185.246.152.209
@@ -179,6 +192,32 @@ proxies:
       reality-opts:
         public-key: BTCZ0hMhV10H818mbm54EQdU0s3qQXMtY4Hl67dFA18
         short-id: ""
+-     name: vless_89.125.114.9_0
+      server: 89.125.114.9
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+      flow: xtls-rprx-vision
+      tls: true
+      servername: ozone.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: KEoz-uTjqCGwtNakCD-XewbDk_8Vwm_nFv0zg3c2Syg
+        short-id: 67a4fe46bbf783cc
+-     name: vless_89.125.114.9_0
+      server: 89.125.114.9
+      port: 0
+      udp: true
+      type: vless
+      uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
+      flow: xtls-rprx-vision
+      tls: true
+      servername: ozone.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: KEoz-uTjqCGwtNakCD-XewbDk_8Vwm_nFv0zg3c2Syg
+        short-id: 67a4fe46bbf783cc
 -     name: vless_172.66.47.67_0
       server: 172.66.47.67
       port: 0
@@ -206,10 +245,23 @@ proxies:
       reality-opts:
         public-key: tXT4qv4t7mKzWav_8e7eQdw9qhvoePARvGtvwDiiux4
         short-id: 99b8d353e73e0b27
+-     name: vless_193.233.127.76_0
+      server: 193.233.127.76
+      port: 0
+      udp: true
+      type: vless
+      uuid: f55ea93e-b325-43dc-9e1a-1264e7fd946e
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.nu.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: pnuCubdtpaioDPV2iTUgSE3to5p3f42-Cx8J-vQysFw
+        short-id: 2e0e59ff29985e0a
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_107.161.175.107_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_185.246.152.209_0, vless_172.66.47.67_0, vless_138.124.2.239_0]
+      proxies: [vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_45.192.12.92_0, vless_193.233.127.76_0, vless_185.246.152.209_0, vless_89.125.114.9_0, vless_89.125.114.9_0, vless_172.66.47.67_0, vless_138.124.2.239_0, vless_193.233.127.76_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

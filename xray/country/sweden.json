@@ -141,6 +141,114 @@
       }
     },
     {
+      "tag": "vless_45.80.230.231_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.80.230.231",
+        "port": 0,
+        "id": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.1177.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
+            "shortId": "a928e81b"
+          }
+        },
+        "network": "raw"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_45.80.230.231_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "45.80.230.231",
+        "port": 0,
+        "id": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.1177.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
+            "shortId": "a928e81b"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_143.246.195.157_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "143.246.195.157",
+        "port": 0,
+        "id": "5d98ff1a-d576-46d3-9504-b158d94bcce9",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.telia.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "ZrfnJpQfBnWiNjELJL9kDi1pNa2hrVyosu8a0sjE9WQ",
+            "shortId": "2355ffa16d2b04a2"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_46.246.97.245_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "46.246.97.245",
+        "port": 0,
+        "id": "84be60308f98488f91bcdbf78d4c5f8e",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "universityadmissions.se",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
+            "shortId": "aabbccdd"
+          }
+        },
+        "network": "xhttp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -184,7 +292,11 @@
         "selector": [
           "vless_88.216.189.20_0",
           "vless_88.216.189.20_0",
-          "vless_45.80.230.231_0"
+          "vless_45.80.230.231_0",
+          "vless_45.80.230.231_0",
+          "vless_45.80.230.231_0",
+          "vless_143.246.195.157_0",
+          "vless_46.246.97.245_0"
         ],
         "strategy": {
           "type": "leastPing",
