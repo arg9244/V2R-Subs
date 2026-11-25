@@ -13,6 +13,26 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_2.56.125.209_0",
+      "server": "2.56.125.209",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "46e98c52-cfb4-404f-8163-8b1ba208d52b",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-stg.semiconductor.samsung.cn",
+        "reality": {
+          "enabled": true,
+          "public_key": "rI-T-Tg9OSeTitOe9zwApjKQfVZ6bhYZ5CJGJneatmE",
+          "short_id": "ed"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "vless_104.19.152.87_0",
       "server": "104.19.152.87",
       "server_port": 0,
@@ -40,6 +60,7 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "vless_2.56.125.209_0",
         "vless_104.19.152.87_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

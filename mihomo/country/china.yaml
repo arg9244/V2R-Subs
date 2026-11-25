@@ -10,6 +10,18 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
+-     name: vless_2.56.125.209_0
+      server: 2.56.125.209
+      port: 0
+      udp: true
+      type: vless
+      uuid: 46e98c52-cfb4-404f-8163-8b1ba208d52b
+      tls: true
+      servername: api-stg.semiconductor.samsung.cn
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: rI-T-Tg9OSeTitOe9zwApjKQfVZ6bhYZ5CJGJneatmE
+        short-id: ed
 -     name: vless_104.19.152.87_0
       server: 104.19.152.87
       port: 0
@@ -25,7 +37,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_104.19.152.87_0]
+      proxies: [vless_2.56.125.209_0, vless_104.19.152.87_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

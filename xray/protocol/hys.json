@@ -53,14 +53,15 @@
   ],
   "outbounds": [
     {
-      "tag": "hys_168.113.252.11_0",
+      "tag": "hys_166.0.28.140_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "168.113.252.11",
+        "address": "166.0.28.140",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "004ea4a8-d701-0001-b0c0-8e61a5c31a23",
+        "auth": "247802ca-0fbb-428a-b807-91a6e571b5c7",
+        "obfs": "salamander",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -69,7 +70,7 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "jkawq-ru-45sb.fade.mom",
+          "serverName": "static-de.snobmenu.xyz",
           "allowInsecure": false
         }
       },
@@ -79,14 +80,15 @@
       }
     },
     {
-      "tag": "hys_168.113.252.11_0",
+      "tag": "hys_166.0.28.140_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "168.113.252.11",
+        "address": "166.0.28.140",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "004ea4a8-d701-0001-b0c0-8e61a5c31a23",
+        "auth": "247802ca-0fbb-428a-b807-91a6e571b5c7",
+        "obfs": "salamander",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -95,7 +97,34 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "jkawq-ru-45sb.fade.mom",
+          "serverName": "static-de.snobmenu.xyz",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_166.0.28.140_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "166.0.28.140",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "247802ca-0fbb-428a-b807-91a6e571b5c7",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "static-de.snobmenu.xyz",
           "allowInsecure": false
         }
       },
@@ -162,32 +191,6 @@
       }
     },
     {
-      "tag": "hys_156.246.93.237_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "156.246.93.237",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "36187bef1c708c82fd4099b9d70116ffd8c0f1f5bfd19cbb319eeb67899714f6",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "jpk.wentibuxiaobuda.xyz",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "hys_31.76.80.69_0",
       "protocol": "hysteria2",
       "settings": {
@@ -269,14 +272,15 @@
       }
     },
     {
-      "tag": "hys_176.108.244.162_0",
+      "tag": "hys_216.73.157.142_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "176.108.244.162",
+        "address": "216.73.157.142",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "6acdc33a-a25b-0001-8095-c9a252d72fd0",
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -285,8 +289,153 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "ohyjf-ru-65sb.my-fade.cloud",
-          "allowInsecure": true
+          "serverName": "216.73.157.142",
+          "alpn": {
+            "alpn": [
+              "h3"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_216.73.157.142_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "216.73.157.142",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "216.73.157.142",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_216.73.157.142_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "216.73.157.142",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "216.73.157.142",
+          "alpn": {
+            "alpn": [
+              "h3"
+            ]
+          },
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_216.73.157.142_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "216.73.157.142",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "216.73.157.142",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_216.73.157.142_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "216.73.157.142",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "216.73.157.142",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_216.73.157.142_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "216.73.157.142",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "74bec046f0004aa5bc280ecc4ab50465",
+        "obfs": "salamander",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "216.73.157.142",
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -338,6 +487,32 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "se.mimowhat.online",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_95.143.196.97_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "95.143.196.97",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "769f34f0-1500-488f-b414-03bc90666502",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "se.mimowhat.online",
           "allowInsecure": true
         }
       },
@@ -347,14 +522,14 @@
       }
     },
     {
-      "tag": "hys_34.24.25.1_0",
+      "tag": "hys_217.60.33.215_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "34.24.25.1",
+        "address": "217.60.33.215",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "8dOHZ13sx33R1%2FPQbhTK%2Fw%3D%3D",
+        "auth": "865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -363,8 +538,138 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "bing.com",
+          "serverName": "streambox.wwwinternetvideo.click",
           "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_136.148.83.69_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "136.148.83.69",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "szqbx-ru-77dc.my-fade.cloud",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_136.148.83.69_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "136.148.83.69",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "szqbx-ru-77dc.my-fade.cloud",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_136.148.83.69_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "136.148.83.69",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "szqbx-ru-77dc.my-fade.cloud",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_136.148.83.69_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "136.148.83.69",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "87bb2ac4-b7a1-0001-b11d-2107709ea6cb",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "szqbx-ru-77dc.my-fade.cloud",
+          "allowInsecure": false
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_48.102.174.174_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "48.102.174.174",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "polandchuzhoi.site",
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -404,14 +709,14 @@
       }
     },
     {
-      "tag": "hys_95.140.147.245_0",
+      "tag": "hys_87.121.112.83_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "95.140.147.245",
+        "address": "87.121.112.83",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "9yOIR2_QAChKs26rYaiX_aoNnOALd0aU",
+        "auth": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -420,7 +725,33 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "nl1server.rabstvo.shop",
+          "serverName": "bulghys.live",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_87.121.112.83_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "87.121.112.83",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "bulghys.live",
           "allowInsecure": false
         }
       },
@@ -482,15 +813,14 @@
       }
     },
     {
-      "tag": "hys_89.117.172.45_0",
+      "tag": "hys_35.181.166.40_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "89.117.172.45",
+        "address": "35.181.166.40",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON",
-        "obfs": "salamander",
+        "auth": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -499,8 +829,8 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "eth.todsm.com",
-          "allowInsecure": false
+          "serverName": "vpn-fr-002.fastervpn.world",
+          "allowInsecure": true
         }
       },
       "mux": {
@@ -509,15 +839,14 @@
       }
     },
     {
-      "tag": "hys_89.117.172.45_0",
+      "tag": "hys_35.181.166.40_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "89.117.172.45",
+        "address": "35.181.166.40",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON",
-        "obfs": "salamander",
+        "auth": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -526,8 +855,8 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "eth.todsm.com",
-          "allowInsecure": false
+          "serverName": "vpn-fr-002.fastervpn.world",
+          "allowInsecure": true
         }
       },
       "mux": {
@@ -590,15 +919,14 @@
       }
     },
     {
-      "tag": "hys_51.15.19.206_0",
+      "tag": "hys_82.152.161.146_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "51.15.19.206",
+        "address": "82.152.161.146",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "HowdyHysteria2023w0W",
-        "obfs": "salamander",
+        "auth": "VR7zICGZd3cB34G0FxSYQra3",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -607,116 +935,8 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hysteria.udpgw.co",
+          "serverName": "pic.bstarstatic.com",
           "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_51.15.19.206_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "51.15.19.206",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "HowdyHysteria2023w0W",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "sni-here.com",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_51.15.19.206_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "51.15.19.206",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "HowdyHysteria2023w0W",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vk.com",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_51.15.19.206_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "51.15.19.206",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "HowdyHysteria2023w0W",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vk.com",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_51.15.19.206_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "51.15.19.206",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "HowdyHysteria2023w0W",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "vkvd127.mycdn.me",
-          "allowInsecure": false
         }
       },
       "mux": {
@@ -856,10 +1076,10 @@
       }
     },
     {
-      "tag": "hys_31.58.117.133_0",
+      "tag": "hys_45.137.201.211_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "31.58.117.133",
+        "address": "45.137.201.211",
         "port": 0
       },
       "hysteriaSettings": {
@@ -872,59 +1092,7 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "kraw-pl-5.fantoff.online",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_31.59.169.225_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "31.59.169.225",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "ca60984f-b1f0-4073-bd33-4c75168f749a",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ge-beer-1.fantoff.online",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_31.59.169.225_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "31.59.169.225",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "ca60984f-b1f0-4073-bd33-4c75168f749a",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "ge-beer-1.fantoff.online",
+          "serverName": "wwe.fantoff.online",
           "allowInsecure": false
         }
       },
@@ -960,6 +1128,32 @@
       }
     },
     {
+      "tag": "hys_144.31.128.13_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "144.31.128.13",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "d283bbfe-d5cd-4576-bc1a-630a7a5ad829",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "retryquery.luxe-self.co.uk",
+          "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "hys_62.210.124.146_0",
       "protocol": "hysteria2",
       "settings": {
@@ -1004,6 +1198,32 @@
         "tlsSettings": {
           "serverName": "www.microsoft.com",
           "allowInsecure": true
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "hys_62.210.124.146_0",
+      "protocol": "hysteria2",
+      "settings": {
+        "address": "62.210.124.146",
+        "port": 0
+      },
+      "hysteriaSettings": {
+        "auth": "dongtaiwang.com",
+        "bandwidth": {
+          "downMbps": "200",
+          "upMbps": "50"
+        }
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.microsoft.com",
+          "allowInsecure": false
         }
       },
       "mux": {
@@ -1064,14 +1284,14 @@
       }
     },
     {
-      "tag": "hys_172.87.24.53_0",
+      "tag": "hys_195.63.138.212_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "172.87.24.53",
+        "address": "195.63.138.212",
         "port": 0
       },
       "hysteriaSettings": {
-        "auth": "fce629d692a7b1ad71a17dae29d8b3c6",
+        "auth": "fa937345-6d3e-4ff4-8127-1a836987a0db",
         "bandwidth": {
           "downMbps": "200",
           "upMbps": "50"
@@ -1080,59 +1300,7 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "hy2k2p.local",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_172.87.24.53_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "172.87.24.53",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "fce629d692a7b1ad71a17dae29d8b3c6",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hy2k2p.local",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_172.87.24.53_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "172.87.24.53",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "fce629d692a7b1ad71a17dae29d8b3c6",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hy2k2p.local",
+          "serverName": "cloudehouse24.ru",
           "allowInsecure": false
         }
       },
@@ -1159,32 +1327,6 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "hy2k2p.local",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_185.156.44.99_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "185.156.44.99",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "gf1%3Agfhysteria2024",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.amazon.com",
           "allowInsecure": true
         }
       },
@@ -1640,10 +1782,10 @@
       }
     },
     {
-      "tag": "hys_5.129.235.85_0",
+      "tag": "hys_66.94.121.46_0",
       "protocol": "hysteria2",
       "settings": {
-        "address": "5.129.235.85",
+        "address": "66.94.121.46",
         "port": 0
       },
       "hysteriaSettings": {
@@ -1656,34 +1798,7 @@
       "streamSettings": {
         "security": "tls",
         "tlsSettings": {
-          "serverName": "google.com",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_5.129.235.85_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "5.129.235.85",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "gf1:gfhysteria2024",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.linux.com",
-          "allowInsecure": false
+          "allowInsecure": true
         }
       },
       "mux": {
@@ -1744,111 +1859,6 @@
       }
     },
     {
-      "tag": "hys_66.94.121.46_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "66.94.121.46",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "gf1:gfhysteria2024",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "66.94.121.46",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_185.156.44.99_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "185.156.44.99",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "gf1",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "www.amazon.com",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_43.103.2.53_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "43.103.2.53",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "hAUdd15a7YGHUSgiPOUz",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_43.103.2.53_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "43.103.2.53",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "hAUdd15a7YGHUSgiPOUz",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "43.103.2.53",
-          "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "hys_222.167.212.82_0",
       "protocol": "hysteria2",
       "settings": {
@@ -2025,112 +2035,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "hy2.aspidnet.xyz",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_130.49.161.70_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "130.49.161.70",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
-        "obfs": "salamander",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "hy2.aspidnet.xyz",
           "allowInsecure": false
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_217.60.182.79_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "217.60.182.79",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cabinet.wwwinternetvideo.click",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_217.60.182.79_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "217.60.182.79",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cabinet.wwwinternetvideo.click",
-          "allowInsecure": true
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "hys_217.60.182.79_0",
-      "protocol": "hysteria2",
-      "settings": {
-        "address": "217.60.182.79",
-        "port": 0
-      },
-      "hysteriaSettings": {
-        "auth": "sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX",
-        "bandwidth": {
-          "downMbps": "200",
-          "upMbps": "50"
-        }
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "cabinet.wwwinternetvideo.click",
-          "allowInsecure": true
         }
       },
       "mux": {
@@ -2268,53 +2173,58 @@
       {
         "tag": "leastPing",
         "selector": [
-          "hys_168.113.252.11_0",
-          "hys_168.113.252.11_0",
+          "hys_166.0.28.140_0",
+          "hys_166.0.28.140_0",
+          "hys_166.0.28.140_0",
           "hys_13.143.239.127_0",
           "hys_13.143.239.127_0",
-          "hys_156.246.93.237_0",
           "hys_31.76.80.69_0",
           "hys_31.76.80.69_0",
           "hys_31.76.80.69_0",
-          "hys_176.108.244.162_0",
+          "hys_216.73.157.142_0",
+          "hys_216.73.157.142_0",
+          "hys_216.73.157.142_0",
+          "hys_216.73.157.142_0",
+          "hys_216.73.157.142_0",
+          "hys_216.73.157.142_0",
           "hys_95.143.196.97_0",
           "hys_95.143.196.97_0",
-          "hys_34.24.25.1_0",
+          "hys_95.143.196.97_0",
+          "hys_217.60.33.215_0",
+          "hys_136.148.83.69_0",
+          "hys_136.148.83.69_0",
+          "hys_136.148.83.69_0",
+          "hys_136.148.83.69_0",
           "hys_48.102.174.174_0",
-          "hys_95.140.147.245_0",
+          "hys_48.102.174.174_0",
+          "hys_87.121.112.83_0",
+          "hys_87.121.112.83_0",
           "hys_72.56.92.120_0",
           "hys_72.56.92.120_0",
-          "hys_89.117.172.45_0",
-          "hys_89.117.172.45_0",
+          "hys_35.181.166.40_0",
+          "hys_35.181.166.40_0",
           "hys_51.15.19.206_0",
           "hys_51.15.19.206_0",
-          "hys_51.15.19.206_0",
-          "hys_51.15.19.206_0",
-          "hys_51.15.19.206_0",
-          "hys_51.15.19.206_0",
-          "hys_51.15.19.206_0",
+          "hys_82.152.161.146_0",
           "hys_206.189.229.48_0",
           "hys_45.192.12.93_0",
           "hys_45.192.12.93_0",
           "hys_192.142.23.46_0",
           "hys_192.142.23.46_0",
-          "hys_31.58.117.133_0",
-          "hys_31.59.169.225_0",
-          "hys_31.59.169.225_0",
           "hys_45.137.201.211_0",
+          "hys_45.137.201.211_0",
+          "hys_144.31.128.13_0",
+          "hys_62.210.124.146_0",
           "hys_62.210.124.146_0",
           "hys_62.210.124.146_0",
           "hys_194.238.40.185_0",
           "hys_194.238.40.185_0",
-          "hys_172.87.24.53_0",
-          "hys_172.87.24.53_0",
-          "hys_172.87.24.53_0",
+          "hys_195.63.138.212_0",
           "hys_172.87.24.53_0",
           "hys_185.156.44.99_0",
           "hys_185.156.44.99_0",
           "hys_185.156.44.99_0",
           "hys_185.156.44.99_0",
-          "hys_185.156.44.99_0",
           "hys_5.129.235.85_0",
           "hys_5.129.235.85_0",
           "hys_5.129.235.85_0",
@@ -2328,14 +2238,9 @@
           "hys_185.156.44.99_0",
           "hys_185.156.44.99_0",
           "hys_185.156.44.99_0",
-          "hys_5.129.235.85_0",
-          "hys_5.129.235.85_0",
           "hys_66.94.121.46_0",
           "hys_66.94.121.46_0",
           "hys_66.94.121.46_0",
-          "hys_185.156.44.99_0",
-          "hys_43.103.2.53_0",
-          "hys_43.103.2.53_0",
           "hys_222.167.212.82_0",
           "hys_222.167.212.82_0",
           "hys_201.51.24.4_0",
@@ -2343,10 +2248,6 @@
           "hys_130.49.161.70_0",
           "hys_130.49.161.70_0",
           "hys_130.49.161.70_0",
-          "hys_130.49.161.70_0",
-          "hys_217.60.182.79_0",
-          "hys_217.60.182.79_0",
-          "hys_217.60.182.79_0",
           "hys_8.209.247.109_0",
           "hys_8.209.247.109_0",
           "hys_8.209.247.109_0"

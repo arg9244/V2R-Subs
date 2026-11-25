@@ -13,14 +13,15 @@
   ],
   "outbounds": [
     {
-      "tag": "trojan_34.80.15.95_0",
-      "server": "34.80.15.95",
+      "tag": "hys_144.31.128.13_0",
+      "server": "144.31.128.13",
       "server_port": 0,
-      "type": "trojan",
-      "password": "123456",
+      "type": "hysteria2",
+      "password": "d283bbfe-d5cd-4576-bc1a-630a7a5ad829",
       "tls": {
         "enabled": true,
-        "server_name": "tw.ctt25.uk"
+        "insecure": true,
+        "server_name": "retryquery.luxe-self.co.uk"
       }
     },
     {
@@ -31,7 +32,41 @@
       "password": "123456",
       "tls": {
         "enabled": true,
-        "server_name": "tw.ctt25.uk"
+        "server_name": "tw.ctt25.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "trojan_34.80.15.95_0",
+      "server": "34.80.15.95",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "123456",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.ctt25.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "trojan_34.80.15.95_0",
+      "server": "34.80.15.95",
+      "server_port": 0,
+      "type": "trojan",
+      "password": "123456",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.ctt25.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -507,23 +542,6 @@
           "enabled": true,
           "public_key": "0L0a22tcISNd3pY2Le6DS9vrW1ughjmzhjj5ec8iBHo",
           "short_id": "a51a6973d7d358d6"
-        }
-      }
-    },
-    {
-      "tag": "vless_88.218.92.185_0",
-      "server": "88.218.92.185",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sadas.jugoslavija.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "0L0a22tcISNd3pY2Le6DS9vrW1ughjmzhjj5ec8iBHo",
-          "short_id": "a51a6973d7d358d6"
         },
         "utls": {
           "enabled": true,
@@ -656,129 +674,23 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
+      "tag": "vless_8.6.112.0_0",
+      "server": "8.6.112.0",
       "server_port": 0,
       "type": "vless",
-      "uuid": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
-      "flow": "xtls-rprx-vision",
+      "uuid": "427d85cd-a2a8-4668-8118-0d43d2d57f77",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
+        "server_name": "asmaos.uk"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      },
+      "multiplex": {
         "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "3b9189fd-9d29-465e-8c1f-5651af043fe4",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "407d047a-d9b4-41f3-8a02-ebc53854efca",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "407d047a-d9b4-41f3-8a02-ebc53854efca",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "max_connections": 8,
+        "max_streams": 8
       }
     },
     {
@@ -953,177 +865,6 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "441caaf2-aae6-4883-8af9-1e5770395ae8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "441caaf2-aae6-4883-8af9-1e5770395ae8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "441caaf2-aae6-4883-8af9-1e5770395ae8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "441caaf2-aae6-4883-8af9-1e5770395ae8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "45c02942-9e3a-4dfd-8042-4f6f83207824",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "45c02942-9e3a-4dfd-8042-4f6f83207824",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "45c02942-9e3a-4dfd-8042-4f6f83207824",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_31.76.3.63_0",
-      "server": "31.76.3.63",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "4bf453b5-38fe-454a-b743-52da8a9f2c22",
-      "tls": {
-        "enabled": true,
-        "server_name": "revisionharbor.bezl-self.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      },
-      "multiplex": {
-        "enabled": true,
-        "max_connections": 8,
-        "max_streams": 8
-      }
-    },
-    {
       "tag": "vless_104.17.121.37_0",
       "server": "104.17.121.37",
       "server_port": 0,
@@ -1150,106 +891,6 @@
       }
     },
     {
-      "tag": "vless_5.59.205.184_0",
-      "server": "5.59.205.184",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "52d0c9b1-80aa-4b20-bcb1-849991560498",
-      "tls": {
-        "enabled": true,
-        "server_name": "52d0c9b1.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/tr"
-      }
-    },
-    {
-      "tag": "vless_5.59.205.184_0",
-      "server": "5.59.205.184",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "52d0c9b1-80aa-4b20-bcb1-849991560498",
-      "tls": {
-        "enabled": true,
-        "server_name": "52d0c9b1.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/tr"
-      }
-    },
-    {
-      "tag": "vless_5.59.205.81_0",
-      "server": "5.59.205.81",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "52d0c9b1-80aa-4b20-bcb1-849991560498",
-      "tls": {
-        "enabled": true,
-        "server_name": "52d0c9b1.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_5.59.205.81_0",
-      "server": "5.59.205.81",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "52d0c9b1-80aa-4b20-bcb1-849991560498",
-      "tls": {
-        "enabled": true,
-        "server_name": "52d0c9b1.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/tr"
-      }
-    },
-    {
-      "tag": "vless_5.59.205.81:443?type=xhttp&security=tls&fp=firefox&sni=52d0c9b1.ferrin.uk&path=/tr&mode=stream-one&extra={\"xmux\":{\"hMaxReusableSecs\":\"1140-1260\",\"maxConnections\"_0",
-      "server": "5.59.205.81:443?type=xhttp&security=tls&fp=firefox&sni=52d0c9b1.ferrin.uk&path=/tr&mode=stream-one&extra={\"xmux\":{\"hMaxReusableSecs\":\"1140-1260\",\"maxConnections\"",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "52d0c9b1-80aa-4b20-bcb1-849991560498",
-      "tls": {
-        "enabled": true,
-        "server_name": "52d0c9b1.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/tr"
-      }
-    },
-    {
       "tag": "vless_104.21.3.219_0",
       "server": "104.21.3.219",
       "server_port": 0,
@@ -1512,132 +1153,6 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5f387ecb-781c-4256-8111-142ca3f31ab7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "vless_104.18.32.47_0",
       "server": "104.18.32.47",
       "server_port": 0,
@@ -1718,59 +1233,6 @@
       "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
       "tls": {
         "enabled": true,
-        "server_name": "base.hosamobenl.co.uk"
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
         "server_name": "base.hosamobenl.co.uk",
         "alpn": {
           "enabled": true,
@@ -1817,108 +1279,6 @@
     {
       "tag": "vless_194.60.228.97_0",
       "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_194.60.228.97_0",
-      "server": "194.60.228.97",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
       "server_port": 0,
       "type": "vless",
       "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
@@ -1959,83 +1319,6 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "http/1.1"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_87.248.149.50_0",
-      "server": "87.248.149.50",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
-      "tls": {
-        "enabled": true,
-        "server_name": "base.hosamobenl.co.uk"
       }
     },
     {
@@ -2294,7 +1577,7 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -2318,87 +1601,12 @@
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         }
       },
       "transport": {
         "type": "grpc",
         "service_name": "vless"
-      }
-    },
-    {
-      "tag": "vless_64.188.90.248_0",
-      "server": "64.188.90.248",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "72522396-5408-4767-b134-70ca09cdfe36",
-      "tls": {
-        "enabled": true,
-        "server_name": "ronaldo.foxprox.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc",
-          "short_id": "97419a452e2a7201"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/v1/api/download"
-      }
-    },
-    {
-      "tag": "vless_64.188.90.248_0",
-      "server": "64.188.90.248",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "72522396-5408-4767-b134-70ca09cdfe36",
-      "tls": {
-        "enabled": true,
-        "server_name": "ronaldo.foxprox.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc",
-          "short_id": "97419a452e2a7201"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/v1/api/download"
-      }
-    },
-    {
-      "tag": "vless_64.188.90.248:443?type=xhttp&security=reality&fp=safari&pbk=f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc&sid=97419a452e2a7201&sni=ronaldo.foxprox.uk&path=/v1/api/download&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"maxConcurrency\":\"16-32\",\"maxConnections\"_0",
-      "server": "64.188.90.248:443?type=xhttp&security=reality&fp=safari&pbk=f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc&sid=97419a452e2a7201&sni=ronaldo.foxprox.uk&path=/v1/api/download&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"maxConcurrency\":\"16-32\",\"maxConnections\"",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "72522396-5408-4767-b134-70ca09cdfe36",
-      "tls": {
-        "enabled": true,
-        "server_name": "ronaldo.foxprox.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc",
-          "short_id": "97419a452e2a7201"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/v1/api/download"
       }
     },
     {
@@ -2572,90 +1780,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "irandaily.ir.kayhan.ir.kayhan.ir.farsnews.ir.khabaronline.ir.iribnews.ir.irandaily.ir"
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
       }
     },
     {
@@ -3113,69 +2237,6 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "a4a03a70-47c1-4c5f-89d6-dd9d3d2c5ada",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "a4a03a70-47c1-4c5f-89d6-dd9d3d2c5ada",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "a4a03a70-47c1-4c5f-89d6-dd9d3d2c5ada",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "vless_66.235.200.21_0",
       "server": "66.235.200.21",
       "server_port": 0,
@@ -3362,19 +2423,29 @@
       }
     },
     {
-      "tag": "vless_165.231.170.18_0",
-      "server": "165.231.170.18",
+      "tag": "vless_107.150.93.52_0",
+      "server": "107.150.93.52",
       "server_port": 0,
       "type": "vless",
       "uuid": "b3441cc7-1e5f-4eb6-8207-90788eeca21e",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-6ad3c751.adhil.uk",
+        "server_name": "b3441cc7.ferrin.uk",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
+        },
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
       }
     },
     {
@@ -3475,90 +2546,6 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bcf7f0af-dc39-423b-9ceb-046a8d8fe358",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bcf7f0af-dc39-423b-9ceb-046a8d8fe358",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bcf7f0af-dc39-423b-9ceb-046a8d8fe358",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "bcf7f0af-dc39-423b-9ceb-046a8d8fe358",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "vless_188.114.98.0_0",
       "server": "188.114.98.0",
       "server_port": 0,
@@ -3629,187 +2616,6 @@
         "server_name": "e9958027.ferrin.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/",
-        "headers": {
-          "Host": "107.150.93.43"
-        }
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
           "fingerprint": "firefox"
         }
       },
@@ -3853,251 +2659,59 @@
         "server_name": "e9958027.ferrin.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/",
-        "headers": {
-          "Host": "107.150.93.43"
-        }
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_107.150.93.43_0",
-      "server": "107.150.93.43",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "android"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "alpn": {
-          "enabled": true,
-          "protocols": [
-            "h2"
-          ]
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_66.90.91.122_0",
-      "server": "66.90.91.122",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "tls": {
-        "enabled": true,
-        "server_name": "6b014610-e9958027.ferrin.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/"
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "f3d543c5-f41b-46d7-85f8-d6f3ccefe280",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
+      "tag": "vless_107.150.93.43_0",
+      "server": "107.150.93.43",
       "server_port": 0,
       "type": "vless",
-      "uuid": "f3d543c5-f41b-46d7-85f8-d6f3ccefe280",
-      "flow": "xtls-rprx-vision",
+      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
+        "server_name": "e9958027.ferrin.uk",
+        "utls": {
           "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
+      }
+    },
+    {
+      "tag": "vless_107.150.93.43_0",
+      "server": "107.150.93.43",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
+      "tls": {
+        "enabled": true,
+        "server_name": "e9958027.ferrin.uk",
+        "alpn": {
+          "enabled": true,
+          "protocols": [
+            "h2"
+          ]
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
       }
     },
     {
@@ -4113,51 +2727,11 @@
       }
     },
     {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "fbc74c2d-d749-47b6-bedc-1c3f7b23eca3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_188.116.27.6_0",
-      "server": "188.116.27.6",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "fbc74c2d-d749-47b6-bedc-1c3f7b23eca3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.co.uk",
-        "reality": {
-          "enabled": true,
-          "public_key": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
-          "short_id": "1174"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
+        "hys_144.31.128.13_0",
+        "trojan_34.80.15.95_0",
         "trojan_34.80.15.95_0",
         "trojan_34.80.15.95_0",
         "trojan_34.80.15.95_0",
@@ -4182,17 +2756,11 @@
         "vless_88.218.92.185_0",
         "vless_88.218.92.185_0",
         "vless_88.218.92.185_0",
-        "vless_88.218.92.185_0",
         "vless_104.18.36.24_0",
         "vless_104.18.32.47_0",
         "vless_104.18.32.47_0",
         "vless_45.61.182.219_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
+        "vless_8.6.112.0_0",
         "vless_8.6.112.0_0",
         "vless_8.6.112.0_0",
         "vless_178.159.10.78_0",
@@ -4201,20 +2769,7 @@
         "vless_178.159.10.78_0",
         "vless_178.159.10.78_0",
         "vless_104.18.32.47_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_31.76.3.63_0",
         "vless_104.17.121.37_0",
-        "vless_5.59.205.184_0",
-        "vless_5.59.205.184_0",
-        "vless_5.59.205.81_0",
-        "vless_5.59.205.81_0",
-        "vless_5.59.205.81:443?type=xhttp&security=tls&fp=firefox&sni=52d0c9b1.ferrin.uk&path=/tr&mode=stream-one&extra={\"xmux\":{\"hMaxReusableSecs\":\"1140-1260\",\"maxConnections\"_0",
         "vless_104.21.3.219_0",
         "vless_104.21.3.219_0",
         "vless_104.21.3.219_0",
@@ -4227,12 +2782,6 @@
         "vless_172.67.153.156_0",
         "vless_45.131.209.130_0",
         "vless_45.131.209.130_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
         "vless_104.18.32.47_0",
         "vless_104.18.32.47_0",
         "vless_194.60.228.97_0",
@@ -4240,20 +2789,6 @@
         "vless_194.60.228.97_0",
         "vless_194.60.228.97_0",
         "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_194.60.228.97_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
-        "vless_87.248.149.50_0",
         "vless_87.248.149.50_0",
         "vless_87.248.149.50_0",
         "vless_87.248.149.50_0",
@@ -4268,9 +2803,6 @@
         "vless_165.231.177.50_0",
         "vless_193.163.203.6_0",
         "vless_193.163.203.6_0",
-        "vless_64.188.90.248_0",
-        "vless_64.188.90.248_0",
-        "vless_64.188.90.248:443?type=xhttp&security=reality&fp=safari&pbk=f20b2EABHC76o4CnIBsc8PTnnyPeLKK-y6xnRkrorAc&sid=97419a452e2a7201&sni=ronaldo.foxprox.uk&path=/v1/api/download&mode=auto&extra={\"mode\":\"auto\",\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":0,\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"600-900\",\"hMaxReusableSecs\":\"1800-3000\",\"maxConcurrency\":\"16-32\",\"maxConnections\"_0",
         "vless_80.66.78.227_0",
         "vless_80.66.78.227_0",
         "vless_80.66.78.227_0",
@@ -4279,10 +2811,6 @@
         "vless_80.66.78.227_0",
         "vless_80.66.78.227_0",
         "vless_104.18.32.47_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
         "vless_104.21.60.101_0",
         "vless_104.21.60.101_0",
         "vless_172.67.195.196_0",
@@ -4301,9 +2829,6 @@
         "vless_188.114.98.0_0",
         "vless_91.103.140.11_0",
         "vless_91.103.140.11_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
         "vless_66.235.200.21_0",
         "vless_66.235.200.40_0",
         "vless_45.130.125.69_0",
@@ -4312,17 +2837,13 @@
         "vless_107.150.93.22_0",
         "vless_107.150.93.3_0",
         "vless_107.150.93.43_0",
-        "vless_165.231.170.18_0",
+        "vless_107.150.93.52_0",
         "vless_196.198.111.107_0",
         "vless_196.198.111.107_0",
         "vless_196.198.111.138_0",
         "vless_196.198.111.138_0",
         "vless_196.198.111.138_0",
         "vless_104.17.227.60_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
         "vless_188.114.98.0_0",
         "vless_188.114.98.0_0",
         "vless_188.114.98.0_0",
@@ -4331,26 +2852,7 @@
         "vless_107.150.93.43_0",
         "vless_107.150.93.43_0",
         "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_107.150.93.43_0",
-        "vless_66.90.91.122_0",
-        "vless_66.90.91.122_0",
-        "vless_66.90.91.122_0",
-        "vless_66.90.91.122_0",
-        "vless_66.90.91.122_0",
-        "vless_66.90.91.122_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0",
-        "vless_213.108.20.152_0",
-        "vless_188.116.27.6_0",
-        "vless_188.116.27.6_0"
+        "vless_213.108.20.152_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

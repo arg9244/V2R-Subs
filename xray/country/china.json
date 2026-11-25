@@ -53,6 +53,33 @@
   ],
   "outbounds": [
     {
+      "tag": "vless_2.56.125.209_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "2.56.125.209",
+        "port": 0,
+        "id": "46e98c52-cfb4-404f-8163-8b1ba208d52b",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "api-stg.semiconductor.samsung.cn",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "rI-T-Tg9OSeTitOe9zwApjKQfVZ6bhYZ5CJGJneatmE",
+            "shortId": "ed"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.19.152.87_0",
       "protocol": "vless",
       "settings": {
@@ -120,6 +147,7 @@
       {
         "tag": "leastPing",
         "selector": [
+          "vless_2.56.125.209_0",
           "vless_104.19.152.87_0"
         ],
         "strategy": {

@@ -25,26 +25,6 @@
           "enabled": true,
           "public_key": "9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4",
           "short_id": "08"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "tag": "vless_88.216.189.20_0",
-      "server": "88.216.189.20",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "0ed9418b-e687-4c2d-8869-7e368c44887e",
-      "tls": {
-        "enabled": true,
-        "server_name": "thelocal.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4",
-          "short_id": "08"
         },
         "utls": {
           "enabled": true,
@@ -78,91 +58,23 @@
       }
     },
     {
-      "tag": "vless_45.80.230.231_0",
-      "server": "45.80.230.231",
+      "tag": "vless_143.246.193.215_0",
+      "server": "143.246.193.215",
       "server_port": 0,
       "type": "vless",
-      "uuid": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
+      "uuid": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.1177.se",
+        "server_name": "www.blocket.se",
         "reality": {
           "enabled": true,
-          "public_key": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
-          "short_id": "a928e81b"
+          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         }
-      }
-    },
-    {
-      "tag": "vless_45.80.230.231_0",
-      "server": "45.80.230.231",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.1177.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
-          "short_id": "a928e81b"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "vless_143.246.195.157_0",
-      "server": "143.246.195.157",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "5d98ff1a-d576-46d3-9504-b158d94bcce9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.telia.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "ZrfnJpQfBnWiNjELJL9kDi1pNa2hrVyosu8a0sjE9WQ",
-          "short_id": "2355ffa16d2b04a2"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "vless_46.246.97.245_0",
-      "server": "46.246.97.245",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "84be60308f98488f91bcdbf78d4c5f8e",
-      "tls": {
-        "enabled": true,
-        "server_name": "universityadmissions.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ",
-          "short_id": "aabbccdd"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "http",
-        "method": "POST",
-        "path": "/x"
       }
     },
     {
@@ -170,12 +82,8 @@
       "type": "urltest",
       "outbounds": [
         "vless_88.216.189.20_0",
-        "vless_88.216.189.20_0",
         "vless_45.80.230.231_0",
-        "vless_45.80.230.231_0",
-        "vless_45.80.230.231_0",
-        "vless_143.246.195.157_0",
-        "vless_46.246.97.245_0"
+        "vless_143.246.193.215_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

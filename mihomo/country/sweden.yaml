@@ -18,20 +18,6 @@ proxies:
       uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
       tls: true
       servername: thelocal.se
-      reality-opts:
-        public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
-        short-id: 08
-      network: grpc
-      grpc-opts:
-        grpc-service-name: grpc
--     name: vless_88.216.189.20_0
-      server: 88.216.189.20
-      port: 0
-      udp: true
-      type: vless
-      uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-      tls: true
-      servername: thelocal.se
       client-fingerprint: firefox
       reality-opts:
         public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
@@ -52,65 +38,23 @@ proxies:
       reality-opts:
         public-key: wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc
         short-id: a928e81b
--     name: vless_45.80.230.231_0
-      server: 45.80.230.231
+-     name: vless_143.246.193.215_0
+      server: 143.246.193.215
       port: 0
       udp: true
       type: vless
-      uuid: 1011b03e-b5e7-4f7f-af17-1d8f9e727700
+      uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
       flow: xtls-rprx-vision
       tls: true
-      servername: www.1177.se
-      client-fingerprint: chrome
+      servername: www.blocket.se
+      client-fingerprint: randomized
       reality-opts:
-        public-key: wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc
-        short-id: a928e81b
--     name: vless_45.80.230.231_0
-      server: 45.80.230.231
-      port: 0
-      udp: true
-      type: vless
-      uuid: 1011b03e-b5e7-4f7f-af17-1d8f9e727700
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.1177.se
-      client-fingerprint: chrome
-      reality-opts:
-        public-key: wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc
-        short-id: a928e81b
--     name: vless_143.246.195.157_0
-      server: 143.246.195.157
-      port: 0
-      udp: true
-      type: vless
-      uuid: 5d98ff1a-d576-46d3-9504-b158d94bcce9
-      flow: xtls-rprx-vision
-      tls: true
-      servername: www.telia.se
-      client-fingerprint: firefox
-      reality-opts:
-        public-key: ZrfnJpQfBnWiNjELJL9kDi1pNa2hrVyosu8a0sjE9WQ
-        short-id: 2355ffa16d2b04a2
--     name: vless_46.246.97.245_0
-      server: 46.246.97.245
-      port: 0
-      udp: true
-      type: vless
-      uuid: 84be60308f98488f91bcdbf78d4c5f8e
-      tls: true
-      servername: universityadmissions.se
-      client-fingerprint: random
-      reality-opts:
-        public-key: rUTuh-f8bb9pRzYgcKyGthdtDqTr03flDDyX2ZJUaHQ
-        short-id: aabbccdd
-      network: xhttp
-      xhttp-opts:
-        path: /x
-        host: ""
+        public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+        short-id: ""
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_88.216.189.20_0, vless_88.216.189.20_0, vless_45.80.230.231_0, vless_45.80.230.231_0, vless_45.80.230.231_0, vless_143.246.195.157_0, vless_46.246.97.245_0]
+      proxies: [vless_88.216.189.20_0, vless_45.80.230.231_0, vless_143.246.193.215_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50
