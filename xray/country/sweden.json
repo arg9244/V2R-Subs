@@ -53,64 +53,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_88.216.189.20_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "88.216.189.20",
-        "port": 0,
-        "id": "0ed9418b-e687-4c2d-8869-7e368c44887e",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "thelocal.se",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4",
-            "shortId": "08"
-          }
-        },
-        "network": "grpc",
-        "grpcSettings": {
-          "serviceName": "grpc"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_45.80.230.231_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "45.80.230.231",
-        "port": 0,
-        "id": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
-        "tls": "tls",
-        "flow": "xtls-rprx-vision",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "reality",
-        "tlsSettings": {
-          "serverName": "www.1177.se",
-          "allowInsecure": false,
-          "reality": {
-            "publicKey": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
-            "shortId": "a928e81b"
-          }
-        },
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_143.246.193.215_0",
       "protocol": "vless",
       "settings": {
@@ -179,8 +121,6 @@
       {
         "tag": "leastPing",
         "selector": [
-          "vless_88.216.189.20_0",
-          "vless_45.80.230.231_0",
           "vless_143.246.193.215_0"
         ],
         "strategy": {

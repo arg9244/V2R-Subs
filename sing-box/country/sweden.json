@@ -13,51 +13,6 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_88.216.189.20_0",
-      "server": "88.216.189.20",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "0ed9418b-e687-4c2d-8869-7e368c44887e",
-      "tls": {
-        "enabled": true,
-        "server_name": "thelocal.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4",
-          "short_id": "08"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      }
-    },
-    {
-      "tag": "vless_45.80.230.231_0",
-      "server": "45.80.230.231",
-      "server_port": 0,
-      "type": "vless",
-      "uuid": "1011b03e-b5e7-4f7f-af17-1d8f9e727700",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.1177.se",
-        "reality": {
-          "enabled": true,
-          "public_key": "wD713tU37fU02OUusCfKXQ5nDsfjjgWIB6ArIO8sjCc",
-          "short_id": "a928e81b"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "vless_143.246.193.215_0",
       "server": "143.246.193.215",
       "server_port": 0,
@@ -81,8 +36,6 @@
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_88.216.189.20_0",
-        "vless_45.80.230.231_0",
         "vless_143.246.193.215_0"
       ],
       "url": "https://www.gstatic.com/generate_204",

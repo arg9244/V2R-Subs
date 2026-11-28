@@ -13,17 +13,17 @@
   ],
   "outbounds": [
     {
-      "tag": "vless_46.28.67.118_0",
-      "server": "46.28.67.118",
+      "tag": "vless_193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+      "server": "193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"",
       "server_port": 0,
       "type": "vless",
-      "uuid": "0a1497e6-0570-40a2-84ce-e522eda1c6a4",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
       "tls": {
         "enabled": true,
-        "server_name": "www.olx.ro",
+        "server_name": "www.vodafone.ro",
         "reality": {
           "enabled": true,
-          "public_key": "9xwvSAOWL36GC2_oNuy0APzirpqSYzd8vKPmGINnzjA"
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
         },
         "utls": {
           "enabled": true,
@@ -33,14 +33,154 @@
       "transport": {
         "type": "http",
         "method": "POST",
-        "path": "/assets"
+        "path": "/",
+        "headers": {
+          "Host": "www.vodafone.ro"
+        }
+      }
+    },
+    {
+      "tag": "vless_193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+      "server": "193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vodafone.ro",
+        "reality": {
+          "enabled": true,
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/",
+        "headers": {
+          "Host": "www.vodafone.ro"
+        }
+      }
+    },
+    {
+      "tag": "vless_193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+      "server": "193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vodafone.ro",
+        "reality": {
+          "enabled": true,
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/",
+        "headers": {
+          "Host": "www.vodafone.ro"
+        }
+      }
+    },
+    {
+      "tag": "vless_193.168.140.228_0",
+      "server": "193.168.140.228",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vodafone.ro",
+        "reality": {
+          "enabled": true,
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/",
+        "headers": {
+          "Host": "www.vodafone.ro"
+        }
+      }
+    },
+    {
+      "tag": "vless_193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&mode=auto&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+      "server": "193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&mode=auto&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vodafone.ro",
+        "reality": {
+          "enabled": true,
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/",
+        "headers": {
+          "Host": "www.vodafone.ro"
+        }
+      }
+    },
+    {
+      "tag": "vless_193.168.140.228_0",
+      "server": "193.168.140.228",
+      "server_port": 0,
+      "type": "vless",
+      "uuid": "89f361ea-a370-4cbe-b2b3-d3e9c0b7c4c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.vodafone.ro",
+        "reality": {
+          "enabled": true,
+          "public_key": "UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "http",
+        "method": "POST",
+        "path": "/"
       }
     },
     {
       "tag": "urltest",
       "type": "urltest",
       "outbounds": [
-        "vless_46.28.67.118_0"
+        "vless_193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+        "vless_193.168.140.228:443?mode=auto&path=/&security=reality&encryption=none&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+        "vless_193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+        "vless_193.168.140.228_0",
+        "vless_193.168.140.228:443?type=xhttp&security=reality&fp=firefox&pbk=UGeXXP0IS2_P7AWPDbbk_w7BzZLoPPrk3ha7OgI_0D4&sni=www.vodafone.ro&host=www.vodafone.ro&mode=auto&extra={\"xPaddingBytes\":\"100-1000\",\"xmux\":{\"cMaxReuseTimes\":\"64-128\",\"hKeepAlivePeriod\":0,\"hMaxRequestTimes\":\"800-1200\",\"hMaxReusableSecs\":\"1800-3600\",\"maxConcurrency\"_0",
+        "vless_193.168.140.228_0"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",

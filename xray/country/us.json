@@ -215,69 +215,6 @@
       }
     },
     {
-      "tag": "vless_69.48.201.136_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "69.48.201.136",
-        "port": 0,
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/usserver"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_69.48.201.136_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "69.48.201.136",
-        "port": 0,
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/usserver"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_69.48.201.136_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "69.48.201.136",
-        "port": 0,
-        "id": "03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/usserver"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "vless_172.67.132.41_0",
       "protocol": "vless",
       "settings": {
@@ -297,6 +234,33 @@
         "wsSettings": {
           "path": "/?ed=2048"
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_43.155.208.90_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "43.155.208.90",
+        "port": 0,
+        "id": "21096a6d-88df-49c7-8882-d09e73b4da95",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "w.fugui.us",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "J2yp_4F_8h4hHTntLf3URZRrdScOhOPOt1ct9LZJ5n4",
+            "shortId": "9cab9354c40d5f68"
+          }
+        },
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
@@ -434,27 +398,6 @@
       }
     },
     {
-      "tag": "vless_support.zoom.us_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "support.zoom.us",
-        "port": 0,
-        "id": "f028d829-249a-4692-b45f-1b4cde8ef0c7",
-        "tls": "none"
-      },
-      "streamSettings": {
-        "security": "none",
-        "network": "ws",
-        "wsSettings": {
-          "path": "/"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -503,16 +446,13 @@
           "vless_69.48.201.136_0",
           "vless_69.48.201.136_0",
           "vless_69.48.201.136_0",
-          "vless_69.48.201.136_0",
-          "vless_69.48.201.136_0",
-          "vless_69.48.201.136_0",
           "vless_172.67.132.41_0",
+          "vless_43.155.208.90_0",
           "vless_104.21.4.8_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
           "vless_104.21.12.150_0",
-          "vless_104.21.12.150_0",
-          "vless_support.zoom.us_0"
+          "vless_104.21.12.150_0"
         ],
         "strategy": {
           "type": "leastPing",

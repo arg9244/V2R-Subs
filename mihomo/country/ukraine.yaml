@@ -256,6 +256,21 @@ proxies:
       network: ws
       ws-opts:
         path: "/?ed=2560security=tls"
+-     name: vless_5.202.75.72_0
+      server: 5.202.75.72
+      port: 0
+      udp: true
+      type: vless
+      uuid: 916f343c-4953-4c0e-adb4-eaaedb294b66
+      tls: true
+      servername: www.nvidia.com.ua
+      client-fingerprint: chrome
+      reality-opts:
+        public-key: 3UdCNM-Cs0yalaH5RJsgAH4NZwHJ4jKQ1vILQwXHpHM
+        short-id: a44aa17cef0f56e3
+      network: grpc
+      grpc-opts:
+        grpc-service-name: aparat-stream
 -     name: vless_66.179.48.46_0
       server: 66.179.48.46
       port: 0
@@ -414,7 +429,7 @@ proxies:
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [trojan_104.21.30.167_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_172.67.173.64_0, trojan_104.21.23.162_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.208.155_0, trojan_172.67.212.82_0, vless_104.21.22.133_0, vless_104.21.79.79_0, vless_104.21.23.162_0, vless_104.21.71.205_0, vless_172.67.205.22_0, vless_172.67.212.59_0, vless_104.18.80.243_0, vless_104.18.83.92_0, vless_160.79.104.113_0, vless_162.159.153.42_0, vless_212.183.88.46_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_172.67.163.102_0, vless_172.67.172.91_0, vless_104.21.26.17_0, vless_141.101.120.102_0, vless_141.101.120.132_0, vless_141.101.120.15_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_172.67.149.248_0, vless_104.21.63.226_0]
+      proxies: [trojan_104.21.30.167_0, trojan_104.21.26.17_0, trojan_172.67.135.37_0, trojan_172.67.173.64_0, trojan_104.21.23.162_0, trojan_141.101.120.153_0, trojan_141.101.120.15_0, trojan_141.101.120.197_0, trojan_141.101.121.163_0, trojan_141.101.121.206_0, trojan_104.21.73.150_0, trojan_172.67.163.102_0, trojan_172.67.208.155_0, trojan_172.67.212.82_0, vless_104.21.22.133_0, vless_104.21.79.79_0, vless_104.21.23.162_0, vless_104.21.71.205_0, vless_172.67.205.22_0, vless_172.67.212.59_0, vless_104.18.80.243_0, vless_104.18.83.92_0, vless_160.79.104.113_0, vless_162.159.153.42_0, vless_212.183.88.46_0, vless_5.202.75.72_0, vless_66.179.48.46_0, vless_66.179.48.46_0, vless_172.67.163.102_0, vless_172.67.172.91_0, vless_104.21.26.17_0, vless_141.101.120.102_0, vless_141.101.120.132_0, vless_141.101.120.15_0, vless_141.101.120.198_0, vless_141.101.120.2_0, vless_141.101.121.225_0, vless_172.67.149.248_0, vless_104.21.63.226_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

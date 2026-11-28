@@ -89,10 +89,36 @@ proxies:
       reality-opts:
         public-key: tXT4qv4t7mKzWav_8e7eQdw9qhvoePARvGtvwDiiux4
         short-id: 99b8d353e73e0b27
+-     name: vless_212.87.220.63_0
+      server: 212.87.220.63
+      port: 0
+      udp: true
+      type: vless
+      uuid: a11213e8-a42f-4492-beaa-14084f6ae28a
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.youfone.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: PnSPGw6z-U5BBeCjrIGgeNCxrU-S7wFj4UYkknzPbyc
+        short-id: 8668e0654a4b6c93
+-     name: vless_37.16.74.36_0
+      server: 37.16.74.36
+      port: 0
+      udp: true
+      type: vless
+      uuid: b58564f3-bcc4-4af9-8a47-7ad8039cba93
+      flow: xtls-rprx-vision
+      tls: true
+      servername: www.funda.nl
+      client-fingerprint: firefox
+      reality-opts:
+        public-key: u8QY55NuwaED8-IEG2dw5G-VhmB6D5VSxfWhM38_XkA
+        short-id: 8807cf28
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [vless_107.161.175.107_0, vless_185.246.152.209_0, vless_89.125.114.9_0, vless_89.125.114.9_0, vless_172.66.47.67_0, vless_138.124.2.239_0]
+      proxies: [vless_107.161.175.107_0, vless_185.246.152.209_0, vless_89.125.114.9_0, vless_89.125.114.9_0, vless_172.66.47.67_0, vless_138.124.2.239_0, vless_212.87.220.63_0, vless_37.16.74.36_0]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

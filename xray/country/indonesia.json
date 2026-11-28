@@ -613,6 +613,27 @@
       }
     },
     {
+      "tag": "vless_104.17.3.81_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "104.17.3.81",
+        "port": 0,
+        "id": "fdd8f4d0-4500-11ef-8227-1577c1651679",
+        "tls": "none"
+      },
+      "streamSettings": {
+        "security": "none",
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -677,6 +698,7 @@
           "vless_104.18.13.51_0",
           "vless_172.67.221.199_0",
           "vless_104.18.32.47_0",
+          "vless_104.17.3.81_0",
           "vless_104.17.3.81_0"
         ],
         "strategy": {

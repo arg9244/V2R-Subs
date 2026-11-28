@@ -10,14 +10,19 @@ dns:
   nameserver-over-tls: ["https+1.1.1.1:853#Cloudflare"]
   rules: ["RULE-SET,cn,dnss", "FINAL,dns"]
 proxies:
--     name: socks5_103.124.172.134_1080
-      server: 103.124.172.134
-      port: 1080
+-     name: socks5_101.36.104.46_10808
+      server: 101.36.104.46
+      port: 10808
       udp: true
       type: socks5
 -     name: socks5_103.13.19.219_10808
       server: 103.13.19.219
       port: 10808
+      udp: true
+      type: socks5
+-     name: socks5_103.158.96.75_1080
+      server: 103.158.96.75
+      port: 1080
       udp: true
       type: socks5
 -     name: socks5_107.174.30.93_1080
@@ -30,14 +35,44 @@ proxies:
       port: 1080
       udp: true
       type: socks5
--     name: socks5_109.196.136.137_1080
-      server: 109.196.136.137
-      port: 1080
+-     name: socks5_111.119.162.248_10901
+      server: 111.119.162.248
+      port: 10901
       udp: true
       type: socks5
--     name: socks5_112.213.110.225_7777
-      server: 112.213.110.225
-      port: 7777
+-     name: socks5_111.119.162.248_10915
+      server: 111.119.162.248
+      port: 10915
+      udp: true
+      type: socks5
+-     name: socks5_111.119.162.248_10925
+      server: 111.119.162.248
+      port: 10925
+      udp: true
+      type: socks5
+-     name: socks5_111.119.162.248_10930
+      server: 111.119.162.248
+      port: 10930
+      udp: true
+      type: socks5
+-     name: socks5_111.119.162.248_10948
+      server: 111.119.162.248
+      port: 10948
+      udp: true
+      type: socks5
+-     name: socks5_111.119.162.248_10958
+      server: 111.119.162.248
+      port: 10958
+      udp: true
+      type: socks5
+-     name: socks5_111.119.162.248_10963
+      server: 111.119.162.248
+      port: 10963
+      udp: true
+      type: socks5
+-     name: socks5_121.169.46.116_1090
+      server: 121.169.46.116
+      port: 1090
       udp: true
       type: socks5
 -     name: socks5_123.58.219.171_10808
@@ -55,14 +90,14 @@ proxies:
       port: 1080
       udp: true
       type: socks5
+-     name: socks5_144.168.59.44_1080
+      server: 144.168.59.44
+      port: 1080
+      udp: true
+      type: socks5
 -     name: socks5_144.91.82.219_9050
       server: 144.91.82.219
       port: 9050
-      udp: true
-      type: socks5
--     name: socks5_157.90.113.23_9052
-      server: 157.90.113.23
-      port: 9052
       udp: true
       type: socks5
 -     name: socks5_157.90.113.23_9052
@@ -75,19 +110,19 @@ proxies:
       port: 1080
       udp: true
       type: socks5
+-     name: socks5_170.233.72.43_1080
+      server: 170.233.72.43
+      port: 1080
+      udp: true
+      type: socks5
 -     name: socks5_171.25.158.95_1080
       server: 171.25.158.95
       port: 1080
       udp: true
       type: socks5
--     name: socks5_176.115.192.185_1080
-      server: 176.115.192.185
-      port: 1080
-      udp: true
-      type: socks5
--     name: socks5_176.65.132.138_1080
-      server: 176.65.132.138
-      port: 1080
+-     name: socks5_171.253.90.204_1065
+      server: 171.253.90.204
+      port: 1065
       udp: true
       type: socks5
 -     name: socks5_176.9.107.170_1081
@@ -100,8 +135,13 @@ proxies:
       port: 1080
       udp: true
       type: socks5
--     name: socks5_185.100.85.64_1080
-      server: 185.100.85.64
+-     name: socks5_188.0.153.235_1080
+      server: 188.0.153.235
+      port: 1080
+      udp: true
+      type: socks5
+-     name: socks5_188.226.27.24_1080
+      server: 188.226.27.24
       port: 1080
       udp: true
       type: socks5
@@ -170,19 +210,9 @@ proxies:
       port: 4145
       udp: true
       type: socks5
--     name: socks5_199.247.19.82_1080
-      server: 199.247.19.82
-      port: 1080
-      udp: true
-      type: socks5
 -     name: socks5_199.58.185.9_4145
       server: 199.58.185.9
       port: 4145
-      udp: true
-      type: socks5
--     name: socks5_203.89.25.35_1080
-      server: 203.89.25.35
-      port: 1080
       udp: true
       type: socks5
 -     name: socks5_206.220.175.2_4145
@@ -198,11 +228,6 @@ proxies:
 -     name: socks5_217.171.94.166_1081
       server: 217.171.94.166
       port: 1081
-      udp: true
-      type: socks5
--     name: socks5_223.167.121.89_11080
-      server: 223.167.121.89
-      port: 11080
       udp: true
       type: socks5
 -     name: socks5_31.44.5.192_1081
@@ -225,74 +250,14 @@ proxies:
       port: 1080
       udp: true
       type: socks5
--     name: socks5_43.133.21.24_3001
-      server: 43.133.21.24
-      port: 3001
-      udp: true
-      type: socks5
--     name: socks5_43.134.39.221_10000
-      server: 43.134.39.221
-      port: 10000
-      udp: true
-      type: socks5
--     name: socks5_45.141.177.0_1080
-      server: 45.141.177.0
-      port: 1080
-      udp: true
-      type: socks5
 -     name: socks5_45.194.33.12_30001
       server: 45.194.33.12
       port: 30001
       udp: true
       type: socks5
--     name: socks5_45.74.31.41_20882
+-     name: socks5_45.74.31.41_4139
       server: 45.74.31.41
-      port: 20882
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.42_25198
-      server: 45.74.31.42
-      port: 25198
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.42_4005
-      server: 45.74.31.42
-      port: 4005
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.42_4532
-      server: 45.74.31.42
-      port: 4532
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.42_46981
-      server: 45.74.31.42
-      port: 46981
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.46_4015
-      server: 45.74.31.46
-      port: 4015
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.46_4046
-      server: 45.74.31.46
-      port: 4046
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.46_4165
-      server: 45.74.31.46
-      port: 4165
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.47_4205
-      server: 45.74.31.47
-      port: 4205
-      udp: true
-      type: socks5
--     name: socks5_45.74.31.47_4206
-      server: 45.74.31.47
-      port: 4206
+      port: 4139
       udp: true
       type: socks5
 -     name: socks5_47.103.30.64_1080
@@ -300,19 +265,19 @@ proxies:
       port: 1080
       udp: true
       type: socks5
--     name: socks5_47.107.48.145_8020
-      server: 47.107.48.145
-      port: 8020
-      udp: true
-      type: socks5
--     name: socks5_47.251.166.203_1080
-      server: 47.251.166.203
+-     name: socks5_5.255.103.55_1080
+      server: 5.255.103.55
       port: 1080
       udp: true
       type: socks5
--     name: socks5_5.75.133.113_10806
-      server: 5.75.133.113
-      port: 10806
+-     name: socks5_5.255.113.177_1080
+      server: 5.255.113.177
+      port: 1080
+      udp: true
+      type: socks5
+-     name: socks5_5.255.99.75_1080
+      server: 5.255.99.75
+      port: 1080
       udp: true
       type: socks5
 -     name: socks5_5.78.181.0_9052
@@ -327,6 +292,11 @@ proxies:
       type: socks5
 -     name: socks5_59.11.209.162_1080
       server: 59.11.209.162
+      port: 1080
+      udp: true
+      type: socks5
+-     name: socks5_64.62.182.172_1080
+      server: 64.62.182.172
       port: 1080
       udp: true
       type: socks5
@@ -345,9 +315,9 @@ proxies:
       port: 8443
       udp: true
       type: socks5
--     name: socks5_8.217.103.13_8443
-      server: 8.217.103.13
-      port: 8443
+-     name: socks5_78.142.217.197_1080
+      server: 78.142.217.197
+      port: 1080
       udp: true
       type: socks5
 -     name: socks5_8.219.122.8_9999
@@ -355,54 +325,24 @@ proxies:
       port: 9999
       udp: true
       type: socks5
--     name: socks5_80.211.131.230_9050
-      server: 80.211.131.230
-      port: 9050
-      udp: true
-      type: socks5
--     name: socks5_80.65.211.149_8888
-      server: 80.65.211.149
-      port: 8888
-      udp: true
-      type: socks5
--     name: socks5_81.168.83.208_1080
-      server: 81.168.83.208
-      port: 1080
-      udp: true
-      type: socks5
 -     name: socks5_82.180.146.251_10800
       server: 82.180.146.251
       port: 10800
       udp: true
       type: socks5
--     name: socks5_83.219.248.46_20420
-      server: 83.219.248.46
-      port: 20420
-      udp: true
-      type: socks5
--     name: socks5_89.106.84.72_1080
-      server: 89.106.84.72
+-     name: socks5_83.221.220.162_1080
+      server: 83.221.220.162
       port: 1080
       udp: true
       type: socks5
--     name: socks5_91.107.186.23_1080
-      server: 91.107.186.23
+-     name: socks5_88.198.69.51_1111
+      server: 88.198.69.51
+      port: 1111
+      udp: true
+      type: socks5
+-     name: socks5_91.92.155.207_1080
+      server: 91.92.155.207
       port: 1080
-      udp: true
-      type: socks5
--     name: socks5_91.208.42.2_7890
-      server: 91.208.42.2
-      port: 7890
-      udp: true
-      type: socks5
--     name: socks5_91.212.174.37_10808
-      server: 91.212.174.37
-      port: 10808
-      udp: true
-      type: socks5
--     name: socks5_95.217.167.252_11119
-      server: 95.217.167.252
-      port: 11119
       udp: true
       type: socks5
 -     name: socks5_95.31.115.101_9150
@@ -410,10 +350,15 @@ proxies:
       port: 9150
       udp: true
       type: socks5
+-     name: socks5_95.81.120.27_1080
+      server: 95.81.120.27
+      port: 1080
+      udp: true
+      type: socks5
 proxy-groups:
 -     name: url-test
       type: url-test
-      proxies: [socks5_103.124.172.134_1080, socks5_103.13.19.219_10808, socks5_107.174.30.93_1080, socks5_107.174.30.94_1080, socks5_109.196.136.137_1080, socks5_112.213.110.225_7777, socks5_123.58.219.171_10808, socks5_139.162.78.109_1080, socks5_139.59.1.14_1080, socks5_144.91.82.219_9050, socks5_157.90.113.23_9052, socks5_157.90.113.23_9052, socks5_159.203.61.169_1080, socks5_171.25.158.95_1080, socks5_176.115.192.185_1080, socks5_176.65.132.138_1080, socks5_176.9.107.170_1081, socks5_177.202.78.167_1080, socks5_185.100.85.64_1080, socks5_192.111.129.150_4145, socks5_192.111.130.2_4145, socks5_192.111.137.35_4145, socks5_192.252.209.155_14455, socks5_192.252.210.233_4145, socks5_192.252.211.193_4145, socks5_192.252.214.20_15864, socks5_192.252.220.89_4145, socks5_193.218.118.128_1080, socks5_194.87.103.161_1080, socks5_198.8.84.3_4145, socks5_198.8.94.170_4145, socks5_199.116.112.6_4145, socks5_199.247.19.82_1080, socks5_199.58.185.9_4145, socks5_203.89.25.35_1080, socks5_206.220.175.2_4145, socks5_209.97.150.167_1080, socks5_217.171.94.166_1081, socks5_223.167.121.89_11080, socks5_31.44.5.192_1081, socks5_37.221.248.119_10002, socks5_39.106.165.196_1080, socks5_39.106.170.168_1080, socks5_43.133.21.24_3001, socks5_43.134.39.221_10000, socks5_45.141.177.0_1080, socks5_45.194.33.12_30001, socks5_45.74.31.41_20882, socks5_45.74.31.42_25198, socks5_45.74.31.42_4005, socks5_45.74.31.42_4532, socks5_45.74.31.42_46981, socks5_45.74.31.46_4015, socks5_45.74.31.46_4046, socks5_45.74.31.46_4165, socks5_45.74.31.47_4205, socks5_45.74.31.47_4206, socks5_47.103.30.64_1080, socks5_47.107.48.145_8020, socks5_47.251.166.203_1080, socks5_5.75.133.113_10806, socks5_5.78.181.0_9052, socks5_57.128.249.250_9052, socks5_59.11.209.162_1080, socks5_67.201.59.70_4145, socks5_69.55.49.177_38182, socks5_77.239.233.122_8443, socks5_8.217.103.13_8443, socks5_8.219.122.8_9999, socks5_80.211.131.230_9050, socks5_80.65.211.149_8888, socks5_81.168.83.208_1080, socks5_82.180.146.251_10800, socks5_83.219.248.46_20420, socks5_89.106.84.72_1080, socks5_91.107.186.23_1080, socks5_91.208.42.2_7890, socks5_91.212.174.37_10808, socks5_95.217.167.252_11119, socks5_95.31.115.101_9150]
+      proxies: [socks5_101.36.104.46_10808, socks5_103.13.19.219_10808, socks5_103.158.96.75_1080, socks5_107.174.30.93_1080, socks5_107.174.30.94_1080, socks5_111.119.162.248_10901, socks5_111.119.162.248_10915, socks5_111.119.162.248_10925, socks5_111.119.162.248_10930, socks5_111.119.162.248_10948, socks5_111.119.162.248_10958, socks5_111.119.162.248_10963, socks5_121.169.46.116_1090, socks5_123.58.219.171_10808, socks5_139.162.78.109_1080, socks5_139.59.1.14_1080, socks5_144.168.59.44_1080, socks5_144.91.82.219_9050, socks5_157.90.113.23_9052, socks5_159.203.61.169_1080, socks5_170.233.72.43_1080, socks5_171.25.158.95_1080, socks5_171.253.90.204_1065, socks5_176.9.107.170_1081, socks5_177.202.78.167_1080, socks5_188.0.153.235_1080, socks5_188.226.27.24_1080, socks5_192.111.129.150_4145, socks5_192.111.130.2_4145, socks5_192.111.137.35_4145, socks5_192.252.209.155_14455, socks5_192.252.210.233_4145, socks5_192.252.211.193_4145, socks5_192.252.214.20_15864, socks5_192.252.220.89_4145, socks5_193.218.118.128_1080, socks5_194.87.103.161_1080, socks5_198.8.84.3_4145, socks5_198.8.94.170_4145, socks5_199.116.112.6_4145, socks5_199.58.185.9_4145, socks5_206.220.175.2_4145, socks5_209.97.150.167_1080, socks5_217.171.94.166_1081, socks5_31.44.5.192_1081, socks5_37.221.248.119_10002, socks5_39.106.165.196_1080, socks5_39.106.170.168_1080, socks5_45.194.33.12_30001, socks5_45.74.31.41_4139, socks5_47.103.30.64_1080, socks5_5.255.103.55_1080, socks5_5.255.113.177_1080, socks5_5.255.99.75_1080, socks5_5.78.181.0_9052, socks5_57.128.249.250_9052, socks5_59.11.209.162_1080, socks5_64.62.182.172_1080, socks5_67.201.59.70_4145, socks5_69.55.49.177_38182, socks5_77.239.233.122_8443, socks5_78.142.217.197_1080, socks5_8.219.122.8_9999, socks5_82.180.146.251_10800, socks5_83.221.220.162_1080, socks5_88.198.69.51_1111, socks5_91.92.155.207_1080, socks5_95.31.115.101_9150, socks5_95.81.120.27_1080]
       url: "https://www.gstatic.com/generate_204"
       interval: 300
       tolerance: 50

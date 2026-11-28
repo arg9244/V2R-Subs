@@ -663,6 +663,36 @@
       }
     },
     {
+      "tag": "vless_5.202.75.72_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "5.202.75.72",
+        "port": 0,
+        "id": "916f343c-4953-4c0e-adb4-eaaedb294b66",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.nvidia.com.ua",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "3UdCNM-Cs0yalaH5RJsgAH4NZwHJ4jKQ1vILQwXHpHM",
+            "shortId": "a44aa17cef0f56e3"
+          }
+        },
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "aparat-stream"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_66.179.48.46_0",
       "protocol": "vless",
       "settings": {
@@ -1077,6 +1107,7 @@
           "vless_160.79.104.113_0",
           "vless_162.159.153.42_0",
           "vless_212.183.88.46_0",
+          "vless_5.202.75.72_0",
           "vless_66.179.48.46_0",
           "vless_66.179.48.46_0",
           "vless_172.67.163.102_0",

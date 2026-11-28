@@ -126,6 +126,32 @@
       }
     },
     {
+      "tag": "vless_afrcloud22.mmv.kr_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "afrcloud22.mmv.kr",
+        "port": 0,
+        "id": "61066a16-78fc-4446-8013-6646bc3f27ba",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "afrcloud22.mmv.kr",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "vless_104.26.14.21_0",
       "protocol": "vless",
       "settings": {
@@ -592,32 +618,6 @@
         "network": "ws",
         "wsSettings": {
           "path": "/188.240.213.98:8443"
-        }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "vless_nodejs.org_0",
-      "protocol": "vless",
-      "settings": {
-        "address": "nodejs.org",
-        "port": 0,
-        "id": "aaaaaabb-4ddd-4eee-9fff-ffffffffffff",
-        "tls": "tls",
-        "encryption": "none"
-      },
-      "streamSettings": {
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "afrcloud22.mmv.kr",
-          "allowInsecure": false
-        },
-        "network": "ws",
-        "wsSettings": {
-          "path": "/5.34.176.119=81"
         }
       },
       "mux": {
@@ -1250,6 +1250,32 @@
       }
     },
     {
+      "tag": "vless_afrcloud22.mmv.kr_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "afrcloud22.mmv.kr",
+        "port": 0,
+        "id": "fa335d1c-e6d1-48bb-99a3-f06710a29043",
+        "tls": "tls",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "afrcloud22.mmv.kr",
+          "allowInsecure": false
+        },
+        "network": "ws",
+        "wsSettings": {
+          "path": "/130.185.164.213=8443"
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -1294,6 +1320,7 @@
           "trojan_216.24.57.250_0",
           "vless_172.67.73.14_0",
           "vless_172.67.194.187_0",
+          "vless_afrcloud22.mmv.kr_0",
           "vless_104.26.14.21_0",
           "vless_172.67.73.14_0",
           "vless_172.67.73.14_0",
@@ -1312,7 +1339,6 @@
           "vless_170.114.45.1_0",
           "vless_172.67.210.52_0",
           "vless_63.141.128.45_0",
-          "vless_nodejs.org_0",
           "vless_104.19.140.106_0",
           "vless_104.19.140.106_0",
           "vless_104.19.140.106_0",
@@ -1336,7 +1362,8 @@
           "vless_104.19.141.129_0",
           "vless_104.19.141.129_0",
           "vless_104.19.141.3_0",
-          "vless_104.19.141.3_0"
+          "vless_104.19.141.3_0",
+          "vless_afrcloud22.mmv.kr_0"
         ],
         "strategy": {
           "type": "leastPing",

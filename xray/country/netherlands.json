@@ -223,6 +223,62 @@
       }
     },
     {
+      "tag": "vless_212.87.220.63_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "212.87.220.63",
+        "port": 0,
+        "id": "a11213e8-a42f-4492-beaa-14084f6ae28a",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.youfone.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "PnSPGw6z-U5BBeCjrIGgeNCxrU-S7wFj4UYkknzPbyc",
+            "shortId": "8668e0654a4b6c93"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "vless_37.16.74.36_0",
+      "protocol": "vless",
+      "settings": {
+        "address": "37.16.74.36",
+        "port": 0,
+        "id": "b58564f3-bcc4-4af9-8a47-7ad8039cba93",
+        "tls": "tls",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "security": "reality",
+        "tlsSettings": {
+          "serverName": "www.funda.nl",
+          "allowInsecure": false,
+          "reality": {
+            "publicKey": "u8QY55NuwaED8-IEG2dw5G-VhmB6D5VSxfWhM38_XkA",
+            "shortId": "8807cf28"
+          }
+        },
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": -1
+      }
+    },
+    {
       "protocol": "freedom",
       "name": "direct",
       "tag": "direct",
@@ -269,7 +325,9 @@
           "vless_89.125.114.9_0",
           "vless_89.125.114.9_0",
           "vless_172.66.47.67_0",
-          "vless_138.124.2.239_0"
+          "vless_138.124.2.239_0",
+          "vless_212.87.220.63_0",
+          "vless_37.16.74.36_0"
         ],
         "strategy": {
           "type": "leastPing",
